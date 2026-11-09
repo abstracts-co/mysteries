@@ -1,0 +1,233 @@
+{
+  "id": "egyptair990",
+  "events": [
+    {
+      "i": 0,
+      "c": "The crew reported ready for takeoff, waiting before the runway."
+    },
+    {
+      "i": 1,
+      "c": "The tower cleared the aircraft to take off from runway 22R."
+    },
+    {
+      "i": 2,
+      "c": "The aircraft’s ground sensor switched to airborne, marking takeoff."
+    },
+    {
+      "i": 3,
+      "c": "Controllers cleared the aircraft to climb and handed it over to New York Center."
+    },
+    {
+      "i": 4,
+      "c": "Controllers cleared the aircraft toward the DOVEY navigation point and allowed a further climb."
+    },
+    {
+      "i": 5,
+      "c": "The relief first officer took the right seat. The exact time isn’t known."
+    },
+    {
+      "i": 6,
+      "c": "The controller cleared an Atlantic crossing route, and the crew repeated the instructions back."
+    },
+    {
+      "i": 7,
+      "c": "The aircraft leveled off at its assigned cruise level."
+    },
+    {
+      "i": 8,
+      "c": "The captain checked in on a new radio frequency. This was the aircraft’s last received transmission."
+    },
+    {
+      "i": 9,
+      "c": "The captain announced a brief bathroom visit. Seat and door sounds followed."
+    },
+    {
+      "i": 10,
+      "c": "A sound resembling the cockpit door operating was recorded."
+    },
+    {
+      "i": 11,
+      "c": "A brief comment was recorded, but its words and language remain unknown."
+    },
+    {
+      "i": 12,
+      "c": "The relief first officer spoke quietly. No aircraft problem had been identified before this statement."
+    },
+    {
+      "i": 13,
+      "c": "A sound resembling an electric seat motor was recorded. Its purpose is unknown."
+    },
+    {
+      "i": 14,
+      "c": "The autopilot disengaged. No disconnect warning tone was heard."
+    },
+    {
+      "i": 15,
+      "c": "The relief first officer repeated a quiet phrase. The words alone do not establish a motive or emergency."
+    },
+    {
+      "i": 16,
+      "c": "The engine power levers moved to idle."
+    },
+    {
+      "i": 17,
+      "c": "Both tail controls moved downward, and the aircraft began lowering its nose."
+    },
+    {
+      "i": 18,
+      "c": "Four caution tones sounded. Their specific cause is unknown."
+    },
+    {
+      "i": 19,
+      "c": "Both tail controls moved farther downward at about this time."
+    },
+    {
+      "i": 20,
+      "c": "The captain’s voice was recorded as he returned to the cockpit."
+    },
+    {
+      "i": 21,
+      "c": "A warning began as the aircraft exceeded its speed limit. It continued until the recording ended."
+    },
+    {
+      "i": 22,
+      "c": "The aircraft’s nose pointed about 40 degrees below level, its lowest recorded angle."
+    },
+    {
+      "i": 23,
+      "c": "Both tail controls began moving to raise the nose. The descent then slowed."
+    },
+    {
+      "i": 24,
+      "c": "The aircraft’s fastest descent was estimated at about 39,000 feet per minute."
+    },
+    {
+      "i": 25,
+      "c": "The right engine’s fuel lever moved to cutoff. Who moved it is unknown."
+    },
+    {
+      "i": 26,
+      "c": "At about this time, the left tail control raised the nose while the right pushed it down."
+    },
+    {
+      "i": 27,
+      "c": "The left engine’s fuel lever moved to cutoff. Both engines slowed, later cutting electrical power to the recorders."
+    },
+    {
+      "i": 28,
+      "c": "The aircraft’s peak speed was estimated at nearly the speed of sound."
+    },
+    {
+      "i": 29,
+      "c": "The engine power levers moved forward, but the separate fuel controls remained shut off."
+    },
+    {
+      "i": 30,
+      "c": "The captain asked whether the engines had been shut down."
+    },
+    {
+      "i": 31,
+      "c": "The handle for the wing’s braking panels reached nearly full deployment. The panels’ actual positions are unknown."
+    },
+    {
+      "i": 32,
+      "c": "The left tail control pointed upward while the right pointed downward. Pilot control movements were not recorded."
+    },
+    {
+      "i": 33,
+      "c": "The captain repeatedly asked the other pilot to help pull back on the controls."
+    },
+    {
+      "i": 34,
+      "c": "Nantucket received the aircraft’s last radar signal sent by its onboard transmitter."
+    },
+    {
+      "i": 35,
+      "c": "The flight recorder stopped recording flight data."
+    },
+    {
+      "i": 36,
+      "c": "The first dive ended near an estimated 16,000 feet, followed by a climb."
+    },
+    {
+      "i": 37,
+      "c": "The cockpit voice recording ended before the aircraft struck the ocean."
+    },
+    {
+      "i": 38,
+      "c": "The aircraft climbed to about 25,000 feet and turned before descending again."
+    },
+    {
+      "i": 39,
+      "c": "New York Center received its last radar echo. Earlier target markers remained on the display."
+    },
+    {
+      "i": 40,
+      "c": "The aircraft struck the ocean at about this time. The exact impact time is unknown."
+    },
+    {
+      "i": 41,
+      "c": "The controller reported lost radar contact and requested a reset of the aircraft’s radar transmitter. No response came."
+    },
+    {
+      "i": 42,
+      "c": "The area manager notified Air Force and Coast Guard rescue authorities."
+    },
+    {
+      "i": 43,
+      "c": "The Navy recovered the flight recorder on November 9, 1999, and sent it to investigators."
+    },
+    {
+      "i": 44,
+      "c": "Egyptian investigators left the cause unresolved, considered a tail control defect likely, and rejected an intentional crash."
+    },
+    {
+      "i": 45,
+      "c": "U.S. investigators attributed the crash to the relief first officer’s control movements. His reason remains unknown."
+    }
+  ],
+  "numbers": [
+    {
+      "i": 0,
+      "label": "People who died",
+      "value": "217"
+    },
+    {
+      "i": 1,
+      "label": "Steepest recorded nose angle",
+      "value": "40.25 degrees below level"
+    },
+    {
+      "i": 2,
+      "label": "Estimated fastest descent",
+      "value": "About 39,000 feet per minute"
+    },
+    {
+      "i": 3,
+      "label": "Estimated peak speed",
+      "value": "About 99% of sound speed"
+    },
+    {
+      "i": 4,
+      "label": "Tail control positions",
+      "value": "Left up 3.87°, right down 2.29°"
+    },
+    {
+      "i": 5,
+      "label": "Seabed debris field separation",
+      "value": "About 366 meters"
+    },
+    {
+      "i": 6,
+      "label": "Tail control surface recovered",
+      "value": "About 37%"
+    },
+    {
+      "i": 7,
+      "label": "Flight and cockpit voice recorders",
+      "value": "Both stopped before ocean impact"
+    }
+  ],
+  "one_line": "A Boeing 767 dived, briefly climbed, then struck the Atlantic, killing all 217 aboard.",
+  "status_why": "U.S. investigators blamed the relief first officer’s control movements; Egyptian investigators disputed that conclusion and sought further mechanical investigation."
+}

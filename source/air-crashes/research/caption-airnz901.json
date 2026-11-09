@@ -1,0 +1,243 @@
+{
+  "id": "airnz901",
+  "events": [
+    {
+      "i": 0,
+      "c": "The captain and first officer received a briefing using an earlier flight plan. The exact time is unknown."
+    },
+    {
+      "i": 1,
+      "c": "The destination route point moved east before departure. The crew were not told."
+    },
+    {
+      "i": 2,
+      "c": "The aircraft left Auckland for Antarctic sightseeing, with its first return landing planned at Christchurch."
+    },
+    {
+      "i": 3,
+      "c": "The crew received a forecast of cloud and occasional light snow that could reduce visibility near McMurdo."
+    },
+    {
+      "i": 4,
+      "c": "The captain proposed an early descent while about 144 miles north of McMurdo."
+    },
+    {
+      "i": 5,
+      "c": "A forecaster reported low cloud around 2,000 feet near McMurdo. Clearer areas were far to the northwest."
+    },
+    {
+      "i": 6,
+      "c": "The first officer requested a lower altitude. Air traffic control cleared descent to a higher level than requested."
+    },
+    {
+      "i": 7,
+      "c": "The aircraft began descending. Its altitude and speed guidance worked normally."
+    },
+    {
+      "i": 8,
+      "c": "Air traffic control offered radar guidance down to 1,500 feet, but radar never identified the aircraft."
+    },
+    {
+      "i": 9,
+      "c": "The crew accepted radar guidance for descent. Radio contact and navigation distance readings later remained unreliable."
+    },
+    {
+      "i": 10,
+      "c": "The aircraft automatically leveled off at its selected pressure altitude. This did not measure height above terrain."
+    },
+    {
+      "i": 11,
+      "c": "The captain spotted a break in the cloud and proposed circling to descend."
+    },
+    {
+      "i": 12,
+      "c": "The crew switched from following the programmed route to selecting headings. The autopilot began a descending right turn."
+    },
+    {
+      "i": 13,
+      "c": "Air traffic control approved descent by sight and required altitude reports. Radar provided no terrain clearance."
+    },
+    {
+      "i": 14,
+      "c": "A ground controller requested restarting the aircraft's radar identification transmitter and setting its identification code."
+    },
+    {
+      "i": 15,
+      "c": "The first officer reported continued descent and confirmed the request for radar guidance. Radar never located the aircraft."
+    },
+    {
+      "i": 16,
+      "c": "The first officer reported 10,000 feet, but the aircraft was about 9,400 feet high because of incorrect settings."
+    },
+    {
+      "i": 17,
+      "c": "The captain proposed another circle to keep flying by sight. The aircraft turned left."
+    },
+    {
+      "i": 18,
+      "c": "The first officer requested descent away from Ross Island, then an approach by sight. It later turned back."
+    },
+    {
+      "i": 19,
+      "c": "Air traffic control required sufficient visibility to fly by sight and continued altitude reports."
+    },
+    {
+      "i": 20,
+      "c": "The crew selected automatic airspeed control while descending through the second left turn."
+    },
+    {
+      "i": 21,
+      "c": "The captain prepared the navigation guidance to resume following the programmed route."
+    },
+    {
+      "i": 22,
+      "c": "The autopilot resumed following the programmed route, which now led toward Mount Erebus's northern slopes."
+    },
+    {
+      "i": 23,
+      "c": "The first officer reported descending from 6,000 toward 2,000 feet. The aircraft was actually at 5,400 feet."
+    },
+    {
+      "i": 24,
+      "c": "Air traffic control acknowledged the altitude report. Later radio calls received no successful reply."
+    },
+    {
+      "i": 25,
+      "c": "The captain read the local pressure setting. The altitude instruments were corrected before the final low approach."
+    },
+    {
+      "i": 26,
+      "c": "The captain selected 260 knots. Engine power stayed low until the aircraft slowed to that speed."
+    },
+    {
+      "i": 27,
+      "c": "After briefly leveling near 2,000 feet, the captain requested descent to 1,500 feet without informing air traffic control."
+    },
+    {
+      "i": 28,
+      "c": "The aircraft began holding altitude at 1,515 feet, with small changes in height afterward."
+    },
+    {
+      "i": 29,
+      "c": "The captain announced plans to climb away while the crew discussed turn direction. A climb remained unconfirmed."
+    },
+    {
+      "i": 30,
+      "c": "About 11 seconds before impact, the aircraft crossed a coastal ice cliff. Rising terrain sharply reduced ground clearance."
+    },
+    {
+      "i": 31,
+      "c": "About eight seconds before impact, selected heading guidance replaced route following. The aircraft began banking right."
+    },
+    {
+      "i": 32,
+      "c": "The terrain warning sounded about six and a half seconds before impact. The system worked as designed."
+    },
+    {
+      "i": 33,
+      "c": "About four seconds before impact, a sharp nose-up control movement apparently disconnected the autopilot."
+    },
+    {
+      "i": 34,
+      "c": "About three and a half seconds before impact, the right bank peaked, then reversed. Left rudder was applied."
+    },
+    {
+      "i": 35,
+      "c": "The flight engineer called decreasing height above terrain. The captain requested engine power to escape."
+    },
+    {
+      "i": 36,
+      "c": "The aircraft struck the ice slope before achieving a significant climb. All 257 aboard died."
+    },
+    {
+      "i": 37,
+      "c": "Search aircraft found the wreckage about 11 hours after impact."
+    },
+    {
+      "i": 38,
+      "c": "The first investigation attributed the crash to continuing at low altitude and failing to detect rising terrain."
+    },
+    {
+      "i": 39,
+      "c": "The Royal Commission blamed the unannounced route change and defective airline procedures, clearing the crew of contributing error."
+    },
+    {
+      "i": 40,
+      "c": "The appeal failed. Findings about the crash went unchallenged, while the legal costs order remained overturned for unfairness."
+    },
+    {
+      "i": 41,
+      "c": "The government accepted the Royal Commission's findings. Government and airline apologies addressed their failures and treatment of families."
+    },
+    {
+      "i": 42,
+      "c": "Services in Christchurch, Auckland and at Scott Base marked the crash's 45th anniversary."
+    },
+    {
+      "i": 43,
+      "c": "Cracroft Reserve in Christchurch was chosen for the memorial after a search for an Auckland site."
+    },
+    {
+      "i": 44,
+      "c": "A memorial concept design adapted for Cracroft Reserve was released."
+    },
+    {
+      "i": 45,
+      "c": "Construction followed a site blessing and groundbreaking in June 2026. The memorial's unveiling was still pending."
+    }
+  ],
+  "numbers": [
+    {
+      "i": 0,
+      "label": "People aboard, all died",
+      "value": "257"
+    },
+    {
+      "i": 1,
+      "label": "Terrain warning before impact",
+      "value": "6.5 seconds"
+    },
+    {
+      "i": 2,
+      "label": "Final indicated airspeed",
+      "value": "260 knots"
+    },
+    {
+      "i": 3,
+      "label": "Destination route point moved east",
+      "value": "About 27 nautical miles"
+    },
+    {
+      "i": 4,
+      "label": "Altitude range after leveling",
+      "value": "1,443 to 1,540 feet"
+    },
+    {
+      "i": 5,
+      "label": "Ground clearance lost at cliff",
+      "value": "270 feet in 1.5 seconds"
+    },
+    {
+      "i": 6,
+      "label": "Maximum nose-up angle",
+      "value": "10.9 degrees"
+    },
+    {
+      "i": 7,
+      "label": "Navigation position error",
+      "value": "3.1 nautical miles southwest"
+    },
+    {
+      "i": 8,
+      "label": "Cockpit voice recording available",
+      "value": "32 minutes 50 seconds"
+    },
+    {
+      "i": 9,
+      "label": "Wreckage area dimensions",
+      "value": "About 570 by 120 meters"
+    }
+  ],
+  "one_line": "A sightseeing aircraft struck Mount Erebus after an unannounced route change and loss of terrain contrast.",
+  "status_why": "The collision sequence is established, but two official inquiries differed over the roles of crew decisions and airline failures."
+}

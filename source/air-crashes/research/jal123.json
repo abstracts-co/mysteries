@@ -1,0 +1,3578 @@
+{
+  "id": "jal123",
+  "title": "Japan Air Lines Flight 123",
+  "date_utc": "1985-08-12",
+  "one_line": "A repaired pressure bulkhead failed, damaging the tail and hydraulic controls; the aircraft crashed in mountains.",
+  "status": "explained",
+  "status_why": "The official structural-failure finding is strongly supported by wreckage and recorder evidence; rescue decisions and repair-work background remain disputed as of 7 November 2026.",
+  "aircraft": {
+    "type": "Boeing 747SR-46 (747SR-100 series)",
+    "registration": "JA8119",
+    "operator": "Japan Air Lines Co., Ltd.",
+    "length_m": 70.51,
+    "wingspan_m": 59.64,
+    "height_m": 19.33,
+    "fuselage_diameter_m": 6.5,
+    "engines": 4,
+    "engine_type": "Pratt & Whitney JT9D-7A turbofan",
+    "engine_mount": "wing",
+    "wing": "low",
+    "wing_sweep_deg": 37.5,
+    "tail": "conventional",
+    "gear": "retractable",
+    "livery_notes": "The 1984 photograph in s13 shows a white upper fuselage and fin, silver-grey lower fuselage, red and dark window stripes, dark JAPAN AIR LINES titles, and a red crane/JAL tail emblem. Exact accident-day decals and paint condition were not verified.",
+    "sources": [
+      "s1",
+      "s13"
+    ]
+  },
+  "people": {
+    "aboard": 524,
+    "crew": 15,
+    "passengers": 509,
+    "died": 520,
+    "survived": 4,
+    "sources": [
+      "s1",
+      "s15"
+    ]
+  },
+  "route": {
+    "from": {
+      "name": "Tokyo International Airport (Haneda)",
+      "code": "HND/RJTT",
+      "lat": 35.549678,
+      "lon": 139.786958,
+      "elev_ft": null
+    },
+    "to": {
+      "name": "Osaka International Airport (Itami)",
+      "code": "ITM/RJOO",
+      "lat": 34.780853,
+      "lon": 135.440829,
+      "elev_ft": null
+    },
+    "planned_waypoints": [
+      {
+        "name": "Mihara Sagara",
+        "lat": null,
+        "lon": null
+      },
+      {
+        "name": "Seaperch",
+        "lat": null,
+        "lon": null
+      },
+      {
+        "name": "Kushimoto VORTAC",
+        "lat": null,
+        "lon": null
+      },
+      {
+        "name": "Shinoda VOR/DME",
+        "lat": null,
+        "lon": null
+      },
+      {
+        "name": "Osaka NDB",
+        "lat": null,
+        "lon": null
+      }
+    ],
+    "sources": [
+      "s1",
+      "s7"
+    ]
+  },
+  "site": {
+    "lat": 36.0015,
+    "lon": 138.6938,
+    "elev_ft": null,
+    "depth_m": null,
+    "precision": "approximate",
+    "surface": "mountain",
+    "description": "Osutaka-no-one, the crash ridge northwest of Mount Mikuni in the Mount Takamagahara area, Ueno, Gunma; not the summit of Mount Osutaka. Section 2.1 gives 35°59′54″N 138°41′49″E. The decimal location here assumes Tokyo Datum and applies the approximate conversion described in s8. The report gives conflicting main-site elevations, 1,585 m in section 2.1 and 1,565 m in section 2.3, so a single elevation is withheld. Earlier contacts were at the single-larch ridge and the U-shaped ditch.",
+    "sources": [
+      "s1",
+      "s8"
+    ]
+  },
+  "terrain_box": {
+    "west": 138.45,
+    "south": 35.75,
+    "east": 139.1,
+    "north": 36.15,
+    "why": "Display choice, not an evidential boundary: about 59 km east-west by 44 km north-south around the final mountain path, Mount Mikuni, the impact ridges and the rescue approaches."
+  },
+  "environment": [
+    {
+      "t_utc": "1985-08-12T08:00:00Z",
+      "lat": null,
+      "lon": null,
+      "place": "Western Saitama thunderclouds",
+      "wind_dir_deg": null,
+      "wind_kt": null,
+      "temp_c": null,
+      "visibility_km": null,
+      "precip": "Heavy rain in the Chichibu area",
+      "turbulence": null,
+      "lightning": null,
+      "sea_state": null,
+      "wave_height_m": null,
+      "cloud_layers": [
+        {
+          "type": "Cb",
+          "base_ft": null,
+          "top_ft": 42651,
+          "coverage": null
+        }
+      ],
+      "light": "day",
+      "moon_note": null,
+      "notes": "Section 2.8.1: cloud tops reached a maximum of about 13,000 m near this time, converted below. Chichibu received 58 mm rain during 17:00–18:00 JST. This is regional weather, not an aircraft encounter.",
+      "quality": "derived",
+      "sources": [
+        "s1",
+        "s6"
+      ]
+    },
+    {
+      "t_utc": "1985-08-12T09:00:00Z",
+      "lat": 35.549678,
+      "lon": 139.786958,
+      "place": "Haneda observation",
+      "wind_dir_deg": 220,
+      "wind_kt": 17,
+      "temp_c": 29,
+      "visibility_km": 40,
+      "precip": null,
+      "turbulence": null,
+      "lightning": null,
+      "sea_state": null,
+      "wave_height_m": null,
+      "cloud_layers": [
+        {
+          "type": "Cu",
+          "base_ft": 3000,
+          "top_ft": null,
+          "coverage": "1/8"
+        },
+        {
+          "type": "Ac",
+          "base_ft": 9000,
+          "top_ft": null,
+          "coverage": "3/8"
+        },
+        {
+          "type": "Ci",
+          "base_ft": null,
+          "top_ft": null,
+          "coverage": "7/8"
+        }
+      ],
+      "light": "day",
+      "moon_note": null,
+      "notes": "Section 2.8.2, printed p.19. Cloud heights are the airport table values; the table does not specify MSL versus height above station. QNH 29.93 inHg. No present-weather entry. Airport coordinates are current reference coordinates.",
+      "quality": "recorded",
+      "sources": [
+        "s1",
+        "s6",
+        "s7"
+      ]
+    },
+    {
+      "t_utc": "1985-08-12T09:00:00Z",
+      "lat": 35.748501,
+      "lon": 139.348007,
+      "place": "Yokota observation",
+      "wind_dir_deg": null,
+      "wind_kt": 0,
+      "temp_c": 28,
+      "visibility_km": 50,
+      "precip": "Showers",
+      "turbulence": null,
+      "lightning": null,
+      "sea_state": null,
+      "wave_height_m": null,
+      "cloud_layers": [
+        {
+          "type": "Cb",
+          "base_ft": 3500,
+          "top_ft": null,
+          "coverage": "2/8"
+        },
+        {
+          "type": "Cu",
+          "base_ft": 3500,
+          "top_ft": null,
+          "coverage": "2/8"
+        },
+        {
+          "type": "Ac",
+          "base_ft": 12000,
+          "top_ft": null,
+          "coverage": "5/8"
+        },
+        {
+          "type": "Ci",
+          "base_ft": 20000,
+          "top_ft": null,
+          "coverage": "6/8"
+        }
+      ],
+      "light": "day",
+      "moon_note": null,
+      "notes": "Section 2.8.2, printed p.19. Calm. Cumulonimbus 14 NM northwest, moving northeast; this does not establish lightning at the aircraft. QNH 29.96 inHg. Cloud-height reference unspecified.",
+      "quality": "recorded",
+      "sources": [
+        "s1",
+        "s6",
+        "s7"
+      ]
+    },
+    {
+      "t_utc": "1985-08-12T09:00:00Z",
+      "lat": null,
+      "lon": null,
+      "place": "Western Saitama thunderclouds",
+      "wind_dir_deg": null,
+      "wind_kt": null,
+      "temp_c": null,
+      "visibility_km": null,
+      "precip": "Rain diminishing",
+      "turbulence": null,
+      "lightning": null,
+      "sea_state": null,
+      "wave_height_m": null,
+      "cloud_layers": [
+        {
+          "type": "Cb",
+          "base_ft": null,
+          "top_ft": 19685,
+          "coverage": null
+        }
+      ],
+      "light": "day",
+      "moon_note": null,
+      "notes": "Section 2.8.1: cloud tops had declined to about 6,000 m, converted below. Thunderclouds weakened further by 19:00; this does not establish a weather-caused loss of control.",
+      "quality": "derived",
+      "sources": [
+        "s1",
+        "s6"
+      ]
+    },
+    {
+      "t_utc": "1985-08-12T09:00:00Z",
+      "lat": null,
+      "lon": null,
+      "place": "Nagoya Airport observation",
+      "wind_dir_deg": 210,
+      "wind_kt": 4,
+      "temp_c": 26,
+      "visibility_km": 10,
+      "precip": null,
+      "turbulence": null,
+      "lightning": null,
+      "sea_state": null,
+      "wave_height_m": null,
+      "cloud_layers": [
+        {
+          "type": "Cu",
+          "base_ft": 1500,
+          "top_ft": null,
+          "coverage": "2/8"
+        },
+        {
+          "type": "Sc",
+          "base_ft": 4000,
+          "top_ft": null,
+          "coverage": "5/8"
+        },
+        {
+          "type": "Ac",
+          "base_ft": 12000,
+          "top_ft": null,
+          "coverage": "7/8"
+        }
+      ],
+      "light": "day",
+      "moon_note": null,
+      "notes": "Section 2.8.2, printed p.19. QNH 29.99 inHg. Cloud-height reference unspecified.",
+      "quality": "recorded",
+      "sources": [
+        "s1",
+        "s6"
+      ]
+    },
+    {
+      "t_utc": "1985-08-12T09:00:00Z",
+      "lat": null,
+      "lon": null,
+      "place": "Shizuhama Airport observation",
+      "wind_dir_deg": 240,
+      "wind_kt": 5,
+      "temp_c": 29,
+      "visibility_km": 60,
+      "precip": null,
+      "turbulence": null,
+      "lightning": null,
+      "sea_state": null,
+      "wave_height_m": null,
+      "cloud_layers": [
+        {
+          "type": "Cu",
+          "base_ft": 2500,
+          "top_ft": null,
+          "coverage": "1/8"
+        },
+        {
+          "type": "St",
+          "base_ft": 3500,
+          "top_ft": null,
+          "coverage": "1/8"
+        },
+        {
+          "type": "Ac",
+          "base_ft": 10000,
+          "top_ft": null,
+          "coverage": "2/8"
+        },
+        {
+          "type": "Ci",
+          "base_ft": 25000,
+          "top_ft": null,
+          "coverage": "7/8"
+        }
+      ],
+      "light": "day",
+      "moon_note": null,
+      "notes": "Section 2.8.2, printed p.19. About 10 km south of the aircraft course near 18:31. QNH 29.98 inHg. Cloud-height reference unspecified.",
+      "quality": "recorded",
+      "sources": [
+        "s1",
+        "s6"
+      ]
+    },
+    {
+      "t_utc": "1985-08-12T09:30:00Z",
+      "lat": 35.549678,
+      "lon": 139.786958,
+      "place": "Haneda observation",
+      "wind_dir_deg": 210,
+      "wind_kt": 15,
+      "temp_c": 29,
+      "visibility_km": 40,
+      "precip": null,
+      "turbulence": null,
+      "lightning": null,
+      "sea_state": null,
+      "wave_height_m": null,
+      "cloud_layers": [
+        {
+          "type": "Cu",
+          "base_ft": 3000,
+          "top_ft": null,
+          "coverage": "1/8"
+        },
+        {
+          "type": "Ac",
+          "base_ft": 9000,
+          "top_ft": null,
+          "coverage": "3/8"
+        },
+        {
+          "type": "Ci",
+          "base_ft": null,
+          "top_ft": null,
+          "coverage": "7/8"
+        }
+      ],
+      "light": "day",
+      "moon_note": null,
+      "notes": "Section 2.8.2, printed p.19. QNH 29.93 inHg. No present-weather entry. Cloud-height reference unspecified.",
+      "quality": "recorded",
+      "sources": [
+        "s1",
+        "s6",
+        "s7"
+      ]
+    },
+    {
+      "t_utc": "1985-08-12T09:30:00Z",
+      "lat": null,
+      "lon": null,
+      "place": "Nagoya Airport observation",
+      "wind_dir_deg": 220,
+      "wind_kt": 10,
+      "temp_c": 26,
+      "visibility_km": 10,
+      "precip": null,
+      "turbulence": null,
+      "lightning": null,
+      "sea_state": null,
+      "wave_height_m": null,
+      "cloud_layers": [
+        {
+          "type": "Cu",
+          "base_ft": 1000,
+          "top_ft": null,
+          "coverage": "1/8"
+        },
+        {
+          "type": "Cu",
+          "base_ft": 2000,
+          "top_ft": null,
+          "coverage": "3/8"
+        },
+        {
+          "type": "Ac",
+          "base_ft": 12000,
+          "top_ft": null,
+          "coverage": "7/8"
+        }
+      ],
+      "light": "day",
+      "moon_note": null,
+      "notes": "Section 2.8.2, printed p.19. QNH 30.00 inHg. Cloud-height reference unspecified.",
+      "quality": "recorded",
+      "sources": [
+        "s1",
+        "s6"
+      ]
+    },
+    {
+      "t_utc": "1985-08-12T09:56:00Z",
+      "lat": null,
+      "lon": null,
+      "place": "Crash ridge",
+      "wind_dir_deg": null,
+      "wind_kt": null,
+      "temp_c": null,
+      "visibility_km": null,
+      "precip": null,
+      "turbulence": null,
+      "lightning": null,
+      "sea_state": null,
+      "wave_height_m": null,
+      "cloud_layers": [],
+      "light": "dusk",
+      "moon_note": null,
+      "notes": "Section 2.8.5.2 gives local sunset about 18:40. Dusk is inferred for impact about sixteen minutes later. No site-specific wind, temperature, cloud profile or visibility observation was found.",
+      "quality": "derived",
+      "sources": [
+        "s1",
+        "s6"
+      ]
+    },
+    {
+      "t_utc": "1985-08-12T10:00:00Z",
+      "lat": 35.549678,
+      "lon": 139.786958,
+      "place": "Haneda observation",
+      "wind_dir_deg": 220,
+      "wind_kt": 13,
+      "temp_c": 28,
+      "visibility_km": 40,
+      "precip": null,
+      "turbulence": null,
+      "lightning": null,
+      "sea_state": null,
+      "wave_height_m": null,
+      "cloud_layers": [
+        {
+          "type": "Ac",
+          "base_ft": 9000,
+          "top_ft": null,
+          "coverage": "5/8"
+        },
+        {
+          "type": "Ci",
+          "base_ft": null,
+          "top_ft": null,
+          "coverage": "7/8"
+        }
+      ],
+      "light": "dusk",
+      "moon_note": null,
+      "notes": "Section 2.8.2, printed p.19. QNH 29.94 inHg; cloud-height reference unspecified.",
+      "quality": "recorded",
+      "sources": [
+        "s1",
+        "s6",
+        "s7"
+      ]
+    },
+    {
+      "t_utc": "1985-08-12T10:00:00Z",
+      "lat": 35.748501,
+      "lon": 139.348007,
+      "place": "Yokota observation",
+      "wind_dir_deg": null,
+      "wind_kt": 0,
+      "temp_c": 28,
+      "visibility_km": 50,
+      "precip": null,
+      "turbulence": null,
+      "lightning": null,
+      "sea_state": null,
+      "wave_height_m": null,
+      "cloud_layers": [
+        {
+          "type": "Ac",
+          "base_ft": 12000,
+          "top_ft": null,
+          "coverage": "6/8"
+        },
+        {
+          "type": "Ci",
+          "base_ft": 20000,
+          "top_ft": null,
+          "coverage": "6/8"
+        }
+      ],
+      "light": "dusk",
+      "moon_note": null,
+      "notes": "Section 2.8.2, printed p.19. Calm; QNH 29.97 inHg; cloud-height reference unspecified.",
+      "quality": "recorded",
+      "sources": [
+        "s1",
+        "s6",
+        "s7"
+      ]
+    },
+    {
+      "t_utc": "1985-08-12T10:00:00Z",
+      "lat": null,
+      "lon": null,
+      "place": "Nagoya Airport observation",
+      "wind_dir_deg": null,
+      "wind_kt": 0,
+      "temp_c": 26,
+      "visibility_km": 10,
+      "precip": null,
+      "turbulence": null,
+      "lightning": null,
+      "sea_state": null,
+      "wave_height_m": null,
+      "cloud_layers": [
+        {
+          "type": "Cu",
+          "base_ft": 1000,
+          "top_ft": null,
+          "coverage": "1/8"
+        },
+        {
+          "type": "Cu",
+          "base_ft": 2000,
+          "top_ft": null,
+          "coverage": "5/8"
+        },
+        {
+          "type": "Ac",
+          "base_ft": 10000,
+          "top_ft": null,
+          "coverage": "7/8"
+        }
+      ],
+      "light": "dusk",
+      "moon_note": null,
+      "notes": "Section 2.8.2, printed p.19. Calm; QNH 30.00 inHg. Cloud-height reference unspecified.",
+      "quality": "recorded",
+      "sources": [
+        "s1",
+        "s6"
+      ]
+    },
+    {
+      "t_utc": "1985-08-12T10:00:00Z",
+      "lat": null,
+      "lon": null,
+      "place": "Shizuhama Airport observation",
+      "wind_dir_deg": 250,
+      "wind_kt": 5,
+      "temp_c": 28,
+      "visibility_km": 40,
+      "precip": null,
+      "turbulence": null,
+      "lightning": null,
+      "sea_state": null,
+      "wave_height_m": null,
+      "cloud_layers": [
+        {
+          "type": "Cu",
+          "base_ft": 2500,
+          "top_ft": null,
+          "coverage": "1/8"
+        },
+        {
+          "type": "St",
+          "base_ft": 3500,
+          "top_ft": null,
+          "coverage": "1/8"
+        },
+        {
+          "type": "Ac",
+          "base_ft": 10000,
+          "top_ft": null,
+          "coverage": "3/8"
+        },
+        {
+          "type": "Ci",
+          "base_ft": 25000,
+          "top_ft": null,
+          "coverage": "7/8"
+        }
+      ],
+      "light": "dusk",
+      "moon_note": null,
+      "notes": "Section 2.8.2, printed p.19. QNH 29.99 inHg. Cloud-height reference unspecified.",
+      "quality": "recorded",
+      "sources": [
+        "s1",
+        "s6"
+      ]
+    },
+    {
+      "t_utc": null,
+      "lat": null,
+      "lon": null,
+      "place": "Between Izu Oshima and Izu Peninsula",
+      "wind_dir_deg": 180,
+      "wind_kt": 9.7,
+      "temp_c": null,
+      "visibility_km": null,
+      "precip": null,
+      "turbulence": null,
+      "lightning": null,
+      "sea_state": null,
+      "wave_height_m": null,
+      "cloud_layers": [
+        {
+          "type": "Cu",
+          "base_ft": null,
+          "top_ft": null,
+          "coverage": "Scattered; weak development"
+        },
+        {
+          "type": "Middle cloud",
+          "base_ft": null,
+          "top_ft": null,
+          "coverage": "Local; amount unknown"
+        },
+        {
+          "type": "Upper cloud",
+          "base_ft": null,
+          "top_ft": null,
+          "coverage": "Local; amount unknown"
+        }
+      ],
+      "light": "day",
+      "moon_note": null,
+      "notes": "Section 2.8.1, printed p.18: south wind about 5 m/s, converted to knots. Time within the accident flight interval is unspecified.",
+      "quality": "derived",
+      "sources": [
+        "s1",
+        "s6"
+      ]
+    },
+    {
+      "t_utc": null,
+      "lat": null,
+      "lon": null,
+      "place": "Otsuki area and route toward Mount Fuji",
+      "wind_dir_deg": null,
+      "wind_kt": null,
+      "temp_c": null,
+      "visibility_km": null,
+      "precip": null,
+      "turbulence": null,
+      "lightning": null,
+      "sea_state": null,
+      "wave_height_m": null,
+      "cloud_layers": [],
+      "light": "dusk",
+      "moon_note": null,
+      "notes": "Section 2.8.5.1: another airliner captain saw no cloud between about 10,000 and 25,000 ft on the relevant route; upper Mount Fuji was visible. This is a witness observation during the turn near Otsuki, not a full cloud sounding.",
+      "quality": "reported",
+      "sources": [
+        "s1",
+        "s6"
+      ]
+    }
+  ],
+  "track": [
+    {
+      "t_utc": "1985-08-12T09:11:32Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "Start of takeoff roll.",
+      "quality": "recorded",
+      "method": "",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Attachment 5, PDF p.289, printed p.31",
+      "pressure_alt_ft": null,
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:12:16Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "Liftoff recorded.",
+      "quality": "recorded",
+      "method": "",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Attachment 5, PDF p.289, printed p.31",
+      "pressure_alt_ft": null,
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:24:32Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": 250.0,
+      "vs_fpm": null,
+      "pitch_deg": 2.5,
+      "roll_deg": 0.5,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "derived",
+      "method": "Manual reading of the enlarged DFDR curves at the integer-second grid, with visual interpolation between plotted sample circles. Rounded graph estimates, not decoded sample values. ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic; alt_ft and ias_kt remain null. No geographic position is inferred.",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "PDF pp.37-38, enlarged DFDR plot 18:24:31–18:24:51; ALT1/CAS1 and PCH1/RLL1/HDG panels",
+      "pressure_alt_ft": 23910,
+      "cas_kt": 299.5
+    },
+    {
+      "t_utc": "1985-08-12T09:24:34Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "recorded",
+      "method": "Published rounded DFDR altitude immediately before the abnormal event. MSL altitude not established.",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Attachment 5, PDF p.289",
+      "pressure_alt_ft": 23900,
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:24:34Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": 250.0,
+      "vs_fpm": null,
+      "pitch_deg": 2.5,
+      "roll_deg": 0.4,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "derived",
+      "method": "Manual reading of the enlarged DFDR curves at the integer-second grid, with visual interpolation between plotted sample circles. Rounded graph estimates, not decoded sample values. ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic; alt_ft and ias_kt remain null. No geographic position is inferred.",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "PDF pp.37-38, enlarged DFDR plot 18:24:31–18:24:51; ALT1/CAS1 and PCH1/RLL1/HDG panels",
+      "pressure_alt_ft": 23935,
+      "cas_kt": 300.1
+    },
+    {
+      "t_utc": "1985-08-12T09:24:35.7Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "Recorded longitudinal-acceleration spike; no engine-failure inference follows from this value.",
+      "quality": "recorded",
+      "method": "Timestamp of the acceleration feature specified in the report; structural sequence is an interpretation.",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Section 3.1.7.1(a), printed p.75; Attachment 5, PDF p.289",
+      "pressure_alt_ft": null,
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:24:36Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": 250.0,
+      "vs_fpm": null,
+      "pitch_deg": 2.3,
+      "roll_deg": 0.7,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "derived",
+      "method": "Manual reading of the enlarged DFDR curves at the integer-second grid, with visual interpolation between plotted sample circles. Rounded graph estimates, not decoded sample values. ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic; alt_ft and ias_kt remain null. No geographic position is inferred.",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "PDF pp.37-38, enlarged DFDR plot 18:24:31–18:24:51; ALT1/CAS1 and PCH1/RLL1/HDG panels",
+      "pressure_alt_ft": 23955,
+      "cas_kt": 300.7
+    },
+    {
+      "t_utc": "1985-08-12T09:24:38Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": 250.3,
+      "vs_fpm": null,
+      "pitch_deg": 6.5,
+      "roll_deg": 1.4,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "derived",
+      "method": "Manual reading of the enlarged DFDR curves at the integer-second grid, with visual interpolation between plotted sample circles. Rounded graph estimates, not decoded sample values. ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic; alt_ft and ias_kt remain null. No geographic position is inferred.",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "PDF pp.37-38, enlarged DFDR plot 18:24:31–18:24:51; ALT1/CAS1 and PCH1/RLL1/HDG panels",
+      "pressure_alt_ft": 23965,
+      "cas_kt": 300.5
+    },
+    {
+      "t_utc": "1985-08-12T09:24:38.9Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "Autopilot command mode goes off; autothrottle was off throughout the flight.",
+      "quality": "recorded",
+      "method": "",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Attachment 5, PDF p.289",
+      "pressure_alt_ft": null,
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:24:40Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": 250.3,
+      "vs_fpm": null,
+      "pitch_deg": 2.0,
+      "roll_deg": 3.1,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "derived",
+      "method": "Manual reading of the enlarged DFDR curves at the integer-second grid, with visual interpolation between plotted sample circles. Rounded graph estimates, not decoded sample values. ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic; alt_ft and ias_kt remain null. No geographic position is inferred.",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "PDF pp.37-38, enlarged DFDR plot 18:24:31–18:24:51; ALT1/CAS1 and PCH1/RLL1/HDG panels",
+      "pressure_alt_ft": 24100,
+      "cas_kt": 299.4
+    },
+    {
+      "t_utc": "1985-08-12T09:24:42Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": 249.9,
+      "vs_fpm": null,
+      "pitch_deg": 2.8,
+      "roll_deg": 3.9,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "derived",
+      "method": "Manual reading of the enlarged DFDR curves at the integer-second grid, with visual interpolation between plotted sample circles. Rounded graph estimates, not decoded sample values. ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic; alt_ft and ias_kt remain null. No geographic position is inferred.",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "PDF pp.37-38, enlarged DFDR plot 18:24:31–18:24:51; ALT1/CAS1 and PCH1/RLL1/HDG panels",
+      "pressure_alt_ft": 24130,
+      "cas_kt": 298.7
+    },
+    {
+      "t_utc": "1985-08-12T09:24:44Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": 249.3,
+      "vs_fpm": null,
+      "pitch_deg": 3.2,
+      "roll_deg": -0.1,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "derived",
+      "method": "Manual reading of the enlarged DFDR curves at the integer-second grid, with visual interpolation between plotted sample circles. Rounded graph estimates, not decoded sample values. ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic; alt_ft and ias_kt remain null. No geographic position is inferred.",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "PDF pp.37-38, enlarged DFDR plot 18:24:31–18:24:51; ALT1/CAS1 and PCH1/RLL1/HDG panels",
+      "pressure_alt_ft": 24125,
+      "cas_kt": 298.1
+    },
+    {
+      "t_utc": "1985-08-12T09:24:46Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": 249.1,
+      "vs_fpm": null,
+      "pitch_deg": 3.2,
+      "roll_deg": -1.2,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "derived",
+      "method": "Manual reading of the enlarged DFDR curves at the integer-second grid, with visual interpolation between plotted sample circles. Rounded graph estimates, not decoded sample values. ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic; alt_ft and ias_kt remain null. No geographic position is inferred.",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "PDF pp.37-38, enlarged DFDR plot 18:24:31–18:24:51; ALT1/CAS1 and PCH1/RLL1/HDG panels",
+      "pressure_alt_ft": 24145,
+      "cas_kt": 297.7
+    },
+    {
+      "t_utc": "1985-08-12T09:24:48Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": 249.1,
+      "vs_fpm": null,
+      "pitch_deg": 2.2,
+      "roll_deg": -0.2,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "derived",
+      "method": "Manual reading of the enlarged DFDR curves at the integer-second grid, with visual interpolation between plotted sample circles. Rounded graph estimates, not decoded sample values. ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic; alt_ft and ias_kt remain null. No geographic position is inferred.",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "PDF pp.37-38, enlarged DFDR plot 18:24:31–18:24:51; ALT1/CAS1 and PCH1/RLL1/HDG panels",
+      "pressure_alt_ft": 24190,
+      "cas_kt": 297.4
+    },
+    {
+      "t_utc": "1985-08-12T09:24:50Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": 248.9,
+      "vs_fpm": null,
+      "pitch_deg": 2.2,
+      "roll_deg": 0.3,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "derived",
+      "method": "Manual reading of the enlarged DFDR curves at the integer-second grid, with visual interpolation between plotted sample circles. Rounded graph estimates, not decoded sample values. ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic; alt_ft and ias_kt remain null. No geographic position is inferred.",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "PDF pp.37-38, enlarged DFDR plot 18:24:31–18:24:51; ALT1/CAS1 and PCH1/RLL1/HDG panels",
+      "pressure_alt_ft": 24210,
+      "cas_kt": 297.5
+    },
+    {
+      "t_utc": "1985-08-12T09:39:32Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": "Main landing gear extended",
+      "engine_note": null,
+      "quality": "recorded",
+      "method": "",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Attachment 5, PDF p.290, printed p.32",
+      "pressure_alt_ft": null,
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:42:26Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "Engine pressure ratios substantially reduced; descent rate increased.",
+      "quality": "recorded",
+      "method": "",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Attachment 5, PDF p.290",
+      "pressure_alt_ft": null,
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:45:21Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": 100,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "recorded",
+      "method": "Approximate magnetic heading at the end of the recorded right turn, from the published DFDR commentary.",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Attachment 5, PDF pp.290-291",
+      "pressure_alt_ft": null,
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:46:03Z",
+      "lat": 35.668,
+      "lon": 139.107,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "modelled",
+      "method": "Published AAIC DFDR-integrated flight-path model, manually digitized from its gridded map. Map reading approximately 35.6649 N, 139.1101 E; assumed Tokyo Datum transformed to WGS84 with PROJ Tokyo to WGS 84 (108). Output rounded to 0.001 degree; this is display resolution, not demonstrated accuracy. These are not radar fixes. Adjacent map crosses interpreted at ten-second intervals. Numeric flight parameters are withheld rather than interpolated.",
+      "sources": [
+        "s4",
+        "s6",
+        "s8"
+      ],
+      "locator": "Addendum 6, Figure 12, printed p.129, PDF p.131",
+      "pressure_alt_ft": null,
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:46:33Z",
+      "lat": 35.681,
+      "lon": 139.148,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "modelled",
+      "method": "Published AAIC DFDR-integrated flight-path model, manually digitized from its gridded map. Map reading approximately 35.6774 N, 139.1509 E; assumed Tokyo Datum transformed to WGS84 with PROJ Tokyo to WGS 84 (108). Output rounded to 0.001 degree; this is display resolution, not demonstrated accuracy. These are not radar fixes. Adjacent map crosses interpreted at ten-second intervals. Numeric flight parameters are withheld rather than interpolated.",
+      "sources": [
+        "s4",
+        "s6",
+        "s8"
+      ],
+      "locator": "Addendum 6, Figure 12, printed p.129, PDF p.131",
+      "pressure_alt_ft": null,
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:47:03Z",
+      "lat": 35.707,
+      "lon": 139.169,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "modelled",
+      "method": "Published AAIC DFDR-integrated flight-path model, manually digitized from its gridded map. Map reading approximately 35.7033 N, 139.1718 E; assumed Tokyo Datum transformed to WGS84 with PROJ Tokyo to WGS 84 (108). Output rounded to 0.001 degree; this is display resolution, not demonstrated accuracy. These are not radar fixes. Adjacent map crosses interpreted at ten-second intervals. Numeric flight parameters are withheld rather than interpolated.",
+      "sources": [
+        "s4",
+        "s6",
+        "s8"
+      ],
+      "locator": "Addendum 6, Figure 12, printed p.129, PDF p.131",
+      "pressure_alt_ft": null,
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:47:33Z",
+      "lat": 35.738,
+      "lon": 139.179,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "modelled",
+      "method": "Published AAIC DFDR-integrated flight-path model, manually digitized from its gridded map. Map reading approximately 35.7346 N, 139.1817 E; assumed Tokyo Datum transformed to WGS84 with PROJ Tokyo to WGS 84 (108). Output rounded to 0.001 degree; this is display resolution, not demonstrated accuracy. These are not radar fixes. Adjacent map crosses interpreted at ten-second intervals. Numeric flight parameters are withheld rather than interpolated.",
+      "sources": [
+        "s4",
+        "s6",
+        "s8"
+      ],
+      "locator": "Addendum 6, Figure 12, printed p.129, PDF p.131",
+      "pressure_alt_ft": null,
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:48:03Z",
+      "lat": 35.774,
+      "lon": 139.166,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "modelled",
+      "method": "Published AAIC DFDR-integrated flight-path model, manually digitized from its gridded map. Map reading approximately 35.7703 N, 139.1696 E; assumed Tokyo Datum transformed to WGS84 with PROJ Tokyo to WGS 84 (108). Output rounded to 0.001 degree; this is display resolution, not demonstrated accuracy. These are not radar fixes. Adjacent map crosses interpreted at ten-second intervals. Numeric flight parameters are withheld rather than interpolated.",
+      "sources": [
+        "s4",
+        "s6",
+        "s8"
+      ],
+      "locator": "Addendum 6, Figure 12, printed p.129, PDF p.131",
+      "pressure_alt_ft": null,
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:48:33Z",
+      "lat": 35.797,
+      "lon": 139.14,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "modelled",
+      "method": "Published AAIC DFDR-integrated flight-path model, manually digitized from its gridded map. Map reading approximately 35.7936 N, 139.1432 E; assumed Tokyo Datum transformed to WGS84 with PROJ Tokyo to WGS 84 (108). Output rounded to 0.001 degree; this is display resolution, not demonstrated accuracy. These are not radar fixes. Adjacent map crosses interpreted at ten-second intervals. Numeric flight parameters are withheld rather than interpolated.",
+      "sources": [
+        "s4",
+        "s6",
+        "s8"
+      ],
+      "locator": "Addendum 6, Figure 12, printed p.129, PDF p.131",
+      "pressure_alt_ft": null,
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:49:03Z",
+      "lat": 35.815,
+      "lon": 139.108,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "modelled",
+      "method": "Published AAIC DFDR-integrated flight-path model, manually digitized from its gridded map. Map reading approximately 35.8114 N, 139.1112 E; assumed Tokyo Datum transformed to WGS84 with PROJ Tokyo to WGS 84 (108). Output rounded to 0.001 degree; this is display resolution, not demonstrated accuracy. These are not radar fixes. Adjacent map crosses interpreted at ten-second intervals. Numeric flight parameters are withheld rather than interpolated.",
+      "sources": [
+        "s4",
+        "s6",
+        "s8"
+      ],
+      "locator": "Addendum 6, Figure 12, printed p.129, PDF p.131",
+      "pressure_alt_ft": null,
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:49:33Z",
+      "lat": 35.832,
+      "lon": 139.079,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "modelled",
+      "method": "Published AAIC DFDR-integrated flight-path model, manually digitized from its gridded map. Map reading approximately 35.8284 N, 139.0826 E; assumed Tokyo Datum transformed to WGS84 with PROJ Tokyo to WGS 84 (108). Output rounded to 0.001 degree; this is display resolution, not demonstrated accuracy. These are not radar fixes. Adjacent map crosses interpreted at ten-second intervals. Numeric flight parameters are withheld rather than interpolated.",
+      "sources": [
+        "s4",
+        "s6",
+        "s8"
+      ],
+      "locator": "Addendum 6, Figure 12, printed p.129, PDF p.131",
+      "pressure_alt_ft": null,
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:49:42Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": 30.9,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "recorded",
+      "method": "Published DFDR minimum CAS and corresponding AOA; CAS is not IAS.",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Attachment 5, PDF p.291, printed p.33",
+      "pressure_alt_ft": null,
+      "cas_kt": 108
+    },
+    {
+      "t_utc": "1985-08-12T09:50:03Z",
+      "lat": 35.844,
+      "lon": 139.055,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "modelled",
+      "method": "Published AAIC DFDR-integrated flight-path model, manually digitized from its gridded map. Map reading approximately 35.8409 N, 139.0584 E; assumed Tokyo Datum transformed to WGS84 with PROJ Tokyo to WGS 84 (108). Output rounded to 0.001 degree; this is display resolution, not demonstrated accuracy. These are not radar fixes. Adjacent map crosses interpreted at ten-second intervals. Numeric flight parameters are withheld rather than interpolated.",
+      "sources": [
+        "s4",
+        "s6",
+        "s8"
+      ],
+      "locator": "Addendum 6, Figure 12, printed p.129, PDF p.131",
+      "pressure_alt_ft": null,
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:50:33Z",
+      "lat": 35.856,
+      "lon": 139.014,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "modelled",
+      "method": "Published AAIC DFDR-integrated flight-path model, manually digitized from its gridded map. Map reading approximately 35.8525 N, 139.0176 E; assumed Tokyo Datum transformed to WGS84 with PROJ Tokyo to WGS 84 (108). Output rounded to 0.001 degree; this is display resolution, not demonstrated accuracy. These are not radar fixes. Adjacent map crosses interpreted at ten-second intervals. Numeric flight parameters are withheld rather than interpolated.",
+      "sources": [
+        "s4",
+        "s6",
+        "s8"
+      ],
+      "locator": "Addendum 6, Figure 12, printed p.129, PDF p.131",
+      "pressure_alt_ft": null,
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:51:03Z",
+      "lat": 35.863,
+      "lon": 138.978,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "modelled",
+      "method": "Published AAIC DFDR-integrated flight-path model, manually digitized from its gridded map. Map reading approximately 35.8597 N, 138.9813 E; assumed Tokyo Datum transformed to WGS84 with PROJ Tokyo to WGS 84 (108). Output rounded to 0.001 degree; this is display resolution, not demonstrated accuracy. These are not radar fixes. Adjacent map crosses interpreted at ten-second intervals. Numeric flight parameters are withheld rather than interpolated.",
+      "sources": [
+        "s4",
+        "s6",
+        "s8"
+      ],
+      "locator": "Addendum 6, Figure 12, printed p.129, PDF p.131",
+      "pressure_alt_ft": null,
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:51:06Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": "Leading-edge groups begin extending; outer groups excluded",
+      "gear": null,
+      "engine_note": null,
+      "quality": "recorded",
+      "method": "Attachment 5 time; section 3.1.7.4 instead refers to flap operation from about 18:51:14. See conflicts.",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Attachment 5, PDF p.291",
+      "pressure_alt_ft": null,
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:51:33Z",
+      "lat": 35.864,
+      "lon": 138.936,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "modelled",
+      "method": "Published AAIC DFDR-integrated flight-path model, manually digitized from its gridded map. Map reading approximately 35.8606 N, 138.9394 E; assumed Tokyo Datum transformed to WGS84 with PROJ Tokyo to WGS 84 (108). Output rounded to 0.001 degree; this is display resolution, not demonstrated accuracy. These are not radar fixes. Adjacent map crosses interpreted at ten-second intervals. Numeric flight parameters are withheld rather than interpolated.",
+      "sources": [
+        "s4",
+        "s6",
+        "s8"
+      ],
+      "locator": "Addendum 6, Figure 12, printed p.129, PDF p.131",
+      "pressure_alt_ft": null,
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:52:03Z",
+      "lat": 35.87,
+      "lon": 138.896,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "modelled",
+      "method": "Published AAIC DFDR-integrated flight-path model, manually digitized from its gridded map. Map reading approximately 35.8668 N, 138.8987 E; assumed Tokyo Datum transformed to WGS84 with PROJ Tokyo to WGS 84 (108). Output rounded to 0.001 degree; this is display resolution, not demonstrated accuracy. These are not radar fixes. Adjacent map crosses interpreted at ten-second intervals. Numeric flight parameters are withheld rather than interpolated.",
+      "sources": [
+        "s4",
+        "s6",
+        "s8"
+      ],
+      "locator": "Addendum 6, Figure 12, printed p.129, PDF p.131",
+      "pressure_alt_ft": null,
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:52:33Z",
+      "lat": 35.88,
+      "lon": 138.857,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "modelled",
+      "method": "Published AAIC DFDR-integrated flight-path model, manually digitized from its gridded map. Map reading approximately 35.8767 N, 138.8601 E; assumed Tokyo Datum transformed to WGS84 with PROJ Tokyo to WGS 84 (108). Output rounded to 0.001 degree; this is display resolution, not demonstrated accuracy. These are not radar fixes. Adjacent map crosses interpreted at ten-second intervals. Numeric flight parameters are withheld rather than interpolated.",
+      "sources": [
+        "s4",
+        "s6",
+        "s8"
+      ],
+      "locator": "Addendum 6, Figure 12, printed p.129, PDF p.131",
+      "pressure_alt_ft": null,
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:52:39Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": "Leading-edge extension completed except left and right outer groups",
+      "gear": null,
+      "engine_note": null,
+      "quality": "recorded",
+      "method": "",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Attachment 5, PDF p.291",
+      "pressure_alt_ft": null,
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:52:52Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "EPR reduced; published average descent rate thereafter exceeded 3,000 ft/min.",
+      "quality": "recorded",
+      "method": "Interval average is not assigned as an instantaneous vertical speed.",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Attachment 5, PDF p.291",
+      "pressure_alt_ft": null,
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:53:03Z",
+      "lat": 35.892,
+      "lon": 138.821,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "modelled",
+      "method": "Published AAIC DFDR-integrated flight-path model, manually digitized from its gridded map. Map reading approximately 35.8892 N, 138.8238 E; assumed Tokyo Datum transformed to WGS84 with PROJ Tokyo to WGS 84 (108). Output rounded to 0.001 degree; this is display resolution, not demonstrated accuracy. These are not radar fixes. Adjacent map crosses interpreted at ten-second intervals. Numeric flight parameters are withheld rather than interpolated.",
+      "sources": [
+        "s4",
+        "s6",
+        "s8"
+      ],
+      "locator": "Addendum 6, Figure 12, printed p.129, PDF p.131",
+      "pressure_alt_ft": null,
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:53:33Z",
+      "lat": 35.913,
+      "lon": 138.789,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "modelled",
+      "method": "Published AAIC DFDR-integrated flight-path model, manually digitized from its gridded map. Map reading approximately 35.9097 N, 138.7919 E; assumed Tokyo Datum transformed to WGS84 with PROJ Tokyo to WGS 84 (108). Output rounded to 0.001 degree; this is display resolution, not demonstrated accuracy. These are not radar fixes. Adjacent map crosses interpreted at ten-second intervals. Numeric flight parameters are withheld rather than interpolated.",
+      "sources": [
+        "s4",
+        "s6",
+        "s8"
+      ],
+      "locator": "Addendum 6, Figure 12, printed p.129, PDF p.131",
+      "pressure_alt_ft": null,
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:54:03Z",
+      "lat": 35.942,
+      "lon": 138.761,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "modelled",
+      "method": "Published AAIC DFDR-integrated flight-path model, manually digitized from its gridded map. Map reading approximately 35.9392 N, 138.7643 E; assumed Tokyo Datum transformed to WGS84 with PROJ Tokyo to WGS 84 (108). Output rounded to 0.001 degree; this is display resolution, not demonstrated accuracy. These are not radar fixes. Adjacent map crosses interpreted at ten-second intervals. Numeric flight parameters are withheld rather than interpolated.",
+      "sources": [
+        "s4",
+        "s6",
+        "s8"
+      ],
+      "locator": "Addendum 6, Figure 12, printed p.129, PDF p.131",
+      "pressure_alt_ft": null,
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:54:32Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": 0,
+      "aoa_deg": null,
+      "flap": "About 6.6 units",
+      "gear": null,
+      "engine_note": "Left and right EPR nearly equal.",
+      "quality": "recorded",
+      "method": "Approximate time and values in DFDR commentary; roll nearly zero, not an exact level-flight measurement.",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Attachment 5, PDF p.291",
+      "pressure_alt_ft": null,
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:54:33Z",
+      "lat": 35.967,
+      "lon": 138.736,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "modelled",
+      "method": "Published AAIC DFDR-integrated flight-path model, manually digitized from its gridded map. Map reading approximately 35.9634 N, 138.7390 E; assumed Tokyo Datum transformed to WGS84 with PROJ Tokyo to WGS 84 (108). Output rounded to 0.001 degree; this is display resolution, not demonstrated accuracy. These are not radar fixes. Adjacent map crosses interpreted at ten-second intervals. Numeric flight parameters are withheld rather than interpolated.",
+      "sources": [
+        "s4",
+        "s6",
+        "s8"
+      ],
+      "locator": "Addendum 6, Figure 12, printed p.129, PDF p.131",
+      "pressure_alt_ft": null,
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:54:40Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": "About 8 units",
+      "gear": null,
+      "engine_note": null,
+      "quality": "recorded",
+      "method": "Approximate flap value and time in the report; bank begins increasing right.",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Section 3.1.7.4, printed p.79",
+      "pressure_alt_ft": null,
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:54:50Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": "About 10 units",
+      "gear": null,
+      "engine_note": null,
+      "quality": "recorded",
+      "method": "Approximate values in Attachment 5.",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Attachment 5, PDF p.291",
+      "pressure_alt_ft": null,
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:55:03Z",
+      "lat": 35.984,
+      "lon": 138.687,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "modelled",
+      "method": "Published AAIC DFDR-integrated flight-path model, manually digitized from its gridded map. Map reading approximately 35.9803 N, 138.6905 E; assumed Tokyo Datum transformed to WGS84 with PROJ Tokyo to WGS 84 (108). Output rounded to 0.001 degree; this is display resolution, not demonstrated accuracy. These are not radar fixes. Adjacent map crosses interpreted at ten-second intervals. Numeric flight parameters are withheld rather than interpolated.",
+      "sources": [
+        "s4",
+        "s6",
+        "s8"
+      ],
+      "locator": "Addendum 6, Figure 12, printed p.129, PDF p.131",
+      "pressure_alt_ft": null,
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:55:13Z",
+      "lat": 35.99,
+      "lon": 138.686,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "modelled",
+      "method": "Published AAIC DFDR-integrated flight-path model, manually digitized from its gridded map. Map reading approximately 35.9866 N, 138.6894 E; assumed Tokyo Datum transformed to WGS84 with PROJ Tokyo to WGS 84 (108). Output rounded to 0.001 degree; this is display resolution, not demonstrated accuracy. These are not radar fixes. Adjacent map crosses interpreted at ten-second intervals. Numeric flight parameters are withheld rather than interpolated.",
+      "sources": [
+        "s4",
+        "s6",
+        "s8"
+      ],
+      "locator": "Addendum 6, Figure 12, printed p.129, PDF p.131",
+      "pressure_alt_ft": null,
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:55:23Z",
+      "lat": 36.0,
+      "lon": 138.684,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "modelled",
+      "method": "Published AAIC DFDR-integrated flight-path model, manually digitized from its gridded map. Map reading approximately 35.9973 N, 138.6872 E; assumed Tokyo Datum transformed to WGS84 with PROJ Tokyo to WGS 84 (108). Output rounded to 0.001 degree; this is display resolution, not demonstrated accuracy. These are not radar fixes. Adjacent map crosses interpreted at ten-second intervals. Numeric flight parameters are withheld rather than interpolated.",
+      "sources": [
+        "s4",
+        "s6",
+        "s8"
+      ],
+      "locator": "Addendum 6, Figure 12, printed p.129, PDF p.131",
+      "pressure_alt_ft": null,
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:55:33Z",
+      "lat": 36.013,
+      "lon": 138.69,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "modelled",
+      "method": "Published AAIC DFDR-integrated flight-path model, manually digitized from its gridded map. Map reading approximately 36.0098 N, 138.6927 E; assumed Tokyo Datum transformed to WGS84 with PROJ Tokyo to WGS 84 (108). Output rounded to 0.001 degree; this is display resolution, not demonstrated accuracy. These are not radar fixes. Adjacent map crosses interpreted at ten-second intervals. Numeric flight parameters are withheld rather than interpolated.",
+      "sources": [
+        "s4",
+        "s6",
+        "s8"
+      ],
+      "locator": "Addendum 6, Figure 12, printed p.129, PDF p.131",
+      "pressure_alt_ft": null,
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:55:43Z",
+      "lat": 36.019,
+      "lon": 138.703,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "modelled",
+      "method": "Published AAIC DFDR-integrated flight-path model, manually digitized from its gridded map. Map reading approximately 36.0161 N, 138.7059 E; assumed Tokyo Datum transformed to WGS84 with PROJ Tokyo to WGS 84 (108). Output rounded to 0.001 degree; this is display resolution, not demonstrated accuracy. These are not radar fixes. Adjacent map crosses interpreted at ten-second intervals. Numeric flight parameters are withheld rather than interpolated.",
+      "sources": [
+        "s4",
+        "s6",
+        "s8"
+      ],
+      "locator": "Addendum 6, Figure 12, printed p.129, PDF p.131",
+      "pressure_alt_ft": null,
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:55:44Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": "About 25 units; retraction initiated",
+      "gear": null,
+      "engine_note": null,
+      "quality": "recorded",
+      "method": "Main-text time; Attachment 5 gives 18:55:42. See conflicts. Bank described as a range, so no point roll value is supplied.",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Section 3.1.7.4, printed p.79; compare Attachment 5, PDF p.292",
+      "pressure_alt_ft": null,
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:55:53Z",
+      "lat": 36.019,
+      "lon": 138.715,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "modelled",
+      "method": "Published AAIC DFDR-integrated flight-path model, manually digitized from its gridded map. Map reading approximately 36.0161 N, 138.7181 E; assumed Tokyo Datum transformed to WGS84 with PROJ Tokyo to WGS 84 (108). Output rounded to 0.001 degree; this is display resolution, not demonstrated accuracy. These are not radar fixes. Adjacent map crosses interpreted at ten-second intervals. Numeric flight parameters are withheld rather than interpolated.",
+      "sources": [
+        "s4",
+        "s6",
+        "s8"
+      ],
+      "locator": "Addendum 6, Figure 12, printed p.129, PDF p.131",
+      "pressure_alt_ft": null,
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:55:57Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": -15,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "Power added abruptly; left engine EPRs exceeded right engine EPRs.",
+      "quality": "recorded",
+      "method": "Approximate DFDR values; main text says pitch exceeded 15 degrees nose down, while Attachment 5 says about 15 degrees.",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Section 3.1.7.4, printed p.79; Attachment 5, PDF p.292",
+      "pressure_alt_ft": 10000,
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:56:03Z",
+      "lat": 36.014,
+      "lon": 138.726,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "modelled",
+      "method": "Published AAIC DFDR-integrated flight-path model, manually digitized from its gridded map. Map reading approximately 36.0107 N, 138.7291 E; assumed Tokyo Datum transformed to WGS84 with PROJ Tokyo to WGS 84 (108). Output rounded to 0.001 degree; this is display resolution, not demonstrated accuracy. These are not radar fixes. Adjacent map crosses interpreted at ten-second intervals. Numeric flight parameters are withheld rather than interpolated.",
+      "sources": [
+        "s4",
+        "s6",
+        "s8"
+      ],
+      "locator": "Addendum 6, Figure 12, printed p.129, PDF p.131",
+      "pressure_alt_ft": null,
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:56:07Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": -36,
+      "roll_deg": 70,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "recorded",
+      "method": "Approximate recorded attitudes from Attachment 5. The 15,000 ft/min descent in the narrative is an interval average and is not an instantaneous vs_fpm.",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Section 3.1.7.4, printed p.79; Attachment 5, PDF p.292",
+      "pressure_alt_ft": null,
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:56:11Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "Descent rate exceeded 18,000 ft/min at about this time.",
+      "quality": "recorded",
+      "method": "A lower bound, not an exact vertical-speed value; vs_fpm therefore remains null.",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Attachment 5, PDF p.292",
+      "pressure_alt_ft": null,
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:56:13Z",
+      "lat": 36.002,
+      "lon": 138.726,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "modelled",
+      "method": "Published AAIC DFDR-integrated flight-path model, manually digitized from its gridded map. Map reading approximately 35.9991 N, 138.7291 E; assumed Tokyo Datum transformed to WGS84 with PROJ Tokyo to WGS 84 (108). Output rounded to 0.001 degree; this is display resolution, not demonstrated accuracy. These are not radar fixes. Adjacent map crosses interpreted at ten-second intervals. Numeric flight parameters are withheld rather than interpolated.",
+      "sources": [
+        "s4",
+        "s6",
+        "s8"
+      ],
+      "locator": "Addendum 6, Figure 12, printed p.129, PDF p.131",
+      "pressure_alt_ft": null,
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:56:17Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": 40,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "CAS exceeded 340 kt; pitch recovering upward.",
+      "quality": "recorded",
+      "method": "Approximate time and roll. CAS is a lower bound, so cas_kt is null. Main text gives about 5,500 ft; Attachment 5 gives about 5,000 ft. Neither conflicting altitude is selected.",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Section 3.1.7.4, printed p.80; Attachment 5, PDF p.292",
+      "pressure_alt_ft": null,
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:56:18Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "Maximum power applied during the 18:56:18–18:56:23.5 interval; descent ceased, vertical load about 3 g.",
+      "quality": "recorded",
+      "method": "Beginning of the published interval, not a single-sample thrust or acceleration value.",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Attachment 5, PDF p.292",
+      "pressure_alt_ft": null,
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:56:23Z",
+      "lat": 35.996,
+      "lon": 138.708,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "modelled",
+      "method": "Published AAIC DFDR-integrated flight-path model, manually digitized from its gridded map. Map reading approximately 35.9929 N, 138.7115 E; assumed Tokyo Datum transformed to WGS84 with PROJ Tokyo to WGS 84 (108). Output rounded to 0.001 degree; this is display resolution, not demonstrated accuracy. These are not radar fixes. Adjacent map crosses interpreted at ten-second intervals. Numeric flight parameters are withheld rather than interpolated.",
+      "sources": [
+        "s4",
+        "s6",
+        "s8"
+      ],
+      "locator": "Addendum 6, Figure 12, printed p.129, PDF p.131",
+      "pressure_alt_ft": null,
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:56:23.5Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "Near the first tree contact, right-side EPRs fell abnormally; No.4 fell to about 0.50 while left engines remained normal.",
+      "quality": "recorded",
+      "method": "Approximate contact time reconstructed from accelerations, CVR sound and wreckage; the attribution of engine separation is interpretive.",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Section 3.1.7.4, printed p.80; Attachment 5, PDF p.292",
+      "pressure_alt_ft": null,
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:56:27.25Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": 277.1,
+      "vs_fpm": null,
+      "pitch_deg": -42.2,
+      "roll_deg": 131.5,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "recorded",
+      "method": "Last attitude/airspeed set for which the report says analysis was possible. CAS is calibrated airspeed; heading is magnetic. This is not the time of final rest.",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Section 3.1.7.4, printed p.80, PDF p.91",
+      "pressure_alt_ft": null,
+      "cas_kt": 263.7
+    }
+  ],
+  "events": [
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Earlier tail strike",
+      "detail": "On 2 June 1978, the aircraft struck its aft fuselage during landing at Osaka. The aft pressure bulkhead and surrounding structure were damaged.",
+      "kind": "investigation",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Section 2.7.1(6); Attachment 1, PDF pp.259-262"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Boeing repairs the aircraft",
+      "detail": "A Boeing team repaired the aircraft at Haneda between 17 June and 11 July 1978. At part of the bulkhead splice, the work differed from the instruction and left a single effective rivet row; inspectors did not identify the error.",
+      "kind": "investigation",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Sections 2.7.1 and 3.2.2; Attachment 1"
+    },
+    {
+      "t_utc": "1985-08-12T09:04:00Z",
+      "t_precision": "minute",
+      "title": "Flight leaves the stand",
+      "detail": "The captain sat in the right seat while the first officer trained for command from the left seat. Flight 123 taxied from stand 18.",
+      "kind": "departure",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Section 2.1, printed p.6"
+    },
+    {
+      "t_utc": "1985-08-12T09:11:32Z",
+      "t_precision": "second",
+      "title": "Takeoff roll begins",
+      "detail": "The DFDR identifies the start of the takeoff roll.",
+      "kind": "departure",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Attachment 5, PDF p.289"
+    },
+    {
+      "t_utc": "1985-08-12T09:12:16Z",
+      "t_precision": "second",
+      "title": "Aircraft lifts off",
+      "detail": "The aircraft departed Haneda runway 15L for Osaka.",
+      "kind": "departure",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Section 2.1; Attachment 5, PDF p.289"
+    },
+    {
+      "t_utc": "1985-08-12T09:18:33Z",
+      "t_precision": "second",
+      "title": "Direct route approved",
+      "detail": "Tokyo Control approved a direct route to Seaperch while the aircraft climbed toward 24,000 ft.",
+      "kind": "atc",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Section 2.1, printed p.6; Attachment 3"
+    },
+    {
+      "t_utc": "1985-08-12T09:24:35Z",
+      "t_precision": "estimated",
+      "title": "Loud sound and structural failure",
+      "detail": "A loud sound was recorded near the start of the abnormal motion. The investigation inferred failure of the repaired bulkhead, followed by damage to the aft fuselage and vertical fin.",
+      "kind": "system",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Sections 2.1 and 3.1.7.1; Attachment 6, PDF p.294"
+    },
+    {
+      "t_utc": "1985-08-12T09:24:35.7Z",
+      "t_precision": "second",
+      "title": "Acceleration spike recorded",
+      "detail": "The longitudinal acceleration showed an abrupt forward spike. The report uses it with other recorder channels to reconstruct the structural sequence.",
+      "kind": "fdr",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Section 3.1.7.1(a), printed p.75"
+    },
+    {
+      "t_utc": "1985-08-12T09:24:38.9Z",
+      "t_precision": "second",
+      "title": "Autopilot command mode ends",
+      "detail": "The DFDR recorded autopilot command mode switching off.",
+      "kind": "system",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Attachment 5, PDF p.289"
+    },
+    {
+      "t_utc": "1985-08-12T09:25:21Z",
+      "t_precision": "second",
+      "title": "Crew requests return to Haneda",
+      "detail": "The captain requested descent to 22,000 ft and return to Haneda.",
+      "kind": "atc",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Section 2.1, printed p.6; Attachment 6"
+    },
+    {
+      "t_utc": "1985-08-12T09:25:52Z",
+      "t_precision": "second",
+      "title": "Right turn instruction acknowledged",
+      "detail": "The crew acknowledged a right turn toward magnetic heading 090 for vectors via Oshima. The aircraft did not follow the intended return route.",
+      "kind": "atc",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Section 2.1, printed p.6"
+    },
+    {
+      "t_utc": "1985-08-12T09:26:00Z",
+      "t_precision": "estimated",
+      "title": "Large oscillations develop",
+      "detail": "The DFDR commentary identifies pronounced phugoid and Dutch-roll motion from about this time. Control inputs did not suppress it after hydraulic control was lost.",
+      "kind": "fdr",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Attachment 5, PDF p.290"
+    },
+    {
+      "t_utc": "1985-08-12T09:26:00Z",
+      "t_precision": "minute",
+      "title": "Rescue center receives emergency notice",
+      "detail": "Tokyo Airport rescue coordination began collecting information after notification of the aircraft emergency.",
+      "kind": "search",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Section 2.14.1.1, printed p.23"
+    },
+    {
+      "t_utc": "1985-08-12T09:28:35Z",
+      "t_precision": "second",
+      "title": "Crew reports loss of control",
+      "detail": "The captain told Tokyo Control that the aircraft was uncontrollable.",
+      "kind": "atc",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Section 2.1, printed p.7; Attachment 6, PDF p.299"
+    },
+    {
+      "t_utc": "1985-08-12T09:31:14Z",
+      "t_precision": "second",
+      "title": "Nagoya offered as an option",
+      "detail": "Tokyo Control gave the distance to Nagoya and asked whether the crew could land there. The crew again requested Haneda.",
+      "kind": "atc",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Section 2.1, printed p.7; Attachment 6, PDF p.302"
+    },
+    {
+      "t_utc": "1985-08-12T09:33:50Z",
+      "t_precision": "estimated",
+      "title": "Oxygen masks discussed",
+      "detail": "The flight engineer urged use of oxygen masks. The report found no evidence that the flight crew wore them and considered some hypoxic impairment possible; this was an inference, not a medical measurement.",
+      "kind": "cvr",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Sections 3.1.9 and 3.2.7; Attachment 6"
+    },
+    {
+      "t_utc": "1985-08-12T09:39:32Z",
+      "t_precision": "second",
+      "title": "Main landing gear extends",
+      "detail": "Main landing gear extension was recorded.",
+      "kind": "crew_action",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Attachment 5, PDF p.290"
+    },
+    {
+      "t_utc": "1985-08-12T09:40:00Z",
+      "t_precision": "estimated",
+      "title": "Local sunset",
+      "detail": "The report gives sunset at the crash site as about 18:40 JST.",
+      "kind": "weather",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Section 2.8.5.2"
+    },
+    {
+      "t_utc": "1985-08-12T09:42:26Z",
+      "t_precision": "second",
+      "title": "Engine power is reduced",
+      "detail": "EPR decreased substantially and the descent rate increased.",
+      "kind": "crew_action",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Attachment 5, PDF p.290"
+    },
+    {
+      "t_utc": "1985-08-12T09:47:07Z",
+      "t_precision": "second",
+      "title": "Haneda vectors requested again",
+      "detail": "The crew requested radar vectors to Haneda. Tokyo Control directed heading 090 and advised runway 22.",
+      "kind": "atc",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Section 2.1, printed p.7"
+    },
+    {
+      "t_utc": "1985-08-12T09:48:00Z",
+      "t_precision": "estimated",
+      "title": "Radar becomes unreliable",
+      "detail": "Mountain interference increasingly disrupted radar returns. Investigators reconstructed the later path mainly from DFDR integration.",
+      "kind": "investigation",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Section 3.1.7.3, printed p.79"
+    },
+    {
+      "t_utc": "1985-08-12T09:49:42Z",
+      "t_precision": "second",
+      "title": "Minimum calibrated airspeed recorded",
+      "detail": "DFDR commentary gives 108 kt calibrated airspeed and angle of attack 30.9 degrees. These are not a groundspeed or an IAS measurement.",
+      "kind": "fdr",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Attachment 5, PDF p.291"
+    },
+    {
+      "t_utc": "1985-08-12T09:51:06Z",
+      "t_precision": "second",
+      "title": "Flap extension begins",
+      "detail": "Leading-edge groups began extending, except the outer groups. The main text gives a slightly different time for the beginning of continuing flap operation.",
+      "kind": "crew_action",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Attachment 5, PDF p.291; section 3.1.7.4"
+    },
+    {
+      "t_utc": "1985-08-12T09:52:39Z",
+      "t_precision": "second",
+      "title": "Leading-edge extension completes",
+      "detail": "The recorded leading-edge groups completed extension, with the outer groups still excluded.",
+      "kind": "fdr",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Attachment 5, PDF p.291"
+    },
+    {
+      "t_utc": "1985-08-12T09:54:25Z",
+      "t_precision": "second",
+      "title": "Crew asks its position",
+      "detail": "Tokyo Approach supplied the aircraft position relative to Haneda and Kumagaya. This spoken fix is not entered as an exact coordinate.",
+      "kind": "atc",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Section 2.1, printed p.7"
+    },
+    {
+      "t_utc": "1985-08-12T09:55:05Z",
+      "t_precision": "second",
+      "title": "Haneda and Yokota offered",
+      "detail": "Tokyo Approach advised that both airports were available. This was not a completed approach or a demonstrated ability to reach either runway.",
+      "kind": "atc",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Section 2.1, printed p.7"
+    },
+    {
+      "t_utc": "1985-08-12T09:55:44Z",
+      "t_precision": "estimated",
+      "title": "Flap retraction starts",
+      "detail": "The main text places the flaps at about 25 units and the start of retraction here; Attachment 5 gives 18:55:42. Right bank increased further.",
+      "kind": "crew_action",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Section 3.1.7.4, printed p.79; Attachment 5, PDF p.292"
+    },
+    {
+      "t_utc": "1985-08-12T09:55:57Z",
+      "t_precision": "estimated",
+      "title": "Steep descent develops",
+      "detail": "The aircraft pitched down and power was increased. The report places it at about 10,000 ft pressure altitude.",
+      "kind": "fdr",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Section 3.1.7.4; Attachment 5, PDF p.292"
+    },
+    {
+      "t_utc": "1985-08-12T09:56:00Z",
+      "t_precision": "minute",
+      "title": "Aircraft crashes on the ridge",
+      "detail": "The report gives the overall crash time as approximately 18:56. Contact events and the last recorder values establish a sequence within that minute, but no exact final-rest time is asserted here.",
+      "kind": "impact",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Sections 2.1 and 3.1.7.4"
+    },
+    {
+      "t_utc": "1985-08-12T09:56:07Z",
+      "t_precision": "estimated",
+      "title": "Nose-down attitude reaches thirty-six degrees",
+      "detail": "The DFDR commentary gives about 36 degrees nose down and about 70 degrees right bank.",
+      "kind": "fdr",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Attachment 5, PDF p.292"
+    },
+    {
+      "t_utc": "1985-08-12T09:56:17Z",
+      "t_precision": "estimated",
+      "title": "Ground warning and recovery attempt",
+      "detail": "The report relates ground-proximity warning activation to increased power and a temporary arrest of descent. Its two altitude descriptions disagree.",
+      "kind": "system",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Section 3.1.7.4, printed p.80; Attachment 5, PDF p.292"
+    },
+    {
+      "t_utc": "1985-08-12T09:56:23.5Z",
+      "t_precision": "estimated",
+      "title": "Right wing contacts trees",
+      "detail": "Recorder changes and wreckage support an initial right-wing contact near the single-larch ridge. The report infers separation of the No.4 engine.",
+      "kind": "impact",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Section 3.1.7.4, printed p.80"
+    },
+    {
+      "t_utc": "1985-08-12T09:56:26Z",
+      "t_precision": "estimated",
+      "title": "Contact at the U-shaped ditch",
+      "detail": "The investigation associates a second contact sound and acceleration changes with the ridge containing the U-shaped ditch. The aircraft then continued toward the main crash ridge.",
+      "kind": "impact",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Section 3.1.7.4, printed p.80"
+    },
+    {
+      "t_utc": "1985-08-12T09:56:27.25Z",
+      "t_precision": "second",
+      "title": "Last analysable attitude recorded",
+      "detail": "The last analysable set gives pitch minus 42.2 degrees, right roll 131.5 degrees, magnetic heading 277.1 degrees and calibrated airspeed 263.7 kt.",
+      "kind": "fdr",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Section 3.1.7.4, printed p.80"
+    },
+    {
+      "t_utc": "1985-08-12T09:59:00Z",
+      "t_precision": "minute",
+      "title": "Radar disappearance reported to rescuers",
+      "detail": "The rescue center received notice that the radar target had disappeared at about 18:57. The radar-loss report time is not the impact time.",
+      "kind": "search",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Section 2.14.1.1, printed p.23"
+    },
+    {
+      "t_utc": "1985-08-12T10:01:00Z",
+      "t_precision": "minute",
+      "title": "Japanese fighters launch",
+      "detail": "Two standby jets were dispatched to locate the aircraft.",
+      "kind": "search",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Section 2.14.1.4, printed p.24"
+    },
+    {
+      "t_utc": "1985-08-12T10:15:00Z",
+      "t_precision": "estimated",
+      "title": "US C-130 reports fire",
+      "detail": "A US Air Force C-130 reported a fire at Yokota TACAN radial 305, 35 NM. JTSB later plotted an approximately 3 km position error for this report.",
+      "kind": "search",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s1",
+        "s3",
+        "s6"
+      ],
+      "locator": "Section 2.14.1.1; s3 printed p.19, Table 3"
+    },
+    {
+      "t_utc": "1985-08-12T10:21:00Z",
+      "t_precision": "minute",
+      "title": "Fighters report flames",
+      "detail": "Two F-4EJs reported flames using a different TACAN fix. JTSB later plotted an approximately 6 km error.",
+      "kind": "search",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s3",
+        "s6"
+      ],
+      "locator": "s3 printed p.19, Table 3"
+    },
+    {
+      "t_utc": "1985-08-12T11:42:00Z",
+      "t_precision": "minute",
+      "title": "Japanese helicopter observes flames",
+      "detail": "A Japanese rescue helicopter reached the area and reported another position. JTSB later plotted an approximately 4 km error.",
+      "kind": "search",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s1",
+        "s3",
+        "s6"
+      ],
+      "locator": "Section 2.14.1.4; s3 printed p.19, Table 3"
+    },
+    {
+      "t_utc": "1985-08-12T12:05:00Z",
+      "t_precision": "estimated",
+      "title": "Antonucci recalls return order",
+      "detail": "In his 1995 account, the C-130 navigator said a Marine helicopter could not land in smoke and flame, but offered to lower crew nearby. He recalled a command-post order for both aircraft to return because Japanese rescuers were coming; contemporaneous US orders were not obtained.",
+      "kind": "search",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s12",
+        "s6"
+      ],
+      "locator": "s12 printed pp.5-6, edited reproduction of 1995 account"
+    },
+    {
+      "t_utc": "1985-08-12T16:00:00Z",
+      "t_precision": "minute",
+      "title": "Night guidance attempt fails",
+      "detail": "JTSB describes a helicopter attempt to guide prefectural police from the air as unsuccessful. Its plotted location was about 2 km from the site.",
+      "kind": "search",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s3",
+        "s6"
+      ],
+      "locator": "s3 printed p.19, Table 3"
+    },
+    {
+      "t_utc": "1985-08-12T19:39:00Z",
+      "t_precision": "minute",
+      "title": "Military search reports wreckage",
+      "detail": "The 1987 report describes wreckage discovery and site confirmation at this time. The later JTSB location table still places the reported location about 3 km away.",
+      "kind": "discovery",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s1",
+        "s3",
+        "s6"
+      ],
+      "locator": "Section 2.14.1.4; s3 printed p.19"
+    },
+    {
+      "t_utc": "1985-08-12T20:37:00Z",
+      "t_precision": "estimated",
+      "title": "Police helicopter confirms the site",
+      "detail": "A Nagano Prefectural Police helicopter identified the crash site.",
+      "kind": "discovery",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Section 2.14.1.3, printed p.24"
+    },
+    {
+      "t_utc": "1985-08-13T01:45:00Z",
+      "t_precision": "estimated",
+      "title": "Survivors are found",
+      "detail": "Rescuers found survivors among wreckage in the third branch of Sugeno Dale. The four survivors had been seated in the aft cabin.",
+      "kind": "discovery",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Sections 2.13.1 and 2.14.2, printed pp.22 and 26"
+    },
+    {
+      "t_utc": "1985-08-13T02:40:00Z",
+      "t_precision": "minute",
+      "title": "Four survivors freed",
+      "detail": "The official rescue summary says all four had been rescued from the wreckage by this time.",
+      "kind": "search",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Section 2.14.2, printed p.26"
+    },
+    {
+      "t_utc": "1985-08-13T04:29:00Z",
+      "t_precision": "minute",
+      "title": "Survivors leave the crash site",
+      "detail": "All four left the site aboard a Ground Self-Defense Force helicopter for onward medical treatment.",
+      "kind": "search",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Section 2.14.2, printed p.26"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Final report is published",
+      "detail": "On 19 June 1987, AAIC published its report. It attributed the accident to bulkhead rupture caused by fatigue after the improper repair, followed by loss of tail structure and primary hydraulic flight control.",
+      "kind": "finding",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s1"
+      ],
+      "locator": "Cover and section 4.2"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "JTSB explains disputed issues",
+      "detail": "In July 2011, JTSB issued an explanation addressing decompression, alternative causes, seabed searches and rescue. It acknowledged gaps in the original explanation and rescue documentation.",
+      "kind": "investigation",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s3"
+      ],
+      "locator": "s3 introduction and sections 1-10"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Reopening discussed in the Diet",
+      "detail": "On 2 April 2025, the JTSB chair told a parliamentary committee that the official causal wording expressed a strong inference. He said the unidentified seabed object did not justify reopening.",
+      "kind": "investigation",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s9"
+      ],
+      "locator": "s9 exchanges 37-42"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Repair explanation remains unresolved",
+      "detail": "On 28 October 2026, MLIT published Boeing and FAA replies about website statements on the repair. Boeing said there were no new facts; FAA offered no information beyond its webpage.",
+      "kind": "investigation",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s10"
+      ],
+      "locator": "s10, dated notice and responses"
+    }
+  ],
+  "perspectives": [
+    {
+      "id": "official",
+      "label": "Improper repair and fatigue",
+      "held_by": "AAIC; retained by JTSB and summarized by FAA",
+      "standing": "official finding",
+      "claim": "An improperly made 1978 bulkhead splice concentrated load in a single rivet row. Fatigue cracks grew until the bulkhead ruptured; escaping cabin air damaged the aft structure and vertical fin, and hydraulic losses removed primary flight control.",
+      "evidence_for": [
+        {
+          "text": "Recovered bulkhead fractures showed fatigue at the improperly repaired splice; the physical repair differed from the written instruction.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Recorded motion, aft-structure damage and reconstructed cabin-air flow support the sequence. Detached fin and aft-fuselage debris were recovered from Sagami Bay.",
+          "sources": [
+            "s1",
+            "s4"
+          ]
+        }
+      ],
+      "evidence_against": [
+        {
+          "text": "Not all tail wreckage was recovered. The complete human explanation of why the repair work departed from instructions remains undocumented in the material obtained.",
+          "sources": [
+            "s1",
+            "s10"
+          ]
+        },
+        {
+          "text": "Some critics question decompression because occupants did not recall violent wind or cold; JTSB explains why those experiences do not exclude a brief pressure loss.",
+          "sources": [
+            "s3"
+          ]
+        }
+      ],
+      "ending": {
+        "lat": 36.0015,
+        "lon": 138.6938,
+        "t_utc": null,
+        "description": "Loss of conventional control, oscillating flight, and a final right turn into successive ridges. Final-rest time is not fixed to a precise second."
+      },
+      "track_override": []
+    },
+    {
+      "id": "flutter",
+      "label": "Flutter before bulkhead failure",
+      "held_by": "Critics described and answered in JTSB's 2011 explanatory document",
+      "standing": "rejected",
+      "claim": "This view proposes that structural weakness or flutter first damaged the vertical fin, with the bulkhead damage occurring later. It questions a rapid-decompression interpretation of the cabin observations.",
+      "evidence_for": [
+        {
+          "text": "Survivor recollections emphasized a brief sound and mist, without the sustained wind or severe cold some expected; flight crew did not visibly adopt the full decompression procedure.",
+          "sources": [
+            "s3"
+          ]
+        }
+      ],
+      "evidence_against": [
+        {
+          "text": "AAIC found no recorder or wreckage pattern supporting flutter or divergence. JTSB notes that masks, mist, pressure indications and internally directed structural damage require explanation under this view.",
+          "sources": [
+            "s1",
+            "s3"
+          ]
+        },
+        {
+          "text": "A transient pressure loss need not produce prolonged cabin wind or immediately recognized symptoms; the repaired splice had physical fatigue evidence.",
+          "sources": [
+            "s1",
+            "s3"
+          ]
+        }
+      ],
+      "ending": {
+        "lat": null,
+        "lon": null,
+        "t_utc": null,
+        "description": "No independently quantified alternative final path was found. This hypothesis changes the initiating failure, not an established alternative impact site."
+      },
+      "track_override": []
+    },
+    {
+      "id": "external_object",
+      "label": "External object or missile",
+      "held_by": "Writer Tohko Aoyama and other external-object proponents; described critically in s3 and discussed by Tomotsune",
+      "standing": "fringe",
+      "claim": "Proponents suggest collision with a military target aircraft or missile, sometimes linked to allegations of concealment. No verified foreign object or explosive evidence establishing that cause was found in the sources examined.",
+      "evidence_for": [
+        {
+          "text": "Advocates rely on interpretations of witness accounts, an allegedly red or orange object, missing tail wreckage and gaps in disclosure. The 2026 campaign continues to seek raw records and reinvestigation.",
+          "sources": [
+            "s3",
+            "s12",
+            "s14"
+          ]
+        }
+      ],
+      "evidence_against": [
+        {
+          "text": "JTSB identifies the red object cited in this argument as part of the main wing. Tests on about 160 wreckage specimens found no tested explosive substances or blast traces.",
+          "sources": [
+            "s1",
+            "s3"
+          ]
+        },
+        {
+          "text": "Physical fatigue at the defective splice, recorder evidence and inside-to-outside fin damage support the official mechanism. The 2025 JTSB testimony does not identify the seabed object as aircraft debris.",
+          "sources": [
+            "s1",
+            "s3",
+            "s9"
+          ]
+        }
+      ],
+      "ending": {
+        "lat": null,
+        "lon": null,
+        "t_utc": null,
+        "description": "No reproducible alternate track with sourced timestamps or a different crash site was found. Alleged additional airborne events are not animated as fact."
+      },
+      "track_override": []
+    },
+    {
+      "id": "rescue_criticism",
+      "label": "Earlier rescue was possible",
+      "held_by": "Former USAF navigator Michael Antonucci; some survivors, families and later critics",
+      "standing": "credible alternative",
+      "claim": "Antonucci recalled that US helicopter personnel offered to descend nearby but were ordered away. This is a credible issue for rescue-history review; the number of additional people an earlier response could have saved is not established.",
+      "evidence_for": [
+        {
+          "text": "The official report independently confirms the C-130 fire report at about 19:15. Antonucci's later first-person account describes a helicopter and a return order.",
+          "sources": [
+            "s1",
+            "s12"
+          ]
+        },
+        {
+          "text": "Later accounts of a surviving off-duty cabin attendant describe breathing or voices after impact. JTSB acknowledges that rescue documentation was limited.",
+          "sources": [
+            "s3",
+            "s12"
+          ]
+        }
+      ],
+      "evidence_against": [
+        {
+          "text": "JTSB documents differing location reports and failed ground guidance; it describes serious hazards for night helicopter rescue in forested, uneven terrain.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "The original US mission log and command order were not obtained. The report's medical findings do not establish how many additional people, if any, would have survived an earlier arrival.",
+          "sources": [
+            "s1",
+            "s12"
+          ]
+        }
+      ],
+      "ending": {
+        "lat": 36.0015,
+        "lon": 138.6938,
+        "t_utc": null,
+        "description": "The flight and impact path are unchanged. This view concerns rescue after the crash, not a separate cause or destination."
+      },
+      "track_override": []
+    }
+  ],
+  "evidence_points": [
+    {
+      "lat": 36.0015,
+      "lon": 138.6938,
+      "label": "Main crash ridge",
+      "detail": "Approximate transformed report coordinate; original 35°59′54″N 138°41′49″E. Datum assumption and elevation conflict are described in site. Wreckage spread across the ridge and adjacent ravines.",
+      "kind": "wreckage",
+      "date": "1985-08-12",
+      "quality": "derived",
+      "sources": [
+        "s1",
+        "s8"
+      ]
+    },
+    {
+      "lat": 35.748501,
+      "lon": 139.348007,
+      "label": "Yokota Air Base",
+      "detail": "Current airport reference point, shown as rescue and communications context. It is not a reconstructed TACAN antenna coordinate or a search-aircraft position.",
+      "kind": "landmark",
+      "date": null,
+      "quality": "reported",
+      "sources": [
+        "s7"
+      ]
+    }
+  ],
+  "witnesses": [
+    {
+      "who": "Four ground witnesses south-southwest of the crash area",
+      "lat": null,
+      "lon": null,
+      "said": "Careful paraphrase: they saw a low, slow aircraft arriving from the Oku-Tama direction, then a sharp turn near the mountains and disappearance behind terrain. Their exact observation coordinates were not obtained.",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "who": "Captain of another airliner near Otsuki",
+      "lat": null,
+      "lon": null,
+      "said": "Careful paraphrase: the upper part of Mount Fuji was visible and there were no clouds between about 10,000 and 25,000 ft on the relevant route.",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "who": "Surviving off-duty cabin attendant",
+      "lat": null,
+      "lon": null,
+      "said": "Careful paraphrase of a later account reproduced in s12: a brief noise, dropped oxygen masks, slight ear blockage and transient white mist. The same secondary account reports breathing nearby after the crash; it does not establish a count of potentially rescuable people.",
+      "sources": [
+        "s12"
+      ]
+    },
+    {
+      "who": "USAF C-130 navigator",
+      "lat": null,
+      "lon": null,
+      "said": "Careful paraphrase of Antonucci's 1995 account as reproduced in s12: the crew located the fire, directed a Marine helicopter and later received a return-to-base order. This retrospective account was not checked against original mission or command logs.",
+      "sources": [
+        "s12"
+      ]
+    }
+  ],
+  "numbers": [
+    {
+      "label": "People who died",
+      "value": "520 of 524 aboard",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "label": "Flight crew and cabin crew",
+      "value": "3 flight crew and 12 cabin attendants",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "label": "Landings after the 1978 repair",
+      "value": "12,319 before the accident flight, as listed in section 2.7.1",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "label": "Published repaired-splice strength estimate",
+      "value": "About 70% of the original strength at the affected splice",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "label": "Time from abnormal sound to last analysable DFDR point",
+      "value": "About 31 minutes 52 seconds; derived from 18:24:35 to 18:56:27.25 JST, rounded to the second",
+      "sources": [
+        "s1",
+        "s6"
+      ]
+    },
+    {
+      "label": "Lowest published calibrated airspeed",
+      "value": "108 kt at 18:49:42 JST (09:49:42 UTC), not groundspeed",
+      "sources": [
+        "s1",
+        "s6"
+      ]
+    },
+    {
+      "label": "Last analysable right-bank angle",
+      "value": "131.5 degrees at 18:56:27.25 JST (09:56:27.25 UTC)",
+      "sources": [
+        "s1",
+        "s6"
+      ]
+    }
+  ],
+  "why_it_matters": "The accident led to changes protecting 747 tail structure and hydraulic systems from pressure-bulkhead failure, improved bulkhead inspection, and stronger attention to repair assessment and damage tolerance (s1, s5). JAL preserves wreckage and uses the accident in staff safety education (s15).",
+  "conflicts": [
+    {
+      "about": "Main crash-site elevation",
+      "a": "Section 2.1 gives 1,585 m, about 5,200 ft MSL.",
+      "b": "Section 2.3 gives about 1,565 m, about 5,135 ft MSL. The source does not clearly reconcile the two reference points; site.elev_ft is null.",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "about": "Altitude at approximately 18:56:17 JST",
+      "a": "Section 3.1.7.4 says about 5,500 ft.",
+      "b": "Attachment 5 says about 5,000 ft. Both are recorder-related pressure-altitude descriptions; neither is selected.",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "about": "Flaps reach about 25 units",
+      "a": "Section 3.1.7.4 places this at 18:55:44 JST.",
+      "b": "Attachment 5 places it at 18:55:42 JST. The point and event use the main-text time with this disagreement explicit.",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "about": "Start of continuing flap operation",
+      "a": "Attachment 5 gives leading-edge extension beginning at 18:51:06 JST.",
+      "b": "Section 3.1.7.4 refers to flap operation from about 18:51:14. These may describe different aspects of the sequence; no silent correction is made.",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "about": "When the crash site was confirmed",
+      "a": "The 1987 report calls the 04:39 military observation a site confirmation and gives 05:37 for police confirmation.",
+      "b": "JTSB's 2011 Table 3 plots the 04:39 location about 3 km from the site. Airborne sighting, a radio fix, and ground access are different milestones.",
+      "sources": [
+        "s1",
+        "s3"
+      ]
+    },
+    {
+      "about": "Night rescue opportunity",
+      "a": "Antonucci's later account says a US helicopter was ready to lower personnel nearby when ordered to leave.",
+      "b": "JTSB describes position errors, night-flight hazards and limited documentation. The original US operational record and proof of how many additional lives could have been saved were not obtained.",
+      "sources": [
+        "s1",
+        "s3",
+        "s12"
+      ]
+    },
+    {
+      "about": "Why Boeing's repair team used a divided splice",
+      "a": "FAA teaching material attributes the divided plate to installation difficulty; a 2026 news report says Boeing removed similar wording and apologized for confusion.",
+      "b": "The 1987 investigation establishes the physical error but does not establish the full human decision process. On 28 October 2026 MLIT reported that Boeing claimed no new facts and FAA had no additional information.",
+      "sources": [
+        "s1",
+        "s5",
+        "s10",
+        "s11"
+      ]
+    },
+    {
+      "about": "Decompression interpretation",
+      "a": "Critics argue that the absence of remembered violent wind or cold and the crew's mask behaviour contradict a rapid pressure loss.",
+      "b": "JTSB explains these experiences as compatible with a brief decompression and points to masks, mist, structural damage and recorder evidence. Recollection is not a cabin-pressure recording.",
+      "sources": [
+        "s1",
+        "s3"
+      ]
+    }
+  ],
+  "unknowns": [
+    "No machine-readable decoded DFDR sample file, original radar-coordinate series, or full ATC surveillance tape was obtained. The available numeric commentary and scanned plots were inspected; do not treat the resulting sparse fields as a continuous measured trajectory.",
+    "The track deliberately extends the requested shape with pressure_alt_ft and cas_kt. ALT1 is pressure altitude and CAS1 is calibrated airspeed; true MSL flight altitude and IAS were not recovered at each timestamp, so alt_ft and ias_kt remain null. No pressure-to-geometric-altitude or CAS-to-IAS conversion is invented.",
+    "The final-path map is a published AAIC reconstruction. The datum is not explicitly identified on the inspected figure; Tokyo Datum is an assumption based on the map date and Japanese mapping history. The WGS84 conversion and manually digitized points are approximate. Round-off to 0.001 degree is not a confidence radius; final ridge contact points require finer surveyed georeferencing before close-up animation.",
+    "Before 18:46:03 JST no gridded geographic path was digitized. The general map in Attached Figure 1 was inspected, but its schematic line was not turned into invented precise coordinates. Earlier track positions are null.",
+    "Even after 18:46:03, recorder attitude points with no independently matching model timestamp keep their coordinates null. Do not merge or interpolate them as if a complete six-degree-of-freedom recorder solution existed.",
+    "Exact final-rest time is unknown here. The last analysable DFDR set at 18:56:27.25 JST, first tree contact and later terrain contacts are distinct events. The report gives an overall impact minute, not an independently synchronized final-rest instant.",
+    "Exact nose-gear state at every point, full individual engine thrust histories, geometric MSL heights, ground speed, wind corrections and angle of attack at most timestamps were not extracted. No values are carried forward merely to fill the schema.",
+    "The requested final-minute density is limited by plotted rather than tabulated records. Only selected onset plot values were digitized; final attitudes and other numerical points come from the report's explicit DFDR commentary. Plot readings are approximate and must not be displayed with raw-sample precision.",
+    "Historical airport reference-point elevations and coordinates of each 1985 planned navigation fix were not verified. Current facility coordinates are supplied for Haneda and Itami only; historical airport elevations and waypoint coordinates are null.",
+    "Cloud tops, site-specific cloud layers, visibility, wind, temperature, turbulence, lightning, moon visibility and weather in individual ravines were not found. Airport cloud-height datum is unspecified; observations are not a measured weather field along the path. No sea-state observation was found.",
+    "The two main crash-site elevations, two flap times and conflicting late-flight altitude descriptions remain explicit in conflicts; the Japanese original controls if the tentative English translation differs.",
+    "The original Pacific Stars and Stripes page of 27 August 1995, C-130 mission log, helicopter crew log, command-post recording and written withdrawal order were not obtained. Antonucci is cited through the identified reproduction, without treating it as a declassified military record.",
+    "The number, identities and potential survival time of people who may have remained alive after impact cannot be established from the material obtained. No numerical claim that a particular number would have been saved is made.",
+    "Not all detached vertical-fin, rudder and aft-body debris was recovered. A later reported seabed object remains unidentified in the official 2025 testimony; its coordinates, dimensions and relationship to JA8119 are not asserted.",
+    "The precise reason individual repair workers departed from instructions is still not established by the sources obtained. The 2024-2026 web explanations, withdrawal and October 2026 official replies do not supply a new documented interview or original work record.",
+    "No reopened investigation or new official causal finding was found in searches covering 2024 through 7 November 2026. Continuing advocacy is documented separately from established physical evidence.",
+    "An accident-day colour photograph or paint record establishing every marking was not obtained. Livery notes use a specifically dated 1984 photograph and do not establish every decal on the accident date."
+  ],
+  "memorial_note": "This flight carried 509 passengers and 15 crew members; 520 people died, and four passengers survived.",
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Aircraft Accident Investigation Report 62-2: Japan Air Lines JA8119, Boeing 747 SR-100 (tentative English translation)",
+      "publisher": "Aircraft Accident Investigation Commission, Ministry of Transport, Japan; hosted by FAA",
+      "year": 1987,
+      "url": "https://www.faa.gov/sites/faa.gov/files/JAL123_Acc_Report.pdf",
+      "type": "official_report",
+      "opened": true,
+      "notes": "Downloaded with curl and extracted with PyMuPDF; 332 PDF pages. Image-only pages, map, weather table and airframe drawing were also rendered and inspected. Japanese original governs. Body section 2.1 starts on PDF p.17, printed p.6. Attachment 5 numerical commentary is on PDF pp.289-292; Attachment 6 official CVR transcript is on PDF pp.293-332. Times are JST; subtract nine hours using s6. Aircraft dimensions below are derived from Attached Figure 4: 231 ft 4 in, 195 ft 8 in, 63 ft 5 in, and fuselage width 21 ft 4 in, converted with 0.3048 m/ft. Sweep is the published quarter-chord angle."
+    },
+    {
+      "id": "s2",
+      "title": "Report 62-2, Japanese original, part 11: DFDR plots and CVR",
+      "publisher": "Aircraft Accident Investigation Commission; Ministry of Land, Infrastructure, Transport and Tourism archive",
+      "year": 1987,
+      "url": "https://www.mlit.go.jp/jtsb/aircraft/download/62-2-JA8119-11.pdf",
+      "type": "recorder_data",
+      "opened": true,
+      "notes": "Downloaded with curl; 77 scanned PDF pages. Inspected DFDR Figures 1 and 2, PDF pp.1-12, and enlarged onset plots, PDF pp.37-39. Left panels are the corrected records; right panels marked error-uncorrected were not used. Manual graph readings are derived, rounded, and not raw digital samples. HDG is magnetic; pitch positive nose up and roll positive right. ALT1 is pressure altitude and CAS1 is calibrated airspeed. Extra pressure_alt_ft and cas_kt fields preserve these without mislabelling them as MSL altitude or IAS."
+    },
+    {
+      "id": "s3",
+      "title": "Explanation of the investigation report on the JAL Flight 123 accident at Osutaka",
+      "publisher": "Japan Transport Safety Board Secretariat",
+      "year": 2011,
+      "url": "https://www.mlit.go.jp/jtsb/kaisetsu/nikkou123-kaisetsu.pdf",
+      "type": "official_report",
+      "opened": true,
+      "notes": "Downloaded with curl, extracted and read; 38 PDF pages. Published July 2011. Printed pp.1-12 explain decompression and oxygen masks; pp.15-17 address alternative mechanisms; pp.18-20 discuss rescue; pp.21-25 discuss the seabed search. It explicitly adds no new causal finding to the 1987 report. Its introduction acknowledges inadequate earlier explanations to families and limited rescue documentation."
+    },
+    {
+      "id": "s4",
+      "title": "Report 62-2 technical addenda: Addendum 6, flight motion and path reconstructed from DFDR",
+      "publisher": "Aircraft Accident Investigation Commission; Ministry of Land, Infrastructure, Transport and Tourism archive",
+      "year": 1987,
+      "url": "https://www.mlit.go.jp/jtsb/aircraft/download/62-2-JA8119-huroku.pdf",
+      "type": "official_report",
+      "opened": true,
+      "notes": "Downloaded with curl; 210 scanned PDF pages. Inspected contents and Addendum 6 analysis and figures. Printed p.129, PDF p.131, Figure 12 has a geographic grid and time-marked reconstructed path from 18:46:03 to impact. Positions below were manually digitized from this published AAIC model, not recovered as radar observations. Grid georeferencing and the assumed Tokyo-datum conversion are described in each point."
+    },
+    {
+      "id": "s5",
+      "title": "Lessons Learned: Boeing 747-SR100, Japan Airlines Flight 123, JA8119",
+      "publisher": "Federal Aviation Administration",
+      "year": null,
+      "url": "https://www.faa.gov/lessons_learned/transport_airplane/accidents/JA8119",
+      "type": "official_report",
+      "opened": true,
+      "notes": "Opened and read, especially Prevailing Cultural / Organizational Factors, Accident Board Recommendations, and Resulting Safety Initiatives. Current teaching summary, not a separate accident investigation. It describes difficulty installing the splice plate; the evidential basis of that explanation is addressed by s10. Publication year not established."
+    },
+    {
+      "id": "s6",
+      "title": "Japan Standard Time",
+      "publisher": "National Institute of Information and Communications Technology",
+      "year": null,
+      "url": "https://www.nict.go.jp/sts/jst.html",
+      "type": "dataset",
+      "opened": true,
+      "notes": "Opened. NICT defines JST as UTC plus nine hours. All 1985 flight and rescue times in s1-s4 are converted by subtracting nine hours, including the UTC date change for the following morning. Unknown publication year."
+    },
+    {
+      "id": "s7",
+      "title": "Airport codes dataset: RJTT, RJOO and RJTY facility records",
+      "publisher": "DataHub datasets project, using OurAirports data",
+      "year": 2026,
+      "url": "https://raw.githubusercontent.com/datasets/airport-codes/master/data/airport-codes.csv",
+      "type": "dataset",
+      "opened": true,
+      "notes": "Downloaded with curl and opened as CSV on 7 November 2026. These are current airport reference points, not 1985 runway thresholds or flight positions. RJTT: 35.549678,139.786958,35 ft; RJOO: 34.780853,135.440829,50 ft; RJTY: 35.748501,139.348007. Current data do not establish historical airport elevations."
+    },
+    {
+      "id": "s8",
+      "title": "Geodetic survey: changes to Japan's reference systems",
+      "publisher": "Geospatial Information Authority of Japan",
+      "year": null,
+      "url": "https://www.gsi.go.jp/ENGLISH/page_e30030.html",
+      "type": "dataset",
+      "opened": true,
+      "notes": "Opened. Japan changed from its older system to JGD2000 in April 2002. This supports treating a 1987 map as probably Tokyo Datum, but does not independently prove the datum of the accident map. For approximate globe display, the assumed Tokyo coordinates were transformed to WGS84 with PROJ Tokyo to WGS 84 (108), translations x=-146.414,y=507.337,z=680.507 m. Datum assumption and map-reading errors dominate; these coordinates are not exact surveyed positions."
+    },
+    {
+      "id": "s9",
+      "title": "House of Representatives Land, Infrastructure, Transport and Tourism Committee, 2 April 2025",
+      "publisher": "National Diet Library, official Diet minutes",
+      "year": 2025,
+      "url": "https://kokkai.ndl.go.jp/simple/detail?minId=121704319X00520250402",
+      "type": "inquiry",
+      "opened": true,
+      "notes": "Opened; exchanges 37-42. Legislator Keisuke Tsumura asks about the report wording and an unidentified object in Sagami Bay. JTSB chair Kenichi Rinoie explains that the Japanese term translated as estimated expresses a strong inference, and says the object does not meet the new-and-significant-evidence threshold for reopening. This is testimony, not identification of the object."
+    },
+    {
+      "id": "s10",
+      "title": "Results of inquiries concerning the improper repair of the JAL Flight 123 aircraft",
+      "publisher": "Japan Ministry of Land, Infrastructure, Transport and Tourism, Civil Aviation Bureau",
+      "year": 2026,
+      "url": "https://www.mlit.go.jp/koku/koku_15_bf_004400_00001.html",
+      "type": "contemporary_record",
+      "opened": true,
+      "notes": "Opened; dated 28 October 2026. Boeing says its website contained no new facts and followed FAA material; FAA says it has nothing to add beyond its website. MLIT shared the responses with JTSB. This is the latest directly relevant official development found before the 7 November 2026 research cutoff."
+    },
+    {
+      "id": "s11",
+      "title": "Boeing removes repair-error explanation and apologizes to JAL, 41 years after crash (page 2)",
+      "publisher": "Sankei Shimbun, republished by ITmedia Business Online",
+      "year": 2026,
+      "url": "https://www.itmedia.co.jp/business/articles/2608/12/news087_2.html",
+      "type": "news",
+      "opened": true,
+      "notes": "Opened all three article pages; dated 12 August 2026. Page 2 reports that Boeing removed wording about installation difficulty and apologized for confusion, according to JAL. This secondary report concerns the explanation of the repair error, not new recorder or metallurgical evidence. The later official response is s10."
+    },
+    {
+      "id": "s12",
+      "title": "Examining Darkness of Audit/Policy/Ethics in Investigations of the incidents",
+      "publisher": "Tsutomu Tomotsune, jsn Journal, volume 7 number 2",
+      "year": 2017,
+      "url": "https://jsat.or.th/wp-content/uploads/2018/01/jsn_v7_n2_full.pdf",
+      "type": "advocacy",
+      "opened": true,
+      "notes": "Downloaded with curl, extracted and read the article, printed pp.1-11, PDF pp.9-19. Journal landing page also opened: https://so04.tci-thaijo.org/index.php/jsn/article/view/107834 . This invited humanities critique is not an engineering re-investigation. Printed pp.5-6 reproduce an edited extract of Michael Antonucci's first-person account, attributed to Pacific Stars and Stripes, 27 August 1995. Original newspaper issue and contemporaneous US military mission logs were not obtained. Printed p.7 describes Aoyama's and Yoshihara's external-object claims; the author acknowledges absence of decisive material evidence."
+    },
+    {
+      "id": "s13",
+      "title": "JA8119 at Itami Airport in 1984, photograph",
+      "publisher": "Wikimedia Commons photograph archive",
+      "year": 1984,
+      "url": "https://commons.wikimedia.org/wiki/File:Japan_Airlines_B747SR-46_(JA8119)_at_Itami_Airport_in_1984.jpg",
+      "type": "contemporary_record",
+      "opened": true,
+      "notes": "Opened the file page, downloaded the original photograph, and visually inspected it. Establishes appearance on the photographed occasion, not every marking on 12 August 1985."
+    },
+    {
+      "id": "s14",
+      "title": "Activities seeking a reinvestigation in the 41st year",
+      "publisher": "Association seeking to clarify the truth of the JAL Flight 123 crash",
+      "year": 2026,
+      "url": "https://jalflight123.wixsite.com/mysite/年目の再調査運動",
+      "type": "advocacy",
+      "opened": true,
+      "notes": "Opened. Statement dated 9 August 2026 calls for raw-data disclosure and reinvestigation. It is evidence of continuing advocacy, not independent proof of the asserted cause."
+    },
+    {
+      "id": "s15",
+      "title": "Safety Promotion Center",
+      "publisher": "Japan Airlines",
+      "year": null,
+      "url": "https://www.jal.com/ja-jp/safety/center/",
+      "type": "contemporary_record",
+      "opened": true,
+      "notes": "Opened. Airline account of the accident, preserved wreckage and safety education. Current page; original publication year not established. The web reader returned and opened the page; an independent curl recheck returned HTTP 403, so automated access is inconsistent."
+    }
+  ]
+}

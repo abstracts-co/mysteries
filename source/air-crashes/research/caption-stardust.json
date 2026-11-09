@@ -1,0 +1,160 @@
+{
+  "id": "stardust",
+  "events": [
+    {
+      "i": 0,
+      "c": "Forecasts warned of snowstorms and cloud; the crew had been briefed to avoid the central route."
+    },
+    {
+      "i": 1,
+      "c": "Five crew members and six passengers departed for Santiago, planning to fly via Mendoza."
+    },
+    {
+      "i": 2,
+      "c": "The crew reported flying at 10,000 feet and expected to reach Santiago at 17:30 UTC."
+    },
+    {
+      "i": 3,
+      "c": "The crew again reported 10,000 feet. Their expected arrival time remained unchanged."
+    },
+    {
+      "i": 4,
+      "c": "The crew received destination weather describing clouds and improving visibility at Los Cerrillos."
+    },
+    {
+      "i": 5,
+      "c": "Near Mendoza, the crew reported climbing from 20,000 toward 24,000 feet and revised their arrival estimate."
+    },
+    {
+      "i": 6,
+      "c": "The crew revised their expected arrival to 17:45 UTC. Their position and altitude are unknown."
+    },
+    {
+      "i": 7,
+      "c": "The final message confirmed the expected arrival time and ended with a radio word."
+    },
+    {
+      "i": 8,
+      "c": "The Santiago operator requested clarification. The aircraft repeated the word twice; the exact times aren't known."
+    },
+    {
+      "i": 9,
+      "c": "The aircraft struck Tupungato in cloud, killing all eleven aboard. The exact time isn't known."
+    },
+    {
+      "i": 10,
+      "c": "Los Cerrillos broadcast an announcement that the aircraft was missing."
+    },
+    {
+      "i": 11,
+      "c": "Air traffic control presumed the aircraft had crashed because its estimated fuel supply would have run out."
+    },
+    {
+      "i": 12,
+      "c": "The airline notified the British ministry by telephone in London the next day."
+    },
+    {
+      "i": 13,
+      "c": "Searches began as weather improved. Argentine and Chilean aircraft and ground patrols found no confirmed trace."
+    },
+    {
+      "i": 14,
+      "c": "Three Chilean military aircraft joined the search on August 5."
+    },
+    {
+      "i": 15,
+      "c": "A U.S. aircraft searched Tupungato and nearby mountains on August 7, finding no confirmed wreckage."
+    },
+    {
+      "i": 16,
+      "c": "A British mission was sent on August 18 and searched San Juan and Mendoza."
+    },
+    {
+      "i": 17,
+      "c": "The British mission suspended its search on August 21. The aircraft remained missing."
+    },
+    {
+      "i": 18,
+      "c": "An investigator visited the region on August 31. The wreckage had still not been found."
+    },
+    {
+      "i": 19,
+      "c": "Without wreckage, the first inquiry could not establish a cause. Severe ice buildup remained a possibility."
+    },
+    {
+      "i": 20,
+      "c": "Two mountaineers found aircraft remains on Tupungato in 1998."
+    },
+    {
+      "i": 21,
+      "c": "Searchers returned in January 2000 and found wreckage and material identifying the aircraft."
+    },
+    {
+      "i": 22,
+      "c": "Two Argentine Air Force helicopters landed and photographed the wreckage in February 2000."
+    },
+    {
+      "i": 23,
+      "c": "A military patrol and an investigator reached the wreckage. The exact date is uncertain."
+    },
+    {
+      "i": 24,
+      "c": "Damage suggested one engine was turning at impact and the main wheels were retracted."
+    },
+    {
+      "i": 25,
+      "c": "Glacier ice carried the wreckage downhill. An avalanche may have buried it after impact."
+    },
+    {
+      "i": 26,
+      "c": "Investigators concluded that an incorrect speed calculation and bad mountain weather contributed to the aircraft descending too soon."
+    },
+    {
+      "i": 27,
+      "c": "DNA comparisons were reported in 2002. The final number of people identified remains unknown."
+    },
+    {
+      "i": 28,
+      "c": "The final radio word remains unexplained despite later claims."
+    }
+  ],
+  "numbers": [
+    {
+      "i": 0,
+      "label": "People aboard",
+      "value": "11; no survivors"
+    },
+    {
+      "i": 1,
+      "label": "Last reported coordinates",
+      "value": "17:00 UTC"
+    },
+    {
+      "i": 2,
+      "label": "Final radio word",
+      "value": "STENDEC; repeated twice"
+    },
+    {
+      "i": 3,
+      "label": "Estimated fuel endurance",
+      "value": "About 6½–6¾ hours"
+    },
+    {
+      "i": 4,
+      "label": "Recovered wreckage spread",
+      "value": "About 800 meters in radius"
+    },
+    {
+      "i": 5,
+      "label": "Estimated headwind",
+      "value": "At least 100 knots"
+    },
+    {
+      "i": 6,
+      "label": "Time before first reported discovery",
+      "value": "About 51 years"
+    }
+  ],
+  "one_line": "Star Dust struck Tupungato in cloud; glacier ice concealed the wreckage for decades.",
+  "status_why": "Wreckage established a mountain collision after a navigation error; the precise descent and final radio word remain unexplained."
+}

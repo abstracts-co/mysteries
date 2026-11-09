@@ -1,0 +1,244 @@
+{
+  "id": "jal123",
+  "events": [
+    {
+      "i": 0,
+      "c": "An earlier landing damaged the rear fuselage and the wall that holds cabin pressure."
+    },
+    {
+      "i": 1,
+      "c": "An incorrect repair left part of the pressure wall's joint weakened. Inspectors missed the error."
+    },
+    {
+      "i": 2,
+      "c": "The flight taxied out with the first officer training for command and the captain in the right seat."
+    },
+    {
+      "i": 3,
+      "c": "The aircraft began its takeoff run."
+    },
+    {
+      "i": 4,
+      "c": "The aircraft took off from Haneda for Osaka."
+    },
+    {
+      "i": 5,
+      "c": "Controllers approved a direct route to Seaperch as the aircraft climbed."
+    },
+    {
+      "i": 6,
+      "c": "A loud sound accompanied unusual movement. The repaired pressure wall likely failed, damaging the rear fuselage and tail."
+    },
+    {
+      "i": 7,
+      "c": "The aircraft abruptly accelerated forward."
+    },
+    {
+      "i": 8,
+      "c": "The autopilot switched off."
+    },
+    {
+      "i": 9,
+      "c": "The captain requested a descent and a return to Haneda."
+    },
+    {
+      "i": 10,
+      "c": "The crew acknowledged instructions to turn right, but the aircraft did not follow the intended return route."
+    },
+    {
+      "i": 11,
+      "c": "The aircraft began repeatedly climbing, descending, and swaying. The controls could not stop this after hydraulic control failed."
+    },
+    {
+      "i": 12,
+      "c": "Rescue coordinators began gathering information about the aircraft's emergency."
+    },
+    {
+      "i": 13,
+      "c": "The captain told controllers the aircraft could not be controlled."
+    },
+    {
+      "i": 14,
+      "c": "Controllers offered Nagoya as a landing option. The crew again requested Haneda."
+    },
+    {
+      "i": 15,
+      "c": "The flight engineer urged oxygen mask use. It is unclear whether the flight crew wore them."
+    },
+    {
+      "i": 16,
+      "c": "The main landing gear extended."
+    },
+    {
+      "i": 17,
+      "c": "The sun set at the crash site at about 6:40 p.m."
+    },
+    {
+      "i": 18,
+      "c": "Engine power fell substantially, and the aircraft descended faster."
+    },
+    {
+      "i": 19,
+      "c": "The crew again requested directions to Haneda. Controllers gave an eastward heading and a runway."
+    },
+    {
+      "i": 20,
+      "c": "Mountains increasingly disrupted radar tracking of the aircraft."
+    },
+    {
+      "i": 21,
+      "c": "Airspeed reached its recorded minimum of 108 knots, with the wing at a steep angle to the airflow."
+    },
+    {
+      "i": 22,
+      "c": "Movable panels along the wings' front edges began extending, except those on the outer sections."
+    },
+    {
+      "i": 23,
+      "c": "The panels along the wings' front edges finished extending, except those on the outer sections."
+    },
+    {
+      "i": 24,
+      "c": "The crew asked their position. Controllers described where the aircraft was relative to Haneda and Kumagaya."
+    },
+    {
+      "i": 25,
+      "c": "Controllers told the crew that both Haneda and Yokota were available for landing."
+    },
+    {
+      "i": 26,
+      "c": "The flaps began retracting as the aircraft tilted farther to the right."
+    },
+    {
+      "i": 27,
+      "c": "The aircraft's nose dropped into a steep descent, and engine power increased."
+    },
+    {
+      "i": 28,
+      "c": "The aircraft crashed on the ridge at about 6:56 p.m. The exact time it stopped is unknown."
+    },
+    {
+      "i": 29,
+      "c": "The aircraft pointed about 36 degrees nose down and tilted about 70 degrees to the right."
+    },
+    {
+      "i": 30,
+      "c": "A warning sounded about nearby ground. Engine power increased, and the descent briefly stopped."
+    },
+    {
+      "i": 31,
+      "c": "The right wing struck trees near a ridge. The outer right engine likely broke away."
+    },
+    {
+      "i": 32,
+      "c": "The aircraft struck another ridge, then continued toward the main crash ridge."
+    },
+    {
+      "i": 33,
+      "c": "The final flight recorder reading shows the nose steeply down and the aircraft rolled beyond vertical."
+    },
+    {
+      "i": 34,
+      "c": "Rescue coordinators received notice that the aircraft had disappeared from radar."
+    },
+    {
+      "i": 35,
+      "c": "Two Japanese fighter jets took off to search for the aircraft."
+    },
+    {
+      "i": 36,
+      "c": "A US military transport aircraft reported a fire, but its reported position was about three kilometers off."
+    },
+    {
+      "i": 37,
+      "c": "Two fighter jets reported flames, but their reported position was about six kilometers off."
+    },
+    {
+      "i": 38,
+      "c": "A Japanese rescue helicopter observed flames, but its reported position was about four kilometers off."
+    },
+    {
+      "i": 39,
+      "c": "A US navigator later recalled orders to return despite a helicopter's offer to lower rescuers nearby."
+    },
+    {
+      "i": 40,
+      "c": "A helicopter's attempt to guide police from the air failed, about two kilometers from the crash site."
+    },
+    {
+      "i": 41,
+      "c": "Military searchers reported finding wreckage, but their reported position was about three kilometers from the crash site."
+    },
+    {
+      "i": 42,
+      "c": "A police helicopter identified the crash site."
+    },
+    {
+      "i": 43,
+      "c": "Rescuers found four survivors among the wreckage. All had been seated in the rear cabin."
+    },
+    {
+      "i": 44,
+      "c": "All four survivors had been freed from the wreckage."
+    },
+    {
+      "i": 45,
+      "c": "A military helicopter carried all four survivors away for medical treatment."
+    },
+    {
+      "i": 46,
+      "c": "Investigators linked an incorrect repair to cracking, pressure wall failure, and loss of tail and hydraulic control."
+    },
+    {
+      "i": 47,
+      "c": "Safety investigators addressed disputed issues and acknowledged gaps in earlier explanations and rescue records."
+    },
+    {
+      "i": 48,
+      "c": "The safety board said an unidentified seabed object did not justify reopening the investigation."
+    },
+    {
+      "i": 49,
+      "c": "Boeing reported no new repair facts; the aviation regulator supplied no additional information."
+    }
+  ],
+  "numbers": [
+    {
+      "i": 0,
+      "label": "People who died",
+      "value": "520 of 524 aboard"
+    },
+    {
+      "i": 1,
+      "label": "Crew aboard",
+      "value": "3 flight crew; 12 cabin crew"
+    },
+    {
+      "i": 2,
+      "label": "Landings after repair, before accident flight",
+      "value": "12,319"
+    },
+    {
+      "i": 3,
+      "label": "Estimated strength of repaired joint",
+      "value": "About 70% of original strength"
+    },
+    {
+      "i": 4,
+      "label": "Sound to final flight recorder reading",
+      "value": "About 31 minutes 52 seconds"
+    },
+    {
+      "i": 5,
+      "label": "Lowest recorded airspeed",
+      "value": "108 knots"
+    },
+    {
+      "i": 6,
+      "label": "Final recorded tilt to the right",
+      "value": "131.5 degrees"
+    }
+  ],
+  "one_line": "An incorrectly repaired pressure wall failed, damaging the tail and controls before a mountain crash.",
+  "status_why": "Wreckage and flight recordings support the repair failure explanation; questions remain about rescue decisions and why the repair went wrong."
+}

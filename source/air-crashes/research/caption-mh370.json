@@ -1,0 +1,287 @@
+{
+  "id": "mh370",
+  "events": [
+    {
+      "i": 0,
+      "c": "The first officer requested clearance for the flight to Beijing."
+    },
+    {
+      "i": 1,
+      "c": "The crew requested permission to push back and start the engines. No distress was reported."
+    },
+    {
+      "i": 2,
+      "c": "The tower cleared MH370 for takeoff."
+    },
+    {
+      "i": 3,
+      "c": "MH370 departed Kuala Lumpur at about 16:42 UTC. The exact takeoff time isn't known."
+    },
+    {
+      "i": 4,
+      "c": "Controllers cleared the aircraft to fly directly to IGARI and climb toward its assigned height."
+    },
+    {
+      "i": 5,
+      "c": "Controllers cleared the aircraft to climb higher."
+    },
+    {
+      "i": 6,
+      "c": "Controllers cleared the aircraft to climb to its cruising height."
+    },
+    {
+      "i": 7,
+      "c": "The crew reported reaching cruising height; automatic data also showed the aircraft near that level."
+    },
+    {
+      "i": 8,
+      "c": "The last automatic position message was sent, containing six earlier positions."
+    },
+    {
+      "i": 9,
+      "c": "The crew again reported flying at cruising height. No problem was announced."
+    },
+    {
+      "i": 10,
+      "c": "Controllers instructed MH370 to contact Ho Chi Minh control, but no contact with that center followed."
+    },
+    {
+      "i": 11,
+      "c": "The captain acknowledged the handover in the last recorded radio reply."
+    },
+    {
+      "i": 12,
+      "c": "The aircraft sent its last radar reply to Kota Bharu; its symbol remained on screens afterward."
+    },
+    {
+      "i": 13,
+      "c": "The aircraft passed near IGARI."
+    },
+    {
+      "i": 14,
+      "c": "The aircraft sent its last position broadcast. Missing height data do not show a plunge to ground level."
+    },
+    {
+      "i": 15,
+      "c": "One of the aircraft's radar symbols disappeared from controllers' screens."
+    },
+    {
+      "i": 16,
+      "c": "The aircraft's final position symbol disappeared from Kuala Lumpur radar. Military radar later tracked its turnback."
+    },
+    {
+      "i": 17,
+      "c": "Radar detected the returning aircraft near Kota Bharu, but did not reliably establish its height."
+    },
+    {
+      "i": 18,
+      "c": "Ho Chi Minh controllers asked Kuala Lumpur about the missing contact with MH370."
+    },
+    {
+      "i": 19,
+      "c": "The first officer's phone registered near Penang. No call or message was recorded."
+    },
+    {
+      "i": 20,
+      "c": "The airline repeatedly sent messages asking the crew to contact Ho Chi Minh. The aircraft never acknowledged them."
+    },
+    {
+      "i": 21,
+      "c": "Military radar last detected the aircraft beyond MEKAR. No later exact position was recorded."
+    },
+    {
+      "i": 22,
+      "c": "The aircraft reconnected to the satellite network, probably after a power interruption. The cause is unknown."
+    },
+    {
+      "i": 23,
+      "c": "The aircraft's satellite equipment responded to an incoming call, but the call went unanswered."
+    },
+    {
+      "i": 24,
+      "c": "The aircraft answered a satellite check. The data narrowed its possible location to a curve."
+    },
+    {
+      "i": 25,
+      "c": "Another satellite reply narrowed the aircraft's possible location to a curve, without identifying an exact position."
+    },
+    {
+      "i": 26,
+      "c": "Kuala Lumpur activated its rescue coordination center after a prolonged loss of contact."
+    },
+    {
+      "i": 27,
+      "c": "The aircraft answered another satellite check, narrowing its possible location without giving an exact position."
+    },
+    {
+      "i": 28,
+      "c": "Kuala Lumpur declared a distress phase. The declaration came from controllers, rather than the aircraft."
+    },
+    {
+      "i": 29,
+      "c": "Another satellite reply narrowed the aircraft's possible location to a curve, without identifying an exact position."
+    },
+    {
+      "i": 30,
+      "c": "A second satellite call went unanswered, although the aircraft's equipment responded."
+    },
+    {
+      "i": 31,
+      "c": "The aircraft responded to a sixth satellite check, providing further satellite timing and frequency data."
+    },
+    {
+      "i": 32,
+      "c": "The aircraft's satellite equipment requested another connection to the network."
+    },
+    {
+      "i": 33,
+      "c": "The final aircraft transmission suggested a rapid descent, but did not establish when or where impact occurred."
+    },
+    {
+      "i": 34,
+      "c": "A later satellite check received no reply from the aircraft."
+    },
+    {
+      "i": 35,
+      "c": "Satellite analysis indicated the flight ended in the southern Indian Ocean, but did not establish an exact location."
+    },
+    {
+      "i": 36,
+      "c": "The aerial search ended without confirmed MH370 debris. The search shifted toward the seabed."
+    },
+    {
+      "i": 37,
+      "c": "A moving part of the right wing was found on Réunion and later confirmed to be from MH370."
+    },
+    {
+      "i": 38,
+      "c": "A piece of the left wing was found in Mauritius and later confirmed to be from MH370."
+    },
+    {
+      "i": 39,
+      "c": "A right wing section found on Pemba Island was linked to MH370 through its identifying numbers."
+    },
+    {
+      "i": 40,
+      "c": "A review recommended searching about 25,000 additional square kilometers, north of much of the earlier search."
+    },
+    {
+      "i": 41,
+      "c": "The government search stopped after covering more than 120,000 square kilometers without finding the main wreckage."
+    },
+    {
+      "i": 42,
+      "c": "A review of the search left the cause of the disappearance unknown."
+    },
+    {
+      "i": 43,
+      "c": "Ocean Infinity began searching the seabed and later expanded its search area."
+    },
+    {
+      "i": 44,
+      "c": "Ocean Infinity ended its search without finding the aircraft, after surveying more than 112,000 square kilometers."
+    },
+    {
+      "i": 45,
+      "c": "Investigators found the turnback likely involved manual control. Who controlled the aircraft and why remain unknown."
+    },
+    {
+      "i": 46,
+      "c": "A proposed final location based on radio signals remained disputed by specialists."
+    },
+    {
+      "i": 47,
+      "c": "Australian investigators continued encouraging more frequent aircraft tracking and equipment that automatically tracks aircraft in distress."
+    },
+    {
+      "i": 48,
+      "c": "A study proposed a controlled eastward descent, but provided no new confirmed wreckage location."
+    },
+    {
+      "i": 49,
+      "c": "Malaysia approved a renewed Ocean Infinity search in principle. A signed contract followed later."
+    },
+    {
+      "i": 50,
+      "c": "Malaysia signed a search agreement covering about 15,000 square kilometers. Some surveying had already taken place."
+    },
+    {
+      "i": 51,
+      "c": "The first search phase under the contract ended after running from March 25 to 28, 2025."
+    },
+    {
+      "i": 52,
+      "c": "The second search phase under the contract began on December 31, 2025."
+    },
+    {
+      "i": 53,
+      "c": "Ocean Infinity left the search area without confirmed wreckage findings, after both phases covered about 7,571 square kilometers."
+    },
+    {
+      "i": 54,
+      "c": "Malaysia and Ocean Infinity told families that MH370's location remained unconfirmed."
+    },
+    {
+      "i": 55,
+      "c": "Malaysia extended the search agreement through June 30, 2027. A restart date was not confirmed."
+    },
+    {
+      "i": 56,
+      "c": "Radar records distinguish the aircraft's last replies from symbols that remained on screens afterward."
+    }
+  ],
+  "numbers": [
+    {
+      "i": 0,
+      "label": "People aboard",
+      "value": "239"
+    },
+    {
+      "i": 1,
+      "label": "Fuel at last automatic reading",
+      "value": "43,800 kg"
+    },
+    {
+      "i": 2,
+      "label": "Positions in last automatic message",
+      "value": "6"
+    },
+    {
+      "i": 3,
+      "label": "Final satellite frequency data",
+      "value": "182 Hz, then −2 Hz"
+    },
+    {
+      "i": 4,
+      "label": "Government seabed search area",
+      "value": "More than 120,000 square kilometers"
+    },
+    {
+      "i": 5,
+      "label": "Ocean Infinity 2018 survey area",
+      "value": "More than 112,000 square kilometers"
+    },
+    {
+      "i": 6,
+      "label": "Contracted 2025–2026 search area",
+      "value": "About 7,571 square kilometers"
+    },
+    {
+      "i": 7,
+      "label": "Search area remaining in June 2026",
+      "value": "7,428.54 square kilometers"
+    },
+    {
+      "i": 8,
+      "label": "Aircraft parts confirmed by 2018",
+      "value": "3"
+    },
+    {
+      "i": 9,
+      "label": "Conditional final descent estimate",
+      "value": "13,800–25,300 feet per minute downward"
+    }
+  ],
+  "one_line": "MH370 disappeared after leaving its route; its final location in the southern Indian Ocean remains unknown.",
+  "status_why": "Radar, satellite data, and confirmed debris provide clues, but the main wreckage and cause remain unknown."
+}

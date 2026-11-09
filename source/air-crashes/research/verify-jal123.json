@@ -1,0 +1,24 @@
+{
+  "id": "jal123",
+  "checked": 168,
+  "errors": [
+    {
+      "severity": "wrong",
+      "where": "jal123.json: site.description; conflicts[0]; evidence_points[0].detail; unknowns[10]",
+      "says": "The report gives conflicting main-site elevations, 1,585 m in section 2.1 and 1,565 m in section 2.3; conflicts[0].a converts the former to about 5,200 ft.",
+      "should_be": "Both sections give approximately 1,565 m (approximately 5,135 ft). Remove the claimed elevation conflict and its dependent references. A null elevation may be retained as an editorial choice, but this supposed source disagreement does not justify it.",
+      "evidence": "s1, sections 2.1 and 2.3, printed p.8 / PDF p.19: both printed figures are 1,565 m. Independently confirmed in the governing Japanese original, part 01, PDF p.26, sections 2.1 and 2.3: both say 標高約1,565メートル. Japanese original downloaded successfully at https://jtsb.mlit.go.jp/aircraft/download/62-2-JA8119-01.pdf .",
+      "url": "https://www.faa.gov/sites/faa.gov/files/JAL123_Acc_Report.pdf"
+    },
+    {
+      "severity": "misleading",
+      "where": "index-lines.json[7][2]",
+      "says": "32 minutes without a tail fin",
+      "should_be": "About 32 minutes after losing much of the vertical fin and hydraulic flight control. Part of the vertical fin remained attached until the final terrain contacts.",
+      "evidence": "s1, section 4.1.6.4, printed p.125 / PDF p.136, describes separation of portions of the fin, including the upper half of its forward torque box and most of its aft torque box. Section 4.1.8.1, printed p.127 / PDF p.138, explicitly describes the remaining vertical fin separating at the final contacts. Section 3.1.7.4, printed p.80 / PDF p.91, also describes that remaining fin. The rounded duration is reasonable; complete absence of the fin throughout that interval is not.",
+      "url": "https://www.faa.gov/sites/faa.gov/files/JAL123_Acc_Report.pdf"
+    }
+  ],
+  "dead_links": [],
+  "notes": "Independent audit of the copies in verify/jal123; research inputs were not edited. The 168 checks comprise date (1), people values (6), aircraft fields (15), site values/conversions (8), route names/codes/coordinates/waypoints (15), numbers entries (7), one_line (1), status_why claims (2), all 50 event entries, 18 perspective claim/evidence statements, 27 model-coordinate transformations, 15 additional gap-file plot readings, two source-based buildNote assertions, and the menu label. An event entry or coordinate pair counts as one check, rather than counting every component separately. All event quote and quote_speaker fields are null; no verbatim quotation is presented in these files. Read the official report with PyMuPDF, rendered image-only pages and Japanese DFDR plots, and read JTSB 2011, the Diet minutes, MLIT October 2026 notice, FAA teaching material, the identified Antonucci reproduction, advocacy page and photograph. Key event checks included the 1978 strike and repair, takeoff, initial failure, return request, loss of control, oxygen-mask discussion, gear extension, minimum CAS, flap sequence, final descent, successive contacts, final recorder set, rescue sightings and survivor recovery. Checked JST-to-UTC conversions, including previous-UTC-day rescue events, against the cited times and NICT UTC+9. Recomputed the site as 36.00150794 N, 138.69378918 E with the stated Tokyo-to-WGS84 operation; the assumed map datum remains explicitly unproven, as the dataset acknowledges. Model-coordinate rounding is consistent at the stated approximate precision. Gap-file spot checks do not constitute independent re-digitization of every plotted sample. All four perspectives distinguish hypotheses/recollections from physical findings and explain evidential limits; no additional source-verified fairness error found. No passenger is named in the supplied JAL123 content, and no gratuitous personal detail was found. The JAL123 direct.js block has no add, eventTimes, overlays or endTitle, and cites no source IDs; its recorder/derived-value and post-09:46 reconstruction descriptions agree with s1/s2/s4. All 15 listed URLs resolve: 14 returned HTTP 200 using curl with redirects; s15 returned HTTP 403 to curl but its content opened through the web reader, so it is access-restricted rather than a confirmed dead link. The additional Japanese-original PDF and original photograph returned HTTP 200."
+}

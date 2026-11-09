@@ -1,0 +1,165 @@
+{
+  "checked_sentences": 283,
+  "errors": [
+    {
+      "id": "af447",
+      "severity": "wrong",
+      "says": "The stall warning sounds, and this time it does not stop.",
+      "should_be": "The stall warning sounds continuously now.",
+      "evidence": "BEA final report, sections 1.1 and 3.1, printed pp.22–23 and 198: the continuous warning lasted 54 seconds, from 02:10:51 until 02:11:45, then stopped and later sounded intermittently. It did not remain uninterrupted.",
+      "url": "https://www.faa.gov/sites/faa.gov/files/AirFrance447_BEA.pdf"
+    },
+    {
+      "id": "af447",
+      "severity": "misleading",
+      "says": "The wings have stopped carrying the aircraft, and it begins to fall with its nose still raised.",
+      "should_be": "The wings can no longer provide enough lift, and the aircraft begins to descend with its nose still raised.",
+      "evidence": "BEA final report, section 1.18.3.1, printed p.150, explains that lift decreases beyond the stall angle; it does not disappear. Section 1.1, pp.22–23, describes the nose-up stalled descent. Saying the wings stopped carrying the aircraft implies a complete loss of lift.",
+      "url": "https://www.faa.gov/sites/faa.gov/files/AirFrance447_BEA.pdf"
+    },
+    {
+      "id": "af447",
+      "severity": "misleading",
+      "says": "Then the stall warning goes silent, because its sensors can no longer give valid readings.",
+      "should_be": "Then the stall warning goes silent, because the system rejects the angle readings when the measured speeds fall too low.",
+      "evidence": "BEA final report, section 1.6.11, printed pp.43–44, and section 2.3.3, pp.190–191: measured airspeeds below 60 knots caused the system to invalidate angle-of-attack values and inhibit the warning. This was warning-system logic, not an established failure of the angle sensors to produce readings.",
+      "url": "https://www.faa.gov/sites/faa.gov/files/AirFrance447_BEA.pdf"
+    },
+    {
+      "id": "af447",
+      "severity": "misleading",
+      "says": "The recorders showed how iced sensors, confusion and an unrecognized stall came together.",
+      "should_be": "The recorders helped investigators trace confusion, an unrecognized stall, and the likely icing of speed sensors.",
+      "evidence": "BEA final report, section 3.2, printed pp.200–201: ice-crystal obstruction of the Pitot probes is the likely explanation for temporary inconsistent speeds. The recorders establish the speed disagreement and flight sequence, not direct observation of ice in the probes.",
+      "url": "https://www.faa.gov/sites/faa.gov/files/AirFrance447_BEA.pdf"
+    },
+    {
+      "id": "af447",
+      "severity": "unsupported",
+      "says": "Training and sensors changed worldwide.",
+      "should_be": "Speed probes were replaced, and pilot training changed.",
+      "evidence": "BEA final report, sections 5.1–5.3, printed pp.215–217, documents specified probe replacements and training actions by named authorities and operators. EASA’s 5 July 2012 release, paragraphs on Pitot standards and pilot training, likewise describes its own actions. These support concrete changes, not an unqualified worldwide claim.",
+      "url": "https://www.easa.europa.eu/en/newsroom-and-events/press-releases/easa-welcomes-publication-final-report-safety-investigation"
+    },
+    {
+      "id": "mh370",
+      "severity": "minor",
+      "says": "Kuala Lumpur, forty minutes after midnight on March eighth, 2014.",
+      "should_be": "Kuala Lumpur, about forty-two minutes after midnight on March eighth, 2014.",
+      "evidence": "Malaysian Safety Investigation Report MH370/01/2018, section 1.1.1, printed p.2, gives takeoff clearance at 00:40:37 MYT; Figure 2.2D, p.294, records departure at 00:42 MYT. Forty minutes identifies the clearance minute, not the recorded departure minute; the precise wheels-off second is not established.",
+      "url": "https://www.mh370whathappened.com/uploads/1/1/4/6/1146986/mh370safetyinvestigationreport.pdf"
+    },
+    {
+      "id": "mh370",
+      "severity": "unsupported",
+      "says": "The captain's reply is the last voice anyone will hear from this aircraft.",
+      "should_be": "The captain's reply is the last recorded voice transmission from this aircraft.",
+      "evidence": "Malaysian Safety Investigation Report MH370/01/2018, section 1.1.1, printed p.2, preserves the last recorded radio acknowledgement at 17:19:30 UTC; section 1.5.12, p.38, attributes it to the captain. The surviving radio record cannot establish the last voice that anyone, anywhere, heard from aboard.",
+      "url": "https://www.mh370whathappened.com/uploads/1/1/4/6/1146986/mh370safetyinvestigationreport.pdf"
+    },
+    {
+      "id": "mh370",
+      "severity": "unsupported",
+      "says": "The aircraft has turned back across Malaysia, and no one on it says anything.",
+      "should_be": "The aircraft has turned back across Malaysia, with no further recorded voice transmission.",
+      "evidence": "Malaysian Safety Investigation Report MH370/01/2018, sections 1.1.1–1.1.3, printed pp.2–5, establishes loss of radio contact and the radar turnback. No recovered cockpit recording establishes that everyone aboard stopped speaking.",
+      "url": "https://www.mh370whathappened.com/uploads/1/1/4/6/1146986/mh370safetyinvestigationreport.pdf"
+    },
+    {
+      "id": "mh370",
+      "severity": "misleading",
+      "says": "Why it lost power is unknown.",
+      "should_be": "What interrupted the satellite link is unknown.",
+      "evidence": "Malaysian Safety Investigation Report MH370/01/2018, conclusions, printed p.441: the satellite-link outage was most likely caused by an interruption of power to the satellite data unit. Power interruption is an inference, not a recorded power-state observation; the preceding sentence correctly calls it probable.",
+      "url": "https://www.mh370whathappened.com/uploads/1/1/4/6/1146986/mh370safetyinvestigationreport.pdf"
+    },
+    {
+      "id": "mh370",
+      "severity": "misleading",
+      "says": "Searches have covered more than 120,000 square kilometers of seabed, then 112,000 more, and new surveys continued in 2026.",
+      "should_be": "The first seabed search covered over 120,000 square kilometers; another surveyed over 112,000, partly overlapping it, and further surveys continued in 2026.",
+      "evidence": "mh370.json, numbers and search-area records: the government-led survey exceeded 120,000 square kilometers; Ocean Infinity’s 29 May 2018 statement reports over 112,000 surveyed in its operation. Its coverage overlapped earlier searches, so 112,000 more implies an unsupported addition of unique seabed. Malaysia’s 2025/2026 Update to Families, pp.1–2, confirms later operations through January 2026.",
+      "url": "https://oceaninfinity.com/news/conclusion-of-current-search-for-malaysian-airlines-flight-mh370/"
+    },
+    {
+      "id": "airnz901",
+      "severity": "misleading",
+      "says": "It took until 2019 for the New Zealand government and the airline to apologize.",
+      "should_be": "The government and airline apologized in 2019; the airline had apologized for its treatment of families ten years earlier.",
+      "evidence": "New Zealand Ministry for Culture and Heritage, National Erebus Memorial timeline, entries “23 October 2009: Air New Zealand apology” and “28 November 2019: Government apology” (unpaginated). The 2009 apology concerned the aftermath; the fuller government and airline apologies came in 2019. The original wording obscures that distinction.",
+      "url": "https://www.mch.govt.nz/our-work/memorials-and-commemorations/national-erebus-memorial"
+    },
+    {
+      "id": "stardust",
+      "severity": "misleading",
+      "says": "They are in cloud, and their position is unknown.",
+      "should_be": "Investigators later inferred they were in cloud; no position was reported.",
+      "evidence": "JIAAC, Disposición 43/00, Boletín No.31, second edition, section 2.3, printed p.24, explicitly infers descent in cloud at 17:33. The UK inquiry, C.A.106, p.4, records only the revised arrival estimate at that time. Cloud at this exact beat is reconstructed, not an observation in that message.",
+      "url": "https://web.archive.org/web/20161021205153id_/http://www.jiaac.gov.ar/files/pdf/Bol30.pdf"
+    },
+    {
+      "id": "earhart",
+      "severity": "wrong",
+      "says": "An hour later, she says 100 miles.",
+      "should_be": "About half an hour later, she says 100 miles.",
+      "evidence": "USCGC Itasca original radio log, position 2, p.2: about 200 miles at 06:15 ship time and about 100 miles at 06:46, an interval of 31 minutes. The other operator’s slightly different entry times do not support an hour.",
+      "url": "https://tighar.org/Projects/Earhart/Archives/Research/Bulletins/37_ItascaLogs/pos2page2.pdf"
+    },
+    {
+      "id": "earhart",
+      "severity": "misleading",
+      "says": "A lagoon target in 2026 proved to be tree debris.",
+      "should_be": "A lagoon target in 2026 was judged likely to be tree debris.",
+      "evidence": "Purdue/ALI expedition statement, 18 October 2026, second body paragraph (unpaginated): the inspected anomaly was considered likely to be deposited trees. The sponsors rejected the aircraft-target hypothesis but retained a probability qualifier on the tree identification.",
+      "url": "https://www.purdue.edu/newsroom/2026/Q4/search-for-amelia-earharts-plane-continues-after-taraia-object-expedition-on-nikumaroro-rules-out-latest-hypothesis/"
+    },
+    {
+      "id": "ladybegood",
+      "severity": "misleading",
+      "says": "Their direction finder isn't working, so they call for a radio bearing.",
+      "should_be": "The crew reports its direction finder isn't working, and asks for a radio bearing.",
+      "evidence": "National Archives, Lost and Found: The Story of Lady Be Good and Her Crew, “Lost” section, paragraph on the last radio contact (unpaginated), attributes the malfunction report to the pilot. ladybegood.json, conflicts on radio bearing and equipment failure, distinguishes that report from a verified failure mechanism; the original radio log was not recovered.",
+      "url": "https://unwritten-record.blogs.archives.gov/2017/06/16/lost-and-found-the-story-of-lady-be-good-and-her-crew/"
+    },
+    {
+      "id": "ladybegood",
+      "severity": "misleading",
+      "says": "The bearing they get seems to say they are still coming in from the sea.",
+      "should_be": "Later investigators suggested they mistook which side of the station they were on.",
+      "evidence": "Quartermaster Graves Registration history, investigation conclusion (unpaginated), quotes a later Army reconstruction proposing a reciprocal-bearing error. ladybegood.json, conflicts and unknowns on radio contacts, notes differing accounts and no original radio log establishing the exact message or its interpretation. The bearing explanation needs attribution as a reconstruction.",
+      "url": "https://web.archive.org/web/20100225093545/http://www.qmfound.com/lady_be_good_b-24_bomber_recovery.htm"
+    },
+    {
+      "id": "ladybegood",
+      "severity": "misleading",
+      "says": "The crew flies on, into the Sahara, thinking the sea is still below.",
+      "should_be": "Investigators believed they flew into the Sahara while mistaking the desert for the sea.",
+      "evidence": "National Archives, Lost and Found, “Conclusion” section (unpaginated), identifies belief that the sea lay below as an inference. Toner’s diary, 4 April entry, records being lost and landing in desert, not a contemporaneous account of what the crew believed while flying inland.",
+      "url": "https://unwritten-record.blogs.archives.gov/2017/06/16/lost-and-found-the-story-of-lady-be-good-and-her-crew/"
+    },
+    {
+      "id": "ladybegood",
+      "severity": "unsupported",
+      "says": "They thought the coast was close.",
+      "should_be": "They may have thought the coast was close.",
+      "evidence": "William G. Holder, Epitaph to the Lady—30 Years After, Air University Review, March–April 1973, search discussion (unpaginated archived HTML), qualifies the belief that the sea was near as probable. The surviving Toner and Ripslinger entries give no measured estimate of the distance to the coast and cannot establish this thought as certain.",
+      "url": "https://web.archive.org/web/20170113172801id_/http://www.airpower.maxwell.af.mil/airchronicles/aureview/1973/mar-apr/holder.html"
+    },
+    {
+      "id": "ladybegood",
+      "severity": "misleading",
+      "says": "Oil surveyors found the bomber in 1958, and that is when anyone learned how far they had come.",
+      "should_be": "Oil surveyors found the bomber in 1958; later searches found the crew’s trail, and remains and diaries followed in 1960.",
+      "evidence": "National Archives, Lost and Found, “Found” section, paragraphs on the 1958 sighting, May–August 1959 searches, and February 1960 recovery (unpaginated): the aircraft was sighted in 1958, trail equipment was found during the 1959 search, and the first five remains and Toner diary were found in February 1960. The 1958 sighting alone did not reveal the crew’s desert trek.",
+      "url": "https://unwritten-record.blogs.archives.gov/2017/06/16/lost-and-found-the-story-of-lady-be-good-and-her-crew/"
+    },
+    {
+      "id": "flight19",
+      "severity": "minor",
+      "says": "A warning is relayed that they may soon have to land on the water.",
+      "should_be": "A few minutes earlier, a warning was relayed that they might soon have to land on the water.",
+      "evidence": "Navy Board of Investigation, HF/DF net traffic, PDF pp.157 and 164, logs the relayed ditching warning at 23:02 UTC (18:02 local). Finding 29, PDF p.298, places the evaluated-area telephone report to the base at 23:10 UTC. The present-tense beat after that report reverses these two events.",
+      "url": "https://catalog.archives.gov/medialz/fort-worth/rg-181/M1657-001/M1657-001.pdf"
+    }
+  ]
+}

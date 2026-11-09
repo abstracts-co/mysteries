@@ -1,0 +1,2441 @@
+{
+  "track": [
+    {
+      "t_utc": "1985-08-12T09:12:30Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "hdg_deg": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "quality": "recorded",
+      "method": "Crew radio report: passing 800 ft. Altimeter datum/setting is not specified here; this is not a DFDR pressure-altitude sample. The subsequent assigned heading 180 is not entered as an observation.",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Attachment 3 ATC transcript, PDF p.286, printed p.28, 18:12:30 JST",
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:13:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 1500,
+      "ias_kt": null,
+      "hdg_deg": 175,
+      "pitch_deg": 15,
+      "roll_deg": 0,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.2, Attachment 5, DFDR Figure 1; PDF p.8, DFDR Figure 2; 18:13:00 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 170
+    },
+    {
+      "t_utc": "1985-08-12T09:13:55Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 3200,
+      "ias_kt": null,
+      "hdg_deg": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "quality": "derived",
+      "method": "Printed time/altitude/airspeed annotation transcribed from Attached Figure 1; numeric values are text labels, not curve estimates, and retain published rounding. Position description read from the schematic map: South of Haneda, Tokyo Bay departure leg. Latitude/longitude withheld because no geographic grid or projection is shown. Airspeed treated as DFDR CAS; altitude as DFDR pressure altitude.",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "s1 PDF p.150, Attached Figure 1, Estimated flight path of JA8119, label 18:13:55 JST",
+      "cas_kt": 170
+    },
+    {
+      "t_utc": "1985-08-12T09:14:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 3200,
+      "ias_kt": null,
+      "hdg_deg": 180,
+      "pitch_deg": 8,
+      "roll_deg": 0,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.2, Attachment 5, DFDR Figure 1; PDF p.8, DFDR Figure 2; 18:14:00 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 180
+    },
+    {
+      "t_utc": "1985-08-12T09:15:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 4400,
+      "ias_kt": null,
+      "hdg_deg": 175,
+      "pitch_deg": 9,
+      "roll_deg": 0,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.2, Attachment 5, DFDR Figure 1; PDF p.8, DFDR Figure 2; 18:15:00 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 235
+    },
+    {
+      "t_utc": "1985-08-12T09:16:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 6700,
+      "ias_kt": null,
+      "hdg_deg": 175,
+      "pitch_deg": 10,
+      "roll_deg": 10,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.2, Attachment 5, DFDR Figure 1; PDF p.8, DFDR Figure 2; 18:16:00 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 255
+    },
+    {
+      "t_utc": "1985-08-12T09:16:55Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "hdg_deg": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "quality": "recorded",
+      "method": "Crew radio report: passing 9,400 ft. Altimeter datum/setting unspecified; assigned flight level 240 is not an observed altitude.",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Attachment 3 ATC transcript, PDF p.286, printed p.28, 18:16:55 JST",
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:17:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 9300,
+      "ias_kt": null,
+      "hdg_deg": 195,
+      "pitch_deg": 9,
+      "roll_deg": null,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.2, Attachment 5, DFDR Figure 1; PDF p.8, DFDR Figure 2; 18:17:00 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 255
+    },
+    {
+      "t_utc": "1985-08-12T09:18:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 11100,
+      "ias_kt": null,
+      "hdg_deg": 190,
+      "pitch_deg": 6,
+      "roll_deg": 0,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.2, Attachment 5, DFDR Figure 1; PDF p.8, DFDR Figure 2; 18:18:00 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 280
+    },
+    {
+      "t_utc": "1985-08-12T09:18:30Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 11200,
+      "ias_kt": null,
+      "hdg_deg": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "quality": "derived",
+      "method": "Printed time/altitude/airspeed annotation transcribed from Attached Figure 1; numeric values are text labels, not curve estimates, and retain published rounding. Position description read from the schematic map: Uraga/Boso-side southbound leg, east of Sagami Bay. Latitude/longitude withheld because no geographic grid or projection is shown. Airspeed treated as DFDR CAS; altitude as DFDR pressure altitude.",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "s1 PDF p.150, Attached Figure 1, Estimated flight path of JA8119, label 18:18:30 JST",
+      "cas_kt": 250
+    },
+    {
+      "t_utc": "1985-08-12T09:19:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 13100,
+      "ias_kt": null,
+      "hdg_deg": 205,
+      "pitch_deg": 6,
+      "roll_deg": 15,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.2, Attachment 5, DFDR Figure 1; PDF p.8, DFDR Figure 2; 18:19:00 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 295
+    },
+    {
+      "t_utc": "1985-08-12T09:20:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 15300,
+      "ias_kt": null,
+      "hdg_deg": 245,
+      "pitch_deg": 6,
+      "roll_deg": 0,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.2, Attachment 5, DFDR Figure 1; PDF p.8, DFDR Figure 2; 18:20:00 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 295
+    },
+    {
+      "t_utc": "1985-08-12T09:21:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 17900,
+      "ias_kt": null,
+      "hdg_deg": 250,
+      "pitch_deg": 6,
+      "roll_deg": 0,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.3, Attachment 5, DFDR Figure 1; PDF p.9, DFDR Figure 2; 18:21:00 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 295
+    },
+    {
+      "t_utc": "1985-08-12T09:21:30Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 18900,
+      "ias_kt": null,
+      "hdg_deg": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "quality": "derived",
+      "method": "Printed time/altitude/airspeed annotation transcribed from Attached Figure 1; numeric values are text labels, not curve estimates, and retain published rounding. Position description read from the schematic map: Over the sea northeast of Oshima, southwestbound leg. Latitude/longitude withheld because no geographic grid or projection is shown. Airspeed treated as DFDR CAS; altitude as DFDR pressure altitude.",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "s1 PDF p.150, Attached Figure 1, Estimated flight path of JA8119, label 18:21:30 JST",
+      "cas_kt": 300
+    },
+    {
+      "t_utc": "1985-08-12T09:22:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 20100,
+      "ias_kt": null,
+      "hdg_deg": 250,
+      "pitch_deg": 5,
+      "roll_deg": 0,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.3, Attachment 5, DFDR Figure 1; PDF p.9, DFDR Figure 2; 18:22:00 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 300
+    },
+    {
+      "t_utc": "1985-08-12T09:23:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 21800,
+      "ias_kt": null,
+      "hdg_deg": 250,
+      "pitch_deg": 5,
+      "roll_deg": 0,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.3, Attachment 5, DFDR Figure 1; PDF p.9, DFDR Figure 2; 18:23:00 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 295
+    },
+    {
+      "t_utc": "1985-08-12T09:24:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 23300,
+      "ias_kt": null,
+      "hdg_deg": 250,
+      "pitch_deg": 5,
+      "roll_deg": 5,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.3, Attachment 5, DFDR Figure 1; PDF p.9, DFDR Figure 2; 18:24:00 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 300
+    },
+    {
+      "t_utc": "1985-08-12T09:24:12Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 23400,
+      "ias_kt": null,
+      "hdg_deg": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "quality": "derived",
+      "method": "Printed time/altitude/airspeed annotation transcribed from Attached Figure 1; numeric values are text labels, not curve estimates, and retain published rounding. Position description read from the schematic map: Over the sea west/northwest of Oshima, approaching southern Izu. Latitude/longitude withheld because no geographic grid or projection is shown. Airspeed treated as DFDR CAS; altitude as DFDR pressure altitude.",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "s1 PDF p.150, Attached Figure 1, Estimated flight path of JA8119, label 18:24:12 JST",
+      "cas_kt": 300
+    },
+    {
+      "t_utc": "1985-08-12T09:24:30Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 24100,
+      "ias_kt": null,
+      "hdg_deg": 250,
+      "pitch_deg": 2,
+      "roll_deg": 0,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.3, Attachment 5, DFDR Figure 1; PDF p.9, DFDR Figure 2; 18:24:30 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 300
+    },
+    {
+      "t_utc": "1985-08-12T09:24:34Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 23900,
+      "ias_kt": null,
+      "hdg_deg": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "quality": "recorded",
+      "method": "Published DFDR commentary: pressure altitude 23,900 ft immediately before the abnormal event; rounded text value.",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Attachment 5, PDF p.289, printed p.31",
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:24:35Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 23900,
+      "ias_kt": null,
+      "hdg_deg": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "quality": "derived",
+      "method": "Printed time/altitude/airspeed annotation transcribed from Attached Figure 1; numeric values are text labels, not curve estimates, and retain published rounding. Position description read from the schematic map: West of Oshima, off the southeast Izu coast: marked abnormal-event location. Latitude/longitude withheld because no geographic grid or projection is shown. Airspeed treated as DFDR CAS; altitude as DFDR pressure altitude.",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "s1 PDF p.150, Attached Figure 1, Estimated flight path of JA8119, label 18:24:35 JST",
+      "cas_kt": 300
+    },
+    {
+      "t_utc": "1985-08-12T09:24:50Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 24200,
+      "ias_kt": null,
+      "hdg_deg": 248.9,
+      "pitch_deg": 2.2,
+      "roll_deg": 0.3,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, enlarged onset plot (ALT1/CAS1/PCH1/RLL1/HDG), retained from jal123.json: pressure altitude ±100 ft, CAS ±2 kt, heading ±2 deg, pitch/roll ±2 deg; no position inferred.",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF pp.37–38, 18:24:31–18:24:51 JST",
+      "cas_kt": 297.5
+    },
+    {
+      "t_utc": "1985-08-12T09:25:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 24400,
+      "ias_kt": null,
+      "hdg_deg": 250,
+      "pitch_deg": null,
+      "roll_deg": 5,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.3, Attachment 5, DFDR Figure 1; PDF p.9, DFDR Figure 2; 18:25:00 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 305
+    },
+    {
+      "t_utc": "1985-08-12T09:25:18Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 23900,
+      "ias_kt": null,
+      "hdg_deg": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "quality": "derived",
+      "method": "Printed time/altitude/airspeed annotation transcribed from Attached Figure 1; numeric values are text labels, not curve estimates, and retain published rounding. Position description read from the schematic map: Off Shimoda / southern Izu coast. Latitude/longitude withheld because no geographic grid or projection is shown. Airspeed treated as DFDR CAS; altitude as DFDR pressure altitude.",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "s1 PDF p.150, Attached Figure 1, Estimated flight path of JA8119, label 18:25:18 JST",
+      "cas_kt": 310
+    },
+    {
+      "t_utc": "1985-08-12T09:25:30Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 24100,
+      "ias_kt": null,
+      "hdg_deg": 260,
+      "pitch_deg": 2,
+      "roll_deg": null,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.3, Attachment 5, DFDR Figure 1; PDF p.9, DFDR Figure 2; 18:25:30 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 310
+    },
+    {
+      "t_utc": "1985-08-12T09:26:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 23900,
+      "ias_kt": null,
+      "hdg_deg": 295,
+      "pitch_deg": 0,
+      "roll_deg": 40,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.3, Attachment 5, DFDR Figure 1; PDF p.9, DFDR Figure 2; 18:26:00 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 320
+    },
+    {
+      "t_utc": "1985-08-12T09:26:30Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 24000,
+      "ias_kt": null,
+      "hdg_deg": 320,
+      "pitch_deg": 8,
+      "roll_deg": 5,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.3, Attachment 5, DFDR Figure 1; PDF p.9, DFDR Figure 2; 18:26:30 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 305
+    },
+    {
+      "t_utc": "1985-08-12T09:27:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 24800,
+      "ias_kt": null,
+      "hdg_deg": 310,
+      "pitch_deg": -3,
+      "roll_deg": -10,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.3, Attachment 5, DFDR Figure 1; PDF p.9, DFDR Figure 2; 18:27:00 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 270
+    },
+    {
+      "t_utc": "1985-08-12T09:27:02Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 24600,
+      "ias_kt": null,
+      "hdg_deg": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "quality": "derived",
+      "method": "Printed time/altitude/airspeed annotation transcribed from Attached Figure 1; numeric values are text labels, not curve estimates, and retain published rounding. Position description read from the schematic map: Crossing southern Izu Peninsula, westbound toward Suruga Bay. Latitude/longitude withheld because no geographic grid or projection is shown. Airspeed treated as DFDR CAS; altitude as DFDR pressure altitude.",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "s1 PDF p.150, Attached Figure 1, Estimated flight path of JA8119, label 18:27:02 JST",
+      "cas_kt": 280
+    },
+    {
+      "t_utc": "1985-08-12T09:27:30Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 22600,
+      "ias_kt": null,
+      "hdg_deg": 295,
+      "pitch_deg": 1,
+      "roll_deg": -15,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.3, Attachment 5, DFDR Figure 1; PDF p.9, DFDR Figure 2; 18:27:30 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 310
+    },
+    {
+      "t_utc": "1985-08-12T09:28:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 22400,
+      "ias_kt": null,
+      "hdg_deg": 285,
+      "pitch_deg": 4,
+      "roll_deg": null,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.3, Attachment 5, DFDR Figure 1; PDF p.9, DFDR Figure 2; 18:28:00 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 290
+    },
+    {
+      "t_utc": "1985-08-12T09:28:30Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 22400,
+      "ias_kt": null,
+      "hdg_deg": 280,
+      "pitch_deg": 0,
+      "roll_deg": null,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.3, Attachment 5, DFDR Figure 1; PDF p.9, DFDR Figure 2; 18:28:30 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 280
+    },
+    {
+      "t_utc": "1985-08-12T09:28:30Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 22100,
+      "ias_kt": null,
+      "hdg_deg": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "quality": "derived",
+      "method": "Printed time/altitude/airspeed annotation transcribed from Attached Figure 1; numeric values are text labels, not curve estimates, and retain published rounding. Position description read from the schematic map: Over Suruga Bay between Izu Peninsula and Yaizu. Latitude/longitude withheld because no geographic grid or projection is shown. Airspeed treated as DFDR CAS; altitude as DFDR pressure altitude.",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "s1 PDF p.150, Attached Figure 1, Estimated flight path of JA8119, label 18:28:30 JST",
+      "cas_kt": 280
+    },
+    {
+      "t_utc": "1985-08-12T09:29:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 22200,
+      "ias_kt": null,
+      "hdg_deg": 285,
+      "pitch_deg": 10,
+      "roll_deg": null,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.3, Attachment 5, DFDR Figure 1; PDF p.9, DFDR Figure 2; 18:29:00 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 280
+    },
+    {
+      "t_utc": "1985-08-12T09:29:30Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 24200,
+      "ias_kt": null,
+      "hdg_deg": 295,
+      "pitch_deg": 6,
+      "roll_deg": 25,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.3, Attachment 5, DFDR Figure 1; PDF p.9, DFDR Figure 2; 18:29:30 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 235
+    },
+    {
+      "t_utc": "1985-08-12T09:30:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 23500,
+      "ias_kt": null,
+      "hdg_deg": 300,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.3, Attachment 5, DFDR Figure 1; PDF p.9, DFDR Figure 2; 18:30:00 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 270
+    },
+    {
+      "t_utc": "1985-08-12T09:30:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "hdg_deg": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "quality": "derived",
+      "method": "Report narrative position, not a coordinate fix. Approximately 18:30 JST: passed north of Yaizu; time only approximate, not a precisely timed fix.",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Section 2.1, PDF p.18, printed p.7",
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:30:30Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 23700,
+      "ias_kt": null,
+      "hdg_deg": 300,
+      "pitch_deg": 10,
+      "roll_deg": null,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.3, Attachment 5, DFDR Figure 1; PDF p.9, DFDR Figure 2; 18:30:30 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 260
+    },
+    {
+      "t_utc": "1985-08-12T09:31:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 25200,
+      "ias_kt": null,
+      "hdg_deg": 315,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.3, Attachment 5, DFDR Figure 1; PDF p.9, DFDR Figure 2; 18:31:00 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 240
+    },
+    {
+      "t_utc": "1985-08-12T09:31:08Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 24900,
+      "ias_kt": null,
+      "hdg_deg": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "quality": "derived",
+      "method": "Printed time/altitude/airspeed annotation transcribed from Attached Figure 1; numeric values are text labels, not curve estimates, and retain published rounding. Position description read from the schematic map: Near and north of Yaizu, turning north. Latitude/longitude withheld because no geographic grid or projection is shown. Airspeed treated as DFDR CAS; altitude as DFDR pressure altitude.",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "s1 PDF p.150, Attached Figure 1, Estimated flight path of JA8119, label 18:31:08 JST",
+      "cas_kt": 250
+    },
+    {
+      "t_utc": "1985-08-12T09:31:30Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 22800,
+      "ias_kt": null,
+      "hdg_deg": 340,
+      "pitch_deg": -2,
+      "roll_deg": 10,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.3, Attachment 5, DFDR Figure 1; PDF p.9, DFDR Figure 2; 18:31:30 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 295
+    },
+    {
+      "t_utc": "1985-08-12T09:32:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 22900,
+      "ias_kt": null,
+      "hdg_deg": 25,
+      "pitch_deg": 13,
+      "roll_deg": 45,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.3, Attachment 5, DFDR Figure 1; PDF p.9, DFDR Figure 2; 18:32:00 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 270
+    },
+    {
+      "t_utc": "1985-08-12T09:32:30Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 24400,
+      "ias_kt": null,
+      "hdg_deg": 30,
+      "pitch_deg": 6,
+      "roll_deg": -30,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.3, Attachment 5, DFDR Figure 1; PDF p.9, DFDR Figure 2; 18:32:30 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 225
+    },
+    {
+      "t_utc": "1985-08-12T09:33:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 23300,
+      "ias_kt": null,
+      "hdg_deg": 20,
+      "pitch_deg": 1,
+      "roll_deg": 20,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.3, Attachment 5, DFDR Figure 1; PDF p.9, DFDR Figure 2; 18:33:00 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 265
+    },
+    {
+      "t_utc": "1985-08-12T09:33:30Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 23400,
+      "ias_kt": null,
+      "hdg_deg": 0,
+      "pitch_deg": 13,
+      "roll_deg": null,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.3, Attachment 5, DFDR Figure 1; PDF p.9, DFDR Figure 2; 18:33:30 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 265
+    },
+    {
+      "t_utc": "1985-08-12T09:34:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 25200,
+      "ias_kt": null,
+      "hdg_deg": 0,
+      "pitch_deg": 2,
+      "roll_deg": 55,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.3, Attachment 5, DFDR Figure 1; PDF p.9, DFDR Figure 2; 18:34:00 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 215
+    },
+    {
+      "t_utc": "1985-08-12T09:34:30Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 21700,
+      "ias_kt": null,
+      "hdg_deg": 30,
+      "pitch_deg": -5,
+      "roll_deg": -10,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.4, Attachment 5, DFDR Figure 1; PDF p.9, DFDR Figure 2; 18:34:30 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 305
+    },
+    {
+      "t_utc": "1985-08-12T09:34:53Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 21600,
+      "ias_kt": null,
+      "hdg_deg": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "quality": "derived",
+      "method": "Printed time/altitude/airspeed annotation transcribed from Attached Figure 1; numeric values are text labels, not curve estimates, and retain published rounding. Position description read from the schematic map: West of Mount Fuji, turning east. Latitude/longitude withheld because no geographic grid or projection is shown. Airspeed treated as DFDR CAS; altitude as DFDR pressure altitude.",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "s1 PDF p.150, Attached Figure 1, Estimated flight path of JA8119, label 18:34:53 JST",
+      "cas_kt": 270
+    },
+    {
+      "t_utc": "1985-08-12T09:35:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 22200,
+      "ias_kt": null,
+      "hdg_deg": 50,
+      "pitch_deg": 15,
+      "roll_deg": -15,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.4, Attachment 5, DFDR Figure 1; PDF p.10, DFDR Figure 2; 18:35:00 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 235
+    },
+    {
+      "t_utc": "1985-08-12T09:35:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "hdg_deg": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "quality": "derived",
+      "method": "Report narrative position, not a coordinate fix. Approximately 18:35 JST: about 35 km west of Mount Fuji; turned east.",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Section 2.1, PDF p.18, printed p.7",
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:35:30Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 22500,
+      "ias_kt": null,
+      "hdg_deg": 75,
+      "pitch_deg": -3,
+      "roll_deg": -15,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.4, Attachment 5, DFDR Figure 1; PDF p.10, DFDR Figure 2; 18:35:30 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 250
+    },
+    {
+      "t_utc": "1985-08-12T09:36:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 21500,
+      "ias_kt": null,
+      "hdg_deg": 85,
+      "pitch_deg": 11,
+      "roll_deg": -10,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.4, Attachment 5, DFDR Figure 1; PDF p.10, DFDR Figure 2; 18:36:00 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 265
+    },
+    {
+      "t_utc": "1985-08-12T09:36:30Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 23100,
+      "ias_kt": null,
+      "hdg_deg": 90,
+      "pitch_deg": 2,
+      "roll_deg": null,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.4, Attachment 5, DFDR Figure 1; PDF p.10, DFDR Figure 2; 18:36:30 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 225
+    },
+    {
+      "t_utc": "1985-08-12T09:37:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 21700,
+      "ias_kt": null,
+      "hdg_deg": 75,
+      "pitch_deg": 3,
+      "roll_deg": null,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.4, Attachment 5, DFDR Figure 1; PDF p.10, DFDR Figure 2; 18:37:00 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 270
+    },
+    {
+      "t_utc": "1985-08-12T09:37:30Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 23000,
+      "ias_kt": null,
+      "hdg_deg": 65,
+      "pitch_deg": 10,
+      "roll_deg": null,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.4, Attachment 5, DFDR Figure 1; PDF p.10, DFDR Figure 2; 18:37:30 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 240
+    },
+    {
+      "t_utc": "1985-08-12T09:38:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 22900,
+      "ias_kt": null,
+      "hdg_deg": 60,
+      "pitch_deg": -3,
+      "roll_deg": null,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.4, Attachment 5, DFDR Figure 1; PDF p.10, DFDR Figure 2; 18:38:00 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 245
+    },
+    {
+      "t_utc": "1985-08-12T09:38:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "hdg_deg": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "quality": "derived",
+      "method": "Report narrative position, not a coordinate fix. Approximately 18:38 JST: about 7 km NNW of Mount Fuji; turned northeast.",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Section 2.1, PDF p.18, printed p.7",
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:38:08Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 22400,
+      "ias_kt": null,
+      "hdg_deg": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "quality": "derived",
+      "method": "Printed time/altitude/airspeed annotation transcribed from Attached Figure 1; numeric values are text labels, not curve estimates, and retain published rounding. Position description read from the schematic map: North of Mount Fuji, northeastbound toward Otsuki. Latitude/longitude withheld because no geographic grid or projection is shown. Airspeed treated as DFDR CAS; altitude as DFDR pressure altitude.",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "s1 PDF p.150, Attached Figure 1, Estimated flight path of JA8119, label 18:38:08 JST",
+      "cas_kt": 260
+    },
+    {
+      "t_utc": "1985-08-12T09:38:30Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 21900,
+      "ias_kt": null,
+      "hdg_deg": 50,
+      "pitch_deg": 8,
+      "roll_deg": 10,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.4, Attachment 5, DFDR Figure 1; PDF p.10, DFDR Figure 2; 18:38:30 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 275
+    },
+    {
+      "t_utc": "1985-08-12T09:39:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 23100,
+      "ias_kt": null,
+      "hdg_deg": 35,
+      "pitch_deg": 4,
+      "roll_deg": null,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.4, Attachment 5, DFDR Figure 1; PDF p.10, DFDR Figure 2; 18:39:00 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 225
+    },
+    {
+      "t_utc": "1985-08-12T09:39:30Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 22100,
+      "ias_kt": null,
+      "hdg_deg": 35,
+      "pitch_deg": 2,
+      "roll_deg": null,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.4, Attachment 5, DFDR Figure 1; PDF p.10, DFDR Figure 2; 18:39:30 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 265
+    },
+    {
+      "t_utc": "1985-08-12T09:40:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 23000,
+      "ias_kt": null,
+      "hdg_deg": 45,
+      "pitch_deg": 11,
+      "roll_deg": null,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.4, Attachment 5, DFDR Figure 1; PDF p.10, DFDR Figure 2; 18:40:00 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 215
+    },
+    {
+      "t_utc": "1985-08-12T09:40:30Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 22500,
+      "ias_kt": null,
+      "hdg_deg": 60,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.4, Attachment 5, DFDR Figure 1; PDF p.10, DFDR Figure 2; 18:40:30 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 215
+    },
+    {
+      "t_utc": "1985-08-12T09:40:30Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 22400,
+      "ias_kt": null,
+      "hdg_deg": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "quality": "derived",
+      "method": "Printed time/altitude/airspeed annotation transcribed from Attached Figure 1; numeric values are text labels, not curve estimates, and retain published rounding. Position description read from the schematic map: Near Otsuki, at the western side of the subsequent loop. Latitude/longitude withheld because no geographic grid or projection is shown. Airspeed treated as DFDR CAS; altitude as DFDR pressure altitude.",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "s1 PDF p.150, Attached Figure 1, Estimated flight path of JA8119, label 18:40:30 JST",
+      "cas_kt": 220
+    },
+    {
+      "t_utc": "1985-08-12T09:41:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 21900,
+      "ias_kt": null,
+      "hdg_deg": 90,
+      "pitch_deg": 8,
+      "roll_deg": null,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.4, Attachment 5, DFDR Figure 1; PDF p.10, DFDR Figure 2; 18:41:00 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 220
+    },
+    {
+      "t_utc": "1985-08-12T09:41:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "hdg_deg": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "quality": "derived",
+      "method": "Report narrative position, not a coordinate fix. Approximately 18:41 JST: vicinity of Otsuki; beginning of descending right-hand loop.",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Section 2.1, PDF p.18, printed p.7",
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:41:30Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 22000,
+      "ias_kt": null,
+      "hdg_deg": 130,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.4, Attachment 5, DFDR Figure 1; PDF p.10, DFDR Figure 2; 18:41:30 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 220
+    },
+    {
+      "t_utc": "1985-08-12T09:41:53Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 20900,
+      "ias_kt": null,
+      "hdg_deg": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "quality": "derived",
+      "method": "Printed time/altitude/airspeed annotation transcribed from Attached Figure 1; numeric values are text labels, not curve estimates, and retain published rounding. Position description read from the schematic map: Otsuki loop, southeastern side. Latitude/longitude withheld because no geographic grid or projection is shown. Airspeed treated as DFDR CAS; altitude as DFDR pressure altitude.",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "s1 PDF p.150, Attached Figure 1, Estimated flight path of JA8119, label 18:41:53 JST",
+      "cas_kt": 240
+    },
+    {
+      "t_utc": "1985-08-12T09:42:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 21000,
+      "ias_kt": null,
+      "hdg_deg": 180,
+      "pitch_deg": 7,
+      "roll_deg": 25,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.4, Attachment 5, DFDR Figure 1; PDF p.10, DFDR Figure 2; 18:42:00 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 235
+    },
+    {
+      "t_utc": "1985-08-12T09:42:30Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 20900,
+      "ias_kt": null,
+      "hdg_deg": 245,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.4, Attachment 5, DFDR Figure 1; PDF p.10, DFDR Figure 2; 18:42:30 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 225
+    },
+    {
+      "t_utc": "1985-08-12T09:43:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 18900,
+      "ias_kt": null,
+      "hdg_deg": 305,
+      "pitch_deg": 2,
+      "roll_deg": null,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.4, Attachment 5, DFDR Figure 1; PDF p.10, DFDR Figure 2; 18:43:00 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 250
+    },
+    {
+      "t_utc": "1985-08-12T09:43:05Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 18800,
+      "ias_kt": null,
+      "hdg_deg": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "quality": "derived",
+      "method": "Printed time/altitude/airspeed annotation transcribed from Attached Figure 1; numeric values are text labels, not curve estimates, and retain published rounding. Position description read from the schematic map: Otsuki loop, southwestern side. Latitude/longitude withheld because no geographic grid or projection is shown. Airspeed treated as DFDR CAS; altitude as DFDR pressure altitude.",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "s1 PDF p.150, Attached Figure 1, Estimated flight path of JA8119, label 18:43:05 JST",
+      "cas_kt": 240
+    },
+    {
+      "t_utc": "1985-08-12T09:43:30Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 19000,
+      "ias_kt": null,
+      "hdg_deg": 345,
+      "pitch_deg": 4,
+      "roll_deg": null,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.4, Attachment 5, DFDR Figure 1; PDF p.10, DFDR Figure 2; 18:43:30 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 205
+    },
+    {
+      "t_utc": "1985-08-12T09:44:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 17600,
+      "ias_kt": null,
+      "hdg_deg": 15,
+      "pitch_deg": -2,
+      "roll_deg": 15,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.4, Attachment 5, DFDR Figure 1; PDF p.10, DFDR Figure 2; 18:44:00 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 230
+    },
+    {
+      "t_utc": "1985-08-12T09:44:30Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 16900,
+      "ias_kt": null,
+      "hdg_deg": 50,
+      "pitch_deg": 5,
+      "roll_deg": null,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.4, Attachment 5, DFDR Figure 1; PDF p.10, DFDR Figure 2; 18:44:30 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 215
+    },
+    {
+      "t_utc": "1985-08-12T09:45:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 16200,
+      "ias_kt": null,
+      "hdg_deg": 80,
+      "pitch_deg": -1,
+      "roll_deg": null,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.4, Attachment 5, DFDR Figure 1; PDF p.10, DFDR Figure 2; 18:45:00 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 220
+    },
+    {
+      "t_utc": "1985-08-12T09:45:21Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "hdg_deg": 100,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "quality": "recorded",
+      "method": "Approximate magnetic heading at the end of the recorded right turn, from the published DFDR commentary. Text values retain the report’s approximation; copied from the existing extraction and checked against Attachment 5 / section 3.1.7.4.",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Attachment 5, PDF pp.290-291",
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:45:30Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 14500,
+      "ias_kt": null,
+      "hdg_deg": 95,
+      "pitch_deg": -1,
+      "roll_deg": 5,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.4, Attachment 5, DFDR Figure 1; PDF p.10, DFDR Figure 2; 18:45:30 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 220
+    },
+    {
+      "t_utc": "1985-08-12T09:45:48Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 13500,
+      "ias_kt": null,
+      "hdg_deg": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "quality": "derived",
+      "method": "Printed time/altitude/airspeed annotation transcribed from Attached Figure 1; numeric values are text labels, not curve estimates, and retain published rounding. Position description read from the schematic map: East of Otsuki, eastbound after the loop. Latitude/longitude withheld because no geographic grid or projection is shown. Airspeed treated as DFDR CAS; altitude as DFDR pressure altitude.",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "s1 PDF p.150, Attached Figure 1, Estimated flight path of JA8119, label 18:45:48 JST",
+      "cas_kt": 220
+    },
+    {
+      "t_utc": "1985-08-12T09:46:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 13000,
+      "ias_kt": null,
+      "hdg_deg": 80,
+      "pitch_deg": -3,
+      "roll_deg": null,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.4, Attachment 5, DFDR Figure 1; PDF p.10, DFDR Figure 2; 18:46:00 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 225
+    },
+    {
+      "t_utc": "1985-08-12T09:46:03Z",
+      "lat": 35.668,
+      "lon": 139.107,
+      "alt_ft": null,
+      "ias_kt": null,
+      "hdg_deg": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "quality": "modelled",
+      "method": "Published AAIC DFDR-integrated flight-path model, manually digitized from its gridded map. Map reading approximately 35.6649 N, 139.1101 E; assumed Tokyo Datum transformed to WGS84 with PROJ Tokyo to WGS 84 (108). Output rounded to 0.001 degree; this is display resolution, not demonstrated accuracy. These are not radar fixes. Adjacent map crosses interpreted at ten-second intervals. Numeric flight parameters are withheld rather than interpolated. Retained from jal123.json; the gridded original was rendered and inspected again. Approximate map/model position, with no raw radar-coordinate claim.",
+      "sources": [
+        "s4",
+        "s6",
+        "s8"
+      ],
+      "locator": "Addendum 6, Figure 12, printed p.129, PDF p.131",
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:46:30Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 11400,
+      "ias_kt": null,
+      "hdg_deg": 60,
+      "pitch_deg": -1,
+      "roll_deg": null,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.4, Attachment 5, DFDR Figure 1; PDF p.10, DFDR Figure 2; 18:46:30 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 230
+    },
+    {
+      "t_utc": "1985-08-12T09:46:33Z",
+      "lat": 35.681,
+      "lon": 139.148,
+      "alt_ft": null,
+      "ias_kt": null,
+      "hdg_deg": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "quality": "modelled",
+      "method": "Published AAIC DFDR-integrated flight-path model, manually digitized from its gridded map. Map reading approximately 35.6774 N, 139.1509 E; assumed Tokyo Datum transformed to WGS84 with PROJ Tokyo to WGS 84 (108). Output rounded to 0.001 degree; this is display resolution, not demonstrated accuracy. These are not radar fixes. Adjacent map crosses interpreted at ten-second intervals. Numeric flight parameters are withheld rather than interpolated. Retained from jal123.json; the gridded original was rendered and inspected again. Approximate map/model position, with no raw radar-coordinate claim.",
+      "sources": [
+        "s4",
+        "s6",
+        "s8"
+      ],
+      "locator": "Addendum 6, Figure 12, printed p.129, PDF p.131",
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:47:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 10200,
+      "ias_kt": null,
+      "hdg_deg": 30,
+      "pitch_deg": -3,
+      "roll_deg": null,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.4, Attachment 5, DFDR Figure 1; PDF p.10, DFDR Figure 2; 18:47:00 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 225
+    },
+    {
+      "t_utc": "1985-08-12T09:47:03Z",
+      "lat": 35.707,
+      "lon": 139.169,
+      "alt_ft": null,
+      "ias_kt": null,
+      "hdg_deg": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "quality": "modelled",
+      "method": "Published AAIC DFDR-integrated flight-path model, manually digitized from its gridded map. Map reading approximately 35.7033 N, 139.1718 E; assumed Tokyo Datum transformed to WGS84 with PROJ Tokyo to WGS 84 (108). Output rounded to 0.001 degree; this is display resolution, not demonstrated accuracy. These are not radar fixes. Adjacent map crosses interpreted at ten-second intervals. Numeric flight parameters are withheld rather than interpolated. Retained from jal123.json; the gridded original was rendered and inspected again. Approximate map/model position, with no raw radar-coordinate claim.",
+      "sources": [
+        "s4",
+        "s6",
+        "s8"
+      ],
+      "locator": "Addendum 6, Figure 12, printed p.129, PDF p.131",
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:47:30Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 8600,
+      "ias_kt": null,
+      "hdg_deg": 0,
+      "pitch_deg": -1,
+      "roll_deg": null,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.4, Attachment 5, DFDR Figure 1; PDF p.10, DFDR Figure 2; 18:47:30 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 220
+    },
+    {
+      "t_utc": "1985-08-12T09:47:33Z",
+      "lat": 35.738,
+      "lon": 139.179,
+      "alt_ft": null,
+      "ias_kt": null,
+      "hdg_deg": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "quality": "modelled",
+      "method": "Published AAIC DFDR-integrated flight-path model, manually digitized from its gridded map. Map reading approximately 35.7346 N, 139.1817 E; assumed Tokyo Datum transformed to WGS84 with PROJ Tokyo to WGS 84 (108). Output rounded to 0.001 degree; this is display resolution, not demonstrated accuracy. These are not radar fixes. Adjacent map crosses interpreted at ten-second intervals. Numeric flight parameters are withheld rather than interpolated. Retained from jal123.json; the gridded original was rendered and inspected again. Approximate map/model position, with no raw radar-coordinate claim.",
+      "sources": [
+        "s4",
+        "s6",
+        "s8"
+      ],
+      "locator": "Addendum 6, Figure 12, printed p.129, PDF p.131",
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:48:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 7100,
+      "ias_kt": null,
+      "hdg_deg": 330,
+      "pitch_deg": -2,
+      "roll_deg": null,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.4, Attachment 5, DFDR Figure 1; PDF p.10, DFDR Figure 2; 18:48:00 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 225
+    },
+    {
+      "t_utc": "1985-08-12T09:48:03Z",
+      "lat": 35.774,
+      "lon": 139.166,
+      "alt_ft": null,
+      "ias_kt": null,
+      "hdg_deg": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "quality": "modelled",
+      "method": "Published AAIC DFDR-integrated flight-path model, manually digitized from its gridded map. Map reading approximately 35.7703 N, 139.1696 E; assumed Tokyo Datum transformed to WGS84 with PROJ Tokyo to WGS 84 (108). Output rounded to 0.001 degree; this is display resolution, not demonstrated accuracy. These are not radar fixes. Adjacent map crosses interpreted at ten-second intervals. Numeric flight parameters are withheld rather than interpolated. Retained from jal123.json; the gridded original was rendered and inspected again. Approximate map/model position, with no raw radar-coordinate claim.",
+      "sources": [
+        "s4",
+        "s6",
+        "s8"
+      ],
+      "locator": "Addendum 6, Figure 12, printed p.129, PDF p.131",
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:48:30Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 8100,
+      "ias_kt": null,
+      "hdg_deg": 315,
+      "pitch_deg": 22,
+      "roll_deg": -5,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.5, Attachment 5, DFDR Figure 1; PDF p.11, DFDR Figure 2; 18:48:30 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 185
+    },
+    {
+      "t_utc": "1985-08-12T09:48:33Z",
+      "lat": 35.797,
+      "lon": 139.14,
+      "alt_ft": null,
+      "ias_kt": null,
+      "hdg_deg": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "quality": "modelled",
+      "method": "Published AAIC DFDR-integrated flight-path model, manually digitized from its gridded map. Map reading approximately 35.7936 N, 139.1432 E; assumed Tokyo Datum transformed to WGS84 with PROJ Tokyo to WGS 84 (108). Output rounded to 0.001 degree; this is display resolution, not demonstrated accuracy. These are not radar fixes. Adjacent map crosses interpreted at ten-second intervals. Numeric flight parameters are withheld rather than interpolated. Retained from jal123.json; the gridded original was rendered and inspected again. Approximate map/model position, with no raw radar-coordinate claim.",
+      "sources": [
+        "s4",
+        "s6",
+        "s8"
+      ],
+      "locator": "Addendum 6, Figure 12, printed p.129, PDF p.131",
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:49:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 6300,
+      "ias_kt": null,
+      "hdg_deg": 305,
+      "pitch_deg": -14,
+      "roll_deg": null,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.5, Attachment 5, DFDR Figure 1; PDF p.11, DFDR Figure 2; 18:49:00 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 245
+    },
+    {
+      "t_utc": "1985-08-12T09:49:03Z",
+      "lat": 35.815,
+      "lon": 139.108,
+      "alt_ft": null,
+      "ias_kt": null,
+      "hdg_deg": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "quality": "modelled",
+      "method": "Published AAIC DFDR-integrated flight-path model, manually digitized from its gridded map. Map reading approximately 35.8114 N, 139.1112 E; assumed Tokyo Datum transformed to WGS84 with PROJ Tokyo to WGS 84 (108). Output rounded to 0.001 degree; this is display resolution, not demonstrated accuracy. These are not radar fixes. Adjacent map crosses interpreted at ten-second intervals. Numeric flight parameters are withheld rather than interpolated. Retained from jal123.json; the gridded original was rendered and inspected again. Approximate map/model position, with no raw radar-coordinate claim.",
+      "sources": [
+        "s4",
+        "s6",
+        "s8"
+      ],
+      "locator": "Addendum 6, Figure 12, printed p.129, PDF p.131",
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:49:30Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 8400,
+      "ias_kt": null,
+      "hdg_deg": 305,
+      "pitch_deg": 37,
+      "roll_deg": 0,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.5, Attachment 5, DFDR Figure 1; PDF p.11, DFDR Figure 2; 18:49:30 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 150
+    },
+    {
+      "t_utc": "1985-08-12T09:49:33Z",
+      "lat": 35.832,
+      "lon": 139.079,
+      "alt_ft": null,
+      "ias_kt": null,
+      "hdg_deg": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "quality": "modelled",
+      "method": "Published AAIC DFDR-integrated flight-path model, manually digitized from its gridded map. Map reading approximately 35.8284 N, 139.0826 E; assumed Tokyo Datum transformed to WGS84 with PROJ Tokyo to WGS 84 (108). Output rounded to 0.001 degree; this is display resolution, not demonstrated accuracy. These are not radar fixes. Adjacent map crosses interpreted at ten-second intervals. Numeric flight parameters are withheld rather than interpolated. Retained from jal123.json; the gridded original was rendered and inspected again. Approximate map/model position, with no raw radar-coordinate claim.",
+      "sources": [
+        "s4",
+        "s6",
+        "s8"
+      ],
+      "locator": "Addendum 6, Figure 12, printed p.129, PDF p.131",
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:49:42Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "hdg_deg": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "quality": "recorded",
+      "method": "Published DFDR minimum CAS and corresponding AOA; CAS is not IAS. Text values retain the report’s approximation; copied from the existing extraction and checked against Attachment 5 / section 3.1.7.4.",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Attachment 5, PDF p.291, printed p.33",
+      "cas_kt": 108
+    },
+    {
+      "t_utc": "1985-08-12T09:50:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 8200,
+      "ias_kt": null,
+      "hdg_deg": 300,
+      "pitch_deg": -13,
+      "roll_deg": -15,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.5, Attachment 5, DFDR Figure 1; PDF p.11, DFDR Figure 2; 18:50:00 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 230
+    },
+    {
+      "t_utc": "1985-08-12T09:50:03Z",
+      "lat": 35.844,
+      "lon": 139.055,
+      "alt_ft": null,
+      "ias_kt": null,
+      "hdg_deg": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "quality": "modelled",
+      "method": "Published AAIC DFDR-integrated flight-path model, manually digitized from its gridded map. Map reading approximately 35.8409 N, 139.0584 E; assumed Tokyo Datum transformed to WGS84 with PROJ Tokyo to WGS 84 (108). Output rounded to 0.001 degree; this is display resolution, not demonstrated accuracy. These are not radar fixes. Adjacent map crosses interpreted at ten-second intervals. Numeric flight parameters are withheld rather than interpolated. Retained from jal123.json; the gridded original was rendered and inspected again. Approximate map/model position, with no raw radar-coordinate claim.",
+      "sources": [
+        "s4",
+        "s6",
+        "s8"
+      ],
+      "locator": "Addendum 6, Figure 12, printed p.129, PDF p.131",
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:50:30Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 8300,
+      "ias_kt": null,
+      "hdg_deg": 290,
+      "pitch_deg": 21,
+      "roll_deg": -5,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.5, Attachment 5, DFDR Figure 1; PDF p.11, DFDR Figure 2; 18:50:30 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 190
+    },
+    {
+      "t_utc": "1985-08-12T09:50:33Z",
+      "lat": 35.856,
+      "lon": 139.014,
+      "alt_ft": null,
+      "ias_kt": null,
+      "hdg_deg": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "quality": "modelled",
+      "method": "Published AAIC DFDR-integrated flight-path model, manually digitized from its gridded map. Map reading approximately 35.8525 N, 139.0176 E; assumed Tokyo Datum transformed to WGS84 with PROJ Tokyo to WGS 84 (108). Output rounded to 0.001 degree; this is display resolution, not demonstrated accuracy. These are not radar fixes. Adjacent map crosses interpreted at ten-second intervals. Numeric flight parameters are withheld rather than interpolated. Retained from jal123.json; the gridded original was rendered and inspected again. Approximate map/model position, with no raw radar-coordinate claim.",
+      "sources": [
+        "s4",
+        "s6",
+        "s8"
+      ],
+      "locator": "Addendum 6, Figure 12, printed p.129, PDF p.131",
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:51:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 9600,
+      "ias_kt": null,
+      "hdg_deg": 275,
+      "pitch_deg": 2,
+      "roll_deg": -15,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.5, Attachment 5, DFDR Figure 1; PDF p.11, DFDR Figure 2; 18:51:00 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 185
+    },
+    {
+      "t_utc": "1985-08-12T09:51:03Z",
+      "lat": 35.863,
+      "lon": 138.978,
+      "alt_ft": null,
+      "ias_kt": null,
+      "hdg_deg": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "quality": "modelled",
+      "method": "Published AAIC DFDR-integrated flight-path model, manually digitized from its gridded map. Map reading approximately 35.8597 N, 138.9813 E; assumed Tokyo Datum transformed to WGS84 with PROJ Tokyo to WGS 84 (108). Output rounded to 0.001 degree; this is display resolution, not demonstrated accuracy. These are not radar fixes. Adjacent map crosses interpreted at ten-second intervals. Numeric flight parameters are withheld rather than interpolated. Retained from jal123.json; the gridded original was rendered and inspected again. Approximate map/model position, with no raw radar-coordinate claim.",
+      "sources": [
+        "s4",
+        "s6",
+        "s8"
+      ],
+      "locator": "Addendum 6, Figure 12, printed p.129, PDF p.131",
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:51:30Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 10500,
+      "ias_kt": null,
+      "hdg_deg": 270,
+      "pitch_deg": 16,
+      "roll_deg": null,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.5, Attachment 5, DFDR Figure 1; PDF p.11, DFDR Figure 2; 18:51:30 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 210
+    },
+    {
+      "t_utc": "1985-08-12T09:51:33Z",
+      "lat": 35.864,
+      "lon": 138.936,
+      "alt_ft": null,
+      "ias_kt": null,
+      "hdg_deg": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "quality": "modelled",
+      "method": "Published AAIC DFDR-integrated flight-path model, manually digitized from its gridded map. Map reading approximately 35.8606 N, 138.9394 E; assumed Tokyo Datum transformed to WGS84 with PROJ Tokyo to WGS 84 (108). Output rounded to 0.001 degree; this is display resolution, not demonstrated accuracy. These are not radar fixes. Adjacent map crosses interpreted at ten-second intervals. Numeric flight parameters are withheld rather than interpolated. Retained from jal123.json; the gridded original was rendered and inspected again. Approximate map/model position, with no raw radar-coordinate claim.",
+      "sources": [
+        "s4",
+        "s6",
+        "s8"
+      ],
+      "locator": "Addendum 6, Figure 12, printed p.129, PDF p.131",
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:52:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 11700,
+      "ias_kt": null,
+      "hdg_deg": 285,
+      "pitch_deg": 11,
+      "roll_deg": 15,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.5, Attachment 5, DFDR Figure 1; PDF p.11, DFDR Figure 2; 18:52:00 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 190
+    },
+    {
+      "t_utc": "1985-08-12T09:52:03Z",
+      "lat": 35.87,
+      "lon": 138.896,
+      "alt_ft": null,
+      "ias_kt": null,
+      "hdg_deg": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "quality": "modelled",
+      "method": "Published AAIC DFDR-integrated flight-path model, manually digitized from its gridded map. Map reading approximately 35.8668 N, 138.8987 E; assumed Tokyo Datum transformed to WGS84 with PROJ Tokyo to WGS 84 (108). Output rounded to 0.001 degree; this is display resolution, not demonstrated accuracy. These are not radar fixes. Adjacent map crosses interpreted at ten-second intervals. Numeric flight parameters are withheld rather than interpolated. Retained from jal123.json; the gridded original was rendered and inspected again. Approximate map/model position, with no raw radar-coordinate claim.",
+      "sources": [
+        "s4",
+        "s6",
+        "s8"
+      ],
+      "locator": "Addendum 6, Figure 12, printed p.129, PDF p.131",
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:52:30Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 12200,
+      "ias_kt": null,
+      "hdg_deg": 290,
+      "pitch_deg": 11,
+      "roll_deg": 5,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.5, Attachment 5, DFDR Figure 1; PDF p.11, DFDR Figure 2; 18:52:30 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 205
+    },
+    {
+      "t_utc": "1985-08-12T09:52:33Z",
+      "lat": 35.88,
+      "lon": 138.857,
+      "alt_ft": null,
+      "ias_kt": null,
+      "hdg_deg": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "quality": "modelled",
+      "method": "Published AAIC DFDR-integrated flight-path model, manually digitized from its gridded map. Map reading approximately 35.8767 N, 138.8601 E; assumed Tokyo Datum transformed to WGS84 with PROJ Tokyo to WGS 84 (108). Output rounded to 0.001 degree; this is display resolution, not demonstrated accuracy. These are not radar fixes. Adjacent map crosses interpreted at ten-second intervals. Numeric flight parameters are withheld rather than interpolated. Retained from jal123.json; the gridded original was rendered and inspected again. Approximate map/model position, with no raw radar-coordinate claim.",
+      "sources": [
+        "s4",
+        "s6",
+        "s8"
+      ],
+      "locator": "Addendum 6, Figure 12, printed p.129, PDF p.131",
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:53:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 13500,
+      "ias_kt": null,
+      "hdg_deg": 300,
+      "pitch_deg": 5,
+      "roll_deg": 5,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.5, Attachment 5, DFDR Figure 1; PDF p.11, DFDR Figure 2; 18:53:00 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 180
+    },
+    {
+      "t_utc": "1985-08-12T09:53:03Z",
+      "lat": 35.892,
+      "lon": 138.821,
+      "alt_ft": null,
+      "ias_kt": null,
+      "hdg_deg": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "quality": "modelled",
+      "method": "Published AAIC DFDR-integrated flight-path model, manually digitized from its gridded map. Map reading approximately 35.8892 N, 138.8238 E; assumed Tokyo Datum transformed to WGS84 with PROJ Tokyo to WGS 84 (108). Output rounded to 0.001 degree; this is display resolution, not demonstrated accuracy. These are not radar fixes. Adjacent map crosses interpreted at ten-second intervals. Numeric flight parameters are withheld rather than interpolated. Retained from jal123.json; the gridded original was rendered and inspected again. Approximate map/model position, with no raw radar-coordinate claim.",
+      "sources": [
+        "s4",
+        "s6",
+        "s8"
+      ],
+      "locator": "Addendum 6, Figure 12, printed p.129, PDF p.131",
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:53:30Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 12200,
+      "ias_kt": null,
+      "hdg_deg": 315,
+      "pitch_deg": 2,
+      "roll_deg": 10,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.5, Attachment 5, DFDR Figure 1; PDF p.11, DFDR Figure 2; 18:53:30 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 225
+    },
+    {
+      "t_utc": "1985-08-12T09:53:33Z",
+      "lat": 35.913,
+      "lon": 138.789,
+      "alt_ft": null,
+      "ias_kt": null,
+      "hdg_deg": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "quality": "modelled",
+      "method": "Published AAIC DFDR-integrated flight-path model, manually digitized from its gridded map. Map reading approximately 35.9097 N, 138.7919 E; assumed Tokyo Datum transformed to WGS84 with PROJ Tokyo to WGS 84 (108). Output rounded to 0.001 degree; this is display resolution, not demonstrated accuracy. These are not radar fixes. Adjacent map crosses interpreted at ten-second intervals. Numeric flight parameters are withheld rather than interpolated. Retained from jal123.json; the gridded original was rendered and inspected again. Approximate map/model position, with no raw radar-coordinate claim.",
+      "sources": [
+        "s4",
+        "s6",
+        "s8"
+      ],
+      "locator": "Addendum 6, Figure 12, printed p.129, PDF p.131",
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:54:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 11600,
+      "ias_kt": null,
+      "hdg_deg": 325,
+      "pitch_deg": null,
+      "roll_deg": 10,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.5, Attachment 5, DFDR Figure 1; PDF p.11, DFDR Figure 2; 18:54:00 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 215
+    },
+    {
+      "t_utc": "1985-08-12T09:54:03Z",
+      "lat": 35.942,
+      "lon": 138.761,
+      "alt_ft": null,
+      "ias_kt": null,
+      "hdg_deg": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "quality": "modelled",
+      "method": "Published AAIC DFDR-integrated flight-path model, manually digitized from its gridded map. Map reading approximately 35.9392 N, 138.7643 E; assumed Tokyo Datum transformed to WGS84 with PROJ Tokyo to WGS 84 (108). Output rounded to 0.001 degree; this is display resolution, not demonstrated accuracy. These are not radar fixes. Adjacent map crosses interpreted at ten-second intervals. Numeric flight parameters are withheld rather than interpolated. Retained from jal123.json; the gridded original was rendered and inspected again. Approximate map/model position, with no raw radar-coordinate claim.",
+      "sources": [
+        "s4",
+        "s6",
+        "s8"
+      ],
+      "locator": "Addendum 6, Figure 12, printed p.129, PDF p.131",
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:54:30Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 10900,
+      "ias_kt": null,
+      "hdg_deg": 300,
+      "pitch_deg": 3,
+      "roll_deg": -10,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.5, Attachment 5, DFDR Figure 1; PDF p.11, DFDR Figure 2; 18:54:30 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 220
+    },
+    {
+      "t_utc": "1985-08-12T09:54:32Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "hdg_deg": null,
+      "pitch_deg": null,
+      "roll_deg": 0,
+      "quality": "recorded",
+      "method": "Approximate time and values in DFDR commentary; roll nearly zero, not an exact level-flight measurement. Text values retain the report’s approximation; copied from the existing extraction and checked against Attachment 5 / section 3.1.7.4.",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Attachment 5, PDF p.291",
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:54:33Z",
+      "lat": 35.967,
+      "lon": 138.736,
+      "alt_ft": null,
+      "ias_kt": null,
+      "hdg_deg": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "quality": "modelled",
+      "method": "Published AAIC DFDR-integrated flight-path model, manually digitized from its gridded map. Map reading approximately 35.9634 N, 138.7390 E; assumed Tokyo Datum transformed to WGS84 with PROJ Tokyo to WGS 84 (108). Output rounded to 0.001 degree; this is display resolution, not demonstrated accuracy. These are not radar fixes. Adjacent map crosses interpreted at ten-second intervals. Numeric flight parameters are withheld rather than interpolated. Retained from jal123.json; the gridded original was rendered and inspected again. Approximate map/model position, with no raw radar-coordinate claim.",
+      "sources": [
+        "s4",
+        "s6",
+        "s8"
+      ],
+      "locator": "Addendum 6, Figure 12, printed p.129, PDF p.131",
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:55:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 11400,
+      "ias_kt": null,
+      "hdg_deg": 320,
+      "pitch_deg": 7,
+      "roll_deg": 30,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.5, Attachment 5, DFDR Figure 1; PDF p.11, DFDR Figure 2; 18:55:00 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 175
+    },
+    {
+      "t_utc": "1985-08-12T09:55:03Z",
+      "lat": 35.984,
+      "lon": 138.687,
+      "alt_ft": null,
+      "ias_kt": null,
+      "hdg_deg": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "quality": "modelled",
+      "method": "Published AAIC DFDR-integrated flight-path model, manually digitized from its gridded map. Map reading approximately 35.9803 N, 138.6905 E; assumed Tokyo Datum transformed to WGS84 with PROJ Tokyo to WGS 84 (108). Output rounded to 0.001 degree; this is display resolution, not demonstrated accuracy. These are not radar fixes. Adjacent map crosses interpreted at ten-second intervals. Numeric flight parameters are withheld rather than interpolated. Retained from jal123.json; the gridded original was rendered and inspected again. Approximate map/model position, with no raw radar-coordinate claim.",
+      "sources": [
+        "s4",
+        "s6",
+        "s8"
+      ],
+      "locator": "Addendum 6, Figure 12, printed p.129, PDF p.131",
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:55:13Z",
+      "lat": 35.99,
+      "lon": 138.686,
+      "alt_ft": null,
+      "ias_kt": null,
+      "hdg_deg": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "quality": "modelled",
+      "method": "Published AAIC DFDR-integrated flight-path model, manually digitized from its gridded map. Map reading approximately 35.9866 N, 138.6894 E; assumed Tokyo Datum transformed to WGS84 with PROJ Tokyo to WGS 84 (108). Output rounded to 0.001 degree; this is display resolution, not demonstrated accuracy. These are not radar fixes. Adjacent map crosses interpreted at ten-second intervals. Numeric flight parameters are withheld rather than interpolated. Retained from jal123.json; the gridded original was rendered and inspected again. Approximate map/model position, with no raw radar-coordinate claim.",
+      "sources": [
+        "s4",
+        "s6",
+        "s8"
+      ],
+      "locator": "Addendum 6, Figure 12, printed p.129, PDF p.131",
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:55:23Z",
+      "lat": 36.0,
+      "lon": 138.684,
+      "alt_ft": null,
+      "ias_kt": null,
+      "hdg_deg": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "quality": "modelled",
+      "method": "Published AAIC DFDR-integrated flight-path model, manually digitized from its gridded map. Map reading approximately 35.9973 N, 138.6872 E; assumed Tokyo Datum transformed to WGS84 with PROJ Tokyo to WGS 84 (108). Output rounded to 0.001 degree; this is display resolution, not demonstrated accuracy. These are not radar fixes. Adjacent map crosses interpreted at ten-second intervals. Numeric flight parameters are withheld rather than interpolated. Retained from jal123.json; the gridded original was rendered and inspected again. Approximate map/model position, with no raw radar-coordinate claim.",
+      "sources": [
+        "s4",
+        "s6",
+        "s8"
+      ],
+      "locator": "Addendum 6, Figure 12, printed p.129, PDF p.131",
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:55:30Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 10800,
+      "ias_kt": null,
+      "hdg_deg": 40,
+      "pitch_deg": 1,
+      "roll_deg": 30,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.5, Attachment 5, DFDR Figure 1; PDF p.11, DFDR Figure 2; 18:55:30 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 225
+    },
+    {
+      "t_utc": "1985-08-12T09:55:33Z",
+      "lat": 36.013,
+      "lon": 138.69,
+      "alt_ft": null,
+      "ias_kt": null,
+      "hdg_deg": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "quality": "modelled",
+      "method": "Published AAIC DFDR-integrated flight-path model, manually digitized from its gridded map. Map reading approximately 36.0098 N, 138.6927 E; assumed Tokyo Datum transformed to WGS84 with PROJ Tokyo to WGS 84 (108). Output rounded to 0.001 degree; this is display resolution, not demonstrated accuracy. These are not radar fixes. Adjacent map crosses interpreted at ten-second intervals. Numeric flight parameters are withheld rather than interpolated. Retained from jal123.json; the gridded original was rendered and inspected again. Approximate map/model position, with no raw radar-coordinate claim.",
+      "sources": [
+        "s4",
+        "s6",
+        "s8"
+      ],
+      "locator": "Addendum 6, Figure 12, printed p.129, PDF p.131",
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:55:43Z",
+      "lat": 36.019,
+      "lon": 138.703,
+      "alt_ft": null,
+      "ias_kt": null,
+      "hdg_deg": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "quality": "modelled",
+      "method": "Published AAIC DFDR-integrated flight-path model, manually digitized from its gridded map. Map reading approximately 36.0161 N, 138.7059 E; assumed Tokyo Datum transformed to WGS84 with PROJ Tokyo to WGS 84 (108). Output rounded to 0.001 degree; this is display resolution, not demonstrated accuracy. These are not radar fixes. Adjacent map crosses interpreted at ten-second intervals. Numeric flight parameters are withheld rather than interpolated. Retained from jal123.json; the gridded original was rendered and inspected again. Approximate map/model position, with no raw radar-coordinate claim.",
+      "sources": [
+        "s4",
+        "s6",
+        "s8"
+      ],
+      "locator": "Addendum 6, Figure 12, printed p.129, PDF p.131",
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:55:53Z",
+      "lat": 36.019,
+      "lon": 138.715,
+      "alt_ft": null,
+      "ias_kt": null,
+      "hdg_deg": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "quality": "modelled",
+      "method": "Published AAIC DFDR-integrated flight-path model, manually digitized from its gridded map. Map reading approximately 36.0161 N, 138.7181 E; assumed Tokyo Datum transformed to WGS84 with PROJ Tokyo to WGS 84 (108). Output rounded to 0.001 degree; this is display resolution, not demonstrated accuracy. These are not radar fixes. Adjacent map crosses interpreted at ten-second intervals. Numeric flight parameters are withheld rather than interpolated. Retained from jal123.json; the gridded original was rendered and inspected again. Approximate map/model position, with no raw radar-coordinate claim.",
+      "sources": [
+        "s4",
+        "s6",
+        "s8"
+      ],
+      "locator": "Addendum 6, Figure 12, printed p.129, PDF p.131",
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:55:57Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 10000,
+      "ias_kt": null,
+      "hdg_deg": null,
+      "pitch_deg": -15,
+      "roll_deg": null,
+      "quality": "recorded",
+      "method": "Approximate DFDR values; main text says pitch exceeded 15 degrees nose down, while Attachment 5 says about 15 degrees. Text values retain the report’s approximation; copied from the existing extraction and checked against Attachment 5 / section 3.1.7.4.",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Section 3.1.7.4, printed p.79; Attachment 5, PDF p.292",
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:56:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 9800,
+      "ias_kt": null,
+      "hdg_deg": 150,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "quality": "derived",
+      "method": "read from plot, Attachment 5, DFDR Figure 1 (ALT1/CAS1/HDG) and DFDR Figure 2 (PCH1/RLL1); corrected record only. PDF rendered to PNG at 2x, enlarged crops inspected; trace pixels read against axis ticks, with pixel selection checked visually. Pressure altitude ±500 ft; CAS ±15 kt; magnetic heading ±10 deg; pitch ±5 deg; roll ±25 deg when supplied. Nominal plot time ±3 s (up to ±8 s on the pre-event scan); these are reading tolerances, not instrument accuracy. No interpolation or forward filling; ambiguous fields omitted (null).",
+      "sources": [
+        "s2",
+        "s6"
+      ],
+      "locator": "s2 PDF p.5, Attachment 5, DFDR Figure 1; PDF p.11, DFDR Figure 2; 18:56:00 JST; ALT1 pressure altitude, CAS1 calibrated airspeed, HDG magnetic",
+      "cas_kt": 210
+    },
+    {
+      "t_utc": "1985-08-12T09:56:03Z",
+      "lat": 36.014,
+      "lon": 138.726,
+      "alt_ft": null,
+      "ias_kt": null,
+      "hdg_deg": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "quality": "modelled",
+      "method": "Published AAIC DFDR-integrated flight-path model, manually digitized from its gridded map. Map reading approximately 36.0107 N, 138.7291 E; assumed Tokyo Datum transformed to WGS84 with PROJ Tokyo to WGS 84 (108). Output rounded to 0.001 degree; this is display resolution, not demonstrated accuracy. These are not radar fixes. Adjacent map crosses interpreted at ten-second intervals. Numeric flight parameters are withheld rather than interpolated. Retained from jal123.json; the gridded original was rendered and inspected again. Approximate map/model position, with no raw radar-coordinate claim.",
+      "sources": [
+        "s4",
+        "s6",
+        "s8"
+      ],
+      "locator": "Addendum 6, Figure 12, printed p.129, PDF p.131",
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:56:07Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "hdg_deg": null,
+      "pitch_deg": -36,
+      "roll_deg": 70,
+      "quality": "recorded",
+      "method": "Approximate recorded attitudes from Attachment 5. The 15,000 ft/min descent in the narrative is an interval average and is not an instantaneous vs_fpm. Text values retain the report’s approximation; copied from the existing extraction and checked against Attachment 5 / section 3.1.7.4.",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Section 3.1.7.4, printed p.79; Attachment 5, PDF p.292",
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:56:13Z",
+      "lat": 36.002,
+      "lon": 138.726,
+      "alt_ft": null,
+      "ias_kt": null,
+      "hdg_deg": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "quality": "modelled",
+      "method": "Published AAIC DFDR-integrated flight-path model, manually digitized from its gridded map. Map reading approximately 35.9991 N, 138.7291 E; assumed Tokyo Datum transformed to WGS84 with PROJ Tokyo to WGS 84 (108). Output rounded to 0.001 degree; this is display resolution, not demonstrated accuracy. These are not radar fixes. Adjacent map crosses interpreted at ten-second intervals. Numeric flight parameters are withheld rather than interpolated. Retained from jal123.json; the gridded original was rendered and inspected again. Approximate map/model position, with no raw radar-coordinate claim.",
+      "sources": [
+        "s4",
+        "s6",
+        "s8"
+      ],
+      "locator": "Addendum 6, Figure 12, printed p.129, PDF p.131",
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:56:17Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "hdg_deg": null,
+      "pitch_deg": null,
+      "roll_deg": 40,
+      "quality": "recorded",
+      "method": "Approximate time and roll. CAS is a lower bound, so cas_kt is null. Main text gives about 5,500 ft; Attachment 5 gives about 5,000 ft. Neither conflicting altitude is selected. Text values retain the report’s approximation; copied from the existing extraction and checked against Attachment 5 / section 3.1.7.4.",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Section 3.1.7.4, printed p.80; Attachment 5, PDF p.292",
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:56:23Z",
+      "lat": 35.996,
+      "lon": 138.708,
+      "alt_ft": null,
+      "ias_kt": null,
+      "hdg_deg": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "quality": "modelled",
+      "method": "Published AAIC DFDR-integrated flight-path model, manually digitized from its gridded map. Map reading approximately 35.9929 N, 138.7115 E; assumed Tokyo Datum transformed to WGS84 with PROJ Tokyo to WGS 84 (108). Output rounded to 0.001 degree; this is display resolution, not demonstrated accuracy. These are not radar fixes. Adjacent map crosses interpreted at ten-second intervals. Numeric flight parameters are withheld rather than interpolated. Retained from jal123.json; the gridded original was rendered and inspected again. Approximate map/model position, with no raw radar-coordinate claim.",
+      "sources": [
+        "s4",
+        "s6",
+        "s8"
+      ],
+      "locator": "Addendum 6, Figure 12, printed p.129, PDF p.131",
+      "cas_kt": null
+    },
+    {
+      "t_utc": "1985-08-12T09:56:27.25Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "hdg_deg": 277.1,
+      "pitch_deg": -42.2,
+      "roll_deg": 131.5,
+      "quality": "recorded",
+      "method": "Last attitude/airspeed set for which the report says analysis was possible. CAS is calibrated airspeed; heading is magnetic. This is not the time of final rest. Text values retain the report’s approximation; copied from the existing extraction and checked against Attachment 5 / section 3.1.7.4.",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Section 3.1.7.4, printed p.80, PDF p.91",
+      "cas_kt": 263.7
+    }
+  ],
+  "notes": [
+    "Follow-up to jal123.json. Source IDs refer to its sources list; that file is unchanged. s1: AAIC Report 62-2, tentative English translation, https://www.faa.gov/sites/faa.gov/files/JAL123_Acc_Report.pdf . s2: Japanese original part 11, DFDR plots/CVR, https://www.mlit.go.jp/jtsb/aircraft/download/62-2-JA8119-11.pdf . s4: technical addenda, https://www.mlit.go.jp/jtsb/aircraft/download/62-2-JA8119-huroku.pdf . s6: NICT JST reference; s8: GSI datum-change reference (full citations in jal123.json).",
+    "Times are 1985-08-12 UTC, converted from report JST by subtracting nine hours. Plot timestamps are nominal and approximate; printed text timestamps retain their source precision. PDF page numbers are one-based.",
+    "alt_ft is pressure altitude (ALT1). The crew radio reports of 800 ft at 09:12:30 and 9,400 ft at 09:16:55 are preserved in method only, with alt_ft null because their altimeter datum/setting was not verified. These are not terrain clearance or geometric MSL heights. The added cas_kt field holds calibrated airspeed (CAS1); ias_kt remains null because an IAS series was not verified. No CAS-to-IAS conversion is invented. hdg_deg is magnetic aircraft heading, not ground track. Pitch positive nose up; roll positive right.",
+    "New plot readings cover 09:13–09:56, normally every minute before the event and every 30 seconds from 09:24:30. Each retained plot point is quality derived and carries explicit reading tolerances. These are coarse sampled readings of the published corrected plots, not raw DFDR records. The right panels labelled error-uncorrected were excluded.",
+    "A 30-second series aliases the much faster Dutch roll. Roll is left null where separate dots or axis lettering prevent a defensible nominal-time reading; no mean bank or oscillation envelope was substituted for an instantaneous value. Null pitch/CAS/heading fields likewise mean unverified, not zero. Reading tolerances are conservative analyst estimates, not AAIC confidence limits or calibrated instrument errors.",
+    "Evidence and audit files are in /Users/Home/abstracts-research/mysteries/work/jalgap: recorder-jp-*.png renders, points-*.png visually checked sampling overlays, enlarged plot/map crops, pixel-readings.json, digitize.py and build_gap.py. Pixel-assisted selection was followed by visual rejection of labels/grid artifacts; reported numbers are rounded. No values were generated by temporal interpolation, forward filling, dead reckoning, or an invented flight model.",
+    "Attached Figure 1 (s1 PDF p.150) supplies printed time/altitude/airspeed annotations and regional positions. Their place descriptions are preserved in method. It is a schematic overview with no graticule, scale calibration or stated projection: no defensible absolute latitude/longitude series for 09:12–09:46 was recovered. Latitude/longitude therefore remain null in this period rather than georeferencing the sketch by assuming that it is an accurate chart. The map does not provide a departure coordinate at 09:12; Haneda airport coordinates would not be an aircraft fix.",
+    "The overview-map annotation at 18:44 near the northwest side of the Otsuki loop was inspected but its seconds were not confidently resolved, so it is omitted. The other label readings were enlarged individually. Map labels and curve readings may differ because they have different rounding and nominal time precision; they remain separate entries even at matching times.",
+    "Section 3.1.7.3 (s1 PDF p.90, printed p.79) says the path used radar records and DFDR, and mainly DFDR from approximately 18:46 onward because mountain effects later degraded radar. The radar sketch charts in section 2.8.3 are meteorological radar charts, not a table of aircraft surveillance fixes. No machine-readable raw radar or decoded DFDR file was obtained from these attachments.",
+    "Coordinates from 09:46:03 onward are retained existing readings of s4 Addendum 6 Figure 12 (printed p.129, PDF p.131); they remain quality modelled and separate from flight-parameter readings. This gridded reconstruction cannot establish earlier positions. Its assumed Tokyo Datum to WGS84 conversion remains an assumption, as documented in jal123.json; no new precision is claimed.",
+    "ATC assigned headings/altitudes and acknowledged clearances are not actual aircraft states. For example, the 090-degree radar vector after the failure is not entered as measured heading. The two pre-event passing-altitude crew reports are distinguished from DFDR samples. Attachment 6 CVR was not used to create unsaid airspeed or attitude numbers.",
+    "Explicit text values are preferred for the final sequence: 108 kt CAS at 09:49:42; approximately 10,000 ft pressure altitude and -15 deg pitch at 09:55:57; approximately -36 deg pitch and +70 deg roll at 09:56:07; final analysable set at 09:56:27.25, heading 277.1 deg, pitch -42.2 deg, roll +131.5 deg, CAS 263.7 kt. These text anchors do not justify filling neighboring fields.",
+    "At approximately 09:56:17, section 3.1.7.4 gives about 5,500 ft but Attachment 5 gives about 5,000 ft; altitude is withheld there. CAS is stated only as exceeding 340 kt, so no exact cas_kt value is entered. The last analysable recorder set is not the final-rest time.",
+    "Duplicate timestamps deliberately retain independent observations (curve readings, printed map labels, narrative positions, or modelled coordinates); do not automatically merge records or attach a nearby coordinate to an attitude sample. No claim is made that all five flight parameters or early absolute positions were recovered at every requested time."
+  ]
+}

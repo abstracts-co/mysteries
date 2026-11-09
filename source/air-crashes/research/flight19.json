@@ -1,0 +1,3022 @@
+{
+  "id": "flight19",
+  "title": "Flight 19 and the loss of Training 49",
+  "date_utc": "1945-12-05",
+  "one_line": "Five Navy training aircraft disappeared after navigation trouble; a search Mariner was also lost, probably in a fire.",
+  "status": "unsolved",
+  "status_why": "The radio record supports navigational disorientation, but the Avengers’ final locations and loss sequence remain unknown, and the 1947 correction removed blame.",
+  "aircraft": {
+    "type": "General Motors Eastern Aircraft TBM Avenger; five aircraft of mixed variants",
+    "registration": "BuNo 23307 / FT-28; 46094 / FT-36; 73209 / FT-117; 46325 / FT-81; 45714 / FT-3",
+    "operator": "United States Navy, NAS Fort Lauderdale, VTB advanced training; Navy and Marine Corps crews",
+    "length_m": 12.48,
+    "wingspan_m": 16.51,
+    "height_m": null,
+    "fuselage_diameter_m": null,
+    "engines": 1,
+    "engine_type": "Wright R-2600 family, air-cooled radial piston engine; exact FT-28 subtype conflicted",
+    "engine_mount": "fuselage",
+    "wing": null,
+    "wing_sweep_deg": null,
+    "tail": "conventional",
+    "gear": "retractable",
+    "livery_notes": "Exact colours and individual marking layouts on 5 December 1945 were not verified. Bureau Numbers and FT identifiers come from the Board roster. The Avenger is mid-wing, which the supplied low/high enum cannot express; wing is null. Dimensions and one-engine count apply per Avenger, not to the formation or to the Mariner.",
+    "sources": [
+      "s1",
+      "s8",
+      "s9",
+      "s10"
+    ],
+    "members": [
+      {
+        "type": "TBM-3",
+        "registration": "23307",
+        "call_sign": "FT-28",
+        "aboard": 3,
+        "sources": [
+          "s1"
+        ]
+      },
+      {
+        "type": "TBM-1E, as Board roster; history table differs",
+        "registration": "46094",
+        "call_sign": "FT-36",
+        "aboard": 3,
+        "sources": [
+          "s1"
+        ]
+      },
+      {
+        "type": "TBM-1C",
+        "registration": "73209",
+        "call_sign": "FT-117",
+        "aboard": 3,
+        "sources": [
+          "s1"
+        ]
+      },
+      {
+        "type": "TBM-1C",
+        "registration": "46325",
+        "call_sign": "FT-81",
+        "aboard": 2,
+        "sources": [
+          "s1"
+        ]
+      },
+      {
+        "type": "TBM-1C",
+        "registration": "45714",
+        "call_sign": "FT-3",
+        "aboard": 3,
+        "sources": [
+          "s1"
+        ]
+      }
+    ]
+  },
+  "people": {
+    "aboard": 27,
+    "crew": 27,
+    "passengers": 0,
+    "died": 27,
+    "survived": 0,
+    "sources": [
+      "s1",
+      "s12"
+    ],
+    "notes": "Combined scope: fourteen aboard Flight 19 and thirteen aboard the Mariner. All aboard are counted as operational crew or trainees; Board language calls some aircrew passengers, but they were not civilian passengers. Died includes missing presumed dead; no impact bodies establish individual death times.",
+    "breakdown": [
+      {
+        "group": "Flight 19, five Avengers",
+        "aboard": 14,
+        "crew": 14,
+        "passengers": 0,
+        "died": 14,
+        "survived": 0
+      },
+      {
+        "group": "PBM-5 59225, Training 49",
+        "aboard": 13,
+        "crew": 13,
+        "passengers": 0,
+        "died": 13,
+        "survived": 0
+      }
+    ]
+  },
+  "route": {
+    "from": {
+      "name": "NAS Fort Lauderdale; Board navigation-problem departure datum",
+      "code": null,
+      "lat": 26.05,
+      "lon": -80.116667,
+      "elev_ft": null
+    },
+    "to": {
+      "name": "NAS Fort Lauderdale; planned return",
+      "code": null,
+      "lat": 26.05,
+      "lon": -80.116667,
+      "elev_ft": null
+    },
+    "planned_waypoints": [
+      {
+        "name": "Hen and Chickens bombing waypoint",
+        "lat": 26.03,
+        "lon": -79.08,
+        "quality": "derived",
+        "method": "Spherical rhumb line from preceding waypoint, course 91° true for 56 miles treated as nautical miles; Earth radius 6371008.8 m and 1852 m/nmi. Rounded to 0.01 degree. Illustrative planned geometry, not a surveyed landmark or flown position; primary text calls distances miles without spelling out the unit.",
+        "sources": [
+          "s1"
+        ],
+        "locator": "Finding 2/PDF p.295; Exhibit 1/PDF p.7"
+      },
+      {
+        "name": "First navigation turn, east of Bahamas",
+        "lat": 26.01,
+        "lon": -77.84,
+        "quality": "derived",
+        "method": "Spherical rhumb line from preceding waypoint, course 91° true for 67 miles treated as nautical miles; Earth radius 6371008.8 m and 1852 m/nmi. Rounded to 0.01 degree. Illustrative planned geometry, not a surveyed landmark or flown position; primary text calls distances miles without spelling out the unit.",
+        "sources": [
+          "s1"
+        ],
+        "locator": "Finding 2/PDF p.295; Exhibit 1/PDF p.7"
+      },
+      {
+        "name": "Second navigation turn, north of Grand Bahama",
+        "lat": 27.19,
+        "lon": -78.17,
+        "quality": "derived",
+        "method": "Spherical rhumb line from preceding waypoint, course 346° true for 73 miles treated as nautical miles; Earth radius 6371008.8 m and 1852 m/nmi. Rounded to 0.01 degree. Illustrative planned geometry, not a surveyed landmark or flown position; primary text calls distances miles without spelling out the unit.",
+        "sources": [
+          "s1"
+        ],
+        "locator": "Finding 2/PDF p.295; Exhibit 1/PDF p.7"
+      },
+      {
+        "name": "End of prescribed southwest leg",
+        "lat": 26.23,
+        "lon": -80.12,
+        "quality": "derived",
+        "method": "Spherical rhumb line from preceding waypoint, course 241° true for 120 miles treated as nautical miles; Earth radius 6371008.8 m and 1852 m/nmi. Rounded to 0.01 degree. Illustrative planned geometry, not a surveyed landmark or flown position; primary text calls distances miles without spelling out the unit.",
+        "sources": [
+          "s1"
+        ],
+        "locator": "Finding 2/PDF p.295; Exhibit 1/PDF p.7"
+      },
+      {
+        "name": "Planned return to NAS Fort Lauderdale departure datum",
+        "lat": 26.05,
+        "lon": -80.116667,
+        "quality": "reported",
+        "method": "Return destination in finding 2. Rounded course/distance legs do not close exactly; this return point is not an invented timed leg.",
+        "sources": [
+          "s1"
+        ],
+        "locator": "Finding 2/PDF p.295"
+      }
+    ],
+    "sources": [
+      "s1"
+    ],
+    "notes": "Planned exercise only. Coordinate calculations treat the Navy mile entries as nautical miles, a stated interpretation of the marine navigation chart rather than a unit explicitly expanded in the findings. Reversing this assumption changes the calculated points. Rounding in the prescribed bearings/distances and historical datum limits means the numerical triangle does not close exactly. No waypoint arrival times, flight speeds or measured flown coordinates are inferred."
+  },
+  "site": {
+    "lat": null,
+    "lon": null,
+    "elev_ft": null,
+    "depth_m": null,
+    "precision": "unknown",
+    "surface": "ocean",
+    "description": "Avengers: presumed at sea east of Florida in the original Board opinion, but no confirmed wreck or impact position. The HF/DF circle is an earlier area estimate, not the disappearance site. Ocean is the leading interpretation; it is not a verified impact surface.",
+    "sources": [
+      "s1",
+      "s6",
+      "s12"
+    ]
+  },
+  "terrain_box": null,
+  "environment": [
+    {
+      "t_utc": "1945-12-05T18:50:00Z",
+      "lat": 26.066667,
+      "lon": -80.15,
+      "place": "NAS Fort Lauderdale weather station; ground observation",
+      "wind_dir_deg": null,
+      "wind_kt": 16.51,
+      "temp_c": 19.61,
+      "visibility_km": 19.31,
+      "precip": "Light rain showers",
+      "turbulence": null,
+      "lightning": null,
+      "sea_state": null,
+      "wave_height_m": null,
+      "cloud_layers": [
+        {
+          "type": "stratocumulus",
+          "base_ft": 5500,
+          "top_ft": null,
+          "coverage": "6/10"
+        },
+        {
+          "type": "altocumulus",
+          "base_ft": 10000,
+          "top_ft": null,
+          "coverage": "1/10"
+        }
+      ],
+      "light": "day",
+      "moon_note": null,
+      "notes": "Exhibit 3/PDF p.11, 1350 local row. Dry-bulb 67.3 F converted by (F−32)×5/9; wind 19 mph converted ×0.8689762419 to knots; visibility 12 statute miles converted ×1.609344 to km and rounded. Station coordinates transcribed from form, distinct from the Board navigation departure datum. Cloud bases are recorded estimated bases; tops absent. Light rain showers recorded. Wind direction is drawn as an arrow; no exact numerical direction is inferred.",
+      "quality": "derived",
+      "sources": [
+        "s4"
+      ]
+    },
+    {
+      "t_utc": "1945-12-05T19:50:00Z",
+      "lat": 26.066667,
+      "lon": -80.15,
+      "place": "NAS Fort Lauderdale weather station; ground observation",
+      "wind_dir_deg": null,
+      "wind_kt": 18.25,
+      "temp_c": 19.5,
+      "visibility_km": 19.31,
+      "precip": null,
+      "turbulence": null,
+      "lightning": null,
+      "sea_state": null,
+      "wave_height_m": null,
+      "cloud_layers": [
+        {
+          "type": "stratocumulus",
+          "base_ft": 3000,
+          "top_ft": null,
+          "coverage": "4/10"
+        },
+        {
+          "type": "altocumulus",
+          "base_ft": 10000,
+          "top_ft": null,
+          "coverage": "1/10"
+        }
+      ],
+      "light": "day",
+      "moon_note": null,
+      "notes": "Exhibit 3/PDF p.11, 1450 local row. Dry-bulb 67.1 F converted by (F−32)×5/9; wind 21 mph converted ×0.8689762419 to knots; visibility 12 statute miles converted ×1.609344 to km and rounded. Station coordinates transcribed from form, distinct from the Board navigation departure datum. Cloud bases are recorded estimated bases; tops absent. Gusts to 31 knots explicitly noted. No precipitation entry in this row; that does not measure offshore conditions.",
+      "quality": "derived",
+      "sources": [
+        "s4"
+      ]
+    },
+    {
+      "t_utc": "1945-12-05T20:50:00Z",
+      "lat": 26.066667,
+      "lon": -80.15,
+      "place": "NAS Fort Lauderdale weather station; ground observation",
+      "wind_dir_deg": null,
+      "wind_kt": 17.38,
+      "temp_c": 18.39,
+      "visibility_km": 19.31,
+      "precip": null,
+      "turbulence": null,
+      "lightning": null,
+      "sea_state": null,
+      "wave_height_m": null,
+      "cloud_layers": [
+        {
+          "type": "cumulus",
+          "base_ft": 3500,
+          "top_ft": null,
+          "coverage": "3/10"
+        },
+        {
+          "type": "altocumulus",
+          "base_ft": 10000,
+          "top_ft": null,
+          "coverage": "1/10"
+        }
+      ],
+      "light": "day",
+      "moon_note": null,
+      "notes": "Exhibit 3/PDF p.11, 1550 local row. Dry-bulb 65.1 F converted by (F−32)×5/9; wind 20 mph converted ×0.8689762419 to knots; visibility 12 statute miles converted ×1.609344 to km and rounded. Station coordinates transcribed from form, distinct from the Board navigation departure datum. Cloud bases are recorded estimated bases; tops absent. Gusts to 31 knots. Winds are drawn westerly. Station cloud base is not the ceiling over the Bahamas.",
+      "quality": "derived",
+      "sources": [
+        "s4"
+      ]
+    },
+    {
+      "t_utc": "1945-12-05T21:00:00Z",
+      "lat": null,
+      "lon": null,
+      "place": "NAS Fort Lauderdale and navigation operating area, aerologist testimony",
+      "wind_dir_deg": null,
+      "wind_kt": 20,
+      "temp_c": null,
+      "visibility_km": null,
+      "precip": "Scattered light intermittent rain showers with a weak secondary cold front",
+      "turbulence": null,
+      "lightning": null,
+      "sea_state": "Moderate to rough",
+      "wave_height_m": null,
+      "cloud_layers": [
+        {
+          "type": "Unspecified cloud at the station",
+          "base_ft": 3000,
+          "top_ft": null,
+          "coverage": "Ceiling described as unlimited"
+        },
+        {
+          "type": "Showers in operating area",
+          "base_ft": 2500,
+          "top_ft": null,
+          "coverage": "Ceiling in showers; otherwise average conditions"
+        }
+      ],
+      "light": "day",
+      "moon_note": null,
+      "notes": "Printed pp.7–8/PDF pp.327–328. Station visibility 10–12 miles and operating-area visibility 6–8 miles, so scalar visibility stays null. Surface wind testified as 20 kt gusting 31; this is not identical to the earlier surface-form mph values. Front crossed Florida from noon to 2000R. No evidence of a violent or freak storm was reported; offshore information was limited.",
+      "quality": "reported",
+      "sources": [
+        "s1",
+        "s4"
+      ]
+    },
+    {
+      "t_utc": "1945-12-05T21:50:00Z",
+      "lat": 26.066667,
+      "lon": -80.15,
+      "place": "NAS Fort Lauderdale weather station; ground observation",
+      "wind_dir_deg": null,
+      "wind_kt": 13.03,
+      "temp_c": 18.33,
+      "visibility_km": 19.31,
+      "precip": null,
+      "turbulence": null,
+      "lightning": null,
+      "sea_state": null,
+      "wave_height_m": null,
+      "cloud_layers": [
+        {
+          "type": "cumulus",
+          "base_ft": 2500,
+          "top_ft": null,
+          "coverage": "3/10"
+        },
+        {
+          "type": "altocumulus",
+          "base_ft": 10000,
+          "top_ft": null,
+          "coverage": "2/10"
+        }
+      ],
+      "light": "day",
+      "moon_note": null,
+      "notes": "Exhibit 3/PDF p.11, 1650 local row. Dry-bulb 65.0 F converted by (F−32)×5/9; wind 15 mph converted ×0.8689762419 to knots; visibility 12 statute miles converted ×1.609344 to km and rounded. Station coordinates transcribed from form, distinct from the Board navigation departure datum. Cloud bases are recorded estimated bases; tops absent. Dark to the northwest is noted. Numeric wind direction not extracted from the arrow.",
+      "quality": "derived",
+      "sources": [
+        "s4"
+      ]
+    },
+    {
+      "t_utc": "1945-12-05T22:50:00Z",
+      "lat": 26.066667,
+      "lon": -80.15,
+      "place": "NAS Fort Lauderdale weather station; ground observation",
+      "wind_dir_deg": null,
+      "wind_kt": 5.21,
+      "temp_c": 16.11,
+      "visibility_km": 19.31,
+      "precip": null,
+      "turbulence": null,
+      "lightning": null,
+      "sea_state": null,
+      "wave_height_m": null,
+      "cloud_layers": [
+        {
+          "type": "cumulus",
+          "base_ft": 2500,
+          "top_ft": null,
+          "coverage": "1/10"
+        },
+        {
+          "type": "altocumulus",
+          "base_ft": 10000,
+          "top_ft": null,
+          "coverage": "2/10"
+        }
+      ],
+      "light": "dusk",
+      "moon_note": null,
+      "notes": "Exhibit 3/PDF p.11, 1750 local row. Dry-bulb 61.0 F converted by (F−32)×5/9; wind 6 mph converted ×0.8689762419 to knots; visibility 12 statute miles converted ×1.609344 to km and rounded. Station coordinates transcribed from form, distinct from the Board navigation departure datum. Cloud bases are recorded estimated bases; tops absent. Few cumulus and dark northwest noted; 21 minutes after the station sunset entry of 1729. Dusk label is inferred for this ground location.",
+      "quality": "derived",
+      "sources": [
+        "s4"
+      ]
+    },
+    {
+      "t_utc": "1945-12-06T01:15:00Z",
+      "lat": 29,
+      "lon": -79,
+      "place": "Training 32 search near 29°N 79°W; observation after Flight 19 contact ended",
+      "wind_dir_deg": null,
+      "wind_kt": null,
+      "temp_c": null,
+      "visibility_km": null,
+      "precip": "Occasional showers",
+      "turbulence": "Very turbulent",
+      "lightning": null,
+      "sea_state": "Very rough; whitecaps visible",
+      "wave_height_m": null,
+      "cloud_layers": [
+        {
+          "type": "Unspecified overcast",
+          "base_ft": null,
+          "top_ft": null,
+          "coverage": "Overcast; reported ceiling 800–1200 ft"
+        }
+      ],
+      "light": "night",
+      "moon_note": null,
+      "notes": "Search-pilot testimony Q13–19, printed p.78/PDF p.398. Estimated west-southwest wind 25–30 kt: no midpoint substituted. Temperature, visibility distance, wave height and moon information were not stated. Pilot did not recall lightning; that is insufficient to prove lightning was absent. Search aircraft flew 400–800 ft below the overcast; those heights are not Flight 19 measurements.",
+      "quality": "reported",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "t_utc": null,
+      "lat": 26.066667,
+      "lon": -80.15,
+      "place": "NAS Fort Lauderdale preflight winds aloft sheet",
+      "wind_dir_deg": 220,
+      "wind_kt": 20,
+      "temp_c": null,
+      "visibility_km": null,
+      "precip": null,
+      "turbulence": null,
+      "lightning": null,
+      "sea_state": null,
+      "wave_height_m": null,
+      "cloud_layers": [],
+      "light": null,
+      "moon_note": null,
+      "notes": "PDF p.13 marked 1300 EWT on 5 December 1945. UTC timestamp is null because the sheet retains an ambiguous war-time label; the same profile is confirmed in aerologist testimony at PDF p.327. Surface 220°/20 kt; 1000 ft 241°/31 kt; 2000 ft 242°/32 kt; 3000 ft 240°/36 kt; 4000 ft 246°/33 kt; 5000 ft 245°/34 kt; 6000 ft 242°/52 kt; 7000 ft 235°/52 kt; 8000 ft 235°/45 kt. Observation terminated on entering cloud; this does not establish a cloud layer base at precisely 8000 ft.",
+      "quality": "recorded",
+      "sources": [
+        "s4"
+      ],
+      "wind_layers": [
+        {
+          "alt_ft": 1000,
+          "wind_dir_deg": 241,
+          "wind_kt": 31
+        },
+        {
+          "alt_ft": 2000,
+          "wind_dir_deg": 242,
+          "wind_kt": 32
+        },
+        {
+          "alt_ft": 3000,
+          "wind_dir_deg": 240,
+          "wind_kt": 36
+        },
+        {
+          "alt_ft": 4000,
+          "wind_dir_deg": 246,
+          "wind_kt": 33
+        },
+        {
+          "alt_ft": 5000,
+          "wind_dir_deg": 245,
+          "wind_kt": 34
+        },
+        {
+          "alt_ft": 6000,
+          "wind_dir_deg": 242,
+          "wind_kt": 52
+        },
+        {
+          "alt_ft": 7000,
+          "wind_dir_deg": 235,
+          "wind_kt": 52
+        },
+        {
+          "alt_ft": 8000,
+          "wind_dir_deg": 235,
+          "wind_kt": 45
+        }
+      ]
+    }
+  ],
+  "track": [
+    {
+      "t_utc": "1945-12-05T19:10:00Z",
+      "lat": 26.05,
+      "lon": -80.116667,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "",
+      "quality": "reported",
+      "method": "Approximate departure time in Board finding 1. Coordinates are the Board navigation problem departure datum, not a recorded runway threshold. All five Avengers; no measured heading, altitude or speed. R+5 hours=s4 weather-form instruction.",
+      "sources": [
+        "s1"
+      ],
+      "locator": "Findings 1–2, PDF p.295; testimony printed p.2/PDF p.322"
+    },
+    {
+      "t_utc": "1945-12-05T20:00:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "",
+      "quality": "reported",
+      "method": "Approximate bombing completion in the NARA historical account. No instrument data or actual position is provided; the intended bombing waypoint is confined to route.planned_waypoints.",
+      "sources": [
+        "s17"
+      ],
+      "locator": "Narrative paragraph beginning Flight 19 departed"
+    },
+    {
+      "t_utc": "1945-12-05T20:40:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "",
+      "quality": "reported",
+      "method": "Approximate first overheard lost-position exchange, recalled by FT-74 pilot in testimony. Aircraft identity of the first speaker is uncertain.",
+      "sources": [
+        "s1"
+      ],
+      "locator": "Cox testimony Q6, printed p.22/PDF p.342"
+    },
+    {
+      "t_utc": "1945-12-05T20:45:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "",
+      "quality": "reported",
+      "method": "Approximate initial-contact period in Cox testimony and Board opinion 14; not an exact timestamp for the subsequently recalled altitude reports. The flight leader reported both compasses unavailable and believed the broken land was the Keys.",
+      "sources": [
+        "s1"
+      ],
+      "locator": "Opinion 14, PDF p.303; Cox Q6, PDF p.342"
+    },
+    {
+      "t_utc": "1945-12-05T21:11:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "",
+      "quality": "recorded",
+      "method": "Base log receives identification of FT-28 and its five-plane flight, reportedly south of Florida and west of the Keys. This is the crew belief relayed by FT-74, not a geographic fix.",
+      "sources": [
+        "s3"
+      ],
+      "locator": "Radio log Exhibit 7, PDF p.21, 1611 entry"
+    },
+    {
+      "t_utc": "1945-12-05T21:21:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "",
+      "quality": "recorded",
+      "method": "ASRTU log copies FT-28 reporting small islands believed to be the Florida Keys and a failed compass. No coordinates were transmitted.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Exhibit 8, log p.1/PDF p.38, 1621"
+    },
+    {
+      "t_utc": "1945-12-05T21:25:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "",
+      "quality": "recorded",
+      "method": "FT-28 reports just passing a small island with no other land in sight. No island was identified.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Exhibit 8, log p.1/PDF p.38, 1625"
+    },
+    {
+      "t_utc": "1945-12-05T21:26:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "",
+      "quality": "recorded",
+      "method": "Official log records angles 3.5, interpreted as a reported altitude of 3,500 ft, and emergency IFF on. It does not establish the altimeter datum or setting; alt_ft MSL therefore remains null. This is logged radio speech, not FDR data.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Exhibit 8, log p.1/PDF p.38, 1626"
+    },
+    {
+      "t_utc": "1945-12-05T21:28:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "",
+      "quality": "recorded",
+      "method": "Ground station suggests a wingman with a good compass lead; acknowledgement is logged. It does not prove that a change of lead occurred at this time.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Exhibit 8, log p.1/PDF p.38, 1628"
+    },
+    {
+      "t_utc": "1945-12-05T21:31:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "",
+      "quality": "recorded",
+      "method": "FT-28 reports that another pilot thinks a 270-degree course would reach land. A proposed course is not a measured heading; hdg_deg remains null.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Exhibit 8, log p.1/PDF p.38, 1631"
+    },
+    {
+      "t_utc": "1945-12-05T21:45:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": 30,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "",
+      "quality": "recorded",
+      "method": "FT-28 reports heading 030 for 45 minutes, then north, to check whether they are over the Gulf. 030 is the stated heading, reference true/magnetic unstated. Actual duration is unknown; rough crash log gives a different plan.",
+      "sources": [
+        "s2",
+        "s3"
+      ],
+      "locator": "Exhibit 8 p.2/PDF p.39, 1645; rough crash log PDF p.32"
+    },
+    {
+      "t_utc": "1945-12-05T22:07:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "",
+      "quality": "recorded",
+      "method": "ASRTU log intercepts an instruction to change course to 090 for ten minutes. This is a command; heading field stays null because compliance was not recorded. Some later accounts place it at 1703; that timing is not used here.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Exhibit 8 p.2/PDF p.39, 1707"
+    },
+    {
+      "t_utc": "1945-12-05T22:15:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": 270,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "",
+      "quality": "recorded",
+      "method": "FT-28 reports the formation now flying 270 degrees. This is a crew-stated course/heading, not a measured ground track, with true/magnetic reference unspecified.",
+      "sources": [
+        "s2",
+        "s3"
+      ],
+      "locator": "Exhibit 8 p.3/PDF p.40, 1715; rough crash log PDF p.32"
+    },
+    {
+      "t_utc": "1945-12-05T22:16:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "",
+      "quality": "recorded",
+      "method": "FT-28 states the intention to continue 270 until landfall or fuel exhaustion. No position, speed, fuel quantity or measured heading is supplied.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Exhibit 8 p.3/PDF p.40, 1716"
+    },
+    {
+      "t_utc": "1945-12-05T22:24:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "",
+      "quality": "recorded",
+      "method": "FT-28 reports weak reception and asks about Fort Lauderdale weather. The logged answer is a ground-station report, not an aircraft weather observation.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Exhibit 8 p.3/PDF p.40, 1724"
+    },
+    {
+      "t_utc": "1945-12-05T22:30:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "",
+      "quality": "recorded",
+      "method": "Interception records FT-28 asking about a ship on the left; the reply is unreadable. No ship or position can be identified.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Exhibit 8 p.3/PDF p.40, 1730"
+    },
+    {
+      "t_utc": "1945-12-05T22:33:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "",
+      "quality": "recorded",
+      "method": "FT-28 asks whether he can be heard. Ground replies signal strength three, modulation good; no acknowledgement follows.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Exhibit 8 p.3/PDF p.40, 1733"
+    },
+    {
+      "t_utc": "1945-12-05T22:40:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "",
+      "quality": "recorded",
+      "method": "FT-28 asks for a reception report; ground describes very weak reception and requests a switch to 3000 kHz. No reply is logged.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Exhibit 8 p.3/PDF p.40, 1740"
+    },
+    {
+      "t_utc": "1945-12-05T22:50:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "",
+      "quality": "reported",
+      "method": "Evaluated HF/DF area applies to this time: within 100 miles of 29°15′N 79°00′W. Coordinates stay null because this is a broad uncertainty circle, not the aircraft position; see evidence_points. Navy evaluation, not a calculation made here and not radar. Bearings were collected over an interval.",
+      "sources": [
+        "s1",
+        "s5"
+      ],
+      "locator": "Finding 28/PDF p.298; Exhibit 11/PDF p.223; evaluator testimony PDF pp.371–372"
+    },
+    {
+      "t_utc": "1945-12-05T22:55:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "",
+      "quality": "recorded",
+      "method": "HF/DF net copies FT-28 declining to change frequency to keep the formation together. This is the net log time 2255Z, not a verified moment of aircraft transmission.",
+      "sources": [
+        "s5"
+      ],
+      "locator": "HF/DF net traffic PDF p.156, 2255Z"
+    },
+    {
+      "t_utc": "1945-12-05T22:59:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "",
+      "quality": "recorded",
+      "method": "Another HF/DF net relays that the subject cannot change to 3000 and will stay on 4805 kHz. Time is the logged relay time 2259Z; it need not be a new aircraft transmission.",
+      "sources": [
+        "s5"
+      ],
+      "locator": "HF/DF net traffic PDF p.164, 2259Z"
+    },
+    {
+      "t_utc": "1945-12-05T23:02:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "",
+      "quality": "recorded",
+      "method": "Net traffic relays a warning of possible imminent ditching at 2302Z. This is not evidence that ditching occurred then; later aircraft calls were heard.",
+      "sources": [
+        "s5"
+      ],
+      "locator": "HF/DF net traffic PDF pp.157 and 164, 2302Z"
+    },
+    {
+      "t_utc": "1945-12-05T23:04:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": 270,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "",
+      "quality": "recorded",
+      "method": "ASRTU intercept records a 270-degree course and a suggestion to turn east again. Heading 270 is the reported current course; the proposed eastward reversal is not confirmed. Board opinion 35 places the suggestion at 1806, and opinion 36 leaves courses after 1807 undetermined.",
+      "sources": [
+        "s2",
+        "s1"
+      ],
+      "locator": "Exhibit 8 p.4/PDF p.41, 1804; opinions 35–36/PDF p.305"
+    },
+    {
+      "t_utc": "1945-12-05T23:27:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "",
+      "quality": "recorded",
+      "method": "Station log records a pilot identified as Powers asking Taylor about his compass. No reliable numerical answer is legible in the inspected entry.",
+      "sources": [
+        "s3"
+      ],
+      "locator": "Exhibit 7, PDF p.21, 1827"
+    },
+    {
+      "t_utc": "1945-12-05T23:44:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "",
+      "quality": "recorded",
+      "method": "ASRTU intercepts garbled conversation and can distinguish FT-3 giving its call sign. This is not a position or fuel reading.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Exhibit 8 p.4/PDF p.41, 1844"
+    },
+    {
+      "t_utc": "1945-12-05T23:45:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "",
+      "quality": "recorded",
+      "method": "Rough crash log says T-3 and T-28 are still talking. This may overlap the 1844 ASRTU interception; no separate path information is inferred.",
+      "sources": [
+        "s3"
+      ],
+      "locator": "Rough crash log PDF p.32, 1845"
+    },
+    {
+      "t_utc": "1945-12-06T00:04:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "",
+      "quality": "recorded",
+      "method": "Final logged Flight 19 call: FT-3 calls FT-28 without acknowledgement. No final location, ditching time or fuel quantity is recorded.",
+      "sources": [
+        "s3"
+      ],
+      "locator": "Exhibit 7 PDF p.22, 1904; rough crash log PDF p.32"
+    },
+    {
+      "t_utc": null,
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "",
+      "quality": "reported",
+      "method": "FT-28 reportedly said 2,300 ft during the Cox conversation after initial contact around 1540–1545R. The exact transmission time, setting and vertical datum are not established; requested MSL altitude is null. Do not append this as a timed point after 1904.",
+      "sources": [
+        "s1"
+      ],
+      "locator": "Cox testimony Q6, printed p.22/PDF p.342"
+    },
+    {
+      "t_utc": null,
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "",
+      "quality": "reported",
+      "method": "Later in the same recalled conversation FT-28 reportedly gave 4,500 ft. Exact time and MSL datum are unknown. This untimed report must not be interpolated into the timed track.",
+      "sources": [
+        "s1"
+      ],
+      "locator": "Cox testimony Q6, printed p.22/PDF p.342"
+    }
+  ],
+  "events": [
+    {
+      "t_utc": "1945-12-05T18:15:00Z",
+      "t_precision": "estimated",
+      "title": "Instructor asks for relief",
+      "detail": "The training duty officer recalled the instructor asking for a replacement without giving a reason. The same witness reported no other unusual behavior; this does not establish illness or impairment.",
+      "kind": "crew_action",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s1"
+      ],
+      "locator": "Curtis testimony Q9–14, printed pp.16–17/PDF pp.336–337"
+    },
+    {
+      "t_utc": "1945-12-05T19:10:00Z",
+      "t_precision": "estimated",
+      "title": "Five Avengers depart",
+      "detail": "Five TBM aircraft left NAS Fort Lauderdale with fourteen Navy and Marine personnel for Navigation Problem No. 1. The time is approximate.",
+      "kind": "departure",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s1"
+      ],
+      "locator": "Finding 1/PDF p.295; Jenkins testimony PDF p.322"
+    },
+    {
+      "t_utc": "1945-12-05T20:00:00Z",
+      "t_precision": "estimated",
+      "title": "Practice bombing reportedly complete",
+      "detail": "The official archival history places completion at about 1500 local. No recovered position record verifies the formation at the planned bombing point at that minute.",
+      "kind": "crew_action",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s17"
+      ],
+      "locator": "Flight-history narrative"
+    },
+    {
+      "t_utc": "1945-12-05T20:40:00Z",
+      "t_precision": "estimated",
+      "title": "Navigation doubt is overheard",
+      "detail": "An instructor in another flight heard pilots discussing their compass readings and being lost after a turn. His testimony gives an approximate time.",
+      "kind": "witness",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s1"
+      ],
+      "locator": "Cox Q6, printed p.22/PDF p.342"
+    },
+    {
+      "t_utc": "1945-12-05T20:45:00Z",
+      "t_precision": "estimated",
+      "title": "Leader reports compass trouble",
+      "detail": "The flight leader told the other instructor that both compasses were unavailable and he believed he was over the Keys. The identification of the land was a belief, not a fix.",
+      "kind": "system",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s1"
+      ],
+      "locator": "Opinion 14/PDF p.303; Cox Q6/PDF p.342"
+    },
+    {
+      "t_utc": "1945-12-05T21:05:00Z",
+      "t_precision": "minute",
+      "title": "Base logs lost aircraft report",
+      "detail": "The rough crash log records FT-74 reporting a ship or aircraft apparently lost. This logged time is later than the initial conversation recalled in testimony.",
+      "kind": "atc",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s3"
+      ],
+      "locator": "Rough crash log/PDF p.32, 1605"
+    },
+    {
+      "t_utc": "1945-12-05T21:11:00Z",
+      "t_precision": "minute",
+      "title": "FT-28 is identified",
+      "detail": "The base radio log identifies the distressed flight as FT-28 and four other aircraft. FT-74 relayed the leader’s belief that he was south of Florida and west of the Keys.",
+      "kind": "atc",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s3"
+      ],
+      "locator": "Exhibit 7/PDF p.21, 1611"
+    },
+    {
+      "t_utc": "1945-12-05T21:21:00Z",
+      "t_precision": "minute",
+      "title": "Rescue unit copies distress",
+      "detail": "ASRTU-4 copied the leader saying he was lost over small islands believed to be the Florida Keys. His compass was reported out.",
+      "kind": "atc",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Exhibit 8 p.1/PDF p.38, 1621"
+    },
+    {
+      "t_utc": "1945-12-05T21:22:00Z",
+      "t_precision": "minute",
+      "title": "Northward advice depends on location",
+      "detail": "FT-74 advised keeping the sun and island strip on the left and flying north toward Miami. The advice depended on the leader actually being in the Keys.",
+      "kind": "atc",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Exhibit 8 p.1/PDF p.38, 1622"
+    },
+    {
+      "t_utc": "1945-12-05T21:25:00Z",
+      "t_precision": "minute",
+      "title": "Small island passes below",
+      "detail": "The leader reported passing a small island and seeing no other land. The island was not identified.",
+      "kind": "witness",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Exhibit 8 p.1/PDF p.38, 1625"
+    },
+    {
+      "t_utc": "1945-12-05T21:26:00Z",
+      "t_precision": "minute",
+      "title": "Leader asks for radar help",
+      "detail": "The leader reported angles 3.5 and emergency IFF, then asked whether radar could locate the formation. No effective radar fix of Flight 19 resulted.",
+      "kind": "atc",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s2",
+        "s1"
+      ],
+      "locator": "Exhibit 8 p.1/PDF p.38, 1626; opinion 19/PDF p.304"
+    },
+    {
+      "t_utc": "1945-12-05T21:28:00Z",
+      "t_precision": "minute",
+      "title": "Wingman lead is suggested",
+      "detail": "The rescue station suggested putting an aircraft with a good compass in front. An acknowledgement was logged, but the time of any actual transfer of lead remains unknown.",
+      "kind": "crew_action",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Exhibit 8 p.1/PDF p.38, 1628"
+    },
+    {
+      "t_utc": "1945-12-05T21:31:00Z",
+      "t_precision": "minute",
+      "title": "Another pilot proposes west",
+      "detail": "The leader reported that a member of the flight thought 270 degrees would bring them to land.",
+      "kind": "crew_action",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Exhibit 8 p.1/PDF p.38, 1631"
+    },
+    {
+      "t_utc": "1945-12-05T21:39:00Z",
+      "t_precision": "minute",
+      "title": "Rescuers suspect Bahama Bank",
+      "detail": "The ASRTU operations officer argued that fading signals as FT-74 flew south pointed to the missing flight being over the Bahamas. He suggested an aircraft fly out to establish contact.",
+      "kind": "search",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Exhibit 8 p.2/PDF p.39, 1639"
+    },
+    {
+      "t_utc": "1945-12-05T21:45:00Z",
+      "t_precision": "minute",
+      "title": "Leader reports northeast heading",
+      "detail": "The ASRTU log records a 030-degree heading for 45 minutes, then north, to test whether they were over the Gulf of Mexico. The rough crash log records a different intended duration and next course.",
+      "kind": "crew_action",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s2",
+        "s3"
+      ],
+      "locator": "Exhibit 8 p.2/PDF p.39, 1645; rough crash log/PDF p.32"
+    },
+    {
+      "t_utc": "1945-12-05T21:47:00Z",
+      "t_precision": "minute",
+      "title": "Direction-finding networks are alerted",
+      "detail": "The Gulf and Eastern Sea Frontier HF/DF nets were alerted to seek bearings on FT-28 at 4805 kHz. Interference delayed useful evaluation.",
+      "kind": "search",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s1"
+      ],
+      "locator": "Finding 27/PDF p.298"
+    },
+    {
+      "t_utc": "1945-12-05T21:52:00Z",
+      "t_precision": "minute",
+      "title": "Homing receiver request goes unanswered",
+      "detail": "Rescuers attempted to have FT-28 switch on ZBX homing equipment. No successful reply was logged.",
+      "kind": "atc",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Exhibit 8 p.2/PDF p.39, 1651–1656"
+    },
+    {
+      "t_utc": "1945-12-05T22:07:00Z",
+      "t_precision": "minute",
+      "title": "Eastward turn is ordered",
+      "detail": "An intercepted order called for 090 degrees for ten minutes. It supplies an instruction, not a measured track.",
+      "kind": "crew_action",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Exhibit 8 p.2/PDF p.39, 1707"
+    },
+    {
+      "t_utc": "1945-12-05T22:09:00Z",
+      "t_precision": "minute",
+      "title": "Ready aircraft remains grounded",
+      "detail": "NAS Fort Lauderdale told ASRTU-4 that the ready aircraft would not launch. The proposed attempt to improve contact from the northeast did not take place.",
+      "kind": "search",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Exhibit 8 p.3/PDF p.40, 1709"
+    },
+    {
+      "t_utc": "1945-12-05T22:15:00Z",
+      "t_precision": "minute",
+      "title": "Westward flight is reported",
+      "detail": "The leader said the flight was now flying 270 degrees. The rough crash log agrees on that course at this time.",
+      "kind": "crew_action",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s2",
+        "s3"
+      ],
+      "locator": "Exhibit 8 p.3/PDF p.40, 1715; rough crash log/PDF p.32"
+    },
+    {
+      "t_utc": "1945-12-05T22:16:00Z",
+      "t_precision": "minute",
+      "title": "Leader plans to continue west",
+      "detail": "The leader stated he would maintain 270 until reaching land or exhausting fuel. This did not reveal the remaining fuel quantity.",
+      "kind": "crew_action",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Exhibit 8 p.3/PDF p.40, 1716"
+    },
+    {
+      "t_utc": "1945-12-05T22:20:00Z",
+      "t_precision": "minute",
+      "title": "Rescue frequency change is requested",
+      "detail": "ASRTU-4 asked the flight to change to 3000 kHz. Multiple requests received no reply in that log; later net traffic records the leader declining to change.",
+      "kind": "atc",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s2",
+        "s5"
+      ],
+      "locator": "Exhibit 8 p.3/PDF p.40, 1720 and 1734; HF/DF net PDF p.156"
+    },
+    {
+      "t_utc": "1945-12-05T22:24:00Z",
+      "t_precision": "minute",
+      "title": "Leader asks about base weather",
+      "detail": "The leader reported weak reception and asked about Fort Lauderdale weather. The reply described clear base weather and low cloud and poor visibility over the Bahamas; acknowledgement was absent.",
+      "kind": "weather",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Exhibit 8 p.3/PDF p.40, 1724"
+    },
+    {
+      "t_utc": "1945-12-05T22:29:00Z",
+      "t_precision": "minute",
+      "title": "Sunset at Fort Lauderdale",
+      "detail": "The station weather form lists sunset at 1729 local, or 2229 UTC. This is a ground-location astronomical entry, not a measured sunset time at the lost formation.",
+      "kind": "weather",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s4"
+      ],
+      "locator": "Exhibit 3/PDF p.11, daily summary"
+    },
+    {
+      "t_utc": "1945-12-05T22:30:00Z",
+      "t_precision": "minute",
+      "title": "Possible ship is mentioned",
+      "detail": "The leader asked another aircraft about a ship to the left. The reply was unreadable and no ship was identified.",
+      "kind": "witness",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Exhibit 8 p.3/PDF p.40, 1730"
+    },
+    {
+      "t_utc": "1945-12-05T22:38:00Z",
+      "t_precision": "minute",
+      "title": "Teletype trouble hampers coordination",
+      "detail": "ASRTU-4 tried to involve Banana River while its teletype was out of commission. The message was passed by telephone.",
+      "kind": "system",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Exhibit 8 p.3/PDF p.40, 1738"
+    },
+    {
+      "t_utc": "1945-12-05T22:50:00Z",
+      "t_precision": "minute",
+      "title": "Broad HF/DF area is evaluated",
+      "detail": "The evaluated area was within 100 miles of 29°15′N 79°00′W for this time. Evaluation was completed later; the circle centre is not an aircraft position.",
+      "kind": "search",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s1",
+        "s5"
+      ],
+      "locator": "Finding 28/PDF p.298; Exhibit 11/PDF p.223; evaluator testimony pp.51–52"
+    },
+    {
+      "t_utc": "1945-12-05T22:52:00Z",
+      "t_precision": "minute",
+      "title": "Coastal stations turn on lights",
+      "detail": "The log records an instruction to light stations from Banana River south as much as possible. It does not establish that the flight could see those lights.",
+      "kind": "search",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Exhibit 8 p.4/PDF p.41, 1752"
+    },
+    {
+      "t_utc": "1945-12-05T22:55:00Z",
+      "t_precision": "minute",
+      "title": "Leader stays on training frequency",
+      "detail": "HF/DF net traffic copies the leader declining to change frequency because he needed to keep the aircraft together. The time is a relay entry.",
+      "kind": "crew_action",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s5"
+      ],
+      "locator": "HF/DF net PDF p.156, 2255Z"
+    },
+    {
+      "t_utc": "1945-12-05T23:02:00Z",
+      "t_precision": "minute",
+      "title": "Possible ditching warning is relayed",
+      "detail": "The HF/DF net relayed that the aircraft might have to ditch soon. This is a relay time and not a recorded impact or ditching.",
+      "kind": "atc",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s5"
+      ],
+      "locator": "HF/DF net PDF pp.157 and 164, 2302Z"
+    },
+    {
+      "t_utc": "1945-12-05T23:04:00Z",
+      "t_precision": "minute",
+      "title": "Eastward reversal is proposed",
+      "detail": "ASRTU-4 copied a proposal to turn east again after holding 270. The Board places the suggestion at 1806 and leaves the courses after 1807 undetermined; an actual reversal is not established.",
+      "kind": "crew_action",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s2",
+        "s1"
+      ],
+      "locator": "Exhibit 8 p.4/PDF p.41, 1804; opinions 35–36/PDF p.305"
+    },
+    {
+      "t_utc": "1945-12-05T23:10:00Z",
+      "t_precision": "minute",
+      "title": "Evaluated area reaches base",
+      "detail": "The direction-finding evaluator telephoned the area estimate to NAS Fort Lauderdale. The Board found that the estimate was not subsequently broadcast blindly to Flight 19.",
+      "kind": "search",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s1"
+      ],
+      "locator": "Findings 29/PDF p.298; opinions 22–23/PDF p.304; evaluator Q13/PDF p.372"
+    },
+    {
+      "t_utc": "1945-12-05T23:20:00Z",
+      "t_precision": "minute",
+      "title": "Miami rescue aircraft launches",
+      "detail": "A rescue aircraft left Dinner Key to try to regain contact on 4805 kHz. The Board says that attempt did not succeed.",
+      "kind": "search",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s1"
+      ],
+      "locator": "Findings 31–32/PDF p.298"
+    },
+    {
+      "t_utc": "1945-12-05T23:44:00Z",
+      "t_precision": "minute",
+      "title": "Garbled aircraft calls continue",
+      "detail": "ASRTU-4 heard conversation between the lost aircraft and distinguished FT-3’s call sign. A separate rough log places continuing T-3/T-28 conversation at 1845.",
+      "kind": "atc",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s2",
+        "s3"
+      ],
+      "locator": "Exhibit 8 p.4/PDF p.41, 1844; rough crash log/PDF p.32"
+    },
+    {
+      "t_utc": "1945-12-06T00:00:00Z",
+      "t_precision": "minute",
+      "title": "Unidentified formation appears on radar",
+      "detail": "USS Solomons reported four to six aircraft without IFF near 29°35′N 81°28′W, course 176, speed 120 and estimated altitude 4000 ft. Their identity was not established; this is excluded from the Flight 19 track.",
+      "kind": "search",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "radar",
+      "sources": [
+        "s1"
+      ],
+      "locator": "Murphy testimony, printed p.50/PDF p.370; not a confirmed Flight 19 radar fix"
+    },
+    {
+      "t_utc": "1945-12-06T00:04:00Z",
+      "t_precision": "minute",
+      "title": "Last logged call receives no answer",
+      "detail": "FT-3 called FT-28 without acknowledgement. The original station and rough crash logs do not place the later-famous collective ditching order at this minute.",
+      "kind": "disappearance",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s3"
+      ],
+      "locator": "Exhibit 7/PDF p.22 and rough crash log/PDF p.32, 1904"
+    },
+    {
+      "t_utc": "1945-12-06T00:27:00Z",
+      "t_precision": "estimated",
+      "title": "Training 49 departs Banana River",
+      "detail": "PBM-5 BuNo 59225 launched on the search with thirteen crew and trainees. Its mission was to proceed to 29°N on Florida’s east coast, then east to 29°N 79°W for an expanding-square search.",
+      "kind": "departure",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s1"
+      ],
+      "locator": "Findings 35–41/PDF pp.298–299"
+    },
+    {
+      "t_utc": "1945-12-06T00:30:00Z",
+      "t_precision": "estimated",
+      "title": "Training 49 sends departure report",
+      "detail": "Banana River acknowledged the Mariner’s out report. No later communication from this aircraft was established by the investigation.",
+      "kind": "atc",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s1"
+      ],
+      "locator": "Finding 36/PDF p.298; communications supervisor testimony Q6/PDF p.382"
+    },
+    {
+      "t_utc": "1945-12-06T00:50:00Z",
+      "t_precision": "minute",
+      "title": "Tanker sees flames at sea",
+      "detail": "SS Gaines Mills reported an apparent explosion and flames near 28°59′N 80°25′W at 0050 GMT on 6 December. The Board linked it to Training 49 using the coincident radar disappearance; neither an exact wreck point nor the initiating cause is established.",
+      "kind": "impact",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s1"
+      ],
+      "locator": "Findings 54–55/PDF pp.300–301; opinion 53/PDF p.308"
+    },
+    {
+      "t_utc": "1945-12-06T01:15:00Z",
+      "t_precision": "estimated",
+      "title": "Search aircraft reports rough conditions",
+      "detail": "Training 32 reached the 29°N 79°W area and found low overcast, showers, very turbulent air and very rough water. This observation was later than the last Flight 19 call.",
+      "kind": "weather",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s1"
+      ],
+      "locator": "Search-pilot Q13–19, printed p.78/PDF p.398"
+    },
+    {
+      "t_utc": "1945-12-06T01:30:00Z",
+      "t_precision": "minute",
+      "title": "Mariner position report is overdue",
+      "detail": "Training 49’s first hourly position report did not arrive. The radio operator attempted contact afterward.",
+      "kind": "disappearance",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s1"
+      ],
+      "locator": "Finding 53/PDF p.300; supervisor testimony Q7–8/PDF p.382"
+    },
+    {
+      "t_utc": "1945-12-06T02:15:00Z",
+      "t_precision": "minute",
+      "title": "Tanker explosion report is received",
+      "detail": "The Board records receipt of the Gaines Mills account. The message also described passing through oil at 0119 GMT and finding no survivors.",
+      "kind": "search",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s1"
+      ],
+      "locator": "Finding 54/PDF pp.300–301"
+    },
+    {
+      "t_utc": "1945-12-06T02:40:00Z",
+      "t_precision": "estimated",
+      "title": "Missing Mariner is formally reported",
+      "detail": "The communications supervisor informed the Banana River rescue duty officer that Training 49 was overdue and could not be reached.",
+      "kind": "search",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s1"
+      ],
+      "locator": "Communications supervisor Q8/PDF p.382"
+    },
+    {
+      "t_utc": "1945-12-06T11:59:00Z",
+      "t_precision": "minute",
+      "title": "Fort Lauderdale dawn search begins",
+      "detail": "The rough crash log records the first search aircraft departing at 0659 local and the thirtieth at 0732. Searches of sea and land did not identify Flight 19.",
+      "kind": "search",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s3",
+        "s1"
+      ],
+      "locator": "Rough crash log/PDF p.32; finding 34/PDF p.298"
+    },
+    {
+      "t_utc": "1945-12-10T14:30:00Z",
+      "t_precision": "minute",
+      "title": "Board proceedings open in Miami",
+      "detail": "The Board began its hearings at NAS Miami on 10 December 1945 under a convening order of 7 December. Its later opinion attributed the loss to navigational confusion and faulty judgment, while documenting substantial rescue-system failures.",
+      "kind": "investigation",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s1"
+      ],
+      "locator": "Proceedings first day/PDF p.321; convening order/PDF p.320; opinions 17–45/PDF pp.304–306"
+    },
+    {
+      "t_utc": "1945-12-10T20:27:00Z",
+      "t_precision": "minute",
+      "title": "Search termination is communicated",
+      "detail": "The base log records a telephone message that the search would be abandoned when that afternoon’s searches finished. It says search secured at night; 1527 is the notification, not the last aircraft landing.",
+      "kind": "search",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s3"
+      ],
+      "locator": "Rough crash log/PDF p.37, 10 December 1527"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Navy approves findings and recommends drills",
+      "detail": "The 24 January 1946 endorsement approved the proceedings and recommended frequent air-sea rescue drills to improve understanding among units. This is a documented recommendation; completion of those drills was not established here.",
+      "kind": "finding",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s1"
+      ],
+      "locator": "24 January 1946 endorsement/PDF p.290",
+      "date": "1946-01-24"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Correction board rejects blame",
+      "detail": "The 28 October 1947 correction letter disapproved the earlier opinion assigning blame to the leader and concluded that the flight disappeared for reasons or causes unknown. It also suggested unexpected weather may have intervened.",
+      "kind": "finding",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s6"
+      ],
+      "locator": "Paragraphs 1–4, first page",
+      "date": "1947-10-28"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Navy confirms unknown cause",
+      "detail": "An 18 November 1960 Navy information letter confirmed the 1947 clearing of blame and said the cause remained unknown. Its compressed chronology conflicts with the original logs.",
+      "kind": "finding",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s7"
+      ],
+      "locator": "Final three paragraphs",
+      "date": "1960-11-18"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Everglades identification is withdrawn",
+      "detail": "In April 2014 the researcher who proposed that a Broward County wreck was FT-28 withdrew that identification. He attributed the wreck to BuNo 53118 and a separate 16 March 1947 accident.",
+      "kind": "finding",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s15",
+        "s16"
+      ],
+      "locator": "Theory final note 8 April; identification report 18 April",
+      "date": "2014-04-18"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Searchers discuss a different discovery",
+      "detail": "The Intrepid Museum’s October 2025 release described Flight 19 searchers finding a Challenger fragment in 2022. It did not announce recovery of Flight 19 or Training 49.",
+      "kind": "search",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s13"
+      ],
+      "locator": "Release opening and featured-speaker paragraphs",
+      "date": "2025-10-15"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Anniversary review reports no confirmed trace",
+      "detail": "A December 2025 Smithsonian history reported that no confirmed trace of the six aircraft had been found. Searches for 2024–7 November 2026 developments found no opened official announcement establishing a Flight 19 recovery.",
+      "kind": "investigation",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s12",
+        "s13"
+      ],
+      "locator": "Smithsonian opening and What happened to Flight 19; Intrepid release",
+      "date": "2025-12-05"
+    }
+  ],
+  "perspectives": [
+    {
+      "id": "p1",
+      "label": "Navigation loss and fuel exhaustion",
+      "held_by": "Original Navy Board of Investigation and 24 January 1946 reviewing authority; conventional explanation retained by many historians",
+      "standing": "official finding",
+      "claim": "The formation became disoriented over the Bahamas and Atlantic, flew changing courses and eventually made forced water landings in darkness after the last call. The original Board assigned the leader faulty judgment and found that communications and rescue coordination failed; the personal-blame finding was later disapproved.",
+      "evidence_for": [
+        {
+          "text": "Logged confusion about being in the Keys or Gulf, northeast heading, later westward flight and a proposed eastward reversal support loss of orientation.",
+          "sources": [
+            "s2",
+            "s3"
+          ]
+        },
+        {
+          "text": "The evaluated 1750R HF/DF circle lies mainly offshore east of northern Florida; Board opinion 25 called it highly probable.",
+          "sources": [
+            "s1",
+            "s5"
+          ]
+        },
+        {
+          "text": "Fuel endurance was estimated to about 2000R, and later search testimony describes very rough water and low overcast.",
+          "sources": [
+            "s1"
+          ]
+        }
+      ],
+      "evidence_against": [
+        {
+          "text": "No aircraft, instruments or survivors establish the final course, fuel remaining, impact time or actual water-landing positions.",
+          "sources": [
+            "s1",
+            "s12"
+          ]
+        },
+        {
+          "text": "The 1947 correction board rejected assigning blame and retained reasons unknown; original opinion 56 acknowledges inconsistent evidence.",
+          "sources": [
+            "s6",
+            "s1"
+          ]
+        }
+      ],
+      "ending": {
+        "lat": null,
+        "lon": null,
+        "t_utc": null,
+        "description": "Original opinion 37 infers forced landings at sea east of Florida after 1904R; opinion 39 estimates endurance to about 2000R. Neither is an observed impact time or a precise terminal track."
+      },
+      "track_override": []
+    },
+    {
+      "id": "p2",
+      "label": "Cause unknown after correction",
+      "held_by": "Board for Correction of Naval Records, 28 October 1947; confirmed by Navy Office of Information, 18 November 1960",
+      "standing": "official finding",
+      "claim": "The correction board concluded that the flight disappeared for reasons unknown and disapproved the earlier blame finding. It considered that an unexpected development of weather may have occurred despite the leader’s efforts to return.",
+      "evidence_for": [
+        {
+          "text": "The correction letter itself states the revised finding, and the 1960 Navy letter confirms the administrative outcome.",
+          "sources": [
+            "s6",
+            "s7"
+          ]
+        },
+        {
+          "text": "No final-position record or recovered wreckage resolves the last part of the flight; contemporary records document poor reception and coordination.",
+          "sources": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "evidence_against": [
+        {
+          "text": "The correction supplies no new flight path or recovered instrument evidence. Unknown cause does not invalidate every observation in the radio logs.",
+          "sources": [
+            "s6",
+            "s2"
+          ]
+        },
+        {
+          "text": "The aerologist reported no evidence of a violent or freak storm, although offshore observations were limited and later search conditions were poor.",
+          "sources": [
+            "s1",
+            "s4"
+          ]
+        }
+      ],
+      "ending": {
+        "lat": null,
+        "lon": null,
+        "t_utc": null,
+        "description": "Leaves the Avengers’ final route and manner of loss open. It does not relocate them to the Gulf, establish a storm encounter or endorse paranormal explanations."
+      },
+      "track_override": []
+    },
+    {
+      "id": "p3",
+      "label": "Overland and Everglades reconstruction",
+      "held_by": "Andy Marocco and Jon Myhre, 2013–April 2014 version; wreck identification withdrawn by Marocco in April 2014",
+      "standing": "rejected",
+      "claim": "This reconstruction identified an inland radar formation as Flight 19 and proposed a southbound flight to an Everglades wreck. Its claimed identification of that wreck as FT-28 was withdrawn when the researcher identified a separate 1947 accident.",
+      "evidence_for": [
+        {
+          "text": "The official record does contain a 1900R inland radar report of four to six unidentified aircraft, near 29°35′N 81°28′W.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "The proponents published a route calculation linking that radar report with the earlier HF/DF estimate and argued that reduced power could extend endurance.",
+          "sources": [
+            "s15"
+          ]
+        }
+      ],
+      "evidence_against": [
+        {
+          "text": "The radar targets were unidentified; connecting them to the exact centre of a 100-mile uncertainty circle treats a search-area estimate as a measured position.",
+          "sources": [
+            "s1",
+            "s5",
+            "s15"
+          ]
+        },
+        {
+          "text": "The proponent’s own final note and follow-up report identify the Everglades aircraft as BuNo 53118 from 1947, not any Flight 19 Bureau Number.",
+          "sources": [
+            "s15",
+            "s16"
+          ]
+        },
+        {
+          "text": "His printed radar heading is 170 degrees, while the Board testimony transcript says 176. The later track and 2045R crash time are model assumptions.",
+          "sources": [
+            "s1",
+            "s15"
+          ]
+        }
+      ],
+      "ending": {
+        "lat": null,
+        "lon": null,
+        "t_utc": "1945-12-06T01:45:00Z",
+        "description": "In the withdrawn 2014 model, at least the leader reaches an Everglades crash site about 2045R. The specific crash-site coordinates were not published in the inspected page; this is not an established outcome."
+      },
+      "track_override": [
+        {
+          "t_utc": "1945-12-05T22:50:00Z",
+          "lat": 29.25,
+          "lon": -79,
+          "alt_ft": null,
+          "ias_kt": null,
+          "gs_kt": null,
+          "mach": null,
+          "hdg_deg": null,
+          "vs_fpm": null,
+          "pitch_deg": null,
+          "roll_deg": null,
+          "aoa_deg": null,
+          "flap": null,
+          "gear": null,
+          "engine_note": "",
+          "quality": "modelled",
+          "method": "Andy Marocco 2014 model uses the HF/DF circle centre as a point. This is a hypothesised starting point, not the actual fix precision; default reconstruction must not use it.",
+          "sources": [
+            "s15",
+            "s5"
+          ],
+          "locator": "Proponent route calculation paragraphs 30–33"
+        },
+        {
+          "t_utc": "1945-12-06T00:00:00Z",
+          "lat": 29.583333,
+          "lon": -81.466667,
+          "alt_ft": null,
+          "ias_kt": null,
+          "gs_kt": null,
+          "mach": null,
+          "hdg_deg": 170,
+          "vs_fpm": null,
+          "pitch_deg": null,
+          "roll_deg": null,
+          "aoa_deg": null,
+          "flap": null,
+          "gear": null,
+          "engine_note": "",
+          "quality": "modelled",
+          "method": "Marocco identifies the inland radar group with Flight 19 and uses 170° southbound. Identification is unsupported; the primary testimony instead prints 176°. This point is shown only for the rejected model.",
+          "sources": [
+            "s15",
+            "s1"
+          ],
+          "locator": "Proponent quoted radar report and following calculation; Board PDF p.370"
+        },
+        {
+          "t_utc": "1945-12-06T01:45:00Z",
+          "lat": null,
+          "lon": null,
+          "alt_ft": null,
+          "ias_kt": null,
+          "gs_kt": null,
+          "mach": null,
+          "hdg_deg": null,
+          "vs_fpm": null,
+          "pitch_deg": null,
+          "roll_deg": null,
+          "aoa_deg": null,
+          "flap": null,
+          "gear": null,
+          "engine_note": "",
+          "quality": "modelled",
+          "method": "Marocco 2014 projected Everglades arrival; no published exact coordinates. His wreck identification was subsequently withdrawn.",
+          "sources": [
+            "s15",
+            "s16"
+          ],
+          "locator": "Theory projected 8:45 PM arrival and final withdrawal note"
+        }
+      ]
+    },
+    {
+      "id": "p4",
+      "label": "Bermuda Triangle forces",
+      "held_by": "Some Bermuda Triangle writers and popular fiction; the museum lists an electromagnetic-disturbance theory, and NOAA documents alien, vortex, magnetic and methane speculation",
+      "standing": "fringe",
+      "claim": "These claims attribute the losses to an unusual regional force or a paranormal removal of the aircraft. No inspected primary record identifies such a force or provides measurements supporting one.",
+      "evidence_for": [
+        {
+          "text": "The leader reported compass trouble and the aircraft remain unlocated; these are gaps used by proponents, not positive evidence for a paranormal mechanism.",
+          "sources": [
+            "s1",
+            "s14"
+          ]
+        },
+        {
+          "text": "The second aircraft loss on the same evening made the story influential in Bermuda Triangle folklore.",
+          "sources": [
+            "s12"
+          ]
+        }
+      ],
+      "evidence_against": [
+        {
+          "text": "Logged navigation confusion, ordinary radio interference and a tanker/radar-linked fire account provide concrete evidence without a novel regional mechanism.",
+          "sources": [
+            "s1",
+            "s2",
+            "s5"
+          ]
+        },
+        {
+          "text": "NOAA says no evidence shows unusually frequent mysterious disappearances in this heavily travelled area; Navy and Coast Guard reject supernatural explanations.",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "text": "The 1947 unknown-cause decision does not assert magnetic anomalies, aliens, methane release or any shared cause for the two losses.",
+          "sources": [
+            "s6"
+          ]
+        }
+      ],
+      "ending": {
+        "lat": null,
+        "lon": null,
+        "t_utc": null,
+        "description": "No evidence-based final position or reproducible alternative path is supplied. Fictional rediscoveries and dramatic invented radio dialogue are not reconstruction inputs."
+      },
+      "track_override": []
+    },
+    {
+      "id": "p5",
+      "label": "Separate Mariner fire or explosion",
+      "held_by": "Original Navy Board for the probable loss event; tanker witnesses and USS Solomons radar report; later conventional histories",
+      "standing": "official finding",
+      "claim": "The Board associated Training 49 with the observed flames and radar disappearance near 28°59′N 80°25′W. It concluded an explosion at sea for unknown reasons; a particular fuel-system defect or vapour ignition source is not demonstrated by the inspected evidence.",
+      "evidence_for": [
+        {
+          "text": "Gaines Mills reported flames at 0050 GMT and oil at 0119 GMT; the Solomons report described a plane disappearing from radar at the matching time and place.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "The Mariner’s 1927R launch and 1930R out report fit an event at 1950R within the assigned search departure period.",
+          "sources": [
+            "s1"
+          ]
+        }
+      ],
+      "evidence_against": [
+        {
+          "text": "No recovered aircraft identification proves the burning plane’s Bureau Number. Accounts of debris were relayed, and searchers did not salvage identifiable wreckage.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Board opinion 53 says reasons unknown; a definite defective-fuel-system cause in the 2017 archive narrative exceeds that finding.",
+          "sources": [
+            "s1",
+            "s17"
+          ]
+        }
+      ],
+      "ending": {
+        "lat": 28.983333,
+        "lon": -80.416667,
+        "t_utc": "1945-12-06T00:50:00Z",
+        "description": "Approximate reported flame/explosion area, probably Training 49; not a surveyed wreck location and not Flight 19’s disappearance site."
+      },
+      "track_override": []
+    }
+  ],
+  "evidence_points": [
+    {
+      "lat": 26.05,
+      "lon": -80.116667,
+      "label": "Navigation Problem No. 1 departure datum",
+      "detail": "26°03′N 80°07′W in Board finding 2. Historical planned reference point; actual runway threshold not established. Weather station coordinates differ.",
+      "kind": "landmark",
+      "date": "1945-12-05",
+      "quality": "reported",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "lat": 29.25,
+      "lon": -79,
+      "label": "1750R HF/DF uncertainty-circle centre",
+      "detail": "Centre only. The Board and Exhibit 11 give radius 100 miles; no confidence percentage or unit expansion is printed. The chart uses bearings collected over an interval. Render as an area, with no pin implying the aircraft was at the centre.",
+      "kind": "signal",
+      "date": "1945-12-05",
+      "quality": "reported",
+      "sources": [
+        "s1",
+        "s5"
+      ]
+    },
+    {
+      "lat": 29,
+      "lon": -79,
+      "label": "Rescue search reference point",
+      "detail": "Rounded search destination in Training 49 assignment and Training 32 testimony. It is not a second independently measured Flight 19 position.",
+      "kind": "search_area",
+      "date": "1945-12-05",
+      "quality": "reported",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "lat": 29.583333,
+      "lon": -81.466667,
+      "label": "Unidentified inland radar formation",
+      "detail": "29°35′N 81°28′W, 1900R, four to six aircraft with no IFF. Testimony gives course 176, speed 120 and estimated altitude 4000 ft. Identity not established, so none of these is put into Flight 19’s actual track.",
+      "kind": "radar",
+      "date": "1945-12-05",
+      "quality": "radar",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "lat": 28.25,
+      "lon": -80.6,
+      "label": "NAS Banana River station reference",
+      "detail": "Historical weather station latitude/longitude from Exhibit 13. The seaplane launch point is not fixed by this land-station coordinate.",
+      "kind": "landmark",
+      "date": "1945-12-05",
+      "quality": "recorded",
+      "sources": [
+        "s18"
+      ]
+    },
+    {
+      "lat": 28.983333,
+      "lon": -80.416667,
+      "label": "Gaines Mills flame and explosion report",
+      "detail": "28°59′N 80°25′W. Apparent explosion at 0050 GMT, oil encountered at 0119 GMT. Probable Mariner loss area; no confirmed wreck coordinate. DMS converted to decimal degrees by degrees+minutes/60.",
+      "kind": "witness",
+      "date": "1945-12-06",
+      "quality": "reported",
+      "sources": [
+        "s1"
+      ]
+    }
+  ],
+  "witnesses": [
+    {
+      "who": "Instructor pilot in FT-74",
+      "lat": null,
+      "lon": null,
+      "said": "Paraphrase of Board testimony: heard compass and position doubts; advised the flight leader on the assumption that he was over the Keys; flew south while signals faded. Recalled reported altitudes of 2300 and 4500 ft, without reliable individual transmission times. He observed very rough water, whitecaps and long white streamers.",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "who": "NAS Fort Lauderdale aerological officer",
+      "lat": 26.066667,
+      "lon": -80.15,
+      "said": "Paraphrase: operating conditions were average outside showers and less desirable within them, with strong west-southwest winds. He had no evidence of a violent or freak storm in the operating area; offshore observations were limited.",
+      "sources": [
+        "s1",
+        "s4"
+      ]
+    },
+    {
+      "who": "Coast Guard HF/DF evaluator",
+      "lat": null,
+      "lon": null,
+      "said": "Paraphrase: early bearings did not justify a fix. Later confirming bearings allowed only a general location with a large radius, because atmospheric conditions, broadcasters and a steady carrier interfered.",
+      "sources": [
+        "s1",
+        "s5"
+      ]
+    },
+    {
+      "who": "Master and crew of SS Gaines Mills",
+      "lat": 28.983333,
+      "lon": -80.416667,
+      "said": "Paraphrase of reported message and subsequent rescue-officer testimony: saw flames or an apparent explosion, then oil, and found no survivors. A later relayed account said an aircraft caught fire before striking the water; no direct sworn tanker-witness transcript was located in the inspected Board pages.",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "who": "USS Solomons radar watch",
+      "lat": null,
+      "lon": null,
+      "said": "Paraphrase of official dispatch: tracked an aircraft departing Banana River, separating from another aircraft and proceeding on 045 degrees; it disappeared at the time and place of the tanker’s flame report. The track plot and raw range/bearing samples were not recovered here.",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "who": "Pilot of search aircraft Training 32",
+      "lat": 29,
+      "lon": -79,
+      "said": "Paraphrase: reached the search area about 2015R, found 800–1200-ft overcast, showers, turbulent air, 25–30-kt west-southwest wind and very rough water. No sign of Flight 19 was established.",
+      "sources": [
+        "s1"
+      ]
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Avengers in Flight 19",
+      "value": "5",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "label": "Personnel aboard the Avengers",
+      "value": "14: five pilots and nine aircrew or aircrew trainees",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "label": "Personnel aboard Training 49",
+      "value": "13",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "label": "Combined deaths, including missing presumed dead",
+      "value": "27; no confirmed survivors",
+      "sources": [
+        "s1",
+        "s12"
+      ]
+    },
+    {
+      "label": "Prescribed route course and distance entries",
+      "value": "091° true for 56 miles to bombing area, then 67 more miles; 346° true for 73 miles; 241° true for 120 miles. Sum 316 miles is arithmetic, not a measured flight distance.",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "label": "Avenger wingspan",
+      "value": "54 ft 2 in, approximately 16.51 m; type specification, not a measurement of a recovered aircraft",
+      "sources": [
+        "s8",
+        "s10"
+      ]
+    },
+    {
+      "label": "Main training radio frequency",
+      "value": "4805 kHz; air-sea rescue frequency 3000 kHz",
+      "sources": [
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "label": "HF/DF circle",
+      "value": "29°15′N 79°00′W, radius 100 miles, evaluated for 1750R/2250Z; not a point fix",
+      "sources": [
+        "s1",
+        "s5"
+      ]
+    },
+    {
+      "label": "Ditching fuel threshold in net traffic",
+      "value": "10 gallons for the first aircraft to reach that value; this was a contingency order, not a measured remaining-fuel reading. Relayed by roughly 2215–2222Z in PDF pp.155 and 162, well before 1904R.",
+      "sources": [
+        "s5"
+      ]
+    },
+    {
+      "label": "Station sunset",
+      "value": "1729R at Fort Lauderdale = 2229 UTC on 5 December 1945",
+      "sources": [
+        "s4"
+      ]
+    },
+    {
+      "label": "Board estimate of Avenger endurance",
+      "value": "Until approximately 2000R, not an observed time of fuel exhaustion",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "label": "Mariner launch to reported flames",
+      "value": "Approximately 23 minutes: 1927R to 1950R, calculated from reported times",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "label": "Mariner departure fuel in loading testimony",
+      "value": "1855 US gallons stated from the yellow sheet; calculated gross weight 49,485 lb in weight-and-balance testimony, printed p.74/PDF p.394. Neither figure establishes the cause of the loss.",
+      "sources": [
+        "s1"
+      ]
+    }
+  ],
+  "why_it_matters": "The January 1946 Navy endorsement recommended frequent air-sea rescue drills after failures in radio coordination and distress procedures. The records show the need to pass an uncertain position estimate promptly and to distinguish logged observations from later interpretation; implementation of a wider safety reform was not established.",
+  "conflicts": [
+    {
+      "about": "Initial awareness and radio-contact times",
+      "a": "Cox recalled hearing trouble about 1540R and reporting it about 1545R.",
+      "b": "The rough crash log begins at 1605R and station log identifies FT-28 at 1611R. These are different records and may describe different stages; no exact onset time is asserted.",
+      "sources": [
+        "s1",
+        "s3"
+      ]
+    },
+    {
+      "about": "1645R intended course plan",
+      "a": "ASRTU log says heading 030 for 45 minutes, then north.",
+      "b": "Rough crash log says 030 for 30 minutes, then 270 until landfall or fuel exhaustion. Actual flown durations cannot be recovered from either entry.",
+      "sources": [
+        "s2",
+        "s3"
+      ]
+    },
+    {
+      "about": "Time of suggested late eastward turn",
+      "a": "ASRTU log places the proposal at 1804R.",
+      "b": "Board opinion 35 places the suggestion at 1806R. Both are retained; the two-minute difference is not resolved.",
+      "sources": [
+        "s2",
+        "s1"
+      ]
+    },
+    {
+      "about": "Observed versus asserted eastward reversal",
+      "a": "The 2025 Smithsonian account describes the flight as unknowingly flying away from Florida after the proposal.",
+      "b": "Original opinion 36 explicitly says courses after 1807R were undetermined. No eastbound final track is treated as established.",
+      "sources": [
+        "s12",
+        "s1"
+      ]
+    },
+    {
+      "about": "Last-call content and ditching-order time",
+      "a": "The 2017 National Archives narrative assigns a collective ditching order to Taylor at 1904R.",
+      "b": "The original station and rough logs record FT-3 calling FT-28 without acknowledgement at 1904R. A ten-gallon ditching contingency is already relayed in the HF/DF net near 2215–2222Z, about 1715–1722R.",
+      "sources": [
+        "s17",
+        "s3",
+        "s5"
+      ]
+    },
+    {
+      "about": "Rounded versus evaluated HF/DF latitude",
+      "a": "Board finding 28 and Exhibit 11 give centre 29°15′N 79°00′W.",
+      "b": "ASRTU 1821R relay and several later histories shorten this to 29°N 79°W. The former is used for the uncertainty-circle centre; the latter is retained as a search reference.",
+      "sources": [
+        "s1",
+        "s2",
+        "s5",
+        "s17"
+      ]
+    },
+    {
+      "about": "Personal blame and final official cause",
+      "a": "Original opinion 44 and the January 1946 endorsement attribute the loss to the leader’s confusion and faulty judgment, with rescue-system failures.",
+      "b": "The October 1947 correction board disapproves the blame finding and concludes reasons or causes unknown. The later decision does not erase the surviving logs.",
+      "sources": [
+        "s1",
+        "s6",
+        "s7"
+      ]
+    },
+    {
+      "about": "Possible unexpected weather",
+      "a": "The correction board suggested an unexpected and unforeseen development of weather may have intervened.",
+      "b": "The station aerologist testified he had no evidence of a violent or freak storm. Later search-pilot testimony nevertheless describes very poor conditions offshore, after contact ended.",
+      "sources": [
+        "s6",
+        "s1",
+        "s4"
+      ]
+    },
+    {
+      "about": "Search weather observation time",
+      "a": "The 2017 archival article puts the low-overcast, 25–30-kt and rough-sea report at approximately 1930R.",
+      "b": "The original Training 32 pilot testimony places arrival at 29°N 79°W at about 2015R. Environment uses the primary witness’s time.",
+      "sources": [
+        "s17",
+        "s1"
+      ]
+    },
+    {
+      "about": "Definite Mariner failure mechanism",
+      "a": "The 2017 Archives narrative states a faulty fuel system caused an explosion.",
+      "b": "Board opinion 53 gives an explosion at sea for unknown reasons. A specific fuel leak, vapour concentration or ignition source is not established by the inspected record.",
+      "sources": [
+        "s17",
+        "s1"
+      ]
+    },
+    {
+      "about": "Mariner flame or impact sequence",
+      "a": "The original Gaines Mills message reports flames and an apparent explosion at the surface area, without a full causal sequence.",
+      "b": "A later rescue-officer testimony relays the tanker master’s statement that the aircraft caught fire in the air, struck water and exploded. The statements differ in detail and are not two independently recorded impact reconstructions.",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "about": "Later Navy summary times",
+      "a": "The 1960 information letter says the Avengers were last heard at about 1600 and the PBM was dispatched at about 1700.",
+      "b": "The original logs and findings give a last Avenger call at 1904 and Training 49 departure at about 1927. The 1960 letter is used to confirm the correction outcome only.",
+      "sources": [
+        "s7",
+        "s1",
+        "s3"
+      ]
+    },
+    {
+      "about": "FT-36 type and Bureau Number in different sections",
+      "a": "Findings and crew roster identify FT-36 as TBM-1E BuNo 46094.",
+      "b": "Exhibit 5’s aircraft-history table labels it TBM-1C, while radio-maintenance testimony refers to FT-36 as BuNo 46330. The roster uses 46094 and leaves the conflicting entries visible.",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "about": "TBM-3 engine subtype",
+      "a": "Exhibit 5 labels the engines, including FT-28’s engine 124575, R2600-8.",
+      "b": "The generic TBM-3 museum specification uses R-2600-20. The exact missing-aircraft subtype is unresolved here; engine_type is kept at the Wright R-2600 family.",
+      "sources": [
+        "s1",
+        "s8"
+      ]
+    },
+    {
+      "about": "Avenger length and height specifications",
+      "a": "Midway gives length 12.48 m and height 4.70 m, with wingspan 16.51 m.",
+      "b": "Patriots Point gives length 12.20 m and height 5.00 m on a mixed-variant page; the 1943 TBF sheet rounds length to 41 ft. Length uses the explicit TBM museum figure with this qualification; height is null pending matched-variant authoritative drawings.",
+      "sources": [
+        "s8",
+        "s9",
+        "s10"
+      ]
+    },
+    {
+      "about": "Ground wind units versus testimony",
+      "a": "The Fort Lauderdale observation form labels surface wind mph, with 20 mph at 1550R and gust remarks explicitly in knots.",
+      "b": "The aerologist’s approximate 1600R testimony says surface wind 20 knots gusting 31 knots. These are not silently merged; the form values are converted separately.",
+      "sources": [
+        "s4",
+        "s1"
+      ]
+    },
+    {
+      "about": "Inland radar heading in rejected reconstruction",
+      "a": "Primary testimony quotes course 176 for the 1900R unidentified formation.",
+      "b": "Marocco’s 2014 model quotes 170 and projects a route into the Everglades. Neither establishes Flight 19 identity; his related wreck identification was withdrawn.",
+      "sources": [
+        "s1",
+        "s15",
+        "s16"
+      ]
+    },
+    {
+      "about": "Everglades Flight 19 claim and correction",
+      "a": "Early April 2014 Marocco/Myhre reconstruction proposed the 1989 wreck was FT-28.",
+      "b": "Marocco’s updated theory page and 18 April report identify BuNo 53118 from a 1947 accident and withdraw that identification. The abandoned claim is not presented as an unresolved confirmed recovery.",
+      "sources": [
+        "s15",
+        "s16"
+      ]
+    }
+  ],
+  "unknowns": [
+    "Exact final positions, water-landing or impact times, sequence of losses, survival intervals and seabed depths of all five Avengers remain unknown. No pinpoint disappearance site is supplied.",
+    "No recovered FDR or CVR data exist in the inspected record. Base testimony says it had no voice recorder. These radio logs are partial written records; audio dramatizations cannot serve as cockpit recordings.",
+    "No confirmed Avenger ground-speed, indicated airspeed, Mach, vertical-speed, pitch, bank, angle-of-attack, flap, gear or engine instrument time series was found. Type performance figures cannot fill these fields.",
+    "The few recalled or logged altitude reports, 2300, 4500 and angles 3.5/3500 feet, lack verified altimeter setting and MSL datum. The first two also lack reliable transmission timestamps; alt_ft is null rather than invented MSL data.",
+    "The 030/090/270-degree statements mix intended course, commanded turn and reported heading. Their true/magnetic reference and exact flown durations are unknown; no continuous path is integrated from them.",
+    "The island or islands the flight leader saw were not positively identified. The Keys belief cannot be used as an actual position; the Board regarded a location south or west of Florida as improbable.",
+    "Individual waypoint arrival times, the exact point of initial navigational error, the original student leading and the precise transfer of lead to the Marine captain were not established. The Board says the captain eventually led west before 1806R but gives no exact time.",
+    "Compass failure mechanisms were not established. No recovered instrument proves failure, and the flight leader’s report is not evidence that all ten compasses in the formation failed.",
+    "Actual fuel at each late transmission and consumption during the exercise are unknown. Testimony says planes were fully serviced, but inspection forms did not record quantities; estimated endurance is not measured fuel exhaustion.",
+    "Precise weather, cloud tops, visibility, lightning, wave height, temperature, moon phase and illumination at the missing formation and at its final loss remain unknown. Shore weather and later rescue observations do not supply them.",
+    "The preflight winds sheet says 1300 EWT. Surface forms and the operational record use Eastern standard/R time with UTC+5 conversion. The legacy EWT label was not silently converted into an exact UTC time.",
+    "Exact takeoff runway thresholds and airfield elevations in 1945 were not established. The Board departure datum differs from the weather-station location. Barometer heights are not substituted for airport elevations; contemporary IATA/ICAO codes were not assigned retrospectively.",
+    "The original navigation chart abbreviates route distances as miles/M and the finding does not expand the unit. Illustrative waypoint calculations explicitly assume nautical miles. Exact surveyed triangle vertices or digitized waypoint coordinates were not located.",
+    "The HF/DF circle has no documented statistical confidence level. Its radius is printed as 100 miles without a unit expansion; this JSON preserves that wording rather than forcing an exact kilometre radius. It must not be rendered as a single precise aircraft fix.",
+    "The unidentified inland radar formation was not proved to be Flight 19. Raw Solomons radar samples or a complete plot allowing independent identification were not located.",
+    "The Mariner’s initiating failure, exact wreck identity/location, explosion altitude and impact attitude are unknown. A particular vapour leak or ignition source was not established. Reported flame height is not aircraft altitude.",
+    "A chart depth of 78 ft was mentioned in testimony for the probable Mariner area, but no measured wreck depth was found. Debris/oily-film reports were not identified to BuNo 59225, and no final laboratory result was located.",
+    "Avenger fuselage cross-section, numerical sweep angle, exact missing-airframe paint layouts and matched-variant height were not verified. Published type height/length values conflict; the mid-wing configuration falls outside the supplied wing enum.",
+    "Exhibit 5 engine subtypes conflict with generic TBM-3 references; exact FT-28 installed engine subtype remains unverified. PBM-5 59225-specific dimensions and engine subtype were not verified, and later PBM-5A data were not substituted.",
+    "Only the first page of the 28 October 1947 correction letter was available in the museum exhibit. It contains the core revised finding; full continuation and Secretary approval papers were not independently inspected. The 1960 Navy letter confirms the final clearing of blame.",
+    "The actual 1947 Navy accident-card scan underlying the proponent’s identification of Everglades BuNo 53118 was not independently inspected. The withdrawal is certain as a published proponent statement; the wreck identification remains attributed to him.",
+    "Searches included 2024, 2025 and 2026 developments through 7 November 2026. Opened 2025 museum and Smithsonian sources show continued interest and no confirmed recovery; no opened official new recovery or new physical identification was found. This is a research cutoff, not proof that every local archive has been exhausted.",
+    "No verified post-accident implementation record for the recommended rescue drills, nor a specific resulting regulation, was located. The recommendation is reported without inventing a regulatory legacy."
+  ],
+  "memorial_note": "Remember the fourteen Navy and Marine personnel aboard Flight 19 and the thirteen men aboard Training 49 who set out to help them.",
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Board of Investigation: five missing TBMs and PBM-5 59225, proceedings, findings and endorsements",
+      "publisher": "U.S. Navy; National Archives, RG 181, microfilm M1657",
+      "year": 1946,
+      "url": "https://catalog.archives.gov/medialz/fort-worth/rg-181/M1657-001/M1657-001.pdf",
+      "type": "official_report",
+      "opened": true,
+      "notes": "Downloaded with curl: 90,010,278 bytes, 549 PDF pages. Image-only PDF: PyMuPDF text extraction returned no page text. Read NARA-provided extractedText for the scanned pages via https://catalog.archives.gov/proxy/records/search?naId_is=146850136&includeExtractedText=true, exported locally, and visually checked key page images. PDF page numbers match M1657-001-NNN.jpg. Proceedings opened 10 December 1945 at NAS Miami under order of 7 December; 24 January 1946 approval is PDF p.290. Findings pp.295–301; opinions pp.302–309; testimony pp.321–453. Opinions are interpretations, not recorded aircraft telemetry. Opinion 56 explicitly warns that logs, memory and testimony are incomplete and difficult to reconcile."
+    },
+    {
+      "id": "s2",
+      "title": "Air Sea Rescue Task Unit No. 4 communication log, 5 December 1945, Exhibit 8",
+      "publisher": "U.S. Navy; National Archives",
+      "year": 1945,
+      "url": "https://catalog.archives.gov/medialz/fort-worth/rg-181/M1657-001/M1657-001.pdf#page=38",
+      "type": "military_record",
+      "opened": true,
+      "notes": "PDF pp.38–44, numbered log pp.1–7. Read extracted text and visually inspected pp.38–41. Times R/local converted by adding five hours; contemporary weather forms explicitly provide this conversion. Transcriptions of radio traffic are recorded logs, not surviving audio recordings."
+    },
+    {
+      "id": "s3",
+      "title": "NAS Fort Lauderdale radio station log, Exhibit 7, and rough crash log",
+      "publisher": "U.S. Navy; National Archives",
+      "year": 1945,
+      "url": "https://catalog.archives.gov/medialz/fort-worth/rg-181/M1657-001/M1657-001.pdf#page=21",
+      "type": "military_record",
+      "opened": true,
+      "notes": "PDF pp.21–22 and 32–37. Visually checked enlarged pp.21,22,32. The 1904 entry is FT-3 calling FT-28 with no acknowledgement. Testimony at printed p.20/PDF p.340 says there was no disc or wire voice recorder and some transmissions were not logged. The rough crash log and ASRTU log disagree about intended courses and durations."
+    },
+    {
+      "id": "s4",
+      "title": "Fort Lauderdale surface observations, forecast and winds aloft, Exhibits 3 and 4",
+      "publisher": "U.S. Navy aerological office; National Archives",
+      "year": 1945,
+      "url": "https://catalog.archives.gov/medialz/fort-worth/rg-181/M1657-001/M1657-001.pdf#page=11",
+      "type": "military_record",
+      "opened": true,
+      "notes": "PDF pp.11–13, with aerological testimony at printed pp.7–8/PDF pp.327–328. Visually checked all three exhibits. Surface form states 75th meridian time, add 5 hours to GCT. Surface wind column is mph; gust remarks explicitly use knots. The winds-aloft sheet is marked 1300 EWT; its preprinted time-zone label is ambiguous in December, so no UTC timestamp is assigned to that sheet. Cloud amounts are in tenths, heights in hundreds of feet. Ground observations and forecasts must not be treated as measurements at the missing formation."
+    },
+    {
+      "id": "s5",
+      "title": "HF/DF evaluated position chart, Exhibit 11, and direction-finding net traffic",
+      "publisher": "U.S. Coast Guard and U.S. Navy; National Archives",
+      "year": 1945,
+      "url": "https://catalog.archives.gov/medialz/fort-worth/rg-181/M1657-001/M1657-001.pdf#page=223",
+      "type": "military_record",
+      "opened": true,
+      "notes": "PDF p.223 chart: bearings received 2215–2308Z, approximate fix 29°15′N 79°00′W, radius 100 miles, @2250Z. Read net traffic pp.155–164; visually checked chart and pp.155,162,164. Evaluator testimony at printed pp.50–52/PDF pp.370–372 explains interference and the large radius. This is HF radio direction finding, not radar. Published records do not establish a statistical confidence level for the circle."
+    },
+    {
+      "id": "s6",
+      "title": "Request for correction of record: Lieutenant Charles C. Taylor, 28 October 1947",
+      "publisher": "Navy Department, Board for Correction of Naval Records; scan held by NAS Fort Lauderdale Museum",
+      "year": 1947,
+      "url": "https://www.nasflmuseum.com/uploads/4/9/5/8/4958573/_2100323_orig.jpg",
+      "type": "military_record",
+      "opened": true,
+      "notes": "Downloaded HTTP 200 and read the original page image. Review held 14 October 1947; letter dated 28 October 1947. First page includes paragraph 3 disapproving the blame opinion and concluding reasons or causes unknown; continuation page with the remainder of the conclusion/action was not available in this exhibit. It also advances unexpected weather as a possible factor. This is the correction decision itself, not merely a later paraphrase."
+    },
+    {
+      "id": "s7",
+      "title": "Department of the Navy information letter on Flight 19, 18 November 1960",
+      "publisher": "Department of the Navy, Office of Information; scan held by NAS Fort Lauderdale Museum",
+      "year": 1960,
+      "url": "https://www.nasflmuseum.com/uploads/4/9/5/8/4958573/_6791773_orig.jpg",
+      "type": "military_record",
+      "opened": true,
+      "notes": "Downloaded HTTP 200 and read page image. Confirms 28 October 1947 clearing of blame and unknown cause. Contains demonstrably inconsistent summary times, saying last heard at approximately 4 PM and PBM dispatched approximately 5 PM; the original logs and Board findings are retained for the timeline. Also reports no aggregate search statistics were available."
+    },
+    {
+      "id": "s8",
+      "title": "TBM Avenger: specifications",
+      "publisher": "USS Midway Museum",
+      "year": null,
+      "url": "https://www.midway.org/visit/aircraft-gallery/tbm-avenger",
+      "type": "dataset",
+      "opened": true,
+      "notes": "Opened specifications: length 40 ft 11.5 in / 12.48 m; wingspan 54 ft 2 in / 16.51 m; height 15 ft 5 in / 4.70 m; generic engine R-2600-20. Type-level museum data, not measurements of the missing airframes. Height conflicts with another museum reference; see conflicts. Publication year not stated."
+    },
+    {
+      "id": "s9",
+      "title": "TBM Avenger: aircraft collection specifications",
+      "publisher": "Patriots Point Naval & Maritime Museum",
+      "year": null,
+      "url": "https://www.patriotspoint.org/things-to-do/aircraft/tbm-avenger",
+      "type": "dataset",
+      "opened": true,
+      "notes": "Opened dimensions and powerplant section. Gives span 16.51 m, length 12.20 m and height 5.00 m; lists R-2600-8. Page mixes TBF-1C specifications with images labelled TBM-3E. These discrepancies prevent treating all figures as a matched variant specification."
+    },
+    {
+      "id": "s10",
+      "title": "Aircraft Recognition Manual, FM 30-30 / NAVAER 00-80V-57",
+      "publisher": "U.S. War Department and Navy Department, Bureau of Aeronautics; HyperWar scan",
+      "year": 1943,
+      "url": "https://www.ibiblio.org/hyperwar/USN/ref/ONI/ONI-Misc/ArmyNavyAircraftRecogMan.pdf",
+      "type": "military_record",
+      "opened": true,
+      "notes": "Downloaded PDF with curl, 37,690,262 bytes, 189 pages. Image-only. Read enlarged PDF p.66, TBF Avenger recognition sheet dated April 1943: mid-wing, single radial engine, conventional single fin, span 54 ft 2 in, length 41 ft; silhouettes show retractable gear. Read p.72 for PBM high gull wing, twin fins, hull and fixed floats of PBM-3. Earlier variants: recognition shapes are useful, but PBM-3 performance/dimensions are not certified PBM-5 specifications."
+    },
+    {
+      "id": "s11",
+      "title": "What is the Bermuda Triangle?",
+      "publisher": "NOAA, National Ocean Service",
+      "year": 2010,
+      "url": "https://oceanservice.noaa.gov/facts/bermudatri.html",
+      "type": "dataset",
+      "opened": true,
+      "notes": "Opened full text. Page footer updated 23 September 2026, but expressly says substantive text was posted 4 January 2010 and has not changed. Gives Navy/Coast Guard position and no evidence of excess disappearances; identifies supernatural, magnetic and methane speculation. Not a new Flight 19 investigation."
+    },
+    {
+      "id": "s12",
+      "title": "How the Disappearance of Flight 19 Fueled the Legend of the Bermuda Triangle",
+      "publisher": "Smithsonian Magazine, Francine Uenuma",
+      "year": 2025,
+      "url": "https://www.smithsonianmag.com/history/how-the-disappearance-of-flight-19-a-navy-squadron-lost-in-1945-fueled-the-legend-of-the-bermuda-triangle-180987759/",
+      "type": "news",
+      "opened": true,
+      "notes": "Opened full article through the web reader, including recheck after writing; a direct automated curl/requests check returned HTTP 403 (access filtering), while the web reader returned full text. Article dated 5 December 2025. Used for contemporary status and public-history context, not as a substitute for the primary logs. Reports no confirmed trace. Its suggestion that an eastward turn actually followed the 1804 transmission is stronger than the Board opinion that courses after 1807 were undetermined."
+    },
+    {
+      "id": "s13",
+      "title": "Virtual Astro Live: Lost and Found, Flight 19 and the Space Shuttle Challenger",
+      "publisher": "Intrepid Museum",
+      "year": 2025,
+      "url": "https://intrepidmuseum.org/2025-10-15/intrepid-museum-presents-virtual-astro-live-lost-found-flight-19-space-shuttle",
+      "type": "contemporary_record",
+      "opened": true,
+      "notes": "Opened release dated 15 October 2025. The explorers describe searching for Flight 19 and instead finding a Challenger fragment in 2022. This is evidence of continuing search interest, not discovery of a Flight 19 aircraft."
+    },
+    {
+      "id": "s14",
+      "title": "Flight 19: the Lost Avengers",
+      "publisher": "Naval Air Station Fort Lauderdale Museum",
+      "year": null,
+      "url": "https://www.nasflmuseum.com/flight-19.html",
+      "type": "dataset",
+      "opened": true,
+      "notes": "Opened current museum history and hypotheses page. Used for the stated popular electromagnetic hypothesis and the museum position that the 1989 Everglades aircraft was not Flight 19. Some weather assertions on this page are not used because original weather exhibits give different, more specific values. Publication year not stated."
+    },
+    {
+      "id": "s15",
+      "title": "Theory: Plane Found in Everglades is from Flight 19, version 4",
+      "publisher": "Andy Marocco, AeroQuest",
+      "year": 2014,
+      "url": "https://www.aeroquest.org/ft-28-theory.html",
+      "type": "advocacy",
+      "opened": true,
+      "notes": "Opened complete proponent statement dated 1 April 2014. Proposes joining the HF/DF circle centre to the inland radar report, then a southbound flight to an Everglades wreck. Final note dated 8 April 2014 explicitly withdraws the aircraft identification after identifying BuNo 53118. Useful as a primary statement of a rejected reconstruction, not validated tracking data."
+    },
+    {
+      "id": "s16",
+      "title": "TBM-3 Avenger BuNo 53118: identification of the Everglades wreck",
+      "publisher": "Andy Marocco, AeroQuest",
+      "year": 2014,
+      "url": "https://www.aeroquest.org/tbm-3-avenger-buno53118.html",
+      "type": "advocacy",
+      "opened": true,
+      "notes": "Opened project report dated 18 April 2014. Researcher identifies the wreck as a separate fatal accident of 16 March 1947 and retracts the Flight 19 identification. The actual supporting Navy 1947 accident-card image was not independently inspected here; identification is attributed to the researcher."
+    },
+    {
+      "id": "s17",
+      "title": "The Official Record and the Loss of Flight 19",
+      "publisher": "National Archives at Fort Worth, Michael Wright and Joseph Ryan",
+      "year": 2017,
+      "url": "https://prologue.blogs.archives.gov/2017/10/16/uncertain-as-to-in-what-position-lay-the-peninsula-of-florida-the-official-record-and-the-loss-of-flight-19/",
+      "type": "military_record",
+      "opened": true,
+      "notes": "Opened official archival history and chart image. Secondary institutional narrative, not a 1945 log. Several specifics conflict with its underlying records: 1904 ditch order versus FT-3 call, search weather at 1930 versus witness 2015, and a definite faulty-fuel-system cause versus Board opinion 53 reasons unknown. These are recorded in conflicts."
+    },
+    {
+      "id": "s18",
+      "title": "NAS Banana River surface observations, Exhibit 13",
+      "publisher": "U.S. Navy aerological office; National Archives",
+      "year": 1945,
+      "url": "https://catalog.archives.gov/medialz/fort-worth/rg-181/M1657-001/M1657-001.pdf#page=231",
+      "type": "military_record",
+      "opened": true,
+      "notes": "PDF p.231. Read NARA extracted text and enlarged original. Station coordinates 28°15′N 80°36′W; weather-form time conversion add 5 hours. These identify the station reference location, not the precise seaplane launch point. Barometer height 35 ft MSL is not airfield elevation."
+    }
+  ],
+  "research_as_of": "2026-11-07",
+  "scope_notes": "Main aircraft, route, site and track describe the five Avengers. people totals both losses; breakdown separates them. Events identify the aircraft group. search_aircraft carries the Mariner separately. Null coordinates and unknown times are intentional. The two untimed track reports are placed after the timed records and are not later events. Do not interpolate across missing positions or promote a proposed course to a flown track.",
+  "time_basis": {
+    "operational_zone": "R / 75th meridian time / Eastern Standard Time, UTC−05:00",
+    "conversion": "Add five hours; explicit instructions on contemporary Fort Lauderdale and Banana River weather forms. GCT/GMT/Z entries are already UTC. Reported whole-minute times retain their source precision even though ISO serialization includes :00 seconds. Date-only later records have null t_utc plus date, rather than fabricated midnight.",
+    "sources": [
+      "s4",
+      "s18"
+    ]
+  },
+  "why_it_matters_sources": [
+    "s1"
+  ],
+  "search_aircraft": {
+    "type": "Martin PBM-5 Mariner, pure flying boat",
+    "registration": "U.S. Navy BuNo 59225; Training 49; radio call 1883T",
+    "operator": "United States Navy, NAS Banana River, VB2 ATU-3",
+    "length_m": null,
+    "wingspan_m": null,
+    "height_m": null,
+    "fuselage_diameter_m": null,
+    "engines": 2,
+    "engine_type": null,
+    "engine_mount": "wing",
+    "wing": "high",
+    "wing_sweep_deg": null,
+    "tail": "twin",
+    "gear": null,
+    "livery_notes": "Exact BuNo 59225 paint colours and markings on 5 December were not verified. Pure flying-boat hull; amphibious PBM-5A landing gear must not be transferred from a later museum aircraft.",
+    "sources": [
+      "s1",
+      "s10"
+    ],
+    "people": {
+      "aboard": 13,
+      "crew": 13,
+      "passengers": 0,
+      "died": 13,
+      "survived": 0,
+      "sources": [
+        "s1"
+      ]
+    },
+    "route": {
+      "from": {
+        "name": "NAS Banana River, historical land-station reference",
+        "code": null,
+        "lat": 28.25,
+        "lon": -80.6,
+        "elev_ft": null
+      },
+      "to": {
+        "name": "Expanding-square search at 29°N 79°W; intended eventual return to base",
+        "code": null,
+        "lat": 29,
+        "lon": -79,
+        "elev_ft": null
+      },
+      "planned_waypoints": [
+        {
+          "name": "29°N on the east coast of Florida; longitude not specified",
+          "lat": 29,
+          "lon": null
+        },
+        {
+          "name": "Expanding-square search reference",
+          "lat": 29,
+          "lon": -79
+        }
+      ],
+      "sources": [
+        "s1",
+        "s18"
+      ]
+    },
+    "site": {
+      "lat": 28.983333,
+      "lon": -80.416667,
+      "elev_ft": null,
+      "depth_m": null,
+      "precision": "approximate",
+      "surface": "ocean",
+      "description": "Gaines Mills reported flame/explosion area, associated by the Board with Training 49. Exact wreck and seabed depth unconfirmed; witness testimony cites a chart depth of 78 ft, not a measured wreck depth.",
+      "sources": [
+        "s1"
+      ]
+    },
+    "track": [
+      {
+        "t_utc": "1945-12-06T00:27:00Z",
+        "lat": 28.25,
+        "lon": -80.6,
+        "alt_ft": null,
+        "ias_kt": null,
+        "gs_kt": null,
+        "mach": null,
+        "hdg_deg": null,
+        "vs_fpm": null,
+        "pitch_deg": null,
+        "roll_deg": null,
+        "aoa_deg": null,
+        "flap": null,
+        "gear": null,
+        "engine_note": "",
+        "quality": "reported",
+        "method": "Approximate launch from NAS Banana River. Coordinates use the historical weather-station reference, not the exact water takeoff point.",
+        "sources": [
+          "s1",
+          "s18"
+        ],
+        "locator": "Finding 35/PDF p.298; Exhibit 13/PDF p.231"
+      },
+      {
+        "t_utc": "1945-12-06T00:30:00Z",
+        "lat": null,
+        "lon": null,
+        "alt_ft": null,
+        "ias_kt": null,
+        "gs_kt": null,
+        "mach": null,
+        "hdg_deg": null,
+        "vs_fpm": null,
+        "pitch_deg": null,
+        "roll_deg": null,
+        "aoa_deg": null,
+        "flap": null,
+        "gear": null,
+        "engine_note": "",
+        "quality": "recorded",
+        "method": "Out report acknowledged by Banana River at about 1930R. No position or measured kinematics in inspected testimony.",
+        "sources": [
+          "s1"
+        ],
+        "locator": "Finding 36/PDF p.298; communications supervisor Q6/PDF p.382"
+      },
+      {
+        "t_utc": "1945-12-06T00:50:00Z",
+        "lat": 28.983333,
+        "lon": -80.416667,
+        "alt_ft": null,
+        "ias_kt": null,
+        "gs_kt": null,
+        "mach": null,
+        "hdg_deg": null,
+        "vs_fpm": null,
+        "pitch_deg": null,
+        "roll_deg": null,
+        "aoa_deg": null,
+        "flap": null,
+        "gear": null,
+        "engine_note": "",
+        "quality": "reported",
+        "method": "Probable loss associated with tanker flame report. Position is the approximate reported event area. Altitude at explosion, speed and actual impact point unknown; 100-foot flames are not aircraft altitude.",
+        "sources": [
+          "s1"
+        ],
+        "locator": "Findings 54–55/PDF pp.300–301; opinion 53/PDF p.308"
+      }
+    ],
+    "notes": "PBM-specific dimensions, engine subtype and detailed paint drawing were not verified. The 1943 recognition manual describes earlier PBM variants; their numerical dimensions are not substituted for 59225."
+  }
+}

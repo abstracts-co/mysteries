@@ -2,7 +2,27 @@
   "schemaVersion": 1,
   "name": "a/mysteries",
   "description": "Famous mysteries rebuilt in 3D: see what happened, weigh every explanation and its sources, then build your own or improve ours",
-  "rules": [],
+  "rules": [
+    "Show what is known. Cite your sources, and label anything modelled or drawn for the screen.",
+    "Give every serious explanation a fair hearing, and say which ones the evidence supports.",
+    "Real people were involved. No gore, and no mocking victims or their families.",
+    "Share only what you may: your own work, CC0, CC BY or public domain, credited.",
+    "Building on someone's mystery? Post it as Based on theirs and credit them."
+  ],
   "roles": [],
-  "categories": []
+  "categories": [
+    "aviation",
+    "sea",
+    "history",
+    "archaeology",
+    "nature",
+    "science",
+    "space"
+  ],
+  "aboutArtifact": "air-crashes",
+  "pinnedArtifacts": [
+    "air-crashes"
+  ],
+  "avatar": "assets/logo.png",
+  "cover": "assets/banner.webp"
 }

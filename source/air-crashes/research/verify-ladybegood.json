@@ -1,0 +1,64 @@
+{
+  "id": "ladybegood",
+  "checked": 129,
+  "errors": [
+    {
+      "severity": "unsupported",
+      "where": "direct.js ladybegood.add[0,2,4].t_utc; ladybegood.eventTimes; ladybegood.buildNote",
+      "says": "An assumed GMT+2 converts the diary/log readings into 13:10Z takeoff, 18:52Z return turn, 20:00Z bomb release and 00:10Z bailout; the build note says this offset fits the distances flown.",
+      "should_be": "Retain the unresolved clock convention. If an illustrative UTC timeline is necessary, identify every affected time as a model assumption, including the event times. These are not verified UTC conversions; shifting all readings by a common offset cannot establish that offset from elapsed flight distances.",
+      "evidence": "s6, Ripslinger first-Sunday transcription: takeoff 3:10, bomb release 10:00 and bailout 2:10 A.M., without a UTC offset. Primary diary photograph s4, Sunday 4 April space, gives desert arrival at 2:00 without a zone. s13, Blame it on the navigator?, gives 8:52 p.m. without establishing GMT+2.",
+      "url": "https://www.ladybegood.net/diaries/index.htm"
+    },
+    {
+      "severity": "unsupported",
+      "where": "direct.js ladybegood.eventTimes",
+      "says": "Formation separates at 14:20Z; radio help is requested at 21:30Z; a bomber is heard at 22:05Z; the unanswered Benghazi call occurs at 22:15Z; fuel becomes depleted at 23:55Z.",
+      "should_be": "These minute-specific times and the precise spacing of the radio/heard-aircraft events must be identified as invented scene timing or left unknown. They are not obtained merely by applying an assumed clock offset.",
+      "evidence": "s13, Failure to Acknowledge and documentary corrections items 4–5, reports retrospective accounts around midnight, a call before approximately 11:30 p.m., and a bomber heard after returning aircraft landed. It does not establish this minute-by-minute sequence. s4, Sunday 4 April diary space, records fuel exhaustion without a separate clock time; s3, Lost, supplies no separation timestamp.",
+      "url": "https://web.archive.org/web/20030407145449/http://www.ladybegood.com/points.html"
+    },
+    {
+      "severity": "misleading",
+      "where": "direct.js ladybegood.add[3].quality and ladybegood.add[5].quality",
+      "says": "The exact Soluch point at 22:05Z/9,000 ft and the wreck point at 00:22Z/820 ft are both classified as reported.",
+      "should_be": "Classify these composite samples as modelled, or separate the reported ground location from the invented aircraft fix, time and altitude. The prose caveats do not make the complete samples reported observations.",
+      "evidence": "s13, documentary correction item 4, describes a bomber heard near Soluch, with inferred identity rather than a surveyed overhead fix or altitude. s9, crash-site analysis and engine-control discussion, describes physical impact evidence but gives neither an impact clock time nor an 820-ft elevation. s10 supplies the historical wreck coordinate, not those time/altitude values.",
+      "url": "https://web.archive.org/web/20170113172801id_/http://www.airpower.maxwell.af.mil/airchronicles/aureview/1973/mar-apr/holder.html"
+    },
+    {
+      "severity": "misleading",
+      "where": "direct.js ladybegood.add[4].method",
+      "says": "At 26.9 N, 24.133333 E, the bailout area comes from where the crew assembled.",
+      "should_be": "This is the published bombardier recovery coordinate, used as the starting point of Truthan’s simulator. It is not the survivors’ assembly coordinate or an observed airborne exit fix. If retaining the simulation, attribute its starting location accordingly.",
+      "evidence": "s12, The Flights, explicitly starts the test runs at Woravka’s position. s10, Coordinates Used and Rally Point Position Determination, distinguishes that recovery position from the inferred rally point approximately 0.4 mile southwest, near 26.89554 N, 24.12915 E.",
+      "url": "https://www.ladybegood.net/maps/simtests.htm"
+    },
+    {
+      "severity": "misleading",
+      "where": "direct.js ladybegood.overlays points/filter/sort and detail",
+      "says": "The walk is a single latitude-sorted line through every evidence point between 26.85 N and 28.2 N, presented as markers and remains tracing the surviving crew’s route.",
+      "should_be": "Exclude the hypothesized unidentified-burial region and the bombardier’s recovery point from a confirmed survivors’ walking line. Distinguish the eight-person walk from the later three-person continuation; show any Moore burial hypothesis separately as unconfirmed.",
+      "evidence": "The filter includes evidence_points[17] at 28 N, 23 E between the five-person camp and Ripslinger. s14, the proposed-coordinate discussion and quoted Humphrey assessment, provides no identified grave or confirmed Moore location. It also includes evidence_points[3], although s4, Sunday 4 April space, records the bombardier missing from the reunited party.",
+      "url": "https://web.archive.org/web/20030407132956/http://www.ladybegood.com:80/moore.html"
+    },
+    {
+      "severity": "unsupported",
+      "where": "direct.js ladybegood.overlays sources",
+      "says": "Only s7 is cited for the plotted walking-route overlay.",
+      "should_be": "Cite s10 for published recovery positions and s11 for the interpretive marker positions, preserving their uncertainty. s7 supports the broad northward trek but cannot substantiate this overlay’s coordinate sequence.",
+      "evidence": "s7, Operation Climax, places Ripslinger north of Shelley. The overlay instead uses the opposite ordering from s10 and the marker geometry from s11. s7 supplies neither those coordinates nor the seven plotted arrow positions.",
+      "url": "https://web.archive.org/web/20100225093545/http://www.qmfound.com/lady_be_good_b-24_bomber_recovery.htm"
+    },
+    {
+      "severity": "misleading",
+      "where": "direct.js ladybegood.buildNote",
+      "says": "Only the Soluch vicinity, crash site and ground trail are real coordinates.",
+      "should_be": "Distinguish approximate historical fixes from the reconstructed ground trail. Several trail points, including the assembly area and parachute arrows, are interpretive placements rather than independently surveyed locations.",
+      "evidence": "s10, Rally Point Position Determination and Possible Variables / Assumptions of Accuracy, describes extrapolation and conditional positional accuracy. The plotted arrow points are s11 KMZ placements. Neither source establishes a measured continuous walking trace.",
+      "url": "https://ladybegood.net/maps/mapnotes.htm"
+    }
+  ],
+  "dead_links": [],
+  "notes": "Independent review on 2026-11-07. Checked counts 129 grouped fact-check units: 34 core values/claims, all 39 event records, 8 numbers entries, all 6 perspectives, 18 mapped evidence points, 6 added scene points, 10 event-time assignments, and 8 overlay/build-note/menu/quote/sensitivity checks. All 24 cited URLs were requested afresh with curl. Twenty-three returned HTTP 200, including the archived pages, diary photographs, KMZ and four PDFs; s19 redirects successfully. Smithsonian s20 returned curl HTTP 403 but its article was readable through the web reader, so it is access-restricted rather than dead. Primary evidence personally inspected: both AFHRA mission-document images, both Toner diary photographs, the linked Ripslinger diary photograph, and rendered B-24 manual printed pp.1 and 9 (PDF pp.5 and 13). PDFs s16, s18 and s19 were extracted with Python. The historical wreck and Soluch DMS conversions, four recovery-location conversions, three dimension conversions and seven KMZ arrow placements match the dataset. No populated verbatim-quote fields occur in the 39 events; narration is paraphrased. No passenger is named: the named airmen are crew, and no gratuitous description was found in the supplied subject text. All eight source IDs used by the subject block in direct.js exist. There is no Lady Be Good endTitle override. The menu label is supported. The JSON perspectives fairly distinguish the quoted official reconstruction, retrospective radio-call account, simulator, projectile hypothesis, unconfirmed burial and folklore. No additional error was established in the principal historical narrative. Limits: the full original 1959/1960 investigation reports and original navigator/radio logs were not independently available; later-source accounts were verified as such, not promoted to primary findings. The exact -25-CO block is corroborated by the association model roster at https://www.armyaircorps-376bg.com/b-24-liberator.html, although the three aircraft citations do not explicitly print that full designation. Wing terminology differs: s15 printed p.1 calls the type midwing, while s23 calls it high-wing; this terminology conflict alone is not treated as a demonstrated geometry error. Research input files were not edited."
+}

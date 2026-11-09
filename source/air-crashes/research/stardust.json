@@ -1,0 +1,1845 @@
+{
+  "id": "stardust",
+  "title": "BSAA Star Dust",
+  "date_utc": "1947-08-02",
+  "one_line": "Star Dust struck Mount Tupungato in cloud; glacier ice concealed its wreckage for more than fifty years.",
+  "status": "explained",
+  "status_why": "The wreckage and Argentine inquiry establish a mountain collision after a navigation error, but the precise descent and STENDEC remain unresolved.",
+  "aircraft": {
+    "type": "Avro 691 Lancastrian Mk III",
+    "registration": "G-AGWH",
+    "operator": "British South American Airways Corporation (BSAA)",
+    "length_m": 23.4188,
+    "wingspan_m": 31.0896,
+    "height_m": 5.9436,
+    "fuselage_diameter_m": null,
+    "engines": 4,
+    "engine_type": "Rolls-Royce Merlin liquid-cooled V12 piston engines; UK report lists two 500-2, one 502 and one T24/2.",
+    "engine_mount": "wing",
+    "wing": null,
+    "wing_sweep_deg": null,
+    "tail": "twin",
+    "gear": "retractable",
+    "livery_notes": "Exact colours on 2 August 1947 are unverified. An Air-Britain archive photograph identifies this airframe in about 1946, but its date and location are approximate. Dimensions are generic Lancastrian figures from the Avro Heritage Museum, converted using 0.3048 m per foot; they are not measurements of G-AGWH. The wing is described as mid-mounted in the technical reference, which the requested low/high field cannot represent. Main wheels retract; the tailwheel is fixed.",
+    "sources": [
+      "s1",
+      "s7",
+      "s8",
+      "s16"
+    ]
+  },
+  "people": {
+    "aboard": 11,
+    "crew": 5,
+    "passengers": 6,
+    "died": 11,
+    "survived": 0,
+    "sources": [
+      "s1",
+      "s2"
+    ]
+  },
+  "route": {
+    "from": {
+      "name": "Presidente Rivadavia Airport, Morón, Buenos Aires, Argentina",
+      "code": "SADM",
+      "lat": -34.679167,
+      "lon": -58.643611,
+      "elev_ft": 98
+    },
+    "to": {
+      "name": "Los Cerrillos Airport, Santiago, Chile",
+      "code": "SCTI",
+      "lat": -33.493611,
+      "lon": -70.697778,
+      "elev_ft": null
+    },
+    "planned_waypoints": [
+      {
+        "name": "Mendoza / Los Tamarindos: planned via Mendoza; exact flight-plan fix unavailable",
+        "lat": null,
+        "lon": null
+      }
+    ],
+    "sources": [
+      "s1",
+      "s2",
+      "s11",
+      "s12",
+      "s13",
+      "s18"
+    ]
+  },
+  "site": {
+    "lat": -33.3575,
+    "lon": -69.728889,
+    "elev_ft": null,
+    "depth_m": null,
+    "precision": "approximate",
+    "surface": "mountain",
+    "description": "Representative wreckage-area coordinate from JIAAC section 1.10: 33°21′27″S, 69°43′44″W. Debris lay on the Argentine side of Tupungato among glacier penitentes, between 4,408 and 4,654 m. This is a recovery-area marker, not a proven original impact point. Ice movement separates recovery and impact locations; another published recovery coordinate differs. Mountain rock, snow and glacier ice should all be shown.",
+    "sources": [
+      "s2",
+      "s3",
+      "s5"
+    ]
+  },
+  "terrain_box": {
+    "west": -70.05,
+    "south": -33.65,
+    "east": -69.5,
+    "north": -33.1,
+    "why": "Author-selected display bounds, about 51 km east-west by 61 km north-south. Shows Tupungato and its eastern glacier, the nearby divide and approach terrain. These are view bounds, not an official search polygon."
+  },
+  "environment": [
+    {
+      "t_utc": "1947-08-02T09:00:00Z",
+      "lat": null,
+      "lon": null,
+      "place": "Cristo Redentor weather station",
+      "wind_dir_deg": 225,
+      "wind_kt": 65,
+      "temp_c": -7.1,
+      "visibility_km": 2,
+      "precip": "Low blowing snow",
+      "turbulence": null,
+      "lightning": null,
+      "sea_state": null,
+      "wave_height_m": null,
+      "cloud_layers": [
+        {
+          "type": "Stratus",
+          "base_ft": null,
+          "top_ft": null,
+          "coverage": "8/8"
+        }
+      ],
+      "light": null,
+      "moon_note": null,
+      "notes": "Station observation reproduced in section 1.7.1, p. 19. SW encoded as the centre of that compass sector, not an exact measured azimuth. This station is not the crash site. The bulletin declares all times UTC.",
+      "quality": "reported",
+      "sources": [
+        "s2"
+      ]
+    },
+    {
+      "t_utc": "1947-08-02T13:00:00Z",
+      "lat": null,
+      "lon": null,
+      "place": "Forecast: Buenos Aires to Mendoza",
+      "wind_dir_deg": null,
+      "wind_kt": null,
+      "temp_c": null,
+      "visibility_km": null,
+      "precip": null,
+      "turbulence": null,
+      "lightning": null,
+      "sea_state": null,
+      "wave_height_m": null,
+      "cloud_layers": [
+        {
+          "type": "Unspecified",
+          "base_ft": null,
+          "top_ft": null,
+          "coverage": "Scattered"
+        }
+      ],
+      "light": null,
+      "moon_note": null,
+      "notes": "Forecast issue time, not an aircraft observation. UK report section 3(e), pp. 7–8: W winds 17–22 kt, turning NW 17 kt near Mendoza. Variable wind is kept out of the single-value fields. No numerical cloud heights supplied.",
+      "quality": "reported",
+      "sources": [
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "t_utc": "1947-08-02T13:00:00Z",
+      "lat": null,
+      "lon": null,
+      "place": "Forecast: Andean passes",
+      "wind_dir_deg": 225,
+      "wind_kt": 33,
+      "temp_c": null,
+      "visibility_km": 0,
+      "precip": "Snowstorms",
+      "turbulence": "Moderate to intense",
+      "lightning": null,
+      "sea_state": null,
+      "wave_height_m": null,
+      "cloud_layers": [
+        {
+          "type": "Unspecified",
+          "base_ft": null,
+          "top_ft": null,
+          "coverage": "Overcast; passes in cloud"
+        }
+      ],
+      "light": null,
+      "moon_note": null,
+      "notes": "Forecast issue time. Cloud lay on the pass surfaces: this does not mean a base of zero feet MSL. SW encoded as a sector centre. Forecast wind is not the reconstructed high-altitude headwind. UK report section 3(e), pp. 7–8.",
+      "quality": "reported",
+      "sources": [
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "t_utc": "1947-08-02T15:00:00Z",
+      "lat": null,
+      "lon": null,
+      "place": "Cristo Redentor weather station",
+      "wind_dir_deg": 225,
+      "wind_kt": null,
+      "temp_c": -7.5,
+      "visibility_km": 2,
+      "precip": "Low blowing snow",
+      "turbulence": null,
+      "lightning": null,
+      "sea_state": null,
+      "wave_height_m": null,
+      "cloud_layers": [
+        {
+          "type": "Stratus",
+          "base_ft": null,
+          "top_ft": null,
+          "coverage": "8/8"
+        }
+      ],
+      "light": null,
+      "moon_note": null,
+      "notes": "Section 1.7.1, p. 19: wind SW at 65 kt or more, so no exact wind speed is entered. SW is encoded as a sector centre. Relative humidity 80%. Do not apply this station temperature to flight altitude.",
+      "quality": "reported",
+      "sources": [
+        "s2"
+      ]
+    },
+    {
+      "t_utc": null,
+      "lat": null,
+      "lon": null,
+      "place": "Los Cerrillos: weather summary for 16:00–17:00 UTC",
+      "wind_dir_deg": 202.5,
+      "wind_kt": null,
+      "temp_c": null,
+      "visibility_km": null,
+      "precip": null,
+      "turbulence": null,
+      "lightning": null,
+      "sea_state": null,
+      "wave_height_m": null,
+      "cloud_layers": [
+        {
+          "type": "Altocumulus",
+          "base_ft": null,
+          "top_ft": null,
+          "coverage": "8/10"
+        }
+      ],
+      "light": null,
+      "moon_note": null,
+      "notes": "Section 1.7.2, pp. 19–20: LAN Chile/PANAGRA summary reports 8/10 altocumulus, cloud bases between 10,000 and 20,000 ft, visibility 5–8 NM improving, light SSW wind. Range endpoints and the unspecified cloud-height datum are not treated as a single MSL base or top. SSW is encoded as a sector centre; no speed supplied.",
+      "quality": "reported",
+      "sources": [
+        "s2"
+      ]
+    },
+    {
+      "t_utc": "1947-08-02T16:15:00Z",
+      "lat": null,
+      "lon": null,
+      "place": "Santiago / Los Cerrillos",
+      "wind_dir_deg": 67.5,
+      "wind_kt": 2,
+      "temp_c": 14,
+      "visibility_km": 9.26,
+      "precip": null,
+      "turbulence": null,
+      "lightning": null,
+      "sea_state": null,
+      "wave_height_m": null,
+      "cloud_layers": [
+        {
+          "type": "Altocumulus",
+          "base_ft": null,
+          "top_ft": null,
+          "coverage": "8/10"
+        }
+      ],
+      "light": null,
+      "moon_note": null,
+      "notes": "Section 1.7.2, p. 20: hazy; 5 NM visibility converted by 1 NM = 1.852 km. ENE encoded as the sector centre. QFE 958.6 mb, QFF 1018.5 mb, humidity 67%. No measured cloud-height datum is supplied.",
+      "quality": "reported",
+      "sources": [
+        "s2"
+      ]
+    },
+    {
+      "t_utc": null,
+      "lat": null,
+      "lon": null,
+      "place": "Andean crossing near Tupungato during final flight",
+      "wind_dir_deg": null,
+      "wind_kt": null,
+      "temp_c": null,
+      "visibility_km": null,
+      "precip": "Snowstorm in the mountain region",
+      "turbulence": "Severe, inferred in retrospective weather analysis",
+      "lightning": null,
+      "sea_state": null,
+      "wave_height_m": null,
+      "cloud_layers": [
+        {
+          "type": "Stratiform cloud; specific layers unverified",
+          "base_ft": null,
+          "top_ft": null,
+          "coverage": "Overcast / terrain obscured"
+        }
+      ],
+      "light": "day",
+      "moon_note": null,
+      "notes": "Applies to the final crossing on 2 August 1947, not a timed onboard measurement. JIAAC section 3.1.8, p. 25, gives estimated cloud tops of 23,000 ft; its altitude datum is not specified, so numeric MSL top is null. Section 1.7.1 infers severe turbulence from the frontal pattern and winds. Section 2.4 models a headwind component of at least 100 kt; a complete wind vector and measured flight-level temperature are unavailable. Section 1.1 states the accident occurred by day in IMC.",
+      "quality": "reported",
+      "sources": [
+        "s2"
+      ]
+    },
+    {
+      "t_utc": "1947-08-02T18:00:00Z",
+      "lat": null,
+      "lon": null,
+      "place": "Mendoza",
+      "wind_dir_deg": null,
+      "wind_kt": null,
+      "temp_c": null,
+      "visibility_km": null,
+      "precip": null,
+      "turbulence": null,
+      "lightning": null,
+      "sea_state": null,
+      "wave_height_m": null,
+      "cloud_layers": [
+        {
+          "type": "Altocumulus and altostratus",
+          "base_ft": null,
+          "top_ft": null,
+          "coverage": "Overcast with breaks"
+        }
+      ],
+      "light": null,
+      "moon_note": null,
+      "notes": "UK report section 3(e), p. 8: overcast with blue holes; a broad altocumulus/altostratus layer between 10,000 and 20,000 ft. Cloud-height reference is unstated, so the requested MSL base/top remain null. Observation was after the disappearance. It cannot prove what the crew saw at 17:00.",
+      "quality": "reported",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "t_utc": "1947-08-02T19:00:00Z",
+      "lat": null,
+      "lon": null,
+      "place": "Cristo Redentor weather station",
+      "wind_dir_deg": 225,
+      "wind_kt": 65,
+      "temp_c": -7.8,
+      "visibility_km": 2,
+      "precip": "Low blowing snow",
+      "turbulence": null,
+      "lightning": null,
+      "sea_state": null,
+      "wave_height_m": null,
+      "cloud_layers": [
+        {
+          "type": "Stratus",
+          "base_ft": null,
+          "top_ft": null,
+          "coverage": "8/8"
+        }
+      ],
+      "light": null,
+      "moon_note": null,
+      "notes": "Section 1.7.1, p. 19. Post-accident station observation. SW encoded as a compass sector centre.",
+      "quality": "reported",
+      "sources": [
+        "s2"
+      ]
+    },
+    {
+      "t_utc": "1947-08-02T21:00:00Z",
+      "lat": null,
+      "lon": null,
+      "place": "Cristo Redentor weather station",
+      "wind_dir_deg": 225,
+      "wind_kt": null,
+      "temp_c": -7.6,
+      "visibility_km": 2,
+      "precip": "Low blowing snow",
+      "turbulence": null,
+      "lightning": null,
+      "sea_state": null,
+      "wave_height_m": null,
+      "cloud_layers": [
+        {
+          "type": "Stratus",
+          "base_ft": null,
+          "top_ft": null,
+          "coverage": "8/8"
+        }
+      ],
+      "light": null,
+      "moon_note": null,
+      "notes": "Section 1.7.1, p. 19: SW at 65 kt or more; relative humidity 76%. Post-accident observation. SW encoded as a compass sector centre.",
+      "quality": "reported",
+      "sources": [
+        "s2"
+      ]
+    }
+  ],
+  "track": [
+    {
+      "t_utc": "1947-08-02T13:46:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "reported",
+      "method": "Departure time from official narrative; runway, liftoff position and altitude unknown. Airport coordinates in route are modern geographic references, not a measured aircraft point. Times in the UK report are explicitly GMT; seconds shown as 00 encode minute precision.",
+      "sources": [
+        "s1",
+        "s2"
+      ],
+      "locator": "UK p. 3, section 2; JIAAC p. 15, section 1.1"
+    },
+    {
+      "t_utc": "1947-08-02T15:07:00Z",
+      "lat": -33.916667,
+      "lon": -62.55,
+      "alt_ft": 10000,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "reported",
+      "method": "Crew radio position reproduced by the inquiry, not radar. DMS converted to decimal degrees; source precision is one arcminute. Reported course 286° is not proven aircraft heading or identified as magnetic/true, so hdg_deg is null. UK prints speed 196 kt; JIAAC says 196 mph / 170 kt. IAS, TAS and instantaneous GS cannot be distinguished, so speed fields are null. ETA was 17:30 UTC. Seconds are minute placeholders.",
+      "sources": [
+        "s1",
+        "s2"
+      ],
+      "locator": "UK p. 4, section 2; JIAAC pp. 15, 23, sections 1.1 and 2.1"
+    },
+    {
+      "t_utc": "1947-08-02T16:00:00Z",
+      "lat": -33.416667,
+      "lon": -65.5,
+      "alt_ft": 10000,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "reported",
+      "method": "Reported radio position; DMS converted, one-arcminute source precision. Course 282° has an unspecified reference and is not entered as heading. UK prints speed 196 kt; JIAAC corrects it to 196 mph / 170 kt. Speed type is not secure, so IAS/GS remain null. ETA was 17:30 UTC. No original radio log or audio was located.",
+      "sources": [
+        "s1",
+        "s2"
+      ],
+      "locator": "UK p. 4, section 2; JIAAC pp. 15, 23, sections 1.1 and 2.1"
+    },
+    {
+      "t_utc": "1947-08-02T17:00:00Z",
+      "lat": -32.833333,
+      "lon": -68.5,
+      "alt_ft": 20000,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "reported",
+      "method": "Crew-reported position and altitude; not an independently fixed position. DMS converted from one-arcminute values. Report says ascending to 24,000 ft, not that 24,000 ft was reached at this time. UK speed 194 kt conflicts with JIAAC 194 mph / 168 kt; speed type is unspecified. ETA was 17:43 UTC. A rate of climb cannot be recovered.",
+      "sources": [
+        "s1",
+        "s2"
+      ],
+      "locator": "UK p. 4, section 2; JIAAC pp. 15, 23–24, sections 1.1, 2.1 and 2.3"
+    },
+    {
+      "t_utc": "1947-08-02T17:33:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "reported",
+      "method": "Radio time marker only: ETA changed to 17:45 UTC. No position, altitude or descent announcement appears in this entry. JIAAC infers descent separately; see official-navigation perspective, not a measured descent in this track.",
+      "sources": [
+        "s1",
+        "s2"
+      ],
+      "locator": "UK p. 4, section 2; JIAAC p. 15, section 1.1"
+    },
+    {
+      "t_utc": "1947-08-02T17:41:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "reported",
+      "method": "Final radio time marker: ETA 17:45 UTC and STENDEC, followed by two repetitions at unrecorded times. The message contains no aircraft coordinates or altitude. Do not place the aircraft over Santiago from its ETA. Contact time is known to the minute; exact collision time is unknown.",
+      "sources": [
+        "s1",
+        "s2"
+      ],
+      "locator": "UK p. 4, section 2; JIAAC pp. 15–16, section 1.1"
+    }
+  ],
+  "events": [
+    {
+      "t_utc": "1947-08-02T13:00:00Z",
+      "t_precision": "minute",
+      "title": "Route forecast issued",
+      "detail": "The forecast described snowstorms, obscured passes and moderate to intense mountain turbulence. The crew had been briefed to avoid the central route in bad weather.",
+      "kind": "weather",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s1",
+        "s2"
+      ],
+      "locator": "UK pp. 3, 7–8, sections 2 and 3(e); JIAAC pp. 19, 23"
+    },
+    {
+      "t_utc": "1947-08-02T13:46:00Z",
+      "t_precision": "minute",
+      "title": "Departure from Morón",
+      "detail": "Five crew and six passengers left Presidente Rivadavia for Los Cerrillos on flight CS59. The flight plan went via Mendoza.",
+      "kind": "departure",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s1",
+        "s2"
+      ],
+      "locator": "UK p. 3, section 2; JIAAC p. 15, section 1.1"
+    },
+    {
+      "t_utc": "1947-08-02T15:07:00Z",
+      "t_precision": "minute",
+      "title": "First preserved position report",
+      "detail": "The crew reported 33°55′S, 62°33′W at 10,000 ft, course 286°, and estimated Santiago at 17:30 UTC. The printed speed has a later unit dispute.",
+      "kind": "atc",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s1",
+        "s2"
+      ],
+      "locator": "UK p. 4, section 2; JIAAC p. 23, section 2.1"
+    },
+    {
+      "t_utc": "1947-08-02T16:00:00Z",
+      "t_precision": "minute",
+      "title": "Second preserved position report",
+      "detail": "The reported position was 33°25′S, 65°30′W at 10,000 ft, course 282°. The ETA remained 17:30 UTC.",
+      "kind": "atc",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s1",
+        "s2"
+      ],
+      "locator": "UK p. 4, section 2; JIAAC p. 15, section 1.1"
+    },
+    {
+      "t_utc": "1947-08-02T16:45:00Z",
+      "t_precision": "minute",
+      "title": "Destination weather transmitted",
+      "detail": "JIAAC says the Los Cerrillos weather summary was transmitted to the aircraft. It described altocumulus and improving visibility of 5–8 nautical miles.",
+      "kind": "atc",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s2"
+      ],
+      "locator": "pp. 19–20, section 1.7.2"
+    },
+    {
+      "t_utc": "1947-08-02T17:00:00Z",
+      "t_precision": "minute",
+      "title": "Climb reported near Mendoza",
+      "detail": "The crew reported 20,000 ft and a climb toward 24,000 ft at 32°50′S, 68°30′W. They revised their Santiago ETA to 17:43 UTC.",
+      "kind": "atc",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s1",
+        "s2"
+      ],
+      "locator": "UK p. 4, section 2; JIAAC p. 15, section 1.1"
+    },
+    {
+      "t_utc": "1947-08-02T17:33:00Z",
+      "t_precision": "minute",
+      "title": "Arrival estimate revised",
+      "detail": "The aircraft estimated Santiago at 17:45 UTC. Its actual position and altitude are absent from the preserved entry.",
+      "kind": "atc",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s1",
+        "s2"
+      ],
+      "locator": "UK p. 4, section 2; JIAAC p. 15, section 1.1"
+    },
+    {
+      "t_utc": "1947-08-02T17:41:00Z",
+      "t_precision": "minute",
+      "title": "Final message received",
+      "detail": "The aircraft confirmed an ETA of 17:45 UTC and ended with the sequence shown below. This is an official report transcription of a radio word, not cockpit audio.",
+      "kind": "atc",
+      "quote": "STENDEC",
+      "quote_speaker": "Aircraft radio transmission, as transcribed in the UK inquiry",
+      "quality": "reported",
+      "sources": [
+        "s1",
+        "s2"
+      ],
+      "locator": "UK p. 4, section 2; JIAAC pp. 15–16, section 1.1"
+    },
+    {
+      "t_utc": "1947-08-02T17:41:00Z",
+      "t_precision": "estimated",
+      "title": "Operator requests clarification",
+      "detail": "The Santiago operator said reception was strong and clear but fast. The aircraft repeated the same word twice; the report supplies no separate timestamps for these exchanges.",
+      "kind": "atc",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s1",
+        "s2"
+      ],
+      "locator": "UK p. 4, section 2; JIAAC p. 16, section 1.1"
+    },
+    {
+      "t_utc": "1947-08-02T17:45:00Z",
+      "t_precision": "estimated",
+      "title": "Collision with Tupungato",
+      "detail": "The aircraft struck mountain terrain in cloud; all eleven occupants died. This is the nominal approximate time in the Argentine report: the UK inquiry gives only a presumed interval of 17:41–17:45 UTC.",
+      "kind": "impact",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s1",
+        "s2"
+      ],
+      "locator": "UK p. 3, date and time; JIAAC pp. 15–16, 20–21, 26–27"
+    },
+    {
+      "t_utc": "1947-08-02T18:15:00Z",
+      "t_precision": "minute",
+      "title": "Disappearance broadcast",
+      "detail": "The historical search account reproduced by JIAAC dates the Los Cerrillos disappearance announcement to 18:15 UTC. It is a retrospective account, not a reproduced original tower log.",
+      "kind": "disappearance",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s2"
+      ],
+      "locator": "p. 21, section 1.15.2"
+    },
+    {
+      "t_utc": "1947-08-02T20:15:00Z",
+      "t_precision": "minute",
+      "title": "Aircraft declared overdue beyond endurance",
+      "detail": "JIAAC says traffic control formally treated the aircraft as crashed by 20:15 UTC, based on estimated fuel endurance. This does not date the collision.",
+      "kind": "search",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s2"
+      ],
+      "locator": "p. 21, section 1.15.1"
+    },
+    {
+      "t_utc": "1947-08-03T11:00:00Z",
+      "t_precision": "minute",
+      "title": "British investigators notified",
+      "detail": "BSAA notified the Ministry by telephone in London. The UK inquiry records 11:00 GMT.",
+      "kind": "investigation",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s1"
+      ],
+      "locator": "p. 3, section 1"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Ground and air searches begin",
+      "detail": "On 3 August 1947, searches followed improving weather. Argentine and Chilean patrols and aircraft found no confirmed trace.",
+      "kind": "search",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s2"
+      ],
+      "locator": "pp. 21–22, section 1.15.2"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Chilean military aircraft join search",
+      "detail": "On 5 August 1947, the historical account reproduced by JIAAC says three Chilean A-24 aircraft joined the search. No time of day is supplied.",
+      "kind": "search",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s2"
+      ],
+      "locator": "p. 22, section 1.15.2"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Tupungato searched without success",
+      "detail": "On 7 August 1947, a US mission DC-4 searched the Cordón del Plata and Tupungato according to the account reproduced in the Argentine inquiry. No confirmed wreckage was found.",
+      "kind": "search",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s2"
+      ],
+      "locator": "p. 22, section 1.15.2"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "British search mission sent",
+      "detail": "The retrospective account dates a British official mission to 18 August 1947. It describes searches in San Juan and Mendoza.",
+      "kind": "search",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s2"
+      ],
+      "locator": "p. 22, section 1.15.2"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "British search suspended",
+      "detail": "The same account dates suspension of the British mission search to 21 August 1947. The aircraft remained missing.",
+      "kind": "search",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s2"
+      ],
+      "locator": "p. 22, section 1.15.2"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Investigator visits the region",
+      "detail": "The UK report says the vicinity was visited on 31 August 1947. The wreckage had not been located.",
+      "kind": "investigation",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s1"
+      ],
+      "locator": "p. 3, section 1"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "First inquiry leaves cause open",
+      "detail": "The UK report was signed on 22 December 1947 and published in 1948. It could not establish a cause without wreckage and retained severe icing as a possibility.",
+      "kind": "finding",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s1"
+      ],
+      "locator": "pp. 2, 8, sections 4–5"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Climbers find engine remains",
+      "detail": "In 1998, two mountaineers found aircraft remains on Tupungato. Los Andes later dates this to 26 August 1998; no original discovery log or exact first-find coordinates were obtained.",
+      "kind": "discovery",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s3",
+        "s9"
+      ],
+      "locator": "NOVA opening; Los Andes chronology, entry 26/8/1998"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Wreckage identified on return expedition",
+      "detail": "On 19 January 2000, military and civilian searchers found wreckage and identification material. The Argentine inquiry also contains conflicting January/February dates for later visits; these are retained in conflicts.",
+      "kind": "discovery",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s2",
+        "s9"
+      ],
+      "locator": "JIAAC pp. 22–23, section 1.18; Los Andes chronology"
+    },
+    {
+      "t_utc": "2000-02-20T13:00:00Z",
+      "t_precision": "minute",
+      "title": "Helicopters document the wreckage",
+      "detail": "JIAAC records two Argentine Air Force Lama helicopters landing and photographing the debris on 20 February 2000 at 13:00. The bulletin states all times are UTC; no original sortie log was obtained.",
+      "kind": "investigation",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s2"
+      ],
+      "locator": "p. 23, section 1.18"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Ground investigators examine scattered debris",
+      "detail": "The inquiry describes a military patrol and an ad hoc investigator reaching the wreckage at 15:30, but gives 21 January 2000 in section 1.18 and 21 February in section 1.1. No exact timestamp is selected.",
+      "kind": "investigation",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s2"
+      ],
+      "locator": "pp. 16, 23, sections 1.1 and 1.18"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Propeller and wheels examined",
+      "detail": "During the 2000 expedition, documentary investigators interpreted propeller damage as evidence that the recovered engine was rotating at impact. They interpreted the main-wheel condition as consistent with retracted gear; neither finding measures the state of all four engines.",
+      "kind": "finding",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s2",
+        "s3"
+      ],
+      "locator": "JIAAC p. 20, section 1.12; NOVA propeller and wheel examination"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Glacier movement explains concealment",
+      "detail": "In the 2000 investigation filmed by BBC/NOVA, glaciologist Juan Carlos Leiva explained transport within the ice and emergence in the lower melting zone. Investigator Carlos Bauza proposed that an impact-triggered avalanche first buried the aircraft.",
+      "kind": "finding",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "modelled",
+      "sources": [
+        "s3"
+      ],
+      "locator": "NOVA glacier consultation and burial reconstruction"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Argentine findings publicly announced",
+      "detail": "La Nación on 8 July 2000 reports that the findings were announced the previous day. JIAAC attributed the collision to descent before the intended position, with erroneous groundspeed calculation and adverse mountain weather.",
+      "kind": "finding",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s2",
+        "s10"
+      ],
+      "locator": "JIAAC pp. 26–27, Cause and contributing factors; La Nación, 8 July 2000"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "DNA identification reported",
+      "detail": "Los Andes later dates the forensic comparison announcement to 5 September 2002 and reports eight identifications or identifying approximations. The original forensic report was not obtained, so a final independently verified identification count remains unknown.",
+      "kind": "investigation",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s9"
+      ],
+      "locator": "Chronology, entry 5/9/2002, and forensic discussion"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Later message claims remain unconfirmed",
+      "detail": "Searches covering 2024–7 November 2026 located renewed coverage, including a June 2026 Popular Mechanics article. No new official reconstruction or accepted STENDEC solution was located; current retellings are not new flight evidence.",
+      "kind": "investigation",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s15"
+      ],
+      "locator": "Article dated 3 June 2026; research cutoff 7 November 2026"
+    }
+  ],
+  "perspectives": [
+    {
+      "id": "official-navigation",
+      "label": "Early descent in cloud",
+      "held_by": "Argentine JIAAC, Disposición 43/00; investigation presented in BBC/NOVA",
+      "standing": "official finding",
+      "claim": "JIAAC concluded that the crew descended before reaching the intended position because they miscalculated groundspeed. It associated the error with mountain-wave and jet-stream headwinds, cloud and use of the central route in poor weather.",
+      "evidence_for": [
+        {
+          "text": "The destination ETA advanced much farther west than the aircraft’s recovered location permits; JIAAC models an average groundspeed of 100 kt or less after the 17:00 report. These are reconstructed values, not FDR readings.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "The report describes an air-position indicator that needed an external wind correction; lack of visual fixes could leave its air position different from ground position.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Compact, crushed debris, a rotating recovered propeller and main wheels interpreted as retracted support a high-energy terrain collision.",
+          "sources": [
+            "s2",
+            "s3"
+          ]
+        }
+      ],
+      "evidence_against": [
+        {
+          "text": "There is no recorded descent profile, measured flight-level wind or cockpit account. Recovery coordinates have also been changed by glacier movement, limiting the exact numerical reconstruction.",
+          "sources": [
+            "s2",
+            "s3"
+          ]
+        },
+        {
+          "text": "Some former BSAA pilots reportedly doubted that the captain would descend without a positive crossing fix; this dissent was located only through secondary reporting.",
+          "sources": [
+            "s14"
+          ]
+        }
+      ],
+      "ending": {
+        "lat": null,
+        "lon": null,
+        "t_utc": null,
+        "description": "Descent begins while still east of the high terrain, ending on Tupungato. The original impact position, exact time and altitude cannot be pinned down."
+      },
+      "track_override": [
+        {
+          "t_utc": "1947-08-02T17:33:00Z",
+          "lat": null,
+          "lon": null,
+          "alt_ft": null,
+          "ias_kt": null,
+          "gs_kt": null,
+          "mach": null,
+          "hdg_deg": null,
+          "vs_fpm": null,
+          "pitch_deg": null,
+          "roll_deg": null,
+          "aoa_deg": null,
+          "flap": null,
+          "gear": null,
+          "engine_note": null,
+          "quality": "modelled",
+          "method": "JIAAC published reconstruction, not a georeferenced flight path. It places the aircraft at most 55 NM beyond the 17:00 reported position and about 14 NM short of impact, descending in cloud at a stage-average GS of 100 kt or less. No unique latitude, longitude, instantaneous GS or altitude follows; all remain null.",
+          "sources": [
+            "s2"
+          ],
+          "locator": "pp. 24–25, sections 2.3–2.4"
+        },
+        {
+          "t_utc": "1947-08-02T17:41:00Z",
+          "lat": null,
+          "lon": null,
+          "alt_ft": null,
+          "ias_kt": null,
+          "gs_kt": null,
+          "mach": null,
+          "hdg_deg": null,
+          "vs_fpm": null,
+          "pitch_deg": null,
+          "roll_deg": null,
+          "aoa_deg": null,
+          "flap": null,
+          "gear": null,
+          "engine_note": null,
+          "quality": "modelled",
+          "method": "JIAAC published reconstruction places the aircraft at most 68.5 NM beyond the 17:00 reference and about 0.5 NM short of its assumed collision point. Its GS is a stage average of 100 kt or less. This is not a radar fix; no exact coordinates are supplied.",
+          "sources": [
+            "s2"
+          ],
+          "locator": "p. 25, section 2.4"
+        }
+      ]
+    },
+    {
+      "id": "weather-forced",
+      "label": "Weather forced the descent",
+      "held_by": "Some former BSAA pilots, as reported secondhand with a citation to Jay Rayner, Star Dust Falling, pp. 215–216",
+      "standing": "minority",
+      "claim": "These pilots reportedly doubted that the captain would start descending without a positive indication that he had crossed the mountains. They suggested that strong winds might have brought the aircraft down by another mechanism; a specific validated alternative path was not located.",
+      "evidence_for": [
+        {
+          "text": "The official weather material supports severe mountain conditions and possible vertical currents. The UK report retained severe icing as a possibility.",
+          "sources": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "evidence_against": [
+        {
+          "text": "No recorder, direct witness or recovered measurement demonstrates an involuntary loss of altitude. JIAAC chose early descent after a navigation error as the cause.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "The underlying book passage was not obtained; the dissent is available here only through an opened secondary summary and is not an official dissent.",
+          "sources": [
+            "s14"
+          ]
+        }
+      ],
+      "ending": {
+        "lat": null,
+        "lon": null,
+        "t_utc": null,
+        "description": "An involuntary descent or other weather effect would replace the inferred deliberate early descent. No coordinates or timing for such a path are established."
+      },
+      "track_override": []
+    },
+    {
+      "id": "icing-1947",
+      "label": "Severe icing possible",
+      "held_by": "UK Ministry of Civil Aviation, Chief Inspector’s 1947 opinion",
+      "standing": "official finding",
+      "claim": "The first inquiry could not determine the cause while no wreckage had been found. It explicitly kept severe icing open, rather than finding icing proved.",
+      "evidence_for": [
+        {
+          "text": "Snowstorms and intense mountain turbulence were forecast. The initial inquiry had no physical evidence to exclude icing.",
+          "sources": [
+            "s1"
+          ]
+        }
+      ],
+      "evidence_against": [
+        {
+          "text": "No ice-accretion measurement, crew emergency report or causal icing damage was recovered in the opened material. The later inquiry identified navigation error instead.",
+          "sources": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "ending": {
+        "lat": null,
+        "lon": null,
+        "t_utc": null,
+        "description": "Icing might cause loss of performance or instrument errors before terrain impact, but no separate final trajectory is available."
+      },
+      "track_override": []
+    },
+    {
+      "id": "stendec-sctiar",
+      "label": "Airport call sign misread",
+      "held_by": "Martin Colwell, SAR Technology, and retired radio operator Lawrence Hooper",
+      "standing": "credible alternative",
+      "claim": "They propose that the word was actually SCTI followed by AR, with the Morse letter spacing misread. This is a published decoding hypothesis, not an accepted official translation.",
+      "evidence_for": [
+        {
+          "text": "Ignoring spaces, STENDEC and SCTIAR have identical dot-dash sequences. The Santiago operator described fast transmission.",
+          "sources": [
+            "s5",
+            "s1"
+          ]
+        }
+      ],
+      "evidence_against": [
+        {
+          "text": "The official account describes an ETA already exchanged with Santiago and repetitions in response to a query. The hypothesis instead relies on unproved assumptions about attempted contact and what each operator heard.",
+          "sources": [
+            "s1",
+            "s5"
+          ]
+        },
+        {
+          "text": "The authors use the airport’s ICAO identifier, but an independently verified 1947 radio call-sign assignment was not found. No original audio was obtained.",
+          "sources": [
+            "s5"
+          ]
+        }
+      ],
+      "ending": {
+        "lat": null,
+        "lon": null,
+        "t_utc": null,
+        "description": "This reading changes only the interpretation of the final radio exchange; it provides no independent flight position or alternative crash path."
+      },
+      "track_override": []
+    },
+    {
+      "id": "stendec-other-morse",
+      "label": "Other Morse spacing readings",
+      "held_by": "Radio specialists and viewers whose proposals BBC Horizon reviewed",
+      "standing": "minority",
+      "claim": "Proposals include a V attention signal, END and an AR sign-off, or a damaged ETA LATE message. BBC regarded Morse-based explanations as more plausible than invented acronyms, while leaving the word unresolved.",
+      "evidence_for": [
+        {
+          "text": "V can be respaced as ST, and AR as EC; these are features of the Morse strings. ETA LATE was proposed near the time of the disappearance.",
+          "sources": [
+            "s4"
+          ]
+        }
+      ],
+      "evidence_against": [
+        {
+          "text": "The proposed attention signal occurs oddly within the exchange. ETA LATE needs signal changes, and the operator had just supplied an arrival time. None has an authenticated recording behind it.",
+          "sources": [
+            "s4"
+          ]
+        }
+      ],
+      "ending": {
+        "lat": null,
+        "lon": null,
+        "t_utc": null,
+        "description": "These proposals do not determine a different path or prove that the crew knew of danger."
+      },
+      "track_override": []
+    },
+    {
+      "id": "stendec-valp",
+      "label": "Valparaíso call proposed",
+      "held_by": "John L. Scherer, The North Texas Skeptic, December 2010",
+      "standing": "minority",
+      "claim": "Scherer proposes that the crew meant VALP and were trying to contact or divert toward Valparaíso. His article calls this a solution, but no official acceptance or contemporary diversion record was found.",
+      "evidence_for": [
+        {
+          "text": "VALP and STENDEC can be made similar by changing letter spacing and one dot in the signal sequence.",
+          "sources": [
+            "s6"
+          ]
+        }
+      ],
+      "evidence_against": [
+        {
+          "text": "Unlike SCTIAR, the proposed string is not an exact dot-dash match. The reported destination remained Santiago; neither the proposed diversion nor the claimed call-sign use is independently established.",
+          "sources": [
+            "s1",
+            "s6"
+          ]
+        },
+        {
+          "text": "The article also speculates about fuel exhaustion and treats reported positions as stronger evidence than they are. The inquiries found fuel sufficient for the planned leg; nothing here justifies a Valparaíso track.",
+          "sources": [
+            "s1",
+            "s2",
+            "s6"
+          ]
+        }
+      ],
+      "ending": {
+        "lat": null,
+        "lon": null,
+        "t_utc": null,
+        "description": "The hypothesis would imply an attempted diversion, but supplies no defensible flight path, diversion time or different wreckage location."
+      },
+      "track_override": []
+    },
+    {
+      "id": "stendec-anagram",
+      "label": "DESCENT or invented acronym",
+      "held_by": "Viewers and correspondents discussed by BBC Horizon; not an official finding",
+      "standing": "rejected",
+      "claim": "STENDEC is an English-letter anagram of DESCENT, leading to suggestions of hypoxia or a scrambled descent message. Others invented phrases whose initials spell the word; BBC’s review found those readings implausible.",
+      "evidence_for": [
+        {
+          "text": "The anagram exists in written letters, and high flight in an unpressurized aircraft makes oxygen supply relevant.",
+          "sources": [
+            "s4"
+          ]
+        }
+      ],
+      "evidence_against": [
+        {
+          "text": "The DESCENT Morse sequence differs from STENDEC. Repeated identical reception is difficult to explain by a one-off scramble, and the oxygen system had been checked before departure; a later oxygen failure cannot be excluded absolutely.",
+          "sources": [
+            "s1",
+            "s4"
+          ]
+        }
+      ],
+      "ending": {
+        "lat": null,
+        "lon": null,
+        "t_utc": null,
+        "description": "No descent time, oxygen failure or alternative position can be inferred from an anagram."
+      },
+      "track_override": []
+    },
+    {
+      "id": "sabotage",
+      "label": "Sabotage or diplomatic attack",
+      "held_by": "Rumours discussed in BBC/NOVA and contemporary coverage; no identified evidential proponent in the opened primary reports",
+      "standing": "rejected",
+      "claim": "Speculation included deliberate destruction connected with diplomatic correspondence or airline rivalry. These rumours grew while the aircraft was missing, but were not established by physical evidence.",
+      "evidence_for": [
+        {
+          "text": "A diplomatic courier was aboard, and the unexplained disappearance gave space for suspicion. These circumstances are not evidence of a bomb.",
+          "sources": [
+            "s3",
+            "s10"
+          ]
+        }
+      ],
+      "evidence_against": [
+        {
+          "text": "The recovered debris pattern and damage led the documentary investigators toward a terrain collision, not a breakup in flight. JIAAC reported no fire and did not identify sabotage; only a fraction of the aircraft was examined.",
+          "sources": [
+            "s2",
+            "s3"
+          ]
+        }
+      ],
+      "ending": {
+        "lat": null,
+        "lon": null,
+        "t_utc": null,
+        "description": "An explosion would imply breakup before terrain contact. No blast location, time, explosive residue result or separate debris trajectory was established."
+      },
+      "track_override": []
+    },
+    {
+      "id": "ufo",
+      "label": "Alien abduction",
+      "held_by": "UFO speculation described and rejected by BBC Horizon/NOVA",
+      "standing": "fringe",
+      "claim": "Some accounts attached alien abduction to the disappearance and the unexplained word. The claim has no supporting accident evidence and is included only because it became part of the story’s public history.",
+      "evidence_for": [
+        {
+          "text": "The long absence of wreckage and unresolved message prompted speculation; neither is evidence of alien involvement.",
+          "sources": [
+            "s4"
+          ]
+        }
+      ],
+      "evidence_against": [
+        {
+          "text": "The aircraft’s wreckage and human remains were found on a mountain glacier. Weather, navigation and glacier transport explain the available physical evidence without this claim.",
+          "sources": [
+            "s2",
+            "s3"
+          ]
+        }
+      ],
+      "ending": {
+        "lat": null,
+        "lon": null,
+        "t_utc": null,
+        "description": "No evidence supports a flight ending other than the terrestrial collision."
+      },
+      "track_override": []
+    }
+  ],
+  "evidence_points": [
+    {
+      "lat": -33.916667,
+      "lon": -62.55,
+      "label": "15:07 reported position",
+      "detail": "Crew report at 10,000 ft; one-arcminute DMS coordinates converted. Not independently fixed by radar.",
+      "kind": "signal",
+      "date": "1947-08-02",
+      "quality": "reported",
+      "sources": [
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "lat": -33.416667,
+      "lon": -65.5,
+      "label": "16:00 reported position",
+      "detail": "Crew report at 10,000 ft. Coordinates may reflect onboard navigation error; this is not a surveyed ground point.",
+      "kind": "signal",
+      "date": "1947-08-02",
+      "quality": "reported",
+      "sources": [
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "lat": -32.833333,
+      "lon": -68.5,
+      "label": "17:00 reported position",
+      "detail": "Crew report at 20,000 ft, climbing toward 24,000 ft. Last preserved report containing coordinates.",
+      "kind": "signal",
+      "date": "1947-08-02",
+      "quality": "reported",
+      "sources": [
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "lat": -33.3575,
+      "lon": -69.728889,
+      "label": "JIAAC wreckage-area coordinate",
+      "detail": "Section 1.10, p. 20: 33°21′27″S, 69°43′44″W; wreckage between 4,408 and 4,654 m. Section 1.12 gives a fan about 800 m in radius, aligned approximately 210°–244°. Ice transport means this is not an exact impact marker.",
+      "kind": "wreckage",
+      "date": "2000",
+      "quality": "reported",
+      "sources": [
+        "s2"
+      ]
+    },
+    {
+      "lat": -33.370833,
+      "lon": -69.761111,
+      "label": "Alternative published recovery marker",
+      "detail": "SAR Technology gives 33°22′15″S, 69°45′40″W as the lower-glacier emergence location. It is about 3.34 km from the JIAAC marker, calculated with a spherical great-circle distance using Earth radius 6,371 km. No survey establishing how these markers relate was located.",
+      "kind": "wreckage",
+      "date": null,
+      "quality": "reported",
+      "sources": [
+        "s2",
+        "s5"
+      ]
+    }
+  ],
+  "witnesses": [
+    {
+      "who": "Chilean Air Force radio operator at Santiago",
+      "lat": null,
+      "lon": null,
+      "said": "Paraphrase of the UK inquiry: the final signal was strong and clear but fast; when queried, the aircraft repeated STENDEC twice. The original operator log and audio were not obtained.",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "who": "Residents of Calingasta",
+      "lat": null,
+      "lon": null,
+      "said": "Paraphrase of a historical account reproduced by JIAAC: residents said they heard an aircraft nearby. The report calls the search-era witness versions contradictory; this was not a confirmed Star Dust position.",
+      "sources": [
+        "s2"
+      ]
+    },
+    {
+      "who": "Chilean Carabineros search-era witnesses",
+      "lat": null,
+      "lon": null,
+      "said": "Paraphrase of the same historical account: a group claimed to see the aircraft in the Caladillo Salado valley heading toward Santiago. No observation time, precise location or verified identification was obtained.",
+      "sources": [
+        "s2"
+      ]
+    },
+    {
+      "who": "Amateur radio listeners during the search",
+      "lat": null,
+      "lon": null,
+      "said": "Paraphrase: listeners reported possible survival messages. JIAAC reproduces these as search history, not authenticated transmissions from G-AGWH; no survivor was found.",
+      "sources": [
+        "s2"
+      ]
+    },
+    {
+      "who": "Former BSAA pilot who joined the search",
+      "lat": null,
+      "lon": null,
+      "said": "Paraphrase of Frank Taylor’s documentary interview: search aircraft covered the central pass, San Juan and southern areas without locating wreckage. This is retrospective testimony.",
+      "sources": [
+        "s3"
+      ]
+    }
+  ],
+  "numbers": [
+    {
+      "label": "People aboard",
+      "value": "11: six passengers and five crew; no survivors.",
+      "sources": [
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "label": "Last preserved coordinate report",
+      "value": "17:00 UTC, 41 minutes before the final radio entry; interval calculated from the two report times.",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "label": "Final radio word",
+      "value": "STENDEC was received once and repeated twice, according to the official inquiry.",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "label": "Endurance at departure",
+      "value": "1,380 gallons; UK estimate 6 h 30 min. Argentine section 1.1 says 6 h 45 min, while its search section says 6 h 30 min.",
+      "sources": [
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "label": "Recovered debris spread",
+      "value": "JIAAC: approximately 800 m radius; this describes the post-glacier wreckage field, not a measured original impact footprint.",
+      "sources": [
+        "s2"
+      ]
+    },
+    {
+      "label": "Argentine wind reconstruction",
+      "value": "Headwind component at least 100 kt in the final stage; a retrospective model, not an aircraft measurement.",
+      "sources": [
+        "s2"
+      ]
+    },
+    {
+      "label": "Time concealed before first reported find",
+      "value": "1947 to 1998: approximately 51 years. The 2000 investigation occurred about 53 years after the loss.",
+      "sources": [
+        "s1",
+        "s3",
+        "s9"
+      ]
+    }
+  ],
+  "why_it_matters": "The case shows why wind estimates and terrain clearance need independent position checks. No accident-specific safety rule change was established in the opened sources; JIAAC issued no recommendations (s2, Recommendations, p. 27).",
+  "conflicts": [
+    {
+      "about": "Reported speed units and type",
+      "a": "UK p. 4 prints 196, 196 and 194 knots at 15:07, 16:00 and 17:00.",
+      "b": "JIAAC analysis note and section 2.1 say these were mph, equivalent to about 170, 170 and 168 kt. Original instrument readings and a reliable IAS/TAS/GS distinction were not obtained; numeric main-track speeds remain null.",
+      "sources": [
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "about": "Wreckage and impact coordinates",
+      "a": "JIAAC section 1.10 gives 33°21′27″S, 69°43′44″W for the accident/wreckage area, acknowledging glacier movement.",
+      "b": "SAR Technology labels 33°22′15″S, 69°45′40″W as lower-glacier emergence. These markers are about 3.34 km apart; neither proves the original impact point.",
+      "sources": [
+        "s2",
+        "s5"
+      ]
+    },
+    {
+      "about": "Altitude of wreckage versus reconstructed impact",
+      "a": "JIAAC section 1.10 gives the recovery band as 4,408–4,654 m (about 14,462–15,269 ft using 0.3048 m per foot).",
+      "b": "Its section 2.4 describes the found aircraft at 15,500 ft. La Nación reports a January recovery at 5,500 m, while the glacier account places original impact higher than recovered debris. These are not interchangeable altitude measurements.",
+      "sources": [
+        "s2",
+        "s3",
+        "s10"
+      ]
+    },
+    {
+      "about": "Dates within the Argentine recovery account",
+      "a": "JIAAC section 1.1 describes a find on 21 February 2000; section 1.18 dates discovery to 19 January and helicopters to 20 February.",
+      "b": "Section 1.18 then dates a patrol and investigator arrival to 21 January at 15:30. This is internally inconsistent with the February expedition sequence; no original patrol log was obtained to resolve it.",
+      "sources": [
+        "s2"
+      ]
+    },
+    {
+      "about": "First discovery versus confirmation",
+      "a": "NOVA’s opening and Los Andes describe an initial 1998 mountaineer find, followed by the 2000 investigation.",
+      "b": "NOVA’s Reading the Wreckage introduction instead says the aircraft remained lost until January 2000. These can describe initial discovery versus confirmation, but that introduction omits the earlier find.",
+      "sources": [
+        "s3",
+        "s9",
+        "s17"
+      ]
+    },
+    {
+      "about": "Was the ground visible at Mendoza?",
+      "a": "NOVA reconstruction says the crew could still see the ground at the 17:00 report.",
+      "b": "UK section 3(e), discussing the 18:00 Mendoza weather, says it is very doubtful the pilot could have seen the ground there. JIAAC describes visual contact earlier on the Buenos Aires–Mendoza stage; neither resolves visibility at the precise 17:00 position.",
+      "sources": [
+        "s1",
+        "s2",
+        "s3"
+      ]
+    },
+    {
+      "about": "Headwind numerical reconstruction",
+      "a": "JIAAC models a headwind component of 100 kt or more.",
+      "b": "NOVA narration describes winds near 100 mph at 24,000 ft (about 87 kt). These are different retrospective figures; neither is a recorded flight-level wind vector.",
+      "sources": [
+        "s2",
+        "s3"
+      ]
+    },
+    {
+      "about": "Navigation aids available",
+      "a": "NOVA’s former pilot interview describes a lack of aids that could give a precise position.",
+      "b": "JIAAC section 1.8 records NDBs at Los Tamarindos and Los Cerrillos. Available beacons do not prove usable reception or an obtained fix on this flight; absolute claims that there were no radio aids are too strong.",
+      "sources": [
+        "s2",
+        "s3"
+      ]
+    },
+    {
+      "about": "Endurance and planned flight duration",
+      "a": "UK: endurance 6 h 30 min and planned flight 3 h 45 min.",
+      "b": "JIAAC section 1.1: 6 h 45 min and 3 h 50 min; sections 1.15.1 and 2.1 revert to 6 h 30 min and 3 h 45 min respectively.",
+      "sources": [
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "about": "Weight and centre-of-gravity units",
+      "a": "UK p. 5: takeoff weight 51,656 lb; centre of gravity 28.6 ft aft of nose datum.",
+      "b": "JIAAC p. 19: 51,356 lb and 28.6 inches. Both conclude loading was within limits, but the figures and units differ and should not be copied into an aircraft physics model without resolution.",
+      "sources": [
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "about": "Cruise-speed conversion inside Argentine analysis",
+      "a": "JIAAC section 2.3 equates 230 mph to 206 kt.",
+      "b": "230 statute mph converts to about 199.9 kt using 1 mile = 1,609.344 m and 1 NM = 1,852 m. This arithmetic discrepancy affects the precision of its inferred wind calculation, not the existence of the wreckage.",
+      "sources": [
+        "s2"
+      ]
+    },
+    {
+      "about": "Course of recovered debris",
+      "a": "JIAAC section 1.1 gives an approximate direction of 210°–240°.",
+      "b": "Section 1.12 gives 210°–244°. Both describe recovered debris alignment after ice movement, not a measured aircraft heading at impact.",
+      "sources": [
+        "s2"
+      ]
+    },
+    {
+      "about": "Contemporary press chronology",
+      "a": "The official reports give departure at 13:46 GMT/UTC and preserve the 17:41 final message.",
+      "b": "La Nación’s July 2000 article instead gives departure as 10:35, reports 7,200 m near El Plumerillo and calls that the last message. Its times are not used to replace the official chronology.",
+      "sources": [
+        "s1",
+        "s2",
+        "s10"
+      ]
+    },
+    {
+      "about": "UTC mislabelled as local time in 2026 coverage",
+      "a": "UK report explicitly says all its times are GMT; JIAAC explicitly says UTC and equates approximately 14:45 Argentine local time with 17:45 UTC.",
+      "b": "Popular Mechanics in June 2026 calls the 17:41 message local time. The reconstruction uses UTC from the official reports.",
+      "sources": [
+        "s1",
+        "s2",
+        "s15"
+      ]
+    }
+  ],
+  "unknowns": [
+    "Exact impact time: UK presumes 17:41–17:45 UTC; JIAAC uses approximately 17:45 UTC. There is no measured impact timestamp.",
+    "The final continuous route, descent start, altitude profile, true or magnetic headings, bank, pitch, angle of attack, vertical speed and control settings are unknown. No dense track can honestly be supplied: only three preserved coordinate reports exist in the opened inquiries.",
+    "No FDR or CVR record was located; JIAAC section 1.11 says flight recorders were not applicable to this aircraft. No invented cockpit dialogue is included.",
+    "The original radio log, Morse timing and audio recording were not obtained. Inquiry summaries establish the exchanges but cannot determine the intended meaning of STENDEC or the exact times of its repetitions.",
+    "Reported radio coordinates are not radar fixes. How the crew established each fix, whether 17:00 was visually confirmed and the size of any accumulated navigation error are unknown.",
+    "The 196/194 speed unit conflict and whether those numbers denoted IAS, TAS or GS cannot be resolved from original instrument records. Reported course is not assumed to be heading.",
+    "Whether 24,000 ft was actually attained, and when, is unknown; the radio report announces a climb to it. The flight plan called for 26,000 ft on the last stage, which is not an observed altitude.",
+    "The wind vector at flight altitude and its change with time were not measured in the located material. JIAAC’s at-least-100-kt headwind is a retrospective reconstruction with numerical limitations.",
+    "The exact original collision coordinates and elevation are unknown. Recovery markers disagree, and glacier transport means debris positions cannot be used directly as original impact positions.",
+    "Individual GPS debris logs, a surveyed impact scar and a public georeferenced final-flight reconstruction were not obtained, although NOVA describes GPS logging by investigators.",
+    "No measured Tupungato ice-flow velocity, dated glacier trajectory, transport distance or uncertainty envelope specific to this wreck was located. Leiva’s explanation is qualitative; it cannot support animated annual positions or a numerical burial depth.",
+    "An impact-triggered avalanche is a published hypothesis, not a witnessed event. Its start time, volume, speed, runout, burial depth and coverage are unknown.",
+    "The date inconsistency between 21 January and 21 February 2000 in the Argentine bulletin remains unresolved. First-discovery exact time and coordinates in 1998 were not obtained.",
+    "Aircraft fuselage cross-section dimensions, exact sweep reference angle and airframe-specific measured dimensions were not obtained. A single fuselage diameter is also a poor representation of an oval section.",
+    "The requested wing enum cannot represent the documented mid-wing layout; aircraft.wing is null rather than incorrectly set to high or low. Generic type dimensions are supplied, with source and conversions, rather than claimed as airframe measurements.",
+    "Exact livery colours on the accident date were not verified. The opened photo catalog identifies the airframe but does not authenticate a colour scheme for that date.",
+    "The departure runway, historical airport reference points, precise 1947 airport elevations and intended terminal letdown are unverified. Route coordinates are later geographic references; Morón elevation 98 ft is modern AIP data, and Los Cerrillos elevation is left null.",
+    "Original pressure settings and altitude datum/temperature corrections are not known for the aircraft. Reported flight altitudes are retained as nominal feet above sea level, without claiming modern corrected geometric altitude.",
+    "Cloud-base/top datum, layer boundaries at the crash site, cloud water content, flight-level temperature, icing rate, exact local visibility, precipitation intensity, lightning and moon conditions were not recovered. Published cloud-height ranges are retained in notes without forcing them into MSL fields.",
+    "Cristo Redentor observations are remote station weather, not conditions measured at the aircraft. Wind values reported as 65 kt or more remain ranges in notes; no exact speed is invented.",
+    "No authenticated emergency, engine failure, oxygen-system failure or loss of control was established. One recovered rotating propeller cannot prove the power state of every engine.",
+    "The underlying original interviews behind the former BSAA pilots’ descent scepticism, cited secondhand to Rayner pp. 215–216, were not obtained. This remains explicitly secondary rather than an official dissent.",
+    "No independent contemporary confirmation that SCTI or VALP was used as the claimed radio call sign in this 1947 exchange was located. Morse similarity alone cannot authenticate an intended message.",
+    "No original final forensic identification report or complete current recovery inventory was obtained. Later press descriptions of identifications are not treated as a definitive individual-level count.",
+    "Searches in English and Spanish covering 2024, 2025 and 2026 through 7 November found renewed articles and retellings, but no new official accident report, verified flight data or officially accepted STENDEC decoding. This is a search result, not proof that no unpublished development exists.",
+    "No accident-specific regulatory change was established in the opened sources. JIAAC’s published recommendations section says none were issued.",
+    "Unknown times remain null. Date-only historical events are dated in their detail text instead of assigning midnight UTC. In full timestamps drawn from minute-resolution reports, :00 represents the stated minute rather than measured seconds.",
+    "The opened official Los Cerrillos station record (s11) begins in 1950 and gives a later station position/elevation; it cannot resolve the exact 1947 airport reference point or elevation."
+  ],
+  "memorial_note": "Six passengers and five crew members lost their lives on this journey; their families waited decades to learn where they had died.",
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Report on the accident to Lancastrian III G-AGWH, 2 August 1947; C.A. 106",
+      "publisher": "UK Ministry of Civil Aviation, Accidents Investigation Branch / HMSO; PDF hosted by BAAA",
+      "year": 1948,
+      "url": "https://www.baaa-acro.com/sites/default/files/import/uploads/2016/02/G-AGWH.pdf",
+      "type": "official_report",
+      "opened": true,
+      "notes": "Downloaded successfully with curl and all 8 PDF pages extracted with pypdf. Signed 22 December 1947; published 1948. All times explicitly GMT. Hosting is secondary; the document is the ministry report. Web fetch returned an error, but direct curl returned the PDF. Radio entries are report transcriptions, not original logs. Opened 7 November 2026."
+    },
+    {
+      "id": "s2",
+      "title": "Disposición 43/00: G-AGWH, in Boletín Informativo de Accidentes de Aviación Civil Nº 31, 2nd edition, pp. 15–27",
+      "publisher": "Argentine Air Force / Junta de Investigación de Accidentes de Aviación Civil (JIAAC)",
+      "year": 2002,
+      "url": "https://web.archive.org/web/20161021205153id_/http://www.jiaac.gov.ar/files/pdf/Bol30.pdf",
+      "type": "official_report",
+      "opened": true,
+      "notes": "Archived official PDF downloaded successfully by curl (HTTP 200); all 176 pages extracted with pypdf, case pp. 15–27 read in full. Cover gives Buenos Aires 2002 and accidents of 2000; disposition is 43/00. Header explicitly makes all times UTC and equates 14:45 HOA to 17:45 UTC. Live JST PDF addresses returned 404. The bulletin contains internal date, unit and arithmetic discrepancies, recorded in conflicts. Opened 7 November 2026."
+    },
+    {
+      "id": "s3",
+      "title": "Vanished! — documentary transcript",
+      "publisher": "BBC / WGBH / PBS NOVA",
+      "year": 2001,
+      "url": "https://www.pbs.org/wgbh/nova/transcripts/2802vanished.html",
+      "type": "transcript",
+      "opened": true,
+      "notes": "Opened and read; also downloaded HTML. PBS airdate 23 January 2001. This is a television documentary transcript, NOT a CVR or official radio transcript. Includes interviews with investigators Carlos Bauza and Carlos Sorini, glaciologist Juan Carlos Leiva and former BSAA pilot Frank Taylor. Dramatic reconstruction and generalized statements are not flight measurements."
+    },
+    {
+      "id": "s4",
+      "title": "'STENDEC' — Stardust’s final mysterious message",
+      "publisher": "BBC Horizon",
+      "year": 2000,
+      "url": "https://web.archive.org/web/20120120143422/http://www.bbc.co.uk/science/horizon/2000/vanished_stendec.shtml",
+      "type": "news",
+      "opened": true,
+      "notes": "Archive opened and read. Page accompanies the 2 November 2000 broadcast and was later updated, with March 2004 archive notice. Reviews anagrams, initials and Morse spacing ideas; none established. Live BBC page was blocked. A broadcaster review of hypotheses, not an official decoding."
+    },
+    {
+      "id": "s5",
+      "title": "Aviation Cold Case Response — STENDEC analysis",
+      "publisher": "Martin Colwell, SAR Technology Inc., and Lawrence Hooper",
+      "year": 2016,
+      "url": "https://www.sartechnology.ca/sartechnology/ST_STENDEC_ColdCase.htm",
+      "type": "advocacy",
+      "opened": true,
+      "notes": "Opened and read including all numbered analysis points. Author-owned proposal for SCTIAR spacing; copyright 2016, not an official finding or peer-reviewed investigation. Also supplies a recovery coordinate that differs from JIAAC. Historical radio call-sign assignment was not independently verified."
+    },
+    {
+      "id": "s6",
+      "title": "STENDEC Solved, by John L. Scherer, pp. 1–5",
+      "publisher": "The North Texas Skeptic, volume 24, number 12",
+      "year": 2010,
+      "url": "https://www.ntskeptics.org/2010/2010december/december2010.pdf",
+      "type": "advocacy",
+      "opened": true,
+      "notes": "PDF opened; downloaded by curl and text extracted. The VALP theory appears on pp. 4–5. It is the author’s hypothesis, despite its title; its additional fuel and diversion claims are not established by the official reports."
+    },
+    {
+      "id": "s7",
+      "title": "Avro 691 Lancastrian",
+      "publisher": "Avro Heritage Museum",
+      "year": null,
+      "url": "https://www.avroheritagemuseum.co.uk/aircraft-types/avro-691-lancastrian",
+      "type": "dataset",
+      "opened": true,
+      "notes": "Opened. Museum type-reference page gives span 102 ft, length 76 ft 10 in, height 19 ft 6 in. Converted using exact international foot. Page has no verified publication year; numbers are generic type dimensions, not an airframe survey."
+    },
+    {
+      "id": "s8",
+      "title": "Avro Lancastrian — type specification",
+      "publisher": "BritishAircraft.co.uk",
+      "year": null,
+      "url": "https://www.britishaircraft.co.uk/aircraft/avro/lancastrian/712/",
+      "type": "dataset",
+      "opened": true,
+      "notes": "Opened. Secondary technical compilation explicitly applies to C.2, not G-AGWH’s Mk III. Used cautiously for shared mid-wing arrangement, oval fuselage, twin fins and retractable main/fixed tailwheel configuration; no airframe-specific dimensional claim."
+    },
+    {
+      "id": "s9",
+      "title": "Star Dust: 70 años de un enigma de la aeronáutica mundial",
+      "publisher": "Los Andes",
+      "year": 2017,
+      "url": "https://www.losandes.com.ar/star-dust-70-anos-de-un-enigma-de-la-aeronautica-mundial",
+      "type": "news",
+      "opened": true,
+      "notes": "Opened and read, especially chronology. Secondary retrospective reporting supplies the exact reported 1998 discovery date and later forensic developments not covered by the 1947 report. No original discovery or DNA document was obtained."
+    },
+    {
+      "id": "s10",
+      "title": "El Lancastrian cayó por un error de cálculo",
+      "publisher": "La Nación; Oscar E. Balmaceda",
+      "year": 2000,
+      "url": "https://www.lanacion.com.ar/sociedad/el-lancastrian-cayo-por-un-error-de-calculo-nid23883/",
+      "type": "news",
+      "opened": true,
+      "notes": "Opened and read. Published 8 July 2000, updated 23 June 2020. Contemporary report of the announcement by investigator Luis Estrella on the previous day. It contains flight chronology and altitude statements that conflict with the inquiries; those are not used as replacement track data."
+    },
+    {
+      "id": "s11",
+      "title": "Ficha de la Estación 330023 — Los Cerrillos ad.",
+      "publisher": "Dirección Meteorológica de Chile",
+      "year": null,
+      "url": "https://climatologia.meteochile.gob.cl/application/informacion/fichaDeEstacion/330023",
+      "type": "dataset",
+      "opened": true,
+      "notes": "Opened. Official later station metadata: SCTI, -33.494721, -70.703888, altitude 519 m; station creation listed as 1950. This is not a surveyed 1947 airport reference point and is not used as aircraft position or 1947 airport elevation."
+    },
+    {
+      "id": "s12",
+      "title": "SADM — Morón airport",
+      "publisher": "Airmate",
+      "year": null,
+      "url": "https://www.airmate.aero/php/airport_page.php?code=SADM",
+      "type": "dataset",
+      "opened": true,
+      "notes": "Opened. Current geographic reference S34°40′45″ W58°38′37″ and 98 ft MSL, not a 1947 runway threshold or measured takeoff position. DMS converted in route. Elevation cross-checked against official 2026 AIP supplement s13."
+    },
+    {
+      "id": "s13",
+      "title": "AIRAC A 137/2026 — Morón visual procedure charts",
+      "publisher": "ANAC / EANA, Argentina",
+      "year": 2026,
+      "url": "https://ais.anac.gob.ar/descarga/sup-6a285a751ee77",
+      "type": "dataset",
+      "opened": true,
+      "notes": "Opened; PDF downloaded with curl and extracted with pypdf. Published 9 June, effective 6 August 2026. Charts state AD elevation 98 ft. Modern reference only; no claim that runway geometry or procedures are unchanged since 1947."
+    },
+    {
+      "id": "s14",
+      "title": "1947 BSAA Avro Lancastrian Star Dust accident",
+      "publisher": "Wikipedia contributors",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/1947_BSAA_Avro_Lancastrian_Star_Dust_accident",
+      "type": "dataset",
+      "opened": true,
+      "notes": "Opened as a secondary encyclopedia and source-finding aid. Used only to disclose former BSAA pilots’ dissent, which it attributes to Jay Rayner, Star Dust Falling (2002), pp. 215–216. The book pages were not obtained and are not presented as opened. Other chronology taken from primary reports."
+    },
+    {
+      "id": "s15",
+      "title": "A Doomed Flight Sent Its Final Message: STENDEC. 80 Years Later, We Still Don’t Know What It Means.",
+      "publisher": "Popular Mechanics; Darren Orf",
+      "year": 2026,
+      "url": "https://www.popularmechanics.com/flight/airlines/a71447101/doomed-flight-final-message/",
+      "type": "news",
+      "opened": true,
+      "notes": "Opened, publication 3 June 2026. Included to document recent coverage, not a new investigation. Headline rounds the age and body mislabels 17:41 as local time; official GMT/UTC times take precedence, with conflict disclosed."
+    },
+    {
+      "id": "s16",
+      "title": "Avro 691 Lancastrian III G-AGWH / Set58/1280, photograph record 1873473",
+      "publisher": "Air-Britain ABPic / Peter Amos Collection",
+      "year": null,
+      "url": "https://abpic.co.uk/pictures/view/1873473",
+      "type": "contemporary_record",
+      "opened": true,
+      "notes": "Catalog page opened. Photograph dated approximately 1946; location is expressly a guess. Submitted 26 January 2024, which is a catalog addition, not a new accident finding. No verified accident-date colour specification was extracted; livery colours remain unverified."
+    },
+    {
+      "id": "s17",
+      "title": "Reading the Wreckage — interview with David F. King",
+      "publisher": "PBS NOVA",
+      "year": 2001,
+      "url": "https://www.pbs.org/wgbh/nova/vanished/wreckage.html",
+      "type": "news",
+      "opened": true,
+      "notes": "Opened. AAIB inspector’s interview on investigation methods. Its introduction uses January 2000 as discovery, unlike the documentary’s 1998 first find; discrepancy disclosed. Not a new official accident report."
+    },
+    {
+      "id": "s18",
+      "title": "Los Cerrillos Airport",
+      "publisher": "Wikipedia contributors",
+      "year": 2026,
+      "url": "https://en.wikipedia.org/wiki/Los_Cerrillos_Airport",
+      "type": "dataset",
+      "opened": true,
+      "notes": "Opened. Secondary geographic reference for the former airport, 33°29′37″S 70°41′52″W and identifier SCTI. Coordinates are a later airport marker, not the exact 1947 arrival point. A dependable historical airport elevation was not obtained."
+    }
+  ]
+}

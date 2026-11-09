@@ -1,0 +1,2104 @@
+{
+  "id": "ladybegood",
+  "title": "Lady Be Good",
+  "date_utc": null,
+  "one_line": "After overshooting its Libyan base, the crew bailed out; all nine died before help reached them.",
+  "status": "explained",
+  "status_why": "The inland wreck, recovered remains and diaries explain the loss and survival attempt, while the precise navigation failures and one crew member’s whereabouts remain unresolved.",
+  "aircraft": {
+    "type": "Consolidated B-24D-25-CO Liberator",
+    "registration": "41-24301 (USAAF serial)",
+    "operator": "United States Army Air Forces; 514th Bombardment Squadron, 376th Bombardment Group, Ninth Air Force",
+    "length_m": 20.2184,
+    "wingspan_m": 33.528,
+    "height_m": 5.461,
+    "fuselage_diameter_m": null,
+    "engines": 4,
+    "engine_type": "Pratt & Whitney R-1830-43 Twin Wasp, air-cooled radial piston engines",
+    "engine_mount": "wing",
+    "wing": "high",
+    "wing_sweep_deg": null,
+    "tail": "twin",
+    "gear": "retractable",
+    "livery_notes": "Desert pink over earlier olive drab is described in later wreck-photo analysis; white tactical number 64 is documented. April paint standard and underside shade were not verified. Name lettering on the port nose is disputed. Dimensions are type-manual values converted using 0.3048 m/ft and 0.0254 m/in.",
+    "sources": [
+      "s15",
+      "s23",
+      "s24"
+    ]
+  },
+  "people": {
+    "aboard": 9,
+    "crew": 9,
+    "passengers": 0,
+    "died": 9,
+    "survived": 0,
+    "sources": [
+      "s3",
+      "s4",
+      "s5",
+      "s7"
+    ]
+  },
+  "route": {
+    "from": {
+      "name": "Soluch historical landing-ground vicinity, Libya",
+      "code": null,
+      "lat": 31.672222,
+      "lon": 20.243056,
+      "elev_ft": null
+    },
+    "to": {
+      "name": "Soluch, intended return after the Naples harbor mission",
+      "code": null,
+      "lat": 31.672222,
+      "lon": 20.243056,
+      "elev_ft": null
+    },
+    "planned_waypoints": [
+      {
+        "name": "Naples harbor, Italy: bombing objective; exact aimpoint not recovered",
+        "lat": null,
+        "lon": null
+      }
+    ],
+    "sources": [
+      "s1",
+      "s16",
+      "s24"
+    ]
+  },
+  "site": {
+    "lat": 26.712694,
+    "lon": 24.024167,
+    "elev_ft": null,
+    "depth_m": null,
+    "precision": "approximate",
+    "surface": "desert",
+    "description": "Original wreck resting area on a gravel plain at the Calanscio/Calanshio sand-sea region in southeastern Libya. Historical astro-fix, not modern GPS precision. Nearby bailout and the northward walking trail are distinct locations. Remaining wreckage was removed in 1994.",
+    "sources": [
+      "s10",
+      "s7",
+      "s20"
+    ]
+  },
+  "terrain_box": {
+    "west": 23.77,
+    "south": 26.5,
+    "east": 24.3,
+    "north": 27.15,
+    "why": "Visualization bounds chosen by the researcher: roughly 53 km east–west and 72 km north–south, centered on wreck, bailout area and southern markers. This is not an historical search perimeter. The walking trail extends much farther north and needs a separate globe view."
+  },
+  "environment": [
+    {
+      "t_utc": null,
+      "lat": null,
+      "lon": null,
+      "place": "Soluch departure area, 4 April 1943",
+      "wind_dir_deg": null,
+      "wind_kt": null,
+      "temp_c": null,
+      "visibility_km": null,
+      "precip": null,
+      "turbulence": null,
+      "lightning": null,
+      "sea_state": null,
+      "wave_height_m": null,
+      "cloud_layers": [],
+      "light": "day",
+      "moon_note": null,
+      "notes": "Sand and dust were reported at the field. No aircraft-specific wind observation, visibility measurement, temperature or cloud-height record was recovered. The 1150 GMT group departure is not an individual weather-observation timestamp.",
+      "quality": "reported",
+      "sources": [
+        "s1",
+        "s3"
+      ]
+    },
+    {
+      "t_utc": null,
+      "lat": null,
+      "lon": null,
+      "place": "Naples mission area, 4 April 1943",
+      "wind_dir_deg": null,
+      "wind_kt": null,
+      "temp_c": null,
+      "visibility_km": null,
+      "precip": null,
+      "turbulence": null,
+      "lightning": null,
+      "sea_state": null,
+      "wave_height_m": null,
+      "cloud_layers": [],
+      "light": null,
+      "moon_note": null,
+      "notes": "Group mission summary item K says clear with ground haze. No measured visibility or layer heights are stated there. This describes the attacking group, not a timed observation from the missing bomber. Ground haze is not entered as a cloud layer.",
+      "quality": "reported",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "t_utc": null,
+      "lat": null,
+      "lon": null,
+      "place": "Return flight toward Libya, night of 4–5 April",
+      "wind_dir_deg": null,
+      "wind_kt": null,
+      "temp_c": null,
+      "visibility_km": null,
+      "precip": null,
+      "turbulence": null,
+      "lightning": null,
+      "sea_state": null,
+      "wave_height_m": null,
+      "cloud_layers": [
+        {
+          "type": null,
+          "base_ft": null,
+          "top_ft": null,
+          "coverage": null
+        }
+      ],
+      "light": "night",
+      "moon_note": null,
+      "notes": "Museum history account reports flight above cloud cover at night. Cloud genus, coverage, base and top are unknown; narrative tailwind explanations are not wind measurements.",
+      "quality": "reported",
+      "sources": [
+        "s7"
+      ]
+    },
+    {
+      "t_utc": null,
+      "lat": null,
+      "lon": null,
+      "place": "Bailout and original crash area, early 5 April by crew dating",
+      "wind_dir_deg": null,
+      "wind_kt": null,
+      "temp_c": null,
+      "visibility_km": null,
+      "precip": null,
+      "turbulence": null,
+      "lightning": null,
+      "sea_state": null,
+      "wave_height_m": null,
+      "cloud_layers": [],
+      "light": "night",
+      "moon_note": null,
+      "notes": "Nighttime desert descent. No site weather log or supported moon illumination calculation was obtained. The 11-knot northeast wind in the later simulator is an assumed input and is not used as historical weather.",
+      "quality": "reported",
+      "sources": [
+        "s4",
+        "s9"
+      ]
+    },
+    {
+      "t_utc": null,
+      "lat": null,
+      "lon": null,
+      "place": "Crew walking route, 5 April",
+      "wind_dir_deg": 315,
+      "wind_kt": null,
+      "temp_c": null,
+      "visibility_km": null,
+      "precip": null,
+      "turbulence": null,
+      "lightning": null,
+      "sea_state": null,
+      "wave_height_m": null,
+      "cloud_layers": [],
+      "light": "day",
+      "moon_note": null,
+      "notes": "Diary reports a warm sun, breeze from northwest and a very cold night. 315 degrees only converts the named compass sector; it is not a measured azimuth. Position and UTC observation time are unknown.",
+      "quality": "reported",
+      "sources": [
+        "s4"
+      ]
+    },
+    {
+      "t_utc": null,
+      "lat": null,
+      "lon": null,
+      "place": "Crew walking route, afternoon 6 April",
+      "wind_dir_deg": null,
+      "wind_kt": null,
+      "temp_c": null,
+      "visibility_km": null,
+      "precip": null,
+      "turbulence": null,
+      "lightning": null,
+      "sea_state": null,
+      "wave_height_m": null,
+      "cloud_layers": [],
+      "light": "day",
+      "moon_note": null,
+      "notes": "Diary reports a very warm afternoon and no breeze. No breeze is qualitative; no measured wind speed or temperature is supplied.",
+      "quality": "reported",
+      "sources": [
+        "s4"
+      ]
+    },
+    {
+      "t_utc": null,
+      "lat": null,
+      "lon": null,
+      "place": "Crew walking route in dunes, 8 April",
+      "wind_dir_deg": null,
+      "wind_kt": null,
+      "temp_c": null,
+      "visibility_km": null,
+      "precip": null,
+      "turbulence": null,
+      "lightning": null,
+      "sea_state": null,
+      "wave_height_m": null,
+      "cloud_layers": [],
+      "light": "day",
+      "moon_note": null,
+      "notes": "Diary reports wind and continuous blowing sand. Wind direction, speed, visibility and dune position at that time are unknown.",
+      "quality": "reported",
+      "sources": [
+        "s4"
+      ]
+    },
+    {
+      "t_utc": null,
+      "lat": null,
+      "lon": null,
+      "place": "Five-person final camp, nights around 9 April",
+      "wind_dir_deg": 0,
+      "wind_kt": null,
+      "temp_c": 1.6667,
+      "visibility_km": null,
+      "precip": null,
+      "turbulence": null,
+      "lightning": null,
+      "sea_state": null,
+      "wave_height_m": null,
+      "cloud_layers": [],
+      "light": "night",
+      "moon_note": null,
+      "notes": "Diary estimates nights around 35 degrees, interpreted as Fahrenheit in the American crew context. Conversion: (35−32)×5/9 = 1.6667 C. This is a rough personal estimate, not a thermometer record. North wind is qualitative; camp coordinate is from later recovery, not an observation fix.",
+      "quality": "derived",
+      "sources": [
+        "s4"
+      ]
+    }
+  ],
+  "track": [
+    {
+      "t_utc": null,
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "Departure from Soluch on 4 April. Individual takeoff clock is disputed; no instrument values recovered.",
+      "quality": "reported",
+      "method": "The group departure time in s1 is not assigned to the individual bomber.",
+      "sources": [
+        "s4",
+        "s6",
+        "s24"
+      ],
+      "locator": "Toner 4 April; Ripslinger first Sunday; association aircraft history"
+    },
+    {
+      "t_utc": null,
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "Outbound flight separated from formation. No verified position, speed or altitude is available for aircraft 64 here.",
+      "quality": "reported",
+      "method": "Narrative stage only; no interpolated route.",
+      "sources": [
+        "s3"
+      ],
+      "locator": "Lost section"
+    },
+    {
+      "t_utc": null,
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "Return turn near the Italian part of the mission.",
+      "quality": "reported",
+      "method": "Martinez reports a navigator-log departure course of 140 degrees at 20:52, time zone and true/magnetic reference unspecified. Original sheet not obtained. A planned course is not assigned as a measured aircraft heading.",
+      "sources": [
+        "s13"
+      ],
+      "locator": "Blame it on the navigator?"
+    },
+    {
+      "t_utc": null,
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "Bombs released or jettisoned; release position and aircraft state are unknown.",
+      "quality": "reported",
+      "method": "Diary transcription says 22:00; clock zone unspecified. Not the group bombing time in s1.",
+      "sources": [
+        "s6"
+      ],
+      "locator": "Ripslinger first-Sunday entry"
+    },
+    {
+      "t_utc": null,
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "Return toward Libya. A 150-degree course appears in the quoted Graves Registration reconstruction.",
+      "quality": "reported",
+      "method": "A reported reconstructed course, not a measured heading sample; true/magnetic reference not established. hdg_deg remains null because the source gives a course, not an instrument heading.",
+      "sources": [
+        "s7"
+      ],
+      "locator": "World War II section, quoted investigation conclusion"
+    },
+    {
+      "t_utc": null,
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "Radio request for help near Benghazi/Benina. The reported 330-degree reading is a bearing, not an aircraft heading.",
+      "quality": "reported",
+      "method": "Accounts describe multiple calls; original ground radio logs and exact UTC sequence not obtained.",
+      "sources": [
+        "s3",
+        "s7",
+        "s13"
+      ],
+      "locator": "Lost; quoted investigation conclusion; Failure to Acknowledge"
+    },
+    {
+      "t_utc": null,
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "Probable passage near Soluch followed by continued flight inland.",
+      "quality": "reported",
+      "method": "Aircraft identity and exact overhead position were not instrument-recorded. No base coordinate is used as an airborne fix.",
+      "sources": [
+        "s3",
+        "s13"
+      ],
+      "locator": "Lost; Failure to Acknowledge"
+    },
+    {
+      "t_utc": null,
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "Crew abandons the bomber with fuel depleted. Eight survive their descents; the bombardier does not join them.",
+      "quality": "reported",
+      "method": "Diaries give 02:00 landing versus 02:10 bailout, with no verified clock zone. Ground recovery positions are not substituted for airborne exit positions.",
+      "sources": [
+        "s4",
+        "s6",
+        "s9"
+      ],
+      "locator": "Toner 4 April; Ripslinger first Sunday; engine-control discussion"
+    },
+    {
+      "t_utc": null,
+      "lat": 26.712694,
+      "lon": 24.024167,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": "retracted",
+      "gear": "retracted",
+      "engine_note": "Uncrewed belly impact. Engines 1–3 feathered; number 4 controls in operating position. Fuselage broke behind wing.",
+      "quality": "reported",
+      "method": "Published historical astro-fix converted from 26°42′45.7″ N, 24°01′27″ E. Approximate original wreck position, not a modern survey. Instrument states at discovery do not give impact speed or attitude.",
+      "sources": [
+        "s9",
+        "s10",
+        "s3"
+      ],
+      "locator": "Crash-site/engine-control discussion; Coordinates Used; photograph 162171AC"
+    }
+  ],
+  "events": [
+    {
+      "t_utc": "1943-04-04T11:50:00Z",
+      "t_precision": "minute",
+      "title": "Group departs Soluch",
+      "detail": "4 April 1943: the group summary gives 1150 GMT as departure time. This is a group reference, not a verified individual takeoff time for Lady Be Good.",
+      "kind": "departure",
+      "quote": null,
+      "quote_speaker": "",
+      "quality": "recorded",
+      "sources": [
+        "s1"
+      ],
+      "locator": "AFHRA B0354/1735, item D"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Lady Be Good takes off",
+      "detail": "4 April: the engineer’s diary transcription gives takeoff as 15:10. Another military summary gives 14:50 and later accounts differ; the individual UTC time is unresolved.",
+      "kind": "departure",
+      "quote": null,
+      "quote_speaker": "",
+      "quality": "reported",
+      "sources": [
+        "s6",
+        "s2"
+      ],
+      "locator": "Ripslinger first Sunday; Mission 109 row"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Formation separates",
+      "detail": "4 April: sand and poor visibility disrupted the formation. Lady Be Good returned separately from the other bombers.",
+      "kind": "weather",
+      "quote": null,
+      "quote_speaker": "",
+      "quality": "reported",
+      "sources": [
+        "s3"
+      ],
+      "locator": "Lost section"
+    },
+    {
+      "t_utc": "1943-04-04T17:35:00Z",
+      "t_precision": "minute",
+      "title": "Group attacks Naples harbor",
+      "detail": "4 April: the group report records bombing between 1735 and 1745 GMT at 23,500–25,000 feet. These values describe the attacking group and do not establish Lady Be Good’s position or altitude.",
+      "kind": "investigation",
+      "quote": null,
+      "quote_speaker": "",
+      "quality": "recorded",
+      "sources": [
+        "s1"
+      ],
+      "locator": "Items E–H"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Return turn is logged",
+      "detail": "4 April, 20:52 on an unspecified clock: Martinez reports a 140-degree departure-course entry in the navigator’s log. This is a later transcription; the original sheet was not obtained.",
+      "kind": "crew_action",
+      "quote": null,
+      "quote_speaker": "",
+      "quality": "reported",
+      "sources": [
+        "s13"
+      ],
+      "locator": "Blame it on the navigator?"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Engineer records bomb release",
+      "detail": "4 April, 22:00 on an unspecified clock: the engineer records releasing bombs. The entry alone does not establish bombing Naples rather than jettisoning over water.",
+      "kind": "crew_action",
+      "quote": null,
+      "quote_speaker": "",
+      "quality": "reported",
+      "sources": [
+        "s6"
+      ],
+      "locator": "Ripslinger first-Sunday entry"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Crew requests radio help",
+      "detail": "Late 4 April or early 5 April: accounts describe a request for a bearing and a malfunctioning direction finder. The quoted Army reconstruction gives a 330-degree bearing from Benina; the original radio log was not recovered for this research.",
+      "kind": "atc",
+      "quote": null,
+      "quote_speaker": "",
+      "quality": "reported",
+      "sources": [
+        "s7",
+        "s3"
+      ],
+      "locator": "Quoted investigation conclusion; Lost section"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Aircraft is heard near base",
+      "detail": "Around midnight on the witnesses’ clocks, personnel heard a bomber near Soluch and fired flares. Retrospective testimony identifies it as probably Lady Be Good; no exact overhead fix follows from the sound.",
+      "kind": "witness",
+      "quote": null,
+      "quote_speaker": "",
+      "quality": "reported",
+      "sources": [
+        "s13"
+      ],
+      "locator": "Failure to Acknowledge, McCain letter and Liberandos passage"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Benghazi call may go unanswered",
+      "detail": "Around midnight: Martinez says a separate Benghazi radio station failed to answer the pilot because an enemy aircraft was suspected. This contested account rests on later interviews, not a cockpit recording.",
+      "kind": "atc",
+      "quote": null,
+      "quote_speaker": "",
+      "quality": "reported",
+      "sources": [
+        "s13",
+        "s20"
+      ],
+      "locator": "Failure to Acknowledge; The Lady That Didn’t Come Home"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Fuel becomes depleted",
+      "detail": "Early 5 April by crew dating: the copilot records running out of fuel. Later examination found three propellers feathered and the fourth engine configured to operate.",
+      "kind": "system",
+      "quote": null,
+      "quote_speaker": "",
+      "quality": "reported",
+      "sources": [
+        "s4",
+        "s9"
+      ],
+      "locator": "Toner 4 April entry; engine-control discussion"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Crew bails out",
+      "detail": "Early 5 April: the copilot records landing in the desert at 02:00; the engineer gives bailout at 02:10. These are unconverted crew clock readings, not verified UTC times.",
+      "kind": "crew_action",
+      "quote": null,
+      "quote_speaker": "",
+      "quality": "reported",
+      "sources": [
+        "s4",
+        "s6"
+      ],
+      "locator": "Toner 4 April; Ripslinger first Sunday"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Uncrewed bomber strikes desert",
+      "detail": "After abandonment, the bomber struck a gravel plain and skidded roughly 700 yards. Its fourth engine detached and its fuselage broke behind the wings; the exact impact time, speed and attitude are unknown.",
+      "kind": "impact",
+      "quote": null,
+      "quote_speaker": "",
+      "quality": "reported",
+      "sources": [
+        "s9"
+      ],
+      "locator": "Crash-site analysis"
+    },
+    {
+      "t_utc": "1943-04-05T02:00:00Z",
+      "t_precision": "minute",
+      "title": "Group reports missing aircraft",
+      "detail": "The 5 April confirmation says its telegraphic summary was filed at 0200 GMT. Aircraft 64 with its pilot was unaccounted for; a second bomber was also still unaccounted for in this initial report.",
+      "kind": "disappearance",
+      "quote": null,
+      "quote_speaker": "",
+      "quality": "recorded",
+      "sources": [
+        "s1"
+      ],
+      "locator": "Opening paragraph 2; final lines"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Eight men begin walking",
+      "detail": "5 April: eight men assembled without the bombardier and walked northwest. The copilot recorded a few rations and half a canteen of water, rationed by capful.",
+      "kind": "crew_action",
+      "quote": null,
+      "quote_speaker": "",
+      "quality": "reported",
+      "sources": [
+        "s4"
+      ],
+      "locator": "4 April and Monday 5 diary spaces"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Walking and resting alternate",
+      "detail": "6 April: the diary records resting at 11:30 until 17:00, then walking and resting through the night in a 15-minute walking, 5-minute resting pattern. The clock zone is unknown.",
+      "kind": "crew_action",
+      "quote": null,
+      "quote_speaker": "",
+      "quality": "reported",
+      "sources": [
+        "s4"
+      ],
+      "locator": "Tuesday 6 diary space"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Crew reaches sand dunes",
+      "detail": "8 April: the copilot records reaching dunes amid blowing sand. The men were weakening and their eyes were affected.",
+      "kind": "weather",
+      "quote": null,
+      "quote_speaker": "",
+      "quality": "reported",
+      "sources": [
+        "s4"
+      ],
+      "locator": "Thursday 8 diary space"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Three continue for help",
+      "detail": "The copilot places the separation on 9 April; the engineer mentions it under Saturday 10 April. The engineer and two gunners continued while five men remained behind.",
+      "kind": "crew_action",
+      "quote": null,
+      "quote_speaker": "",
+      "quality": "reported",
+      "sources": [
+        "s4",
+        "s6"
+      ],
+      "locator": "Toner Friday 9; Ripslinger Saturday"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Engineer makes final entry",
+      "detail": "11 April: the engineer’s final entry says they were still struggling through dunes to find water. It does not give a location or establish when he died.",
+      "kind": "crew_action",
+      "quote": null,
+      "quote_speaker": "",
+      "quality": "reported",
+      "sources": [
+        "s6"
+      ],
+      "locator": "Ripslinger Palm Sunday entry"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Copilot makes final entry",
+      "detail": "12 April: the copilot’s last written entry reports no help and another cold night. Blank later diary spaces do not establish anyone’s exact time of death.",
+      "kind": "crew_action",
+      "quote": null,
+      "quote_speaker": "",
+      "quality": "reported",
+      "sources": [
+        "s5"
+      ],
+      "locator": "Monday 12 and subsequent blank spaces"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "British patrol buries unidentified remains",
+      "detail": "February 1953: a later account says a British convoy photographed and buried unidentified remains while crossing the sand sea. Their proposed connection with the missing gunner was raised decades later and remains unproved.",
+      "kind": "discovery",
+      "quote": null,
+      "quote_speaker": "",
+      "quality": "reported",
+      "sources": [
+        "s14"
+      ],
+      "locator": "1953 convoy account"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Early aerial sighting is reported",
+      "detail": "16 May 1958: Martinez reports a sighting by oil-survey personnel, followed by another on 15 June. Other accounts instead emphasize November 1958; discovery chronology remains conflicted.",
+      "kind": "discovery",
+      "quote": null,
+      "quote_speaker": "",
+      "quality": "reported",
+      "sources": [
+        "s13"
+      ],
+      "locator": "Documentary corrections, item 3"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "November sighting enters later accounts",
+      "detail": "9 November 1958 is the aerial-discovery date repeated in the 2021 physics article. This is retained alongside the May and June accounts rather than called the unique first sighting.",
+      "kind": "discovery",
+      "quote": null,
+      "quote_speaker": "",
+      "quality": "reported",
+      "sources": [
+        "s18"
+      ],
+      "locator": "p.174, Mystery solved section"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Oil surveyors reach the wreck",
+      "detail": "27–28 February 1959: Bowerman, Sheridan and Martin reached and examined the bomber in the detailed later accounts. Institutional summaries often place the ground visit in March.",
+      "kind": "discovery",
+      "quote": null,
+      "quote_speaker": "",
+      "quality": "reported",
+      "sources": [
+        "s10",
+        "s23",
+        "s7"
+      ],
+      "locator": "Coordinate provenance; ground expedition narrative; Crash Site Discovery"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Military search begins",
+      "detail": "May 1959: Army mortuary and Air Force personnel investigated the empty wreck and began searching for the crew. Fuller and Neep were key Army investigators.",
+      "kind": "search",
+      "quote": null,
+      "quote_speaker": "",
+      "quality": "reported",
+      "sources": [
+        "s3",
+        "s7"
+      ],
+      "locator": "Found; Ground Search for Crew"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Boots reveal the northward trail",
+      "detail": "16 June 1959 according to Lowery: searchers found flight boots about 19 miles north of the wreck. Further searches followed old vehicle tracks and found discarded equipment and parachute arrows.",
+      "kind": "discovery",
+      "quote": null,
+      "quote_speaker": "",
+      "quality": "reported",
+      "sources": [
+        "s19",
+        "s9"
+      ],
+      "locator": "Lowery p.72; Holder trail discussion"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Another arrow marker is found",
+      "detail": "20 July 1959: an additional parachute-and-stone arrow was found during a return trip toward the wreck. Its mapped position is a later approximation.",
+      "kind": "discovery",
+      "quote": null,
+      "quote_speaker": "",
+      "quality": "reported",
+      "sources": [
+        "s19",
+        "s11"
+      ],
+      "locator": "Lowery p.73; southern Parachute Marker, Items placemark"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "First search closes without remains",
+      "detail": "2 September 1959 in Lowery’s account: the search team was airlifted out after extensive effort. The working explanation was that the men’s remains had been covered by sand.",
+      "kind": "search",
+      "quote": null,
+      "quote_speaker": "",
+      "quality": "reported",
+      "sources": [
+        "s19",
+        "s9"
+      ],
+      "locator": "Lowery p.73; Holder final-report discussion"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "First investigation report is dated",
+      "detail": "17 November 1959: the Quartermaster bibliography identifies a report by Fuller and Neep on the lost bomber and the 1959 search. The full report was not obtained.",
+      "kind": "investigation",
+      "quote": null,
+      "quote_speaker": "",
+      "quality": "reported",
+      "sources": [
+        "s8"
+      ],
+      "locator": "Unpublished Documents"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Five crew members are found",
+      "detail": "11 February 1960: oil workers found five crew members together, with equipment and the copilot’s diary. The 2024 documentary describes the discovery message arriving on 12 February.",
+      "kind": "discovery",
+      "quote": null,
+      "quote_speaker": "",
+      "quality": "reported",
+      "sources": [
+        "s7",
+        "s21"
+      ],
+      "locator": "Five Crewmembers Found; documentary transcript, discovery-message passage"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Operation Climax expands the search",
+      "detail": "Spring 1960: a joint Army–Air Force operation used ground parties, aircraft and helicopters to seek the four still missing. It followed the February recovery.",
+      "kind": "search",
+      "quote": null,
+      "quote_speaker": "",
+      "quality": "reported",
+      "sources": [
+        "s3"
+      ],
+      "locator": "Operation Climax section and film captions"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "A gunner is found farther north",
+      "detail": "12 May 1960: oil workers found Shelley. Relative-distance accounts conflict, so his published recovery coordinate is kept separately from claims about miles walked.",
+      "kind": "discovery",
+      "quote": null,
+      "quote_speaker": "",
+      "quality": "reported",
+      "sources": [
+        "s7",
+        "s19",
+        "s10"
+      ],
+      "locator": "Operation Climax; Lowery p.74; Coordinates Used"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Flight engineer is found",
+      "detail": "17 May 1960: a helicopter search found Ripslinger. His diary was recovered; the published coordinate lies south of Shelley’s, contrary to some institutional retellings.",
+      "kind": "discovery",
+      "quote": null,
+      "quote_speaker": "",
+      "quality": "reported",
+      "sources": [
+        "s7",
+        "s19",
+        "s10"
+      ],
+      "locator": "Operation Climax; Lowery p.74; Coordinates Used"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Final organized search ends",
+      "detail": "Late May 1960: Operation Climax ended with two men still missing. The later bombardier discovery was separate.",
+      "kind": "search",
+      "quote": null,
+      "quote_speaker": "",
+      "quality": "reported",
+      "sources": [
+        "s3",
+        "s7"
+      ],
+      "locator": "Operation Climax"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Second investigation report is dated",
+      "detail": "20 June 1960: the Quartermaster bibliography identifies the final-search report by Fuller and Neep. Its text and appendices were not located in an accessible digital copy.",
+      "kind": "investigation",
+      "quote": null,
+      "quote_speaker": "",
+      "quality": "reported",
+      "sources": [
+        "s8"
+      ],
+      "locator": "Unpublished Documents"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Bombardier is found near bailout area",
+      "detail": "11 August 1960 in the detailed later accounts: the bombardier was found near the original descent area with a partially deployed parachute. Nearby abandoned flying equipment and spent flares identified the survivors’ assembly area.",
+      "kind": "discovery",
+      "quote": null,
+      "quote_speaker": "",
+      "quality": "reported",
+      "sources": [
+        "s23",
+        "s11",
+        "s7"
+      ],
+      "locator": "Woravka paragraph; Woravka placemark; August discovery"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Crew memorial window is dedicated",
+      "detail": "January 1961: a memorial stained-glass window was unveiled at Wheelus. It was later moved to the U.S. Air Force museum.",
+      "kind": "finding",
+      "quote": null,
+      "quote_speaker": "",
+      "quality": "reported",
+      "sources": [
+        "s7",
+        "s3"
+      ],
+      "locator": "Epilogue; memorial photograph K35807"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Components support materials research",
+      "detail": "April 1968: an RAF desert team recovered components for materials study. The wreck’s long exposure provided evidence about deterioration during storage.",
+      "kind": "investigation",
+      "quote": null,
+      "quote_speaker": "",
+      "quality": "reported",
+      "sources": [
+        "s7",
+        "s24",
+        "s9"
+      ],
+      "locator": "Epilogue; Walker materials-study account; materials testing"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Wreckage is moved for safekeeping",
+      "detail": "August 1994: Libyan authorities removed the remaining wreckage to Tobruk. The original crash-site coordinates therefore do not locate the surviving airframe today.",
+      "kind": "finding",
+      "quote": null,
+      "quote_speaker": "",
+      "quality": "reported",
+      "sources": [
+        "s7",
+        "s20"
+      ],
+      "locator": "Epilogue; The Lady That Didn’t Come Home"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Moore photograph is assessed",
+      "detail": "2001–2002: Martinez investigated a photograph from the 1953 convoy and sought an osteologist’s opinion. The photograph could not establish identity and did not close the missing gunner’s case.",
+      "kind": "investigation",
+      "quote": null,
+      "quote_speaker": "",
+      "quality": "reported",
+      "sources": [
+        "s14"
+      ],
+      "locator": "Correspondence and osteologist assessment"
+    }
+  ],
+  "perspectives": [
+    {
+      "id": "navigation",
+      "label": "Reciprocal bearing and overflight",
+      "held_by": "Graves Registration reconstruction as quoted by Quartermaster history; Joseph Portney; later institutional histories",
+      "standing": "official finding",
+      "claim": "The bomber passed its base and continued inland while its crew believed it was still returning over the Mediterranean. The quoted official reconstruction proposes a reciprocal-bearing error, followed by fuel depletion and bailout; it does not supply a continuous measured route.",
+      "evidence_for": [
+        {
+          "text": "The quoted investigation gives a 150-degree course and a 330-degree Benina reading.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "The wreck, missing parachutes, diary and northward trail establish inland abandonment and the subsequent survival attempt.",
+          "sources": [
+            "s3",
+            "s4",
+            "s5"
+          ]
+        },
+        {
+          "text": "Portney’s abstract identifies missing return dead-reckoning entries as a contributor.",
+          "sources": [
+            "s17"
+          ]
+        }
+      ],
+      "evidence_against": [
+        {
+          "text": "No continuous flight record or complete radio log was obtained; the exact recognition and interpretation failures cannot be reconstructed.",
+          "sources": [
+            "s13",
+            "s17"
+          ]
+        },
+        {
+          "text": "A failed or unanswered radio exchange could have compounded the error. These explanations need not be mutually exclusive.",
+          "sources": [
+            "s3",
+            "s13"
+          ]
+        }
+      ],
+      "ending": {
+        "lat": 26.712694,
+        "lon": 24.024167,
+        "t_utc": null,
+        "description": "Same inland wreck and bailout as the physical-evidence account; precise flight course remains uncertain."
+      },
+      "track_override": []
+    },
+    {
+      "id": "benghazi",
+      "label": "Unanswered Benghazi radio call",
+      "held_by": "Mario Martinez, drawing on retrospective interviews and letters",
+      "standing": "credible alternative",
+      "claim": "Martinez gives greater causal weight to an unanswered request at Benghazi radio headquarters, distinct from Benina and Soluch. He argues that suspicion of a German aircraft prevented useful help from reaching the crew.",
+      "evidence_for": [
+        {
+          "text": "His own account identifies a 1985 interview with an officer and a separate Benghazi station.",
+          "sources": [
+            "s13"
+          ]
+        },
+        {
+          "text": "The National Archives narrative also describes an unsuccessful request for help.",
+          "sources": [
+            "s3"
+          ]
+        }
+      ],
+      "evidence_against": [
+        {
+          "text": "The original tower log and interview recording were not obtained here; decades-later recollection does not settle each call’s timing or receipt.",
+          "sources": [
+            "s13"
+          ]
+        },
+        {
+          "text": "This does not refute the physical evidence of inland flight or establish the bomber’s exact position.",
+          "sources": [
+            "s3",
+            "s7"
+          ]
+        }
+      ],
+      "ending": {
+        "lat": 26.712694,
+        "lon": 24.024167,
+        "t_utc": null,
+        "description": "Same wreck and survival sequence; responsibility for the failed recovery of position differs."
+      },
+      "track_override": []
+    },
+    {
+      "id": "turn_model",
+      "label": "Simulated final right turn",
+      "held_by": "Ed Truthan, LadyBeGood.net flight-simulation study",
+      "standing": "minority",
+      "claim": "A later simulator explores a trimmed, one-engine descent with a right turn. Its numerical output is a visualization hypothesis, not historical telemetry.",
+      "evidence_for": [
+        {
+          "text": "Attempts to match bailout vicinity, wreck position and impact geometry.",
+          "sources": [
+            "s12"
+          ]
+        }
+      ],
+      "evidence_against": [
+        {
+          "text": "Fuel, trim, wind and aircraft state were assumed; Holder instead describes a leftward arc expected by consulted pilots.",
+          "sources": [
+            "s12",
+            "s9"
+          ]
+        }
+      ],
+      "ending": {
+        "lat": null,
+        "lon": null,
+        "t_utc": null,
+        "description": "Published simulation reaches near the wreck after a turn; exact simulated endpoint is not tabulated here."
+      },
+      "track_override": [
+        {
+          "t_utc": null,
+          "lat": 26.9,
+          "lon": 24.133333,
+          "alt_ft": 3500,
+          "ias_kt": 111,
+          "gs_kt": null,
+          "mach": null,
+          "hdg_deg": 150,
+          "vs_fpm": null,
+          "pitch_deg": null,
+          "roll_deg": null,
+          "aoa_deg": null,
+          "flap": null,
+          "gear": null,
+          "engine_note": "One-engine model near bailout vicinity.",
+          "quality": "modelled",
+          "method": "Ed Truthan, Flight Simulator study; assumed starting state, not an observed exit fix. No absolute UTC available.",
+          "sources": [
+            "s12"
+          ],
+          "locator": "3,500-foot scenario and conclusions"
+        },
+        {
+          "t_utc": null,
+          "lat": null,
+          "lon": null,
+          "alt_ft": null,
+          "ias_kt": 114,
+          "gs_kt": null,
+          "mach": null,
+          "hdg_deg": null,
+          "vs_fpm": null,
+          "pitch_deg": null,
+          "roll_deg": null,
+          "aoa_deg": null,
+          "flap": null,
+          "gear": null,
+          "engine_note": "Model reaches terrain.",
+          "quality": "modelled",
+          "method": "Ed Truthan model output; reported elapsed descent 7 minutes 36 seconds and mean descent about 300 ft/min. Mean is not assigned as an instantaneous vertical speed.",
+          "sources": [
+            "s12"
+          ],
+          "locator": "Scenario conclusions"
+        }
+      ]
+    },
+    {
+      "id": "projectile",
+      "label": "Possible enemy damage",
+      "held_by": "William G. Holder; discussed cautiously by Mario Martinez",
+      "standing": "minority",
+      "claim": "A recovered engine reportedly contained damage or a fragment associated with a 20-mm projectile. Holder suggested possible enemy fire near the target; this does not establish when the damage occurred or that it caused the loss.",
+      "evidence_for": [
+        {
+          "text": "Both authors discuss the recovered-engine finding.",
+          "sources": [
+            "s9",
+            "s13"
+          ]
+        }
+      ],
+      "evidence_against": [
+        {
+          "text": "No dated laboratory report, matching sortie attack report or broader battle-damage pattern was obtained.",
+          "sources": [
+            "s13"
+          ]
+        },
+        {
+          "text": "The crew diary instead identifies becoming lost and running out of fuel.",
+          "sources": [
+            "s4"
+          ]
+        }
+      ],
+      "ending": {
+        "lat": 26.712694,
+        "lon": 24.024167,
+        "t_utc": null,
+        "description": "No supported alternative endpoint or flight path; possible contributing damage only."
+      },
+      "track_override": []
+    },
+    {
+      "id": "moore",
+      "label": "Unidentified burial may be Moore",
+      "held_by": "Mario Martinez and the former British convoy participant who contacted him",
+      "standing": "minority",
+      "claim": "Unidentified remains photographed and buried in 1953 might have been the still-missing gunner. The proposed location is an approximate regional inference, not a recovered grave or accepted identification.",
+      "evidence_for": [
+        {
+          "text": "A participant supplied a photograph and convoy account; the proposed region could fit the northward walk.",
+          "sources": [
+            "s14"
+          ]
+        }
+      ],
+      "evidence_against": [
+        {
+          "text": "The osteologist could not determine identity from the photograph. No identifying objects, re-exhumation or DNA result establishes Moore.",
+          "sources": [
+            "s14"
+          ]
+        }
+      ],
+      "ending": {
+        "lat": null,
+        "lon": null,
+        "t_utc": null,
+        "description": "The flight is unchanged. Only the possible later whereabouts of one crew member differ."
+      },
+      "track_override": []
+    },
+    {
+      "id": "curse",
+      "label": "Salvaged parts carried a curse",
+      "held_by": "Later folklore repeated by Holder and documentaries",
+      "standing": "fringe",
+      "claim": "Stories linked subsequent aircraft troubles to reused parts from the bomber. They are folklore, not a supported cause of this accident or of the later accidents.",
+      "evidence_for": [
+        {
+          "text": "Reuse and subsequent mishap stories were published.",
+          "sources": [
+            "s9",
+            "s21"
+          ]
+        }
+      ],
+      "evidence_against": [
+        {
+          "text": "Temporal association does not establish causation; no supporting technical finding is presented.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Ordinary navigation failure, fuel depletion and the desert ordeal have direct physical and diary evidence.",
+          "sources": [
+            "s3",
+            "s4",
+            "s5"
+          ]
+        }
+      ],
+      "ending": {
+        "lat": null,
+        "lon": null,
+        "t_utc": null,
+        "description": "No evidence-based alternative flight or endpoint."
+      },
+      "track_override": []
+    }
+  ],
+  "evidence_points": [
+    {
+      "lat": 31.672222,
+      "lon": 20.243056,
+      "label": "Soluch landing-ground vicinity",
+      "detail": "Secondary historical coordinate: 31°40′20″ N, 20°14′35″ E. Approximate field vicinity, not a runway threshold or recorded takeoff fix.",
+      "kind": "landmark",
+      "date": null,
+      "quality": "reported",
+      "sources": [
+        "s16"
+      ]
+    },
+    {
+      "lat": 26.712694,
+      "lon": 24.024167,
+      "label": "Original wreck astro-fix",
+      "detail": "Historical survey position, approximately located; wreck later removed.",
+      "kind": "wreckage",
+      "date": "1959-02-27",
+      "quality": "reported",
+      "sources": [
+        "s10"
+      ]
+    },
+    {
+      "lat": 26.714241,
+      "lon": 24.022475,
+      "label": "Later mapped wreck footprint",
+      "detail": "Truthan’s revised map position; approximate satellite-image interpretation.",
+      "kind": "wreckage",
+      "date": null,
+      "quality": "modelled",
+      "sources": [
+        "s11"
+      ]
+    },
+    {
+      "lat": 26.9,
+      "lon": 24.133333,
+      "label": "Bombardier recovery area",
+      "detail": "Minute-resolution coordinate; parachute failure inferred from recovery evidence.",
+      "kind": "grave",
+      "date": "1960-08-11",
+      "quality": "reported",
+      "sources": [
+        "s10",
+        "s7"
+      ]
+    },
+    {
+      "lat": 26.89554,
+      "lon": 24.12915,
+      "label": "Survivors assembly area",
+      "detail": "Modelled from relative distance southwest of bombardier; not surveyed.",
+      "kind": "landmark",
+      "date": null,
+      "quality": "modelled",
+      "sources": [
+        "s11"
+      ]
+    },
+    {
+      "lat": 26.98603,
+      "lon": 24.06306,
+      "label": "Flight boots",
+      "detail": "Approximate mapped trail position; first search clue.",
+      "kind": "debris",
+      "date": "1959-06-16",
+      "quality": "modelled",
+      "sources": [
+        "s11"
+      ]
+    },
+    {
+      "lat": 26.98317,
+      "lon": 24.0657,
+      "label": "Southern parachute arrow",
+      "detail": "Arrow and shroud lines; approximate mapped position.",
+      "kind": "debris",
+      "date": null,
+      "quality": "modelled",
+      "sources": [
+        "s11"
+      ]
+    },
+    {
+      "lat": 27.07209,
+      "lon": 24.03201,
+      "label": "Parachute arrow two",
+      "detail": "Approximate mapped position.",
+      "kind": "debris",
+      "date": null,
+      "quality": "modelled",
+      "sources": [
+        "s11"
+      ]
+    },
+    {
+      "lat": 27.10301,
+      "lon": 24.02061,
+      "label": "Arrow with named harness",
+      "detail": "Harness associated with Moore; approximate mapped position.",
+      "kind": "debris",
+      "date": null,
+      "quality": "modelled",
+      "sources": [
+        "s11"
+      ]
+    },
+    {
+      "lat": 27.11809,
+      "lon": 24.01527,
+      "label": "Parachute arrow four",
+      "detail": "Approximate mapped position.",
+      "kind": "debris",
+      "date": null,
+      "quality": "modelled",
+      "sources": [
+        "s11"
+      ]
+    },
+    {
+      "lat": 27.1306,
+      "lon": 24.01049,
+      "label": "Arrow near flight helmets",
+      "detail": "Approximate mapped position.",
+      "kind": "debris",
+      "date": null,
+      "quality": "modelled",
+      "sources": [
+        "s11"
+      ]
+    },
+    {
+      "lat": 27.25189,
+      "lon": 23.96652,
+      "label": "Arrow near harness section",
+      "detail": "Approximate mapped position.",
+      "kind": "debris",
+      "date": null,
+      "quality": "modelled",
+      "sources": [
+        "s11"
+      ]
+    },
+    {
+      "lat": 27.33593,
+      "lon": 23.9265,
+      "label": "Northern parachute arrow",
+      "detail": "Stone outline on rocky knoll; approximate mapped position.",
+      "kind": "debris",
+      "date": null,
+      "quality": "modelled",
+      "sources": [
+        "s11"
+      ]
+    },
+    {
+      "lat": 27.31108,
+      "lon": 23.94567,
+      "label": "Vehicle-track crossing",
+      "detail": "Approximate modelled crossing; chronology unresolved.",
+      "kind": "landmark",
+      "date": null,
+      "quality": "modelled",
+      "sources": [
+        "s11"
+      ]
+    },
+    {
+      "lat": 27.833333,
+      "lon": 23.566667,
+      "label": "Five-person final camp",
+      "detail": "Published minute-resolution recovery coordinate; exact walking distance disputed.",
+      "kind": "grave",
+      "date": "1960-02-11",
+      "quality": "reported",
+      "sources": [
+        "s10",
+        "s7"
+      ]
+    },
+    {
+      "lat": 28.083333,
+      "lon": 23.216667,
+      "label": "Flight engineer recovery area",
+      "detail": "Published minute-resolution recovery coordinate.",
+      "kind": "grave",
+      "date": "1960-05-17",
+      "quality": "reported",
+      "sources": [
+        "s10"
+      ]
+    },
+    {
+      "lat": 28.166667,
+      "lon": 23.083333,
+      "label": "Gunner Shelley recovery area",
+      "detail": "Published minute-resolution recovery coordinate; north of engineer.",
+      "kind": "grave",
+      "date": "1960-05-12",
+      "quality": "reported",
+      "sources": [
+        "s10"
+      ]
+    },
+    {
+      "lat": 28,
+      "lon": 23,
+      "label": "Hypothesized unidentified-burial region",
+      "detail": "Martinez regional hypothesis only; not an identified grave.",
+      "kind": "search_area",
+      "date": null,
+      "quality": "modelled",
+      "sources": [
+        "s14"
+      ]
+    }
+  ],
+  "witnesses": [
+    {
+      "who": "Returning bomber pilot and personnel at Soluch",
+      "lat": null,
+      "lon": null,
+      "said": "Paraphrase: a bomber was heard passing nearby after the returning section landed, and flares were fired. Its identity as Lady Be Good was inferred.",
+      "sources": [
+        "s13"
+      ]
+    },
+    {
+      "who": "D’Arcy oil-survey geologists",
+      "lat": null,
+      "lon": null,
+      "said": "Paraphrase: a bomber wreck was seen during aerial surveys; a ground party later examined the empty aircraft. The dates of first sighting differ between accounts.",
+      "sources": [
+        "s3",
+        "s10",
+        "s23"
+      ]
+    },
+    {
+      "who": "Former British signals mechanic on a 1953 convoy",
+      "lat": null,
+      "lon": null,
+      "said": "Paraphrase via Martinez: companions photographed and buried unidentified remains before his delayed vehicle arrived. He later supplied the photograph; he did not identify the remains at the time.",
+      "sources": [
+        "s14"
+      ]
+    }
+  ],
+  "numbers": [
+    {
+      "label": "People aboard",
+      "value": "9 crew, no passengers; no eventual survivors.",
+      "sources": [
+        "s3",
+        "s7"
+      ]
+    },
+    {
+      "label": "Crew reunited after descent",
+      "value": "8; the bombardier did not join them.",
+      "sources": [
+        "s4"
+      ]
+    },
+    {
+      "label": "Initial shared water",
+      "value": "Half a canteen in the copilot diary; canteen capacity and exact volume not established.",
+      "sources": [
+        "s4"
+      ]
+    },
+    {
+      "label": "Minimum documented survival span",
+      "value": "Diary entries extend from the early hours of 5 April through 12 April, about eight calendar days; death times unknown.",
+      "sources": [
+        "s4",
+        "s5"
+      ]
+    },
+    {
+      "label": "Reported ground skid",
+      "value": "Approximately 700 yards; endpoints and exact length not surveyed here.",
+      "sources": [
+        "s9"
+      ]
+    },
+    {
+      "label": "Reported group walk",
+      "value": "78 miles in some accounts; 85 in others. Neither is a measured continuous walking trace.",
+      "sources": [
+        "s24",
+        "s19",
+        "s7"
+      ]
+    },
+    {
+      "label": "Recovered crew remains",
+      "value": "8 of 9 recovered in 1960; one crew member remains unaccounted for in the sources checked.",
+      "sources": [
+        "s3",
+        "s22"
+      ]
+    },
+    {
+      "label": "Published marker locations",
+      "value": "7 parachute arrows plotted from an independent interpretive KMZ; all labelled modelled.",
+      "sources": [
+        "s11"
+      ]
+    }
+  ],
+  "why_it_matters": "The wreck supplied long-exposed aircraft components for materials and storage research [s9, s24]. The case is used to teach direction-finding ambiguity, cross-checking and survival limitations [s17, s18]; no specific regulatory change caused by it was verified.",
+  "conflicts": [
+    {
+      "about": "Individual takeoff and clock conventions",
+      "a": "Engineer transcription: 15:10. AFHRA telegraphic group summary: 1150 GMT.",
+      "b": "AFHRA statistical group summary: 14:50, zone not visible; 2021 paper: 14:15. Group and individual times may also describe different things. No local-to-UTC conversion is asserted.",
+      "sources": [
+        "s1",
+        "s2",
+        "s6",
+        "s18"
+      ]
+    },
+    {
+      "about": "Number of aircraft on Mission 109",
+      "a": "Telegraphic summary lists 25 B-24Ds; copilot diary says 28 planes.",
+      "b": "Statistical sheet lists 27 initiated sorties and 17 completed; Holder gives 26. Definitions and changing mission status may differ; no harmonized count is invented.",
+      "sources": [
+        "s1",
+        "s2",
+        "s4",
+        "s9"
+      ]
+    },
+    {
+      "about": "Abort short of target or reach Naples vicinity",
+      "a": "Quartermaster summary and NARA say the bomber turned back before the target.",
+      "b": "Engineer records bombs released at 22:00; Martinez interprets a late return turn near Naples. A release entry is not proof of hitting the target.",
+      "sources": [
+        "s7",
+        "s3",
+        "s6",
+        "s13"
+      ]
+    },
+    {
+      "about": "Radio bearing, equipment failure and responsibility",
+      "a": "Quoted Army conclusion proposes reciprocal-bearing error involving 150/330 degrees.",
+      "b": "NARA emphasizes malfunction and missing help; Martinez emphasizes an unanswered Benghazi call. Ground HF/DF readings and onboard radio-compass readings are sometimes conflated in later accounts.",
+      "sources": [
+        "s7",
+        "s3",
+        "s13",
+        "s18"
+      ]
+    },
+    {
+      "about": "Bailout versus ground arrival clock",
+      "a": "Copilot records landing at 02:00.",
+      "b": "Engineer transcription gives bailout at 02:10. These may be approximate readings of different actions; neither has a verified UTC basis.",
+      "sources": [
+        "s4",
+        "s6"
+      ]
+    },
+    {
+      "about": "Date of separation into two parties",
+      "a": "Copilot: Friday 9 April.",
+      "b": "Engineer: separation mentioned under Saturday 10 April. The precise departure of the three is not resolved.",
+      "sources": [
+        "s4",
+        "s6"
+      ]
+    },
+    {
+      "about": "First aerial sighting",
+      "a": "Martinez specifies 16 May and 15 June 1958; Quartermaster history and Smithsonian give May.",
+      "b": "NARA emphasizes November 1958; the 2021 paper gives 9 November. These may include multiple sightings rather than a single discovery.",
+      "sources": [
+        "s13",
+        "s7",
+        "s20",
+        "s3",
+        "s18"
+      ]
+    },
+    {
+      "about": "First ground examination",
+      "a": "Detailed expedition accounts and coordinate provenance give 27–28 February 1959.",
+      "b": "NARA and Quartermaster summaries put a ground visit in March. Do not collapse these into a fabricated exact arrival timestamp.",
+      "sources": [
+        "s10",
+        "s23",
+        "s3",
+        "s7"
+      ]
+    },
+    {
+      "about": "Original wreck position",
+      "a": "Historical astro-fix: 26.712694 N, 24.024167 E.",
+      "b": "2011 KMZ revised footprint: 26.714241 N, 24.022475 E. Historical survey and later imagery interpretation differ; site precision is approximate.",
+      "sources": [
+        "s10",
+        "s11"
+      ]
+    },
+    {
+      "about": "Group walking distance",
+      "a": "Quartermaster and NARA give about 85 miles; association and Lowery give 78 miles.",
+      "b": "Truthan calculates about 74 miles along a simplified mapped route. Distances from bailout, wreck, inferred trail and actual dune walking are not interchangeable.",
+      "sources": [
+        "s7",
+        "s3",
+        "s24",
+        "s19",
+        "s10"
+      ]
+    },
+    {
+      "about": "Shelley and Ripslinger relative locations",
+      "a": "Quartermaster history and NARA place Shelley 21 miles beyond the five, then Ripslinger another 26 miles north.",
+      "b": "Published recovery coordinates instead put Ripslinger south of Shelley. Lowery gives Ripslinger about 26 miles beyond the five and Shelley 11.5 farther; Truthan reports about 27.46 and 9.96. The institutional distance paragraph is unsuitable for plotting.",
+      "sources": [
+        "s7",
+        "s3",
+        "s19",
+        "s10"
+      ]
+    },
+    {
+      "about": "Maximum reported distance",
+      "a": "Lowery reports 115.5 miles from bailout for Shelley.",
+      "b": "Smithsonian gives 111 miles; other accounts use different start points or simplified trails. No exact total walked distance is known.",
+      "sources": [
+        "s19",
+        "s20",
+        "s10"
+      ]
+    },
+    {
+      "about": "Uncrewed turning direction",
+      "a": "Holder describes a leftward sweeping arc expected by experienced pilots.",
+      "b": "Truthan models a right turn for assumed trim and wind. Neither is recorded telemetry; trim at abandonment is unknown.",
+      "sources": [
+        "s9",
+        "s12"
+      ]
+    },
+    {
+      "about": "Water aboard the wreck",
+      "a": "Holder says the investigation found no water jugs and records a thermos partly full of coffee.",
+      "b": "Later accounts describe water and food aboard; Davis says early visitors found canteens in raft compartments. Items removed before inspection and container terminology could matter. No inventory quantity is accepted.",
+      "sources": [
+        "s9",
+        "s3",
+        "s20",
+        "s23"
+      ]
+    },
+    {
+      "about": "Loss in the Mediterranean",
+      "a": "Wartime searches initially treated the missing bomber as likely lost at sea.",
+      "b": "The recovered inland wreck and diaries disprove that endpoint. It is a rejected historical assumption, not an equally supported current theory.",
+      "sources": [
+        "s3",
+        "s7"
+      ]
+    }
+  ],
+  "unknowns": [
+    "Exact UTC accident date/time. Crew dating places bailout in the early hours of 5 April, but their clock zone was not established. Depending on that zone the UTC date could be 4 or 5 April. date_utc is therefore null; the mission began on 4 April UTC.",
+    "Time convention: only explicitly labelled GMT in the primary group report is normalized to UTC (same historical civil time reference for this use). Unlabelled local clocks, diary times and day-only discoveries are not converted or padded with midnight timestamps. Null event times retain the date in detail and narrative order.",
+    "No flight recorder, cockpit voice recorder, radar, ADS-B, ACARS or satellite-log time series was found or expected for this 1943 bomber. The nine main track stages are not a sampled trajectory and must not be interpolated as measured flight.",
+    "Full 17 November 1959 and 20 June 1960 Quartermaster reports, appendices, original field notebooks and survey maps were not retrieved. Their existence, dates and authors were checked in the opened bibliography; conclusions used here are explicitly mediated through later accounts.",
+    "The brief attribution to Graham Barlow could not be substantiated. The opened Quartermaster bibliography names Myron C. Fuller Jr. and Wesley A. Neep for both reports.",
+    "No Hatton survival diary was located. The journals found and checked belong to copilot Toner and engineer Ripslinger. Woravka’s reported notebook is a separate item; no complete primary scan was obtained.",
+    "Original navigator W6 sheet, all outbound positions and original ground radio logs were not obtained. The 20:52/140-degree entry is Martinez’s report of the sheet, not a newly read instrument record.",
+    "Exact Italian turning point, bomb-release location, approach to the Libyan coast and inland flight course. A city or airfield center must not be used as proof the aircraft crossed that exact coordinate.",
+    "Exact number, wording, order, timestamps, frequencies and receipt of Benina, Soluch and Benghazi radio calls. No verbatim radio quotation is supplied from retrospective recollection.",
+    "Whether direction-finder malfunction, a reciprocal interpretation, ground non-response or several failures best explain continuing inland. A 330-degree bearing is not itself an aircraft heading or a two-dimensional fix.",
+    "True versus magnetic reference for reported 140/150/330-degree values. No numerical declination correction has been applied.",
+    "Individual aircraft altitude, airspeed, groundspeed, attitude, vertical speed, angle of attack and fuel quantities throughout the mission and descent. Group 23,500–25,000-foot bombing altitudes are not assigned to this aircraft.",
+    "Actual trim, engine shutdown times, autopilot state, bailout sequence and instantaneous aircraft position for each jump. Final engine-control settings cannot establish when an engine stopped.",
+    "Exact impact point versus final resting point, crash elevation and vertical terrain profile. The approximately 700-yard skid is reported, not a mapped polyline with endpoints.",
+    "A modern surveyed wreck coordinate. The old astro-fix and later satellite-footprint interpretation differ. Wreckage was removed in 1994; its exact storage position and condition in November 2026 were not verified.",
+    "Exact Soluch takeoff-strip center, threshold and elevation. The route uses a historical landing-ground vicinity from a secondary airfield study, not modern Benina coordinates or its airport codes.",
+    "Precise Naples aimpoint, full authorized flight plan, turnpoints and diversion instructions; no geographic waypoint positions were invented.",
+    "Measured cloud base/top/coverage, winds aloft, pressure, visibility, precipitation, turbulence, lightning and temperature along the flight. Absence of a report is not zero wind, clear sky or no precipitation.",
+    "Lunar phase, elevation and illumination at bailout were not verified; no full-moon or moonless-night claim is made. Later simulator wind inputs and climatology are not observations for 5 April 1943.",
+    "Exact walking line, daily positions and construction times for trail arrows. All seven plotted arrow positions come from Truthan’s model, not surveyed military fixes. Do not attach aircraft altitude or speed to this ground trail.",
+    "Exact total walking distances, local dune detours, whether later recoveries shifted from the death positions, and precise times when individuals died. Diaries establish minimum survival, not a common death time.",
+    "Moore’s remains and grave location. The approximate 28 N, 23 E proposal is not a confirmed discovery or identification; no accepted recovery was found in the 2024–2026 search.",
+    "Cause, date and operational importance of the reported projectile fragment. Full laboratory documentation and a matching combat encounter were not located.",
+    "Exact quantity of drinkable water and usable supplies left aboard at abandonment, and whether the crew could have found the wreck, used its radio or reached an oasis. Such survival outcomes are counterfactual, not established findings.",
+    "Airframe fuselage diameter, numerical wing sweep definition, exact April 1943 underside color and paint standard were not verified. They remain null or explicitly qualified rather than estimated from generic model dimensions.",
+    "No specific post-accident safety regulation demonstrably caused by this loss was found. Materials research and its use as a navigation/survival teaching case are documented; claimed rule changes without a primary record are omitted.",
+    "2024–2026 update search: the opened December 2024 PBS documentary and July 2026 retrospective supplied no verified new recovery, DNA identification or official finding. This is a bounded search result, not a guarantee that no unpublished development exists.",
+    "Access limits: current USAF Museum pages and the Air University journal PDF returned 403; the Army museum host failed to resolve. Relevant archival images, AFHRA scans, a complete archived Air University article and archived Quartermaster pages were opened instead. Failed URLs are not counted as opened sources."
+  ],
+  "memorial_note": "Nine USAAF crew members left Soluch on this mission; this reconstruction remembers their lives and their families’ long wait for answers.",
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Mission 109 telegraphic summary, confirmation dated 5 April 1943",
+      "publisher": "376th Bombardment Group, Group S-2; AFHRA B0354 frame 1735; scan hosted by veterans association",
+      "year": 1943,
+      "url": "https://www.armyaircorps-376bg.com/images/1943_04_04_B0354_1735_mission_109_report.jpg",
+      "type": "military_record",
+      "opened": true,
+      "notes": "Downloaded and visually read. Primary document. GMT is explicit. Gives group departure 1150 GMT, group bombing 1735–1745 GMT at 23,500–25,000 feet, and summary transmission 0200 GMT on 5 April. These are NOT individual Lady Be Good fixes. Names aircraft 64 as unaccounted for. Local visual transcription retained in research/mission-report-excerpts.txt. Opened 2026-11-07."
+    },
+    {
+      "id": "s2",
+      "title": "April 1943 statistical summary of missions; Mission 109 row",
+      "publisher": "376th Bombardment Group; AFHRA B0354 frame 0936; scan hosted by veterans association",
+      "year": 1943,
+      "url": "https://www.armyaircorps-376bg.com/images/x1943_04_32_B0354_0936_mission_107_119.jpg.pagespeed.ic.p0TJsXjE9u.jpg",
+      "type": "military_record",
+      "opened": true,
+      "notes": "Downloaded and visually read. Mission 109 row gives takeoff 14:50 without a visible time-zone designation, 27 sorties initiated and 17 completed. The unlike group counts and clock readings are preserved in conflicts. Opened 2026-11-07."
+    },
+    {
+      "id": "s3",
+      "title": "Lost and Found: The Story of Lady Be Good and Her Crew",
+      "publisher": "U.S. National Archives, Kaitlyn Crain Enriquez",
+      "year": 2017,
+      "url": "https://unwritten-record.blogs.archives.gov/2017/06/16/lost-and-found-the-story-of-lady-be-good-and-her-crew/",
+      "type": "military_record",
+      "opened": true,
+      "notes": "Full article and embedded official photograph captions read; photographs downloaded where used. Government archival narrative, not the original investigation report. Important errors in the Shelley/Ripslinger distance paragraph are retained in conflicts. Captions identify underlying records in Record Groups 342, 111 and 330. Opened 2026-11-07."
+    },
+    {
+      "id": "s4",
+      "title": "Photograph of copilot Toner diary, 4–9 April 1943; 342-B-ND-075-4-163133AC",
+      "publisher": "U.S. National Archives, Still Pictures Division",
+      "year": 1943,
+      "url": "https://unwritten-record.blogs.archives.gov/wp-content/uploads/sites/6/2017/06/342-b-nd-075-4-163133ac-box-1474-scaled.jpg",
+      "type": "contemporary_record",
+      "opened": true,
+      "notes": "Original handwriting in official archival photograph downloaded and visually read. Six daily spaces, including bailout, walking routine, dunes and separation. These are personal observations, not aircraft recorder or meteorological measurements. Opened 2026-11-07."
+    },
+    {
+      "id": "s5",
+      "title": "Photograph of copilot Toner diary, 10–15 April 1943; 342-B-ND-075-4-163134AC",
+      "publisher": "U.S. National Archives, Still Pictures Division",
+      "year": 1943,
+      "url": "https://unwritten-record.blogs.archives.gov/wp-content/uploads/sites/6/2017/06/342-b-nd-075-4-163134ac-box-1474-scaled.jpg",
+      "type": "contemporary_record",
+      "opened": true,
+      "notes": "Downloaded and visually read. Entries through Monday 12 April; subsequent dated spaces shown are blank. An empty space does not establish a time of death. Opened 2026-11-07."
+    },
+    {
+      "id": "s6",
+      "title": "The Diaries: Toner and Ripslinger",
+      "publisher": "LadyBeGood.net, independent historical repository",
+      "year": null,
+      "url": "https://www.ladybegood.net/diaries/index.htm",
+      "type": "contemporary_record",
+      "opened": true,
+      "notes": "Read both transcriptions and inspected linked Ripslinger journal photograph at /diaries/full/Ripslinger_Diary.jpg. Ripslinger first-Sunday takeoff/bailout entry was read in transcription; the linked photograph shows Monday through the following Sunday. Original journal dates are 1943; web publication date not established. Opened 2026-11-07."
+    },
+    {
+      "id": "s7",
+      "title": "Lady Be Good: Quartermaster Graves Registration Search and Recovery",
+      "publisher": "U.S. Army Quartermaster Foundation, museum history account",
+      "year": 2007,
+      "url": "https://web.archive.org/web/20100225093545/http://www.qmfound.com/lady_be_good_b-24_bomber_recovery.htm",
+      "type": "advocacy",
+      "opened": true,
+      "notes": "Full archived page read, including its quoted Graves Registration conclusion. Institutional historical summary, NOT the full 1959 or 1960 report. Live Foundation destinations failed or redirected to unrelated content, so the verified archive is cited. Contains erroneous relative locations of Shelley and Ripslinger; do not use those as mapping instructions. Opened 2026-11-07."
+    },
+    {
+      "id": "s8",
+      "title": "Lady Be Good References: Unpublished Documents",
+      "publisher": "U.S. Army Quartermaster Foundation",
+      "year": 2007,
+      "url": "https://web.archive.org/web/20091019061755/http://www.qmfound.com/Lady_Be_Good_References.htm",
+      "type": "advocacy",
+      "opened": true,
+      "notes": "Read bibliography. Identifies reports dated 17 November 1959 and 20 June 1960, both attributed to Captain Myron C. Fuller Jr. and Wesley A. Neep. Does not provide their full text. Opened 2026-11-07."
+    },
+    {
+      "id": "s9",
+      "title": "Epitaph to the Lady—30 Years After",
+      "publisher": "William G. Holder, Air University Review, March–April 1973",
+      "year": 1973,
+      "url": "https://web.archive.org/web/20170113172801id_/http://www.airpower.maxwell.af.mil/airchronicles/aureview/1973/mar-apr/holder.html",
+      "type": "military_record",
+      "opened": true,
+      "notes": "Full archived Air University HTML downloaded with curl and read. Original journal PDF URL returned 403. Historical analysis, explicitly carrying an author-opinion disclaimer, not a new official board finding. Covers engine controls, gear/flaps, skid, recovered projectile, materials tests and folklore. Some conclusions and names are erroneous or speculative. Archive returned HTTP 200 on retrieval; later requests were intermittently rate-limited. Opened 2026-11-07."
+    },
+    {
+      "id": "s10",
+      "title": "LBG Crash Area Map: Map Notes and Data Sources",
+      "publisher": "Ed Truthan, LadyBeGood.net",
+      "year": 2008,
+      "url": "https://ladybegood.net/maps/mapnotes.htm",
+      "type": "dataset",
+      "opened": true,
+      "notes": "Read coordinate provenance and uncertainty discussion. Secondary compilation from Martinez, McClendon and Fuller notes; original field sheets not independently inspected. Coordinates of remains are minute-resolution reports. Trail and rally positions are approximations. Opened 2026-11-07."
+    },
+    {
+      "id": "s11",
+      "title": "Lady Be Good 1.3.kmz",
+      "publisher": "Ed Truthan, LadyBeGood.net",
+      "year": 2011,
+      "url": "https://www.ladybegood.net/maps/Lady-Be-Good-1.3.kmz",
+      "type": "dataset",
+      "opened": true,
+      "notes": "Downloaded, unzipped and read doc.kml coordinates/descriptions. Published interpretive map, not a military survey. Arrow-marker positions below are modelled; dates are omitted unless documented separately. Decimal precision in the KML is not positional accuracy. Opened 2026-11-07."
+    },
+    {
+      "id": "s12",
+      "title": "LBG Flight Simulation Tests: A Virtual Inquiry",
+      "publisher": "Ed Truthan, LadyBeGood.net",
+      "year": 2011,
+      "url": "https://www.ladybegood.net/maps/simtests.htm",
+      "type": "dataset",
+      "opened": true,
+      "notes": "Full published hobby simulation read. Uses a Wings of Power B-24D in Microsoft Flight Simulator. Its altitude, speed, descent rate, wind and right-turn trajectory are hypotheses, not recovered flight data. Opened 2026-11-07."
+    },
+    {
+      "id": "s13",
+      "title": "Points of Focus: Blame it on the navigator?; Failure to Acknowledge; Mystery Projectile",
+      "publisher": "Mario Martinez, author of Lady’s Men",
+      "year": 2003,
+      "url": "https://web.archive.org/web/20030407145449/http://www.ladybegood.com/points.html",
+      "type": "advocacy",
+      "opened": true,
+      "notes": "Author’s own account read and downloaded. Cites 1985 interviews/letters, the return-course log entry and an unanswered Benghazi call. Underlying audio, original tower log and original navigator sheet were not obtained. A competing historical interpretation, not an official dissent. Opened 2026-11-07."
+    },
+    {
+      "id": "s14",
+      "title": "Are These the Remains of Vernon Moore?",
+      "publisher": "Mario Martinez",
+      "year": 2002,
+      "url": "https://web.archive.org/web/20030407132956/http://www.ladybegood.com:80/moore.html",
+      "type": "advocacy",
+      "opened": true,
+      "notes": "Full author account read. Describes 2001 contact about a 1953 British convoy burial and 2002 photographic assessment. Museum osteologist could not identify the person. Approximate 28 N, 23 E is Martinez’s hypothesis, not a grave fix. Opened 2026-11-07."
+    },
+    {
+      "id": "s15",
+      "title": "AN 01-5EC-1: Pilot’s Flight Operating Instructions, B-24D, RB-24C and RB-24E",
+      "publisher": "U.S. Army Air Forces, U.S. Navy Bureau of Aeronautics and British Air Council; scan hosted by Army Air Corps Museum",
+      "year": 1944,
+      "url": "https://www.armyaircorpsmuseum.org/docs/B24D-operating-manual.pdf",
+      "type": "military_record",
+      "opened": true,
+      "notes": "31.6 MB PDF downloaded with curl. pypdf found image-only pages; selected pages rendered and visually transcribed. Printed p.1/PDF p.5 gives dimensions and tricycle retractable gear; p.9/PDF p.13 gives R-1830-43 engines. Later revision of type manual, not evidence that every later fitting was on 41-24301 in April 1943. Opened 2026-11-07."
+    },
+    {
+      "id": "s16",
+      "title": "Luftwaffe Airfields 1935–45: Libya and Egypt",
+      "publisher": "Henry L. deZeng IV, hosted by Michael Holm",
+      "year": 2016,
+      "url": "https://www.ww2.dk/Airfields%20-%20Libya%20and%20Egypt.pdf",
+      "type": "book",
+      "opened": true,
+      "notes": "PDF downloaded with curl and text extracted with pypdf. Solluch entry, printed pp.117–118/PDF pp.119–120, gives 31 40 20 N, 20 14 35 E and cites AFHRA A5263 p.158. Secondary synthesis. This is a historical landing-ground vicinity, not a verified takeoff point for aircraft 64. Opened 2026-11-07."
+    },
+    {
+      "id": "s17",
+      "title": "B-24 Lady Be Good Mission",
+      "publisher": "Joseph Portney, Institute of Navigation proceedings",
+      "year": 2000,
+      "url": "https://www.ion.org/publications/abstract.cfm?articleID=781",
+      "type": "book",
+      "opened": true,
+      "notes": "Publisher abstract and bibliographic record opened; full pp.316–318 require a download credit and were not read. Abstract argues reciprocal-bearing error and missing return dead-reckoning entries. Used only for the stated interpretation, not for unseen data. Opened 2026-11-07."
+    },
+    {
+      "id": "s18",
+      "title": "The Lady Be Good: A Case Study in Radio Frequency Direction Finding",
+      "publisher": "Gregory A. DiLisi, Alison Chaney, Kenneth Kane and Robert A. Leskovec, The Physics Teacher 59, March 2021",
+      "year": 2021,
+      "url": "https://artefacts-discovery.researcher.life/full_text/DA-2/81/81fa703e2e8831009b2fcb6ee9af522f/full_text/fb674270e6eeefaa84a129c04f7ce4e3.pdf",
+      "type": "peer_reviewed",
+      "opened": true,
+      "notes": "PDF downloaded and text extracted. Read article pp.172–176 and appended supplement. A classroom direction-finding experiment with historical discussion, NOT a re-investigation with new aircraft telemetry. Its 14:15 departure and simplified radio explanation should not override primary records. Opened 2026-11-07."
+    },
+    {
+      "id": "s19",
+      "title": "Lady Be Good",
+      "publisher": "John Lowery, Air Force Magazine, February 2014, pp.70–75",
+      "year": 2014,
+      "url": "https://www.airandspaceforces.com/MagazineArchive/Documents/2014/February%202014/0214lady.pdf",
+      "type": "news",
+      "opened": true,
+      "notes": "PDF downloaded with curl; text extracted with pypdf and read. Secondary account used for recovery dates and conflicting distances, not as a meteorological observation or official report. Opened 2026-11-07."
+    },
+    {
+      "id": "s20",
+      "title": "Case Closed: The Lady That Didn’t Come Home",
+      "publisher": "Paul Hoversten, Air & Space Magazine / Smithsonian",
+      "year": 2010,
+      "url": "https://www.smithsonianmag.com/air-space-magazine/case-closed-2267596/",
+      "type": "news",
+      "opened": true,
+      "notes": "Relevant section read in full through the web reader; direct curl returned 403. Gives Martinez’s alternative to sole navigator blame, May 1958 discovery, and 111-mile last-walker estimate. Counterfactual survival statements are opinions. Opened 2026-11-07."
+    },
+    {
+      "id": "s21",
+      "title": "Lady Be Good",
+      "publisher": "Delta College Public Media / PBS",
+      "year": 2024,
+      "url": "https://www.pbs.org/video/lady-be-good-sl4ddt/",
+      "type": "news",
+      "opened": true,
+      "notes": "Published 18 December 2024; full web transcript read. Later documentary, not a new official investigation. Gives February 12 receipt of a discovery message; this need not contradict discovery on February 11. Contains folklore and transcript errors; no new verified recovery established. Opened 2026-11-07."
+    },
+    {
+      "id": "s22",
+      "title": "The Bomber the Desert Kept for 15 Years / Lady Be Good: The B-24 Lost in the Libyan Desert",
+      "publisher": "Tamika Johnson, MiGFlug Afterburner",
+      "year": 2026,
+      "url": "https://migflug.com/afterburner/lady-be-good-b-24-libyan-desert/",
+      "type": "news",
+      "opened": true,
+      "notes": "6 July 2026 retrospective read, including recovery and memorial sections. Examined for 2024–2026 developments; it reports established history rather than a new recovery or official finding. Opened 2026-11-07."
+    },
+    {
+      "id": "s23",
+      "title": "Lady Be Good—Day 1, April 5, 1943",
+      "publisher": "Richard Davis Photography",
+      "year": 2014,
+      "url": "https://www.richarddavisphotography.com/lady-be-good-day-1-april-5-1943/",
+      "type": "contemporary_record",
+      "opened": true,
+      "notes": "Full page read, including historical photos and later visitor observations. Later visitor’s personal publication; 1943/1959 narrative is secondary, based partly on Martinez. Used cautiously for paint, markings and supplies disagreement. Opened 2026-11-07."
+    },
+    {
+      "id": "s24",
+      "title": "Lady Be Good, serial 41-24301",
+      "publisher": "376th Heavy Bombardment Group Veterans Association; James Walker account",
+      "year": null,
+      "url": "https://www.armyaircorps-376bg.com/41-24301_lady_be_good.html",
+      "type": "military_record",
+      "opened": true,
+      "notes": "Page and aircraft photographs opened. Historical association account, not an individual aircraft accident report. Provides serial, unit, tactical number and materials-study context. Conflicting arrival date and group strength are not treated as settled. Opened 2026-11-07."
+    }
+  ]
+}

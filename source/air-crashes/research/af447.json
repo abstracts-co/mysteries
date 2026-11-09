@@ -1,0 +1,3257 @@
+{
+  "id": "af447",
+  "title": "Air France Flight 447",
+  "date_utc": "2009-06-01",
+  "one_line": "Unreliable airspeed in cruise was followed by loss of control, a sustained stall, and impact in the Atlantic.",
+  "status": "explained",
+  "status_why": "Recovered recorders establish the loss-of-control and stall sequence, while the allocation of corporate legal responsibility remains contested.",
+  "aircraft": {
+    "type": "Airbus A330-203",
+    "registration": "F-GZCP",
+    "operator": "Air France",
+    "length_m": 58.82,
+    "wingspan_m": 60.3,
+    "height_m": 17.39,
+    "fuselage_diameter_m": 5.64,
+    "engines": 2,
+    "engine_type": "General Electric CF6-80E1A3 turbofans",
+    "engine_mount": "wing",
+    "wing": "low",
+    "wing_sweep_deg": null,
+    "tail": "conventional",
+    "gear": "retractable",
+    "livery_notes": "The 2 May 2009 photograph of this airframe shows a white fuselage, dark blue AIR FRANCE titles, and diagonal blue, white and red tail stripes. This is the nearest dated photograph inspected; accident-day paint details were not independently established (s14).",
+    "sources": [
+      "s1",
+      "s7",
+      "s14"
+    ]
+  },
+  "people": {
+    "aboard": 228,
+    "crew": 12,
+    "passengers": 216,
+    "died": 228,
+    "survived": 0,
+    "sources": [
+      "s1"
+    ]
+  },
+  "route": {
+    "from": {
+      "name": "Rio de Janeiro Galeão – Tom Jobim International Airport",
+      "code": "GIG / SBGL",
+      "lat": -22.809999,
+      "lon": -43.250557,
+      "elev_ft": 28
+    },
+    "to": {
+      "name": "Paris Charles de Gaulle Airport",
+      "code": "CDG / LFPG",
+      "lat": 49.00896,
+      "lon": 2.554117,
+      "elev_ft": 392
+    },
+    "planned_waypoints": [
+      {
+        "name": "AWAKE",
+        "lat": null,
+        "lon": null
+      },
+      {
+        "name": "FLIRT",
+        "lat": null,
+        "lon": null
+      },
+      {
+        "name": "NTL",
+        "lat": null,
+        "lon": null
+      },
+      {
+        "name": "INTOL",
+        "lat": null,
+        "lon": null
+      },
+      {
+        "name": "SALPU",
+        "lat": null,
+        "lon": null
+      },
+      {
+        "name": "ORARO",
+        "lat": null,
+        "lon": null
+      },
+      {
+        "name": "ISOKA",
+        "lat": null,
+        "lon": null
+      },
+      {
+        "name": "LIMAL",
+        "lat": null,
+        "lon": null
+      },
+      {
+        "name": "SAMAR",
+        "lat": null,
+        "lon": null
+      },
+      {
+        "name": "BAROK",
+        "lat": null,
+        "lon": null
+      },
+      {
+        "name": "PORTA",
+        "lat": null,
+        "lon": null
+      },
+      {
+        "name": "MOKOR",
+        "lat": null,
+        "lon": null
+      },
+      {
+        "name": "NTS",
+        "lat": null,
+        "lon": null
+      },
+      {
+        "name": "KEPER",
+        "lat": null,
+        "lon": null
+      },
+      {
+        "name": "ROMLO",
+        "lat": null,
+        "lon": null
+      }
+    ],
+    "sources": [
+      "s1",
+      "s5",
+      "s8"
+    ]
+  },
+  "site": {
+    "lat": 3.06583333,
+    "lon": -30.56166667,
+    "elev_ft": null,
+    "depth_m": 3900,
+    "precision": "approximate",
+    "surface": "ocean",
+    "description": "BEA synopsis reference 3°03′57″ N, 30°33′42″ W, converted by degrees + minutes/60 + seconds/3600. This locates the accident/wreckage area, not a proven exact sea-surface impact coordinate. Wreckage lay on a clay-sediment abyssal plain about 15 km wide, east of the Mid-Atlantic Ridge, about 6.5 NM on radial 019 from the last transmitted position. Surrounding seabed relief ranged roughly from 700 to 4,300 m depth (s1, synopsis and section 1.12.1, pp.64–66).",
+    "sources": [
+      "s1",
+      "s6"
+    ]
+  },
+  "terrain_box": null,
+  "environment": [
+    {
+      "t_utc": "2009-06-01T00:00Z",
+      "lat": null,
+      "lon": null,
+      "place": "Equatorial Atlantic, regional analysis",
+      "wind_dir_deg": null,
+      "wind_kt": null,
+      "temp_c": null,
+      "visibility_km": null,
+      "precip": null,
+      "turbulence": null,
+      "lightning": null,
+      "sea_state": null,
+      "wave_height_m": null,
+      "cloud_layers": [],
+      "light": "night",
+      "moon_note": null,
+      "notes": "Météo-France ARPEGE analysis, appendix 1 sections 1.1–1.4 pp.76–78: regional winds below FL180 were easterly to southeasterly and less than 20 kt; above FL180 northerly and less than 20 kt between 10° S and 10° N. These are regional model-analysis bounds, not an exact wind vector at the aircraft. Tropopause about FL520 and -80 °C. No local surface sea-state observation is established.",
+      "quality": "reported",
+      "sources": [
+        "s5"
+      ]
+    },
+    {
+      "t_utc": "2009-06-01T00:09:14Z",
+      "lat": null,
+      "lon": null,
+      "place": "Aircraft in cruise",
+      "wind_dir_deg": null,
+      "wind_kt": null,
+      "temp_c": -43.5,
+      "visibility_km": null,
+      "precip": null,
+      "turbulence": null,
+      "lightning": null,
+      "sea_state": null,
+      "wave_height_m": null,
+      "cloud_layers": [],
+      "light": "night",
+      "moon_note": null,
+      "notes": "Appendix 2 p.1 initial-state table. Static air temperature, pressure altitude 34,992 ft. No coordinate pair is printed in this table.",
+      "quality": "recorded",
+      "sources": [
+        "s2"
+      ]
+    },
+    {
+      "t_utc": "2009-06-01T02:07Z",
+      "lat": null,
+      "lon": null,
+      "place": "Convective cluster on the planned oceanic route",
+      "wind_dir_deg": null,
+      "wind_kt": null,
+      "temp_c": null,
+      "visibility_km": null,
+      "precip": "High-altitude cloud contained ice; particle size, concentration and liquid-water fraction along AF447’s precise path were not measured.",
+      "turbulence": "The satellite analysis supports possible marked turbulence within the cluster; it does not measure what AF447 encountered.",
+      "lightning": null,
+      "sea_state": null,
+      "wave_height_m": null,
+      "cloud_layers": [
+        {
+          "type": "Cumulonimbus cluster and spreading anvils",
+          "base_ft": null,
+          "top_ft": null,
+          "coverage": "Heterogeneous cluster; no measured oktas along the flight path.",
+          "top_pressure_alt_ft_range": [
+            50000,
+            52000
+          ]
+        }
+      ],
+      "light": "night",
+      "moon_note": null,
+      "notes": "Météo-France appendix 1 section 2.3 pp.83–91: cloud-top infrared temperatures about -75 to -80 °C; some tops near the tropopause, around FL500–FL520. The roughly 400 km-wide cluster formed by merger of four clusters. Satellite images cannot resolve conditions at cruise level. Forecast TEMSI tops FL450 (s1 p.46) describe a forecast, not the same measurement; cloud base and true-MSL top are unknown.",
+      "quality": "reported",
+      "sources": [
+        "s5",
+        "s1"
+      ]
+    },
+    {
+      "t_utc": "2009-06-01T02:10:00Z",
+      "lat": null,
+      "lon": null,
+      "place": "Aircraft just before autopilot disconnection",
+      "wind_dir_deg": null,
+      "wind_kt": null,
+      "temp_c": -38.8,
+      "visibility_km": null,
+      "precip": null,
+      "turbulence": "FDR normal-acceleration variation reached a maximum of about 0.5 g peak-to-peak in the 02:07–02:10 interval.",
+      "lightning": null,
+      "sea_state": null,
+      "wave_height_m": null,
+      "cloud_layers": [],
+      "light": "night",
+      "moon_note": null,
+      "notes": "Static temperature: s2 p.1. Turbulence interval: s1 section 1.11.2, figure 24 p.58. No numeric wind direction or wind speed is transcribed from the recorder here. The BEA simulation used a 15 kt headwind component consistent with recorded wind, but that component is not a full wind-vector observation (s1 p.91).",
+      "quality": "recorded",
+      "sources": [
+        "s2",
+        "s1"
+      ]
+    },
+    {
+      "t_utc": "2009-06-01T02:14:28.4Z",
+      "lat": null,
+      "lon": null,
+      "place": "Last recorded aircraft sample near the sea",
+      "wind_dir_deg": null,
+      "wind_kt": null,
+      "temp_c": 24.3,
+      "visibility_km": null,
+      "precip": null,
+      "turbulence": null,
+      "lightning": null,
+      "sea_state": null,
+      "wave_height_m": null,
+      "cloud_layers": [],
+      "light": "night",
+      "moon_note": null,
+      "notes": "Appendix 2 p.9 last-values table: static temperature 24.3 °C and radio altitude 71 ft. This is a last recorded value, not an independent sea-surface weather observation. Visibility, waves, moon visibility, precipitation at sea level and surface wind remain unknown.",
+      "quality": "recorded",
+      "sources": [
+        "s2"
+      ]
+    },
+    {
+      "t_utc": "2009-06-01T02:30Z",
+      "lat": null,
+      "lon": null,
+      "place": "Accident region after the flight",
+      "wind_dir_deg": null,
+      "wind_kt": null,
+      "temp_c": null,
+      "visibility_km": null,
+      "precip": null,
+      "turbulence": null,
+      "lightning": null,
+      "sea_state": null,
+      "wave_height_m": null,
+      "cloud_layers": [],
+      "light": "night",
+      "moon_note": null,
+      "notes": "TRMM lightning imager indicated no lightning in the accident zone at 02:30 (s1 section 1.7.3 p.47). This later satellite pass does not establish the presence or absence of lightning at 02:10. lightning therefore remains null.",
+      "quality": "reported",
+      "sources": [
+        "s1"
+      ]
+    }
+  ],
+  "track": [
+    {
+      "t_utc": "2009-06-01T00:09:14Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": 275,
+      "gs_kt": 481,
+      "mach": 0.8,
+      "hdg_deg": 47,
+      "vs_fpm": null,
+      "pitch_deg": 2.8,
+      "roll_deg": -0.4,
+      "aoa_deg": 2.8,
+      "flap": 0,
+      "gear": "up",
+      "engine_note": "N1 engine 1 / engine 2: 98% / 98%.",
+      "quality": "recorded",
+      "method": "Transcribed from explicit FDR chronology values; no interpolation. Altitude, where supplied, is in pressure_alt_ft, not MSL.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2, p.1",
+      "pressure_alt_ft": 34992,
+      "radio_alt_ft": null,
+      "isis_cas_kt": null,
+      "airspeed_status": "normal cruise display",
+      "aoa_channels_deg": [
+        2.5,
+        2.8,
+        2.8
+      ]
+    },
+    {
+      "t_utc": "2009-06-01T02:10:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": 282,
+      "gs_kt": 468,
+      "mach": 0.82,
+      "hdg_deg": 35.5,
+      "vs_fpm": null,
+      "pitch_deg": 1.8,
+      "roll_deg": -1.8,
+      "aoa_deg": 3.2,
+      "flap": 0,
+      "gear": "up",
+      "engine_note": "N1 engine 1 / engine 2: 100.4% / 99.8%.",
+      "quality": "recorded",
+      "method": "Transcribed from explicit FDR chronology values; no interpolation. Altitude, where supplied, is in pressure_alt_ft, not MSL.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2, p.1",
+      "pressure_alt_ft": 35044,
+      "radio_alt_ft": null,
+      "isis_cas_kt": null,
+      "airspeed_status": "before abrupt air-data failure",
+      "aoa_channels_deg": [
+        2.1,
+        3.2,
+        3.2
+      ]
+    },
+    {
+      "t_utc": "2009-06-01T02:10Z",
+      "lat": 2.98,
+      "lon": -30.59,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "radar",
+      "method": "FM position carried in ACARS, minute tag 0210; coordinate precision only 0.01 degree. The message was received at 02:10:34, not necessarily sampled then. Exact sampling second is unknown.",
+      "sources": [
+        "s4",
+        "s5"
+      ],
+      "locator": "First interim report section 1.16.2.2 and raw ACARS payload #0210/+2.98-30.59; French report pp.48–49",
+      "pressure_alt_ft": null,
+      "radio_alt_ft": null,
+      "isis_cas_kt": null,
+      "airspeed_status": null,
+      "t_precision": "minute",
+      "received_at_utc": "2009-06-01T02:10:34Z"
+    },
+    {
+      "t_utc": "2009-06-01T02:10:05Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": 0,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "Autopilot 2 disengages; this row does not specify an instantaneous N1 value.",
+      "quality": "recorded",
+      "method": "Transcribed from explicit FDR chronology values; no interpolation. Altitude, where supplied, is in pressure_alt_ft, not MSL.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2, p.2",
+      "pressure_alt_ft": 35024,
+      "radio_alt_ft": null,
+      "isis_cas_kt": null,
+      "airspeed_status": null
+    },
+    {
+      "t_utc": "2009-06-01T02:10:07Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": 8.4,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "derived",
+      "method": "Endpoint time calculated as 02:10:05 plus the stated two-second roll change from 0° to 8.4°, while the sidestick was neutral. Angle is recorded; endpoint timestamp is derived from the published duration.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2, p.2",
+      "pressure_alt_ft": null,
+      "radio_alt_ft": null,
+      "isis_cas_kt": null,
+      "airspeed_status": null
+    },
+    {
+      "t_utc": "2009-06-01T02:10:08Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": 0.26,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "Autothrust disengages; THR LK activates. N1 about 83%.",
+      "quality": "recorded",
+      "method": "Mach endpoint in the change 0.80 to 0.26 listed at 02:10:08; intra-second timing is not specified. Do not use as true Mach.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2, p.2",
+      "pressure_alt_ft": null,
+      "radio_alt_ft": null,
+      "isis_cas_kt": null,
+      "airspeed_status": "erroneous air data during Pitot obstruction"
+    },
+    {
+      "t_utc": "2009-06-01T02:10:09Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": 52,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "recorded",
+      "method": "Standard-pressure altitude 34,664 ft; separate ISIS pressure altitude 34,900 ft. Air-data-induced pressure-altitude error must not be animated as a true sudden drop. See s1 section 1.6.9.6.3.",
+      "sources": [
+        "s2",
+        "s1"
+      ],
+      "locator": "Appendix 2, p.2",
+      "pressure_alt_ft": 34664,
+      "radio_alt_ft": null,
+      "isis_cas_kt": 270,
+      "airspeed_status": "erroneous PFD speed; ISIS temporarily near 270 kt",
+      "isis_pressure_alt_ft": 34900
+    },
+    {
+      "t_utc": "2009-06-01T02:10:10Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": 4.9,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "recorded",
+      "method": "Transcribed from explicit FDR chronology values; no interpolation. Altitude, where supplied, is in pressure_alt_ft, not MSL.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2, p.2",
+      "pressure_alt_ft": null,
+      "radio_alt_ft": null,
+      "isis_cas_kt": null,
+      "airspeed_status": null,
+      "aoa_channels_deg": [
+        2.1,
+        4.9,
+        5.3
+      ]
+    },
+    {
+      "t_utc": "2009-06-01T02:10:11Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "recorded",
+      "method": "Local minimum of recorded pressure altitude; this is not proof of true geometric altitude loss during the air-data disturbance.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2, p.3",
+      "pressure_alt_ft": 34636,
+      "radio_alt_ft": null,
+      "isis_cas_kt": null,
+      "airspeed_status": null
+    },
+    {
+      "t_utc": "2009-06-01T02:10:12Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": 55,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "recorded",
+      "method": "Transcribed from explicit FDR chronology values; no interpolation. Altitude, where supplied, is in pressure_alt_ft, not MSL.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2, p.3",
+      "pressure_alt_ft": null,
+      "radio_alt_ft": null,
+      "isis_cas_kt": null,
+      "airspeed_status": "erroneous air data"
+    },
+    {
+      "t_utc": "2009-06-01T02:10:13Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": 4.6,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "recorded",
+      "method": "Transcribed from explicit FDR chronology values; no interpolation. Altitude, where supplied, is in pressure_alt_ft, not MSL.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2, p.3",
+      "pressure_alt_ft": null,
+      "radio_alt_ft": null,
+      "isis_cas_kt": null,
+      "airspeed_status": null,
+      "aoa_channels_deg": [
+        2.1,
+        4.6,
+        4.9
+      ]
+    },
+    {
+      "t_utc": "2009-06-01T02:10:17Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": 80,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "recorded",
+      "method": "Transcribed from explicit FDR chronology values; no interpolation. Altitude, where supplied, is in pressure_alt_ft, not MSL.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2, p.3",
+      "pressure_alt_ft": 34976,
+      "radio_alt_ft": null,
+      "isis_cas_kt": 92,
+      "airspeed_status": "erroneous air data"
+    },
+    {
+      "t_utc": "2009-06-01T02:10:18Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": 5200,
+      "pitch_deg": 11,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "recorded",
+      "method": "Endpoint of the 02:10:07–02:10:18 interval: pitch rises to 11° and vertical speed to 5,200 ft/min. Published interval endpoint, not a digitized graph sample.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2, p.2",
+      "pressure_alt_ft": null,
+      "radio_alt_ft": null,
+      "isis_cas_kt": null,
+      "airspeed_status": null
+    },
+    {
+      "t_utc": "2009-06-01T02:10:21Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": 93,
+      "gs_kt": null,
+      "mach": 0.29,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "recorded",
+      "method": "Transcribed from explicit FDR chronology values; no interpolation. Altitude, where supplied, is in pressure_alt_ft, not MSL.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2, p.3",
+      "pressure_alt_ft": null,
+      "radio_alt_ft": null,
+      "isis_cas_kt": 83,
+      "airspeed_status": "erroneous air data"
+    },
+    {
+      "t_utc": "2009-06-01T02:10:25Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "recorded",
+      "method": "Transcribed from explicit FDR chronology values; no interpolation. Altitude, where supplied, is in pressure_alt_ft, not MSL.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2, p.3",
+      "pressure_alt_ft": 35856,
+      "radio_alt_ft": null,
+      "isis_cas_kt": null,
+      "airspeed_status": null
+    },
+    {
+      "t_utc": "2009-06-01T02:10:26Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": 6900,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "recorded",
+      "method": "Transcribed from explicit FDR chronology values; no interpolation. Altitude, where supplied, is in pressure_alt_ft, not MSL.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2, p.3",
+      "pressure_alt_ft": null,
+      "radio_alt_ft": null,
+      "isis_cas_kt": null,
+      "airspeed_status": null
+    },
+    {
+      "t_utc": "2009-06-01T02:10:36Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": 223,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "recorded",
+      "method": "Altitude from appendix row at 02:10:36. CAS has completed the 105 to 223 kt change listed at 02:10:34 over two seconds; s1 p.22 identifies 02:10:36 as the return to validity.",
+      "sources": [
+        "s2",
+        "s1"
+      ],
+      "locator": "Appendix 2, p.3",
+      "pressure_alt_ft": 37124,
+      "radio_alt_ft": null,
+      "isis_cas_kt": null,
+      "airspeed_status": "PFD speed has recovered; ISIS still erroneous"
+    },
+    {
+      "t_utc": "2009-06-01T02:10:42Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": 1900,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "recorded",
+      "method": "Actual vertical speed 1,900 ft/min. The same row’s selected 1,300 ft/min and selected 36° heading are commands, not aircraft motion, and are not entered as actual values.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2, p.3",
+      "pressure_alt_ft": null,
+      "radio_alt_ft": null,
+      "isis_cas_kt": null,
+      "airspeed_status": null
+    },
+    {
+      "t_utc": "2009-06-01T02:10:47Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": 1500,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "Thrust levers pulled back toward 33°; N1 decreases toward 85% over four seconds.",
+      "quality": "recorded",
+      "method": "Transcribed from explicit FDR chronology values; no interpolation. Altitude, where supplied, is in pressure_alt_ft, not MSL.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2, p.4",
+      "pressure_alt_ft": null,
+      "radio_alt_ft": null,
+      "isis_cas_kt": null,
+      "airspeed_status": null
+    },
+    {
+      "t_utc": "2009-06-01T02:10:49Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": 216,
+      "gs_kt": null,
+      "mach": 0.68,
+      "hdg_deg": null,
+      "vs_fpm": 1100,
+      "pitch_deg": 5.6,
+      "roll_deg": -0.4,
+      "aoa_deg": 4.6,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "recorded",
+      "method": "Transcribed from explicit FDR chronology values; no interpolation. Altitude, where supplied, is in pressure_alt_ft, not MSL.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2, p.4",
+      "pressure_alt_ft": 37512,
+      "radio_alt_ft": null,
+      "isis_cas_kt": 121,
+      "airspeed_status": "PFD recovered; ISIS still erroneous",
+      "aoa_channels_deg": [
+        2.1,
+        4.6,
+        4.9
+      ]
+    },
+    {
+      "t_utc": "2009-06-01T02:10:51Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": 0.68,
+      "hdg_deg": null,
+      "vs_fpm": 750,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": 6,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "recorded",
+      "method": "Single-time Mach, vertical speed and angle-of-attack values at stall-warning activation; pressure altitude is the approximate 37,500 ft starting value in the adjoining 02:10:51–02:10:57 interval.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2, p.4",
+      "pressure_alt_ft": 37500,
+      "radio_alt_ft": null,
+      "isis_cas_kt": null,
+      "airspeed_status": "PFD recovered",
+      "aoa_channels_deg": [
+        2.1,
+        6,
+        6
+      ]
+    },
+    {
+      "t_utc": "2009-06-01T02:10:56Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "Thrust levers enter TOGA detent. This is not the instant N1 reaches its later value.",
+      "quality": "recorded",
+      "method": "Transcribed from explicit FDR chronology values; no interpolation. Altitude, where supplied, is in pressure_alt_ft, not MSL.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2, p.4",
+      "pressure_alt_ft": null,
+      "radio_alt_ft": null,
+      "isis_cas_kt": null,
+      "airspeed_status": null
+    },
+    {
+      "t_utc": "2009-06-01T02:10:57Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": 13,
+      "roll_deg": null,
+      "aoa_deg": 10.2,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "recorded",
+      "method": "Endpoint values of the 02:10:51–02:10:57 interval; no roll value selected from the range.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2, p.4",
+      "pressure_alt_ft": 37596,
+      "radio_alt_ft": null,
+      "isis_cas_kt": null,
+      "airspeed_status": null,
+      "aoa_channels_deg": [
+        7.4,
+        10.2,
+        10.2
+      ]
+    },
+    {
+      "t_utc": "2009-06-01T02:10:58Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": 207,
+      "gs_kt": null,
+      "mach": 0.66,
+      "hdg_deg": null,
+      "vs_fpm": 2272,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "recorded",
+      "method": "Starting values of the stated 02:10:58–02:11:22 changes. Values are not interpolated.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2, p.4",
+      "pressure_alt_ft": null,
+      "radio_alt_ft": null,
+      "isis_cas_kt": null,
+      "airspeed_status": "recovered PFD airspeed before sustained stall"
+    },
+    {
+      "t_utc": "2009-06-01T02:11:02Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "N1 reaches about 103% after TOGA selection.",
+      "quality": "recorded",
+      "method": "Transcribed from explicit FDR chronology values; no interpolation. Altitude, where supplied, is in pressure_alt_ft, not MSL.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2, p.4",
+      "pressure_alt_ft": null,
+      "radio_alt_ft": null,
+      "isis_cas_kt": null,
+      "airspeed_status": null
+    },
+    {
+      "t_utc": "2009-06-01T02:11:07Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": 184,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "recorded",
+      "method": "Transcribed from explicit FDR chronology values; no interpolation. Altitude, where supplied, is in pressure_alt_ft, not MSL.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2, p.4",
+      "pressure_alt_ft": null,
+      "radio_alt_ft": null,
+      "isis_cas_kt": 183,
+      "airspeed_status": "PFD and ISIS now consistent; recovered from initial obstruction"
+    },
+    {
+      "t_utc": "2009-06-01T02:11:10Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "recorded",
+      "method": "Explicit global maximum of recorded standard-pressure altitude. No exact pitch or AoA is assigned from the surrounding oscillation ranges.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2, p.4",
+      "pressure_alt_ft": 37924,
+      "radio_alt_ft": null,
+      "isis_cas_kt": null,
+      "airspeed_status": null
+    },
+    {
+      "t_utc": "2009-06-01T02:11:22Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": 161,
+      "gs_kt": null,
+      "mach": 0.51,
+      "hdg_deg": null,
+      "vs_fpm": -3904,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": 22.9,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "recorded",
+      "method": "End values of the 02:10:58–02:11:22 interval. The next interval rounds vertical speed to -3,900 ft/min.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2, p.4",
+      "pressure_alt_ft": null,
+      "radio_alt_ft": null,
+      "isis_cas_kt": null,
+      "airspeed_status": "recorded CAS; aircraft outside normal flight envelope",
+      "aoa_channels_deg": [
+        18.3,
+        22.9,
+        22.9
+      ]
+    },
+    {
+      "t_utc": "2009-06-01T02:11:35Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": 133,
+      "gs_kt": null,
+      "mach": 0.42,
+      "hdg_deg": null,
+      "vs_fpm": -6800,
+      "pitch_deg": 13,
+      "roll_deg": null,
+      "aoa_deg": 29.9,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "recorded",
+      "method": "Endpoint of the 02:11:22–02:11:35 interval; channels 2 and 3 reach 29.9°.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2, p.5",
+      "pressure_alt_ft": null,
+      "radio_alt_ft": null,
+      "isis_cas_kt": 128,
+      "airspeed_status": "recorded display values in sustained stall"
+    },
+    {
+      "t_utc": "2009-06-01T02:11:40Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": 106,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": 33,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "recorded",
+      "method": "AoA channel 3 is 33°; channels 1 and 2 become NCD. aoa_deg therefore uses channel 3 at this point, not the default channel 2.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2, p.5",
+      "pressure_alt_ft": 36068,
+      "radio_alt_ft": null,
+      "isis_cas_kt": 112,
+      "airspeed_status": "recorded display values in sustained stall"
+    },
+    {
+      "t_utc": "2009-06-01T02:11:43Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "Thrust levers moved from TOGA to MCT; N1 remains about 102%.",
+      "quality": "recorded",
+      "method": "Transcribed from explicit FDR chronology values; no interpolation. Altitude, where supplied, is in pressure_alt_ft, not MSL.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2, p.5",
+      "pressure_alt_ft": null,
+      "radio_alt_ft": null,
+      "isis_cas_kt": null,
+      "airspeed_status": null
+    },
+    {
+      "t_utc": "2009-06-01T02:11:44Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": 41.5,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "recorded",
+      "method": "Last valid channel-3 AoA before all channels become NCD at 02:11:45; explicitly timed in that later row.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2, p.5",
+      "pressure_alt_ft": null,
+      "radio_alt_ft": null,
+      "isis_cas_kt": null,
+      "airspeed_status": null
+    },
+    {
+      "t_utc": "2009-06-01T02:11:45Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": -10000,
+      "pitch_deg": 15,
+      "roll_deg": 32,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "recorded",
+      "method": "Pitch and roll from this row. Vertical speed is stated as approximately -10,000 ft/min and is now computed by ADR rather than IR. AoA is null because all channels are NCD.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2, p.5",
+      "pressure_alt_ft": 35372,
+      "radio_alt_ft": null,
+      "isis_cas_kt": null,
+      "airspeed_status": "all three AoA channels invalid; do not interpret warning silence as recovery"
+    },
+    {
+      "t_utc": "2009-06-01T02:11:47Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "Thrust levers selected IDLE; N1 decreases toward about 58% over the next 20 seconds.",
+      "quality": "recorded",
+      "method": "Transcribed from explicit FDR chronology values; no interpolation. Altitude, where supplied, is in pressure_alt_ft, not MSL.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2, p.5",
+      "pressure_alt_ft": null,
+      "radio_alt_ft": null,
+      "isis_cas_kt": null,
+      "airspeed_status": null
+    },
+    {
+      "t_utc": "2009-06-01T02:11:53Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": -14800,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": 41,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "recorded",
+      "method": "Only channel 3 is temporarily valid, at approximately 41°; vertical speed reaches -14,800 ft/min. Rounded AoA preserved as approximate.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2, p.5",
+      "pressure_alt_ft": null,
+      "radio_alt_ft": null,
+      "isis_cas_kt": null,
+      "airspeed_status": null
+    },
+    {
+      "t_utc": "2009-06-01T02:11:55Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": 40,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "recorded",
+      "method": "Channels 1 and 2 temporarily valid with values close to 40°. This is a rounded reported recorder value, not an exact channel reading.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2, p.5",
+      "pressure_alt_ft": null,
+      "radio_alt_ft": null,
+      "isis_cas_kt": null,
+      "airspeed_status": null
+    },
+    {
+      "t_utc": "2009-06-01T02:11:58Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": -15300,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "recorded",
+      "method": "Vertical speed explicitly stated as approximately -15,300 ft/min.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2, p.5",
+      "pressure_alt_ft": null,
+      "radio_alt_ft": null,
+      "isis_cas_kt": null,
+      "airspeed_status": null
+    },
+    {
+      "t_utc": "2009-06-01T02:12:07Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": 41,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "recorded",
+      "method": "Channel 2 is temporarily valid at 41°. Pressure altitude 29,736 ft; speedbrakes had been deployed during 02:12:04–02:12:07.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2, p.5",
+      "pressure_alt_ft": 29736,
+      "radio_alt_ft": null,
+      "isis_cas_kt": null,
+      "airspeed_status": null
+    },
+    {
+      "t_utc": "2009-06-01T02:12:10Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": 40.4,
+      "flap": null,
+      "gear": null,
+      "engine_note": "Levers selected CLB; N1 increases from 58% toward 105% over about ten seconds.",
+      "quality": "recorded",
+      "method": "AoA channel 3 temporarily valid at 40.4°; do not treat it as continuous through the intervening invalid intervals.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2, p.6",
+      "pressure_alt_ft": null,
+      "radio_alt_ft": null,
+      "isis_cas_kt": null,
+      "airspeed_status": null
+    },
+    {
+      "t_utc": "2009-06-01T02:12:19Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": 3.2,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "recorded",
+      "method": "Starting value of the stated pitch decrease from 3.2° to 1.8° over four seconds, associated with the nose-down input at 02:12:19.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2, p.6",
+      "pressure_alt_ft": null,
+      "radio_alt_ft": null,
+      "isis_cas_kt": null,
+      "airspeed_status": null
+    },
+    {
+      "t_utc": "2009-06-01T02:12:23Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": 1.8,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "derived",
+      "method": "Endpoint time calculated as 02:12:19 plus the stated four seconds. Recorded pitch decreases from 3.2° to 1.8°; endpoint timestamp is derived from the published duration.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2, p.6",
+      "pressure_alt_ft": null,
+      "radio_alt_ft": null,
+      "isis_cas_kt": null,
+      "airspeed_status": null
+    },
+    {
+      "t_utc": "2009-06-01T02:12:26Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": 43.6,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "recorded",
+      "method": "AoA channel 3 temporarily valid at 43.6°.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2, p.6",
+      "pressure_alt_ft": null,
+      "radio_alt_ft": null,
+      "isis_cas_kt": null,
+      "airspeed_status": null
+    },
+    {
+      "t_utc": "2009-06-01T02:12:32Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": 5,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "N1 approximately 106% on both engines.",
+      "quality": "recorded",
+      "method": "Pitch approximately 5° nose-up, as explicitly stated in the chronology.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2, p.6",
+      "pressure_alt_ft": null,
+      "radio_alt_ft": null,
+      "isis_cas_kt": null,
+      "airspeed_status": null
+    },
+    {
+      "t_utc": "2009-06-01T02:12:33Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "Thrust levers selected TOGA; N1 increases from about 106% toward 110%.",
+      "quality": "recorded",
+      "method": "Transcribed from explicit FDR chronology values; no interpolation. Altitude, where supplied, is in pressure_alt_ft, not MSL.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2, p.6",
+      "pressure_alt_ft": null,
+      "radio_alt_ft": null,
+      "isis_cas_kt": null,
+      "airspeed_status": null
+    },
+    {
+      "t_utc": "2009-06-01T02:12:34Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": 43.2,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "recorded",
+      "method": "AoA channel 3 temporarily valid at 43.2°.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2, p.6",
+      "pressure_alt_ft": null,
+      "radio_alt_ft": null,
+      "isis_cas_kt": null,
+      "airspeed_status": null
+    },
+    {
+      "t_utc": "2009-06-01T02:12:35Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": 8,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "recorded",
+      "method": "Starting pitch value of the explicitly bounded 02:12:35–02:12:42 interval.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2, p.6",
+      "pressure_alt_ft": null,
+      "radio_alt_ft": null,
+      "isis_cas_kt": null,
+      "airspeed_status": null
+    },
+    {
+      "t_utc": "2009-06-01T02:12:40Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": 38.7,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "recorded",
+      "method": "AoA channel 3 temporarily valid at 38.7°.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2, p.6",
+      "pressure_alt_ft": null,
+      "radio_alt_ft": null,
+      "isis_cas_kt": null,
+      "airspeed_status": null
+    },
+    {
+      "t_utc": "2009-06-01T02:12:42Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": -2,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "N1 falls from about 110% to 105% over two seconds, then stabilizes again near 110%.",
+      "quality": "recorded",
+      "method": "Pressure altitude from the single-time row; pitch -2° is the endpoint of the 02:12:35–02:12:42 interval.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2, p.6",
+      "pressure_alt_ft": 20412,
+      "radio_alt_ft": null,
+      "isis_cas_kt": null,
+      "airspeed_status": null
+    },
+    {
+      "t_utc": "2009-06-01T02:12:43Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": 153,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "recorded",
+      "method": "Transcribed from explicit FDR chronology values; no interpolation. Altitude, where supplied, is in pressure_alt_ft, not MSL.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2, p.6",
+      "pressure_alt_ft": null,
+      "radio_alt_ft": null,
+      "isis_cas_kt": 159,
+      "airspeed_status": "temporary numeric maxima during deep stall; not reliable true airspeed"
+    },
+    {
+      "t_utc": "2009-06-01T02:12:44Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "recorded",
+      "method": "Transcribed from explicit FDR chronology values; no interpolation. Altitude, where supplied, is in pressure_alt_ft, not MSL.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2, p.6",
+      "pressure_alt_ft": 20028,
+      "radio_alt_ft": null,
+      "isis_cas_kt": null,
+      "airspeed_status": null
+    },
+    {
+      "t_utc": "2009-06-01T02:12:49Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": 40.8,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "recorded",
+      "method": "AoA channel 2 temporarily valid at 40.8°.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2, p.7",
+      "pressure_alt_ft": null,
+      "radio_alt_ft": null,
+      "isis_cas_kt": null,
+      "airspeed_status": null
+    },
+    {
+      "t_utc": "2009-06-01T02:12:52Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": -7.4,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "recorded",
+      "method": "Pitch starting value in 02:12:52–02:12:57 interval; ISIS peak explicitly dated 02:12:52 on p.6. Selected heading 197° and selected vertical speed -6,000 ft/min are not actual motion.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2, p.7",
+      "pressure_alt_ft": null,
+      "radio_alt_ft": null,
+      "isis_cas_kt": 134,
+      "airspeed_status": "temporary recovery of a numeric standby speed in deep stall"
+    },
+    {
+      "t_utc": "2009-06-01T02:12:53Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": 127,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "recorded",
+      "method": "Uses the explicitly dated local peak at 02:12:53 in p.6 prose. The p.7 interval starts at 02:12:52 with 127 kt; one-second ambiguity is listed in conflicts.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2, p.6",
+      "pressure_alt_ft": null,
+      "radio_alt_ft": null,
+      "isis_cas_kt": null,
+      "airspeed_status": "temporary numeric PFD peak in deep stall"
+    },
+    {
+      "t_utc": "2009-06-01T02:12:57Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": 56,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": -6,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "recorded",
+      "method": "Endpoint values of 02:12:52–02:12:57. ISIS 15 kt is a recorded CAS parameter; s1 p.59 states the ISIS display scale minimum is 30 kt. It must not be shown as a displayed 15 kt numeral.",
+      "sources": [
+        "s2",
+        "s1"
+      ],
+      "locator": "Appendix 2, p.7",
+      "pressure_alt_ft": null,
+      "radio_alt_ft": null,
+      "isis_cas_kt": 15,
+      "airspeed_status": "numeric recorder parameters during deep stall; ISIS display minimum is 30 kt"
+    },
+    {
+      "t_utc": "2009-06-01T02:13:32Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "recorded",
+      "method": "Transcribed from explicit FDR chronology values; no interpolation. Altitude, where supplied, is in pressure_alt_ft, not MSL.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2, p.7",
+      "pressure_alt_ft": 10092,
+      "radio_alt_ft": null,
+      "isis_cas_kt": null,
+      "airspeed_status": "airspeed and AoA invalid through much of this period"
+    },
+    {
+      "t_utc": "2009-06-01T02:13:55Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": 39.4,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "recorded",
+      "method": "AoA channel 2 temporarily valid at 39.4°.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2, p.8",
+      "pressure_alt_ft": null,
+      "radio_alt_ft": null,
+      "isis_cas_kt": null,
+      "airspeed_status": null
+    },
+    {
+      "t_utc": "2009-06-01T02:14:02Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": 42.5,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "recorded",
+      "method": "AoA channel 2 endpoint of 02:13:55–02:14:02: falls from 39.4° to 37.3°, then rises to 42.5°. The intervening minimum has no exact second in the table and is not separately sampled.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2, p.8",
+      "pressure_alt_ft": null,
+      "radio_alt_ft": null,
+      "isis_cas_kt": null,
+      "airspeed_status": null
+    },
+    {
+      "t_utc": "2009-06-01T02:14:05Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": 14,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "recorded",
+      "method": "Transcribed from explicit FDR chronology values; no interpolation. Altitude, where supplied, is in pressure_alt_ft, not MSL.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2, p.8",
+      "pressure_alt_ft": 4024,
+      "radio_alt_ft": null,
+      "isis_cas_kt": null,
+      "airspeed_status": "all three AoA channels NCD since 02:14:03"
+    },
+    {
+      "t_utc": "2009-06-01T02:14:09Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "Levers selected IDLE for two seconds, then advanced toward 21°. N1 decreases from about 100% to 55% over eight seconds.",
+      "quality": "recorded",
+      "method": "Transcribed from explicit FDR chronology values; no interpolation. Altitude, where supplied, is in pressure_alt_ft, not MSL.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2, p.8",
+      "pressure_alt_ft": null,
+      "radio_alt_ft": null,
+      "isis_cas_kt": null,
+      "airspeed_status": null
+    },
+    {
+      "t_utc": "2009-06-01T02:14:17Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "recorded",
+      "method": "Explicit radio altitude, height above the ocean return. It is kept separate from MSL altitude; actual surface height and instrument corrections are not established.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2, p.8",
+      "pressure_alt_ft": null,
+      "radio_alt_ft": 2140,
+      "isis_cas_kt": null,
+      "airspeed_status": null
+    },
+    {
+      "t_utc": "2009-06-01T02:14:21Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": 41.1,
+      "flap": null,
+      "gear": null,
+      "engine_note": "Levers advanced toward TOGA in two stages during 02:14:18–02:14:21; N1 increases toward 105%.",
+      "quality": "recorded",
+      "method": "Channel 2 valid for one second at 41.1°; does not establish a continuous valid AoA curve.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2, p.8",
+      "pressure_alt_ft": null,
+      "radio_alt_ft": null,
+      "isis_cas_kt": null,
+      "airspeed_status": null
+    },
+    {
+      "t_utc": "2009-06-01T02:14:28.4Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": 107,
+      "mach": null,
+      "hdg_deg": 270,
+      "vs_fpm": -10912,
+      "pitch_deg": 16.2,
+      "roll_deg": -5.3,
+      "aoa_deg": null,
+      "flap": 0,
+      "gear": "up",
+      "engine_note": "Last N1 engine 1 / engine 2: 98.6% / 100.9%.",
+      "quality": "recorded",
+      "method": "Last-values table at end of recording. Standard altitude 204 ft and radio altitude 71 ft are separate recorded quantities, neither exact MSL impact height. Values have their own sampling phases; no zero-altitude point is invented.",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2, p.9",
+      "pressure_alt_ft": 204,
+      "radio_alt_ft": 71,
+      "isis_cas_kt": null,
+      "airspeed_status": "CAS NCD; ISIS FW; invalid values left null"
+    }
+  ],
+  "events": [
+    {
+      "t_utc": "2009-05-31T22:29Z",
+      "t_precision": "minute",
+      "title": "Departure from Rio",
+      "detail": "AF447 took off for Paris with 228 people aboard. The captain was monitoring and the right-seat copilot was flying.",
+      "kind": "departure",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s1"
+      ],
+      "locator": "Section 1.1 p.21"
+    },
+    {
+      "t_utc": "2009-06-01T01:35:15Z",
+      "t_precision": "second",
+      "title": "Oceanic position report",
+      "detail": "The crew reported passing INTOL at 01:33 and estimated SALPU at 01:48. The final report gives ORARO estimated at 02:04, while the first interim report gives 02:00; both are retained in conflicts.",
+      "kind": "atc",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s1",
+        "s4"
+      ],
+      "locator": "Final report section 1.9.1 p.49; first interim section 1.1"
+    },
+    {
+      "t_utc": "2009-06-01T01:35:46Z",
+      "t_precision": "second",
+      "title": "Controller requests TASIL estimate",
+      "detail": "The controller instructed the crew to maintain FL350 and asked for a TASIL estimate. Repeated later requests received no reply.",
+      "kind": "atc",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s1"
+      ],
+      "locator": "Section 1.9.1 pp.48–49"
+    },
+    {
+      "t_utc": "2009-06-01T01:49Z",
+      "t_precision": "minute",
+      "title": "Last recorded radar point",
+      "detail": "Radar data show passage of SALPU at the limit of coverage. A numeric coordinate for the radar point is not transcribed in the report passage used here.",
+      "kind": "atc",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "radar",
+      "sources": [
+        "s1"
+      ],
+      "locator": "Section 1.9.1 p.49"
+    },
+    {
+      "t_utc": "2009-06-01T01:56:06Z",
+      "t_precision": "second",
+      "title": "Relief pilot called",
+      "detail": "A call sounded in the flight crew rest facility before the change of crew positions.",
+      "kind": "cvr",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s1"
+      ],
+      "locator": "Section 1.11.2 p.58"
+    },
+    {
+      "t_utc": "2009-06-01T01:59:26Z",
+      "t_precision": "second",
+      "title": "Relief pilot enters cockpit",
+      "detail": "The relief copilot entered the cockpit. The captain remained for the briefing before leaving.",
+      "kind": "cvr",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s1"
+      ],
+      "locator": "Section 1.11.2 p.58"
+    },
+    {
+      "t_utc": "2009-06-01T02:01:58Z",
+      "t_precision": "second",
+      "title": "Captain leaves for rest",
+      "detail": "The captain left the cockpit and the door closed. Two copilots were then seated at the controls.",
+      "kind": "cvr",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s1"
+      ],
+      "locator": "Section 1.11.2 p.58"
+    },
+    {
+      "t_utc": "2009-06-01T02:06Z",
+      "t_precision": "minute",
+      "title": "Cabin crew warned of turbulence",
+      "detail": "The flying copilot warned the cabin crew that more movement was expected shortly. This was a precautionary interphone call.",
+      "kind": "cvr",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s1"
+      ],
+      "locator": "Section 1.1 p.22"
+    },
+    {
+      "t_utc": "2009-06-01T02:08:12Z",
+      "t_precision": "second",
+      "title": "Heading change begins",
+      "detail": "Lateral mode changed to HDG and the selected magnetic heading decreased toward 34°. BEA interpreted the left deviation as probably avoiding weather-radar returns.",
+      "kind": "crew_action",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s2",
+        "s1"
+      ],
+      "locator": "Appendix 2 p.2; synopsis p.17"
+    },
+    {
+      "t_utc": "2009-06-01T02:09:58Z",
+      "t_precision": "second",
+      "title": "Selected Mach reduced",
+      "detail": "Speed management changed from managed to selected Mach 0.80.",
+      "kind": "crew_action",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2 p.2"
+    },
+    {
+      "t_utc": "2009-06-01T02:10:03Z",
+      "t_precision": "second",
+      "title": "Engine anti-ice selected",
+      "detail": "Engine nacelle anti-ice was selected on. BEA notes four-second sampling: engine 1 was first recorded on at 02:10:05, while selections are normally simultaneous.",
+      "kind": "crew_action",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2 p.2"
+    },
+    {
+      "t_utc": "2009-06-01T02:10:05Z",
+      "t_precision": "second",
+      "title": "Autopilot disconnects",
+      "detail": "Airspeed indications became inconsistent, most likely after ice crystals obstructed the Pitot probes. The aircraft rolled right and the flying copilot made nose-up and lateral inputs.",
+      "kind": "system",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s1",
+        "s2"
+      ],
+      "locator": "Section 1.1 p.22; Appendix 2 p.2"
+    },
+    {
+      "t_utc": "2009-06-01T02:10:06Z",
+      "t_precision": "second",
+      "title": "Alternate flight-control law",
+      "detail": "Flight control changed from normal to alternate law. This removed normal high-angle-of-attack protection.",
+      "kind": "system",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s1",
+        "s2"
+      ],
+      "locator": "Appendix 2 p.2; section 1.16.3.3 p.90"
+    },
+    {
+      "t_utc": "2009-06-01T02:10:08Z",
+      "t_precision": "second",
+      "title": "Autothrust disconnects",
+      "detail": "Autothrust disengaged and thrust lock activated. Autopilot and autothrust remained disengaged for the rest of the flight.",
+      "kind": "system",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s1",
+        "s2"
+      ],
+      "locator": "Appendix 2 p.2; section 1.1 pp.22–24"
+    },
+    {
+      "t_utc": "2009-06-01T02:10:10.4Z",
+      "t_precision": "second",
+      "title": "First brief stall warning",
+      "detail": "The CVR captured a short stall-warning activation lasting until 02:10:11.3. A second brief activation occurred from 02:10:13 to 02:10:13.4; this was before the sustained stall.",
+      "kind": "system",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s1"
+      ],
+      "locator": "Section 1.16.3.2 p.89"
+    },
+    {
+      "t_utc": "2009-06-01T02:10:16Z",
+      "t_precision": "second",
+      "title": "Crew identifies missing speeds",
+      "detail": "The monitoring copilot called out the loss of airspeed indications and alternate law. The crew did not call for the unreliable-airspeed procedure.",
+      "kind": "cvr",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s1"
+      ],
+      "locator": "Section 1.1 p.22; findings p.198"
+    },
+    {
+      "t_utc": "2009-06-01T02:10:25Z",
+      "t_precision": "second",
+      "title": "Wing anti-ice selected",
+      "detail": "The wing anti-ice selector was moved on while the aircraft was climbing.",
+      "kind": "crew_action",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2 p.3"
+    },
+    {
+      "t_utc": "2009-06-01T02:10:26Z",
+      "t_precision": "second",
+      "title": "Climb rate reaches maximum",
+      "detail": "Recorded vertical speed reached 6,900 ft/min. Pitch-up inputs had displaced the aircraft from its cruise flight level.",
+      "kind": "fdr",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2 p.3"
+    },
+    {
+      "t_utc": "2009-06-01T02:10:36Z",
+      "t_precision": "second",
+      "title": "Left-side speed recovers",
+      "detail": "The left-side airspeed returned to a valid value of about 223 kt after 29 seconds of incorrect indication. The standby speed remained erroneous longer.",
+      "kind": "fdr",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s1",
+        "s2"
+      ],
+      "locator": "Section 1.1 p.22; Appendix 2 p.3"
+    },
+    {
+      "t_utc": "2009-06-01T02:10:51Z",
+      "t_precision": "second",
+      "title": "Continuous stall warning starts",
+      "detail": "The warning began to sound continuously as angle of attack increased. The flying copilot continued mainly nose-up inputs.",
+      "kind": "system",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s1",
+        "s2"
+      ],
+      "locator": "Section 1.1 pp.22–23; Appendix 2 p.4"
+    },
+    {
+      "t_utc": "2009-06-01T02:10:53.5Z",
+      "t_precision": "second",
+      "title": "Call toward crew rest",
+      "detail": "The CVR recorded a cabin or flight-rest call chime. Further call signals were sent to the rest facility between 02:11:09.8 and 02:11:27.",
+      "kind": "cvr",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s1"
+      ],
+      "locator": "Section 1.11.2 p.58"
+    },
+    {
+      "t_utc": "2009-06-01T02:10:54Z",
+      "t_precision": "second",
+      "title": "Vibration audible in cockpit",
+      "detail": "Vibration sounds were audible until 02:12:57. BEA associated the approach to stall with warning and buffet.",
+      "kind": "cvr",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s1"
+      ],
+      "locator": "Section 1.11.2 p.58; findings p.198"
+    },
+    {
+      "t_utc": "2009-06-01T02:10:56Z",
+      "t_precision": "second",
+      "title": "Takeoff thrust selected",
+      "detail": "Thrust levers were moved into TOGA. High thrust did not prevent the rising angle of attack and subsequent descent.",
+      "kind": "crew_action",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s2",
+        "s1"
+      ],
+      "locator": "Appendix 2 p.4; section 1.1 pp.22–23"
+    },
+    {
+      "t_utc": "2009-06-01T02:11:07Z",
+      "t_precision": "second",
+      "title": "Standby speed becomes consistent",
+      "detail": "Recorded PFD CAS was 184 kt and ISIS CAS 183 kt. The aircraft was already approaching the top of its climb with a high angle of attack.",
+      "kind": "fdr",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2 p.4"
+    },
+    {
+      "t_utc": "2009-06-01T02:11:10Z",
+      "t_precision": "second",
+      "title": "Highest recorded pressure altitude",
+      "detail": "Standard-pressure altitude reached 37,924 ft. It must not be treated as an exact height above mean sea level.",
+      "kind": "fdr",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2 p.4"
+    },
+    {
+      "t_utc": "2009-06-01T02:11:38Z",
+      "t_precision": "second",
+      "title": "Brief sidestick priority change",
+      "detail": "The left-seat copilot took priority. The right-seat copilot took it back shortly afterwards; these changes were not accompanied by clear spoken transfers.",
+      "kind": "crew_action",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s1",
+        "s2"
+      ],
+      "locator": "Appendix 2 p.5; section 1.1 p.23; prose rounds first action to 02:11:37"
+    },
+    {
+      "t_utc": "2009-06-01T02:11:42.5Z",
+      "t_precision": "second",
+      "title": "Captain returns",
+      "detail": "The captain returned while the aircraft was descending in a sustained stall. The crew did not establish a shared diagnosis of the stall.",
+      "kind": "cvr",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s1"
+      ],
+      "locator": "Section 1.11.2 p.58; section 1.1 p.23"
+    },
+    {
+      "t_utc": "2009-06-01T02:11:45Z",
+      "t_precision": "second",
+      "title": "Stall warning becomes silent",
+      "detail": "All three recorded angles of attack became invalid and the warning stopped after 54 continuous seconds. This silence did not mean that the aircraft had recovered.",
+      "kind": "system",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s1",
+        "s2"
+      ],
+      "locator": "Appendix 2 p.5; sections 1.16.3.2 p.89 and 3.1 p.198"
+    },
+    {
+      "t_utc": "2009-06-01T02:11:47Z",
+      "t_precision": "second",
+      "title": "Thrust reduced to idle",
+      "detail": "Thrust levers were moved to IDLE. Engine N1 then decreased toward about 58% over twenty seconds.",
+      "kind": "crew_action",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2 p.5"
+    },
+    {
+      "t_utc": "2009-06-01T02:12:04Z",
+      "t_precision": "second",
+      "title": "Speedbrakes briefly deployed",
+      "detail": "The speedbrakes were commanded and deployed during 02:12:04–02:12:07.",
+      "kind": "crew_action",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2 p.5"
+    },
+    {
+      "t_utc": "2009-06-01T02:12:10Z",
+      "t_precision": "second",
+      "title": "Thrust advanced again",
+      "detail": "Thrust levers were moved to CLB. The engines responded, increasing N1 toward 105%.",
+      "kind": "crew_action",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2 p.6"
+    },
+    {
+      "t_utc": "2009-06-01T02:12:33Z",
+      "t_precision": "second",
+      "title": "Brief full nose-down input",
+      "detail": "The right sidestick was held fully nose-down for two seconds and TOGA thrust was selected. Later temporary valid angle-of-attack readings still exceeded the stall region.",
+      "kind": "crew_action",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2 p.6"
+    },
+    {
+      "t_utc": "2009-06-01T02:13:32Z",
+      "t_precision": "second",
+      "title": "Passing near ten thousand feet",
+      "detail": "Recorded pressure altitude was 10,092 ft. The flying copilot referred to approaching flight level 100.",
+      "kind": "fdr",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s1",
+        "s2"
+      ],
+      "locator": "Appendix 2 p.7; section 1.1 p.24"
+    },
+    {
+      "t_utc": "2009-06-01T02:13:40Z",
+      "t_precision": "second",
+      "title": "Overlapping control inputs",
+      "detail": "During the interval to 02:14:07 the left stick gave mainly nose-down commands, while the right stick alternated full nose-up and neutral. The DUAL INPUT parameter activated five times in that interval.",
+      "kind": "crew_action",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2 p.8"
+    },
+    {
+      "t_utc": "2009-06-01T02:14:09Z",
+      "t_precision": "second",
+      "title": "Final thrust reduction",
+      "detail": "Thrust levers were selected IDLE for two seconds and then moved forward. They were advanced toward TOGA again during 02:14:18–02:14:21.",
+      "kind": "crew_action",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2 p.8"
+    },
+    {
+      "t_utc": "2009-06-01T02:14:17Z",
+      "t_precision": "second",
+      "title": "Ground-proximity warnings begin",
+      "detail": "The GPWS sounded sink-rate and then pull-up warnings. The chronology gives radio altitude 2,140 ft at this time.",
+      "kind": "system",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s1",
+        "s2"
+      ],
+      "locator": "Section 1.1 p.24; Appendix 2 p.8"
+    },
+    {
+      "t_utc": "2009-06-01T02:14:21Z",
+      "t_precision": "second",
+      "title": "High angle of attack persists",
+      "detail": "One valid channel-2 reading was 41.1°. The right-seat pilot took sidestick priority through the end of the flight.",
+      "kind": "fdr",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Appendix 2 p.8"
+    },
+    {
+      "t_utc": "2009-06-01T02:14:28.4Z",
+      "t_precision": "second",
+      "title": "Recording ends near ocean impact",
+      "detail": "BEA times impact to 02:14:28 and recording end to 02:14:28.4; exact subsecond contact time is not established here. The last sampled pitch was 16.2° nose-up, bank 5.3° left and vertical speed -10,912 ft/min. The aircraft was intact until impact.",
+      "kind": "impact",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s1",
+        "s2"
+      ],
+      "locator": "Appendix 2 p.9; synopsis p.17; sections 1.1 p.24 and 1.12.4 p.81"
+    },
+    {
+      "t_utc": "2009-06-01T05:23Z",
+      "t_precision": "minute",
+      "title": "Search process initiated",
+      "detail": "Atlantico–Recife ARCC registered the disappearance and began gathering flight information. Formal alerting and search deployment were delayed by failures in flight monitoring and coordination.",
+      "kind": "search",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s1"
+      ],
+      "locator": "Section 1.15 pp.81–83"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "First confirmed surface recovery",
+      "detail": "French and Brazilian forces began recovering confirmed wreckage and victims on 6 June. Time of day is not established here.",
+      "kind": "discovery",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Section 1.12.1 p.64; BEA chronology",
+      "date_utc": "2009-06-06",
+      "date_precision": "day"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Search strategy reassessed",
+      "detail": "Metron’s report combined flight-dynamics priors, uncertain reverse-drift estimates and earlier unsuccessful searches. This was a probability map for locating wreckage, not a reconstructed flight path.",
+      "kind": "investigation",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s12"
+      ],
+      "locator": "Report date; sections 2–4",
+      "date_utc": "2011-01-20",
+      "date_precision": "day"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Main wreckage located",
+      "detail": "BEA’s investigation chronology dates the discovery to 3 April 2011 at about 3,900 m depth. The final-report prose instead says 2 April; both dates are retained in conflicts. Time of day is unknown here.",
+      "kind": "discovery",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s6",
+        "s1"
+      ],
+      "locator": "BEA chronology; final report sections 1.1 p.24 and 1.12.1 p.65",
+      "date_utc": "2011-04-03",
+      "date_precision": "day"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Flight data recorder recovered",
+      "detail": "The FDR protected memory unit was recovered from the seabed. The BEA chronology distinguishes discovery on 1 May from recovery on 2 May.",
+      "kind": "discovery",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s6"
+      ],
+      "locator": "Investigation chronology, 1–2 May 2011",
+      "date_utc": "2011-05-02",
+      "date_precision": "day"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Cockpit recorder recovered",
+      "detail": "The CVR was discovered and recovered. Both recorders were later read in France.",
+      "kind": "discovery",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s6",
+        "s1"
+      ],
+      "locator": "BEA chronology; section 1.11.1 pp.54–57",
+      "date_utc": "2011-05-03",
+      "date_precision": "day"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "BEA final report published",
+      "detail": "BEA explained the air-data failure, inappropriate control inputs and failure to recognize and recover from the stall. It also identified training, feedback, interface and crew-coordination weaknesses.",
+      "kind": "finding",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s1",
+        "s6"
+      ],
+      "locator": "Sections 3.1–3.2 pp.197–201; BEA chronology",
+      "date_utc": "2012-07-05",
+      "date_precision": "day"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Companies acquitted at first trial",
+      "detail": "The Paris criminal court acquitted Airbus and Air France. Prosecutors appealed on 27 April 2023; this acquittal was later reversed on appeal.",
+      "kind": "investigation",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s9"
+      ],
+      "locator": "Points clés, dates clés de la procédure",
+      "date_utc": "2023-04-17",
+      "date_precision": "day"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Appeal trial opens",
+      "detail": "The official court chronology gives the appeal hearings as 29 September to 27 November 2025. No time of day is supplied.",
+      "kind": "investigation",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s9"
+      ],
+      "locator": "Points clés, dates clés de la procédure",
+      "date_utc": "2025-09-29",
+      "date_precision": "day"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Appeal court convicts both companies",
+      "detail": "The Paris Court of Appeal convicted Airbus and Air France of involuntary homicide and fined each €225,000. This legal ruling does not change the recorded flight path.",
+      "kind": "finding",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s9"
+      ],
+      "locator": "Points clés: infractions retenues and tableau des condamnations",
+      "date_utc": "2026-05-21",
+      "date_precision": "day"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Airbus announces cassation appeal",
+      "detail": "Airbus announced that it would seek review by the Court of Cassation. No subsequent AF447 cassation outcome was located in searches through 7 November 2026.",
+      "kind": "investigation",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s10"
+      ],
+      "locator": "Airbus statement, 21 May 2026",
+      "date_utc": "2026-05-21",
+      "date_precision": "day"
+    }
+  ],
+  "perspectives": [
+    {
+      "id": "bea",
+      "label": "Loss of control and stall",
+      "held_by": "BEA safety investigation",
+      "standing": "official finding",
+      "claim": "Temporary airspeed disagreement most likely followed ice-crystal obstruction of the Pitot probes. Control inputs caused a climb and exit from the flight envelope, followed by a stall that the crew did not diagnose or recover from; training, feedback and cockpit-interface weaknesses contributed.",
+      "evidence_for": [
+        {
+          "text": "FDR shows nose-up inputs, a climb to pressure altitude 37,924 ft, then high angle of attack and rapid descent; Appendix 2.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Flight controls followed crew commands and engines responded normally; warning, buffet and crew communications support the failure to identify the stall; final report sections 1.12.4 and 3.",
+          "sources": [
+            "s1"
+          ]
+        }
+      ],
+      "evidence_against": [
+        {
+          "text": "The ice crystals themselves were not sampled. The precise reason for each pilot’s actions cannot be recovered from the recorder alone; the report describes the Pitot obstruction as likely.",
+          "sources": [
+            "s1"
+          ]
+        }
+      ],
+      "ending": {
+        "lat": null,
+        "lon": null,
+        "t_utc": "2009-06-01T02:14:28.4Z",
+        "description": "Recorded sustained-stall descent to the Atlantic. No competing recorded endpoint exists."
+      },
+      "track_override": []
+    },
+    {
+      "id": "corporate_defence",
+      "label": "Airbus disputes criminal liability",
+      "held_by": "Airbus, in its 21 May 2026 statement",
+      "standing": "minority",
+      "claim": "Airbus contests the conviction and announced a cassation appeal. It cites the 2019 dismissal and 2023 acquittal as earlier decisions in its favour; this is a legal defence, not an alternative physical flight path.",
+      "evidence_for": [
+        {
+          "text": "Earlier dismissal and acquittal are documented in the official court chronology, although subsequently overturned in the relevant stages of proceedings.",
+          "sources": [
+            "s9",
+            "s10"
+          ]
+        },
+        {
+          "text": "The BEA found the flight controls followed pilot commands and the engines functioned normally; these facts establish mechanical responses but do not decide corporate criminal liability.",
+          "sources": [
+            "s1"
+          ]
+        }
+      ],
+      "evidence_against": [
+        {
+          "text": "The 2026 appeal court convicted both companies of involuntary homicide.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "The BEA identified failures in risk feedback, high-altitude handling training and warning ergonomics in addition to crew inputs; section 3.2.",
+          "sources": [
+            "s1"
+          ]
+        }
+      ],
+      "ending": {
+        "lat": null,
+        "lon": null,
+        "t_utc": "2009-06-01T02:14:28.4Z",
+        "description": "Same recorded ending. Responsibility, rather than location or aircraft motion, is contested."
+      },
+      "track_override": []
+    },
+    {
+      "id": "lightning",
+      "label": "Early lightning explanation",
+      "held_by": "Air France’s communications director, as reported on 1 June 2009",
+      "standing": "rejected",
+      "claim": "Early public statements suggested a lightning strike could have caused the loss. This preceded recovery of the recorders and is not supported as the accident’s causal explanation by the completed investigation.",
+      "evidence_for": [
+        {
+          "text": "There were powerful convective clouds along the route, so electrical activity was physically possible; final report section 1.7.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "The early lightning suggestion is documented in the contemporaneous Scientific American article; it is not an established observation of a strike.",
+          "sources": [
+            "s13"
+          ]
+        }
+      ],
+      "evidence_against": [
+        {
+          "text": "Recorders establish airspeed disagreement, control inputs and a prolonged stall; the systems and engines continued responding.",
+          "sources": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "text": "BEA found no evidence of fire or explosion and concluded that the aircraft was intact at impact; sections 1.12.4 and 1.14. Those findings do not prove no harmless strike occurred.",
+          "sources": [
+            "s1"
+          ]
+        }
+      ],
+      "ending": {
+        "lat": null,
+        "lon": null,
+        "t_utc": "2009-06-01T02:14:28.4Z",
+        "description": "No defensible alternative lightning-caused path or impact time was published in the source used; no track override is invented."
+      },
+      "track_override": []
+    }
+  ],
+  "evidence_points": [
+    {
+      "lat": 2.98,
+      "lon": -30.59,
+      "label": "Last transmitted ACARS position",
+      "detail": "FM position tagged 02:10, received at 02:10:34. Coordinates were sent to two decimal places. This is a flight-position anchor, not the impact site; s4 section 1.16.2.",
+      "kind": "signal",
+      "date": "2009-06-01",
+      "quality": "radar",
+      "sources": [
+        "s4",
+        "s5"
+      ]
+    },
+    {
+      "lat": 3.06583333,
+      "lon": -30.56166667,
+      "label": "BEA accident and wreckage reference",
+      "detail": "Synopsis reference converted from 3°03′57″ N, 30°33′42″ W. Approximate wreckage-area anchor at about 3,900 m depth, not an exact surveyed surface impact coordinate. Decimal conversion only; s1 synopsis and section 1.12.1.",
+      "kind": "wreckage",
+      "date": null,
+      "quality": "reported",
+      "sources": [
+        "s1",
+        "s6"
+      ]
+    },
+    {
+      "lat": 2.98,
+      "lon": -30.59,
+      "label": "Centre of initial search circle",
+      "detail": "BEA considered a 40 NM radius around the last known position. Metron used this as part of its prior probability distribution, with historical loss-of-control distances and uncertain reverse-drift information; s12 sections 3.1–3.3. The centre is not a second observation.",
+      "kind": "search_area",
+      "date": "2011-01-20",
+      "quality": "modelled",
+      "method": "Metron, Stone et al., section 3.1: a uniform 40 NM radius prior centred on the last ACARS position, mixed with a historical loss-of-control distance prior. This point marks the circle centre, not an observed crash location.",
+      "sources": [
+        "s12"
+      ]
+    }
+  ],
+  "witnesses": [
+    {
+      "who": "Flight crew of preceding Lufthansa LH507",
+      "lat": null,
+      "lon": null,
+      "said": "Paraphrase: About twenty minutes ahead at FL350, they flew near the cloud tops and then in cloud near ORARO. They avoided radar returns about ten nautical miles west, felt moderate turbulence, saw no lightning and heard no AF447 call on 121.5 MHz. This describes a different flight path and time, not conditions proven aboard AF447 (s1 section 1.18.5.1 p.158).",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "who": "Atlantico air traffic controller",
+      "lat": null,
+      "lon": null,
+      "said": "Paraphrase: He observed passage of SALPU at 01:49 on his radar display. He expected further position reports and did not call by SELCAL; controllers described poor HF communications that night (s1 section 1.18.5.2 pp.158–159).",
+      "sources": [
+        "s1"
+      ]
+    }
+  ],
+  "numbers": [
+    {
+      "label": "People aboard; all died",
+      "value": "228: 216 passengers and 12 crew",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "label": "Time from autopilot loss to recording end",
+      "value": "4 minutes 23.4 seconds; calculated from 02:10:05 to 02:14:28.4, using the rounded FDR disconnection second",
+      "sources": [
+        "s2"
+      ]
+    },
+    {
+      "label": "Highest recorded standard-pressure altitude",
+      "value": "37,924 ft at 02:11:10; not true MSL altitude",
+      "sources": [
+        "s2"
+      ]
+    },
+    {
+      "label": "Maximum recorded climb rate",
+      "value": "6,900 ft/min at 02:10:26",
+      "sources": [
+        "s2"
+      ]
+    },
+    {
+      "label": "Continuous stall-warning interval",
+      "value": "54 seconds, 02:10:51–02:11:45",
+      "sources": [
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "label": "Incorrect initial left-PFD airspeed duration",
+      "value": "29 seconds; ISIS 54 seconds; right PFD at most 61 seconds",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "label": "Last recorded vertical speed",
+      "value": "-10,912 ft/min",
+      "sources": [
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "label": "Wreckage depth",
+      "value": "About 3,900 m",
+      "sources": [
+        "s1",
+        "s6"
+      ]
+    },
+    {
+      "label": "BEA final-report safety recommendations",
+      "value": "41",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "label": "Appeal-court fines in May 2026",
+      "value": "€225,000 for Airbus and €225,000 for Air France",
+      "sources": [
+        "s9"
+      ]
+    }
+  ],
+  "why_it_matters": "The accident led to Pitot-probe restrictions and changes to high-altitude manual-flight and unreliable-airspeed training (s1, sections 5.1–5.3, pp.215–217). It exposed weaknesses in stall recognition, cockpit warnings, crew coordination and oceanic tracking (s1, sections 3–4). EASA’s 2025 guidance explicitly links relief-commander CRM training and experience guidance to AF447 recommendations (s11, pp.3–4).",
+  "conflicts": [
+    {
+      "about": "ORARO estimate in the last position report",
+      "a": "First interim report section 1.1 gives ORARO estimated at 02:00 in the 01:35:15 position report.",
+      "b": "Final report section 1.9.1 p.49 gives ORARO estimated at 02:04. Neither estimate is used as a measured aircraft position.",
+      "sources": [
+        "s1",
+        "s4"
+      ]
+    },
+    {
+      "about": "Wreckage discovery date",
+      "a": "Final report sections 1.1 p.24 and 1.12.1 p.65 say 2 April 2011.",
+      "b": "BEA investigation chronology says 3 April 2011. The exact sonar-detection versus confirmation or announcement basis was not reconciled here; no time of day is invented.",
+      "sources": [
+        "s1",
+        "s6"
+      ]
+    },
+    {
+      "about": "CVR start second",
+      "a": "Appendix 1 p.2 and Appendix 2 p.1 give 00:09:14.",
+      "b": "Final report section 1.11.2 p.58 says 00:09:15. The track uses the timestamp printed beside the Appendix 2 initial values.",
+      "sources": [
+        "s1",
+        "s2",
+        "s3"
+      ]
+    },
+    {
+      "about": "Temporary CAS peak near 02:12:52",
+      "a": "Appendix 2 p.6 explicitly dates the later CAS peak of 127 kt to 02:12:53.",
+      "b": "Appendix 2 p.7 describes the interval 02:12:52–02:12:57 as beginning at 127 kt. The track uses the explicit peak timestamp and does not assume sub-second precision.",
+      "sources": [
+        "s2"
+      ]
+    },
+    {
+      "about": "First late-flight sidestick priority transfer",
+      "a": "Final report section 1.1 p.23 places the left-seat copilot’s takeover at 02:11:37.",
+      "b": "Appendix 2 p.5 lists recorded priority at 02:11:38. The event uses the discrete FDR chronology time and preserves the prose discrepancy.",
+      "sources": [
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "about": "Corporate criminal responsibility",
+      "a": "The 2023 criminal trial ended in acquittal; Airbus continues to contest responsibility and announced a cassation appeal in May 2026.",
+      "b": "The Paris Court of Appeal convicted both companies on 21 May 2026. This is a legal disagreement and change of judgment, not conflicting recorder data.",
+      "sources": [
+        "s9",
+        "s10"
+      ]
+    },
+    {
+      "about": "Early lightning explanation versus recovered evidence",
+      "a": "An Air France spokesperson initially suggested lightning, as contemporaneously reported.",
+      "b": "The final BEA causal sequence is Pitot-related speed disagreement, control inputs and an unrecognized sustained stall. A lightning strike was not established as its cause.",
+      "sources": [
+        "s13",
+        "s1"
+      ]
+    }
+  ],
+  "unknowns": [
+    "A raw numerical FDR export with continuous latitude/longitude, attitude, speed and altitude was not obtained. BEA publishes selected values and parameter graphs. The opened public materials do not provide a transcribed dense coordinate table; the last minutes therefore have null airborne positions.",
+    "True geometric altitude above mean sea level is not established at the recorder timestamps. Standard-pressure altitude and radio height are preserved in added fields; local pressure/temperature structure needed for a true-altitude conversion was not found. Some early pressure-altitude changes are air-data artifacts.",
+    "Exact second at which the last ACARS position was sampled is unknown. Its payload is tagged 02:10 and receipt was 02:10:34; receipt time is not silently used as measurement time.",
+    "Exact sea-surface impact coordinates, seabed descent or drift of each heavy component, and component-level surveyed coordinates were not numerically recovered here. The site uses BEA’s synopsis reference with approximate precision.",
+    "Historical coordinates for the filed route fixes and TASIL were not verified from the 2009 navigation database or AIP. They remain null. Modern fix positions were not substituted.",
+    "Some instantaneous pitch, roll, angle of attack, speed and engine values are absent from the selected chronology. Interval ranges were not converted into invented samples or sinusoidal motion.",
+    "During much of the stall, airspeed and angle-of-attack parameters were NCD or FW. Exact true airspeed and a continuous valid angle-of-attack history cannot be recovered by treating invalid values as zero.",
+    "The exact continuous right-seat PFD airspeed is not separately recorded. The FDR CAS source could switch when a PFD value was invalid; this switch is not explicit in the parameter (s1 section 1.11.2 p.59).",
+    "The reason angle-of-attack channel 1 behaved more slowly than the other channels was not established by BEA; the report says it did not affect system functioning (s1 p.90).",
+    "No direct sample established the ice-crystal size distribution, ice water content, liquid-water fraction or exact Pitot obstruction history along this aircraft’s path. Ice-crystal obstruction is the BEA’s likely explanation, not a recovered physical ice sample.",
+    "Cloud bases, exact true-MSL cloud tops, coverage in oktas, in-cloud visibility and a measured full wind vector at the accident aircraft were not numerically established. Forecast flight levels and satellite-derived top estimates are retained in notes rather than passed off as direct local observations.",
+    "Impact-time surface wind, sea state, wave height, precipitation at sea level and moon visibility were not established by the weather/search documents reviewed. Later search conditions and regional wind bounds are not substituted.",
+    "A harmless lightning strike cannot be ruled in or out from the material used; the later absence of satellite-detected lightning does not prove there was none at the time of the accident.",
+    "The pilots’ exact mental models and reasons for individual inputs cannot be known from recorded speech and controls alone. No cabin witness survived; nearby-flight testimony is not direct observation of AF447’s impact.",
+    "The one-day disagreement in the BEA wreckage-discovery dates was not reconciled from an opened operation log. The search-operations PDF was linked but exceeded the web fetch size limit and direct BEA downloads timed out; final-report site data, the BEA chronology and the opened Metron report were used instead.",
+    "A directly verified wing-sweep value with its reference convention was not found in the primary aircraft documents inspected, so wing_sweep_deg is null. Exact serial-specific dimensions and accident-day repaint status were not established; type dimensions and a dated May 2009 photograph are explicitly identified.",
+    "The full reasoned May 2026 court judgment and any later AF447 cassation disposition were not obtained. The opened court key-points notice and Airbus statement support the recorded legal developments; searches covered 2024–2026 through 7 November 2026.",
+    "Times of day for the post-accident discovery, recovery, publication and court events are unknown here. Day-only date_utc fields preserve the known dates without invented midnight timestamps."
+  ],
+  "memorial_note": "We remember the 216 passengers and 12 crew members who died, and the families and communities who carry their loss.",
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Final report: accident on 1 June 2009 to Airbus A330-203 F-GZCP, AF447",
+      "publisher": "BEA; official copy hosted by US Federal Aviation Administration",
+      "year": 2012,
+      "url": "https://www.faa.gov/sites/faa.gov/files/AirFrance447_BEA.pdf",
+      "type": "official_report",
+      "opened": true,
+      "notes": "Downloaded with curl and all 224 PDF pages extracted with PyMuPDF. Printed page numbers are two less than PDF page numbers. English translation; French is the reference text. Main locations: synopsis p.17; history pp.21–24; aircraft pp.30–31; weather pp.46–47; recorder interpretation pp.57–60; wreckage pp.64–81; aircraft simulations pp.88–92; testimony pp.156–159; conclusions pp.197–201; safety actions pp.215–217. All report times are UTC; synopsis footnote gives Rio time as UTC minus three hours and metropolitan France as UTC plus two hours on the accident date."
+    },
+    {
+      "id": "s2",
+      "title": "Final report Appendix 2: Chronologie FDR",
+      "publisher": "BEA",
+      "year": 2012,
+      "url": "https://bea.aero/fileadmin/uploads/tx_elyextendttnews/annexe.02_07.pdf",
+      "type": "recorder_data",
+      "opened": true,
+      "notes": "Opened as a nine-page official PDF through the web reader, including the initial-state table, second-specific chronology and last-value table. French original. These are selected recorded values and interval descriptions, not a downloadable raw time-series table. Later direct curl/reopen attempts timed out; the document was nevertheless successfully opened and read. Printed appendix page numbers are used as locators."
+    },
+    {
+      "id": "s3",
+      "title": "Final report Appendix 1: CVR Transcript, English translation",
+      "publisher": "BEA",
+      "year": 2012,
+      "url": "https://bea.aero/uploads/tx_elyextendttnews/annexe.01.en_03.pdf",
+      "type": "transcript",
+      "opened": true,
+      "notes": "Opened official 32-page PDF. Foreword cautions that a CVR is only a partial reflection of cockpit events. UTC comes from FDR synchronization. No private conversations or verbatim crew quotations are reproduced here. Detailed final-flight CVR event times below are taken from the final report section 1.11.2 where indicated. Appendix p.2 starts at 00:09:14, differing by one second from final-report prose."
+    },
+    {
+      "id": "s4",
+      "title": "First interim report, English translation",
+      "publisher": "BEA; document mirrored by CSOBeech",
+      "year": 2009,
+      "url": "https://csobeech.com/files/AF-447InterimReport.pdf",
+      "type": "official_report",
+      "opened": true,
+      "notes": "Downloaded with curl and text extracted from 72 PDF pages. This mirror contains the main English report without the separate French appendices; its pagination differs from the longer BEA edition. Section 1.16.2.2 at printed p.45 gives the last ACARS coordinates and receipt time; section 1.16.2.4 reproduces the message payload. Only primary BEA content is used, not commentary by the mirror host."
+    },
+    {
+      "id": "s5",
+      "title": "Premier rapport d’étape, including Appendix 1 Météo-France meteorological study",
+      "publisher": "BEA / Météo-France; document mirrored by AirSafe.com",
+      "year": 2009,
+      "url": "https://airsafe.com/plane-crash/bea-air-france-a330-interim-report-french.pdf",
+      "type": "official_report",
+      "opened": true,
+      "notes": "Downloaded with curl; all 129 PDF pages extracted with PyMuPDF. Appendix 1 pp.75–93 is the primary Météo-France study; sections 1.1–1.4 cover wind and tropopause, 2.3 satellite analysis and 3 limitations. Appendix 6 p.113 gives the filed ATC flight plan. Original physical document, despite the mirror web-reader title. The original BEA first-interim PDF was also opened at https://bea.aero/fileadmin/documents/docspa/2009/f-cp090601e1.en/pdf/f-cp090601e1.en.pdf ."
+    },
+    {
+      "id": "s6",
+      "title": "AF447 investigation page and investigation chronology",
+      "publisher": "BEA",
+      "year": null,
+      "url": "https://bea.aero/en/investigation-reports/notified-events/detail/accident-to-the-airbus-a330-203-registered-f-gzcp-and-operated-by-air-france-occured-on-06-01-2009-in-the-atlantic-ocean/",
+      "type": "contemporary_record",
+      "opened": true,
+      "notes": "Opened the official investigation page, report/appendix links and dated search chronology. Live page checked in November 2026. Lists discovery on 3 April 2011, FDR recovery on 2 May and CVR recovery on 3 May. Page publication/revision year is not established; the year field is null."
+    },
+    {
+      "id": "s7",
+      "title": "A330-200: dimensions",
+      "publisher": "Airbus",
+      "year": null,
+      "url": "https://www.aircraft.airbus.com/en/aircraft/a330/a330-200",
+      "type": "dataset",
+      "opened": true,
+      "notes": "Opened manufacturer type page. Dimensions section gives length 58.82 m, span 60.3 m, height 17.39 m and external fuselage width 5.64 m. These are published type dimensions, not an as-built measurement of F-GZCP. The same main dimensions were cross-checked in the opened Airbus April 2026 facts-and-figures PDF. Publication year is unknown. Accessed November 2026. Do not transfer modern weights or range to the accident aircraft."
+    },
+    {
+      "id": "s8",
+      "title": "OurAirports airport data: airports.csv",
+      "publisher": "OurAirports / David Megginson",
+      "year": null,
+      "url": "https://davidmegginson.github.io/ourairports-data/airports.csv",
+      "type": "dataset",
+      "opened": true,
+      "notes": "Downloaded successfully with curl and parsed the LFPG and SBGL rows locally; the web reader cannot display text/csv. Airport reference coordinates and elevations are current database values, not historical runway thresholds or recorded aircraft positions. Accessed 7 November 2026."
+    },
+    {
+      "id": "s9",
+      "title": "Arrêt du 21 mai 2026, Rio-Paris: points clés",
+      "publisher": "Cour d’appel de Paris",
+      "year": 2026,
+      "url": "https://www.cours-appel.justice.fr/sites/default/files/2026-05/20260521%20Rio%20Paris%20Notions%20cl%C3%A9s.pdf",
+      "type": "inquiry",
+      "opened": true,
+      "notes": "Opened official court PDF. One-page key-points notice records convictions, fines and procedural dates. It is a court summary, not the complete reasoned judgment. The separate press-release URL returned a maintenance page, so its unseen contents are not used."
+    },
+    {
+      "id": "s10",
+      "title": "AF447 Flight: Airbus to lodge appeal with the Court of Cassation following Paris Court of Appeal decision",
+      "publisher": "Airbus",
+      "year": 2026,
+      "url": "https://www.airbus.com/en/newsroom/press-releases/2026-05-af447-flight-airbus-to-lodge-appeal-with-the-court-of-cassation-following-paris-court-of-appeal",
+      "type": "contemporary_record",
+      "opened": true,
+      "notes": "Opened company statement dated 21 May 2026. Primary evidence of Airbus’s position and announced appeal, not an independent determination of responsibility. Searches through 7 November 2026 did not locate a subsequent AF447 cassation disposition; absence of a search result is not proof that no later filing exists."
+    },
+    {
+      "id": "s11",
+      "title": "Annex VII to ED Decision 2025/002/R: AMC and GM to Part-ORO, Issue 2 Amendment 26",
+      "publisher": "European Union Aviation Safety Agency",
+      "year": 2025,
+      "url": "https://www.easa.europa.eu/lt/downloads/141604/en",
+      "type": "contemporary_record",
+      "opened": true,
+      "notes": "Opened six-page EASA PDF. Pages 3–4 explicitly trace relief-commander CRM training and minimum-experience guidance to AF447 recommendations. This is AMC/GM guidance; the recommended 3,000 hours is not described here as an absolute regulatory minimum."
+    },
+    {
+      "id": "s12",
+      "title": "Search Analysis for the Location of the AF447 Underwater Wreckage",
+      "publisher": "Metron: Lawrence D. Stone, Colleen Keller, Thomas L. Kratzke and Johan Strumpfer; report to BEA",
+      "year": 2011,
+      "url": "https://bea.aero/uploads/tx_elyextendttnews/metron.search.analysis_01.pdf",
+      "type": "dataset",
+      "opened": true,
+      "notes": "Opened 43-page primary technical report dated 20 January 2011. Sections 2–4 explain the Bayesian search, historical loss-of-control distance prior and reverse-drift uncertainties. These search probability distributions are not aircraft flight paths. No invented representative path has been extracted from them."
+    },
+    {
+      "id": "s13",
+      "title": "Could lightning have brought down Air France Flight 447?",
+      "publisher": "Scientific American, Katherine Harmon",
+      "year": 2009,
+      "url": "https://www.scientificamerican.com/blog/news-blog/could-lightning-have-brought-down-a-2009-06-01/",
+      "type": "news",
+      "opened": true,
+      "notes": "Opened article dated 1 June 2009. Used only to document the early lightning suggestion attributed to Air France’s communications director. Its preliminary times and technical speculation are not used for the reconstruction."
+    },
+    {
+      "id": "s14",
+      "title": "F-GZCP Aircraft.jpg, photograph taken 2 May 2009",
+      "publisher": "Wim Callaert / Wikimedia Commons",
+      "year": 2009,
+      "url": "https://commons.wikimedia.org/wiki/File:F-GZCP_Aircraft.jpg",
+      "type": "contemporary_record",
+      "opened": true,
+      "notes": "Opened description page, downloaded original JPEG and inspected it visually. Photograph is dated 2 May 2009, not the accident day. White fuselage, dark blue AIR FRANCE titles and blue/white/red diagonal tail stripes are visible. Livery continuity to 31 May is not independently documented."
+    }
+  ],
+  "research_as_of": "2026-11-07",
+  "data_notes": {
+    "time_basis": "UTC throughout. Minute-resolution times are written without invented seconds. Day-only post-accident events have t_utc null and an added date_utc; their time of day is unknown. Event ordering uses t_utc or date_utc.",
+    "altitude_basis": "alt_ft is reserved for actual MSL altitude and remains null where unavailable. Added pressure_alt_ft preserves BEA standard-pressure altitude (1013.25 hPa), including erroneous transients during Pitot icing. Added radio_alt_ft preserves height above the reflecting surface. Neither is silently relabelled MSL. There is insufficient atmospheric data for a defensible true-altitude conversion.",
+    "airspeed_basis": "ias_kt preserves the BEA CAS parameter displayed as airspeed on the PFD, rather than a mechanically uncorrected IAS or true airspeed. Added isis_cas_kt is the standby-display parameter. Recorded numbers are retained even when erroneous; airspeed_status and method identify them. Invalid NCD/FW values are null, never zero-filled. See s1 section 1.11.2 p.59.",
+    "angle_basis": "Positive pitch is nose-up; positive roll is right bank. hdg_deg is magnetic heading where populated, not true course or a selected heading. aoa_deg uses channel 2 unless stated otherwise; added aoa_channels_deg retains the separate channels when explicit.",
+    "sampling": "Only explicit numerical values and named interval endpoints in the published FDR chronology are included. No time-series curve has been invented or interpolated. The underlying raw recorder file was not obtained. Samples in one row may have different recording phases; final values do not prove exact simultaneity at contact with the sea.",
+    "positions": "The only airborne coordinate pair transcribed numerically is the last minute-tagged ACARS position. Airport reference points and wreckage coordinates are not substituted into the airborne track. A complete spatial trajectory cannot be reconstructed from these sparse numeric anchors alone.",
+    "route_scope": "The planned_waypoints array transcribes named fixes in the filed ATC plan in s5 appendix 6 p.113, excluding airways and alternate route instructions. TASIL is an additional oceanic reporting/FIR-boundary point discussed in s1; its historical coordinates are unknown here. The filed step-climb plan was not the same as the actual FL350 flight.",
+    "geometry": "Airframe dimensions are Airbus type-level published dimensions. No serial-specific dimensional survey was obtained. External fuselage width is used for the requested diameter field.",
+    "safety_sources": [
+      "s1",
+      "s11"
+    ]
+  }
+}

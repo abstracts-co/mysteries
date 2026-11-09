@@ -1,0 +1,1172 @@
+[
+ {
+  "cue": 1,
+  "id": "af447",
+  "beat": 0,
+  "part": 0,
+  "start": 0,
+  "abs": 2,
+  "slot": 17,
+  "chars": 110
+ },
+ {
+  "cue": 2,
+  "id": "af447",
+  "beat": 1,
+  "part": 0,
+  "start": 17,
+  "abs": 19,
+  "slot": 19,
+  "chars": 125
+ },
+ {
+  "cue": 3,
+  "id": "af447",
+  "beat": 2,
+  "part": 0,
+  "start": 36,
+  "abs": 38,
+  "slot": 19,
+  "chars": 115
+ },
+ {
+  "cue": 4,
+  "id": "af447",
+  "beat": 3,
+  "part": 0,
+  "start": 55,
+  "abs": 57,
+  "slot": 12,
+  "chars": 67
+ },
+ {
+  "cue": 5,
+  "id": "af447",
+  "beat": 4,
+  "part": 0,
+  "start": 67,
+  "abs": 69,
+  "slot": 11,
+  "chars": 55
+ },
+ {
+  "cue": 6,
+  "id": "af447",
+  "beat": 5,
+  "part": 0,
+  "start": 78,
+  "abs": 80,
+  "slot": 20,
+  "chars": 145
+ },
+ {
+  "cue": 7,
+  "id": "af447",
+  "beat": 6,
+  "part": 0,
+  "start": 98,
+  "abs": 100,
+  "slot": 18,
+  "chars": 124
+ },
+ {
+  "cue": 8,
+  "id": "af447",
+  "beat": 7,
+  "part": 0,
+  "start": 116,
+  "abs": 118,
+  "slot": 11,
+  "chars": 50
+ },
+ {
+  "cue": 9,
+  "id": "af447",
+  "beat": 8,
+  "part": 0,
+  "start": 127,
+  "abs": 129,
+  "slot": 19,
+  "chars": 127
+ },
+ {
+  "cue": 10,
+  "id": "af447",
+  "beat": 9,
+  "part": 0,
+  "start": 146,
+  "abs": 148,
+  "slot": 11,
+  "chars": 61
+ },
+ {
+  "cue": 11,
+  "id": "af447",
+  "beat": 10,
+  "part": 0,
+  "start": 157,
+  "abs": 159,
+  "slot": 22,
+  "chars": 144
+ },
+ {
+  "cue": 12,
+  "id": "af447",
+  "beat": 11,
+  "part": 0,
+  "start": 179,
+  "abs": 181,
+  "slot": 15,
+  "chars": 81
+ },
+ {
+  "cue": 13,
+  "id": "af447",
+  "beat": 12,
+  "part": 0,
+  "start": 194,
+  "abs": 196,
+  "slot": 21,
+  "chars": 146
+ },
+ {
+  "cue": 14,
+  "id": "af447",
+  "beat": 13,
+  "part": 0,
+  "start": 215,
+  "abs": 217,
+  "slot": 18,
+  "chars": 123
+ },
+ {
+  "cue": 15,
+  "id": "af447",
+  "beat": 14,
+  "part": 0,
+  "start": 233,
+  "abs": 235,
+  "slot": 11,
+  "chars": 58
+ },
+ {
+  "cue": 16,
+  "id": "af447",
+  "beat": 15,
+  "part": 0,
+  "start": 244,
+  "abs": 246,
+  "slot": 18,
+  "chars": 112
+ },
+ {
+  "cue": 17,
+  "id": "af447",
+  "beat": 16,
+  "part": 0,
+  "start": 262,
+  "abs": 264,
+  "slot": 45,
+  "chars": 368
+ },
+ {
+  "id": "af447",
+  "crashStart": 2,
+  "crashEnd": 309
+ },
+ {
+  "cue": 18,
+  "id": "mh370",
+  "beat": 0,
+  "part": 0,
+  "start": 0,
+  "abs": 319,
+  "slot": 19,
+  "chars": 137
+ },
+ {
+  "cue": 19,
+  "id": "mh370",
+  "beat": 1,
+  "part": 0,
+  "start": 19,
+  "abs": 338,
+  "slot": 12,
+  "chars": 66
+ },
+ {
+  "cue": 20,
+  "id": "mh370",
+  "beat": 2,
+  "part": 0,
+  "start": 31,
+  "abs": 350,
+  "slot": 23,
+  "chars": 170
+ },
+ {
+  "cue": 21,
+  "id": "mh370",
+  "beat": 3,
+  "part": 0,
+  "start": 54,
+  "abs": 373,
+  "slot": 21,
+  "chars": 151
+ },
+ {
+  "cue": 22,
+  "id": "mh370",
+  "beat": 4,
+  "part": 0,
+  "start": 75,
+  "abs": 394,
+  "slot": 17,
+  "chars": 128
+ },
+ {
+  "cue": 23,
+  "id": "mh370",
+  "beat": 5,
+  "part": 0,
+  "start": 92,
+  "abs": 411,
+  "slot": 16,
+  "chars": 99
+ },
+ {
+  "cue": 24,
+  "id": "mh370",
+  "beat": 6,
+  "part": 0,
+  "start": 108,
+  "abs": 427,
+  "slot": 16,
+  "chars": 98
+ },
+ {
+  "cue": 25,
+  "id": "mh370",
+  "beat": 7,
+  "part": 0,
+  "start": 124,
+  "abs": 443,
+  "slot": 19,
+  "chars": 142
+ },
+ {
+  "cue": 26,
+  "id": "mh370",
+  "beat": 8,
+  "part": 0,
+  "start": 143,
+  "abs": 462,
+  "slot": 14,
+  "chars": 85
+ },
+ {
+  "cue": 27,
+  "id": "mh370",
+  "beat": 9,
+  "part": 0,
+  "start": 157,
+  "abs": 476,
+  "slot": 34,
+  "chars": 233
+ },
+ {
+  "cue": 28,
+  "id": "mh370",
+  "beat": 10,
+  "part": 0,
+  "start": 191,
+  "abs": 510,
+  "slot": 14,
+  "chars": 86
+ },
+ {
+  "cue": 29,
+  "id": "mh370",
+  "beat": 11,
+  "part": 0,
+  "start": 205,
+  "abs": 524,
+  "slot": 8,
+  "chars": 40
+ },
+ {
+  "cue": 30,
+  "id": "mh370",
+  "beat": 12,
+  "part": 0,
+  "start": 213,
+  "abs": 532,
+  "slot": 15,
+  "chars": 98
+ },
+ {
+  "cue": 31,
+  "id": "mh370",
+  "beat": 13,
+  "part": 0,
+  "start": 228,
+  "abs": 547,
+  "slot": 24,
+  "chars": 162
+ },
+ {
+  "cue": 32,
+  "id": "mh370",
+  "beat": 14,
+  "part": 0,
+  "start": 252,
+  "abs": 571,
+  "slot": 50,
+  "chars": 397
+ },
+ {
+  "id": "mh370",
+  "crashStart": 319,
+  "crashEnd": 621
+ },
+ {
+  "cue": 33,
+  "id": "twa800",
+  "beat": 0,
+  "part": 0,
+  "start": 0,
+  "abs": 631,
+  "slot": 21,
+  "chars": 130
+ },
+ {
+  "cue": 34,
+  "id": "twa800",
+  "beat": 1,
+  "part": 0,
+  "start": 21,
+  "abs": 652,
+  "slot": 19,
+  "chars": 103
+ },
+ {
+  "cue": 35,
+  "id": "twa800",
+  "beat": 2,
+  "part": 0,
+  "start": 40,
+  "abs": 671,
+  "slot": 22,
+  "chars": 152
+ },
+ {
+  "cue": 36,
+  "id": "twa800",
+  "beat": 3,
+  "part": 0,
+  "start": 62,
+  "abs": 693,
+  "slot": 15,
+  "chars": 88
+ },
+ {
+  "cue": 37,
+  "id": "twa800",
+  "beat": 4,
+  "part": 0,
+  "start": 77,
+  "abs": 708,
+  "slot": 13,
+  "chars": 70
+ },
+ {
+  "cue": 38,
+  "id": "twa800",
+  "beat": 5,
+  "part": 0,
+  "start": 90,
+  "abs": 721,
+  "slot": 27,
+  "chars": 192
+ },
+ {
+  "cue": 39,
+  "id": "twa800",
+  "beat": 6,
+  "part": 0,
+  "start": 117,
+  "abs": 748,
+  "slot": 21,
+  "chars": 131
+ },
+ {
+  "cue": 40,
+  "id": "twa800",
+  "beat": 7,
+  "part": 0,
+  "start": 138,
+  "abs": 769,
+  "slot": 17,
+  "chars": 106
+ },
+ {
+  "cue": 41,
+  "id": "twa800",
+  "beat": 8,
+  "part": 0,
+  "start": 155,
+  "abs": 786,
+  "slot": 22,
+  "chars": 134
+ },
+ {
+  "cue": 42,
+  "id": "twa800",
+  "beat": 9,
+  "part": 0,
+  "start": 177,
+  "abs": 808,
+  "slot": 17,
+  "chars": 99
+ },
+ {
+  "cue": 43,
+  "id": "twa800",
+  "beat": 10,
+  "part": 0,
+  "start": 194,
+  "abs": 825,
+  "slot": 49,
+  "chars": 382
+ },
+ {
+  "cue": 44,
+  "id": "twa800",
+  "beat": 10,
+  "part": 1,
+  "start": 243,
+  "abs": 874,
+  "slot": 11,
+  "chars": 51
+ },
+ {
+  "id": "twa800",
+  "crashStart": 631,
+  "crashEnd": 885
+ },
+ {
+  "cue": 45,
+  "id": "egyptair990",
+  "beat": 0,
+  "part": 0,
+  "start": 0,
+  "abs": 895,
+  "slot": 24,
+  "chars": 177
+ },
+ {
+  "cue": 46,
+  "id": "egyptair990",
+  "beat": 1,
+  "part": 0,
+  "start": 24,
+  "abs": 919,
+  "slot": 17,
+  "chars": 108
+ },
+ {
+  "cue": 47,
+  "id": "egyptair990",
+  "beat": 2,
+  "part": 0,
+  "start": 41,
+  "abs": 936,
+  "slot": 14,
+  "chars": 70
+ },
+ {
+  "cue": 48,
+  "id": "egyptair990",
+  "beat": 3,
+  "part": 0,
+  "start": 55,
+  "abs": 950,
+  "slot": 17,
+  "chars": 110
+ },
+ {
+  "cue": 49,
+  "id": "egyptair990",
+  "beat": 4,
+  "part": 0,
+  "start": 72,
+  "abs": 967,
+  "slot": 17,
+  "chars": 96
+ },
+ {
+  "cue": 50,
+  "id": "egyptair990",
+  "beat": 5,
+  "part": 0,
+  "start": 89,
+  "abs": 984,
+  "slot": 13,
+  "chars": 87
+ },
+ {
+  "cue": 51,
+  "id": "egyptair990",
+  "beat": 6,
+  "part": 0,
+  "start": 102,
+  "abs": 997,
+  "slot": 22,
+  "chars": 135
+ },
+ {
+  "cue": 52,
+  "id": "egyptair990",
+  "beat": 7,
+  "part": 0,
+  "start": 124,
+  "abs": 1019,
+  "slot": 27,
+  "chars": 168
+ },
+ {
+  "cue": 53,
+  "id": "egyptair990",
+  "beat": 8,
+  "part": 0,
+  "start": 151,
+  "abs": 1046,
+  "slot": 9,
+  "chars": 38
+ },
+ {
+  "cue": 54,
+  "id": "egyptair990",
+  "beat": 9,
+  "part": 0,
+  "start": 160,
+  "abs": 1055,
+  "slot": 13,
+  "chars": 82
+ },
+ {
+  "cue": 55,
+  "id": "egyptair990",
+  "beat": 10,
+  "part": 0,
+  "start": 173,
+  "abs": 1068,
+  "slot": 15,
+  "chars": 98
+ },
+ {
+  "cue": 56,
+  "id": "egyptair990",
+  "beat": 11,
+  "part": 0,
+  "start": 188,
+  "abs": 1083,
+  "slot": 13,
+  "chars": 67
+ },
+ {
+  "cue": 57,
+  "id": "egyptair990",
+  "beat": 12,
+  "part": 0,
+  "start": 201,
+  "abs": 1096,
+  "slot": 41,
+  "chars": 334
+ },
+ {
+  "id": "egyptair990",
+  "crashStart": 895,
+  "crashEnd": 1137
+ },
+ {
+  "cue": 58,
+  "id": "airnz901",
+  "beat": 0,
+  "part": 0,
+  "start": 0,
+  "abs": 1147,
+  "slot": 28,
+  "chars": 203
+ },
+ {
+  "cue": 59,
+  "id": "airnz901",
+  "beat": 1,
+  "part": 0,
+  "start": 28,
+  "abs": 1175,
+  "slot": 22,
+  "chars": 144
+ },
+ {
+  "cue": 60,
+  "id": "airnz901",
+  "beat": 2,
+  "part": 0,
+  "start": 50,
+  "abs": 1197,
+  "slot": 14,
+  "chars": 74
+ },
+ {
+  "cue": 61,
+  "id": "airnz901",
+  "beat": 3,
+  "part": 0,
+  "start": 64,
+  "abs": 1211,
+  "slot": 21,
+  "chars": 143
+ },
+ {
+  "cue": 62,
+  "id": "airnz901",
+  "beat": 4,
+  "part": 0,
+  "start": 85,
+  "abs": 1232,
+  "slot": 21,
+  "chars": 125
+ },
+ {
+  "cue": 63,
+  "id": "airnz901",
+  "beat": 5,
+  "part": 0,
+  "start": 106,
+  "abs": 1253,
+  "slot": 16,
+  "chars": 94
+ },
+ {
+  "cue": 64,
+  "id": "airnz901",
+  "beat": 6,
+  "part": 0,
+  "start": 122,
+  "abs": 1269,
+  "slot": 11,
+  "chars": 48
+ },
+ {
+  "cue": 65,
+  "id": "airnz901",
+  "beat": 7,
+  "part": 0,
+  "start": 133,
+  "abs": 1280,
+  "slot": 12,
+  "chars": 64
+ },
+ {
+  "cue": 66,
+  "id": "airnz901",
+  "beat": 8,
+  "part": 0,
+  "start": 145,
+  "abs": 1292,
+  "slot": 38,
+  "chars": 303
+ },
+ {
+  "id": "airnz901",
+  "crashStart": 1147,
+  "crashEnd": 1330
+ },
+ {
+  "cue": 67,
+  "id": "jal123",
+  "beat": 0,
+  "part": 0,
+  "start": 0,
+  "abs": 1340,
+  "slot": 31,
+  "chars": 233
+ },
+ {
+  "cue": 68,
+  "id": "jal123",
+  "beat": 1,
+  "part": 0,
+  "start": 31,
+  "abs": 1371,
+  "slot": 28,
+  "chars": 184
+ },
+ {
+  "cue": 69,
+  "id": "jal123",
+  "beat": 2,
+  "part": 0,
+  "start": 59,
+  "abs": 1399,
+  "slot": 9,
+  "chars": 36
+ },
+ {
+  "cue": 70,
+  "id": "jal123",
+  "beat": 3,
+  "part": 0,
+  "start": 68,
+  "abs": 1408,
+  "slot": 23,
+  "chars": 139
+ },
+ {
+  "cue": 71,
+  "id": "jal123",
+  "beat": 4,
+  "part": 0,
+  "start": 91,
+  "abs": 1431,
+  "slot": 11,
+  "chars": 64
+ },
+ {
+  "cue": 72,
+  "id": "jal123",
+  "beat": 5,
+  "part": 0,
+  "start": 102,
+  "abs": 1442,
+  "slot": 15,
+  "chars": 84
+ },
+ {
+  "cue": 73,
+  "id": "jal123",
+  "beat": 6,
+  "part": 0,
+  "start": 117,
+  "abs": 1457,
+  "slot": 15,
+  "chars": 88
+ },
+ {
+  "cue": 74,
+  "id": "jal123",
+  "beat": 7,
+  "part": 0,
+  "start": 132,
+  "abs": 1472,
+  "slot": 9,
+  "chars": 32
+ },
+ {
+  "cue": 75,
+  "id": "jal123",
+  "beat": 8,
+  "part": 0,
+  "start": 141,
+  "abs": 1481,
+  "slot": 17,
+  "chars": 105
+ },
+ {
+  "cue": 76,
+  "id": "jal123",
+  "beat": 9,
+  "part": 0,
+  "start": 158,
+  "abs": 1498,
+  "slot": 9,
+  "chars": 36
+ },
+ {
+  "cue": 77,
+  "id": "jal123",
+  "beat": 10,
+  "part": 0,
+  "start": 167,
+  "abs": 1507,
+  "slot": 19,
+  "chars": 117
+ },
+ {
+  "cue": 78,
+  "id": "jal123",
+  "beat": 11,
+  "part": 0,
+  "start": 186,
+  "abs": 1526,
+  "slot": 46,
+  "chars": 334
+ },
+ {
+  "id": "jal123",
+  "crashStart": 1340,
+  "crashEnd": 1572
+ },
+ {
+  "cue": 79,
+  "id": "stardust",
+  "beat": 0,
+  "part": 0,
+  "start": 0,
+  "abs": 1582,
+  "slot": 23,
+  "chars": 168
+ },
+ {
+  "cue": 80,
+  "id": "stardust",
+  "beat": 1,
+  "part": 0,
+  "start": 23,
+  "abs": 1605,
+  "slot": 22,
+  "chars": 146
+ },
+ {
+  "cue": 81,
+  "id": "stardust",
+  "beat": 2,
+  "part": 0,
+  "start": 45,
+  "abs": 1627,
+  "slot": 13,
+  "chars": 77
+ },
+ {
+  "cue": 82,
+  "id": "stardust",
+  "beat": 3,
+  "part": 0,
+  "start": 58,
+  "abs": 1640,
+  "slot": 16,
+  "chars": 110
+ },
+ {
+  "cue": 83,
+  "id": "stardust",
+  "beat": 4,
+  "part": 0,
+  "start": 74,
+  "abs": 1656,
+  "slot": 22,
+  "chars": 133
+ },
+ {
+  "cue": 84,
+  "id": "stardust",
+  "beat": 5,
+  "part": 0,
+  "start": 96,
+  "abs": 1678,
+  "slot": 25,
+  "chars": 165
+ },
+ {
+  "cue": 85,
+  "id": "stardust",
+  "beat": 6,
+  "part": 0,
+  "start": 121,
+  "abs": 1703,
+  "slot": 20,
+  "chars": 128
+ },
+ {
+  "cue": 86,
+  "id": "stardust",
+  "beat": 7,
+  "part": 0,
+  "start": 141,
+  "abs": 1723,
+  "slot": 41,
+  "chars": 330
+ },
+ {
+  "id": "stardust",
+  "crashStart": 1582,
+  "crashEnd": 1764
+ },
+ {
+  "cue": 87,
+  "id": "earhart",
+  "beat": 0,
+  "part": 0,
+  "start": 0,
+  "abs": 1774,
+  "slot": 33,
+  "chars": 237
+ },
+ {
+  "cue": 88,
+  "id": "earhart",
+  "beat": 1,
+  "part": 0,
+  "start": 33,
+  "abs": 1807,
+  "slot": 13,
+  "chars": 70
+ },
+ {
+  "cue": 89,
+  "id": "earhart",
+  "beat": 2,
+  "part": 0,
+  "start": 46,
+  "abs": 1820,
+  "slot": 20,
+  "chars": 125
+ },
+ {
+  "cue": 90,
+  "id": "earhart",
+  "beat": 3,
+  "part": 0,
+  "start": 66,
+  "abs": 1840,
+  "slot": 26,
+  "chars": 174
+ },
+ {
+  "cue": 91,
+  "id": "earhart",
+  "beat": 4,
+  "part": 0,
+  "start": 92,
+  "abs": 1866,
+  "slot": 15,
+  "chars": 75
+ },
+ {
+  "cue": 92,
+  "id": "earhart",
+  "beat": 5,
+  "part": 0,
+  "start": 107,
+  "abs": 1881,
+  "slot": 22,
+  "chars": 144
+ },
+ {
+  "cue": 93,
+  "id": "earhart",
+  "beat": 6,
+  "part": 0,
+  "start": 129,
+  "abs": 1903,
+  "slot": 24,
+  "chars": 145
+ },
+ {
+  "cue": 94,
+  "id": "earhart",
+  "beat": 7,
+  "part": 0,
+  "start": 153,
+  "abs": 1927,
+  "slot": 50,
+  "chars": 359
+ },
+ {
+  "id": "earhart",
+  "crashStart": 1774,
+  "crashEnd": 1977
+ },
+ {
+  "cue": 95,
+  "id": "ladybegood",
+  "beat": 0,
+  "part": 0,
+  "start": 0,
+  "abs": 1987,
+  "slot": 26,
+  "chars": 175
+ },
+ {
+  "cue": 96,
+  "id": "ladybegood",
+  "beat": 1,
+  "part": 0,
+  "start": 26,
+  "abs": 2013,
+  "slot": 16,
+  "chars": 95
+ },
+ {
+  "cue": 97,
+  "id": "ladybegood",
+  "beat": 2,
+  "part": 0,
+  "start": 42,
+  "abs": 2029,
+  "slot": 23,
+  "chars": 165
+ },
+ {
+  "cue": 98,
+  "id": "ladybegood",
+  "beat": 3,
+  "part": 0,
+  "start": 65,
+  "abs": 2052,
+  "slot": 27,
+  "chars": 193
+ },
+ {
+  "cue": 99,
+  "id": "ladybegood",
+  "beat": 4,
+  "part": 0,
+  "start": 92,
+  "abs": 2079,
+  "slot": 9,
+  "chars": 35
+ },
+ {
+  "cue": 100,
+  "id": "ladybegood",
+  "beat": 5,
+  "part": 0,
+  "start": 101,
+  "abs": 2088,
+  "slot": 17,
+  "chars": 89
+ },
+ {
+  "cue": 101,
+  "id": "ladybegood",
+  "beat": 6,
+  "part": 0,
+  "start": 118,
+  "abs": 2105,
+  "slot": 14,
+  "chars": 76
+ },
+ {
+  "cue": 102,
+  "id": "ladybegood",
+  "beat": 7,
+  "part": 0,
+  "start": 132,
+  "abs": 2119,
+  "slot": 53,
+  "chars": 398
+ },
+ {
+  "id": "ladybegood",
+  "crashStart": 1987,
+  "crashEnd": 2172
+ },
+ {
+  "cue": 103,
+  "id": "flight19",
+  "beat": 0,
+  "part": 0,
+  "start": 0,
+  "abs": 2182,
+  "slot": 24,
+  "chars": 177
+ },
+ {
+  "cue": 104,
+  "id": "flight19",
+  "beat": 1,
+  "part": 0,
+  "start": 24,
+  "abs": 2206,
+  "slot": 16,
+  "chars": 112
+ },
+ {
+  "cue": 105,
+  "id": "flight19",
+  "beat": 2,
+  "part": 0,
+  "start": 40,
+  "abs": 2222,
+  "slot": 28,
+  "chars": 178
+ },
+ {
+  "cue": 106,
+  "id": "flight19",
+  "beat": 3,
+  "part": 0,
+  "start": 68,
+  "abs": 2250,
+  "slot": 12,
+  "chars": 54
+ },
+ {
+  "cue": 107,
+  "id": "flight19",
+  "beat": 4,
+  "part": 0,
+  "start": 80,
+  "abs": 2262,
+  "slot": 20,
+  "chars": 111
+ },
+ {
+  "cue": 108,
+  "id": "flight19",
+  "beat": 5,
+  "part": 0,
+  "start": 100,
+  "abs": 2282,
+  "slot": 13,
+  "chars": 71
+ },
+ {
+  "cue": 109,
+  "id": "flight19",
+  "beat": 6,
+  "part": 0,
+  "start": 113,
+  "abs": 2295,
+  "slot": 24,
+  "chars": 161
+ },
+ {
+  "cue": 110,
+  "id": "flight19",
+  "beat": 7,
+  "part": 0,
+  "start": 137,
+  "abs": 2319,
+  "slot": 15,
+  "chars": 78
+ },
+ {
+  "cue": 111,
+  "id": "flight19",
+  "beat": 8,
+  "part": 0,
+  "start": 152,
+  "abs": 2334,
+  "slot": 20,
+  "chars": 115
+ },
+ {
+  "cue": 112,
+  "id": "flight19",
+  "beat": 9,
+  "part": 0,
+  "start": 172,
+  "abs": 2354,
+  "slot": 49,
+  "chars": 379
+ },
+ {
+  "id": "flight19",
+  "crashStart": 2182,
+  "crashEnd": 2403
+ }
+]

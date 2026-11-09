@@ -1,0 +1,282 @@
+{
+  "id": "flight19",
+  "events": [
+    {
+      "i": 0,
+      "c": "The instructor asked for a replacement without explaining why. No other unusual behavior was reported."
+    },
+    {
+      "i": 1,
+      "c": "Five Navy training aircraft left Fort Lauderdale with fourteen people aboard for a navigation exercise."
+    },
+    {
+      "i": 2,
+      "c": "Practice bombing reportedly ended around 3 p.m. The formation’s exact position then is unknown."
+    },
+    {
+      "i": 3,
+      "c": "Another instructor heard pilots discussing compass readings and being lost after a turn."
+    },
+    {
+      "i": 4,
+      "c": "The flight leader reported both compasses unavailable. He believed he was over the Florida Keys, without confirmation."
+    },
+    {
+      "i": 5,
+      "c": "The base received a report that an aircraft or ship appeared to be lost."
+    },
+    {
+      "i": 6,
+      "c": "Five aircraft were identified. The leader believed he was south of Florida and west of the Keys."
+    },
+    {
+      "i": 7,
+      "c": "The leader reported being lost over islands he believed were the Keys, with his compass out."
+    },
+    {
+      "i": 8,
+      "c": "Another instructor advised flying north toward Miami. This depended on the flight actually being over the Keys."
+    },
+    {
+      "i": 9,
+      "c": "The leader reported passing a small island with no other land visible. The island remained unidentified."
+    },
+    {
+      "i": 10,
+      "c": "The leader asked whether radar could locate the formation. Radar did not establish its position."
+    },
+    {
+      "i": 11,
+      "c": "Rescuers suggested letting an aircraft with a working compass lead. Whether or when leadership changed is unknown."
+    },
+    {
+      "i": 12,
+      "c": "Another pilot thought flying west would bring the flight to land."
+    },
+    {
+      "i": 13,
+      "c": "Fading signals led a rescue officer to suspect the Bahamas. He suggested sending an aircraft to establish contact."
+    },
+    {
+      "i": 14,
+      "c": "The leader reported heading northeast to test whether the flight was over the Gulf of Mexico."
+    },
+    {
+      "i": 15,
+      "c": "Radio stations were alerted to locate the flight from its signals. Interference delayed the search."
+    },
+    {
+      "i": 16,
+      "c": "Rescuers requested equipment that could guide the flight toward a radio signal. No reply followed."
+    },
+    {
+      "i": 17,
+      "c": "An order called for flying east for ten minutes. Whether the flight followed it is unknown."
+    },
+    {
+      "i": 18,
+      "c": "A waiting rescue aircraft remained grounded, preventing a planned attempt to improve radio contact."
+    },
+    {
+      "i": 19,
+      "c": "The leader reported that the flight was now heading west."
+    },
+    {
+      "i": 20,
+      "c": "The leader planned to keep flying west until reaching land or running out of fuel."
+    },
+    {
+      "i": 21,
+      "c": "Rescuers repeatedly requested a radio frequency change. The leader later declined."
+    },
+    {
+      "i": 22,
+      "c": "The leader reported weak reception and asked about base weather. The weather reply received no acknowledgment."
+    },
+    {
+      "i": 23,
+      "c": "The sun set at Fort Lauderdale. Sunset timing at the lost formation’s location is unknown."
+    },
+    {
+      "i": 24,
+      "c": "The leader asked another aircraft about a possible ship. The reply was unreadable, and no ship was identified."
+    },
+    {
+      "i": 25,
+      "c": "A failed messaging machine hampered rescue coordination. The message to Banana River went by telephone instead."
+    },
+    {
+      "i": 26,
+      "c": "Radio signals suggested a broad area within a 100-mile radius. The aircraft’s exact position remained unknown."
+    },
+    {
+      "i": 27,
+      "c": "Coastal stations were told to maximize lighting. Whether the flight saw those lights is unknown."
+    },
+    {
+      "i": 28,
+      "c": "The leader declined to change radio frequency because he needed to keep the aircraft together."
+    },
+    {
+      "i": 29,
+      "c": "A relayed warning said the aircraft might soon need to land on water. No landing was confirmed."
+    },
+    {
+      "i": 30,
+      "c": "A turn back east was proposed. Whether the flight actually reversed course is unknown."
+    },
+    {
+      "i": 31,
+      "c": "The estimated search area reached Fort Lauderdale by telephone. It was not broadcast to the missing flight."
+    },
+    {
+      "i": 32,
+      "c": "A rescue aircraft left Miami to restore radio contact with the flight. The attempt failed."
+    },
+    {
+      "i": 33,
+      "c": "Rescuers heard unclear conversation between the lost aircraft and recognized one aircraft’s radio identifier."
+    },
+    {
+      "i": 34,
+      "c": "Radar detected four to six aircraft. They were never identified as Flight 19."
+    },
+    {
+      "i": 35,
+      "c": "One aircraft called the flight leader without an answer. This was the last logged call."
+    },
+    {
+      "i": 36,
+      "c": "A Mariner search aircraft left Banana River with thirteen crew members and trainees aboard."
+    },
+    {
+      "i": 37,
+      "c": "The Mariner sent its departure report. No later communication from it was confirmed."
+    },
+    {
+      "i": 38,
+      "c": "A tanker saw an apparent explosion and flames, linked to the Mariner’s radar disappearance. The cause remains unknown."
+    },
+    {
+      "i": 39,
+      "c": "After Flight 19’s last call, a search aircraft encountered low clouds, showers, turbulent air, and rough seas."
+    },
+    {
+      "i": 40,
+      "c": "The Mariner missed its first hourly position report. A radio operator then tried to contact it."
+    },
+    {
+      "i": 41,
+      "c": "The tanker’s explosion report arrived. It also described oil on the water and no survivors found."
+    },
+    {
+      "i": 42,
+      "c": "The rescue duty officer was told the Mariner was overdue and could not be reached."
+    },
+    {
+      "i": 43,
+      "c": "Search aircraft began leaving Fort Lauderdale at dawn. Searches over sea and land did not find Flight 19."
+    },
+    {
+      "i": 44,
+      "c": "The inquiry opened in Miami. It later blamed navigation errors and poor judgment, while identifying rescue failures."
+    },
+    {
+      "i": 45,
+      "c": "The search was to end after the afternoon’s flights. It was closed that night."
+    },
+    {
+      "i": 46,
+      "c": "The Navy approved the findings and recommended frequent rescue drills to improve coordination."
+    },
+    {
+      "i": 47,
+      "c": "The Navy rejected blame against the flight leader and concluded the disappearance’s cause was unknown."
+    },
+    {
+      "i": 48,
+      "c": "The Navy confirmed that the flight leader had been cleared of blame. The cause remained unknown."
+    },
+    {
+      "i": 49,
+      "c": "A researcher withdrew his identification of an Everglades wreck as Flight 19, attributing it to another accident."
+    },
+    {
+      "i": 50,
+      "c": "Flight 19 searchers found a Challenger space shuttle fragment in 2022, rather than either missing flight."
+    },
+    {
+      "i": 51,
+      "c": "By December 2025, no confirmed trace of any of the six aircraft had been found."
+    }
+  ],
+  "numbers": [
+    {
+      "i": 0,
+      "label": "Aircraft in Flight 19",
+      "value": "5"
+    },
+    {
+      "i": 1,
+      "label": "People aboard Flight 19",
+      "value": "14"
+    },
+    {
+      "i": 2,
+      "label": "People aboard the search Mariner",
+      "value": "13"
+    },
+    {
+      "i": 3,
+      "label": "Dead or presumed dead",
+      "value": "27"
+    },
+    {
+      "i": 4,
+      "label": "Planned southwest leg",
+      "value": "120 miles"
+    },
+    {
+      "i": 5,
+      "label": "Avenger wingspan",
+      "value": "About 16.51 meters"
+    },
+    {
+      "i": 6,
+      "label": "Training radio frequency",
+      "value": "4805 kHz"
+    },
+    {
+      "i": 7,
+      "label": "Estimated location area radius",
+      "value": "100 miles"
+    },
+    {
+      "i": 8,
+      "label": "Fuel threshold for planned water landing",
+      "value": "10 gallons"
+    },
+    {
+      "i": 9,
+      "label": "Sunset at Fort Lauderdale",
+      "value": "5:29 p.m. local"
+    },
+    {
+      "i": 10,
+      "label": "Estimated fuel endurance until",
+      "value": "About 8 p.m. local"
+    },
+    {
+      "i": 11,
+      "label": "Mariner launch to reported flames",
+      "value": "About 23 minutes"
+    },
+    {
+      "i": 12,
+      "label": "Mariner fuel at departure",
+      "value": "1,855 U.S. gallons"
+    }
+  ],
+  "one_line": "Five training aircraft disappeared after navigation trouble; a search aircraft was also lost.",
+  "status_why": "The final locations and loss sequence remain unknown. The Navy later cleared the flight leader of blame."
+}

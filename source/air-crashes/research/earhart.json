@@ -1,0 +1,2198 @@
+{
+  "id": "earhart",
+  "title": "Amelia Earhart and Fred Noonan disappearance",
+  "date_utc": "1937-07-02",
+  "one_line": "Earhart and Noonan disappeared after failing to locate Howland Island during their flight from Lae.",
+  "status": "unsolved",
+  "status_why": "As of 7 November 2026, the opened evidence establishes the failed approach and radio contacts but no confirmed final location or fate sequence.",
+  "aircraft": {
+    "type": "Lockheed Model 10-E Electra, specially equipped for long-distance flight",
+    "registration": "NR16020",
+    "operator": "Amelia Earhart, private world-flight expedition",
+    "length_m": 11.76,
+    "wingspan_m": 16.76,
+    "height_m": 3.07,
+    "fuselage_diameter_m": null,
+    "engines": 2,
+    "engine_type": "Pratt & Whitney Wasp S3H1 radial piston engines",
+    "engine_mount": "wing",
+    "wing": "low",
+    "wing_sweep_deg": null,
+    "tail": "twin",
+    "gear": "retractable",
+    "livery_notes": "The 1937 Navy search-planning estimate describes duralumin with orange trim [s6, PDF p.56, item 2]. Broad appearance is silver/metal with dark registration markings in monochrome images. The exact extent and shade of the orange trim are not established. Dimensions use basic Model 10 family geometry, not a survey of NR16020.",
+    "sources": [
+      "s40",
+      "s31",
+      "s32",
+      "s34",
+      "s6"
+    ]
+  },
+  "people": {
+    "aboard": 2,
+    "crew": 2,
+    "passengers": 0,
+    "died": 2,
+    "survived": 0,
+    "sources": [
+      "s6",
+      "s9",
+      "s32"
+    ]
+  },
+  "route": {
+    "from": {
+      "name": "Lae coastal airfield, Territory of New Guinea; approximate old-airfield marker",
+      "code": null,
+      "lat": -6.731667,
+      "lon": 146.996389,
+      "elev_ft": null
+    },
+    "to": {
+      "name": "Howland Island airfield; approximate island marker",
+      "code": null,
+      "lat": 0.816667,
+      "lon": -176.633333,
+      "elev_ft": null
+    },
+    "planned_waypoints": [],
+    "sources": [
+      "s6",
+      "s9",
+      "s29",
+      "s30"
+    ]
+  },
+  "site": {
+    "lat": null,
+    "lon": null,
+    "elev_ft": null,
+    "depth_m": null,
+    "precision": "unknown",
+    "surface": "unknown",
+    "description": "No confirmed accident site. Ocean loss near Howland is the official search inference; a landing on Nikumaroro is an unproved alternative. Neither rejected modern image target is wreckage of NR16020.",
+    "sources": [
+      "s6",
+      "s16",
+      "s18",
+      "s22",
+      "s24"
+    ]
+  },
+  "terrain_box": null,
+  "environment": [
+    {
+      "t_utc": "1937-07-02T00:00Z",
+      "lat": null,
+      "lon": null,
+      "place": "Forecast from Lae toward USS Ontario",
+      "wind_dir_deg": 112.5,
+      "wind_kt": 25,
+      "temp_c": null,
+      "visibility_km": null,
+      "precip": "Forecast local rain squalls about 300 miles east of Lae; scattered heavy showers farther along route.",
+      "turbulence": null,
+      "lightning": null,
+      "sea_state": null,
+      "wave_height_m": null,
+      "cloud_layers": [
+        {
+          "type": "cloud, type unspecified in this forecast",
+          "base_ft": null,
+          "top_ft": null,
+          "coverage": "partly cloudy"
+        }
+      ],
+      "light": null,
+      "moon_note": null,
+      "notes": "Forecast received as departure occurred; not proof of actual flight conditions or crew receipt. ESE converts to 112.5 degrees on the 16-point compass. Cloud bases and tops were not specified. Source printed p.7, PDF p.7.",
+      "quality": "derived",
+      "sources": [
+        "s8"
+      ]
+    },
+    {
+      "t_utc": "1937-07-02T00:00Z",
+      "lat": null,
+      "lon": null,
+      "place": "Forecast from Ontario toward Howland",
+      "wind_dir_deg": null,
+      "wind_kt": 20,
+      "temp_c": null,
+      "visibility_km": null,
+      "precip": "Forecast scattered heavy showers.",
+      "turbulence": null,
+      "lightning": null,
+      "sea_state": null,
+      "wave_height_m": null,
+      "cloud_layers": [
+        {
+          "type": "cloud, type unspecified",
+          "base_ft": null,
+          "top_ft": null,
+          "coverage": "partly cloudy"
+        }
+      ],
+      "light": null,
+      "moon_note": null,
+      "notes": "Second part of the same late forecast. Wind direction was a range, east to east-northeast, so no single angle is assigned. This is a route forecast, not a measured wind at a track point.",
+      "quality": "reported",
+      "sources": [
+        "s8"
+      ]
+    },
+    {
+      "t_utc": "1937-07-02T05:19Z",
+      "lat": null,
+      "lon": null,
+      "place": "Aircraft, position uncertain",
+      "wind_dir_deg": null,
+      "wind_kt": null,
+      "temp_c": null,
+      "visibility_km": null,
+      "precip": null,
+      "turbulence": null,
+      "lightning": null,
+      "sea_state": null,
+      "wave_height_m": null,
+      "cloud_layers": [
+        {
+          "type": "cumulus",
+          "base_ft": null,
+          "top_ft": null,
+          "coverage": "thick banks in Collopy account"
+        }
+      ],
+      "light": null,
+      "moon_note": null,
+      "notes": "At the 1519 Lae receipt, Chater reported cumulus and height 10000 ft. Collopy says thick cumulus prompted an intended descent. Aircraft height is not a measured cloud base or top.",
+      "quality": "reported",
+      "sources": [
+        "s8",
+        "s9"
+      ]
+    },
+    {
+      "t_utc": "1937-07-02T07:18Z",
+      "lat": null,
+      "lon": null,
+      "place": "Aircraft, last Lae reception",
+      "wind_dir_deg": null,
+      "wind_kt": 23,
+      "temp_c": null,
+      "visibility_km": null,
+      "precip": null,
+      "turbulence": null,
+      "lightning": null,
+      "sea_state": null,
+      "wave_height_m": null,
+      "cloud_layers": [
+        {
+          "type": "cumulus",
+          "base_ft": null,
+          "top_ft": null,
+          "coverage": null
+        }
+      ],
+      "light": null,
+      "moon_note": null,
+      "notes": "Chater reports being above cumulus and a wind speed of 23 knots, with no wind direction. Collopy gives a different height. No measured temperature, visibility, turbulence or cloud profile survives in these accounts.",
+      "quality": "reported",
+      "sources": [
+        "s8",
+        "s9"
+      ]
+    },
+    {
+      "t_utc": null,
+      "lat": null,
+      "lon": null,
+      "place": "Nauru weather report relayed to Lae",
+      "wind_dir_deg": 90,
+      "wind_kt": null,
+      "temp_c": null,
+      "visibility_km": null,
+      "precip": null,
+      "turbulence": null,
+      "lightning": null,
+      "sea_state": "smooth",
+      "wave_height_m": null,
+      "cloud_layers": [
+        {
+          "type": "CI (cirrus)",
+          "base_ft": null,
+          "top_ft": null,
+          "coverage": null
+        },
+        {
+          "type": "CI STR (cirrostratus)",
+          "base_ft": null,
+          "top_ft": null,
+          "coverage": null
+        },
+        {
+          "type": "CU (cumulus)",
+          "base_ft": null,
+          "top_ft": null,
+          "coverage": null
+        },
+        {
+          "type": "CUMI (source code, interpretation unresolved)",
+          "base_ft": null,
+          "top_ft": null,
+          "coverage": null
+        }
+      ],
+      "light": null,
+      "moon_note": null,
+      "notes": "Source printed p.7 reports Nauru 8 a.m. upper winds from 090 degrees: 14 mph at 2000 ft, 12 mph at 4000 ft, 24 mph at 7500 ft. Using 1 knot = 1.150779448 mph gives about 12.2, 10.4 and 20.9 knots. They are three levels, so the single wind-speed field is null. The exact observation date/time conversion is unresolved here. Surface code easterly 3 and thermometer 83 lack explicit units in the reproduced message; no numerical conversions assigned. These are not observations aboard the aircraft.",
+      "quality": "derived",
+      "sources": [
+        "s8"
+      ]
+    },
+    {
+      "t_utc": null,
+      "lat": 0.816667,
+      "lon": -176.633333,
+      "place": "Howland vicinity, morning of July 2",
+      "wind_dir_deg": 90,
+      "wind_kt": null,
+      "temp_c": null,
+      "visibility_km": null,
+      "precip": null,
+      "turbulence": null,
+      "lightning": null,
+      "sea_state": "smooth",
+      "wave_height_m": null,
+      "cloud_layers": [
+        {
+          "type": "heavy cumulus banks north and west beyond horizon",
+          "base_ft": null,
+          "top_ft": null,
+          "coverage": null
+        }
+      ],
+      "light": "day",
+      "moon_note": null,
+      "notes": "Thompson's description before the 1040 departure: clear bright sunrise, excellent conditions within about 40 miles, unlimited ceiling, smooth sea. Heavy cumulus banks lay beyond the north/west horizon; south/east visibility was described as unlimited. Wind east 8–13 miles has an unspecified mile unit and is not reduced to a single knot value. No exact observation instant, cloud height or measured kilometre visibility assigned. This is weather at the cutter, not proof of weather at the aircraft.",
+      "quality": "reported",
+      "sources": [
+        "s7"
+      ]
+    },
+    {
+      "t_utc": null,
+      "lat": null,
+      "lon": null,
+      "place": "Phoenix Islands search area, July 7–11",
+      "wind_dir_deg": null,
+      "wind_kt": null,
+      "temp_c": null,
+      "visibility_km": null,
+      "precip": "Widely scattered small tropical rain squalls.",
+      "turbulence": null,
+      "lightning": null,
+      "sea_state": "calm to moderate; moderate northeasterly swell and few whitecaps",
+      "wave_height_m": null,
+      "cloud_layers": [
+        {
+          "type": "thin cloud, type unspecified, reported at 2000 ft",
+          "base_ft": null,
+          "top_ft": null,
+          "coverage": "scattered"
+        }
+      ],
+      "light": "day",
+      "moon_note": null,
+      "notes": "Search-period weather only. Lambrecht reports scattered thin clouds at 2000 ft, unlimited ceiling, visibility 30 miles with unspecified mile convention, NE-to-E winds 13–15 knots, stronger/more easterly at 1000 ft. Cloud height is not explicitly a base, so base/top fields remain null. These conditions must not be copied onto July 2.",
+      "quality": "reported",
+      "sources": [
+        "s11"
+      ]
+    }
+  ],
+  "track": [
+    {
+      "t_utc": "1937-07-02T00:00Z",
+      "lat": -6.731667,
+      "lon": 146.996389,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "reported",
+      "method": "Departure at 1000 Lae (UTC+10). Coordinates mark the old airfield approximately, converted from the geographic reference, not a logged aircraft fix. No runway-end or takeoff altitude assigned.",
+      "sources": [
+        "s6",
+        "s9",
+        "s29"
+      ],
+      "locator": "s6 paragraph 1, PDF p.2; s9 departure; s29 Location"
+    },
+    {
+      "t_utc": "1937-07-02T04:18Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 7000,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "reported",
+      "method": "Chater relays height 7000 ft and speed 140 knots. Speed is not identified as IAS, TAS or groundspeed, so both speed fields remain null. Subtract ten hours from Lae receipt time.",
+      "sources": [
+        "s8"
+      ],
+      "locator": "Printed p.8, PDF p.9: 2.18 p.m. Lae"
+    },
+    {
+      "t_utc": "1937-07-02T05:19Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 10000,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "reported",
+      "method": "Chater relays height 10000 ft and notation 150.7 east, 7.3 south. Coordinate interpretation and message accuracy are unresolved; no geographic point plotted. Collopy also reports 10000 ft around 3 p.m. and a planned descent.",
+      "sources": [
+        "s8",
+        "s9"
+      ],
+      "locator": "s8 printed p.8, PDF p.9; s9 approximately 3 p.m. report"
+    },
+    {
+      "t_utc": "1937-07-02T07:18Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 8000,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "reported",
+      "method": "Chater's 5.18 p.m. receipt: height 8000 ft, notation 4.33 south, 159.7 east. Receipt time need not be fix time. Notation and alternative longitude/altitude conflict; latitude and longitude left null. Collopy instead gives about 5 p.m., 7000 ft and 150 knots.",
+      "sources": [
+        "s8",
+        "s9",
+        "s12"
+      ],
+      "locator": "s8 printed p.8, PDF p.9; s9 final Lae message; s12 page055–056"
+    },
+    {
+      "t_utc": "1937-07-02T07:20Z",
+      "lat": -4.55,
+      "lon": 159.1,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "reported",
+      "method": "A later official summary renders the last Lae position as 4°33′S, 159°06′E at 0720 GCT. Converted with decimal degrees = degrees + minutes/60 and south negative. This is a conflicting rendering of the preceding Lae report, not a second confirmed fix or new observed flight segment. Actual position remains uncertain; do not interpolate through it.",
+      "sources": [
+        "s6",
+        "s8",
+        "s12"
+      ],
+      "locator": "Noyes July 29 report, paragraph 13, PDF p.89, printed p.3; compare planning estimate PDF p.57, item 15"
+    },
+    {
+      "t_utc": "1937-07-02T17:45Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "recorded",
+      "method": "Operator logs a crew estimate of about 200 miles out, without bearing or a specified mile unit. Timestamp uses the dedicated log's 0615; another operator logs it two minutes earlier. This is a range statement, not a fix.",
+      "sources": [
+        "s2",
+        "s4",
+        "s10"
+      ],
+      "locator": "Position 2 p.2, 0614–0615; position 1 p.2, 0612–0613"
+    },
+    {
+      "t_utc": "1937-07-02T18:16Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "recorded",
+      "method": "Crew requests a bearing and estimates about 100 miles out. No bearing or defined distance unit survives. Uses dedicated log 0646 plus 11:30; no circle intersection or aircraft coordinate calculated.",
+      "sources": [
+        "s2",
+        "s4",
+        "s10"
+      ],
+      "locator": "Position 2 p.2, 0645–0646; position 1 p.2, 0642–0647"
+    },
+    {
+      "t_utc": "1937-07-02T19:12Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 1000,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "recorded",
+      "method": "Logged crew report of flying at 1000 ft while unable to see the island/ship and reporting low fuel. Not instrument-recorded altitude; altimeter setting and error are unknown. Add 11:30 to ship time. No position inferred from signal strength.",
+      "sources": [
+        "s2",
+        "s10"
+      ],
+      "locator": "Position 2 p.2, 0742"
+    },
+    {
+      "t_utc": "1937-07-02T19:28Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "recorded",
+      "method": "Logged statement that the aircraft was circling and could not hear Itasca. No center, radius, bank angle or turning direction is recorded. Add 11:30 to ship time.",
+      "sources": [
+        "s2",
+        "s10"
+      ],
+      "locator": "Position 2 p.2, 0758"
+    },
+    {
+      "t_utc": "1937-07-02T20:13Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "recorded",
+      "method": "Final aircraft message in the original rough log: line 157/337 and planned repeat on 6210 kHz. A line orientation is not a heading or geographic fix. Uses corrected 0843 ship time plus 11:30. The north/south addendum is questioned; the later Lexington report lists it separately at 20:25 UTC. Neither is an impact time.",
+      "sources": [
+        "s3",
+        "s7",
+        "s10",
+        "s12",
+        "s6"
+      ],
+      "locator": "Position 2 p.3, corrected 0843 entry; s7 PDF p.6; s12 page056; s6 Noyes paragraph 13, PDF p.90"
+    }
+  ],
+  "events": [
+    {
+      "t_utc": "1937-07-02T00:00Z",
+      "t_precision": "minute",
+      "title": "Departure from Lae",
+      "detail": "The aircraft left the old coastal airfield with the pilot and navigator. The official search report equates 1000 Lae local time with 0000 UTC on July 2.",
+      "kind": "departure",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s6",
+        "s9"
+      ],
+      "locator": "s6 paragraph 1, PDF p.2; s9 opening and takeoff account"
+    },
+    {
+      "t_utc": "1937-07-02T00:00Z",
+      "t_precision": "minute",
+      "title": "Late weather reaches Lae",
+      "detail": "Chater says new weather information arrived as the aircraft was taking off. It forecast stronger easterly winds and local rain squalls; later radio broadcasts do not prove that the crew received it.",
+      "kind": "weather",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s8"
+      ],
+      "locator": "Printed p.7, PDF p.7; receipt as takeoff occurred"
+    },
+    {
+      "t_utc": "1937-07-02T04:18Z",
+      "t_precision": "minute",
+      "title": "First clear Lae report",
+      "detail": "Chater records a relayed height of 7000 feet and speed of 140 knots. The kind of speed was not specified.",
+      "kind": "atc",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s8"
+      ],
+      "locator": "Printed p.8, PDF p.9, 2.18 p.m. local"
+    },
+    {
+      "t_utc": "1937-07-02T05:19Z",
+      "t_precision": "minute",
+      "title": "Cumulus and altitude report",
+      "detail": "Chater gives 10000 feet and a questionable coordinate notation. Collopy says a descent was intended because of thick cumulus.",
+      "kind": "weather",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s8",
+        "s9"
+      ],
+      "locator": "s8 printed p.8; s9 approximately 3 p.m. message"
+    },
+    {
+      "t_utc": "1937-07-02T07:18Z",
+      "t_precision": "minute",
+      "title": "Last report heard at Lae",
+      "detail": "Chater gives 8000 feet, above cumulus, and wind 23 knots. The report's coordinates and Collopy's different altitude are retained as conflicts.",
+      "kind": "atc",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s8",
+        "s9",
+        "s12"
+      ],
+      "locator": "s8 printed p.8; s9 approximately 5 p.m.; s12 page055–056"
+    },
+    {
+      "t_utc": "1937-07-02T10:30Z",
+      "t_precision": "minute",
+      "title": "Nauru relays ship sighting",
+      "detail": "A July 3 Sydney telegram says Nauru had heard a ship-in-sight report at 2030 Sydney time on July 2. It identifies Myrtlebank retrospectively; this does not establish an aircraft position or a visual identification of the aircraft from Nauru.",
+      "kind": "witness",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s6",
+        "s33"
+      ],
+      "locator": "Printed p.318, PDF p.33, record 2358 and compiler's Sydney UTC+10 conversion; s6 planning estimate, PDF p.57, item 17, also lists 1030 GCT Nauru ship report"
+    },
+    {
+      "t_utc": "1937-07-02T14:15Z",
+      "t_precision": "minute",
+      "title": "Itasca hears unreadable voice",
+      "detail": "The dedicated operator attributed a signal through static to the Earhart aircraft during 0245–0248 ship time. No useful position was obtained.",
+      "kind": "atc",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s1",
+        "s10"
+      ],
+      "locator": "Position 2 p.1, 0245–0248; UTC gives the start of the logged interval"
+    },
+    {
+      "t_utc": "1937-07-02T15:15Z",
+      "t_precision": "minute",
+      "title": "Listening schedule heard",
+      "detail": "The log records that Earhart would listen on the hour and half hour on 3105 kHz. Receipt times vary slightly between operators and later summaries.",
+      "kind": "atc",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s2",
+        "s4",
+        "s10"
+      ],
+      "locator": "Position 2 p.2, 0345; position 1 p.2"
+    },
+    {
+      "t_utc": "1937-07-02T16:23Z",
+      "t_precision": "minute",
+      "title": "Partly cloudy fragment logged",
+      "detail": "The dedicated log associates a partly-cloudy fragment with reception during 0453–0500 ship time. The other operator describes unreadable reception; later accounts expanded the weather description.",
+      "kind": "weather",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s2",
+        "s4",
+        "s7"
+      ],
+      "locator": "Position 2 p.2, 0453–0500; position 1 p.2, 0455"
+    },
+    {
+      "t_utc": "1937-07-02T17:44Z",
+      "t_precision": "minute",
+      "title": "Crew asks for radio bearing",
+      "detail": "Earhart asked for a bearing on 3105 kHz and said she would whistle into the microphone. The next entry estimates a distance of about 200 miles.",
+      "kind": "crew_action",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s2",
+        "s4",
+        "s10"
+      ],
+      "locator": "Position 2 p.2, 0614–0615; position 1 p.2, 0612–0613"
+    },
+    {
+      "t_utc": "1937-07-02T18:15Z",
+      "t_precision": "minute",
+      "title": "Another bearing request",
+      "detail": "The crew asked Itasca to take a bearing and report it in half an hour. The following entry says about 100 miles out, without a direction.",
+      "kind": "crew_action",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s2",
+        "s4",
+        "s10"
+      ],
+      "locator": "Position 2 p.2, 0645–0646"
+    },
+    {
+      "t_utc": "1937-07-02T18:48Z",
+      "t_precision": "minute",
+      "title": "Itasca explains bearing limitation",
+      "detail": "Itasca transmitted that it could not take a bearing well on 3105 and requested 500 kHz, or asked whether Earhart wanted to take a bearing on the ship. The log gives no answer.",
+      "kind": "system",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s2",
+        "s10"
+      ],
+      "locator": "Position 2 p.2, 0718"
+    },
+    {
+      "t_utc": "1937-07-02T19:10Z",
+      "t_precision": "minute",
+      "title": "Fuel warning differs between logs",
+      "detail": "The general-purpose log records a claim of only half an hour of fuel left at 0740. The dedicated log at 0742 instead says fuel was running low, so a precise fuel reserve cannot be recovered from this evidence.",
+      "kind": "atc",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s5",
+        "s2",
+        "s10"
+      ],
+      "locator": "Position 1 p.3, 0740; position 2 p.2, 0742"
+    },
+    {
+      "t_utc": "1937-07-02T19:12Z",
+      "t_precision": "minute",
+      "title": "Island remains out of sight",
+      "detail": "Earhart reported believing they were near the ship but could not see it, and gave 1000 feet as their altitude. Itasca logged a strong signal but had no aircraft position.",
+      "kind": "atc",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s2",
+        "s10"
+      ],
+      "locator": "Position 2 p.2, 0742–0746"
+    },
+    {
+      "t_utc": "1937-07-02T19:28Z",
+      "t_precision": "minute",
+      "title": "Circling and requesting a signal",
+      "detail": "Earhart reported circling and asked for a signal on 7500 kHz. Itasca transmitted on that frequency.",
+      "kind": "crew_action",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s2",
+        "s10"
+      ],
+      "locator": "Position 2 p.2, 0758"
+    },
+    {
+      "t_utc": "1937-07-02T19:30Z",
+      "t_precision": "minute",
+      "title": "Signal heard but bearing fails",
+      "detail": "The original log records that the aircraft received the ship's signals but could not obtain a minimum for direction finding. Itasca again requested transmissions that its own equipment could use.",
+      "kind": "system",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s2",
+        "s7",
+        "s10"
+      ],
+      "locator": "Position 2 p.2 bottom, 0800–0803; s7 PDF p.5; time marks start of interval"
+    },
+    {
+      "t_utc": "1937-07-02T20:13Z",
+      "t_precision": "minute",
+      "title": "Final call in the rough log",
+      "detail": "The original rough log gives a 157/337 line and a planned repeat on 6210 kHz, without a reference point. It places a questioned north/south addendum with that entry; the later Lexington report separates a 20:25 UTC call, so the chronology is disputed.",
+      "kind": "disappearance",
+      "quote": "WE ARE ON THE LINE 157 337",
+      "quote_speaker": "Pilot, as entered in the official radio log",
+      "quality": "recorded",
+      "sources": [
+        "s3",
+        "s7",
+        "s10",
+        "s12"
+      ],
+      "locator": "Position 2 p.3, corrected 0843 entry; later 0855 dispatch in s12 page056"
+    },
+    {
+      "t_utc": "1937-07-02T20:14Z",
+      "t_precision": "minute",
+      "title": "Itasca listens on another frequency",
+      "detail": "Operators listened on 6210 kHz and tried to keep Earhart on 3105. No further intelligible aircraft reply appears in these entries.",
+      "kind": "atc",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s3",
+        "s10"
+      ],
+      "locator": "Position 2 p.3, 0844–0848; first minute of interval used"
+    },
+    {
+      "t_utc": "1937-07-02T20:25Z",
+      "t_precision": "minute",
+      "title": "Later report lists another call",
+      "detail": "Noyes' July 29 Lexington report separately lists a north/south message at 20:25 UTC. The original rough log instead puts a questioned addendum with its 20:13 entry; this later-report event is retained as a conflict, not confirmation of an additional transmission.",
+      "kind": "atc",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s6",
+        "s3",
+        "s12"
+      ],
+      "locator": "s6 paragraph 13, PDF p.90, printed p.4; original log position 2 p.3; s12 page056"
+    },
+    {
+      "t_utc": "1937-07-02T22:10Z",
+      "t_precision": "minute",
+      "title": "Itasca begins sea search",
+      "detail": "At 1040 ship time Itasca left its homing position to search. Its initial northern search sector followed assumptions about visibility and navigation, not a measured aircraft track.",
+      "kind": "search",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s7",
+        "s10"
+      ],
+      "locator": "s7 PDF p.6, printed p.5, and assumptions PDF p.7; ship UTC−11:30"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Unverified signals influence the search",
+      "detail": "During July 3–6, reported distress signals prompted searches west and north of Howland and later toward the Phoenix Islands. A report placing the aircraft 281 miles north was not a verified fix.",
+      "kind": "search",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s6",
+        "s7",
+        "s10"
+      ],
+      "locator": "s6 paragraph 19; s7 July 3–7 narrative; no single UTC event time established"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Gardner receives an aerial search",
+      "detail": "On July 9, three Colorado aircraft searched Gardner, now Nikumaroro. Lambrecht described signs of recent habitation, but repeated circling brought no response and no Electra was identified.",
+      "kind": "search",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s11",
+        "s10"
+      ],
+      "locator": "s11 July 9 morning-flight account; s10 July 9 account; local overflight time not converted"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "The official search ends",
+      "detail": "The Navy search ended on July 18. The report inferred the fliers were lost at sea after searching several competing areas; it recovered neither the aircraft nor its occupants.",
+      "kind": "finding",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s6"
+      ],
+      "locator": "Murfin paragraphs 14 and 19, PDF pp.6–8; date known, UTC hour not assigned"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "A reef object is photographed",
+      "detail": "On October 15, 1937, a photograph recorded an object near Gardner's northwest reef. Its later interpretation as Electra landing gear is disputed and is not a recovered component.",
+      "kind": "investigation",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s17"
+      ],
+      "locator": "Photograph date and later Glickman/Daspit analysis; no UTC photo time established"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "A captivity allegation is filed",
+      "detail": "A January 7, 1939 intelligence report preserved an anonymous bottle-message allegation about the Marshalls. Recording the allegation did not verify its author or identify the missing crew.",
+      "kind": "investigation",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s27"
+      ],
+      "locator": "Original scanned report pp.1–3; no UTC time known"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Bones found on Gardner",
+      "detail": "In 1940, colonial officials investigated a partial skeleton and associated objects found on Gardner. The discovery was real, but its exact location and personal identity were not established to modern standards.",
+      "kind": "discovery",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s15",
+        "s13",
+        "s14"
+      ],
+      "locator": "s15 inquiry entries; s13 introduction; discovery date within 1940 not fixed here"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Hoodless examines the remains",
+      "detail": "On April 4, 1941, the Suva examiner assessed the remains as male. The report and some measurements survive; the bones have not been located for modern testing.",
+      "kind": "finding",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s15"
+      ],
+      "locator": "Entry 42, report paragraphs 2–9, and 42B measurements"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Japan reports a negative investigation",
+      "detail": "A Tokyo-to-State telegram dated August 10, 1960 says Japan's investigation found no basis for execution-on-Saipan allegations. This weakens that claim but does not locate the aircraft.",
+      "kind": "finding",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s26"
+      ],
+      "locator": "PDF p.6, telegram 445, August 10, 1960"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Anthropologists defend the original assessment",
+      "detail": "Cross and Wright's 2015 paper preferred Hoodless' male identification over the 1998 reassessment. They also acknowledged that missing bones prevented a definitive answer.",
+      "kind": "finding",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s14"
+      ],
+      "locator": "Journal of Archaeological Science: Reports 3:52–59, conclusion"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Jaluit photograph predates the flight",
+      "detail": "In July 2017, a library publication date showed that the photograph used to support a captivity claim had appeared in a 1935 book. It cannot depict the missing crew after July 1937.",
+      "kind": "finding",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s28"
+      ],
+      "locator": "July 11 article, National Diet Library publication-date discussion"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Jantz publishes a different bone analysis",
+      "detail": "The 2018 study found close similarity between surviving bone measurements and estimates of Earhart's proportions. It provided statistical support for the castaway hypothesis, not a DNA or individual identification.",
+      "kind": "finding",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s13"
+      ],
+      "locator": "Methods and comparisons, pp.2–3 and 11–14"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Sextant-box evidence changes",
+      "detail": "In October 2018, archival research connected the relevant sextant number with USS Bushnell. A TIGHAR archaeologist acknowledged that this weakened his earlier attribution of the box to Noonan.",
+      "kind": "finding",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s35",
+        "s36"
+      ],
+      "locator": "Kada October 26 post; King October 27 response"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Ballard search finds no aircraft parts",
+      "detail": "The August 2019 expedition searched Nikumaroro's reef slopes and deeper areas without identifying Electra components. Its published account explicitly leaves some areas and the wider hypothesis unresolved.",
+      "kind": "search",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s18"
+      ],
+      "locator": "Printed pp.44–45, PDF pp.48–49"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Sonar target attracts attention",
+      "detail": "In January 2024, Deep Sea Vision publicized a target from its 2023 survey and suggested it could be the Electra. The sonar shape alone did not establish an aircraft identity.",
+      "kind": "investigation",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s21",
+        "s19"
+      ],
+      "locator": "January 30 NPR interview; Nauticos January 28 statement"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Sonar target proves to be rock",
+      "detail": "In November 2024, Deep Sea Vision reported that its target was a natural rock formation. The widely circulated January image is not a verified Electra wreck.",
+      "kind": "finding",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s22"
+      ],
+      "locator": "November 25 NPR report of company update; direct company social-media post could not be retrieved"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Purdue backs a lagoon inspection",
+      "detail": "On July 2, 2025, PRF and ALI proposed an expedition to test whether the Taraia image anomaly was aircraft wreckage. Permitting and seasonal considerations postponed the proposed 2025 work until 2026; the announcement itself was not a discovery.",
+      "kind": "investigation",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s23",
+        "s42"
+      ],
+      "locator": "July 2 announcement, planned November 2025 work; s42 September 28, 2026 update, postponement paragraph"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "More archival records become available",
+      "detail": "National Archives released digitized files in November and December 2025, followed by January 2026 additions. The release index supplies access to historical evidence, not a finding of a new crash site.",
+      "kind": "investigation",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s25"
+      ],
+      "locator": "Release schedule and file index; several separate release dates"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Taraia aircraft claim fails field inspection",
+      "detail": "The expedition's October 2026 statement said the anomaly was likely large trees with a carbonate coating. Other recovered objects were not authenticated as Electra parts; the sponsors continue to support the broader castaway hypothesis.",
+      "kind": "finding",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s24"
+      ],
+      "locator": "Page dated October 18, 2026 U.S.; announcement October 19 local Nikumaroro; no exact UTC announcement time"
+    }
+  ],
+  "perspectives": [
+    {
+      "id": "crash_and_sink",
+      "label": "Fuel exhaustion near Howland",
+      "held_by": "1937 U.S. Navy search command; Elgen Long; Nauticos and its radio-analysis team",
+      "standing": "official finding",
+      "claim": "The crew failed to find Howland, exhausted usable fuel and came down in the ocean. The 1937 search report inferred loss at sea; Long and Nauticos later developed more specific endurance and search-area reconstructions that remain unconfirmed.",
+      "evidence_for": [
+        {
+          "text": "Official logs record low fuel, failure to see the destination, and strong signals during the last contacts.",
+          "sources": [
+            "s2",
+            "s3",
+            "s5"
+          ]
+        },
+        {
+          "text": "Nauticos argues its reconstructed radio tests favor a position near Howland and insufficient endurance to reach Nikumaroro.",
+          "sources": [
+            "s19",
+            "s20"
+          ]
+        },
+        {
+          "text": "Murfin's final search summary concluded that the fliers had been lost at sea after several areas were searched without success.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Nauticos' 2017 mission announcement names Elgen Long on its near-Howland search team, building on earlier ocean-floor expeditions.",
+          "sources": [
+            "s41"
+          ]
+        }
+      ],
+      "evidence_against": [
+        {
+          "text": "Neither the wreck nor remains have been identified. Negative sonar searches constrain particular areas, not every possible ocean position.",
+          "sources": [
+            "s19",
+            "s22",
+            "s25"
+          ]
+        },
+        {
+          "text": "No final fuel measurement, reliable final geographic fix or impact time exists. The half-hour fuel wording is not uniform across the logs.",
+          "sources": [
+            "s2",
+            "s3",
+            "s5"
+          ]
+        },
+        {
+          "text": "TIGHAR argues a longer endurance and treats some later signals as authentic; this would permit a reef landing, but those interpretations are disputed.",
+          "sources": [
+            "s16",
+            "s20"
+          ]
+        },
+        {
+          "text": "The Navy's own 1937 planning estimate offered different endurance assumptions, including 24 hours under optimum management. These were estimates, not an aircraft fuel record.",
+          "sources": [
+            "s6"
+          ]
+        }
+      ],
+      "ending": {
+        "lat": null,
+        "lon": null,
+        "t_utc": null,
+        "description": "An unobserved ditching or crash in the ocean after the accepted transmissions; location, time, attitude, survival interval and sinking depth unknown."
+      },
+      "track_override": []
+    },
+    {
+      "id": "nikumaroro",
+      "label": "Nikumaroro reef landing",
+      "held_by": "TIGHAR, including Ric Gillespie and Thomas King; Richard Jantz for the bone interpretation; ALI and PRF expedition proponents",
+      "standing": "minority",
+      "claim": "The aircraft continued southeast and landed on Gardner's reef, leaving the crew as castaways. Documentary, radio, archaeological and photographic arguments make this a serious investigated alternative, but no recovered item has established that the crew or aircraft was there.",
+      "evidence_for": [
+        {
+          "text": "The last 157/337 line permits a southeast search for land, and Friedell considered that direction logical. The Navy planning estimate also lists a 24-hour optimum endurance, but neither statement proves that route or fuel reserve was achieved.",
+          "sources": [
+            "s3",
+            "s10",
+            "s6"
+          ]
+        },
+        {
+          "text": "A partial skeleton was genuinely found in 1940. Jantz's 2018 analysis finds similarity to estimates of Earhart's bone lengths, challenging the original male assessment.",
+          "sources": [
+            "s15",
+            "s13"
+          ]
+        },
+        {
+          "text": "TIGHAR interprets the Bevington reef object as landing gear and some reported post-loss signals as transmissions from a landed aircraft.",
+          "sources": [
+            "s17",
+            "s16"
+          ]
+        },
+        {
+          "text": "Lambrecht described signs of recent habitation during the July 9 search. Proponents also cite shoes, containers and personal-care artifacts, without an established personal ownership link.",
+          "sources": [
+            "s11",
+            "s24"
+          ]
+        }
+      ],
+      "evidence_against": [
+        {
+          "text": "Hoodless examined the bones directly and assessed male; Cross and Wright defended that assessment. Jantz used surviving measurements and estimated proportions, not the bones themselves or DNA. Similarity ranking is not a 99% probability of identity.",
+          "sources": [
+            "s15",
+            "s14",
+            "s13"
+          ]
+        },
+        {
+          "text": "The aircraft radio log gives no known southeast heading or position, and the longer fuel endurance required for this route conflicts with Nauticos' interpretation.",
+          "sources": [
+            "s3",
+            "s16",
+            "s20"
+          ]
+        },
+        {
+          "text": "The 1937 overflight identified no aircraft or people. Ballard's 2019 search found no Electra components, while acknowledging incomplete coverage.",
+          "sources": [
+            "s11",
+            "s18"
+          ]
+        },
+        {
+          "text": "The tiny Bevington image does not uniquely identify a gear assembly. Nearby Norwich City wreckage gives another source of debris; no photographed component has been recovered and identified.",
+          "sources": [
+            "s17",
+            "s18"
+          ]
+        },
+        {
+          "text": "The sextant number has an alternative documented connection to USS Bushnell; King acknowledged this undercut his earlier Noonan attribution.",
+          "sources": [
+            "s35",
+            "s36"
+          ]
+        },
+        {
+          "text": "The 2026 field inspection rejected the Taraia Object as aircraft wreckage. This refutes that particular target, without proving the crew never reached the island.",
+          "sources": [
+            "s24"
+          ]
+        }
+      ],
+      "ending": {
+        "lat": null,
+        "lon": null,
+        "t_utc": null,
+        "description": "Hypothesized reef landing north of Norwich City, subsequent radio attempts and castaway deaths. No measured touchdown point or defensible UTC landing/death time; the island marker in evidence_points is not a flight fix."
+      },
+      "track_override": []
+    },
+    {
+      "id": "japanese_capture",
+      "label": "Japanese capture",
+      "held_by": "Fred Goerner and later proponents including Mike Campbell; a separate 2017 History Channel photograph claim",
+      "standing": "rejected",
+      "claim": "Variants propose a landing in the Marshall Islands, Japanese custody and deaths on Saipan, sometimes with a secret mission or cover-up. The official investigations did not substantiate these claims, and the best-known photographic claim predates the disappearance.",
+      "evidence_for": [
+        {
+          "text": "Advocates rely mainly on retrospective island and military witness stories and alleged documents; Campbell states the case in his own position statement.",
+          "sources": [
+            "s37"
+          ]
+        },
+        {
+          "text": "A 1939 intelligence file preserves an earlier captivity allegation from an anonymous bottle message. This establishes that the allegation circulated, not that it was true.",
+          "sources": [
+            "s27"
+          ]
+        }
+      ],
+      "evidence_against": [
+        {
+          "text": "The 1960 State Department telegram reports that Japanese records searches and interviews found no basis for the Saipan execution allegation.",
+          "sources": [
+            "s26"
+          ]
+        },
+        {
+          "text": "No validated aircraft part, identifiable remains or contemporaneous custody record in the opened sources establishes the claimed capture.",
+          "sources": [
+            "s26",
+            "s27",
+            "s28"
+          ]
+        },
+        {
+          "text": "The Jaluit photograph promoted in 2017 was published in a 1935 book, so it cannot show a post-disappearance detention.",
+          "sources": [
+            "s28"
+          ]
+        },
+        {
+          "text": "The accepted in-flight evidence is a radio-navigation problem approaching Howland; it records no diversion or mission to Japanese territory.",
+          "sources": [
+            "s2",
+            "s3"
+          ]
+        }
+      ],
+      "ending": {
+        "lat": null,
+        "lon": null,
+        "t_utc": null,
+        "description": "Unverified Marshalls landing and transfer to Saipan; no sourced flight path, landing point or captivity chronology can be rendered as an actual track."
+      },
+      "track_override": []
+    },
+    {
+      "id": "taraia_object",
+      "label": "Taraia lagoon aircraft claim",
+      "held_by": "Archaeological Legacy Institute and Purdue Research Foundation expedition proponents, 2025–2026",
+      "standing": "rejected",
+      "claim": "The Taraia Object was proposed as Electra wreckage carried into Nikumaroro's lagoon. The 2026 expedition tested the proposal and reported that the anomaly was likely tree debris with a carbonate veneer.",
+      "evidence_for": [
+        {
+          "text": "The 2025 proposal used the apparent shape and reflectivity of an image anomaly as a reason to inspect it.",
+          "sources": [
+            "s23"
+          ]
+        }
+      ],
+      "evidence_against": [
+        {
+          "text": "The expedition's own October 2026 statement rejected the aircraft interpretation after field inspection. Other finds had not been identified as Electra parts.",
+          "sources": [
+            "s24"
+          ]
+        }
+      ],
+      "ending": {
+        "lat": null,
+        "lon": null,
+        "t_utc": null,
+        "description": "No surviving aircraft-ending reconstruction follows from this rejected object. It was a proposed later debris deposit, not a recorded touchdown site."
+      },
+      "track_override": []
+    }
+  ],
+  "evidence_points": [
+    {
+      "lat": -6.731667,
+      "lon": 146.996389,
+      "label": "Old Lae airfield",
+      "detail": "Approximate geographic marker converted from Pacific Wrecks' DMS coordinates. Confirmed departure place; not a measured aircraft fix or runway endpoint.",
+      "kind": "landmark",
+      "date": "1937-07-02",
+      "quality": "derived",
+      "sources": [
+        "s29",
+        "s9"
+      ]
+    },
+    {
+      "lat": 0.816667,
+      "lon": -176.633333,
+      "label": "Howland intended destination",
+      "detail": "Approximate island marker from the USFWS plan, not the Electra's final position or Itasca's exact station. Coordinates converted from 0°49′N, 176°38′W.",
+      "kind": "landmark",
+      "date": "1937-07-02",
+      "quality": "derived",
+      "sources": [
+        "s30",
+        "s6"
+      ]
+    },
+    {
+      "lat": -1.666667,
+      "lon": 166.75,
+      "label": "Reported Myrtlebank position",
+      "detail": "The Navy search-planning estimate places the ship approximately at 1°40′S, 166°45′E, converted to decimal degrees. No exact position time is supplied. This is a ship marker relevant to the Nauru report, not a position of the Electra or proof of which ship was seen.",
+      "kind": "witness",
+      "date": "1937-07-02",
+      "quality": "reported",
+      "sources": [
+        "s6",
+        "s33"
+      ]
+    },
+    {
+      "lat": -4.672,
+      "lon": -174.526,
+      "label": "Nikumaroro hypothesis area",
+      "detail": "Broad island-center marker from the Kiribati nomination image. It locates a searched atoll; it is not a landing, wreck, bone-find or Seven Site coordinate.",
+      "kind": "search_area",
+      "date": null,
+      "quality": "reported",
+      "sources": [
+        "s38",
+        "s16",
+        "s18"
+      ]
+    },
+    {
+      "lat": null,
+      "lon": null,
+      "label": "1940 skeletal discovery",
+      "detail": "Partial skeleton recorded by colonial officials on Gardner. Precise find spot, present whereabouts and individual identity remain unresolved; no grave marker is placed.",
+      "kind": "grave",
+      "date": "1940",
+      "quality": "reported",
+      "sources": [
+        "s15",
+        "s13",
+        "s14"
+      ]
+    },
+    {
+      "lat": null,
+      "lon": null,
+      "label": "Bevington reef object",
+      "detail": "Small object in an October 15, 1937 photograph. Landing-gear interpretation is disputed; no precise object coordinate is assigned from the photograph here.",
+      "kind": "witness",
+      "date": "1937-10-15",
+      "quality": "reported",
+      "sources": [
+        "s17",
+        "s18"
+      ]
+    },
+    {
+      "lat": null,
+      "lon": null,
+      "label": "Deep Sea Vision sonar target",
+      "detail": "Target from a 2023 survey, publicized January 2024 and rejected as natural rock in November 2024. It is not authenticated debris; exact coordinates were not obtained.",
+      "kind": "search_area",
+      "date": "2024-11",
+      "quality": "reported",
+      "sources": [
+        "s21",
+        "s22"
+      ]
+    },
+    {
+      "lat": null,
+      "lon": null,
+      "label": "Taraia Object inspection",
+      "detail": "Lagoon anomaly inspected in October 2026 and reported as likely tree material with a carbonate coating. No exact survey coordinate or Electra identification is supplied by the result statement.",
+      "kind": "search_area",
+      "date": "2026-10",
+      "quality": "reported",
+      "sources": [
+        "s24"
+      ]
+    }
+  ],
+  "witnesses": [
+    {
+      "who": "District Superintendent of Civil Aviation at Lae",
+      "lat": -6.731667,
+      "lon": 146.996389,
+      "said": "Paraphrase of August 28 account: witnessed the loaded departure; the aircraft remained low over the sea after leaving the runway. The marker identifies the airfield, not the observer's exact location.",
+      "sources": [
+        "s9",
+        "s29"
+      ]
+    },
+    {
+      "who": "Lae radio operator, through the Guinea Airways manager's report",
+      "lat": null,
+      "lon": null,
+      "said": "Paraphrase: received three intelligible flight reports and then heard no further reply after the late-afternoon frequency change. Reported coordinates and altitudes conflict with other accounts.",
+      "sources": [
+        "s8",
+        "s9"
+      ]
+    },
+    {
+      "who": "Itasca radio operators",
+      "lat": null,
+      "lon": null,
+      "said": "Paraphrase of contemporaneous logs: heard low-fuel and bearing requests, a circling report and the 157/337 line. They did not obtain an aircraft position or see the aircraft.",
+      "sources": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5"
+      ]
+    },
+    {
+      "who": "Nauru radio operator, through a relayed Sydney telegram",
+      "lat": null,
+      "lon": null,
+      "said": "Paraphrase: reported receiving a ship-in-sight message on the evening of July 2. Later voice signals on July 3 were unintelligible and merely sounded similar; neither report is an independently measured flight position.",
+      "sources": [
+        "s33"
+      ]
+    },
+    {
+      "who": "Colorado senior aviator",
+      "lat": null,
+      "lon": null,
+      "said": "Paraphrase of the July 9 Gardner search: saw signs described as recent habitation but no answering people after circling and low passes. No Electra was identified.",
+      "sources": [
+        "s11"
+      ]
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Reported fuel at Lae departure",
+      "value": "Approximately 1100 U.S. gallons; loading account, not a measured final-flight reserve.",
+      "sources": [
+        "s9",
+        "s8"
+      ]
+    },
+    {
+      "label": "Last reported height",
+      "value": "1000 feet at 19:12 UTC, a crew statement written in the radio log.",
+      "sources": [
+        "s2"
+      ]
+    },
+    {
+      "label": "Last accepted line orientation",
+      "value": "157/337 degrees; not a geographic fix or a known heading.",
+      "sources": [
+        "s3"
+      ]
+    },
+    {
+      "label": "Elapsed time to rough-log final call",
+      "value": "20 hours 13 minutes, derived from 00:00 UTC departure to the corrected 20:13 UTC rough-log entry. A later report lists a separate 20:25 UTC call; neither timestamp measures total endurance.",
+      "sources": [
+        "s6",
+        "s3",
+        "s12"
+      ]
+    },
+    {
+      "label": "Official search flying time",
+      "value": "1654 aircraft hours tabulated in Murfin's summary; not proof of complete coverage of all possible sites.",
+      "sources": [
+        "s6"
+      ]
+    },
+    {
+      "label": "Meaning of the bone comparison",
+      "value": "Jantz's reference-sample similarity exceeds 99%; this is not a 99% measured probability that the bones were Earhart's.",
+      "sources": [
+        "s13"
+      ]
+    },
+    {
+      "label": "1937 planning endurance alternatives",
+      "value": "24 hours at 45.8 U.S. gallons/hour under optimum adjustment, or 20.5 hours at 53 gallons/hour. Published planning assumptions; neither is a measured flight profile.",
+      "sources": [
+        "s6"
+      ]
+    }
+  ],
+  "why_it_matters": "The official search report urged better control of emergency radio frequencies, reliable flight information and coordinated ocean-rescue plans [s6, paragraphs 20–21]. These are documented recommendations; this review did not verify a specific later safety regulation caused by the disappearance.",
+  "conflicts": [
+    {
+      "about": "Fuel warning wording and time",
+      "a": "Position 1 log at 0740 records only half an hour left.",
+      "b": "Position 2 at 0742 records fuel running low, without that quantity. These may describe the same reception; neither is a measured tank reading.",
+      "sources": [
+        "s5",
+        "s2"
+      ]
+    },
+    {
+      "about": "Final-call time",
+      "a": "Corrected original position 2 log and cruise report use 0843 ship time, or 20:13 UTC.",
+      "b": "Purdue page056 gives 0855 (20:25 UTC). Noyes' later Lexington report lists the line at 20:13 and a separate north/south message at 20:25. The rough log instead associates its questioned addendum with 0843; it does not show a separate 0855 call.",
+      "sources": [
+        "s3",
+        "s7",
+        "s12",
+        "s6"
+      ]
+    },
+    {
+      "about": "Early Howland range-report time",
+      "a": "Position 1 logs the 200-mile material at 0612–0613.",
+      "b": "Dedicated position 2 logs the bearing request at 0614 and the distance at 0615. Main track uses 0615; this is receipt timing, not a triangulated fix.",
+      "sources": [
+        "s4",
+        "s2"
+      ]
+    },
+    {
+      "about": "Last Lae altitude and speed",
+      "a": "Chater: 1718 local, 8000 feet, wind 23 knots.",
+      "b": "Collopy: approximately 1700 local, 7000 feet, speed 150 knots. Speed reference and the reason for the discrepancy are unknown.",
+      "sources": [
+        "s8",
+        "s9"
+      ]
+    },
+    {
+      "about": "Last Lae coordinate notation and longitude",
+      "a": "Chater prints 4.33 south, 159.7 east; other dispatch copies preserve 159.7.",
+      "b": "Thompson's Purdue compilation prints 159.6 east at 1720 local. Noyes later renders the position explicitly as 4°33′S, 159°06′E at 0720 GCT (−4.55, 159.1), while the same planning file also prints 04-33.5 S, 159°07′W, an inconsistent hemisphere. A separate track point preserves the explicit east-coordinate rendering as reported evidence, not a verified second fix.",
+      "sources": [
+        "s8",
+        "s12",
+        "s33",
+        "s6"
+      ]
+    },
+    {
+      "about": "The 1519 Lae coordinates",
+      "a": "Chater's reproduced report prints 150.7 east, 7.3 south at a reported height of 10000 feet.",
+      "b": "Collopy mentions height and clouds but no coordinates. The printed position is problematic for an eastbound flight at that elapsed time; no corrected position has been verified.",
+      "sources": [
+        "s8",
+        "s9"
+      ]
+    },
+    {
+      "about": "Aircraft speed units and reference",
+      "a": "Chater says 140 knots and Collopy later says 150 knots.",
+      "b": "Neither identifies IAS, TAS or groundspeed. A historical possibility of mph/knots confusion cannot be resolved from the surviving reports; no value is inserted into IAS or groundspeed.",
+      "sources": [
+        "s8",
+        "s9"
+      ]
+    },
+    {
+      "about": "Weather near the final approach",
+      "a": "The rough log has a partly-cloudy fragment and unreadable reception.",
+      "b": "Thompson later characterizes overnight and morning flight conditions as cloudy and overcast. That expanded account is not a complete contemporaneous airborne weather observation.",
+      "sources": [
+        "s2",
+        "s4",
+        "s7"
+      ]
+    },
+    {
+      "about": "Signs of habitation on Gardner",
+      "a": "Lambrecht reports signs of recent habitation, without a response or identified aircraft.",
+      "b": "Friedell's report says no dwellings or other signs of inhabitation appeared. Neither account identified Earhart or Noonan.",
+      "sources": [
+        "s11",
+        "s10"
+      ]
+    },
+    {
+      "about": "Identity of the Gardner skeleton",
+      "a": "Hoodless assessed male in 1941; Cross and Wright in 2015 favored that original assessment.",
+      "b": "Jantz in 2018 challenged the methods and found similarity to estimates of Earhart's bone lengths. The missing bones prevent direct re-examination or DNA identification.",
+      "sources": [
+        "s15",
+        "s14",
+        "s13"
+      ]
+    },
+    {
+      "about": "Fuel endurance after the last contact",
+      "a": "Long/Nauticos interpretations place exhaustion near the end of accepted contact, making a Nikumaroro flight untenable.",
+      "b": "TIGHAR models roughly 24 hours, allowing a southeast diversion. The 1937 Navy planning estimate itself lists both 24 hours at 45.8 gallons/hour and 20.5 hours at 53 gallons/hour. These alternative assumptions cannot establish actual settings, usable fuel or exhaustion time.",
+      "sources": [
+        "s19",
+        "s20",
+        "s16",
+        "s6"
+      ]
+    },
+    {
+      "about": "Authorship of post-loss radio signals",
+      "a": "Some signals were treated as search leads in 1937; TIGHAR attributes selected reports to the aircraft after landing.",
+      "b": "The official summary discredits important search-diverting intercepts; many calls were unidentified, confused with other traffic or otherwise unverified. No accepted later aircraft fix results.",
+      "sources": [
+        "s6",
+        "s10",
+        "s16",
+        "s33"
+      ]
+    },
+    {
+      "about": "Sextant-box ownership",
+      "a": "Earlier castaway arguments associated the box found in 1940 with Noonan.",
+      "b": "Kada's archival work connects the instrument number to Bushnell; King acknowledged the earlier attribution was weakened. A complete custody chain for the box still does not exist.",
+      "sources": [
+        "s35",
+        "s36"
+      ]
+    },
+    {
+      "about": "Taraia Object identification",
+      "a": "The 2025 PRF/ALI proposal described the lagoon anomaly as a possible Electra and sought field confirmation.",
+      "b": "The October 2026 expedition result identifies the anomaly as likely tree debris and rejects the aircraft target. Earlier promotional claims must be shown with this result.",
+      "sources": [
+        "s23",
+        "s24"
+      ]
+    },
+    {
+      "about": "Old Lae airfield elevation",
+      "a": "Pacific Wrecks' general airfield record gives 50 feet above sea level.",
+      "b": "The official June 1941 sheet gives 25 feet. Neither is a verified July 1937 runway datum in this review, so route elevation is null.",
+      "sources": [
+        "s29",
+        "s39"
+      ]
+    }
+  ],
+  "unknowns": [
+    "No flight-data recorder, cockpit voice recording, radar track or recovered onboard navigation log supplies a continuous track. The ten points are sparse observations and one explicit later-report coordinate rendering, not an interpolatable measured flight path.",
+    "No confirmed wreck, identifiable crew remains, crash coordinates, depth, impact time, impact attitude, injury sequence or survival duration has been established in the opened sources through 2026-11-07. The two deaths are presumed; no successful escape or later survival is authenticated.",
+    "Beyond the approximate departure airfield, no independently verified geographic fix at a known aircraft observation time was obtained. The Lae reports and later degree/minute renderings conflict; the 07:20 coordinate point is explicitly a later official report, not a second confirmed fix. Distance and radio strength do not locate the aircraft.",
+    "The precise takeoff runway point and 1937 field elevation are unverified. Destination coordinates identify Howland generally, not an airfield threshold or the ship. Historical chart coordinates must not displace modern terrain without an explicit datum treatment.",
+    "The 140- and 150-knot statements lack an IAS/TAS/groundspeed reference and may contain a unit misunderstanding. IAS, groundspeed and Mach therefore remain null.",
+    "Reported heights are not recorder measurements. Altimeter setting, calibration, actual MSL error and continuous climb/descent profile are unknown; no vertical speeds are calculated between sparse reports.",
+    "Fuel loaded is reported as approximately 1100 U.S. gallons by Lae accounts, but actual tank-by-tank usable fuel, mixture, power settings, consumption, winds encountered and fuel remaining late in the flight are not known. No exact exhaustion time is justified.",
+    "The 157/337 orientation has no surviving reference point, along-line position or confirmed heading. The rough log questions the north/south addendum. No measured turn toward Nikumaroro or the Marshalls is preserved.",
+    "Precise pitch, roll, angle of attack, flap settings, gear movements, engine RPM, manifold pressure, temperatures and failure indications during the final leg were not located. Do not animate specific attitudes or engine failures as facts.",
+    "The exact fault behind failed communications and direction finding is unresolved. Photographic arguments for lost belly-antenna masts do not establish a complete failure mechanism or its time. A successful 7500-kHz reception did not yield a bearing.",
+    "Original Nauru station logs and the original Sydney-to-State July 3 telegram image were not located in this review. The ship-sighting account comes from Jacobson's documented archival transcription; it is not an independently confirmed Nauru overflight or ship identification.",
+    "Weather along the actual final path is not measured. Cloud bases/tops, local visibility, temperature, turbulence, lightning, rain exposure, exact wind profile, moon appearance and wave heights cannot be assigned throughout the flight. Nauru report time and some historical weather units remain unresolved.",
+    "The bones examined in 1941 are missing. Their exact discovery point, custody after examination and identity are unknown. The proposed Seven Site association and 2018 statistical similarity cannot substitute for direct identification.",
+    "The Bevington image does not establish a unique object identity or a recoverable aircraft coordinate. Exact locations for proposed reef landing, associated artifacts and the rejected Taraia target were not obtained from survey records.",
+    "No public table of defensible timestamped path coordinates was located for Long/Nauticos, TIGHAR or Japanese-capture reconstructions. Their track_override arrays are empty; endpoint stories must not be rendered as measured trajectories.",
+    "Deep Sea Vision's precise target coordinates were not obtained. Its direct social-media retraction could not be opened; the November 2024 outcome is documented through NPR's reporting. The target is not the crash site.",
+    "Purdue's 2026 statement mentions other finds still under study but authenticates none as Electra parts. Their origin remains unknown; the rejected Taraia image does not settle every Nikumaroro question.",
+    "NR16020-specific fuselage cross-section, wing sweep reference and full engineering drawings were not verified. Length/span/height use sourced Model 10 family geometry. The Navy planning file identifies orange trim, but its exact outline and shade are unverified.",
+    "Exact UTC times for date-only historical discoveries and modern announcements were not established; those event timestamps are null, with dates stated in the descriptions. No midnight placeholders were invented.",
+    "No specific subsequently enacted safety rule caused by this disappearance was verified. The documented official recommendations concern radio discipline, reliable flight reporting and coordinated ocean rescue.",
+    "The 2025–2026 release index and relevant key records were reviewed, not every page in all released files. No claim is made that all possible archival leads have been exhausted.",
+    "A complete original planned-waypoint table was not verified. Ontario was a flight-support station, but a planned or actual overflight coordinate must not be invented; planned_waypoints is empty.",
+    "All cited sources were opened at least once. Final direct HTTP checks encountered access restrictions for the Bradford bone-paper repository and the two museum catalog pages; their content had been read earlier. These URLs are not claimed to have passed the final HTTP-200 check."
+  ],
+  "memorial_note": "The aircraft carried a pilot and a navigator, both presumed lost; this reconstruction remembers their lives without claiming to know their final moments.",
+  "sources": [
+    {
+      "id": "s1",
+      "title": "USCGC Itasca original radio log, position 2, page 1",
+      "publisher": "U.S. Coast Guard; National Archives copies reproduced by TIGHAR",
+      "year": 1937,
+      "url": "https://tighar.org/Projects/Earhart/Archives/Research/Bulletins/37_ItascaLogs/pos2page1.pdf",
+      "type": "recorder_data",
+      "opened": true,
+      "notes": "Downloaded original-image PDF; OCR extracted and relevant images inspected. These are radio operators' written logs, not audio recordings or aircraft instruments. July 2 ship time is UTC minus 11 hours 30 minutes: add 11:30, as explicitly identified in Friedell's report and the July 3 Itasca message reproduced in s12, page062. Preserve different entries and overtyping. A logged crew statement is not a measured geographic fix."
+    },
+    {
+      "id": "s2",
+      "title": "USCGC Itasca original radio log, position 2, page 2",
+      "publisher": "U.S. Coast Guard; National Archives copies reproduced by TIGHAR",
+      "year": 1937,
+      "url": "https://tighar.org/Projects/Earhart/Archives/Research/Bulletins/37_ItascaLogs/pos2page2.pdf",
+      "type": "recorder_data",
+      "opened": true,
+      "notes": "Downloaded original-image PDF; OCR extracted and relevant images inspected. These are radio operators' written logs, not audio recordings or aircraft instruments. July 2 ship time is UTC minus 11 hours 30 minutes: add 11:30, as explicitly identified in Friedell's report and the July 3 Itasca message reproduced in s12, page062. Preserve different entries and overtyping. A logged crew statement is not a measured geographic fix."
+    },
+    {
+      "id": "s3",
+      "title": "USCGC Itasca original radio log, position 2, page 3",
+      "publisher": "U.S. Coast Guard; National Archives copies reproduced by TIGHAR",
+      "year": 1937,
+      "url": "https://tighar.org/Projects/Earhart/Archives/Research/Bulletins/37_ItascaLogs/pos2page3.pdf",
+      "type": "recorder_data",
+      "opened": true,
+      "notes": "Downloaded original-image PDF; OCR extracted and relevant images inspected. These are radio operators' written logs, not audio recordings or aircraft instruments. July 2 ship time is UTC minus 11 hours 30 minutes: add 11:30, as explicitly identified in Friedell's report and the July 3 Itasca message reproduced in s12, page062. Preserve different entries and overtyping. A logged crew statement is not a measured geographic fix."
+    },
+    {
+      "id": "s4",
+      "title": "USCGC Itasca original radio log, position 1, page 2",
+      "publisher": "U.S. Coast Guard; National Archives copies reproduced by TIGHAR",
+      "year": 1937,
+      "url": "https://tighar.org/Projects/Earhart/Archives/Research/Bulletins/37_ItascaLogs/pos1page2.pdf",
+      "type": "recorder_data",
+      "opened": true,
+      "notes": "Downloaded original-image PDF; OCR extracted and relevant images inspected. These are radio operators' written logs, not audio recordings or aircraft instruments. July 2 ship time is UTC minus 11 hours 30 minutes: add 11:30, as explicitly identified in Friedell's report and the July 3 Itasca message reproduced in s12, page062. Preserve different entries and overtyping. A logged crew statement is not a measured geographic fix."
+    },
+    {
+      "id": "s5",
+      "title": "USCGC Itasca original radio log, position 1, page 3",
+      "publisher": "U.S. Coast Guard; National Archives copies reproduced by TIGHAR",
+      "year": 1937,
+      "url": "https://tighar.org/Projects/Earhart/Archives/Research/Bulletins/37_ItascaLogs/pos1page3.pdf",
+      "type": "recorder_data",
+      "opened": true,
+      "notes": "Downloaded original-image PDF; OCR extracted and relevant images inspected. These are radio operators' written logs, not audio recordings or aircraft instruments. July 2 ship time is UTC minus 11 hours 30 minutes: add 11:30, as explicitly identified in Friedell's report and the July 3 Itasca message reproduced in s12, page062. Preserve different entries and overtyping. A logged crew statement is not a measured geographic fix."
+    },
+    {
+      "id": "s6",
+      "title": "Report of Earhart Search by U.S. Navy and U.S. Coast Guard, 2–18 July 1937",
+      "publisher": "Fourteenth Naval District / National Archives, RG 181",
+      "year": 1937,
+      "url": "https://www.archives.gov/files3/research/ameliaearhart/releases/2025/1114/181_181-0282_92_A4-3EarhartSearchReport.pdf",
+      "type": "official_report",
+      "opened": true,
+      "notes": "Downloaded with curl; 106 PDF pages. Embedded text was only declassification stamps, so OCR was used and key pages checked as images. Includes Murfin's July 31 covering report, Thompson's July 29 Earhart-flight report, Friedell's Colorado report and Dowell's Lexington-group report. This is a search report, not a modern wreckage-based accident investigation. Murfin paragraph 1 (PDF p.2) identifies Lae 1000 zone-minus-ten as 2400 July 1 GCT, i.e. 1937-07-02T00:00Z. Paragraph 19 discusses the sea-loss inference; paragraphs 20–21 recommend communications discipline and rescue planning. Digitized release November 14, 2025. Search-planning Estimate of the Situation, PDF pp.56–57: aircraft colour in item 2; alternative fuel/endurance assumptions items 11–14; inconsistent Lae coordinate forms items 15/17; Nauru ship report item 17. Noyes' July 29 report, paragraph 13, PDF pp.89–90, separates 2013 and 2025 UTC calls. These later summaries must be compared with the original rough log."
+    },
+    {
+      "id": "s7",
+      "title": "Itasca cruise report, 4 June to 24 July 1937",
+      "publisher": "Commander, USCGC Itasca; reproduced by TIGHAR",
+      "year": 1937,
+      "url": "https://tighar.org/Projects/Earhart/Archives/Documents/Reports/ThompsonCruise.pdf",
+      "type": "official_report",
+      "opened": true,
+      "notes": "Downloaded scanned PDF and OCR extracted all 12 pages. Cover is PDF p.1. July 2 account and weather are PDF pp.5–7, printed pp.4–6; search departures and diversions follow. This July 24 cruise report is distinct from Thompson's July 19 Radio Transcripts and July 29 Earhart-flight report. Some lines are faint; relevant pages inspected visually. Times of the July 2 flight support operations use UTC−11:30."
+    },
+    {
+      "id": "s8",
+      "title": "Eric H. Chater to M. E. Griffin, report on Earhart at Lae, 25 July 1937",
+      "publisher": "Guinea Airways Ltd.; facsimile reproduced by TIGHAR",
+      "year": 1937,
+      "url": "https://tighar.org/Publications/Books/Finding_Amelia_I/FindingAmeliaNotes/Reports/ChaterReport.pdf",
+      "type": "contemporary_record",
+      "opened": true,
+      "notes": "Downloaded 9-page facsimile and OCR extracted it; also compared TIGHAR's HTML transcription. Printed p.8, PDF p.9 contains the three flight reports. Printed p.7, PDF p.7 contains departure and weather. The scan binds printed p.6 after p.7. Lae times convert by subtracting ten hours, independently stated in s6 paragraph 1. This retrospective company report relays the operator's observations; no original continuous Lae radio log was located. Coordinate punctuation and speed reference are uncertain."
+    },
+    {
+      "id": "s9",
+      "title": "James A. Collopy letter and engineer's maintenance report, 28 August 1937",
+      "publisher": "Civil Aviation Board, Territory of New Guinea; transcript reproduced by TIGHAR",
+      "year": 1937,
+      "url": "https://tighar.org/Projects/Earhart/Archives/Documents/Collopy_Letter.html",
+      "type": "contemporary_record",
+      "opened": true,
+      "notes": "Opened complete transcription. Direct departure witness; includes E. Finn's maintenance list. Departure, fuel, takeoff observations and the final Lae radio summary differ in places from Chater. This is a later written account, not a recorder trace. Local time UTC+10 follows s6."
+    },
+    {
+      "id": "s10",
+      "title": "Captain W. L. Friedell: Resume Earhart Search by USS Colorado, 13 July 1937",
+      "publisher": "U.S. Navy; transcript reproduced by TIGHAR",
+      "year": 1937,
+      "url": "https://tighar.org/Projects/Earhart/Archives/Documents/Friedell's_Report.html",
+      "type": "military_record",
+      "opened": true,
+      "notes": "Opened report transcription and compared its search rationale with s6. Opening discussion explicitly identifies July 2 Itasca time as zone plus 11½. Explains why southeast/Phoenix search was reasonable, conditionally on fuel and disputed signals; does not establish an actual flight there. July 9 account differs from Lambrecht on signs of habitation."
+    },
+    {
+      "id": "s11",
+      "title": "Lt. John O. Lambrecht: Aircraft Search of Earhart Plane, 16 July 1937",
+      "publisher": "U.S. Navy, senior aviator USS Colorado; transcript reproduced by TIGHAR",
+      "year": 1937,
+      "url": "https://tighar.org/Projects/Earhart/Archives/Documents/Lambrecht's_Report.html",
+      "type": "military_record",
+      "opened": true,
+      "notes": "Opened full transcript. July 9 Gardner overflight describes signs of recent habitation, repeated circling and no response. Earlier paragraphs describe search weather, not necessarily weather on July 2. No survivors or Electra were identified."
+    },
+    {
+      "id": "s12",
+      "title": "Radio, transcripts, Earhart flight: 107-leaf archival item",
+      "publisher": "Purdue University Archives and Special Collections, George Palmer Putnam Collection",
+      "year": 1937,
+      "url": "https://earchives.lib.purdue.edu/digital/collection/earhart/id/3119/",
+      "type": "transcript",
+      "opened": true,
+      "notes": "Opened CONTENTdm item metadata through its public digital API and inspected original-page images, including page055, page056 and page062. Main page requires JavaScript. Collection spans 1937–1939; transcript cover dated July 19, 1937. page055–056 relay a last-Lae position of 4.33 south, 159.6 east and 1720 Friday; page056 gives a conflicting 0855 final-call time. page062 explicitly says zone time plus eleven and one half. Edited dispatch compilation is not interchangeable with the rough radio logs."
+    },
+    {
+      "id": "s13",
+      "title": "Amelia Earhart and the Nikumaroro Bones: A 1941 Analysis versus Modern Quantitative Techniques",
+      "publisher": "Richard L. Jantz, Forensic Anthropology 1(2), DOI 10.5744/fa.2018.0009",
+      "year": 2018,
+      "url": "https://tighar.org/Projects/Earhart/Archives/Documents/BonesForensicAnalysis/03JantzPaper.pdf",
+      "type": "peer_reviewed",
+      "opened": true,
+      "notes": "Downloaded and text-extracted all 16 pages; publisher abstract also opened. Methods pp.2–3; bone-length comparisons pp.11–14; discussion of prior odds p.14. Studies seven surviving measurements, not recovered bones or DNA. The often reported 99% concerns comparison with a reference sample; it is not a measured 99% probability of identity. Supports the Nikumaroro identification; research received TIGHAR assistance, acknowledged on pp.14–15."
+    },
+    {
+      "id": "s14",
+      "title": "The Nikumaroro bones identification controversy: First-hand examination versus evaluation by proxy — Amelia Earhart found or still missing?",
+      "publisher": "Pamela J. Cross and Richard Wright, Journal of Archaeological Science: Reports 3:52–59; University of Bradford repository",
+      "year": 2015,
+      "url": "https://bradscholars.brad.ac.uk/handle/10454/7286",
+      "type": "peer_reviewed",
+      "opened": true,
+      "notes": "Opened repository abstract and accepted-manuscript text through the linked PDF; later direct-download attempts returned 403. DOI 10.1016/j.jasrep.2015.05.015. Sections 2.1–2.5 defend Hoodless' competence and methods; conclusion prefers the original male assessment while acknowledging that missing bones prevent certainty. Predates Jantz 2018 and must not be described as a response to it. URL rechecked at completion: direct scripted HTTP returned 403. Content had been successfully opened earlier in this review; museum pages s31 and s32 were also successfully reopened through the web tool. The access restriction is reported rather than calling every scripted check HTTP 200."
+    },
+    {
+      "id": "s15",
+      "title": "D. W. Hoodless, Report on Portion of a Human Skeleton and measurements, 4 April 1941",
+      "publisher": "Central Medical School, Suva / Western Pacific High Commission; reproduced by TIGHAR",
+      "year": 1941,
+      "url": "https://tighar.org/Projects/Earhart/Archives/Documents/Bones_Chronology5.html",
+      "type": "inquiry",
+      "opened": true,
+      "notes": "Opened entry 42 and 42B transcription and scanned original report images linked on the page. Reports 13 skeletal elements; estimated male, approximately 5 ft 5½ in, age 45–55. The surviving report and measurements are evidence of a 1940 discovery, not an established identification of Earhart. Later authors disagree with the assessment."
+    },
+    {
+      "id": "s16",
+      "title": "The TIGHAR Hypothesis, Summer 2009",
+      "publisher": "The International Group for Historic Aircraft Recovery",
+      "year": 2009,
+      "url": "https://tighar.org/Projects/Earhart/Overview/AEhypothesis.html",
+      "type": "advocacy",
+      "opened": true,
+      "notes": "Opened complete hypothesis. Posits a southeast flight, reef landing north of Norwich City, post-loss radio calls, and eventual castaway deaths. Its approximate 24-hour endurance is a model assumption, not a recorded fuel quantity late in the flight. Historical rationale is separated here from later rejected target identifications."
+    },
+    {
+      "id": "s17",
+      "title": "The Bevington Object: What's Past is Prologue",
+      "publisher": "TIGHAR Research Bulletin 82; Jeff Glickman and Greg Daspit analysis",
+      "year": 2017,
+      "url": "https://tighar.org/Projects/Earhart/Archives/Research/Bulletins/82_BevingtonAnalysis2/82_BevingtonObjectNewAnalysis.html",
+      "type": "advocacy",
+      "opened": true,
+      "notes": "Opened full illustrated analysis. October 15, 1937 photograph interpreted as possible landing gear; CAD comparison models a ruptured tire. It is a small, ambiguous photographic object. Claims about agreement by government image analysts are TIGHAR's report, not an independently opened government identification."
+    },
+    {
+      "id": "s18",
+      "title": "Expedition Amelia, pp.44–45 in New Frontiers in Ocean Exploration: The E/V Nautilus, NOAA Ship Okeanos Explorer, and R/V Falkor 2019 Field Season",
+      "publisher": "Robert D. Ballard and Allison Fundis / Ocean Exploration Trust, Oceanography supplement",
+      "year": 2020,
+      "url": "https://nautiluslive.org/sites/default/files/documents/2020-04/33-1_supplement_0.pdf",
+      "type": "official_report",
+      "opened": true,
+      "notes": "Downloaded 128-page PDF and text-extracted it. Expedition account is PDF pp.48–49, printed pp.44–45. Reports 2019 Nikumaroro mapping and negative aircraft searches; acknowledges less extensive northeast coverage and does not rule out the whole castaway hypothesis. The article's word southwest for Nikumaroro relative to Howland is a directional error; the atoll lies southeast. Do not use that word to construct a route."
+    },
+    {
+      "id": "s19",
+      "title": "Response to Deep Sea Vision's Sonar Target in the Search for Amelia Earhart",
+      "publisher": "Nauticos",
+      "year": 2024,
+      "url": "https://nauticos.com/response-to-deep-sea-visions-sonar-target-in-the-search-for-amelia-earhart/",
+      "type": "advocacy",
+      "opened": true,
+      "notes": "Opened January 28 statement. Describes Long/Nauticos crash-and-sink search work, 2002/2006/2017 searches and radio tests. Endurance and signal-distance conclusions are the search team's interpretation; they are not measured positions or fuel exhaustion. The January sonar criticism preceded confirmation of a rock target."
+    },
+    {
+      "id": "s20",
+      "title": "Nauticos 2026 statement on the Nikumaroro hypothesis and radio evidence",
+      "publisher": "Nauticos",
+      "year": 2026,
+      "url": "https://nauticos.com/wp-content/uploads/2026/10/Nauticos-Disinformation-Pitch-final.pdf",
+      "type": "advocacy",
+      "opened": true,
+      "notes": "Opened both PDF pages and the October 6, 2026 page linking it. Claims radio reconstruction and fuel evidence exclude Nikumaroro. Treat its categorical language and estimated depth as advocacy by a competing search group; no independently verified crash coordinates are supplied."
+    },
+    {
+      "id": "s21",
+      "title": "Exploration team may have spotted Amelia Earhart's long-lost plane in the Pacific",
+      "publisher": "NPR interview with Deep Sea Vision CEO Tony Romeo, carried by WESA",
+      "year": 2024,
+      "url": "https://www.wesanews.org/2024-01-30/exploration-team-may-have-spotted-amelia-earharts-long-lost-plane-in-the-pacific",
+      "type": "news",
+      "opened": true,
+      "notes": "Opened January 30 interview transcript. First-person description of the 2023 sonar target publicized in January 2024. It was a claim, not a verified aircraft discovery. Precise target coordinates are not disclosed here."
+    },
+    {
+      "id": "s22",
+      "title": "Ocean explorers hoped they photographed Amelia Earhart's plane. Turns out it's a rock",
+      "publisher": "Rachel Treisman, NPR, carried by VPM",
+      "year": 2024,
+      "url": "https://www.vpm.org/npr-news/2024-11-25/ocean-explorers-hoped-they-photographed-amelia-earharts-plane-turns-out-its-a-rock/",
+      "type": "news",
+      "opened": true,
+      "notes": "Opened full November 25 article, subsequently updated December 2. Reports Deep Sea Vision's own November retraction and links its Instagram announcement. Direct Instagram retrieval failed, so this is explicitly secondary reporting of the company's result. Use November 2024 without inventing the announcement time."
+    },
+    {
+      "id": "s23",
+      "title": "Purdue Research Foundation and Archaeological Legacy Institute to embark on expedition to identify Amelia Earhart's missing plane",
+      "publisher": "Purdue Research Foundation",
+      "year": 2025,
+      "url": "https://stories.prf.org/purdue-expedition-amelia-earhart/",
+      "type": "advocacy",
+      "opened": true,
+      "notes": "Opened July 2 announcement. Proposed November 2025 inspection of a lagoon image anomaly, contingent on finding an aircraft; not a discovery. Read with September 28 and October 18, 2026 follow-ups: permitting delayed the expedition and fieldwork rejected the target."
+    },
+    {
+      "id": "s24",
+      "title": "Search for Amelia Earhart's plane continues after Taraia Object expedition on Nikumaroro rules out latest hypothesis",
+      "publisher": "Purdue University / ALI / Purdue Research Foundation",
+      "year": 2026,
+      "url": "https://www.purdue.edu/newsroom/2026/Q4/search-for-amelia-earharts-plane-continues-after-taraia-object-expedition-on-nikumaroro-rules-out-latest-hypothesis/",
+      "type": "advocacy",
+      "opened": true,
+      "notes": "Opened full expedition result. Page dated October 18 in the U.S.; announcement identified as October 19 local time on Nikumaroro. The target was likely large tree debris with a carbonate coating. Other objects, including a steel tube, were not identified as Electra parts. Team maintains the broader castaway belief. This firsthand institutional statement is also from the expedition's sponsors."
+    },
+    {
+      "id": "s25",
+      "title": "Records Related to Amelia Earhart: 2025 releases and January 2026 additions",
+      "publisher": "U.S. National Archives and Records Administration",
+      "year": 2026,
+      "url": "https://www.archives.gov/research/ameliaearhart",
+      "type": "dataset",
+      "opened": true,
+      "notes": "Opened release index and followed relevant official PDFs. Lists releases on November 14 and 25 and December 17, 2025, and January 9, 2026. Index includes already public historical records as well as newly digitized material. An archive's preservation of an allegation does not authenticate that allegation. This brief is not an exhaustive audit of every released page. Research cutoff 2026-11-07."
+    },
+    {
+      "id": "s26",
+      "title": "State Department correspondence on allegations of Japanese capture, 1960–1961",
+      "publisher": "U.S. Department of State / National Archives, RG 59",
+      "year": 1961,
+      "url": "https://www.archives.gov/files3/research/ameliaearhart/releases/2025/1114/059_A1_1611_Box332_200_113_Earhart_Amelia.pdf",
+      "type": "inquiry",
+      "opened": true,
+      "notes": "Downloaded 67-page scanned PDF and OCR extracted relevant records. PDF p.6 (also duplicated later) is Tokyo telegram 445, August 10, 1960: Japanese Foreign Office reported its investigation found no basis for execution-on-Saipan allegations. Distinguish a reported investigation result from proof of a sea crash. Includes later correspondence; not a newly established location in 2025."
+    },
+    {
+      "id": "s27",
+      "title": "Report on Amelia Earhart as prisoner in Marshall Islands, 7 January 1939, scanned pages 1–3",
+      "publisher": "U.S. naval intelligence records / National Archives, RG 38",
+      "year": 1939,
+      "url": "https://www.archives.gov/news/topics/earhart",
+      "type": "military_record",
+      "opened": true,
+      "notes": "Opened Archives guide and all three linked full-size original images. Report records an anonymous message-in-a-bottle claim and other indirect allegations. Its presence in a government file is not corroboration. No named private claimant is reproduced in this brief; no claimed captivity position is promoted to a track point."
+    },
+    {
+      "id": "s28",
+      "title": "Japanese Blogger Points Out Timeline Flaw In Supposed Earhart Photo",
+      "publisher": "Camila Domonoske, NPR, carried by CapRadio",
+      "year": 2017,
+      "url": "https://www.capradio.org/news/npr/story?storyid=536620463",
+      "type": "news",
+      "opened": true,
+      "notes": "Opened July 11 report and its National Diet Library link. Explains that the Jaluit photo appeared in a book dated Showa 10 (1935), before the disappearance. NDL collection landing resolved, but the complete Japanese book was not independently read; publication-date analysis is attributed to this report and the library catalog it describes."
+    },
+    {
+      "id": "s29",
+      "title": "Lae Airfield (Lae Drome), location and historical records",
+      "publisher": "Pacific Wrecks",
+      "year": 2026,
+      "url": "https://pacificwrecks.com/airfield/png/lae/index.html",
+      "type": "dataset",
+      "opened": true,
+      "notes": "Opened complete page, last updated February 23, 2026. Secondary historical geographic reference: 6°43′54″S, 146°59′47″E converts to −6.731667, 146.996389. This is an approximate marker for the old coastal airfield, not modern Nadzab or a measured 1937 takeoff position. Lists 50 ft elevation; the 1941 government sheet says 25 ft, so departure elevation is null."
+    },
+    {
+      "id": "s30",
+      "title": "Howland Island National Wildlife Refuge Comprehensive Conservation Plan",
+      "publisher": "U.S. Fish and Wildlife Service",
+      "year": 2008,
+      "url": "https://www.govinfo.gov/content/pkg/GOVPUB-I49-PURL-gpo6350/pdf/GOVPUB-I49-PURL-gpo6350.pdf",
+      "type": "official_report",
+      "opened": true,
+      "notes": "Opened 123-page plan. Chapter 4, Geographic/Ecosystem Setting, printed p.4-1 uses approximately 0°49′N, 176°38′W; converted to 0.816667, −176.633333 as an island-level destination marker. This is not the airstrip threshold, Itasca's position, or the Electra's position. Airfield elevation for 1937 not established here."
+    },
+    {
+      "id": "s31",
+      "title": "Lockheed L-10A Electra, technical information",
+      "publisher": "Canada Aviation and Space Museum / Ingenium",
+      "year": null,
+      "url": "https://ingenium.ca/aviation/en/collection-highlight/lockheed-l-10a-electra/",
+      "type": "dataset",
+      "opened": true,
+      "notes": "Opened museum record. Basic Model 10 family dimensions: 38 ft 7 in length, 55 ft span, 10 ft 1 in height. Converted with 1 ft = 0.3048 m and 1 in = 0.0254 m, rounded to 11.76, 16.76, 3.07 m. Family geometry reference, not a survey of NR16020 or a source for its 10E engines. Precise NR16020 engineering dimensions and modifications still require original drawings. URL rechecked at completion: direct scripted HTTP returned 403. Content had been successfully opened earlier in this review; museum pages s31 and s32 were also successfully reopened through the web tool. The access restriction is reported rather than calling every scripted check HTTP 200."
+    },
+    {
+      "id": "s32",
+      "title": "Model, Static, Lockheed Electra, Amelia Earhart, A19600213000",
+      "publisher": "Smithsonian National Air and Space Museum",
+      "year": 1960,
+      "url": "https://collections.si.edu/search/detail/edanmdm:nasm_A19600213000",
+      "type": "dataset",
+      "opened": true,
+      "notes": "Opened collection record. Describes a Lockheed-made 1:16 display model in an overall silver scheme. Supports broad appearance only; its model dimensions must not be used as airframe dimensions. Date is the model's date, not the accident date. Exact accent colours on July 2 remain unverified. URL rechecked at completion: direct scripted HTTP returned 403. Content had been successfully opened earlier in this review; museum pages s31 and s32 were also successfully reopened through the web tool. The access restriction is reported rather than calling every scripted check HTTP 200."
+    },
+    {
+      "id": "s33",
+      "title": "Earhart radio-message database, MSG8: compiled records 286–370",
+      "publisher": "Randall S. Jacobson / TIGHAR, transcribing U.S. archival dispatches",
+      "year": null,
+      "url": "https://tighar.org/Projects/Earhart/Archives/Research/JacobsonDatabase/RADIOMES/MSG8.PDF",
+      "type": "dataset",
+      "opened": true,
+      "notes": "Opened PDF, downloaded and extracted text. Printed p.318 (PDF p.33), record 2358, transcribes Sydney-to-State July 3 telegram about Nauru: 2030 Sydney July 2 ship-in-sight report converts to 1030 UTC; compiler explicitly gives Sydney UTC+10. Original Nauru station log and original State telegram image were not found in this review. Reported distance and ship identification are relayed claims, not fixes. Also preserves differing dispatch copies, including 159.7 versus 159.6 east on printed p.316."
+    },
+    {
+      "id": "s34",
+      "title": "Alan Board photograph of the Lae takeoff; The Lost Antenna analysis",
+      "publisher": "Guinea Airways photograph; TIGHAR / Jeff Glickman",
+      "year": 1999,
+      "url": "https://tighar.org/Projects/Earhart/Archives/Research/Bulletins/20_LostAntenna/20_LostAntenna.html",
+      "type": "advocacy",
+      "opened": true,
+      "notes": "Opened illustrated bulletin. Photograph attributed to July 2, 1937. Dark registration and light metal skin are visible in monochrome. Proposed loss of belly-antenna masts is an image-based interpretation; the precise failure mechanism and resulting receiving capability are not established. Not a source for invented radio-failure timing."
+    },
+    {
+      "id": "s35",
+      "title": "The Origin of the Nikumaroro Sextant Box",
+      "publisher": "John Kada, The Ghost of Gardner Island",
+      "year": 2018,
+      "url": "https://gardnerghost.blogspot.com/2018/10/the-origin-of-nikumaroro-sextant-box.html",
+      "type": "advocacy",
+      "opened": true,
+      "notes": "Opened original archival research with reproduced documents. Associates Naval Observatory number 1542 with an instrument on USS Bushnell, which surveyed Gardner in 1939. Strong alternative provenance for a purported Noonan artifact; no continuous custody of the box itself is demonstrated. Distinguish the instrument number from proof of who left the box."
+    },
+    {
+      "id": "s36",
+      "title": "The 1940 Sextant Box Identified?",
+      "publisher": "Thomas F. King, Amelia Earhart Archaeology",
+      "year": 2018,
+      "url": "https://ameliaearhartarchaeology.blogspot.com/2018/10/the-1940-sextant-box-identified.html",
+      "type": "advocacy",
+      "opened": true,
+      "notes": "Opened October 27 statement. TIGHAR-associated archaeologist explicitly acknowledges Kada's work undercuts his former Noonan-box interpretation. Comments by third parties on the page are not treated as evidence."
+    },
+    {
+      "id": "s37",
+      "title": "Earhart Disappearance Position Statement",
+      "publisher": "Mike Campbell, Amelia Earhart: The Truth at Last",
+      "year": null,
+      "url": "https://earharttruth.wordpress.com/position-statement/",
+      "type": "advocacy",
+      "opened": true,
+      "notes": "Opened advocate's own statement. Claims a Marshalls landing, Japanese custody and deaths on Saipan, citing later witness stories and alleging a cover-up. Included to identify the claim and its proponents fairly; its assertions are not independently verified and its imagined dialogue or alleged quotations are not reproduced."
+    },
+    {
+      "id": "s38",
+      "title": "Phoenix Islands Protected Area World Heritage nomination",
+      "publisher": "Republic of Kiribati / UNESCO World Heritage Centre",
+      "year": 2009,
+      "url": "https://whc.unesco.org/uploads/nominations/1325.pdf",
+      "type": "official_report",
+      "opened": true,
+      "notes": "Downloaded 400-page nomination and extracted text. Printed p.64 (PDF p.65) satellite image labels center coordinates in reversed Lat/Long order: −174.526 / −4.672. Geographic roles are unambiguous: longitude −174.526, latitude −4.672. Used only as a broad Nikumaroro island marker, never a landing, bone-find or wreckage coordinate."
+    },
+    {
+      "id": "s39",
+      "title": "Data Sheet for Landing Ground No.363, Lae T.N.G., revised June 1941",
+      "publisher": "Australian Department of Civil Aviation; scan at Pacific Wrecks",
+      "year": 1941,
+      "url": "https://pacificwrecks.com/airfield/png/lae/maps/lae-tng-no-363-june-1941.jpg",
+      "type": "dataset",
+      "opened": true,
+      "notes": "Opened original sheet image and its hosting record. Official later airfield sheet lists height 25 ft above sea level, conflicting with the hosting site's general 50 ft figure. It is four years after the flight and too coarse to define a precise 1937 runway endpoint."
+    },
+    {
+      "id": "s40",
+      "title": "NR16020 aircraft inspection report, 19 May 1937",
+      "publisher": "U.S. Bureau of Air Commerce; National Archives copy reproduced by TIGHAR",
+      "year": 1937,
+      "url": "https://tighar.org/Projects/Earhart/Archives/Documents/Reports/AircraftInspection.pdf",
+      "type": "official_report",
+      "opened": true,
+      "notes": "Opened all 3 PDF pages; downloaded and visually read the two original form pages. PDF p.2: owner Amelia Earhart, Lockheed 10E serial 1055, two Pratt & Whitney S3H1 engines, 550 hp each, no passenger seats, extra fuel tanks. PDF p.3 identifies low-wing configuration. Rated horsepower and capacity are not actual cruise settings or fuel loaded at Lae."
+    },
+    {
+      "id": "s41",
+      "title": "The Deep-Sea Quest for Amelia Earhart Resumes",
+      "publisher": "David Jourdan / Nauticos",
+      "year": 2017,
+      "url": "https://nauticos.com/amelia-earhart-search/",
+      "type": "advocacy",
+      "opened": true,
+      "notes": "Opened complete January 27, 2017 expedition announcement using direct HTTP after the web tool returned 429. Names Elgen Long on the Nauticos team and describes planned search near Howland, building on 2002 and 2006 work. Mission plans and estimated bottom depth are not a wreck discovery."
+    },
+    {
+      "id": "s42",
+      "title": "1 week out: Countdown to the search for Amelia Earhart's plane begins",
+      "publisher": "Purdue University",
+      "year": 2026,
+      "url": "https://www.purdue.edu/newsroom/2026/Q3/1-week-out-countdown-to-the-search-for-amelia-earharts-plane-begins/",
+      "type": "advocacy",
+      "opened": true,
+      "notes": "Opened September 28 update. Confirms October 2025 postponement during Kiribati permit approval and seasonal delay, followed by October 2026 rescheduling. Read with s24 for the field result; a pre-expedition confidence statement is not confirmation of an aircraft."
+    }
+  ]
+}

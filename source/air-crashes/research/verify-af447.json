@@ -1,0 +1,34 @@
+{
+  "id": "af447",
+  "checked": 205,
+  "errors": [
+    {
+      "severity": "wrong",
+      "where": "af447.json: $.track[2].quality; $.evidence_points[0].quality",
+      "says": "\"quality\": \"radar\" for the 02:10 ACARS position (+2.98, -30.59).",
+      "should_be": "Classify this as an aircraft-reported/recorded ACARS FM position, not a radar observation. The coordinate pair and 02:10:34 receipt time are correct.",
+      "evidence": "BEA first interim report, section 1.16.2.2, printed p.45: the last position came from an AOC message carrying the aircraft FM position. Section 1.16.2.4, p.46, gives its payload and receipt time. Final report section 1.9.1, p.49, places the last radar point at SALPU at 01:49.",
+      "url": "https://csobeech.com/files/AF-447InterimReport.pdf"
+    },
+    {
+      "severity": "misleading",
+      "where": "direct.js: DIRECT.af447.buildNote",
+      "says": "Positions in the last minutes are not published: they are dead-reckoned from recorded heading and groundspeed, fitted to the last ACARS position and the wreckage area.",
+      "should_be": "BEA publishes a plotted final-flight path; a dense numerical coordinate series was not obtained for this dataset. Describe the displayed positions as a modelled reconstruction and identify the interpolation and heading-to-ground-track assumptions used.",
+      "evidence": "BEA final report, section 1.1, Figure 1, printed p.23, includes plan and three-dimensional views of the final five minutes. Thus an unqualified claim that last-minute positions are unpublished is misleading. Appendix 2 pp.1 and 9 provides sparse heading/groundspeed values, and p.1 explicitly distinguishes magnetic heading from true track; those quantities are not interchangeable. The plotted path is evidence available for constraining a reconstruction, not a dense numerical coordinate table.",
+      "url": "https://www.faa.gov/sites/faa.gov/files/AirFrance447_BEA.pdf"
+    },
+    {
+      "severity": "minor",
+      "where": "af447.json: $.why_it_matters (s11 locator); $.sources[10].notes",
+      "says": "EASA’s 2025 guidance explicitly links relief-commander CRM training and experience guidance to AF447 recommendations (s11, pp.3–4).",
+      "should_be": "Cite s11 pp.4–5, especially p.5 for the explicit AF447 rationale and recommended 3,000-hour experience level.",
+      "evidence": "EASA Annex VII to ED Decision 2025/002/R, printed/PDF p.4 contains AMC1 ORO.FC.A.201(a)(2)(ii); p.5 contains its AF447 rationale and GM1 experience guidance. Page 3 concerns handover briefing. The substantive claim is supported, but the page range is wrong.",
+      "url": "https://www.easa.europa.eu/lt/downloads/141604/en"
+    }
+  ],
+  "dead_links": [
+    "https://www.cours-appel.justice.fr/sites/default/files/2026-05/20260521%20Rio%20Paris%20Notions%20cl%C3%A9s.pdf"
+  ],
+  "notes": "Checked on 2026-11-07. The 205 checks are grouped field/assertion checks, not 205 independent observations; each event and each recorder row counts once. Breakdown: {\"date_utc\":1,\"people\":5,\"aircraft_non_null_fields\":14,\"route_airport_fields_and_fix_names\":25,\"site_non_null_fields\":6,\"numbers\":10,\"one_line_and_status_why\":2,\"events\":49,\"recorder_rows\":62,\"perspective_claims_and_evidence_statements\":14,\"evidence_points\":3,\"witness_accounts\":2,\"conflicts\":7,\"why_it_matters_claims\":3,\"direct_js_buildNote\":1,\"index_line\":1}. All 49 events were compared with primary records, exceeding the requested 15. All event quote and quote_speaker fields are null; witnesses are expressly paraphrased. No passenger is named and no gratuitous personal or graphic detail was found. All three perspectives distinguish BEA findings, corporate legal arguments and the unsupported early lightning suggestion fairly; the likely-icing qualification and limits of the court summary are preserved. The menu line is consistent with a rounded maximum pressure altitude near 38,000 ft. UTC times match the BEA time basis. The site conversion is 3.065833333 N, -30.561666667 W; the autopilot-to-recording-end subtraction is 263.4 seconds. The 41 safety recommendations are the cumulative investigation total reproduced in the final report; section 4.3 adds 25 new recommendations, FRAN-2012-032 through -056. This is a label clarification rather than a false count. Used curl and a temporary PyMuPDF environment to read the FAA-hosted final report (224 pages), both interim-report mirrors, and EASA guidance; downloaded and visually inspected the cited airframe photograph. Direct BEA curl connections repeatedly timed out. Retrieved the primary appendix text through indexed BEA PDFs and downloaded the nine-page French FDR appendix from https://web.archive.org/web/20221010083849id_/https://bea.aero/fileadmin/uploads/tx_elyextendttnews/annexe.02_05.pdf (HTTP 200 PDF). BEA investigation chronology, CVR foreword, Metron report and court notice were also read through indexed official content. The dead_links entry currently serves an HTTP 200 Justice.fr maintenance HTML page instead of its PDF, confirmed with curl and browser retrieval. Its indexed official PDF text nevertheless confirms the court dates, convictions and fines. BEA timeouts are retrieval limitations, not evidence of permanent dead links. No later AF447 cassation decision was located in the targeted official-site search; this does not prove none exists. The English BEA chronology really says 3 April 2011, whereas the final report and French page say 2 April; the dataset appropriately preserves that conflict. The AF447 direction block has no add, eventTimes, overlays, endTitle or source-ID citations to audit. Research files were not modified."
+}

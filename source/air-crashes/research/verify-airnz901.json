@@ -1,0 +1,32 @@
+{
+  "id": "airnz901",
+  "checked": 137,
+  "errors": [
+    {
+      "severity": "misleading",
+      "where": "direct.js DIRECT.airnz901.add[0].alt_ft, quality, method and sources",
+      "says": "At 1979-11-28T00:25:10Z, alt_ft: 18000, quality: 'recorded', with source s1 and the explanation 'Levelled at FL180, per the event timeline.'",
+      "should_be": "Retain FL180 as a recorded pressure flight level; leave geometric/MSL altitude unknown rather than supplying 18000 ft as a measured altitude. Cite s4, Annex D p. 75, for the exact level-off time. The cited s1 does not establish the 00:25:10 level-off. The research JSON itself correctly leaves alt_ft null at this time.",
+      "evidence": "Report 79-139, Annex D, printed p. 75 (PDF p. 1): automatic level-off at FL180 at 0025:10 GMT. Annex D pp. 76–77 expressly distinguishes indicated/pressure levels from QNH altitude and documents the delayed setting of local pressure. It supplies no verified 18000-ft MSL height at 0025:10.",
+      "url": "https://www.erebus.co.nz/Portals/4/Documents/Reports/Chippindale/79-139_annex_d-h.pdf"
+    },
+    {
+      "severity": "misleading",
+      "where": "direct.js DIRECT.airnz901.buildNote",
+      "says": "The last two minutes follow positions the investigators derived from the recorder and the inertial navigation system.",
+      "should_be": "Describe the final coordinates as analyst back-projections from the reported impact position using assumed constant 257-kt groundspeed and the approximately 190-degree true wreckage alignment. They are estimates with unquantified uncertainty, rather than published investigator-derived time-tagged positions. The four estimates in track[25], track[26], track[29] and track[30] explicitly disclose this method and cover the last 87 seconds.",
+      "evidence": "Report 79-139 section 2.16, printed p. 31, supplies nominal final groundspeed and the inertial-position discrepancy, not those four coordinates. Section 1.12.8, printed p. 14, supplies wreckage alignment; Annex D pp. 75–79 supplies the recorder narrative. None publishes the four coordinate pairs as investigator-derived fixes. Their actual provenance is explicitly stated in the research JSON track entries and unknowns[2].",
+      "url": "https://www.erebus.co.nz/Portals/4/Documents/Reports/Chippindale/79-139_sections_2-7.pdf"
+    },
+    {
+      "severity": "minor",
+      "where": "sources[6].notes (s7 Boeing dimensional drawing locator)",
+      "says": "Section 2.2, printed p. 8 / PDF p. 14 gives DC-10-30 length 55.35 m, span 50.39 m and body width 6.02 m.",
+      "should_be": "For the printed 50.39-m wingspan use section 2.2, printed p. 9 / PDF p. 15 (upper-galley drawing). Printed p. 8 / PDF p. 14 (lower-galley drawing) labels the span 50.38 m. Both plates label the imperial span 165 ft 4 in, which converts to 50.3936 m; the dataset wingspan of 50.39 m is therefore supported, but the stated page locator is inaccurate.",
+      "evidence": "Boeing/Douglas DAC-67803A, section 2.2, visually inspected dimension plates on printed pp. 8–9 / PDF pp. 14–15. EASA IM.A.210 issue 2, section 1 III.4, p. 7, independently gives the rounded DC-10-30 span as 50.4 m.",
+      "url": "https://www.boeing.com/content/dam/boeing/v2/airports/acaps/DC10.pdf"
+    }
+  ],
+  "dead_links": [],
+  "notes": "Independent read-only check; research inputs were not rewritten. Count is 137 checked claim units: 5 people values, date, 14 populated aircraft fields, 6 site fields, 10 airport endpoint fields plus 12 waypoint coordinate components, 10 numbers entries, one_line, status_why, 46 event narratives (exceeding the requested 15, including the principal flight and inquiry milestones), 4 perspective claims plus 19 supporting/countervailing evidence statements, 2 quote wordings plus their 2 speaker attributions, 2 direction assertions, the menu label, and the Boeing source locator. Compound narratives count once rather than inflating the count for every clause. Downloaded sources with curl and read PDFs using PyMuPDF; visually inspected Boeing plates and the 1977 airframe photograph. Both explicit event quotes match Annex C pp. 72–73, allowing typographic apostrophe normalization; captain/GPWS attribution is correct. UTC conversion of the approximately 01:40 NZDT waypoint change correctly falls on 27 November at approximately 12:40 UTC; departure and impact GMT timestamps, derived final-second times, and DMS/DM coordinate conversions check out. Airport coordinates/elevations match the cited modern OurAirports rows, which are secondary rather than historical primary airport evidence; that limitation is disclosed. All four perspectives distinguish official findings, reconstruction and rejected allegations adequately: Mahon cleared the crew, while the Privy Council rejected the coordinated-deception finding without overturning causation; the judgment also accepted evidence supporting some individual false denials of low-altitude practice. No passenger is named and no gratuitous content was found. The Air NZ 901 direct.js block has no eventTimes, overlays or endTitle fields; its sole explicit source id s1 exists, with the support limitation reported above. All 15 listed URLs resolved to their intended documents/pages. s11, s12 and s13 returned HTTP 403 to curl but their contents were successfully retrieved through the web tool, so they are access restrictions rather than dead links. Current memorial milestones through June 2026 match s12. Null/explicitly unverified measurements were not counted as confirmed numerical facts."
+}

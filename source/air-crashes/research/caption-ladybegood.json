@@ -1,0 +1,205 @@
+{
+  "id": "ladybegood",
+  "events": [
+    {
+      "i": 0,
+      "c": "The bomber group departed Soluch. Lady Be Good's exact takeoff time isn't known."
+    },
+    {
+      "i": 1,
+      "c": "Lady Be Good took off on April 4. The exact time isn't known."
+    },
+    {
+      "i": 2,
+      "c": "Sand and poor visibility disrupted the formation. Lady Be Good returned separately from the other bombers."
+    },
+    {
+      "i": 3,
+      "c": "The group bombed Naples harbor. Lady Be Good's position and altitude during the attack are unknown."
+    },
+    {
+      "i": 4,
+      "c": "The navigator noted a return course. The exact time isn't known."
+    },
+    {
+      "i": 5,
+      "c": "The crew released the bombs, but where they fell is unknown."
+    },
+    {
+      "i": 6,
+      "c": "The crew requested radio directions after their direction finder malfunctioned."
+    },
+    {
+      "i": 7,
+      "c": "Personnel near Soluch heard a bomber and fired flares. It was probably Lady Be Good."
+    },
+    {
+      "i": 8,
+      "c": "The pilot's call may have gone unanswered because a radio station suspected an enemy aircraft."
+    },
+    {
+      "i": 9,
+      "c": "The bomber ran out of fuel. Three propellers were later found set to reduce drag."
+    },
+    {
+      "i": 10,
+      "c": "The crew parachuted into the desert early on April 5. The exact time isn't known."
+    },
+    {
+      "i": 11,
+      "c": "The empty bomber struck the desert and skidded about 700 yards. An engine detached and the body broke."
+    },
+    {
+      "i": 12,
+      "c": "Lady Be Good and another bomber were still missing when the group sent its initial summary."
+    },
+    {
+      "i": 13,
+      "c": "Eight crew members gathered without the bombardier and walked northwest, sharing food and half a canteen of water."
+    },
+    {
+      "i": 14,
+      "c": "The crew rested during the day, then walked through the night with frequent short breaks."
+    },
+    {
+      "i": 15,
+      "c": "The crew reached dunes in blowing sand. They were weakening, and their eyes were affected."
+    },
+    {
+      "i": 16,
+      "c": "The engineer and two gunners continued to seek help. Five crew members stayed behind."
+    },
+    {
+      "i": 17,
+      "c": "The engineer's last diary entry describes struggling through dunes for water. His exact time of death is unknown."
+    },
+    {
+      "i": 18,
+      "c": "The copilot's last diary entry describes another cold night without help. Exact times of death are unknown."
+    },
+    {
+      "i": 19,
+      "c": "A British convoy reportedly buried unidentified remains in 1953. A connection to the missing gunner remains unproved."
+    },
+    {
+      "i": 20,
+      "c": "Oil surveyors reportedly spotted the wreck in May and June 1958. The first sighting's date is uncertain."
+    },
+    {
+      "i": 21,
+      "c": "An aerial sighting was also reported in November 1958. Whether it was the first remains uncertain."
+    },
+    {
+      "i": 22,
+      "c": "Oil surveyors reached and examined the wreck in early 1959. The exact date is uncertain."
+    },
+    {
+      "i": 23,
+      "c": "Army and Air Force personnel investigated the empty wreck and began searching for the crew."
+    },
+    {
+      "i": 24,
+      "c": "Searchers found flight boots north of the wreck, then discarded equipment and arrows made from parachutes."
+    },
+    {
+      "i": 25,
+      "c": "Another arrow made from parachute material and stones was found. Its exact location is uncertain."
+    },
+    {
+      "i": 26,
+      "c": "The first search ended without finding remains. Searchers thought sand had covered them."
+    },
+    {
+      "i": 27,
+      "c": "An investigation report covered the lost bomber and the 1959 search."
+    },
+    {
+      "i": 28,
+      "c": "Oil workers found five crew members' remains together, along with equipment and the copilot's diary."
+    },
+    {
+      "i": 29,
+      "c": "Army and Air Force teams searched by ground and air for the four crew members still missing."
+    },
+    {
+      "i": 30,
+      "c": "Oil workers found a gunner's remains farther north in May 1960."
+    },
+    {
+      "i": 31,
+      "c": "A helicopter search found the flight engineer's remains and recovered his diary."
+    },
+    {
+      "i": 32,
+      "c": "The organized search ended in late May 1960. Two crew members were still missing."
+    },
+    {
+      "i": 33,
+      "c": "A second investigation report covered the final organized search."
+    },
+    {
+      "i": 34,
+      "c": "The bombardier's remains lay near the descent area with a partially opened parachute. Equipment marked the survivors' gathering."
+    },
+    {
+      "i": 35,
+      "c": "A memorial window honoring the crew was unveiled at Wheelus, then moved to the U.S. Air Force museum."
+    },
+    {
+      "i": 36,
+      "c": "A Royal Air Force team recovered components to study how long desert exposure affected the materials."
+    },
+    {
+      "i": 37,
+      "c": "Libyan authorities moved the remaining wreckage to Tobruk for safekeeping in 1994."
+    },
+    {
+      "i": 38,
+      "c": "A photograph of the unidentified remains could not establish their identity. The missing gunner's case remained unresolved."
+    }
+  ],
+  "numbers": [
+    {
+      "i": 0,
+      "label": "People aboard",
+      "value": "9 crew; all died"
+    },
+    {
+      "i": 1,
+      "label": "Crew gathered after parachuting",
+      "value": "8"
+    },
+    {
+      "i": 2,
+      "label": "Initial shared water",
+      "value": "Half a canteen"
+    },
+    {
+      "i": 3,
+      "label": "Documented survival",
+      "value": "At least through April 12"
+    },
+    {
+      "i": 4,
+      "label": "Ground skid",
+      "value": "About 700 yards"
+    },
+    {
+      "i": 5,
+      "label": "Estimated group walk",
+      "value": "78 or 85 miles; estimates differ"
+    },
+    {
+      "i": 6,
+      "label": "Crew members' remains recovered",
+      "value": "8 of 9"
+    },
+    {
+      "i": 7,
+      "label": "Parachute arrows",
+      "value": "7 approximate locations"
+    }
+  ],
+  "one_line": "After overshooting its Libyan base, the crew parachuted into the desert; all nine died.",
+  "status_why": "The wreck, remains, and diaries explain the loss; precise navigation failures and one crew member's whereabouts remain unresolved."
+}

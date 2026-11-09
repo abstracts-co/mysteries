@@ -1,0 +1,255 @@
+{
+  "id": "af447",
+  "events": [
+    {
+      "i": 0,
+      "c": "The flight left Rio for Paris with 228 people aboard. The right-seat copilot was flying."
+    },
+    {
+      "i": 1,
+      "c": "The crew reported passing INTOL and gave estimated arrival times for the next points along the route."
+    },
+    {
+      "i": 2,
+      "c": "The controller requested an arrival estimate for TASIL. Repeated later requests received no reply."
+    },
+    {
+      "i": 3,
+      "c": "The aircraft passed SALPU at the edge of radar coverage, marking its last recorded radar position."
+    },
+    {
+      "i": 4,
+      "c": "A call sounded in the crew rest area before the pilots changed positions."
+    },
+    {
+      "i": 5,
+      "c": "The relief copilot entered the cockpit. The captain stayed for a briefing before leaving."
+    },
+    {
+      "i": 6,
+      "c": "The captain left to rest, leaving two copilots at the controls."
+    },
+    {
+      "i": 7,
+      "c": "The flying copilot warned the cabin crew that more turbulence was expected shortly."
+    },
+    {
+      "i": 8,
+      "c": "The aircraft began turning left, probably to avoid weather shown on radar."
+    },
+    {
+      "i": 9,
+      "c": "The crew switched from automatic speed selection to a chosen speed of Mach 0.80."
+    },
+    {
+      "i": 10,
+      "c": "The crew switched on the system that prevents ice forming on the engine housings."
+    },
+    {
+      "i": 11,
+      "c": "The autopilot disconnected as speed readings disagreed, likely from ice-blocked sensors. The flying copilot made nose-up control inputs."
+    },
+    {
+      "i": 12,
+      "c": "The flight-control mode changed, removing automatic protection against the wings losing lift at too steep an angle."
+    },
+    {
+      "i": 13,
+      "c": "Automatic engine power control disconnected. It and the autopilot remained off for the rest of the flight."
+    },
+    {
+      "i": 14,
+      "c": "Two brief warnings sounded that the wings could lose lift, before the sustained stall began."
+    },
+    {
+      "i": 15,
+      "c": "The monitoring copilot identified missing speed readings. The crew did not call for the procedure for unreliable airspeed."
+    },
+    {
+      "i": 16,
+      "c": "The crew switched on the wing ice-prevention system while the aircraft was climbing."
+    },
+    {
+      "i": 17,
+      "c": "Nose-up control inputs took the aircraft above its cruising level. Its climb reached 6,900 feet per minute."
+    },
+    {
+      "i": 18,
+      "c": "The left speed display became reliable after 29 seconds. The backup display remained wrong longer."
+    },
+    {
+      "i": 19,
+      "c": "The warning of lost wing lift became continuous. The flying copilot continued mainly nose-up control inputs."
+    },
+    {
+      "i": 20,
+      "c": "A call chime sounded for the cabin or crew rest area. Further calls went to the rest area."
+    },
+    {
+      "i": 21,
+      "c": "Vibration became audible in the cockpit as the aircraft approached a loss of wing lift."
+    },
+    {
+      "i": 22,
+      "c": "The crew selected takeoff engine power, but the wing's angle to the airflow kept rising before the descent."
+    },
+    {
+      "i": 23,
+      "c": "The main and backup speed readings agreed again as the aircraft neared the top of its climb."
+    },
+    {
+      "i": 24,
+      "c": "The highest altitude reading reached about 38,000 feet. Its exact height above sea level is unknown."
+    },
+    {
+      "i": 25,
+      "c": "The copilots briefly switched control priority between them without clear spoken handovers."
+    },
+    {
+      "i": 26,
+      "c": "The captain returned during the stalled descent. The crew did not agree that the wings had lost lift."
+    },
+    {
+      "i": 27,
+      "c": "The stall warning stopped when sensor readings became invalid. The aircraft had not recovered."
+    },
+    {
+      "i": 28,
+      "c": "The crew moved the engine power levers to idle. Engine power then decreased."
+    },
+    {
+      "i": 29,
+      "c": "The crew briefly deployed the aircraft's air brakes for about three seconds."
+    },
+    {
+      "i": 30,
+      "c": "The crew selected climb power. The engines responded by increasing power."
+    },
+    {
+      "i": 31,
+      "c": "The right-seat copilot briefly pushed fully forward and selected takeoff power. Later readings still showed stalled wings."
+    },
+    {
+      "i": 32,
+      "c": "The altitude display read about 10,000 feet. The flying copilot mentioned approaching that level."
+    },
+    {
+      "i": 33,
+      "c": "Both copilots made overlapping inputs, with the left mostly commanding nose-down and the right alternating nose-up and neutral."
+    },
+    {
+      "i": 34,
+      "c": "The crew briefly reduced engine power to idle, then increased it and later moved toward takeoff power again."
+    },
+    {
+      "i": 35,
+      "c": "Warnings sounded about rapid descent and the need to pull up, about 2,140 feet above the sea."
+    },
+    {
+      "i": 36,
+      "c": "The wing's angle to the airflow remained steep. The right-seat copilot took control priority until the flight ended."
+    },
+    {
+      "i": 37,
+      "c": "The recording ended near ocean impact. The aircraft remained intact until impact, descending rapidly with its nose raised."
+    },
+    {
+      "i": 38,
+      "c": "Rescue coordination began gathering flight information. Failures in monitoring and coordination delayed alerts and search deployment."
+    },
+    {
+      "i": 39,
+      "c": "French and Brazilian forces began recovering wreckage and victims from the sea on June 6."
+    },
+    {
+      "i": 40,
+      "c": "A new search map combined likely aircraft movements, uncertain drift estimates, and earlier unsuccessful searches to locate wreckage."
+    },
+    {
+      "i": 41,
+      "c": "The main wreckage was found about 3,900 meters below the sea. The exact discovery date is uncertain."
+    },
+    {
+      "i": 42,
+      "c": "The flight recorder's protected memory unit was recovered from the seabed, a day after it was found."
+    },
+    {
+      "i": 43,
+      "c": "The cockpit voice recorder was recovered. Both recorders were later read in France."
+    },
+    {
+      "i": 44,
+      "c": "The investigation linked faulty speed readings, control inputs, and an unrecognized stall, identifying training and crew-coordination weaknesses."
+    },
+    {
+      "i": 45,
+      "c": "Airbus and Air France were acquitted at the first criminal trial. The acquittals were later reversed on appeal."
+    },
+    {
+      "i": 46,
+      "c": "The appeal hearings began on September 29, 2025, and continued through November 27."
+    },
+    {
+      "i": 47,
+      "c": "The appeal court convicted Airbus and Air France of involuntary homicide, fining each company €225,000."
+    },
+    {
+      "i": 48,
+      "c": "Airbus announced plans to seek a further court review. The outcome is unknown."
+    }
+  ],
+  "numbers": [
+    {
+      "i": 0,
+      "label": "People aboard; all died",
+      "value": "216 passengers and 12 crew"
+    },
+    {
+      "i": 1,
+      "label": "Autopilot disconnection to recording end",
+      "value": "About 4 minutes 23 seconds"
+    },
+    {
+      "i": 2,
+      "label": "Highest recorded altitude reading",
+      "value": "About 38,000 feet"
+    },
+    {
+      "i": 3,
+      "label": "Fastest recorded climb",
+      "value": "6,900 feet per minute"
+    },
+    {
+      "i": 4,
+      "label": "Continuous warning of lost wing lift",
+      "value": "54 seconds"
+    },
+    {
+      "i": 5,
+      "label": "Left speed display initially wrong",
+      "value": "29 seconds"
+    },
+    {
+      "i": 6,
+      "label": "Last recorded descent rate",
+      "value": "10,912 feet per minute"
+    },
+    {
+      "i": 7,
+      "label": "Wreckage depth",
+      "value": "About 3,900 meters"
+    },
+    {
+      "i": 8,
+      "label": "Investigation safety recommendations",
+      "value": "41"
+    },
+    {
+      "i": 9,
+      "label": "Appeal court fines",
+      "value": "€225,000 per company"
+    }
+  ],
+  "one_line": "Unreliable speed readings preceded loss of control, a sustained loss of wing lift, and ocean impact.",
+  "status_why": "Recovered recorders establish the loss of control and stall sequence, while corporate legal responsibility remains contested."
+}

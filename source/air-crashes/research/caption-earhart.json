@@ -1,0 +1,196 @@
+{
+  "id": "earhart",
+  "events": [
+    {
+      "i": 0,
+      "c": "The pilot and navigator left Lae aboard the aircraft."
+    },
+    {
+      "i": 1,
+      "c": "A forecast of stronger winds and rain arrived during takeoff. Whether the crew received it is unknown."
+    },
+    {
+      "i": 2,
+      "c": "The first clear radio report to Lae put the aircraft at 7,000 feet."
+    },
+    {
+      "i": 3,
+      "c": "The aircraft reported flying at 10,000 feet. Thick clouds prompted a planned descent."
+    },
+    {
+      "i": 4,
+      "c": "The last report heard at Lae placed the aircraft above clouds. Its position and altitude remain uncertain."
+    },
+    {
+      "i": 5,
+      "c": "Nauru heard a report of a ship sighting, but it did not establish the aircraft’s position."
+    },
+    {
+      "i": 6,
+      "c": "Itasca heard a voice through static, attributed to the aircraft. It provided no useful position."
+    },
+    {
+      "i": 7,
+      "c": "The pilot said she would listen for radio messages every half hour."
+    },
+    {
+      "i": 8,
+      "c": "A broken radio message mentioned partly cloudy weather; the full weather description is uncertain."
+    },
+    {
+      "i": 9,
+      "c": "The pilot requested a radio direction measurement and estimated the aircraft was about 200 miles away."
+    },
+    {
+      "i": 10,
+      "c": "The crew again requested a radio direction measurement, estimating about 100 miles away without giving a direction."
+    },
+    {
+      "i": 11,
+      "c": "Itasca could not reliably measure the aircraft’s direction on that radio frequency and requested another. No answer followed."
+    },
+    {
+      "i": 12,
+      "c": "The pilot reported low fuel. The exact amount remaining is unknown."
+    },
+    {
+      "i": 13,
+      "c": "The pilot reported flying at 1,000 feet without seeing the ship. The aircraft’s position remained unknown."
+    },
+    {
+      "i": 14,
+      "c": "The pilot reported circling and requested a radio signal. Itasca transmitted one."
+    },
+    {
+      "i": 15,
+      "c": "The crew heard Itasca’s signals but could not use them to determine the ship’s direction."
+    },
+    {
+      "i": 16,
+      "c": "The pilot’s final call described a navigation line but gave no reference point."
+    },
+    {
+      "i": 17,
+      "c": "Itasca listened on another radio frequency, but no further understandable aircraft reply was heard."
+    },
+    {
+      "i": 18,
+      "c": "Whether another north or south message followed is uncertain; the exact timing is disputed."
+    },
+    {
+      "i": 19,
+      "c": "Itasca began searching northward, although the aircraft’s route was unknown."
+    },
+    {
+      "i": 20,
+      "c": "Unverified distress signals redirected searches around Howland and toward the Phoenix Islands."
+    },
+    {
+      "i": 21,
+      "c": "Three aircraft searched Gardner and saw signs of recent habitation, but found no aircraft or response."
+    },
+    {
+      "i": 22,
+      "c": "The Navy search ended without finding the aircraft or crew. Searchers believed they were lost at sea."
+    },
+    {
+      "i": 23,
+      "c": "A photograph showed an object near Gardner’s reef. Its identification as aircraft landing gear remains disputed."
+    },
+    {
+      "i": 24,
+      "c": "An anonymous bottle message alleged captivity in the Marshalls. Its author and the crew’s identity remained unverified."
+    },
+    {
+      "i": 25,
+      "c": "A partial skeleton and nearby objects were found on Gardner. The person’s identity and exact location remained uncertain."
+    },
+    {
+      "i": 26,
+      "c": "An examiner assessed the remains as male. The bones have not been located for modern testing."
+    },
+    {
+      "i": 27,
+      "c": "Japan’s investigation found no basis for claims of execution on Saipan, but did not locate the aircraft."
+    },
+    {
+      "i": 28,
+      "c": "Anthropologists supported the original male assessment, but the missing bones prevented a firm conclusion."
+    },
+    {
+      "i": 29,
+      "c": "A photograph offered as captivity evidence appeared in a 1935 book, before the crew disappeared."
+    },
+    {
+      "i": 30,
+      "c": "A study found bone measurements similar to the pilot’s estimated proportions, but did not identify the remains."
+    },
+    {
+      "i": 31,
+      "c": "A navigation instrument number linked to USS Bushnell weakened the claim that its box belonged to the navigator."
+    },
+    {
+      "i": 32,
+      "c": "An expedition found no aircraft parts near Nikumaroro. Some areas and the possibility of survivors there remained unresolved."
+    },
+    {
+      "i": 33,
+      "c": "A sonar image suggested a possible aircraft, but its shape did not confirm its identity."
+    },
+    {
+      "i": 34,
+      "c": "The sonar target proved to be a natural rock formation."
+    },
+    {
+      "i": 35,
+      "c": "An expedition was proposed to inspect a possible aircraft in a lagoon. Permit and seasonal delays postponed it."
+    },
+    {
+      "i": 36,
+      "c": "Newly released historical records became available, without establishing a new crash site."
+    },
+    {
+      "i": 37,
+      "c": "Inspection found the suspected aircraft was likely coated tree debris. Other recovered objects were not confirmed aircraft parts."
+    }
+  ],
+  "numbers": [
+    {
+      "i": 0,
+      "label": "Reported fuel at departure",
+      "value": "About 1,100 U.S. gallons"
+    },
+    {
+      "i": 1,
+      "label": "Last reported altitude",
+      "value": "1,000 feet"
+    },
+    {
+      "i": 2,
+      "label": "Last reported navigation line",
+      "value": "157/337 degrees"
+    },
+    {
+      "i": 3,
+      "label": "Time from takeoff to final call",
+      "value": "20 hours 13 minutes"
+    },
+    {
+      "i": 4,
+      "label": "Official search flying time",
+      "value": "1,654 aircraft hours"
+    },
+    {
+      "i": 5,
+      "label": "Bone measurement comparison",
+      "value": "Similarity does not confirm identity"
+    },
+    {
+      "i": 6,
+      "label": "Estimated flight duration under different conditions",
+      "value": "24 hours or 20.5 hours"
+    }
+  ],
+  "one_line": "The pilot and navigator disappeared after failing to locate Howland Island on their flight from Lae.",
+  "status_why": "Radio contacts document the failed approach, but the crew’s final location and what happened afterward remain unknown."
+}

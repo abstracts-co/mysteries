@@ -1,0 +1,216 @@
+{
+  "id": "twa800",
+  "events": [
+    {
+      "i": 0,
+      "c": "The aircraft arrived at JFK from Athens. Its incoming crew reported no operating problems."
+    },
+    {
+      "i": 1,
+      "c": "Staff resolved a baggage concern that had delayed departure, confirming the passenger linked to the bag was aboard."
+    },
+    {
+      "i": 2,
+      "c": "The crew requested pushback from the gate. The air conditioning had been running on the ground."
+    },
+    {
+      "i": 3,
+      "c": "With three engines started, the crew requested clearance to taxi."
+    },
+    {
+      "i": 4,
+      "c": "The crew started the remaining engine while taxiing and completed the checks."
+    },
+    {
+      "i": 5,
+      "c": "Controllers cleared the aircraft onto the runway to wait, warning of disturbed air behind a Boeing 757."
+    },
+    {
+      "i": 6,
+      "c": "Controllers cleared the aircraft for takeoff from runway 22R."
+    },
+    {
+      "i": 7,
+      "c": "The aircraft lifted off at about 8:19 p.m. local time."
+    },
+    {
+      "i": 8,
+      "c": "The crew contacted departure control as the aircraft began climbing."
+    },
+    {
+      "i": 9,
+      "c": "Boston Center took over air traffic control as the aircraft continued climbing."
+    },
+    {
+      "i": 10,
+      "c": "Controllers cleared a climb to 19,000 feet, asking the crew to pass through 15,000 feet quickly."
+    },
+    {
+      "i": 11,
+      "c": "Controllers changed the clearance, instructing the crew to maintain 13,000 feet."
+    },
+    {
+      "i": 12,
+      "c": "An altitude alert sounded as the aircraft reached its assigned height."
+    },
+    {
+      "i": 13,
+      "c": "The captain noticed an unusual fuel flow reading. Its connection to the later ignition was not established."
+    },
+    {
+      "i": 14,
+      "c": "Controllers cleared a climb to 15,000 feet. The crew called for more engine power."
+    },
+    {
+      "i": 15,
+      "c": "The captain in the right seat acknowledged the climb clearance. This was the last radio acknowledgment."
+    },
+    {
+      "i": 16,
+      "c": "The flight engineer confirmed the power setting. Engine power then rose as the aircraft climbed."
+    },
+    {
+      "i": 17,
+      "c": "Islip radar received its last aircraft reply. Other radar sites continued tracking it briefly."
+    },
+    {
+      "i": 18,
+      "c": "The flight recorder stopped recording data. The exact moment it lost power is uncertain."
+    },
+    {
+      "i": 19,
+      "c": "Radar received the aircraft's last identifying reply. Later echoes carried no aircraft identity or altitude."
+    },
+    {
+      "i": 20,
+      "c": "An explosion in the fuel tank between the wings began the breakup. The exact ignition time is unknown."
+    },
+    {
+      "i": 21,
+      "c": "A brief, loud sound preceded the end of the cockpit recording."
+    },
+    {
+      "i": 22,
+      "c": "The nose is estimated to have separated about three to five seconds after the initial explosion."
+    },
+    {
+      "i": 23,
+      "c": "The remaining aircraft is estimated to have briefly climbed and changed direction after losing its nose."
+    },
+    {
+      "i": 24,
+      "c": "The outer wings are estimated to have failed about 34 seconds after the initial explosion."
+    },
+    {
+      "i": 25,
+      "c": "A nearby airline captain reported seeing an explosion. The report does not establish when the initial explosion happened."
+    },
+    {
+      "i": 26,
+      "c": "The center section is estimated to have failed near the left wing, leaving pieces falling without control."
+    },
+    {
+      "i": 27,
+      "c": "The main wreckage hit the ocean an estimated 47–54 seconds after the explosion. The nose fell separately."
+    },
+    {
+      "i": 28,
+      "c": "Aircraft and boats responded to the burning wreckage that evening. No survivors were found."
+    },
+    {
+      "i": 29,
+      "c": "Both recorders were recovered on July 24. The flight recorder's tape was readable."
+    },
+    {
+      "i": 30,
+      "c": "The FBI ended its active criminal investigation, announcing it had found no evidence of a criminal cause."
+    },
+    {
+      "i": 31,
+      "c": "Investigators found a tank explosion, probably ignited by excessive voltage through fuel gauge wiring. The source remains uncertain."
+    },
+    {
+      "i": 32,
+      "c": "Petitioners challenged the findings using radar, witness accounts, and physical evidence. Some had participated in the original investigation."
+    },
+    {
+      "i": 33,
+      "c": "Investigators heard the petitioners' case, including an eyewitness account. The meeting did not establish a new cause."
+    },
+    {
+      "i": 34,
+      "c": "Investigators rejected the request to reconsider after reviewing radar arguments and additional witness accounts."
+    },
+    {
+      "i": 35,
+      "c": "Investigators announced plans to retire the reconstructed wreckage and document it digitally before destruction, as agreed with families."
+    },
+    {
+      "i": 36,
+      "c": "Judicial Watch announced FBI records describing early leads and claims of responsibility. These did not verify an attack."
+    },
+    {
+      "i": 37,
+      "c": "The Clinton Library announced newly processed records. No new official cause determination was identified."
+    }
+  ],
+  "numbers": [
+    {
+      "i": 0,
+      "label": "People aboard; all died",
+      "value": "230"
+    },
+    {
+      "i": 1,
+      "label": "Aircraft's accumulated flight time",
+      "value": "93,303 hours"
+    },
+    {
+      "i": 2,
+      "label": "Wreckage recovered",
+      "value": "More than 95 percent"
+    },
+    {
+      "i": 3,
+      "label": "Reconstructed wreckage length",
+      "value": "93 feet"
+    },
+    {
+      "i": 4,
+      "label": "Altitude near recording's end",
+      "value": "13,772 feet"
+    },
+    {
+      "i": 5,
+      "label": "Explosion to main wreckage impact",
+      "value": "About 47–54 seconds"
+    },
+    {
+      "i": 6,
+      "label": "Witnesses",
+      "value": "736"
+    },
+    {
+      "i": 7,
+      "label": "Vertical streak accounts challenging estimated path",
+      "value": "38"
+    },
+    {
+      "i": 8,
+      "label": "Additional witness accounts reviewed",
+      "value": "20"
+    },
+    {
+      "i": 9,
+      "label": "Pieces with explosive residue",
+      "value": "Three"
+    },
+    {
+      "i": 10,
+      "label": "Regional buoy wave height",
+      "value": "0.67 meters"
+    }
+  ],
+  "one_line": "A fuel tank explosion broke apart a Boeing 747 shortly after takeoff from New York.",
+  "status_why": "Investigators established a fuel tank explosion and ruled out a missile or bomb. The exact ignition source remains unknown."
+}

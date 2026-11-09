@@ -1,0 +1,40 @@
+{
+  "id": "mh370",
+  "checked": 265,
+  "errors": [
+    {
+      "severity": "wrong",
+      "where": "direct.js: DIRECT.mh370.buildNote",
+      "says": "Radar and ACARS end at 18:22 UTC.",
+      "should_be": "The last ACARS position batch was transmitted at 17:07:29 UTC on 7 March 2014, containing samples ending at 17:06:43. The last military radar return was at 18:22:12 UTC. These are different cutoffs.",
+      "evidence": "s1, sections 1.1.1 and 1.1.3, printed pp.3–6; section 1.9.4, printed pp.113–114, Figure 1.9H. The original message image was visually inspected.",
+      "url": "https://www.mh370whathappened.com/uploads/1/1/4/6/1146986/mh370safetyinvestigationreport.pdf"
+    },
+    {
+      "severity": "misleading",
+      "where": "direct.js: DIRECT.mh370.buildNote",
+      "says": "There is no recorder",
+      "should_be": "Neither the flight data recorder nor the cockpit voice recorder has been recovered. The aircraft was equipped with both; absence of their recordings must not be phrased as absence of the equipment.",
+      "evidence": "s1, section 1.11, printed p.133, explicitly lists two installed crash-protected recorders; the report preamble and conclusion, printed pp.442–443, explain that their evidence is unavailable.",
+      "url": "https://www.mh370whathappened.com/uploads/1/1/4/6/1146986/mh370safetyinvestigationreport.pdf"
+    },
+    {
+      "severity": "unsupported",
+      "where": "$.people.sources (support for $.people.died, $.people.survived and $.people.notes)",
+      "says": "died=239; survived=0; these are the official presumed-loss figures; only s1 is cited.",
+      "should_be": "Retain the explicit presumed-loss qualification, but add the primary declaration supporting that presumption. The numerical presumption is supported by the DCA director-general’s 29 January 2015 announcement, paragraph 23, rather than the cited injury section of s1.",
+      "evidence": "s1, section 1.2, printed p.22, says injuries could not be established and 239 people remained missing, with no survivors or bodies found. The DCA announcement, paragraph 23, explicitly presumes all 239 passengers and crew to have lost their lives; its full text is reproduced at the linked URL. This is a citation deficiency, not a finding that the presumed-loss total is incorrect.",
+      "url": "https://coconuts.co/kl/news/full-statement-dca-director-general-flight-mh370/"
+    },
+    {
+      "severity": "minor",
+      "where": "$.events[38].calendar_date; $.conflicts",
+      "says": "Left flap fragment found: 2016-05-10, without a date-conflict qualification.",
+      "should_be": "Identify 10 May 2016 as the date in Table 1.12A and disclose that the same report’s detailed Item 10 account gives 8 May 2016. The reviewed evidence does not resolve the discrepancy.",
+      "evidence": "s1, Table 1.12A Item 10, printed p.144 (PDF p.190), says 10 May 2016; section 1.12.3, Item 10, printed p.159 (PDF p.205), says 08 May 2016. Both identify the left outboard flap fragment from Ilot Bernache, Mauritius. The cited s14 map identifies the location and item but supplies no discovery date.",
+      "url": "https://www.mh370whathappened.com/uploads/1/1/4/6/1146986/mh370safetyinvestigationreport.pdf"
+    }
+  ],
+  "dead_links": [],
+  "notes": "Independent audit on 7 November 2026; supplied research files unchanged. Checked counts use field/assertion or source-row units, not every scalar within a row: 5 people values, 14 aircraft fields, date_utc/one_line/status_why/site (4), 10 airport attributes, 14 waypoint coordinate pairs, 10 numbers entries, 15 principal event records, 10 perspective records, 4 scene checks, 1 menu label, 145 CAPTION radar rows, 6 original ACARS rows, 16 satellite-log rows, 9 Ashton illustrative-route rows, and 2 published geometries = 265. The 15 principal events are zero-based indices 3,8,11,14,16,19,21,22,31,32,33,37,38,45,55. Used curl downloads and a temporary Python/PyMuPDF environment; visually inspected the ACARS message, Boeing dimension drawing, aircraft photograph and June 2026 ministerial statement. Radar timestamps/coordinates and populated tested motion fields matched the cited individual CSV rows; none of those sampled rows was a no-detection report. Waypoint degrees/minutes and airport DMS conversions checked. The only non-null verbatim quote, events[11], matches s1 p.2, with captain attribution supported by p.38. UTC conversions checked, including the Penang phone hit. The familiar event date is 8 March; departure and radar loss were 7 March UTC, and final satellite transmissions were 8 March UTC, as date_notes acknowledges. All ten perspectives were reviewed against their cited authors or official findings. No additional verified fairness error was identified: proposed paths, WSPR positions, the Java acoustic association and CSIRO imagery inferences are qualified; official manual-turn and fuel-exhaustion interpretations retain limits. No named passenger or gratuitous material found. The MH370 scene has no add points or eventTimes overrides. Its arc/polygon overlays preserve model/display qualifications through the shared polys helper; the Ashton path is attributed and its nine points match Table 9. The menu’s seven more hours is reasonable rounding of the interval from turnback to final transmission. All 38 listed source URLs were attempted. No URL was conclusively established as dead; this does not mean every direct download succeeded. Several ATSB endpoints failed or timed out in curl but were available through web-reader text, alternate official URLs, or official summaries. The exact s2 current PDF could not be fully retrieved; the older official URL returned a 41,685,870-byte size-limit response, so unavailable retrieval was not treated as proof of a dead link. s27 repeatedly returned HTTP 404 through curl, while the same URL rendered the complete two-page ministry update in the web reader. Ocean Infinity pages returned curl HTTP 403 but rendered their dated statements in the web reader. These access discrepancies are recorded rather than classified as dead links. No claimed November 2026 search restart was inferred from the June extension."
+}

@@ -1,0 +1,2528 @@
+{
+  "id": "airnz901",
+  "title": "Air New Zealand Flight 901 — Mount Erebus",
+  "date_utc": "1979-11-28",
+  "one_line": "A sightseeing DC-10 struck Mount Erebus after an unannounced route change and loss of terrain contrast.",
+  "status": "disputed",
+  "status_why": "The collision sequence is established, but two official inquiries assigned different causal weight to crew decisions and airline failures.",
+  "aircraft": {
+    "type": "McDonnell Douglas DC-10-30",
+    "registration": "ZK-NZP",
+    "operator": "Air New Zealand Limited",
+    "length_m": 55.35,
+    "wingspan_m": 50.39,
+    "height_m": 17.55,
+    "fuselage_diameter_m": 6.02,
+    "engines": 3,
+    "engine_type": "General Electric CF6-50C turbofans",
+    "engine_mount": "tail+wing",
+    "wing": "low",
+    "wing_sweep_deg": null,
+    "tail": "conventional",
+    "gear": "retractable",
+    "livery_notes": "Reference photograph of ZK-NZP in July 1977 shows a white upper fuselage, turquoise window stripe, dark-blue lower stripe, silver lower fuselage, dark-blue/turquoise tail and white koru. Air New Zealand titles sit above the windows. Exact accident-day paint details are unverified; do not treat this photograph as taken in 1979. [s9]",
+    "sources": [
+      "s1",
+      "s7",
+      "s8",
+      "s9"
+    ]
+  },
+  "people": {
+    "aboard": 257,
+    "crew": 20,
+    "passengers": 237,
+    "died": 257,
+    "survived": 0,
+    "sources": [
+      "s1"
+    ]
+  },
+  "route": {
+    "to": {
+      "name": "Christchurch International Airport — first intended landing after Antarctic sightseeing",
+      "code": "CHC",
+      "lat": -43.489029,
+      "lon": 172.532065,
+      "elev_ft": 123
+    },
+    "planned_waypoints": [
+      {
+        "name": "Auckland Islands sector flight-plan point; Mahon para. 249 table",
+        "lat": -50.7,
+        "lon": 166.166667
+      },
+      {
+        "name": "55°S outbound flight-plan point; Mahon para. 249",
+        "lat": -55.0,
+        "lon": 165.466667
+      },
+      {
+        "name": "60°S outbound flight-plan point; Mahon para. 249",
+        "lat": -60.0,
+        "lon": 164.533333
+      },
+      {
+        "name": "Balleny Islands sector flight-plan point; Mahon para. 249",
+        "lat": -66.75,
+        "lon": 163.0
+      },
+      {
+        "name": "Cape Hallett flight-plan point; Mahon para. 249",
+        "lat": -72.333333,
+        "lon": 170.216667
+      },
+      {
+        "name": "Revised McMurdo TACAN destination; Privy Council [1984] AC 808, p. 832",
+        "lat": -77.878333,
+        "lon": 166.966667
+      }
+    ],
+    "sources": [
+      "s1",
+      "s5",
+      "s10",
+      "s6"
+    ],
+    "from": {
+      "name": "Auckland International Airport (Māngere)",
+      "code": "AKL",
+      "lat": -37.01199,
+      "lon": 174.786331,
+      "elev_ft": 23
+    }
+  },
+  "site": {
+    "lat": -77.425,
+    "lon": 167.458333,
+    "elev_ft": 1467,
+    "depth_m": null,
+    "precision": "approximate",
+    "surface": "ice",
+    "description": "Historical impact position reported as 77°25′30″S, 167°27′30″E on the northern ice-covered slopes of Mount Erebus above Lewis Bay. Coordinates converted from degrees/minutes/seconds; original datum and positional uncertainty are unspecified. The report describes a 13° uphill slope, 5° cross-slope and wreckage spread about 570 by 120 m. This marks initial impact, not the summit or the whole debris field. [s1, 1.1.9 and 1.12.8]",
+    "sources": [
+      "s1",
+      "s4"
+    ]
+  },
+  "terrain_box": {
+    "west": 166.1,
+    "south": -77.85,
+    "east": 169.0,
+    "north": -77.2,
+    "why": "Presentation bounds selected for roughly 70 km east–west by 72 km north–south near Lewis Bay. Show the approach over sea ice, coastal ice cliff, Mount Bird, northern Erebus slopes and the mountain rising behind the impact point. These are display bounds, not a surveyed search boundary."
+  },
+  "environment": [
+    {
+      "t_utc": "1979-11-28T00:01:00Z",
+      "lat": null,
+      "lon": null,
+      "place": "McMurdo ice runway; observation broadcast at 00:10 UTC",
+      "wind_dir_deg": null,
+      "wind_kt": 20,
+      "temp_c": -4,
+      "visibility_km": null,
+      "precip": null,
+      "turbulence": null,
+      "lightning": null,
+      "sea_state": null,
+      "wave_height_m": null,
+      "cloud_layers": [
+        {
+          "type": "overcast; type not specified",
+          "base_ft": 2000,
+          "top_ft": null,
+          "coverage": "8/8"
+        }
+      ],
+      "light": "day",
+      "moon_note": null,
+      "notes": "Observation time is known to the minute. Report 1.7.3: visibility 40 miles, grid wind 200° at 20 kt, altimeter 29.30 inHg; surface and horizon fair. Wind reference is grid, so true wind direction is null. Visibility miles are not assigned a kilometre value without a verified unit convention. This is south of Erebus, not a direct impact-site measurement.",
+      "quality": "recorded",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "t_utc": "1979-11-28T00:18:05Z",
+      "lat": null,
+      "lon": null,
+      "place": "McMurdo area; forecaster speaking to TE901",
+      "wind_dir_deg": null,
+      "wind_kt": null,
+      "temp_c": null,
+      "visibility_km": null,
+      "precip": "Light snow reported near McMurdo",
+      "turbulence": null,
+      "lightning": null,
+      "sea_state": null,
+      "wave_height_m": null,
+      "cloud_layers": [
+        {
+          "type": "low overcast",
+          "base_ft": 2000,
+          "top_ft": null,
+          "coverage": "extensive overcast"
+        }
+      ],
+      "light": "day",
+      "moon_note": null,
+      "notes": "Annex C 00:18:05 and 00:18:52, pp. 42–43; report 1.7.4. Forecaster reported visibility about 40 miles and clearer areas 75–100 miles northwest. These reports do not establish snowfall in the aircraft’s final forward view. The captain’s passenger announcement at 00:20:30 instead used 40 kilometres; see conflicts. Neither message is treated as a measured visibility on the final slope.",
+      "quality": "reported",
+      "sources": [
+        "s1",
+        "s3"
+      ]
+    },
+    {
+      "t_utc": "1979-11-28T00:49:50Z",
+      "lat": -77.425,
+      "lon": 167.458333,
+      "place": "Lewis Bay / northern Mount Erebus impact approach",
+      "wind_dir_deg": null,
+      "wind_kt": 12,
+      "temp_c": null,
+      "visibility_km": null,
+      "precip": null,
+      "turbulence": "No significant turbulence or downdraught recorded in the later stages",
+      "lightning": null,
+      "sea_state": null,
+      "wave_height_m": null,
+      "cloud_layers": [
+        {
+          "type": "low stratiform overcast intersecting the mountain",
+          "base_ft": null,
+          "top_ft": null,
+          "coverage": "8/8; gaps farther north during the orbits"
+        },
+        {
+          "type": "upper cloud and mountain cap cloud",
+          "base_ft": null,
+          "top_ft": null,
+          "coverage": "not measured at impact site"
+        }
+      ],
+      "light": "whiteout",
+      "moon_note": null,
+      "notes": "Daylight, with a forward-sector whiteout illusion under cloud; clear side views do not imply visible terrain contours ahead. Mahon paras. 40(a), 165–201: overcast generally around 3000 ft, falling to about 2000–2500 ft near the slope, sun approximately behind the aircraft at 34° elevation. Chippindale 1.17.45 interprets some photographs as showing a base below 2000 ft; no single measured base is adopted. NCU memory recorded wind 138°/12 kt (1.7.1); direction datum is not specified clearly enough to populate true wind direction. Aircraft pitch about 5° obscured some low contrast cues. No impact-site thermometer or complete cloud sounding was found.",
+      "quality": "reported",
+      "sources": [
+        "s1",
+        "s4",
+        "s5"
+      ]
+    },
+    {
+      "t_utc": "1979-11-28T01:00:00Z",
+      "lat": null,
+      "lon": null,
+      "place": "US Navy C-130 approach west-northwest of McMurdo, after the accident",
+      "wind_dir_deg": null,
+      "wind_kt": null,
+      "temp_c": null,
+      "visibility_km": null,
+      "precip": null,
+      "turbulence": "Light during descent; no icing reported",
+      "lightning": null,
+      "sea_state": null,
+      "wave_height_m": null,
+      "cloud_layers": [
+        {
+          "type": "variable layers entered near 16000 ft",
+          "base_ft": null,
+          "top_ft": 16000,
+          "coverage": "variable; one vertical break about 1500 ft deep"
+        },
+        {
+          "type": "lowest stratiform layer with ragged base",
+          "base_ft": 2500,
+          "top_ft": null,
+          "coverage": "solid overcast"
+        },
+        {
+          "type": "lenticular cap above Mount Erebus",
+          "base_ft": null,
+          "top_ft": null,
+          "coverage": "local cap cloud"
+        }
+      ],
+      "light": "day",
+      "moon_note": null,
+      "notes": "Report 1.7.2(a). Ross Island and mountain peaks were hidden by cloud. Visibility below cloud was good but surface definition poor. The aircraft landed at 01:20 UTC. This is nearby, later testimony, not a sounding on TE901’s track.",
+      "quality": "reported",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "t_utc": "1979-11-28T02:00:00Z",
+      "lat": null,
+      "lon": null,
+      "place": "Helicopter landing on Lewis Bay beach, about 10 km from the wreck",
+      "wind_dir_deg": null,
+      "wind_kt": null,
+      "temp_c": null,
+      "visibility_km": null,
+      "precip": "Light snow, later snow flurries",
+      "turbulence": "None reported on approach",
+      "lightning": null,
+      "sea_state": null,
+      "wave_height_m": null,
+      "cloud_layers": [
+        {
+          "type": "overcast",
+          "base_ft": null,
+          "top_ft": null,
+          "coverage": "continuous; occasional sun discernible"
+        }
+      ],
+      "light": "day",
+      "moon_note": null,
+      "notes": "Report 1.7.2(b). Pilot could not distinguish the rising slopes from cloud or recognise their elevation; surface definition very poor to nil. Rocky coast below ice cliffs remained visible. Observation was more than an hour after impact; coordinates are not supplied.",
+      "quality": "reported",
+      "sources": [
+        "s1"
+      ]
+    }
+  ],
+  "track": [
+    {
+      "t_utc": "1979-11-28T00:17:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "No. 2 autopilot commanded normal flight; no technical failure identified.",
+      "quality": "recorded",
+      "method": "Cruise FL330 is recorded, but it is pressure altitude, not a verified 33000 ft MSL. alt_ft therefore null. Start of surviving CVR interval.",
+      "sources": [
+        "s3",
+        "s4"
+      ],
+      "locator": "Annex D p. 75; Annex C p. 41"
+    },
+    {
+      "t_utc": "1979-11-28T00:18:44Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "Descent started; normal navigation-track guidance.",
+      "quality": "recorded",
+      "method": "Corrected GMT given in Annex D. Descent initiated with vertical-speed wheel. Rate later reached about 2900 ft/min and IAS-hold later captured 323 kt; exact times for those maxima/capture are not given, so they are not assigned to this instant.",
+      "sources": [
+        "s4"
+      ],
+      "locator": "Annex D p. 75"
+    },
+    {
+      "t_utc": "1979-11-28T00:24:51Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "Navigation track / altitude capture annunciated.",
+      "quality": "recorded",
+      "method": "CVR flight-mode call reports navigation track and altitude capture. No numerical altitude sample published for this second.",
+      "sources": [
+        "s3"
+      ],
+      "locator": "Annex C p. 47, 00:24:51"
+    },
+    {
+      "t_utc": "1979-11-28T00:25:10Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "Level at FL180; No. 2 autopilot engaged.",
+      "quality": "recorded",
+      "method": "Automatic level-off at FL180. This is 18000 ft pressure altitude, not independently verified MSL altitude; alt_ft null. En-route heading was 358–359° GRID, not a true heading sample.",
+      "sources": [
+        "s4"
+      ],
+      "locator": "Annex D p. 75"
+    },
+    {
+      "t_utc": "1979-11-28T00:32:05Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "Heading select / right descending orbit.",
+      "quality": "recorded",
+      "method": "Navigation-track mode disengaged and first descending orbit begun to the right under autopilot heading select. No sampled roll or altitude supplied.",
+      "sources": [
+        "s4"
+      ],
+      "locator": "Annex D p. 76"
+    },
+    {
+      "t_utc": "1979-11-28T00:33:01Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "Altitude armed / heading select / vertical speed; intended target 10000 ft on standard setting.",
+      "quality": "recorded",
+      "method": "Flight-mode annunciations read on CVR; armed altitude is a target, not measured height.",
+      "sources": [
+        "s3",
+        "s4"
+      ],
+      "locator": "Annex D p. 76; Annex C p. 53"
+    },
+    {
+      "t_utc": "1979-11-28T00:35:36Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "First descending orbit; QNH still not set on main altimeters.",
+      "quality": "recorded",
+      "method": "First officer reported passing FL130. Do not equate this spoken pressure level with 13000 ft MSL. Exact corrected QNH height not printed at this second.",
+      "sources": [
+        "s3",
+        "s4"
+      ],
+      "locator": "Annex C p. 55, 00:35:36; Annex D p. 76"
+    },
+    {
+      "t_utc": "1979-11-28T00:37:27Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 9400,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "Level plateau; main altimeters remained on standard pressure.",
+      "quality": "recorded",
+      "method": "Crew reported level at 10000 ft. Annex D correlates that level plateau with 9400 ft QNH. This is the published plateau value, not a raw per-second sample.",
+      "sources": [
+        "s3",
+        "s4"
+      ],
+      "locator": "Annex C p. 57; Annex D p. 76"
+    },
+    {
+      "t_utc": "1979-11-28T00:38:23Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 9400,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "Second orbit, to the left, to maintain visual conditions.",
+      "quality": "recorded",
+      "method": "CVR marks decision for another orbit. DFDR narrative places aircraft on the same 9400 ft QNH plateau; no precise roll value published.",
+      "sources": [
+        "s3",
+        "s4"
+      ],
+      "locator": "Annex C p. 58; Annex D p. 76"
+    },
+    {
+      "t_utc": "1979-11-28T00:39:07Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 9400,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "Main altimeters still on standard pressure.",
+      "quality": "recorded",
+      "method": "Annex D explicitly correlates the first officer’s 10000 ft report with actual QNH altitude 9400 ft.",
+      "sources": [
+        "s3",
+        "s4"
+      ],
+      "locator": "Annex D p. 76; Annex C p. 59"
+    },
+    {
+      "t_utc": "1979-11-28T00:42:01Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "Heading-select phase before further descent; 2000 ft target subsequently armed.",
+      "quality": "recorded",
+      "method": "Aircraft requested descent on grid heading 180°; Annex D says left turn was stopped on 179° GRID. This is not a verified true-heading sample at this second.",
+      "sources": [
+        "s3",
+        "s4"
+      ],
+      "locator": "Annex C pp. 60–61; Annex D p. 76"
+    },
+    {
+      "t_utc": "1979-11-28T00:42:47Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": 272,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "Pitch guidance changed from vertical speed to IAS hold.",
+      "quality": "recorded",
+      "method": "Annex D specifies IAS 272 kt at selection of IAS hold. The commonly cited 1300–1500 ft/min is a later interval range, not an exact rate at this second.",
+      "sources": [
+        "s4"
+      ],
+      "locator": "Annex D p. 76"
+    },
+    {
+      "t_utc": "1979-11-28T00:42:49Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "Left turn resumed under autopilot; IAS hold.",
+      "quality": "recorded",
+      "method": "CVR marks another left turn. Nearby 9300 ft value in Annex D lacks a sufficiently explicit pressure reference and exact sampling time; MSL altitude left null.",
+      "sources": [
+        "s3",
+        "s4"
+      ],
+      "locator": "Annex C p. 62; Annex D p. 76"
+    },
+    {
+      "t_utc": "1979-11-28T00:43:35Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "Navigation capture armed while descending in left turn.",
+      "quality": "recorded",
+      "method": "Navigation mode rearmed according to CVR. Annex D puts this during passage through 100° GRID, without a separately printed sample time; true heading null.",
+      "sources": [
+        "s3",
+        "s4"
+      ],
+      "locator": "Annex C p. 63; Annex D p. 76"
+    },
+    {
+      "t_utc": "1979-11-28T00:44:40Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "Navigation track recaptured.",
+      "quality": "recorded",
+      "method": "Corrected DFDR narrative gives time of recapture of Hallett–McMurdo navigation track. No sampled altitude published for this second.",
+      "sources": [
+        "s4"
+      ],
+      "locator": "Annex D p. 76"
+    },
+    {
+      "t_utc": "1979-11-28T00:45:00Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 5400,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "Descending to 2000 ft target; main altimeters still on standard pressure.",
+      "quality": "recorded",
+      "method": "DFDR correlation gives 5400 ft QNH when the first officer reported 6000 ft. IAS was around 272 kt across this phase; no exact sample-specific IAS is supplied.",
+      "sources": [
+        "s3",
+        "s4"
+      ],
+      "locator": "Annex D p. 76; Annex C p. 64"
+    },
+    {
+      "t_utc": "1979-11-28T00:45:35Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "Vertical-speed mode selected; descent rate and IAS subsequently increased.",
+      "quality": "recorded",
+      "method": "DFDR narrative identifies vertical-speed mode selection. Subsequent IAS maximum 303 kt at 3500 ft QNH and about 42% engine N1 are published without an exact timestamp; not attached to this instant.",
+      "sources": [
+        "s4"
+      ],
+      "locator": "Annex D pp. 76–77"
+    },
+    {
+      "t_utc": "1979-11-28T00:46:14Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "Main altimeters being reset to local QNH.",
+      "quality": "recorded",
+      "method": "Captain reads QNH 29.30 on CVR. Annex D describes reset around 4000 ft indicated; analysis uses about 3500 ft actual. No precise MSL sample assigned.",
+      "sources": [
+        "s2",
+        "s3",
+        "s4"
+      ],
+      "locator": "Annex C p. 66; Annex D p. 77; report 2.15"
+    },
+    {
+      "t_utc": "1979-11-28T00:46:21Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 3000,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "derived",
+      "method": "First officer calls one thousand to go; armed target was 2000 ft QNH. 2000+1000=3000 ft MSL as an approximate instrument callout, not a raw DFDR sample. CVR timing uncertainty about ±3 s.",
+      "sources": [
+        "s3",
+        "s4"
+      ],
+      "locator": "Annex C p. 66; Annex D p. 77"
+    },
+    {
+      "t_utc": "1979-11-28T00:46:25Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "Autothrottle speed mode, target 260 kt; engines initially at low power until target reached.",
+      "quality": "recorded",
+      "method": "Captain selects 260 kt autothrottle target. Actual IAS was still reducing, so ias_kt remains null rather than using a selected speed as a measured value.",
+      "sources": [
+        "s4"
+      ],
+      "locator": "Annex D p. 77"
+    },
+    {
+      "t_utc": "1979-11-28T00:46:35Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": 2750,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": null,
+      "quality": "derived",
+      "method": "CVR altitude alert combined with Annex D statement that alert occurs 750 ft above armed altitude: 2000+750=2750 ft QNH. Alert and voice timing are approximate, not a sampled altitude.",
+      "sources": [
+        "s3",
+        "s4"
+      ],
+      "locator": "Annex C p. 66; Annex D p. 77"
+    },
+    {
+      "t_utc": "1979-11-28T00:47:23Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "Altitude capture approaching 2000 ft QNH target.",
+      "quality": "recorded",
+      "method": "CVR announces altitude capture. Capture mode does not prove altitude target has already been reached.",
+      "sources": [
+        "s3"
+      ],
+      "locator": "Annex C p. 68"
+    },
+    {
+      "t_utc": "1979-11-28T00:47:28Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "Short level-off at 2000 ft before further descent; exact capture time unresolved.",
+      "quality": "recorded",
+      "method": "CVR announces speed, navigation track and altitude. Exact numerical sample/time of level-off is not printed; Annex D confirms a short 2000 ft QNH plateau.",
+      "sources": [
+        "s3",
+        "s4"
+      ],
+      "locator": "Annex C p. 68; Annex D p. 77"
+    },
+    {
+      "t_utc": "1979-11-28T00:47:43Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "1500 ft target requested after brief 2000 ft level-off.",
+      "quality": "recorded",
+      "method": "Captain calls for descent to 1500 ft; current exact numerical sample not supplied. The requested target is not entered as actual altitude.",
+      "sources": [
+        "s3",
+        "s4"
+      ],
+      "locator": "Annex C p. 68; Annex D p. 77"
+    },
+    {
+      "t_utc": "1979-11-28T00:47:55Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "Further descent under vertical-speed guidance.",
+      "quality": "recorded",
+      "method": "First officer identifies vertical-speed mode for 1500 ft. No numerical altitude sample published.",
+      "sources": [
+        "s3"
+      ],
+      "locator": "Annex C p. 69"
+    },
+    {
+      "t_utc": "1979-11-28T00:48:23Z",
+      "lat": -77.3235,
+      "lon": 167.5398,
+      "alt_ft": 1515,
+      "ias_kt": 260,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": 5,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "Altitude hold, target 1500 ft; navigation track; autothrottle speed target 260 kt.",
+      "quality": "derived",
+      "method": "DFDR narrative explicitly gives QNH altitude 1515 ft at altitude-hold annunciation. Final steady phase IAS 260 kt and pitch about 5° are interval values, not an independently printed sample for every second. POSITION ESTIMATE: back-project from reported impact position on WGS84 at reciprocal bearing 010° true, assuming constant 257 kt groundspeed and a straight 190° true ground track. Inputs: report 2.16, 2.19 and wreckage alignment 1.12.8. This is an analyst calculation using a nominal final-approach speed/alignment, not a recorded position. Wind variation and small final turns are not resolved; uncertainty is unquantified and includes the approximate impact coordinates. Do not render as an exact path.",
+      "sources": [
+        "s1",
+        "s2",
+        "s4"
+      ],
+      "locator": "Annex D p. 77"
+    },
+    {
+      "t_utc": "1979-11-28T00:48:48Z",
+      "lat": -77.3527,
+      "lon": 167.5165,
+      "alt_ft": 1443,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "Small undershoot during 1500 ft altitude-hold capture.",
+      "quality": "derived",
+      "method": "Time calculated as 00:48:23 plus the published next 25 seconds to minimum QNH altitude 1443 ft. Timing is approximate; altitude is the published DFDR minimum. POSITION ESTIMATE: back-project from reported impact position on WGS84 at reciprocal bearing 010° true, assuming constant 257 kt groundspeed and a straight 190° true ground track. Inputs: report 2.16, 2.19 and wreckage alignment 1.12.8. This is an analyst calculation using a nominal final-approach speed/alignment, not a recorded position. Wind variation and small final turns are not resolved; uncertainty is unquantified and includes the approximate impact coordinates. Do not render as an exact path.",
+      "sources": [
+        "s1",
+        "s2",
+        "s4"
+      ],
+      "locator": "Annex D p. 77"
+    },
+    {
+      "t_utc": "1979-11-28T00:48:51Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "Captain describes flight as at 1500 ft.",
+      "quality": "recorded",
+      "method": "Captain’s CVR response gives rounded 1500 ft, not a precise DFDR sample. Retained as a spoken instrument/flight-level description only; alt_ft null.",
+      "sources": [
+        "s3"
+      ],
+      "locator": "Annex C p. 71"
+    },
+    {
+      "t_utc": "1979-11-28T00:49:30Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "Climb-out decision; aircraft still in final altitude-hold approach.",
+      "quality": "recorded",
+      "method": "Captain announces climb-out intention; no instantaneous MSL altitude or flight-path change printed. Twenty-six miles is an indicated distance to waypoint, not a surveyed position.",
+      "sources": [
+        "s3",
+        "s4"
+      ],
+      "locator": "Annex C p. 72; Annex D pp. 77–78"
+    },
+    {
+      "t_utc": "1979-11-28T00:49:33Z",
+      "lat": -77.4052,
+      "lon": 167.4744,
+      "alt_ft": 1540,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "Minor altitude-hold excursion; maximum before impact.",
+      "quality": "derived",
+      "method": "Time calculated as impact 00:49:50 minus the published 17 seconds to the maximum QNH altitude 1540 ft. No interpolation between the minimum and maximum. POSITION ESTIMATE: back-project from reported impact position on WGS84 at reciprocal bearing 010° true, assuming constant 257 kt groundspeed and a straight 190° true ground track. Inputs: report 2.16, 2.19 and wreckage alignment 1.12.8. This is an analyst calculation using a nominal final-approach speed/alignment, not a recorded position. Wind variation and small final turns are not resolved; uncertainty is unquantified and includes the approximate impact coordinates. Do not render as an exact path.",
+      "sources": [
+        "s1",
+        "s2",
+        "s4"
+      ],
+      "locator": "Annex D p. 77"
+    },
+    {
+      "t_utc": "1979-11-28T00:49:39Z",
+      "lat": -77.4122,
+      "lon": 167.4687,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "No significant turbulence or downdraught; terrain rises sharply below aircraft.",
+      "quality": "derived",
+      "method": "Time calculated as impact minus 11 s. DFDR radio altitude falls 270 ft over 1.5 s crossing the coastal ice cliff. This is terrain-relative height, not aircraft MSL descent or vertical speed. POSITION ESTIMATE: back-project from reported impact position on WGS84 at reciprocal bearing 010° true, assuming constant 257 kt groundspeed and a straight 190° true ground track. Inputs: report 2.16, 2.19 and wreckage alignment 1.12.8. This is an analyst calculation using a nominal final-approach speed/alignment, not a recorded position. Wind variation and small final turns are not resolved; uncertainty is unquantified and includes the approximate impact coordinates. Do not render as an exact path.",
+      "sources": [
+        "s1",
+        "s2",
+        "s4"
+      ],
+      "locator": "Annex D p. 77"
+    },
+    {
+      "t_utc": "1979-11-28T00:49:42Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "Heading select chosen; beginning right turn under autopilot.",
+      "quality": "derived",
+      "method": "Time calculated as impact minus 8 s. Navigation track changed to heading select and right roll began; no true-heading sample published.",
+      "sources": [
+        "s4"
+      ],
+      "locator": "Annex D p. 78"
+    },
+    {
+      "t_utc": "1979-11-28T00:49:43.500Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "Ground proximity warning begins.",
+      "quality": "derived",
+      "method": "Time calculated from impact minus 6.5 s, the warning duration in Annex D. Onset lay between radio-altitude samples of 637 and 583 ft; these are not MSL altitudes. CVR prints onset rounded to 00:49:44.",
+      "sources": [
+        "s3",
+        "s4"
+      ],
+      "locator": "Annex D pp. 77–78; Annex C p. 73"
+    },
+    {
+      "t_utc": "1979-11-28T00:49:46Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "Nose-up elevator input; No. 2 autopilot apparently disengaged.",
+      "quality": "derived",
+      "method": "Time calculated as impact minus 4 s. Sudden elevator application preceded pitch response. Autopilot-disengagement discrete in this damaged tape area is explicitly described as doubtful.",
+      "sources": [
+        "s4"
+      ],
+      "locator": "Annex D p. 77"
+    },
+    {
+      "t_utc": "1979-11-28T00:49:46.500Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": 11,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "Right roll reverses; manual left rudder input begins.",
+      "quality": "derived",
+      "method": "Time calculated as impact minus 3.5 s. Maximum right bank 11° from DFDR analysis; roll subsequently reversed. Positive roll here denotes right wing down.",
+      "sources": [
+        "s4"
+      ],
+      "locator": "Annex D p. 78"
+    },
+    {
+      "t_utc": "1979-11-28T00:49:47.500Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": 5,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "Nose-up response to escape input begins.",
+      "quality": "derived",
+      "method": "Time calculated as impact minus about 2.5 s. Pitch begins increasing from about 5°; maximum 10.9° occurs before impact, but its exact sample time is not printed.",
+      "sources": [
+        "s4"
+      ],
+      "locator": "Annex D p. 77"
+    },
+    {
+      "t_utc": "1979-11-28T00:49:48Z",
+      "lat": null,
+      "lon": null,
+      "alt_ft": null,
+      "ias_kt": null,
+      "gs_kt": null,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": null,
+      "roll_deg": null,
+      "aoa_deg": null,
+      "flap": null,
+      "gear": null,
+      "engine_note": "Terrain clearance call; escape power requested in final seconds.",
+      "quality": "recorded",
+      "method": "CVR stamps the flight engineer’s 500 ft call at this time; subsequent 400 ft call is not independently timed. Both are RADIO altitudes; alt_ft must not be set to either. DFDR maximum vertical acceleration 1.67 g occurred about 2 s before impact.",
+      "sources": [
+        "s3",
+        "s4"
+      ],
+      "locator": "Annex C p. 73; Annex D p. 77"
+    },
+    {
+      "t_utc": "1979-11-28T00:49:50Z",
+      "lat": -77.425,
+      "lon": 167.458333,
+      "alt_ft": null,
+      "ias_kt": 260,
+      "gs_kt": 257,
+      "mach": null,
+      "hdg_deg": null,
+      "vs_fpm": null,
+      "pitch_deg": 10.9,
+      "roll_deg": 0,
+      "aoa_deg": null,
+      "flap": 0,
+      "gear": "up",
+      "engine_note": "No. 1 engine last recorded N2 94%; all engines increasing power. Final bank crossed wings level while rolling left. No significant escape climb registered.",
+      "quality": "derived",
+      "method": "Impact timestamp groups the published terminal observations, which were not all sampled simultaneously. Position is DMS-to-decimal conversion of surveyed report location. IAS 260 kt describes final approach; maximum pitch 10.9° and wings-level passage describe terminal motion. Last grid heading 358.95° is not converted into a true heading. Terrain elevation 1467 ft is not substituted for airframe reference-point altitude.",
+      "sources": [
+        "s1",
+        "s2",
+        "s4"
+      ],
+      "locator": "Synopsis; 1.11.4, 1.12.2–1.12.9; Annex D pp. 77–78"
+    }
+  ],
+  "events": [
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Crew received route briefing",
+      "detail": "On 9 November 1979 the captain and first officer attended the route qualification briefing. It used an earlier flight plan with the western McMurdo waypoint; exact briefing time is unknown.",
+      "kind": "crew_action",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s1",
+        "s5"
+      ],
+      "locator": "1.1.1; Mahon paras. 35–39, 152–164"
+    },
+    {
+      "t_utc": "1979-11-27T12:40:00Z",
+      "t_precision": "estimated",
+      "title": "Destination waypoint changed",
+      "detail": "Mahon dates the change to about 01:40 NZDT on 28 November, equivalent to about 12:40 UTC on 27 November. Longitude changed from 164°48′E to 166°58′E; the crew were not told.",
+      "kind": "system",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s1",
+        "s5",
+        "s13"
+      ],
+      "locator": "Mahon paras. 35–37; report 1.17.7; NZDT conversion in synopsis footnote"
+    },
+    {
+      "t_utc": "1979-11-27T19:17:00Z",
+      "t_precision": "minute",
+      "title": "Departure from Auckland",
+      "detail": "The DC-10 departed Auckland for Antarctic sightseeing, with Christchurch the first intended landing on the return. The source gives departure to the minute.",
+      "kind": "departure",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s1"
+      ],
+      "locator": "1.1.2"
+    },
+    {
+      "t_utc": "1979-11-27T21:53:00Z",
+      "t_precision": "minute",
+      "title": "Updated forecast passed",
+      "detail": "Auckland Radio passed a McMurdo forecast of broken cloud at 4000 and 10000 ft, visibility 40 miles, and occasional light snow with reduced visibility. This was a forecast, not an impact-site observation.",
+      "kind": "weather",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s1"
+      ],
+      "locator": "1.7.7"
+    },
+    {
+      "t_utc": "1979-11-28T00:17:13Z",
+      "t_precision": "second",
+      "title": "Earlier descent proposed",
+      "detail": "The captain proposed starting descent early. The aircraft was about 144 miles north of McMurdo according to the recorder analysis.",
+      "kind": "crew_action",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s3",
+        "s4"
+      ],
+      "locator": "Annex C p. 41; Annex D p. 75"
+    },
+    {
+      "t_utc": "1979-11-28T00:18:05Z",
+      "t_precision": "second",
+      "title": "Low overcast reported",
+      "detail": "The McMurdo forecaster described low overcast near 2000 ft, snow near McMurdo and visibility about 40 miles. Clear areas lay well northwest.",
+      "kind": "weather",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s1",
+        "s3"
+      ],
+      "locator": "Annex C pp. 42–43; 1.7.4"
+    },
+    {
+      "t_utc": "1979-11-28T00:18:29Z",
+      "t_precision": "second",
+      "title": "Crew requested FL160",
+      "detail": "The first officer requested descent to FL160. Mac Centre instead cleared the aircraft to FL180.",
+      "kind": "atc",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s3"
+      ],
+      "locator": "Annex C p. 42, 00:18:29–00:18:47"
+    },
+    {
+      "t_utc": "1979-11-28T00:18:44Z",
+      "t_precision": "second",
+      "title": "Initial descent began",
+      "detail": "DFDR analysis dates initiation of descent at this second. Altitude and speed guidance operated normally.",
+      "kind": "fdr",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s4"
+      ],
+      "locator": "Annex D p. 75"
+    },
+    {
+      "t_utc": "1979-11-28T00:19:56Z",
+      "t_precision": "second",
+      "title": "Radar letdown offered",
+      "detail": "Mac Centre offered radar vectors down to 1500 ft once within about 40 miles. This was an offer; no radar identification of TE901 followed.",
+      "kind": "atc",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s1",
+        "s3"
+      ],
+      "locator": "Annex C p. 43; 1.1.5"
+    },
+    {
+      "t_utc": "1979-11-28T00:20:07Z",
+      "t_precision": "second",
+      "title": "Crew accepted radar offer",
+      "detail": "The crew accepted the proposed radar letdown. VHF communications and TACAN distance reception subsequently remained unreliable.",
+      "kind": "atc",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s1",
+        "s3"
+      ],
+      "locator": "Annex C p. 43; 1.8.7 and 1.9"
+    },
+    {
+      "t_utc": "1979-11-28T00:25:10Z",
+      "t_precision": "second",
+      "title": "Aircraft levelled at FL180",
+      "detail": "Flight guidance automatically captured FL180. This was pressure altitude, not a direct measurement of terrain clearance.",
+      "kind": "fdr",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s4"
+      ],
+      "locator": "Annex D p. 75"
+    },
+    {
+      "t_utc": "1979-11-28T00:31:01Z",
+      "t_precision": "second",
+      "title": "Captain proposed an orbit",
+      "detail": "The captain identified a cloud break and proposed an orbit to descend. Other cockpit remarks referred to differing cloud conditions on either side.",
+      "kind": "crew_action",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s3",
+        "s4"
+      ],
+      "locator": "Annex C p. 51; Annex D pp. 75–76"
+    },
+    {
+      "t_utc": "1979-11-28T00:32:05Z",
+      "t_precision": "second",
+      "title": "First descending orbit began",
+      "detail": "The crew changed from navigation track to heading select. The autopilot began a right turn.",
+      "kind": "fdr",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s4"
+      ],
+      "locator": "Annex D p. 76"
+    },
+    {
+      "t_utc": "1979-11-28T00:32:08Z",
+      "t_precision": "second",
+      "title": "Visual descent approved",
+      "detail": "Mac Centre approved VMC descent and required altitude reports. This did not provide terrain clearance by radar.",
+      "kind": "atc",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s3"
+      ],
+      "locator": "Annex C p. 52"
+    },
+    {
+      "t_utc": "1979-11-28T00:33:34Z",
+      "t_precision": "second",
+      "title": "Transponder recycling requested",
+      "detail": "A ground transmission requested transponder recycling and code 0400. The transcript notes that this call was not recorded on the CVR.",
+      "kind": "atc",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s3"
+      ],
+      "locator": "Annex C p. 54"
+    },
+    {
+      "t_utc": "1979-11-28T00:35:36Z",
+      "t_precision": "second",
+      "title": "Brief VHF contact obtained",
+      "detail": "The first officer reported descending through FL130 towards 10000 ft. The exchange confirmed a request for a radar letdown, but radar never located the aircraft.",
+      "kind": "atc",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s1",
+        "s3"
+      ],
+      "locator": "Annex C pp. 55–56; 1.8.7"
+    },
+    {
+      "t_utc": "1979-11-28T00:37:27Z",
+      "t_precision": "second",
+      "title": "Level at indicated 10000",
+      "detail": "The first officer reported level at 10000 ft in VMC. Recorder analysis establishes about 9400 ft QNH because the main altimeters were still on standard pressure.",
+      "kind": "atc",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s3",
+        "s4"
+      ],
+      "locator": "Annex C p. 57; Annex D p. 76"
+    },
+    {
+      "t_utc": "1979-11-28T00:38:23Z",
+      "t_precision": "second",
+      "title": "Second orbit proposed",
+      "detail": "The captain said another orbit was needed to stay in visual conditions. The second orbit turned left.",
+      "kind": "crew_action",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s3",
+        "s4"
+      ],
+      "locator": "Annex C p. 58; Annex D p. 76"
+    },
+    {
+      "t_utc": "1979-11-28T00:42:01Z",
+      "t_precision": "second",
+      "title": "Visual approach requested",
+      "detail": "The first officer requested a letdown on grid heading 180° followed by a visual approach to McMurdo. That heading led generally away from Ross Island; the aircraft later turned back towards it.",
+      "kind": "atc",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s3",
+        "s4"
+      ],
+      "locator": "Annex C pp. 60–61; Annex D p. 76"
+    },
+    {
+      "t_utc": "1979-11-28T00:42:15Z",
+      "t_precision": "second",
+      "title": "Maintain visual conditions",
+      "detail": "Mac Centre instructed the crew to maintain VMC and keep reporting altitude. A later instruction requested a report at 10 DME.",
+      "kind": "atc",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s3"
+      ],
+      "locator": "Annex C p. 61"
+    },
+    {
+      "t_utc": "1979-11-28T00:42:47Z",
+      "t_precision": "second",
+      "title": "IAS hold selected",
+      "detail": "DFDR analysis gives 272 kt at selection of IAS hold. Descent continued during the second left turn.",
+      "kind": "fdr",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s4"
+      ],
+      "locator": "Annex D p. 76"
+    },
+    {
+      "t_utc": "1979-11-28T00:43:35Z",
+      "t_precision": "second",
+      "title": "Navigation mode rearmed",
+      "detail": "The captain rearmed navigation guidance. Under Mahon’s interpretation, this reflected confidence in a track down McMurdo Sound; that intention is inferred.",
+      "kind": "crew_action",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s3",
+        "s5"
+      ],
+      "locator": "Annex C p. 63; Mahon paras. 32–39, 328"
+    },
+    {
+      "t_utc": "1979-11-28T00:44:40Z",
+      "t_precision": "second",
+      "title": "Revised track recaptured",
+      "detail": "The autopilot recaptured the Hallett–McMurdo navigation track. The track now led towards the northern slopes of Erebus.",
+      "kind": "fdr",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s4",
+        "s5"
+      ],
+      "locator": "Annex D p. 76; Mahon paras. 35–37"
+    },
+    {
+      "t_utc": "1979-11-28T00:45:00Z",
+      "t_precision": "second",
+      "title": "Final altitude report transmitted",
+      "detail": "The first officer reported 6000 ft descending to 2000 ft in VMC. DFDR analysis gives 5400 ft QNH at that time.",
+      "kind": "atc",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s3",
+        "s4"
+      ],
+      "locator": "Annex C p. 64; Annex D p. 76"
+    },
+    {
+      "t_utc": "1979-11-28T00:45:08Z",
+      "t_precision": "second",
+      "title": "Last ground acknowledgment",
+      "detail": "Mac Centre acknowledged the aircraft’s altitude report. Later VHF calls recorded on the CVR received no successful reply.",
+      "kind": "atc",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s3"
+      ],
+      "locator": "Annex C pp. 64, 71–74"
+    },
+    {
+      "t_utc": "1979-11-28T00:46:14Z",
+      "t_precision": "second",
+      "title": "Local pressure setting read",
+      "detail": "The captain read 29.30 inHg. Main altimeters were reset late in the descent; this discrepancy had been corrected before the final low-level approach.",
+      "kind": "system",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s3",
+        "s4"
+      ],
+      "locator": "Annex C p. 66; Annex D p. 77"
+    },
+    {
+      "t_utc": "1979-11-28T00:46:25Z",
+      "t_precision": "second",
+      "title": "Speed target set",
+      "detail": "The captain selected 260 kt for autothrottle speed control. The engines remained at low power until the aircraft slowed to the target.",
+      "kind": "crew_action",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s4"
+      ],
+      "locator": "Annex D p. 77"
+    },
+    {
+      "t_utc": "1979-11-28T00:47:43Z",
+      "t_precision": "second",
+      "title": "Further descent requested",
+      "detail": "After a brief level-off near 2000 ft, the captain called for descent to 1500 ft. Mac Centre was not advised of that further descent.",
+      "kind": "crew_action",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s3",
+        "s4"
+      ],
+      "locator": "Annex C p. 68; Annex D p. 77"
+    },
+    {
+      "t_utc": "1979-11-28T00:48:23Z",
+      "t_precision": "second",
+      "title": "Altitude hold at 1515 feet",
+      "detail": "DFDR analysis gives 1515 ft QNH as altitude hold annunciated. Small subsequent deviations reached 1443 and 1540 ft.",
+      "kind": "fdr",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s4"
+      ],
+      "locator": "Annex D p. 77"
+    },
+    {
+      "t_utc": "1979-11-28T00:49:30Z",
+      "t_precision": "second",
+      "title": "Captain decided to climb away",
+      "detail": "The captain announced an intention to climb out while the crew discussed the direction of a turn. The report does not show that a climb had begun at this instant.",
+      "kind": "crew_action",
+      "quote": "We're twenty six miles north we'll have to climb out of this",
+      "quote_speaker": "Captain",
+      "quality": "recorded",
+      "sources": [
+        "s3"
+      ],
+      "locator": "Annex C p. 72"
+    },
+    {
+      "t_utc": "1979-11-28T00:49:39Z",
+      "t_precision": "estimated",
+      "title": "Aircraft crossed coastal ice cliff",
+      "detail": "Time is calculated as impact minus the reported 11 seconds. Radio altitude dropped 270 ft in 1.5 seconds because the terrain rose below the aircraft.",
+      "kind": "fdr",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "derived",
+      "sources": [
+        "s4"
+      ],
+      "locator": "Annex D p. 77"
+    },
+    {
+      "t_utc": "1979-11-28T00:49:42Z",
+      "t_precision": "estimated",
+      "title": "Turn mode selected",
+      "detail": "Time is calculated as impact minus eight seconds. Heading select replaced navigation track and the aircraft began rolling right.",
+      "kind": "fdr",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "derived",
+      "sources": [
+        "s4"
+      ],
+      "locator": "Annex D p. 78"
+    },
+    {
+      "t_utc": "1979-11-28T00:49:43.500Z",
+      "t_precision": "estimated",
+      "title": "Ground proximity warning began",
+      "detail": "Onset is calculated from the report’s 6.5-second warning duration; the CVR transcript rounds onset to 00:49:44. The warning system operated as designed.",
+      "kind": "system",
+      "quote": "Pull up",
+      "quote_speaker": "Ground proximity warning system",
+      "quality": "derived",
+      "sources": [
+        "s3",
+        "s4"
+      ],
+      "locator": "Annex D pp. 77–78; Annex C p. 73"
+    },
+    {
+      "t_utc": "1979-11-28T00:49:46Z",
+      "t_precision": "estimated",
+      "title": "Escape control input began",
+      "detail": "Time is calculated as impact minus four seconds. A sharp nose-up elevator input apparently disengaged the autopilot; the report cautions that the discrete autopilot data here are doubtful.",
+      "kind": "fdr",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "derived",
+      "sources": [
+        "s4"
+      ],
+      "locator": "Annex D p. 77"
+    },
+    {
+      "t_utc": "1979-11-28T00:49:46.500Z",
+      "t_precision": "estimated",
+      "title": "Right bank peaked",
+      "detail": "Time is calculated as impact minus 3.5 seconds. Right bank reached 11° before reversing, with manual left rudder also applied.",
+      "kind": "fdr",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "derived",
+      "sources": [
+        "s4"
+      ],
+      "locator": "Annex D p. 78"
+    },
+    {
+      "t_utc": "1979-11-28T00:49:48Z",
+      "t_precision": "second",
+      "title": "Terrain clearance called",
+      "detail": "The engineer called 500 ft and then 400 ft of radio altitude. These were heights above the terrain, not MSL heights; the captain requested escape power during the final seconds.",
+      "kind": "cvr",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "recorded",
+      "sources": [
+        "s3"
+      ],
+      "locator": "Annex C p. 73"
+    },
+    {
+      "t_utc": "1979-11-28T00:49:50Z",
+      "t_precision": "second",
+      "title": "Impact on Erebus ice slope",
+      "detail": "The aircraft struck the ice-covered slope while its engines were increasing power and pitch was increasing. The attempted escape had not produced a significant climb; all 257 aboard died.",
+      "kind": "impact",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s1",
+        "s4"
+      ],
+      "locator": "Synopsis; 1.1.7–1.1.10, 1.11.4, 1.12; Annex D pp. 77–79"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Wreckage found after search",
+      "detail": "On 28 November 1979 UTC, search aircraft located the wreckage about 11 hours after impact. A verified second-resolution discovery time was not recovered from the primary material read.",
+      "kind": "discovery",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s2"
+      ],
+      "locator": "Report 2.22 and 3.33"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Chippindale report submitted",
+      "detail": "The report is signed 31 May 1980 and the reproduced approval page is dated 12 June 1980. It assigned probable cause to low-level continuation and failure to detect rising terrain.",
+      "kind": "finding",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s1",
+        "s2"
+      ],
+      "locator": "Submission and release-approval pages; 3.37"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Royal Commission reported",
+      "detail": "On 16 April 1981 Mahon submitted his report. He assigned dominant cause to the unannounced track change enabled by defective airline procedures and cleared the flight crew of contributory error.",
+      "kind": "finding",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s5"
+      ],
+      "locator": "Mahon signed submission; paras. 385–394"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Privy Council decided appeal",
+      "detail": "On 20 October 1983 the appeal failed. The deception-based costs order remained set aside for evidential and procedural unfairness; causation findings were not challenged.",
+      "kind": "finding",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s6"
+      ],
+      "locator": "[1984] AC 808, pp. 812–813, 820–821, 838"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Government and airline apologised",
+      "detail": "On 28 November 2019 the Prime Minister accepted Mahon’s causation findings and apologised for the state-owned airline’s actions. Air New Zealand’s chair apologised for failure of duty of care and treatment of families.",
+      "kind": "finding",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s11"
+      ],
+      "locator": "Official addresses, 28 November 2019"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Forty-fifth anniversary commemorated",
+      "detail": "On 28 November 2024 services took place in Christchurch, Auckland and at Scott Base. This was commemoration, not a new accident finding.",
+      "kind": "investigation",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s12"
+      ],
+      "locator": "National Erebus Memorial historical timeline, 28 November 2024"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Christchurch memorial site selected",
+      "detail": "On 27 November 2025 the Ministry announced Cracroft Reserve in Christchurch as the memorial location after the search for an Auckland site.",
+      "kind": "investigation",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s12"
+      ],
+      "locator": "National Erebus Memorial project status and timeline"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "New memorial design released",
+      "detail": "On 12 March 2026 the Ministry released the concept design adapted for Cracroft Reserve.",
+      "kind": "investigation",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s12"
+      ],
+      "locator": "National Erebus Memorial project status, 12 March 2026"
+    },
+    {
+      "t_utc": null,
+      "t_precision": "estimated",
+      "title": "Memorial construction began",
+      "detail": "A site blessing and sod-turning took place on 22 June 2026, followed by construction. The opened project page still lists unveiling as a next step.",
+      "kind": "investigation",
+      "quote": null,
+      "quote_speaker": null,
+      "quality": "reported",
+      "sources": [
+        "s12"
+      ],
+      "locator": "National Erebus Memorial project status and 22–23 June 2026 timeline"
+    }
+  ],
+  "perspectives": [
+    {
+      "id": "chippindale",
+      "label": "Low-level continuation",
+      "held_by": "Chief Inspector of Air Accidents Ron Chippindale, Report 79-139 (1980)",
+      "standing": "official finding",
+      "claim": "The captain continued at low level towards poor surface and horizon definition without adequate certainty about position. Chippindale treated this decision and the inability to detect rising terrain as probable cause, while also documenting airline and regulatory failures.",
+      "evidence_for": [
+        {
+          "text": "The aircraft descended below the written 16000 ft approach minimum and the specified 6000 ft sightseeing minimum. The final track crossed high ground. [Report 2.11–2.16, 3.18–3.25]",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "The navigation display could show position and distance to waypoint, and the aircraft’s systems were working normally. Some recorded discussion concerned the location of high ground. [1.18.2; 2.16, 2.24–2.25; Annex C pp. 66–67]",
+          "sources": [
+            "s1",
+            "s2",
+            "s3"
+          ]
+        },
+        {
+          "text": "Correct QNH was set only late in the descent. It demonstrates a procedural lapse, although it was corrected before impact and is not established as the decisive cause. [2.15; Annex D pp. 76–77]",
+          "sources": [
+            "s2",
+            "s4"
+          ]
+        }
+      ],
+      "evidence_against": [
+        {
+          "text": "Mahon found that actual airline practice authorised lower sightseeing levels with local ATC approval and that earlier flights routinely went below the written minima. He rejected the claim that this crew alone engaged in unauthorised low flying. [Mahon paras. 202–223]",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "text": "The crew had been briefed with the western waypoint and were not told that the flight-day plan led over Erebus. Chippindale recorded the change but did not give it the causal weight Mahon did. [2.4–2.5; Mahon paras. 35–39, 385–394]",
+          "sources": [
+            "s2",
+            "s5"
+          ]
+        },
+        {
+          "text": "Mahon rejected several transcript fragments used to infer mounting alarm and held that clear-air whiteout could hide the slope from all five official flight-deck occupants. [Mahon paras. 98–124, 165–201]",
+          "sources": [
+            "s5"
+          ]
+        }
+      ],
+      "ending": {
+        "lat": -77.425,
+        "lon": 167.458333,
+        "t_utc": "1979-11-28T00:49:50Z",
+        "description": "Same recorded collision and escape attempt. This view differs in causal responsibility, not the final physical path."
+      },
+      "track_override": []
+    },
+    {
+      "id": "mahon",
+      "label": "Airline systems and whiteout",
+      "held_by": "Justice Peter Mahon, Royal Commission (1981); causation accepted in the 2019 government apology",
+      "standing": "official finding",
+      "claim": "The airline changed the navigation track without telling the crew, who believed it led down McMurdo Sound. A clear-air whiteout illusion then concealed the rising slope ahead. Mahon held that defective airline administration was the dominant cause and that the flight crew made no contributory error.",
+      "evidence_for": [
+        {
+          "text": "The pre-briefing western waypoint was 77°53′S, 164°48′E, near the Dailey Islands. Longitude was changed to 166°58′E before departure without notifying the crew. [Mahon paras. 35–37; report 1.17.7]",
+          "sources": [
+            "s1",
+            "s5"
+          ]
+        },
+        {
+          "text": "Recovered navigation-computer memory showed that the crew entered the supplied plan correctly, with no extra local waypoint or lateral offset. [1.18.1–1.18.2]",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Passenger photographs showed clear views to the sides shortly before impact. Expert evidence explained how an untextured white slope under overcast could appear flat, especially when the crew expected a flat sound. [Mahon paras. 27–30, 165–201]",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Communications and administrative records showed weak control of route amendments and briefing documents. The final nav-track capture was consistent with reliance on the briefing’s route. [Mahon paras. 35–40, 164, 365–372, 387–394]",
+          "sources": [
+            "s5"
+          ]
+        }
+      ],
+      "evidence_against": [
+        {
+          "text": "The written minima and actual low-level continuation remain facts on which Chippindale based a different causal conclusion. He also considered that better plotting and monitoring could have revealed the danger. [2.11–2.16, 3.15–3.25]",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "The precise pre-descent briefing was overwritten by the CVR. Mahon’s reconstruction of its contents, escape trigger and expected terrain is an inference, not a surviving transcript. [Mahon paras. 318–334]",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "text": "No photograph supplied a direct forward cockpit view at impact, and no impact-site weather sounding measured the exact cloud base. The appearance ahead is reconstructed from side photographs, terrain, testimony and perception evidence. [Mahon paras. 27, 169–184]",
+          "sources": [
+            "s5"
+          ]
+        }
+      ],
+      "ending": {
+        "lat": -77.425,
+        "lon": 167.458333,
+        "t_utc": "1979-11-28T00:49:50Z",
+        "description": "Same impact path. The western McMurdo Sound route is the route Mahon says the crew believed they were following; it is not an alternate recorded flight track."
+      },
+      "track_override": []
+    },
+    {
+      "id": "deception-finding",
+      "label": "Organised post-accident deception",
+      "held_by": "Justice Mahon, especially Royal Commission paras. 45–54, 338–377",
+      "standing": "rejected",
+      "claim": "Mahon inferred a coordinated effort to conceal airline failures after the crash. The Privy Council rejected the supporting reasoning and fairness of that finding.",
+      "evidence_for": [
+        {
+          "text": "Mahon relied on missing documents, inconsistent explanations and denials of known low-altitude practices. [Paras. 249–255, 338–377]",
+          "sources": [
+            "s5"
+          ]
+        }
+      ],
+      "evidence_against": [
+        {
+          "text": "The court found insufficient probative support for a predetermined deception plan and inadequate opportunity to answer adverse allegations. It distinguished serious administrative mistakes from proved conspiracy. [AC 820–821, 825–838]",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "The claim that relevant originals were destroyed conflicted with evidence that originals were returned to files while duplicate meeting copies were destroyed. [AC 826–828]",
+          "sources": [
+            "s6"
+          ]
+        }
+      ],
+      "ending": {
+        "lat": -77.425,
+        "lon": 167.458333,
+        "t_utc": "1979-11-28T00:49:50Z",
+        "description": "A post-accident allegation; no different flight path."
+      },
+      "track_override": []
+    },
+    {
+      "id": "in-cloud",
+      "label": "Flying in cloud",
+      "held_by": "Early investigative speculation described by Mahon, paras. 24–28",
+      "standing": "rejected",
+      "claim": "One early explanation was that the aircraft had become enveloped in cloud at low altitude. The inquiries instead found evidence of clear air beneath the overcast; lack of visible terrain contrast did not require immersion in cloud.",
+      "evidence_for": [
+        {
+          "text": "Ross Island was cloud-covered, low overcast and snow had been reported around McMurdo, and there was initially no eyewitness account of the final approach. [1.7; Mahon para. 24]",
+          "sources": [
+            "s1",
+            "s5"
+          ]
+        }
+      ],
+      "evidence_against": [
+        {
+          "text": "Recovered photographs taken near impact showed distant coastlines on both sides. Mahon treated these as disproving sustained flight in cloud at impact. [Mahon paras. 27–30]",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Whiteout can occur in clear air over snow beneath an overcast. DFDR also found no significant downdraught or turbulence causing the collision. [1.17.46–1.17.58; Annex D pp. 77–78]",
+          "sources": [
+            "s1",
+            "s4"
+          ]
+        }
+      ],
+      "ending": {
+        "lat": -77.425,
+        "lon": 167.458333,
+        "t_utc": "1979-11-28T00:49:50Z",
+        "description": "No supported alternative track. This rejected explanation changes the proposed visual environment, not the known impact location."
+      },
+      "track_override": []
+    }
+  ],
+  "evidence_points": [
+    {
+      "lat": -77.425,
+      "lon": 167.458333,
+      "label": "Initial impact on the ice slope",
+      "detail": "Report 1.1.9 gives 77°25′30″S, 167°27′30″E at 1467 ft AMSL. Decimal conversion only; survey datum/uncertainty unspecified. Wreckage extended uphill about 570 m and about 120 m across, on an alignment about 190° true. The point is not the whole debris field. [1.12.1–1.12.14]",
+      "kind": "wreckage",
+      "date": "1979-11-28",
+      "quality": "reported",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "lat": -77.883333,
+      "lon": 164.8,
+      "label": "Western waypoint near Dailey Islands",
+      "detail": "The waypoint shown at the crew briefing, not a wreckage or observed aircraft position. Mahon paras. 35–39 give 77°53′S, 164°48′E and explain the mistaken expectation of a track down McMurdo Sound.",
+      "kind": "landmark",
+      "date": "1979-11-09",
+      "quality": "derived",
+      "sources": [
+        "s5"
+      ]
+    },
+    {
+      "lat": -72.333333,
+      "lon": 170.216667,
+      "label": "Cape Hallett flight-plan point",
+      "detail": "Degrees/minutes converted from Mahon para. 249 outbound table: 72°20′S, 170°13′E. Report 2.8 says photographs confirmed the appropriate turn here, but a verified UTC passage time was not found. This is a flight-plan coordinate, not a time-tagged radar observation.",
+      "kind": "landmark",
+      "date": "1979-11-28",
+      "quality": "derived",
+      "sources": [
+        "s2",
+        "s5"
+      ]
+    },
+    {
+      "lat": -77.5,
+      "lon": 165.0,
+      "label": "Byrd reporting point",
+      "detail": "Radio-navigation chart in Annex F p. 85 shows 77°30′S, 165°00′E. This helps distinguish the military route through McMurdo Sound from the revised airliner route over Ross Island; it is not evidence TE901 flew over it.",
+      "kind": "landmark",
+      "date": null,
+      "quality": "derived",
+      "sources": [
+        "s4"
+      ]
+    },
+    {
+      "lat": -77.878333,
+      "lon": 166.966667,
+      "label": "Revised McMurdo TACAN waypoint",
+      "detail": "Privy Council judgment p. 832 gives 77°52.7′S, 166°58′E. Decimal conversion of that historical waypoint, not a modern beacon survey or a recorded aircraft position. This replaces the destination near the Dailey Islands; the revised inbound line crossed Ross Island.",
+      "kind": "landmark",
+      "date": "1979-11-28",
+      "quality": "derived",
+      "sources": [
+        "s6"
+      ]
+    }
+  ],
+  "witnesses": [
+    {
+      "who": "US Navy C-130 flight crew approaching McMurdo after the accident",
+      "lat": null,
+      "lon": null,
+      "said": "Careful paraphrase: Ross Island and its peaks were hidden under stratiform cloud; below the lowest cloud visibility was good but surface definition poor. They reported only light turbulence and no icing. These observations were near 01:00 UTC, after TE901’s impact. [Report 1.7.2(a)]",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "who": "Helicopter pilot visiting Lewis Bay after the accident",
+      "lat": null,
+      "lon": null,
+      "said": "Careful paraphrase: near the Lewis Bay shore at about 02:00 UTC, the pilot could not distinguish the elevated southern slopes from cloud and snow, though dark rock at the coast was visible. The reported landing was about 10 km from the accident site; exact coordinates were not supplied. [Report 1.7.2(b)]",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "who": "US Air Force C-141 captain following TE901",
+      "lat": null,
+      "lon": null,
+      "said": "Careful paraphrase: Ross Island was obscured, so the crew displaced their approach west and descended over water. They described layered cloud, good visibility under the ceiling and light icing and turbulence; they landed at 01:52 UTC. Their flight is a later comparison, not a direct observation of TE901. [Report 1.7.2(c)]",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "who": "Human-vision experts consulted by the Royal Commission",
+      "lat": null,
+      "lon": null,
+      "said": "Careful paraphrase: given the snow, overcast and sun position, the rising terrain could appear flat even through clear air. Expectation of a route down McMurdo Sound could reinforce the illusion. This is expert reconstruction rather than eyewitness testimony from the aircraft. [Mahon paras. 174–184]",
+      "sources": [
+        "s5"
+      ]
+    },
+    {
+      "who": "Captain’s family giving evidence to the Royal Commission",
+      "lat": null,
+      "lon": null,
+      "said": "Careful paraphrase: family testimony described the captain plotting the route at home before departure. Mahon accepted this as support for reliance on the earlier coordinates. The original plotted map and atlas were not recovered for verification. [Mahon paras. 256–265, 342–361]",
+      "sources": [
+        "s5"
+      ]
+    }
+  ],
+  "numbers": [
+    {
+      "label": "People aboard, all lost",
+      "value": "257: 237 passengers and 20 crew; no survivors. [1.2.1]",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "label": "Published warning duration",
+      "value": "6.5 seconds between GPWS warning and impact. [Annex D p. 78]",
+      "sources": [
+        "s4"
+      ]
+    },
+    {
+      "label": "Final nominal speeds",
+      "value": "260 kt indicated airspeed; report analysis gives 257 kt groundspeed. These describe the final approach, not a complete sampled speed series. [1.11.4; 2.16 and 2.19]",
+      "sources": [
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "label": "Waypoint displacement",
+      "value": "Longitude changed from 164°48′E to 166°58′E, a difference of 2°10′. Contemporary account describes a shift of about 27 nautical miles east. The offset is at the destination, not a constant 27 nm separation all along the route. [Mahon paras. 35–37; NZ History timeline]",
+      "sources": [
+        "s5",
+        "s13"
+      ]
+    },
+    {
+      "label": "Small altitude excursions",
+      "value": "After altitude-hold annunciation at 1515 ft QNH, published minimum was 1443 ft and maximum 1540 ft. [Annex D p. 77]",
+      "sources": [
+        "s4"
+      ]
+    },
+    {
+      "label": "Coastal terrain rise",
+      "value": "Radio altitude decreased 270 ft over 1.5 seconds at the coastal ice cliff, about 11 seconds before impact. This was terrain closure, not a 10800 ft/min aircraft descent. [Annex D p. 77]",
+      "sources": [
+        "s4"
+      ]
+    },
+    {
+      "label": "Terminal pitch and bank",
+      "value": "Pitch increased from about 5° to at most 10.9°; right bank peaked at 11° and reversed towards wings level at impact. [Annex D pp. 77–78]",
+      "sources": [
+        "s4"
+      ]
+    },
+    {
+      "label": "Inertial-position discrepancy",
+      "value": "Report analysis gives a 3.1 nm southwest position error, within the permitted system tolerance. It did not establish a navigation-system failure. [2.16 and 2.24]",
+      "sources": [
+        "s2"
+      ]
+    },
+    {
+      "label": "Readable recorder interval",
+      "value": "CVR transcript runs 00:17:00–00:49:50 UTC, 32 min 50 s. Investigators read the last 41 min of about 25 h of DFDR data. [Annex D p. 75]",
+      "sources": [
+        "s4"
+      ]
+    },
+    {
+      "label": "Wreckage-field dimensions",
+      "value": "Approximately 570 m long and 120 m wide on a 13° ice slope. [1.12.8]",
+      "sources": [
+        "s1"
+      ]
+    }
+  ],
+  "why_it_matters": "In a 1999 speech discussing Erebus lessons, New Zealand’s Transport Minister reported a greater emphasis on management responsibility for safety, a separate safety authority and an independent accident-investigation authority. Report 79-139 recommended independent checking of flight-plan data, stronger crew cross-checking, better briefings, radar monitoring of descents and improved CVR recording. The sources do not establish that Erebus alone caused every reform or that every recommendation was implemented. [s15, closing Erebus discussion; s2, recommendations 5.2–5.15]",
+  "conflicts": [
+    {
+      "about": "Dominant cause and crew responsibility",
+      "a": "Chippindale: low-level continuation and failure to detect terrain were probable cause; crew position-monitoring was inadequate. [2.1–2.25, 3.37]",
+      "b": "Mahon: the unannounced route change and administrative failures were dominant; no flight-crew error contributed. [392–394]",
+      "sources": [
+        "s2",
+        "s5"
+      ]
+    },
+    {
+      "about": "Whether lower sightseeing altitudes were authorised",
+      "a": "The written approved scheme specified 16000 ft on approach and 6000 ft only in a defined sector; Chippindale treated descent below these limits as noncompliance. [3.18–3.26]",
+      "b": "Mahon found longstanding authorised operating practice below these written limits, with captains briefed to use levels approved by McMurdo ATC. [40(b), 202–223]",
+      "sources": [
+        "s2",
+        "s5"
+      ]
+    },
+    {
+      "about": "Garbled CVR fragments and apparent alarm",
+      "a": "The published Annex C includes interpretations at 00:47:55 and 00:48:05 suggesting thick conditions and prolonged instrument flight; Chippindale relied on crew apprehension. [Annex C p. 69; 2.20, 2.25]",
+      "b": "Mahon and consulted specialists considered those extracts too uncertain for a reliable interpretation. He did not find deliberate falsification by Chippindale. [103–106, 121–124]",
+      "sources": [
+        "s2",
+        "s3",
+        "s5"
+      ]
+    },
+    {
+      "about": "Cloud-base estimates at Lewis Bay",
+      "a": "Chippindale 1.17.45 says some passenger photographs show a base below 2000 ft. Other nearby reports gave 2000, 2500 or 3500 ft in different places and times.",
+      "b": "Mahon reconstructs a base generally around 3000 ft, falling to about 2000–2500 ft near the mountain. He states no direct observation fixed the cloud base on the exact final approach. [40(a), 171, 174(f)]",
+      "sources": [
+        "s1",
+        "s5"
+      ]
+    },
+    {
+      "about": "Cause of the final climb-out decision",
+      "a": "Chippindale connected the decision with worsening-looking conditions and growing doubt. [2.16–2.20]",
+      "b": "Mahon inferred a previously agreed distance/identification trigger and concern about independent distance confirmation rather than loss of visibility. The pre-descent briefing is missing. [318–334]",
+      "sources": [
+        "s2",
+        "s5"
+      ]
+    },
+    {
+      "about": "Post-accident conspiracy finding",
+      "a": "Mahon inferred organised concealment. [338–377]",
+      "b": "The Privy Council rejected its evidential basis and procedural fairness; causation was unchallenged. [AC 812–813, 820–821, 838]",
+      "sources": [
+        "s5",
+        "s6"
+      ]
+    },
+    {
+      "about": "Original reason for the western waypoint",
+      "a": "Navigation-section testimony described a typing error from 166°48′E to 164°48′E; Chippindale treated the western position as erroneous. [2.5; Mahon 228–231]",
+      "b": "Mahon suspected the westward placement may have become deliberate practice, but explicitly declined a positive finding that its original insertion was intentional. The later unannounced change is distinct from this disputed earlier history. [255(a)–(b)]",
+      "sources": [
+        "s2",
+        "s5"
+      ]
+    },
+    {
+      "about": "Actual altitude versus spoken pressure altitude",
+      "a": "At 00:39:07 the crew reported 10000 ft and at 00:45:00 reported 6000 ft.",
+      "b": "DFDR correlation gives approximately 9400 and 5400 ft QNH. The report analysis describes the pressure-setting error as about 570 ft, while Annex D rounds these differences to 600 ft; this is not a separate descent. [2.15; Annex D p. 76]",
+      "sources": [
+        "s2",
+        "s3",
+        "s4"
+      ]
+    },
+    {
+      "about": "GPWS onset precision",
+      "a": "Annex C prints warning onset at 00:49:44 and recording end at 00:49:50. Its displayed second stamps imply about six seconds.",
+      "b": "Annex D gives 6.5 seconds of warning and explicitly warns that CVR correlation can vary by about ±3 seconds. The calculated onset 00:49:43.5 is not a newly recovered exact recorder timestamp.",
+      "sources": [
+        "s3",
+        "s4"
+      ]
+    },
+    {
+      "about": "DC-10 model dimensions",
+      "a": "NZALPA’s generic specification page gives 182 ft 3.1 in length, 17.7 m height, and a span whose imperial and metric numbers disagree.",
+      "b": "Model-specific Boeing drawings and EASA data give DC-10-30 length 55.35 m, span 50.39 m (50.4 m rounded), and nominal height 17.55 m. Those model-specific values are used.",
+      "sources": [
+        "s7",
+        "s8",
+        "s14"
+      ]
+    },
+    {
+      "about": "Report approval versus public-release chronology",
+      "a": "The reproduced Chippindale report records submission on 31 May 1980 and approval for public release on 12 June; the 2019 official apology calls 12 June publication.",
+      "b": "The current memorial timeline says the report was made public on 19 June 1980. These may refer to different administrative/publication steps; no single public distribution date is asserted here.",
+      "sources": [
+        "s1",
+        "s11",
+        "s12"
+      ]
+    },
+    {
+      "about": "Visibility units in radio and passenger messages",
+      "a": "The McMurdo forecaster reported about 40 miles at 00:18:05 UTC. [Annex C p. 42; 1.7.4]",
+      "b": "In the 00:20:30 passenger announcement the captain described visibility as 40 kilometres. This is a differently stated unit, not a valid conversion of 40 miles; the file does not silently equate them. [Annex C p. 44; Mahon para. 323]",
+      "sources": [
+        "s1",
+        "s3",
+        "s5"
+      ]
+    }
+  ],
+  "unknowns": [
+    "A public raw DFDR sample table or complete georeferenced recorder track was not found. The complete report, text versions of Annexes C and D, flight-path figures and Royal Commission were checked. Published DFDR narrative values and states are retained; the chart was not guessed into artificial exact samples.",
+    "Most flight latitudes/longitudes, the two orbit centres/radii and their time-tagged coordinates remain unknown in this file. There was no successful radar identification of TE901; Mac Centre’s offer of vectors must not be rendered as an actual radar track.",
+    "Four final-position estimates are analyst back-projections using nominal groundspeed 257 kt and wreckage alignment 190° true. Constant groundspeed/track, the starting coordinate datum and exact final lateral motion are not verified. These estimates are the least certain spatial claims and must be visually distinguished from observations.",
+    "The revised waypoint is taken from the historical coordinates in the Privy Council judgment, AC p. 832, rather than a recovered raw flight-day dispatch or NCU coordinate table. Its 77°52.7′S latitude is more precise than the 77°53′S western waypoint; the large change described in the inquiry was in longitude. No modern TACAN coordinate was substituted.",
+    "The outbound waypoint sequence in the Royal Commission para. 249 table is only a partial flight plan. The complete return dispatch plan and all original leg passage times were not recovered. Its printed return table also contains apparent longitude inconsistencies, so those entries were not silently corrected or used.",
+    "Flight levels FL330, FL180 and FL130 are pressure altitudes. Their exact contemporaneous MSL heights are not supplied at each timestamp, so alt_ft is null there. Selected altitude and speed targets are not treated as achieved instrument values.",
+    "Many grid headings are published, including final 358.95° grid, but a verified time-dependent conversion to true aircraft heading was not extracted. hdg_deg is null; the approximately 190° true wreckage/ground-track alignment is not treated as a true-heading recorder sample.",
+    "Exact instantaneous IAS, groundspeed, vertical speed, roll, angle of attack, flap/slat transitions and engine parameters over the whole approach require the raw table. Untimed published values include descent reaching about 2900 ft/min, IAS-hold capture at 323 kt, later IAS peak 303 kt at 3500 ft QNH and engine N1 near 42%. They were not assigned invented timestamps.",
+    "The NCU vertical-motion term is described in Annex D as plus 10 fps vertical acceleration, an ambiguous combination of quantity and unit. It has not been converted to a vertical speed or used to invent an escape climb.",
+    "The precise contents of the pre-descent crew briefing were overwritten. Mahon’s account of the agreed escape point, map interpretation and mental picture is an evidential reconstruction, not a surviving recording.",
+    "Several overlapping CVR passages and speakers remain uncertain. Mahon’s rejection of specific interpretations means the published Annex C cannot be treated as uniformly certain verbatim speech. This file quotes only short operational phrases from the official transcript.",
+    "No forward cockpit photograph at impact, direct impact-site thermometer, full cloud sounding, exact cloud-base profile, local precipitation record or verified wind-direction datum was found. Visibility was often reported as 40 miles, without a unit convention confirmed in the material read; no unsupported kilometre conversion is supplied. The whiteout label describes terrain contrast, not a proven snowstorm or zero horizontal visibility.",
+    "The exact altitude/attitude sampling instant immediately before impact and every engine’s final N2 are not printed. Terminal values are grouped under impact with an explicit timing limitation. The 1467 ft ground elevation is not assumed to be the altitude of the aircraft’s reference point.",
+    "Nominal quarter-chord wing sweep was not independently verified from the opened model-specific primary material and is null. Accident-day paint details and any repaint after the opened 1977 photograph are unverified. The EASA model height is a nominal ground dimension, not an accident-time measurement.",
+    "Modern OurAirports endpoint coordinates and elevations were opened as a secondary reference; historical airport reference-point/runway geometry was not verified. They must not be used as exact takeoff or landing track points.",
+    "Exact UTC times for date-only inquiry, court, apology and memorial milestones are unknown. Their t_utc values are null rather than invented midnight timestamps. Events remain in historical sequence; non-null timestamps are UTC and chronological.",
+    "A second-resolution primary discovery time and the exact timing of recorder recovery were not established in the material read. Report 3.33 gives approximately 11 hours to locating the wreckage.",
+    "Implementation dates for each recommendation, and broad claims that this accident alone introduced crew-resource management or modern terrain-warning technology, were not verified. Recommendations are not represented as completed regulatory changes.",
+    "As of 7 November 2026, targeted searches for 2024–2026 developments found official memorial updates and later retellings, but no verified new recorder release or reopened accident finding. This is a limit of the search, not proof that no unpublished evidence exists."
+  ],
+  "memorial_note": "Remember the 237 passengers and 20 crew who lost their lives on a flight to see Antarctica, and the families and communities who carry their loss.",
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Aircraft Accident Report No. 79-139: factual information",
+      "publisher": "Office of Air Accidents Investigation, Ministry of Transport, New Zealand",
+      "year": 1980,
+      "url": "https://www.erebus.co.nz/Portals/4/Documents/Reports/Chippindale/79-139_section1.pdf",
+      "type": "official_report",
+      "opened": true,
+      "notes": "Downloaded with curl and extracted with PyMuPDF. Sections 1.1–1.18, printed pp. 6–28. Digitally reproduced report hosted by NZALPA; the report is governmental, not NZALPA commentary. Original complete scanned PDF was also downloaded and inspected. Synopsis gives 0049:50 GMT; footnote defines NZDT as GMT+13. Coordinates are the report’s historical coordinates, with datum unspecified."
+    },
+    {
+      "id": "s2",
+      "title": "Aircraft Accident Report No. 79-139: analysis, conclusions and recommendations",
+      "publisher": "Office of Air Accidents Investigation, Ministry of Transport, New Zealand",
+      "year": 1980,
+      "url": "https://www.erebus.co.nz/Portals/4/Documents/Reports/Chippindale/79-139_sections_2-7.pdf",
+      "type": "official_report",
+      "opened": true,
+      "notes": "Downloaded and text extracted. Printed pp. 29–37. Read especially 2.4–2.25, 3.5–3.37 and recommendations 5.1–5.15. These are Chippindale’s findings; disagreement with Mahon is preserved."
+    },
+    {
+      "id": "s3",
+      "title": "Report 79-139, Annexes A–C: official abridged CVR transcript",
+      "publisher": "Office of Air Accidents Investigation, Ministry of Transport, New Zealand",
+      "year": 1980,
+      "url": "https://www.erebus.co.nz/Portals/4/Documents/Reports/Chippindale/79-139_annex_a-c.pdf",
+      "type": "transcript",
+      "opened": true,
+      "notes": "Downloaded and text extracted. Annex C, printed pp. 40–74; timestamps explicitly GMT. Air-ground communications include ground recordings. Some garbled passages and speaker assignments were disputed by Mahon, paras. 98–124. Such passages are not used here as settled quotes. Annex B defines surface and horizon conditions."
+    },
+    {
+      "id": "s4",
+      "title": "Report 79-139, Annex D: CVR/DFDR analysis and flight-path figures",
+      "publisher": "Office of Air Accidents Investigation, Ministry of Transport, New Zealand",
+      "year": 1980,
+      "url": "https://www.erebus.co.nz/Portals/4/Documents/Reports/Chippindale/79-139_annex_d-h.pdf",
+      "type": "recorder_data",
+      "opened": true,
+      "notes": "Downloaded, extracted and read; figures also rendered and viewed. Annex D pp. 75–79 and appendices pp. 80–83. Published narrative gives corrected GMT: raw DFDR clock was ten seconds slow; CVR correlation uncertainty can reach about ±3 seconds. The raw sample printout is not included. Grid headings are not entered as true headings. No curve values were guessed from the plot."
+    },
+    {
+      "id": "s5",
+      "title": "Report of the Royal Commission to Inquire into the Crash on Mount Erebus",
+      "publisher": "Royal Commission, Justice P. T. Mahon; Government Printer, New Zealand",
+      "year": 1981,
+      "url": "https://gg.govt.nz/sites/default/files/2021-06/RC%20136%20Crash%20on%20Mt%20Erebus.pdf",
+      "type": "inquiry",
+      "opened": true,
+      "notes": "Official Governor-General website copy; 191 PDF pages. Downloaded with curl and extracted with PyMuPDF. Read prologue, navigation, CVR, briefing, whiteout, safe altitudes, waypoint history, alleged pilot error, ATC, descent reconstruction, administrative systems, causes and epilogue. Paragraph numbers are preferred locators. Some conclusions about crew intentions are inferences, not recorded speech. A separate NZALPA scan was downloaded but this searchable official copy is cited."
+    },
+    {
+      "id": "s6",
+      "title": "Mahon v Air New Zealand Ltd [1983] UKPC 29; [1984] AC 808",
+      "publisher": "Judicial Committee of the Privy Council; judgment reproduced by Uniset",
+      "year": 1983,
+      "url": "https://www.uniset.ca/other/css/1984AC808.html",
+      "type": "inquiry",
+      "opened": true,
+      "notes": "Full judgment opened and read, including AC pp. 812–813, 820–821, 825–838. Page 832 gives TACAN 77°52.7′S, 166°58′E, converted for the route. Decision dated 20 October 1983; a judicial review, not a fresh flight investigation. Browser and initial curl access succeeded; direct automated retries can be blocked."
+    },
+    {
+      "id": "s7",
+      "title": "DC/MD-10 Airplane Characteristics for Airport Planning, DAC-67803A",
+      "publisher": "Boeing / Douglas",
+      "year": 2023,
+      "url": "https://www.boeing.com/content/dam/boeing/v2/airports/acaps/DC10.pdf",
+      "type": "dataset",
+      "opened": true,
+      "notes": "Downloaded manufacturer manual; dimension drawings visually inspected because text extraction is garbled. Section 2.2, printed p. 8 / PDF p. 14 gives DC-10-30 length 55.35 m, span 50.39 m and body width 6.02 m. Conventional tail, underwing engines, vertical-tail engine and centre main gear are shown. Copyright wrapper is 2023; individual engineering plates have earlier dates."
+    },
+    {
+      "id": "s8",
+      "title": "Type Certificate Data Sheet IM.A.210, Issue 2",
+      "publisher": "European Union Aviation Safety Agency",
+      "year": 2024,
+      "url": "https://www.easa.europa.eu/en/downloads/7242/en",
+      "type": "dataset",
+      "opened": true,
+      "notes": "Downloaded with curl and extracted successfully, although the browser fetch received a rate-limit response. Issue dated 14 November 2024, pp. 6–7, section 1 III.2 and III.4: low wing, conventional tail, two underwing and one vertical-tail engine; DC-10-30 length 55.35 m, span 50.4 m, height 17.55 m. Nominal model dimensions, not a measurement of ZK-NZP in flight."
+    },
+    {
+      "id": "s9",
+      "title": "ZK-NZP at London Heathrow, July 1977, photograph",
+      "publisher": "Eduard Marmet; Wikimedia Commons",
+      "year": 1977,
+      "url": "https://commons.wikimedia.org/wiki/File:DC-10_of_Air_New_Zealand_at_Heathrow_-_1977.jpg",
+      "type": "contemporary_record",
+      "opened": true,
+      "notes": "File page opened and original colour photograph downloaded and visually inspected. White upper fuselage, turquoise and dark-blue stripes, silver lower fuselage, blue/turquoise tail with white koru. This documents this airframe in 1977, not the precise paint condition on 28 November 1979. CC BY-SA 3.0 attribution is on the file page."
+    },
+    {
+      "id": "s10",
+      "title": "OurAirports airports.csv, NZAA and NZCH records",
+      "publisher": "OurAirports community dataset",
+      "year": null,
+      "url": "https://davidmegginson.github.io/ourairports-data/airports.csv",
+      "type": "dataset",
+      "opened": true,
+      "notes": "CSV downloaded and the NZAA/NZCH rows opened on 7 November 2026. Secondary modern airport reference points and elevations used only to locate route endpoints. They are not 1979 runway thresholds or recorded aircraft positions. Primary AIP URLs returned a conditions page through this connection, so no claim is made to have verified historical aerodrome charts."
+    },
+    {
+      "id": "s11",
+      "title": "Prime Minister Delivers Erebus Apology, including Air New Zealand chair’s address",
+      "publisher": "Manatū Taonga Ministry for Culture and Heritage / New Zealand Government",
+      "year": 2019,
+      "url": "https://www.mch.govt.nz/news/prime-minister-delivers-erebus-apology",
+      "type": "contemporary_record",
+      "opened": true,
+      "notes": "Opened full official addresses dated 28 November 2019. Government explicitly accepted Mahon’s causation findings and apologised; airline chair apologised for failure of duty of care and treatment of families. An apology is not new recorder evidence."
+    },
+    {
+      "id": "s12",
+      "title": "National Erebus Memorial: project status and historical timeline",
+      "publisher": "Manatū Taonga Ministry for Culture and Heritage",
+      "year": 2026,
+      "url": "https://www.mch.govt.nz/our-work/memorials-and-commemorations/national-erebus-memorial",
+      "type": "contemporary_record",
+      "opened": true,
+      "notes": "Opened current official project page. Includes 2024 commemorations, site choice on 27 November 2025, concept release on 12 March 2026, and blessing/construction in June 2026. Research cut-off 7 November 2026; no future anniversary or unveiling is presumed. Its 1980 report-publication chronology differs from the report’s release-approval date; see conflicts."
+    },
+    {
+      "id": "s13",
+      "title": "Timeline to disaster",
+      "publisher": "Manatū Taonga, NZ History",
+      "year": 2024,
+      "url": "https://nzhistory.govt.nz/culture/erebus-disaster/crash-of-flight-901",
+      "type": "contemporary_record",
+      "opened": true,
+      "notes": "Opened official historical synthesis, updated 13 March 2024. Footnote establishes that McMurdo used NZST (UTC+12), while New Zealand used NZDT (UTC+13) in November 1979. Thus 12:49:50 at McMurdo = 00:49:50 UTC = 13:49:50 NZDT. Primary reports take precedence for second-resolution flight data."
+    },
+    {
+      "id": "s14",
+      "title": "DC-10 Technical Specifications",
+      "publisher": "New Zealand Air Line Pilots’ Association",
+      "year": null,
+      "url": "https://www.erebus.co.nz/Background/McDonnell-Douglas-DC-10/Technical-Specifications",
+      "type": "advocacy",
+      "opened": true,
+      "notes": "Opened. Generic figures mix a 155 ft 4 in span with 50.4 m and give height 17.7 m. These are not the model-specific dimensions adopted here. Cited to expose, rather than silently reconcile, the dimensional discrepancy."
+    },
+    {
+      "id": "s15",
+      "title": "Speech to the Aviation Industry Association, 30 July 1999",
+      "publisher": "Maurice Williamson, Minister of Transport; New Zealand Government",
+      "year": 1999,
+      "url": "https://www.beehive.govt.nz/speech/speech-aviation-industry-association-0",
+      "type": "contemporary_record",
+      "opened": true,
+      "notes": "Opened full official speech. Closing Erebus discussion reports greater management responsibility in safety, a separate safety authority and an independent accident-investigation authority. This is the minister’s historical assessment, not proof that Erebus alone caused each reform."
+    }
+  ]
+}

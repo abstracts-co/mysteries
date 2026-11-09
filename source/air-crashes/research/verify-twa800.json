@@ -1,0 +1,56 @@
+{
+  "id": "twa800",
+  "checked": 173,
+  "errors": [
+    {
+      "severity": "wrong",
+      "where": "track[0].t_utc, track[0].lat, track[0].lon, track[0].method, track[0].locator",
+      "says": "A recorded Islip return at 1996-07-18T00:20:04.48Z has X=-31.3671 nm, Y=-10.4142 nm, altitude code 5, converted to 40.6182, -73.7867; the method says published UTC is unchanged.",
+      "should_be": "Remove this unsupported recorded point or replace it with a correctly transcribed published return. The cited table contains no 00:20:04.48 return or this X/Y pair. Its earliest listed return is 00:19:56.78 UTC, X=-31.2459, Y=-10.3706, altitude code 5; the stated WGS84 conversion of that row gives approximately 40.6190, -73.7840. The following returns are 00:20:01.48 and 00:20:06.16.",
+      "evidence": "s4, Witness Group Recorded Radar Study, Attachment C p. 1 of 62 (PDF p. 11), first three rows; Attachment A and report p. 3 identify the Islip origin and true east/north axes. Scanned table visually inspected after rotation; coordinates independently recalculated.",
+      "url": "https://data.ntsb.gov/Docket/Document/docBLOB?ID=40058391&FileExtension=.PDF&FileName=Witnesses%204%20-%20Witness%20Group%20Recorded%20Radar%20Study-Master.PDF"
+    },
+    {
+      "severity": "wrong",
+      "where": "track[2].t_utc, track[2].lat, track[2].lon, track[2].method, track[2].locator",
+      "says": "00:21:58.72 UTC, X=-29.1916 nm, Y=-16.668 nm, converted to 40.5142, -73.7381.",
+      "should_be": "The published return is 00:21:58.78 UTC, X=-29.1518 nm, Y=-16.568 nm, altitude code 24. Using the dataset's stated WGS84 method yields approximately 40.5159, -73.7372. Correct the timestamp, source values, derived coordinates and locator together.",
+      "evidence": "s4, Attachment C p. 1 of 62 (PDF p. 11), TWA800 row with minute 21 and second 58.78. Scanned row visually checked; conversion independently recalculated from the published X/Y.",
+      "url": "https://data.ntsb.gov/Docket/Document/docBLOB?ID=40058391&FileExtension=.PDF&FileName=Witnesses%204%20-%20Witness%20Group%20Recorded%20Radar%20Study-Master.PDF"
+    },
+    {
+      "severity": "minor",
+      "where": "track[3].method, track[3].lon",
+      "says": "At 00:22:50.47 UTC, source X=-25.5838 nm and longitude -73.6590.",
+      "should_be": "The table prints X=-25.5856 nm, with Y=-18.1318 unchanged. The stated WGS84 method then rounds to latitude 40.4902 and longitude -73.6591.",
+      "evidence": "s4, Attachment C p. 1 of 62 (PDF p. 11), final row (00:22:50.47). The transposed digits affect only a small distance but are a source-transcription error.",
+      "url": "https://data.ntsb.gov/Docket/Document/docBLOB?ID=40058391&FileExtension=.PDF&FileName=Witnesses%204%20-%20Witness%20Group%20Recorded%20Radar%20Study-Master.PDF"
+    },
+    {
+      "severity": "wrong",
+      "where": "direct.js twa800.add[1].roll_deg and twa800.add[2].roll_deg",
+      "says": "The schematic uses roll_deg=-70 at 00:31:30 UTC and -130 at 00:31:46 UTC, attributed to s1 as being through published NTSB model ranges.",
+      "should_be": "Represent the initial left roll followed by the right roll/descending turn shown in the cited models, while retaining the schematic/modelled qualification. Figure 28a's early-nose-separation cases have positive roll at 20:31:30 EDT, approximately +15 to +85 degrees, and do not support -130 degrees at 20:31:46. The continuously more negative supplied roll sequence contradicts the cited model family; the absence of a unique measured attitude does not validate these particular values.",
+      "evidence": "s1, printed p. 98, figure 28a (PDF p. 116), visually inspected roll curves; printed p. 263 (PDF p. 281) explicitly describes pitching up while rolling left/north, then rolling into a descending turn right/south. Printed p. 97 explains the fitted bank-angle inputs and model limitations.",
+      "url": "https://www.ntsb.gov/investigations/AccidentReports/Reports/AAR0003.pdf"
+    },
+    {
+      "severity": "minor",
+      "where": "sources[5].year (s6)",
+      "says": "1996",
+      "should_be": "1997 for the cited Cockpit Voice Recorder Group Chairman factual report; its title page is dated October 20, 1997. The accident occurred in 1996.",
+      "evidence": "s6, report title/date page, printed p. 2 (PDF p. 3).",
+      "url": "https://data.ntsb.gov/Docket/Document/docBLOB?ID=40058792&FileExtension=.PDF&FileName=Cockpit%20Voice%20Recorder%2012%20-%20Exhibit%20No.%2012A%20-%20Factual%20Report%20of%20Group%20Chairman-Master.PDF"
+    },
+    {
+      "severity": "minor",
+      "where": "sources[6].notes (s7)",
+      "says": "Dated 13 November 1997.",
+      "should_be": "The linked Airplane Performance Study is dated September 30, 1997.",
+      "evidence": "s7, Airplane Performance Study title/date page, printed p. 1 (PDF p. 2); no November 13 date appears in the extracted linked study.",
+      "url": "https://data.ntsb.gov/Docket/Document/docBLOB?ID=40058794&FileExtension=.PDF&FileName=Aircraft%20Performance%2013%20-%20Exhibit%20No.%2013A%20-%20Airplane%20Performance%20Study%20-Master.PDF"
+    }
+  ],
+  "dead_links": [],
+  "notes": "Independent review performed 7 November 2026 using fresh curl downloads, local PyMuPDF text extraction, visual inspection of scanned tables/drawings/transcript pages, and GeographicLib recomputation. The 173 grouped checks comprise 29 core descriptive fields/claims, all 11 numbers entries, 15 priority events (zero-based events[6], [7], [13], [14], [15], [18], [19], [20], [21], [22], [23], [24], [26], [27], [34]), the sole non-null verbatim quote, 28 perspective claim/evidence/ending paragraphs, all 78 radar rows including their geographic conversions, eight direction-block point/timing/build-note checks, the menu line, and two source-date checks. Composite entries count once; URL availability checks are excluded from this count. All 27 source-list URLs returned HTTP 200, with actual PDF signatures for PDF sources; the FAA aircraft photograph also returned HTTP 200 and was viewed. s27 resolves through a valid redirect. People totals, aircraft identification/engines/reference dimensions, approximate site and wreckage bounds, route endpoints, one_line and status_why agree with the inspected sources. Boeing's conflicting metric length label is already disclosed; the explicit imperial conversion is arithmetically correct. Airport reference coordinates/elevations match the cited OurAirports CSV, which is a secondary current reference rather than primary proof of historical 1996 airport geometry. The cockpit quote is a continuous verbatim excerpt, correctly attributed to the left-seat captain: s6 transcript printed p. 52 (PDF p. 53), also s1 printed p. 2. The omitted subsequent words are outside the quoted excerpt. EDT-to-UTC conversions correctly add four hours and roll over to 18 July; the FDR/CVR correlation and power-loss window are accurately distinguished. All 78 computed radar coordinate pairs reproduce the supplied X/Y values to their stated rounding; three input transcriptions are erroneous as listed. The other 75 selected radar rows agree with the scanned source table. The final whole-second FDR row and its five values in numbers[4] agree with s2 printed p. 42. This was not a sample-by-sample audit of all 72 FDR rows. All four perspectives preserve the distinction between official findings, rejected advocacy and modelling limits. The 38 inconsistent witness accounts, three residue-positive pieces, unknown residue origin, radar limitations and uncertainty about ignition are supported. The 2013 petition and 2014 rejection were inspected directly; the 2026 FBI extract reports early unverified leads, not an authenticated attack. No new cause can be inferred from that extract or the archive finding aid. The full 415-page FOIA production and approximately 1,900-page archive collection were not inspected. The TWA800 direction block has no overlays or endTitle fields. Its four source references all resolve to s1 in this dataset; model timing and the schematic build-note qualification are supported, subject to the bank-angle error reported above. Exact invented schematic pitch/position values are not certified as measurements. The menu label is consistent with the established tank explosion and subsequent disputed theories. No passenger is named in the research data or TWA800 direction/menu text, and no gratuitous victim detail was found. Input research files were not edited."
+}

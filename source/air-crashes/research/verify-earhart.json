@@ -1,0 +1,32 @@
+{
+  "id": "earhart",
+  "checked": 118,
+  "errors": [
+    {
+      "severity": "wrong",
+      "where": "$.events[7:11].sources/locator; $.events[12].sources/locator; $.track[5:7].sources/locator; $.conflicts[0,2]; $.sources[3:5]",
+      "says": "s4 (pos1page2.pdf) supports the earlier listening/range entries, including 0612–0613 and 0642–0647; s5 (pos1page3.pdf) supports the 0740 half-hour fuel entry.",
+      "should_be": "Reverse those source associations: the current s5 URL contains 0345–0647, including the 0612–0613 and 0642–0647 material; the current s4 URL contains 0658 onward, including the 0740 half-hour fuel statement. Correct the affected citations and locators consistently.",
+      "evidence": "Original position-1 images downloaded and visually inspected: pos1page2.pdf, entry 0740, contains the half-hour fuel wording; pos1page3.pdf, entries 0612–0613 and 0642–0647, contains the earlier bearing/range material. The substantive difference from position 2 at 0742 is real; the URLs used to substantiate it are reversed.",
+      "url": "https://tighar.org/Projects/Earhart/Archives/Research/Bulletins/37_ItascaLogs/pos1page2.pdf"
+    },
+    {
+      "severity": "misleading",
+      "where": "direct.js earhart.add[0] (lat, lon, alt_ft, quality, method)",
+      "says": "At 1937-07-02T10:30Z, a quality: reported aircraft point is placed at -1.666667, 166.75 and 10000 ft; the method only calls the sighting unconfirmed.",
+      "should_be": "Keep the Myrtlebank coordinates as a separate ship marker. If an aircraft animation point is retained there, label the entire aircraft position and altitude modelled/illustrative; no aircraft fix or 10000-ft height was reported in this evidence.",
+      "evidence": "s6, PDF p.57, item 17 records a 1030 Nauru ship-in-sight message; item 19 separately gives Myrtlebank approximate coordinates, without a coordinate observation time. s33, printed p.318 / PDF p.33, record 2358, relays the sighting and retrospective ship identification; it supplies no aircraft coordinate or altitude. Correct decimal conversion of a ship coordinate does not establish an aircraft position.",
+      "url": "https://www.archives.gov/files3/research/ameliaearhart/releases/2025/1114/181_181-0282_92_A4-3EarhartSearchReport.pdf"
+    },
+    {
+      "severity": "minor",
+      "where": "direct.js earhart.buildNote",
+      "says": "Times, radio text and frequencies are from the Itasca logs.",
+      "should_be": "Limit this provenance statement to the Itasca contacts. Identify the Lae reports as Chater/Collopy material and the 10:30 Nauru report as a relayed account preserved in later records.",
+      "evidence": "s8, printed p.8 / PDF p.9, supplies the 1418, 1519 and 1718 Lae receipts and their reported heights/frequencies; s9 supplies the departure account. s33, printed p.318 / PDF p.33, record 2358, supplies the Sydney-time Nauru report, while s6 PDF p.57 item 17 summarizes it. These are different records from the original Itasca operator logs s1–s5.",
+      "url": "https://tighar.org/Publications/Books/Finding_Amelia_I/FindingAmeliaNotes/Reports/ChaterReport.pdf"
+    }
+  ],
+  "dead_links": [],
+  "notes": "Independent review dated 2026-11-07. checked counts discrete assertion checks, excluding URL reachability tests; the working checklist contains 118 entries. Checked all requested summary fields and seven numbers, fifteen core events (zero-based indices 0,2,4,5,9,10,12,13,14,15,16,18,19,21,22), the sole event quote, additional radio entries, all four perspectives, and the specified Earhart direction/menu content. Downloaded cited sources with curl, extracted PDFs using PyMuPDF, and rendered/read original scanned pages where embedded text was absent. The quote is verbatim. Checked UTC arithmetic uses Lae UTC+10 and Itasca UTC-11:30; the final rough-log call converts to 20:13 UTC. The later 20:25 report is appropriately identified as conflicting. Checked DMS and imperial-to-metric conversions are correct. The perspectives generally distinguish evidence, inference and advocacy fairly; the deaths are explicitly presumed elsewhere in the dataset. No passenger is named, and no gratuitous material was found. Earhart has no eventTimes override in direct.js. All 42 listed source URLs resolved to the intended source through curl or the web reader; no confirmed dead links. Curl initially returned 403 for s19/s41, but plain-curl retries succeeded. s31/s32 were readable with the web tool despite scripted 403s; s24/s42 returned HTTP-200 security-block pages to curl, so their actual articles were read with the web tool. s14 metadata/abstract resolved, but its linked full-text download redirected to a restricted login; the abstract supports the reported conclusion, and the original Hoodless report was separately read. Nauru details remain dependent on a documented archival transcription rather than the original station log/telegram. The Deep Sea Vision retraction was verified through the cited NPR report, not a directly retrieved company social-media post. The NDL catalog independently confirms 1935 publication; the complete book was not read. Research files were not changed."
+}

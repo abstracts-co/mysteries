@@ -1,0 +1,26 @@
+{
+  "id": "stardust",
+  "checked": 140,
+  "errors": [
+    {
+      "severity": "unsupported",
+      "where": "direct.js.stardust.add[0].lat/lon/alt_ft/quality/sources",
+      "says": "At 13:46 UTC the aircraft is placed at -34.679167, -58.643611 and 98 ft, classified as reported, with s2 as its only source.",
+      "should_be": "Only the departure time and airport are reported by s2. These coordinates and 98 ft are later airport-reference data, supported by s12 and s13, and should be identified as an illustrative departure anchor rather than a reported aircraft position and altitude.",
+      "evidence": "s2, p.15, section 1.1 records departure from Presidente Rivadavia at 13:46 without coordinates or altitude. s12 supplies the modern DMS coordinate and elevation; s13, PDF p.3, labels the aerodrome elevation 98 ft.",
+      "url": "https://web.archive.org/web/20161021205153id_/http://www.jiaac.gov.ar/files/pdf/Bol30.pdf"
+    },
+    {
+      "severity": "misleading",
+      "where": "direct.js.stardust.buildNote and add[2]",
+      "says": "The final descent is the investigators’ reconstruction; its endpoint is the recovery coordinate at 15,100 ft, and the method says the original impact point moved with the ice.",
+      "should_be": "The early-descent scenario follows the inquiry, but the plotted heights and endpoint are illustrative. Wreckage moved within the glacier; the original collision occurred higher up according to the glaciologist’s reconstruction. The recovered-debris coordinate and a selected 15,100-ft height do not establish the collision point or altitude.",
+      "evidence": "s3, glacier consultation with Juan Carlos Leiva, distinguishes the recovered wreckage from a higher original crash site. s2, p.20, section 1.10 discusses glacier displacement; pp.24–25, sections 2.3–2.4 give an inferred descent and an assumed 15,500-ft endpoint, without the plotted 17,000/15,100-ft profile.",
+      "url": "https://www.pbs.org/wgbh/nova/transcripts/2802vanished.html"
+    }
+  ],
+  "dead_links": [
+    "https://www.britishaircraft.co.uk/aircraft/avro/lancastrian/712/"
+  ],
+  "notes": "140 field/claim and calculation checks, excluding URL requests. Read the UK report in full and JIAAC case pp.15–27 using curl and Python/pypdf; reviewed all 29 events, all nine perspectives, the sole verbatim event quote, the Stardust scene block and menu label. STENDEC wording/attribution, GMT-to-UTC handling, DMS conversions, dimensions, fatalities and the attributed official cause checked out. No passenger is named in the supplied Stardust material, and no gratuitous detail was found. Alternative theories are explicitly qualified; the former-pilot dissent is only secondhand, as disclosed. Some airport geography and discovery/identification dates have only the cited secondary support and were checked as attributed, not independently certified from original logs or forensic records. No new official resolution was found in the supplementary search; this is not proof of absence. Stardust has no eventTimes, overlays or endTitle fields. Tested all 18 cited URLs. s8 repeatedly returned HTTP 404, although an initial web retrieval supplied its text. s2 initially returned 429 but its exact cited URL subsequently returned the 176-page PDF. s5 returned 406 with curl but was readable through web retrieval and the equivalent non-www URL. s13 timed out with curl but its seven-page official PDF resolved through web retrieval; these access failures are not classified as dead links. Source files were not changed."
+}
