@@ -1008,8 +1008,8 @@ export function buildAircraft(key, reg) {
       t += dt || 0;
       if (opts) for (const k in st) if (opts[k] != null) st[k] = opts[k];
       gearIn = opts?.gear != null;
-      const rpm = st.rpm;
-      for (const p of props) { p.o.rotation.x += (dt || 0) * (p.fan ? 32 : 75) * rpm; if (p.blur) { const v = clamp((rpm - .1) / .9, 0, 1) ** .85; p.blur.userData.op = p.blur.material.opacity = Math.min(v * p.blurMax, .999); p.blur.visible = v > .005; p.blur.rotation.x += (dt || 0) * 1.7 * rpm; if (p.blades) { const bm = p.blades.material; bm.opacity = lerp(.999, p.fade, sm(.25, .7, rpm)); bm.depthWrite = bm.opacity > .5; } } }
+      const rpm0 = st.rpm;
+      for (const p of props) { const rpm = Array.isArray(rpm0) ? rpm0[p.i] ?? 1 : rpm0; p.o.rotation.x += (dt || 0) * (p.fan ? 32 : 75) * rpm; if (p.blur) { const v = clamp((rpm - .1) / .9, 0, 1) ** .85; p.blur.userData.op = p.blur.material.opacity = Math.min(v * p.blurMax, .999); p.blur.visible = v > .005; p.blur.rotation.x += (dt || 0) * 1.7 * rpm; if (p.blades) { const bm = p.blades.material; bm.opacity = lerp(.999, p.fade, sm(.25, .7, rpm)); bm.depthWrite = bm.opacity > .5; } } }
       const g = pose();
       for (const [m, f] of fracs) m.visible = f();
       const w = performance.now() / 1e3 + ph, sc = w % 1.2, fl = (x) => (x < 0 ? 0 : x < .05 ? 1 : x < .09 ? 1 - (x - .05) / .04 : 0), se = Math.max(fl(sc), sp.strobe2 ? fl(sc - .14) : 0);
@@ -1105,7 +1105,7 @@ const ENGINES = {
       add(rot, K.g('fanHub' + ek, () => lathe([[.05, rf * .34], [-.25, rf * .36], [-.5, rf * .3]], 32)), mat('hubDark', () => std(T, { color: 0x2c2f33, roughness: .6, metalness: .6 })));
       const spinT = K.g('spinT' + ek, () => { const L2 = layer(256, 256, E.spinC || '#3e4246'), g = L2.g; g.fillStyle = '#f2f2f2'; if (E.swirl) for (let k = 0; k < 64; k++) g.fillRect((k * 3) % 256, k * 4, 18, 5); else g.fillRect(4, 90, 12, 80); return tex(L2.c, true); });
       add(rot, K.g('spin' + ek, () => lathe([[E.spinL, .002], [E.spinL * .85, E.spin * .12], [E.spinL * .5, E.spin * .33], [E.spinL * .15, E.spin * .47], [0, E.spin / 2]], 32)), mat('spinM', () => std(T, { map: spinT, roughness: .3, metalness: .6 })));
-      props.push({ o: rot, fan: true });
+      props.push({ o: rot, fan: true, i: props.length });
       if (e.pylon !== false && E.pylon) {
         const py = E.pylon, q = wd.at(Math.abs(e.w)), wingLow = (x) => { const f = clamp((x - q.x) / q.c, 0, 1); return q.p.y + q.n.y * foil(f, q.t, q.cam)[1] * q.c + (q.dir.y * f * q.c); };
         const ex = e.x, eh = grp.position.y, len = py.len, xs = 22, rows = [];
@@ -1200,12 +1200,13 @@ function propBlades({ K, T, sp, rot, add, mat, std, props, P }) {
   const g = K.g('blades', () => bladeGeo(P.d / 2, P.hub, chordOf(P), (t) => lerp(P.pitch[0], P.pitch[1], t), P.n));
   const bt = K.g('bladeT', () => { const L2 = layer(4, 64, P.col); if (P.tip) { L2.g.fillStyle = P.tipC; L2.g.fillRect(0, (P.d / 2 * (1 - P.tip) - P.hub) / (P.d / 2 - P.hub) * 64, 4, 64); } return tex(L2.c, true); });
   const bm = mat('bladesM', () => std(T, { map: bt, roughness: P.rough ?? .45, metalness: P.metal ?? .3, transparent: true, opacity: .999 }));
-  const bl = add(rot, g, bm, { ro: 106 });
+  const bm1 = bm.clone(); bm1.onBeforeCompile = bm.onBeforeCompile; bm1.customProgramCacheKey = bm.customProgramCacheKey;
+  const bl = add(rot, g, bm1, { ro: 106 });
   const dm = std(T, { color: 0xffffff, map: blurTex(P), roughness: Math.max(.6, P.rough ?? .5), metalness: P.metal ?? .2, transparent: true, opacity: .2, depthWrite: false }, .35);
   const disc = new THREE.Mesh(K.g('blurG', () => new THREE.CircleGeometry(P.d / 2, 48).rotateY(Math.PI / 2)), dm);
   disc.onBeforeRender = (r, sc, cam) => { BV.setFromMatrixPosition(disc.matrixWorld).sub(BN.setFromMatrixPosition(cam.matrixWorld)).normalize(); BN.set(1, 0, 0).transformDirection(disc.matrixWorld); dm.opacity = disc.userData.op * (.5 + .5 * Math.abs(BV.dot(BN))); };
   const back = new THREE.Mesh(disc.geometry, dm); back.onBeforeRender = disc.onBeforeRender; disc.renderOrder = back.renderOrder = 107; back.rotation.y = Math.PI; disc.add(back); disc.position.x = .02; rot.parent.add(disc);
-  props.push({ o: rot, blur: disc, blades: bl, blurMax: P.blurMax ?? 1, fade: P.fade ?? .05 });
+  props.push({ o: rot, blur: disc, blades: bl, blurMax: P.blurMax ?? 1, fade: P.fade ?? .05, i: props.length });
 }
 const ED = (mat, std, T) => mat('engDark', () => std(T, { color: 0x15171a, roughness: .8, metalness: .2 }, .2)), WM = (mat, std, T) => mat('wire', () => std(T, { color: 0x2a2c2e, roughness: .5, metalness: .6 }));
 function exhaustStub({ K, sp, grp, add, mat, std, T, side, R }) {

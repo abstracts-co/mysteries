@@ -1,10 +1,17 @@
 import puppeteer from 'puppeteer-core';
+import { mkdirSync as mkd0, rmSync as rm0, statSync as st0 } from 'node:fs';
+const SLOTLOCK = new URL('../.scratch/locks/', import.meta.url).pathname; mkd0(SLOTLOCK, { recursive: true });
+let slot = null;
+while (slot == null) { for (let i = 0; i < (+process.env.CAPTURE_SLOTS || 3); i++) { const d = `${SLOTLOCK}slot-${i}`; try { if (Date.now() - st0(d).mtimeMs > 20 * 60000) rm0(d, { recursive: true, force: true }); } catch {} try { mkd0(d); slot = d; break; } catch {} } if (slot == null) await new Promise((r) => setTimeout(r, 3000)); }
+const freeSlot = () => { try { rm0(slot, { recursive: true, force: true }); } catch {} };
+process.on('exit', freeSlot); process.on('SIGINT', () => process.exit(130)); process.on('SIGTERM', () => process.exit(143));
+
 import { mkdirSync, writeFileSync } from 'node:fs';
 const out = process.env.OUT; mkdirSync(out, { recursive: true });
 const ids = (process.env.IDS || 'af447,mh370,twa800,egyptair990,airnz901,jal123,stardust,earhart,ladybegood,flight19').split(',');
 const b = await puppeteer.launch({ executablePath: '/usr/bin/google-chrome', headless: 'new', args: ['--no-sandbox','--ignore-gpu-blocklist','--enable-webgl','--hide-scrollbars','--use-angle=gl-egl','--use-gl=angle'], protocolTimeout: 1800000 });
 const p = await b.newPage(); await p.setViewport({ width: 960, height: 600 }); const errs = []; p.on('pageerror', (e) => errs.push(e.message));
-await p.goto('http://127.0.0.1:8043/artifact/index.html?shot=1');
+await p.goto(`http://127.0.0.1:8043${process.env.PAGE || '/artifact/index.html'}?shot=1`);
 await p.waitForFunction(() => !document.querySelector('#load') || document.querySelector('#load').style.opacity === '0', { timeout: 300000 });
 const meta = {};
 for (const id of ids) {

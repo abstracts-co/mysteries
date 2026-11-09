@@ -14,8 +14,10 @@ cpSync(process.env.COVER || `${ROOT}publish-assets/preview.webp`, `${P}/preview.
 writeFileSync(`${P}/artifact.json`, `${JSON.stringify({ title: 'Air crashes and disappearances', description: 'Ten air accidents and disappearances on a 3D globe, each narrated and replayed from recorders, radar and reports, with every explanation and its sources.', kind: 'web', entry: 'index.html', poster: 'preview.webp', category: 'aviation' }, null, 2)}\n`);
 mkdirSync(`${S}/src`); mkdirSync(`${S}/build`);
 for (const f of readdirSync(`${ROOT}src`)) if (/\.(js|html)$/.test(f)) cpSync(`${ROOT}src/${f}`, `${S}/src/${f}`);
-for (const f of ['bundle.mjs', 'data.mjs', 'patches.mjs', 'audio.mjs', 'srt.mjs', 'publish.mjs', 'serve.mjs', 'storypass.mjs', 'ratechk.mjs', 'bake_earth.py', 'bake_site.py', 'fetch_earth.py']) if (existsSync(`${ROOT}build/${f}`)) cpSync(`${ROOT}build/${f}`, `${S}/build/${f}`);
+cpSync(`${ROOT}src/crashes`, `${S}/src/crashes`, { recursive: true });
+for (const f of ['bundle.mjs', 'data.mjs', 'patches.mjs', 'audio.mjs', 'anchors.mjs', 'srt.mjs', 'publish.mjs', 'serve.mjs', 'storypass.mjs', 'ratechk.mjs', 'bake_earth.py', 'bake_site.py', 'fetch_earth.py']) if (existsSync(`${ROOT}build/${f}`)) cpSync(`${ROOT}build/${f}`, `${S}/build/${f}`);
 for (const d of ['research', 'narration']) cpSync(`${ROOT}${d}`, `${S}/${d}`, { recursive: true });
 cpSync(`${ROOT}source-README.md`, `${S}/README.md`);
+cpSync(`${ROOT}source-STAGING.md`, `${S}/STAGING.md`);
 const size = (d) => { let n = 0, t = 0, big = 0; const w = (x) => { for (const f of readdirSync(x)) { const p = join(x, f), s = statSync(p); if (s.isDirectory()) w(p); else { n++; t += s.size; big = Math.max(big, s.size); } } }; w(d); return `${n} files, ${(t / 1048576).toFixed(2)} MB, largest ${(big / 1048576).toFixed(2)} MB`; };
 console.log(`artifact ${size(P)} (limits 100 files, 10 MB, 5 MB each)\ndata ${size(D)}\nsource ${size(S)}\nassets ${BASE}`);

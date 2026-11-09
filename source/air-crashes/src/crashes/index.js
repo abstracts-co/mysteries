@@ -1,0 +1,13 @@
+import * as af447 from './af447.js';
+import * as mh370 from './mh370.js';
+import * as twa800 from './twa800.js';
+import * as egyptair990 from './egyptair990.js';
+import * as airnz901 from './airnz901.js';
+import * as jal123 from './jal123.js';
+import * as stardust from './stardust.js';
+import * as earhart from './earhart.js';
+import * as ladybegood from './ladybegood.js';
+import * as flight19 from './flight19.js';
+const C = { af447, mh370, twa800, egyptair990, airnz901, jal123, stardust, earhart, ladybegood, flight19 };
+export const STORIES = Object.fromEntries(Object.entries(C).map(([k, v]) => [k, v.story]));
+export const DIRECT = Object.fromEntries(Object.entries(C).map(([k, v]) => [k, v.direct]));

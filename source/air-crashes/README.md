@@ -4,11 +4,10 @@ The page is a three.js app with no framework. `build/bundle.mjs` bundles `src/` 
 
 - `research/<id>.json`: one crash as researched. It holds the track, events, conditions, explanations and sources. Every point and event has a quality: recorded, radar, reported, derived or modelled. `research/verify-<id>.json` are the fact-check reports.
 - `build/data.mjs` turns research into `artifact/data/<id>.json`, applying `build/patches.mjs` and the caption files.
-- `src/stories.js`: each crash's narration, one beat per line. A beat has a time, its text and the events it cites, plus staging: the camera view and options such as `lapse`, `look`, `caption` or `bright`. The text and times are fact-checked, so change them only with a source.
-- `src/direct.js`: staging for each crash. It sets the aircraft type, cloud layers, effects, map overlays, and any added track points, each with its method and source.
+- `src/crashes/<id>.js`: one file per crash. `story` is the narration, one beat per line: a time, its text, the events it cites, and its staging (the camera view, cuts within the line, captions and options such as `lapse`, `look` or `bright`). The text and times are fact-checked, so change them only with a source. `direct` sets the aircraft type, weather, effects, map overlays and any added track points, each with its method and source. `STAGING.md` lists every staging option.
 - `src/sim.js`: turns the track into smooth positions and attitudes, and maps story time to flight time. Close views play in real time; the gaps between lines become cuts.
 - `src/app.js`: the director, camera rigs, effects and interface. `src/world.js` and `src/shaders.js` draw the globe, sky, clouds and ocean. `src/aircraft.js` and `src/interior.js` build each aircraft and its cockpit and cabin.
-- Narration audio comes from `build/audio.mjs`, one clip per line in `audio-raw/lines/<id>/`, which isn't in this repository.
+- Narration audio comes from `build/audio.mjs`, one clip per line in `audio-raw/lines/<id>/`, which isn't in this repository. Then `build/anchors.mjs` finds the pauses in each line and lines them up with its clauses, so cuts and the word highlight follow the voice.
 
 ## Run it
 

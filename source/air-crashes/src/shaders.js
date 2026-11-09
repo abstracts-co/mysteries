@@ -277,6 +277,7 @@ in vec2 vUv; layout(location=0) out vec4 outC; layout(location=1) out vec4 outD;
 uniform sampler2D tDepth,tBlue,tTrans; uniform sampler3D tNoise;
 uniform vec4 uProjK; uniform mat3 uCamRot; uniform vec3 uCam,uSun,uMoon,uCenter,uCE,uCN,uFlashPos,uNoiseOff,uAmb,uGlowPos,uGlowCol;
 uniform float uLogFar,uMoonI,uMoonS,uHiFade,uGAlb,uTime,uFrame,uCloudRadius,uFogVis,uFogTop,uFlash,uMapK,uExpo;
+uniform vec3 uFogTint;
 uniform vec2 uAS2; uniform int uLayerN,uSteps; uniform vec4 uLayers[4]; uniform vec4 uLayerB[4];
 const float Ra=6451.0; const float SIG=22.;
 ${COMMON}
@@ -373,7 +374,7 @@ void main(){
     float ab=smoothstep(uFogTop*.9,uFogTop*1.4,h0); od=mix(od,min(od*.4,.8),ab*smoothstep(.01,-.06,slope));
     float f=(1.-exp(-od))*(1.-smoothstep(25.,110.,h0)), su=dot(up,uSun);
     vec3 fc=mix(uAmb,vec3(dot(uAmb,vec3(.3,.5,.2))),.6)*1.3+sunTr(.5,su)*max(su,0.)*(.22+.6*hg(dot(d,uSun),.6));
-    S=mix(S,fc,f); T*=1.-f;
+    fc*=uFogTint; S=mix(S,fc,f); T*=1.-f;
   }
   float cd=sky?6e4:tEnd; float trN=1., trF=1.;
   vec3 front=vec3(0.), ff=vec3(0.); float ca=0., shd=1.;

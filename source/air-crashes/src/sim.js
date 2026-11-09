@@ -235,7 +235,7 @@ export function normalise(raw, direct = {}) {
     const [lat, lon] = posAt(i, rt);
     const s = (k) => (SL[k] && SL[k][i] != null && SL[k][i + 1] != null && !L ? hermite(a[k], b[k], SL[k][i], SL[k][i + 1], f, h) : a[k] + (b[k] - a[k]) * e), both = (k) => (a[k] != null && b[k] != null ? s(k) : a[k] != null && rt - a.rt < 3 ? a[k] : b[k] != null && b.rt - rt < 3 ? b[k] : null);
     const altAt = (x) => hermite(a.alt, b.alt, SL.alt[i], SL.alt[i + 1] ?? 0, x, h), f0 = Math.max(f - .002, 0), f1 = Math.min(f + .002, 1), va = (altAt(f1) - altAt(f0)) / Math.max((f1 - f0) * h, 1e-6);
-    const pitch = lerp(clamp(Math.atan2(va * FT, Math.max(s('gs') * KT, 40)) * R2D + 2, -40, 25), s('pitch'), lerp(a.pitchW, b.pitchW, e)), vs = a.vsKnown && b.vsKnown ? s('vs') : va * 60;
+    const pitch = lerp(clamp(Math.atan2(va * FT, Math.max(s('gs') * KT, 40)) * R2D + 2, -40, 25), s('pitch'), lerp(a.pitchW, b.pitchW, e)), vs = a.vsKnown && b.vsKnown ? s('vs') : a.vsKnown && f < .5 ? a.vs : b.vsKnown && f >= .5 ? b.vs : va * 60;
     let hdg = (a.hdg + (SL.hdg[i] != null && SL.hdg[i + 1] != null && !L ? hermite(0, shortAngle(a.hdg, b.hdg), SL.hdg[i], SL.hdg[i + 1], f, h) : shortAngle(a.hdg, b.hdg) * e) + 360) % 360, roll = s('roll');
     if (L) {
       const th = tanHdg(i, rt), h1 = tanHdg(i, rt - 2), h2 = tanHdg(i, rt + 2);
@@ -255,7 +255,7 @@ export function attachStory(sim, story, timing) {
     const rt = b.t === 'end' ? sim.dur : clamp(Date.parse(b.t) / 1000 - sim.t0, 0, sim.dur);
     const a0 = seg?.start ?? null, narr = seg ? seg.end - seg.start : est(b);
     const events = (b.e || []).map((n) => sim.raw.events?.find((x) => x.title === n)).filter(Boolean);
-    return { ...b, rt, a0, narr, len: narr + (b.gap ?? .45), events, sources: [...new Set(events.flatMap((e) => e.sources || []))], quality: events[0]?.quality, est: (b.e || []).some((n) => sim.direct.eventTimes?.[n]) };
+    return { ...b, rt, a0, narr, anchors: seg?.anchors, len: narr + (b.gap ?? .45), events, sources: [...new Set(events.flatMap((e) => e.sources || []))], quality: events[0]?.quality, est: (b.e || []).some((n) => sim.direct.eventTimes?.[n]) };
   });
   let c = 0; for (const b of beats) { b.s = c; c += b.len; }
   const len = c, flightEnd = beats.findIndex((b) => b.t === 'end');
@@ -267,26 +267,59 @@ export function attachStory(sim, story, timing) {
     B.r1 = i < lastFlight ? F[i + 1].r0 : sim.dur; const S = Math.max(B.r1 - B.r0, 0);
     if (i === lastFlight) {
       B.uEnd = sim.direct.endTitle ? 1 : clamp((B.len - 1.3) / B.len, .5, 1); const L = B.len * B.uEnd;
-      if (B.v === 'map' || S <= L * RT) { B.w0 = B.r0; B.rate = S / L; } else { B.rate = 1; B.w0 = sim.dur - L; }
+      if (B.v === 'map' || S <= L * RT) { B.w0 = B.r0; B.rate = S / L; } else { B.rate = 1; B.w0 = B.shots?.some((x) => x.t) ? Math.min(B.r0, sim.dur - L) : sim.dur - L; }
       return;
     }
     B.w0 = B.r0; B.rate = B.v === 'map' || B.lapse || S <= B.len * RT ? S / B.len : 1;
     if (B.at && B.rate === 1) B.w0 = clamp(Date.parse(B.at) / 1000 - sim.t0 - (B.atLead ?? 2), B.r0, B.r1 - B.len);
     if (B.v === 'map' && B.then) { B.sw = Math.max(3.5, B.len * .45); const tail = Math.min(B.len - B.sw, S); B.rate = (S - tail) / B.sw; B.rate2 = 1; }
   });
+  const wordTimes = (B) => {
+    if (B._wt) return B._wt;
+    const T = B.text.split(/\s+/), C = [0]; for (const w of T) C.push(C[C.length - 1] + w.length + 1.5);
+    const W = C[C.length - 1], A = B.anchors?.length > 1 ? B.anchors : [[0, 0], [1, B.narr]];
+    const at = (c) => { let k = 1; while (k < A.length - 1 && A[k][0] < c) k++; const [c0, t0] = A[k - 1], [c1, t1] = A[k]; return c1 > c0 ? t0 + (t1 - t0) * clamp((c - c0) / (c1 - c0)) : t1; };
+    return (B._wt = T.map((_, k) => at(C[k] / W)));
+  };
+  const wordAt = (B, at) => {
+    if (typeof at === 'number') return at;
+    const T = B.text.split(/\s+/), N = (x) => x.toLowerCase().replace(/[^a-z0-9']/g, ''), A = String(at).split(/\s+/).map(N), i = T.findIndex((_, k) => A.every((a, j) => N(T[k + j] || '').startsWith(a)));
+    return i < 0 ? 0 : wordTimes(B)[i];
+  };
+  sim.wordAt = wordAt; sim.wordTimes = wordTimes;
+  beats.forEach((B) => { if (B.shots) B.shots = B.shots.map((x) => ({ ...x, u: clamp(wordAt(B, x.at ?? 0), 0, B.len) })).sort((a, b) => a.u - b.u); });
+  F.forEach((B) => {
+    if (!B.shots) return;
+    const cap = B === Z ? sim.dur : B.r1, segs = [{ u: 0, w: B.w0, rate: B.rate }];
+    for (const x of B.shots) if (x.t) { const P = segs[segs.length - 1], now = P.w + P.rate * (x.u - P.u), w = Math.min(Date.parse(x.t) / 1000 - sim.t0 - (x.tLead ?? 0), cap); if (w > now + .05) segs.push({ u: x.u, w, rate: x.rate ?? 1 }); }
+    if (segs.length > 1) B.segs = segs;
+  });
+  const endOf = (P) => { if (!P.segs) return Math.min(P.w0 + P.rate * P.len, P.r1); const g = P.segs[P.segs.length - 1]; return Math.min(g.w + g.rate * (P.len - g.u), P.r1); };
   const cuts = [];
-  F.forEach((B, i) => { if (!i) return; const P = F[i - 1], end = Math.min(P.w0 + P.rate * P.len, P.r1); if (B.w0 - end > 1) cuts.push({ s: B.s, skip: B.w0 - end, from: end, to: B.w0 }); });
+  F.forEach((B, i) => {
+    if (i) { const end = endOf(F[i - 1]); if (B.w0 - end > 1) cuts.push({ s: B.s, skip: B.w0 - end, from: end, to: B.w0 }); }
+    if (B.segs) for (let k = 1; k < B.segs.length; k++) { const P = B.segs[k - 1], g = B.segs[k], end = P.w + P.rate * (g.u - P.u); if (g.w - end > 1) cuts.push({ s: B.s + g.u, skip: g.w - end, from: end, to: g.w }); }
+  });
   sim.cuts = cuts;
   sim.beats = beats; sim.storyLen = len; sim.flightEndS = Z.s + Z.len;
   sim.beatAt = (s) => { let k = 0; for (let i = 0; i < beats.length; i++) if (beats[i].s <= s + 1e-6) k = i; return k; };
   sim.realOf = (s) => {
     s = clamp(s, 0, len); const i = sim.beatAt(s), B = beats[i]; if (i > lastFlight) return sim.dur;
-    const u = s - B.s; if (B.sw != null && u > B.sw) return Math.min(B.w0 + B.rate * B.sw + (u - B.sw), B.r1);
+    const u = s - B.s;
+    if (B.segs) { let g = B.segs[0]; for (const x of B.segs) if (x.u <= u) g = x; return Math.min(g.w + g.rate * (u - g.u), i === lastFlight ? sim.dur : B.r1); }
+    if (B.sw != null && u > B.sw) return Math.min(B.w0 + B.rate * B.sw + (u - B.sw), B.r1);
     return Math.min(B.w0 + B.rate * u, i === lastFlight ? sim.dur : B.r1);
+  };
+  sim.rateAt = (s) => {
+    s = clamp(s, 0, len); const i = sim.beatAt(s), B = beats[i]; if (i > lastFlight) return 0;
+    const u = s - B.s; if (B.segs) { let g = B.segs[0]; for (const x of B.segs) if (x.u <= u) g = x; return g.rate; }
+    return B.sw != null && u > B.sw ? 1 : B.rate;
   };
   sim.storyOf = (t) => {
     t = clamp(t, 0, sim.dur); let i = 0; for (let k = 0; k <= lastFlight; k++) if (F[k].w0 <= t) i = k;
-    const B = F[i]; if (B.sw != null && t > B.w0 + B.rate * B.sw) return B.s + Math.min(B.sw + t - B.w0 - B.rate * B.sw, B.len);
+    const B = F[i];
+    if (B.segs) { let lo = 0, hi = B.len; for (let k = 0; k < 32; k++) { const m = (lo + hi) / 2; if (sim.realOf(B.s + m) < t) lo = m; else hi = m; } return B.s + hi; }
+    if (B.sw != null && t > B.w0 + B.rate * B.sw) return B.s + Math.min(B.sw + t - B.w0 - B.rate * B.sw, B.len);
     return B.s + (B.rate > 0 ? Math.min((t - B.w0) / B.rate, B.len) : 0);
   };
   sim.audioPos = (s) => { const i = sim.beatAt(s), B = beats[i]; if (B.a0 == null) return null; const f = s - B.s; return f <= B.narr ? B.a0 + f : null; };
