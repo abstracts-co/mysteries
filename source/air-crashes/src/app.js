@@ -114,7 +114,7 @@ function goHome() {
   mode = 'home'; playing = false; clearCrash(); crash = null; mark.style.display = 'none'; autoRig = true; sound.quiet(); manualView = false; curView = 'follow'; world.cam.near = .5; world.cam.updateProjectionMatrix(); $('#eyes').classList.remove('open');
   $('#hud').hidden = true; $('#rail').hidden = true; $('#back').hidden = true; $('#fade').classList.remove('show', 'soft'); document.body.classList.remove('ended', 'epi'); $('#info').style.display = 'none';
   const ll = latLonOf(cam.p); G.lat = clamp(ll.lat, -80, 80); G.lon = ll.lon; G.alt = 18000e3; G.spin = true;
-  setRig('globe', 3.2); renderMenu(); renderHome(); pinsEl.style.opacity = 1; mark.style.opacity = 1;
+  world.hold(); xfK = 1; setRig('globe'); renderMenu(); renderHome(); pinsEl.style.opacity = 1; mark.style.opacity = 1;
   world.setEnv({ layers: [], fogVis: 0, sea: .3, historicLights: 1 }); world.setEnvMap(1);
 }
 
@@ -128,7 +128,7 @@ function clearCrash() {
   for (const d of crash.detached ?? []) d.parent?.remove(d);
   crash.chuteX?.items[0]?.o.traverse((o) => { o.geometry?.dispose(); o.material?.dispose(); });
   for (const id of ['lapse', 'cap', 'aoa']) document.getElementById(id).style.opacity = 0;
-  pinsEl.querySelectorAll('.ev').forEach((n) => n.remove()); $('#ftag').style.opacity = 0;
+  pinsEl.querySelectorAll('.ev').forEach((n) => n.remove());
 }
 
 async function openCrash(id, opts) {
@@ -138,6 +138,7 @@ async function openCrash(id, opts) {
   clearCrash(); playing = false; ended = false; epiDone = false; manualView = false; lastBeat = -1; lastShot = -1; masks = false; smoothRt = null;
   $('#fade').classList.remove('show', 'soft'); $('#fade').innerHTML = ''; document.body.classList.remove('ended', 'epi');
   $('#who').innerHTML = `<b>${esc(meta.short)}</b><span>${esc(meta.datePlace)}</span>`;
+  const ttl = $('#title'); ttl.innerHTML = `<b>${esc(meta.short)}</b><span>${esc(meta.datePlace)}</span>`; if (!tier.shot) ttl.classList.add('show');
   const raw = await (await fetch(AS(`data/${id}.json`))).json();
   const direct = { ...(DIRECT[id] || {}) };
   if (direct.prefix) direct.add = [...(direct.add || []), ...prefixTrack(raw, direct.prefix.until, direct.prefix.from, direct.prefix.points)];
@@ -173,25 +174,48 @@ async function openCrash(id, opts) {
   { const e = sim.sample(sim.dur), g = groundAt(e.lat, e.lon), a = destination(e.lat, e.lon, e.hdg, 250), hit = !direct.endTitle && !direct.endRest && (direct.endAlt != null || (e.alt - g < 80 && (e.vs < -1500 || groundAt(a.lat, a.lon) > e.alt - 30)));
     crash.hitS = hit ? sim.storyOf(sim.dur) : null; crash.seaHit = hit && g < 1; crash.lastI = sim.beats.findIndex((b) => b.t === 'end') - 1; crash.altUnknown = !crash.kn.alt.length || crash.kn.alt.at(-1)[0] < sim.dur - 600; crash.ghost = 0; }
   { const q = sim.sample(0); crash.tkOff = q.alt - groundAt(q.lat, q.lon) < 160 && (q.vs ?? 1) >= 0; }
+  const g0 = { ...G }; await prewarm(); if (crash?.sim !== sim) return; Object.assign(G, g0);
   renderHud(); renderMore(); renderMenu();
   story = 0; rt = 0; speed = 1; $('#spd').textContent = '1×';
   $('#hud').hidden = false; $('#rail').hidden = false; $('#back').hidden = false;
   const fit = routeFit(); crash.fit = fit;
   const s0 = sim.sample(0), og = fitFrame([dirOf(s0.lat, s0.lon), ...thin(crash.pathPts, 80).map((p) => dirOf(p.lat, p.lon)), ...(crash.ovPts || [])], 1500e3), oa = clamp(Math.max(og.alt * 1.06, fit.alt * 1.2), 4500e3, 13000e3), o = ecef(og.lat, og.lon, oa);
-  const night = nightAt(0), keep = !night && frames && cam.p.length() - R > 2e6;
-  if (frames && !keep && (cam.p.length() - R < 2e6 || cam.p.clone().normalize().angleTo(o.clone().normalize()) > .35)) fadeDip = .8;
-  G.lat = og.lat; G.lon = og.lon; G.alt = oa; G.spin = false; G.vLat = G.vLon = 0;
-  if (!keep) cam.p.copy(o); cam.l.set(0, 0, 0); cam.u.set(0, 0, 1); cam.fov = 34; cam.rig = 'globe'; cam.t = 1; shiftK = 0; camCut = 2;
+  const near = frames && G.alt > 2e6 && ecef(G.lat, G.lon, 0).normalize().angleTo(o.clone().normalize()) < .6;
+  if (frames && !near) fadeDip = .8;
+  if (!near) { G.lat = og.lat; G.lon = og.lon; G.alt = oa * 1.1; }
+  crash.openT = { lat: og.lat, lon: og.lon, alt: oa * .88 }; G.spin = false; G.vLat = G.vLon = 0;
+  cam.rig = 'globe'; shiftK = 0; camCut = 2;
   const first = sim.beats[0]; cam.az = first.az ?? direct.az ?? 215; cam.el = first.el ?? direct.el ?? 8; cam.zoom = first.zoom ?? 1.3;
-  curView = 'follow'; if (night) xfReq = { rig: 'follow', at: clk + 1.5 }; else setRig('follow', 4.4); updateRailOn();
-  const t = $('#title'); t.innerHTML = `<b>${esc(meta.short)}</b><span>${esc(meta.datePlace)}</span>`; if (!tier.shot) { t.classList.add('show'); setTimeout(() => t.classList.remove('show'), 2600); }
+  curView = 'follow'; xfReq = { rig: 'follow', at: clk + 1.3 }; updateRailOn();
+  setTimeout(() => { if (crash?.id === id) ttl.classList.remove('show'); }, 2400);
   if (opts?.get?.('t')) { story = sim.storyOf(+opts.get('t')); rt = sim.realOf(story); }
-  crash.startAt = performance.now() + 2600;
+  crash.startAt = performance.now() + 2000;
   if (!opts?.get?.('paused')) playing = true; setPP();
   drawTimeline(true);
   postHeight();
 }
 
+async function prewarm() {
+  const S = crash.sim, pts = [], px = new Uint8Array(4), was = playing, gone = () => crash?.sim !== S, again = () => tick(1 / 30, performance.now());
+  for (const B of S.beats) { pts.push(B.s + Math.min(.5, B.len * .25)); for (const x of B.shots || []) if (x.u > .05) pts.push(B.s + x.u + Math.min(.4, (B.len - x.u) * .5)); }
+  const seen = new Set(), shot = (k, first) => { seekStory(pts[k]); manualView = false; const r0 = cam.rig; again(); if (cam.rig !== r0 || fadeDip > 0) { fadeDip = 0; again(); } if (first && !seen.has(cam.rig)) { seen.add(cam.rig); flipShadow = true; again(); flipShadow = false; } };
+  const ms = (n) => { const t = []; for (let i = 0; i < n; i++) { const a = performance.now(); again(); world.sync(px); t.push(performance.now() - a); } return t.sort((a, b) => a - b)[n >> 1]; };
+  world.hold(); warming = true; playing = false; document.body.classList.add('warm');
+  try {
+    let hk = 0, hm = 0;
+    for (let k = 0; k < pts.length; k++) { shot(k, true); const m = ms(1); if (cam.rig !== 'route' && m > hm) { hm = m; hk = k; } if (k % 2) await new Promise((r) => setTimeout(r)); if (gone()) return; }
+    if (!window.__noAdapt && !tier.shot) {
+      const [n0, n1] = paceN(), n60 = Math.max(n0, Math.floor(16.9 / pace.P + .01)), cost = [], at = (q) => (cost[q] ??= (qLevel = q, applyQ(), shot(hk), ms(5))); let q = 0, n = n0;
+      const fits = (c) => c <= pace.P * n * .7, gpu = () => at(Q_SOFT) < at(0) * .85;
+      while (!fits(at(q))) { if (n < n60) n++; else if (q < Q_SOFT && gpu()) q++; else if (n < n1) n++; else if (q < LADDER.length - 1) q++; else break; }
+      while (q > 0 && fits(at(q - 1))) q--;
+      if (qLevel !== q) { qLevel = q; applyQ(); } Object.assign(pace, { n, probe: null, drop: null, good: 0, sum: 0, cnt: 0, miss: 0, max: 0, settle: 2.5, acc: 0, backR: 20, backQ: 30 });
+    }
+  } finally {
+    warming = false; playing = was; document.body.classList.remove('warm');
+    if (!gone()) { seekStory(0); xfK = 1; for (const k of ['brightK', 'lookK', 'focusK', 'fitK', 'lineK', 'ctl', 'lastRoll', 'lastHdg', 'lastPitch', 'rtV', 'mapT', 'snap', 'chutePend', 'turbG']) crash[k] = undefined; crash.chuteK = crash.chuteW = 0; flash = 0; fadeDip = 0; lastEv = -1; }
+  }
+}
 let srC;
 function safeRect() {
   if (srC) return srC;
@@ -391,7 +415,7 @@ function buildLink(f) {
 }
 const SAT = ecef(0, 64.5, 35786e3);
 function updateFx() {
-  const live = story < crash.sim.flightEndS, S = crash.sim, a = crash.s.alt, Ls = world.env.layers.filter((l) => l.cover >= .3); crash.ftag = null; let ill = false;
+  const live = story < crash.sim.flightEndS, S = crash.sim, a = crash.s.alt, Ls = world.env.layers.filter((l) => l.cover >= .3); let ill = false;
   for (const X of crash.fx3 || []) {
     const f = X.f, c = live ? Math.min(rt - f.at, (story - f.s0) * f.k0) : -1e3;
     if (X.kind === 'bombs') {
@@ -425,7 +449,7 @@ function updateFx() {
       if (c > .3 && c < X.end - 1.5) ill = true;
       continue;
     }
-    const C = X.C.set(0, 0, 0), high = cur.p.length() - R < 400e3; let n = 0;
+    const C = X.C.set(0, 0, 0), high = cur.p.length() - R < 400e3; let n = 0, wsum = 0;
     for (const it of X.items) {
       const tau = c - it.t; it.o.visible = high && tau >= 0;
       if (!it.o.visible) continue;
@@ -438,28 +462,14 @@ function updateFx() {
       world.place(it.o, P); it.o.quaternion.setFromUnitVectors(Y1, it.up); it.o.rotateX(Math.sin(tau * 1.3 + it.side) * .09 * op); it.o.rotateZ(Math.sin(tau * 1.1 + it.side * 2) * .07 * op);
       const sx = land ? 1.25 : .1 + .9 * op; it.cg.scale.set(sx, land ? .1 : .3 + .7 * smooth(op * 1.6), sx);
       if (it === X.items[0]) (X.P0 ??= new THREE.Vector3()).copy(P);
-      C.add(P); n++;
+      const wgt = it === X.items[0] ? 1 : smooth(tau / 3); C.addScaledVector(P, wgt); wsum += wgt; n++;
     }
-    X.n = n; if (n) C.multiplyScalar(1 / n);
+    X.n = n; if (n) C.multiplyScalar(1 / wsum);
     X.active = n > 0 && c > .6 && c < X.last + 30 && S.beatAt(story) === S.beatAt(f.s0);
     if (n && c > 2.5 && c < X.last + 8) ill = true;
   }
   if (live && (crash.fx.some((f) => f.type === 'ill' && rt >= f.at && (f.to == null || rt <= f.to)) || crash.wing?.some((w) => w.a.group.visible))) ill = true;
   const ie = document.querySelector('#card .ill'); if (ie && ie.hidden === ill) ie.hidden = !ill;
-}
-function showFtag(dt) {
-  const el = $('#ftag'), T = crash?.ftag?.t ? crash.ftag : null, pr = T && world.project(T.P), S = T && safeRect(), on = T && !pr.behind && fadeOut < .02 && pr.x > 0 && pr.x < S.W && pr.y > 0 && pr.y < S.H;
-  crash.ftagO = (crash.ftagO || 0) + ((on ? 1 : 0) - (crash.ftagO || 0)) * (1 - Math.exp(-dt * 5));
-  el.style.opacity = crash.ftagO < .01 ? 0 : crash.ftagO;
-  if (!on) return;
-  if (el.textContent !== T.t) { el.textContent = T.t; el.className = T.c; crash.ftagW = el.offsetWidth; }
-  let gp = T.gap ?? 14;
-  if (T.air && crash.bodyF && crash.pos) { const L = crash.ac.spec.length, W2 = crash.ac.spec.span || L; let r = 0; for (const [v, k] of [[crash.bodyF, L / 2], [crash.bodyF, -L / 2], [crash.bodyR, W2 / 2], [crash.bodyR, -W2 / 2]]) { const q = world.project(fxD.copy(crash.pos).addScaledVector(v, k)); if (!q.behind) r = Math.max(r, Math.hypot(q.x - pr.x, q.y - pr.y)); } gp = Math.max(gp, Math.min(r + 10, S.W * .35)); }
-  const w = crash.ftagW || el.offsetWidth || 120, g = gp;
-  let x = pr.x + g, y = pr.y;
-  if (x + w > S.x1) x = pr.x - g - w;
-  if (x < S.x0) { x = clamp(pr.x - w / 2, S.x0, S.x1 - w); y = pr.y + (pr.y + 30 > S.y1 ? -g - 8 : g + 6); }
-  el.style.transform = `translate(${x}px,${clamp(y, S.y0 + 8, S.y1 - 10)}px)`;
 }
 function buildEv() {
   const r = crash.raw, S = crash.sim;
@@ -512,8 +522,8 @@ function cueEnv() {
   if (key !== crash.cueKey) { crash.cueKey = key; world.setEnv({ layers: e.layers.filter((l) => l.cover > .005), sea: e.sea, fogVis: e.fogVis ?? 0, fogTint: e.fogTint ?? [1, 1, 1] }); }
 }
 function cloudClear(s) {
-  const A = world.atmU, dk = crash.diveK || 0, k = Math.min(crash.clearK ?? 1, 1 - .8 * dk), ca = cur.p.length() - R;
-  world.env.layers.slice(0, 4).forEach((l, i) => { A.uLayers.value[i].w = (l.density ?? .55) * (k < 1 && ca > l.base && ca < l.top && s.alt > l.base && s.alt < l.top ? k : 1) * (dk > 0 && ca > l.top && s.alt > l.top - 60 ? 1 - .95 * dk : 1); });
+  const A = world.atmU, k = crash.clearK ?? 1, ca = cur.p.length() - R;
+  world.env.layers.slice(0, 4).forEach((l, i) => { A.uLayers.value[i].w = (l.density ?? .55) * (k < 1 && ca > l.base && ca < l.top && s.alt > l.base && s.alt < l.top ? k : 1); });
 }
 async function loadTerrain() {
   const id = crash.direct.terrain; if (!id) return;
@@ -612,13 +622,14 @@ function resolveView(v) {
 const isInside = (v) => insideIds().some((x) => x.id === v);
 function pickView(v, cut = true) {
   v = resolveView(v);
-  const was = curView; curView = v;
-  const rig = v === 'map' ? 'route' : v;
+  curView = v;
+  const rig = v === 'map' ? 'route' : v, far = (r) => r === 'route' || r === 'globe';
   if (rig !== cam.rig) {
-    if (cut && (isInside(v) || isInside(cam.rig) || cam.rig === 'below' || v === 'below')) { fadeDip = 1; setRig(rig, .001); }
-    else if (crash && (cam.rig === 'route' || cam.rig === 'globe') && rig !== 'route' && nightAt(rt)) { if (xfReq?.rig !== rig) xfReq = { rig, at: clk }; }
-    else setRig(rig, v === 'map' || was === 'map' ? 2 : 1.6);
-  }
+    if (cut && (isInside(v) || isInside(cam.rig) || cam.rig === 'below' || v === 'below')) { fadeDip = 1; setRig(rig); }
+    else if (crash && far(cam.rig) && far(rig)) setRig(rig);
+    else if (crash) { if (xfReq?.rig !== rig) xfReq = { rig, at: Math.max(clk, xfReq?.at ?? 0) }; }
+    else setRig(rig);
+  } else if (xfReq && xfReq.rig !== rig) xfReq = null;
   updateRailOn();
 }
 function updateRailOn() { $('#mapb')?.classList.toggle('on', cam.rig === 'route'); $('#eyeb')?.classList.toggle('on', manualView && cam.rig !== 'route'); }
@@ -635,7 +646,7 @@ function cites(list) {
 }
 const QL = { recorded: 'Recorded', radar: 'Radar', reported: 'Reported', derived: 'Derived', modelled: 'Modelled' };
 function updateCard(force) {
-  if (!crash) return;
+  if (!crash || warming) return;
   if (crash.showView && performance.now() < crash.showView && !force) return;
   const S = crash.sim, i = S.beatAt(story);
   if (i === lastEv && !force) return;
@@ -679,10 +690,11 @@ function trackGs(t) {
   let d = 0, a = S.sample(t0); for (let k = 1; k <= 12; k++) { const b = S.sample(t0 + (t1 - t0) * k / 12); d += gcDistance(a, b); a = b; }
   return [d / (t1 - t0) / .5144, 'derived'];
 }
-function fmt(n, d = 0) { return n == null || !Number.isFinite(n) ? '–' : (+n.toFixed(d) || 0).toLocaleString('en-US', { maximumFractionDigits: d }); }
+function fmt(n, d = 0) { if (n == null || !Number.isFinite(n)) return '–'; const [a, b] = String(+n.toFixed(d) || 0).split('.'); return a.replace(/\B(?=(\d{3})+(?!\d))/g, ',') + (b ? `.${b}` : ''); }
 const QC = (q) => (q === 'modelled' ? 'md' : q === 'gap' || q === 'derived' ? 'dr' : '');
 function updateIns(s) {
-  const epi = story >= crash.sim.flightEndS - .05; document.body.classList.toggle('epi', epi);
+  const epi = story >= crash.sim.flightEndS - .05; if (epi !== crash.epiOn) { crash.epiOn = epi; document.body.classList.toggle('epi', epi); }
+  if (clk - (crash.insAt ?? -1) < .09 && camCut <= 0) return; crash.insAt = clk;
   const t = rt, K = crash.kn, d = crash.direct;
   const cell = (l, q, v, step, unit, sign, ap) => {
     if (q == null || q === 'none' || v == null || !Number.isFinite(v)) return '';
@@ -736,7 +748,7 @@ function drawTimeline(force) {
   tl.addEventListener('pointerup', () => { dragging = false; });
   tl.addEventListener('keydown', (e) => { if (!crash) return; const d = e.key === 'ArrowRight' ? 1 : e.key === 'ArrowLeft' ? -1 : 0; if (d) { const B = crash.sim.beats, i = crash.sim.beatAt(story); seekStory(B[clamp(i + d, 0, B.length - 1)].s); e.preventDefault(); } });
 }
-function seekStory(s) { story = s; xfReq = null; xfK = 0; camCut = 2; ended = false; epiDone = false; smoothRt = null; lastBeat = -1; lastShot = -1; $('#fade').classList.remove('show', 'soft'); $('#fade').innerHTML = ''; document.body.classList.remove('ended'); fadeOut = 0; crash.startAt = 0; }
+function seekStory(s) { story = s; xfReq = null; xfK = 0; camCut = 2; flashAt = -1; ended = false; epiDone = false; smoothRt = null; lastBeat = -1; lastShot = -1; $('#fade').classList.remove('show', 'soft'); $('#fade').innerHTML = ''; document.body.classList.remove('ended'); fadeOut = 0; crash.startAt = 0; }
 
 function renderMore() {
   const r = crash.raw, S = crash.sim, m = $('#more');
@@ -767,27 +779,18 @@ function endCard() {
   f.querySelector('#home').onclick = () => { fadeOut = 0; goHome(); };
 }
 
-const xf = $('#xf'); let xfReq = null, xfK = 0;
+let xfReq = null, xfK = 0;
 const nightAt = (t) => { const q = crash.sim.sample(t), ss = subsolar((crash.sim.t0 + t) * 1000); return dirOf(q.lat, q.lon).dot(dirOf(ss.lat, ss.lon)) < -.1; };
 function dissolve(dt) {
   if (xfReq && clk >= xfReq.at && crash) {
-    const g = world.renderer.domElement; if (xf.width !== g.width || xf.height !== g.height) { xf.width = g.width; xf.height = g.height; }
-    xf.getContext('2d').drawImage(g, 0, 0); xfK = 1;
-    const r = xfReq.rig; setRig(r, .001); if (r === 'follow' && !manualView) snapCam(crash.sim.beats[crash.sim.beatAt(story)]); updateRailOn();
-  } else if (crash?.snap) {
-    crash.snap = false; const g = world.renderer.domElement; if (xf.width !== g.width || xf.height !== g.height) { xf.width = g.width; xf.height = g.height; }
-    xf.getContext('2d').drawImage(g, 0, 0); xfK = 1;
-  } else if (xfK > 0) xfK = Math.max(0, xfK - dt / .9);
-  const o = xfK > 0 && crash ? smooth(xfK).toFixed(3) : '0'; if (xf.style.opacity !== o) xf.style.opacity = o;
+    if (!warming) { world.hold(); xfK = 1; }
+    const r = xfReq.rig, E = crash.E || crash.sim.beats[crash.sim.beatAt(story)]; setRig(r); if (r === 'follow' && !manualView) snapCam(E); if (r === 'above' && !manualView) cam.zoom = E.zoom ?? 1.2; updateRailOn();
+  } else if (crash?.snap) { crash.snap = false; if (!warming) { world.hold(); xfK = 1; } } else if (xfK > 0 && !warming) xfK = Math.max(0, xfK - dt / .8);
 }
-function setRig(name, dur) {
-  xfReq = null;
-  if (dur < .01) camCut = 2;
-  const l = cam.l.clone();
-  if (cam.t < 1 && cam.from) { const d = v3.subVectors(cam.l, cam.p).normalize(), b = cam.p.dot(d), h = b * b - cam.p.lengthSq() + R * R, k = h > 0 ? -b - Math.sqrt(h) : -1; l.copy(cam.p).addScaledVector(d, k > 0 ? k : cam.p.length()); }
-  cam.from = { p: cam.p.clone(), l, u: cam.u.clone(), fov: cam.fov, rig: cam.rig, A: crash?.pos?.clone(), mk: world?.U.uMapK.value ?? 0 };
+function setRig(name) {
+  xfReq = null; camCut = 2;
   if (crash) crash.wit = null;
-  cam.rig = name; cam.t = 0; cam.dur = dur; cam.hdgInit = false; cam.gap = null;
+  cam.rig = name; cam.hdgInit = false;
 }
 const tmpQ = new THREE.Vector3();
 const overcast = (s) => world.env.layers.some((l) => (l.cover >= .85 || (l.cover >= .7 && (l.density ?? .55) >= .6) || l.cover * (l.density ?? .55) >= .55) && s.alt > l.base);
@@ -891,26 +894,6 @@ function witness(s, A, dt) {
   const los = v3.subVectors(A, best.p).normalize().clone(), d = best.p.distanceTo(A);
   return (crash.wit = { p: best.p, up: best.up, d, los, at: clk, hold: 0, k: 0, bt: 0, blk: false, side: best.side, deck: best.tau > 1.4, lift: best.lift, beat: lastBeat });
 }
-function diveGap(T) {
-  const Ls = world.env.layers, ll = latLonOf(T); if (!Ls.length) return {};
-  const top = Math.max(...Ls.map((l) => l.top)), lo = Math.min(...Ls.map((l) => l.base)), { east, north, up } = enu(ll.lat, ll.lon), above = ll.alt > top; if (above && !world.env.follow) return {};
-  const col = (h, o) => (above ? cloudTau(wv.copy(T).addScaledVector(h, o).addScaledVector(up, top + 60 - ll.alt), wt[0].copy(T).addScaledVector(h, o).addScaledVector(up, lo - 60 - ll.alt), T, 14) : cloudTau(wv.copy(T).addScaledVector(h, o), wt[0].copy(T).addScaledVector(h, o).addScaledVector(up, top + 80 - ll.alt), T, 24));
-  if (world.env.follow) {
-    const O = world.atmU.uNoiseOff.value, o0 = O.clone(); let best = null;
-    for (let r = 0; r <= 15 && !(best?.t < .05); r += 1.5) for (let k = 0; k < (r ? 8 : 1); k++) {
-      O.set(o0.x + r * Math.cos(k * Math.PI / 4), o0.y + r * Math.sin(k * Math.PI / 4), o0.z);
-      let t = col(east, 0); for (const o of [300, -300, 650, -650]) t += col(east, o) + col(north, o); if (!above) t += cloudTau(crash.pos, wt[1].subVectors(T, crash.pos).normalize().multiplyScalar(1500).add(crash.pos), T, 16); if (!best || t < best.t) best = { t, x: O.x, y: O.y };
-    }
-    O.set(best.x, best.y, o0.z); return {};
-  }
-  let best = null;
-  for (const th of [0, 30, 50]) for (let k = 0; k < (th ? 8 : 1); k++) {
-    const h = wt[1].copy(east).multiplyScalar(Math.cos(k * Math.PI / 4)).addScaledVector(north, Math.sin(k * Math.PI / 4)), d = wt[2].copy(up).multiplyScalar(Math.cos(th * D2R)).addScaledVector(h, Math.sin(th * D2R));
-    const t = cloudTau(T, wv.copy(T).addScaledVector(d, (top + 80 - ll.alt) / Math.cos(th * D2R)), cloudC(T), 28) + th * .004;
-    if (!best || t < best.t) best = { t, h: h.clone(), tan: Math.tan(th * D2R) };
-  }
-  return best;
-}
 function rigTarget(s, dt, out) {
   const rig = cam.rig; if (crash) crash.clearK = 1;
   if (rig === 'globe' || rig === 'route') {
@@ -923,13 +906,15 @@ function rigTarget(s, dt, out) {
   const L = crash.ac.spec.length, W = Math.max(L, crash.ac.spec.span), T = performance.now() / 1000, hand = (crash.direct.handheld ?? 1), asp = world.cam.aspect || 1, pf = asp < .85 ? (.85 / asp) ** .8 : 1;
   const nz = (f, o) => Math.sin(T * f + o) * .6 + Math.sin(T * f * 2.3 + o * 1.7) * .4, wfit = (fov, m) => W * m / Math.tan(Math.atan(Math.tan(fov * D2R / 2) * asp));
   if (rig === 'follow') {
-    const gk = crash.ghost || 0, h = (cam.hdg + cam.az + nz(.13, 1) * 1.6 * hand) * D2R, el = (cam.el + 14 * gk + nz(.17, 2) * .9 * hand) * D2R, cap = cloudCap(s, L) * (asp < .85 ? Math.min(pf, 1.5) : 1);
-    const zf = cam.zoom <= 1 ? cam.zoom : cam.zoom < 6 ? 1 + (cam.zoom - 1) * .6 : cam.zoom - 2, fit = wfit(38, .64), dist = Math.min(Math.max((L * 2.3 + 14) * zf * Math.sqrt(pf), asp < .85 ? fit * Math.min(zf, 1) : 0), Math.max(cap, fit)) * (1 + 1.3 * gk);
+    const gk = crash.ghostC || 0, h = (cam.hdg + cam.az + nz(.13, 1) * 1.6 * hand) * D2R, el = (cam.el + 14 * gk + nz(.17, 2) * .9 * hand) * D2R, cap = cloudCap(s, L) * (asp < .85 ? Math.min(pf, 1.5) : 1);
+    const zf = cam.zoom <= 1 ? cam.zoom : cam.zoom < 6 ? 1 + (cam.zoom - 1) * .6 : cam.zoom - 2, fit = wfit(38, .64), fit0 = Math.min(Math.max((L * 2.3 + 14) * zf * Math.sqrt(pf), asp < .85 ? fit * Math.min(zf, 1) : 0), Math.max(cap, fit)) * (1 + 1.3 * gk);
+    cam.dS = camCut > 0 || cam.dS == null ? Math.log(fit0) : cam.dS + (Math.log(fit0) - cam.dS) * (1 - Math.exp(-dt * 2.5)); const dist = Math.exp(cam.dS);
     crash.clearK = cap < Infinity && dist > cap ? clamp((cap / dist) ** 2, .1, 1) : 1;
     v2.copy(north).multiplyScalar(Math.cos(h) * Math.cos(el)).addScaledVector(east, Math.sin(h) * Math.cos(el)).addScaledVector(up, Math.sin(el)).multiplyScalar(dist);
     const drt = rt - (cam.lastRt ?? rt); cam.lastRt = rt;
     if (cam.altS == null || Math.abs(drt) > 20 || Math.abs(s.alt - cam.altS) > dist * 4) cam.altS = s.alt; else if (drt > 0) cam.altS += (s.alt - cam.altS) * (1 - Math.exp(-drt / 1.8));
-    const lag = clamp(cam.altS - s.alt, -dist * .45, dist * .45);
+    const lk = 1 - smooth((Math.abs(crash.sim.rateAt(story)) - 2) / 4); cam.lagK = camCut > 0 || cam.lagK == null ? lk : cam.lagK + (lk - cam.lagK) * (1 - Math.exp(-dt * 2));
+    const lag = clamp(cam.altS - s.alt, -dist * .45, dist * .45) * cam.lagK;
     out.p.copy(A).add(v2).addScaledVector(up, lag); out.l.copy(A).addScaledVector(up, lag * .4); out.u.copy(up); out.fov = 38;
     if (crash.bb && crash.bodyF) {
       const S = safeRect(), k = S.H / 2 / Math.tan(19 * D2R), fw = fz.f.subVectors(out.l, out.p).normalize(), rx = fz.r.crossVectors(fw, out.u).normalize(), uy = fz.u.crossVectors(rx, fw), b = crash.bb, hy = (S.y1 - S.y0) / 2 - 10, hx = (S.x1 - S.x0) / 2 - 6;
@@ -954,9 +939,10 @@ function rigTarget(s, dt, out) {
     if (ck > .002 && X?.n) { const i0 = X.items[0]; out.p.lerp(tq.o.copy(X.P0).addScaledVector(i0.rg, 60).addScaledVector(i0.up, 16).addScaledVector(i0.fw, -120), ck); out.l.lerp(tq.b.copy(X.C).lerp(X.P0, .25), ck); out.fov = lerp(out.fov, asp < .85 ? 52 : 44, ck); }
     const ll = latLonOf(out.p), minA = groundAt(ll.lat, ll.lon) + 8; if (ll.alt < minA) out.p.addScaledVector(up, minA - ll.alt);
     out.u.addScaledVector(v3.crossVectors(up, v2).normalize(), nz(.09, 3) * .006 * hand).normalize();
-    const bk = shakeAt(); if (bk) { const t = rt * 6.3; out.p.addScaledVector(up, (Math.sin(t * 1.7) * .6 + Math.sin(t * 3.1 + 1) * .4) * bk * dist * .012).addScaledVector(east, Math.sin(t * 1.3 + 2) * bk * dist * .008); }
+    const bk = shakeAt() * turbK(); if (bk) { const t = story * 6.3; out.p.addScaledVector(up, (Math.sin(t * 1.7) * .6 + Math.sin(t * 3.1 + 1) * .4) * bk * dist * .012).addScaledVector(east, Math.sin(t * 1.3 + 2) * bk * dist * .008); }
   } else if (rig === 'above') {
-    const dist = Math.min(Math.max((L * 3 + 20) * clamp(cam.zoom, .6, 80), asp < .85 ? wfit(42, .62) : 0), cloudCap(s, L)), lapUp = !manualView && crash.E?.lapse, hv = lapUp ? v2.copy(north) : v2.copy(north).multiplyScalar(Math.cos(cam.hdg * D2R)).addScaledVector(east, Math.sin(cam.hdg * D2R));
+    const d0 = Math.log(Math.min(Math.max((L * 3 + 20) * clamp(cam.zoom, .6, 80), asp < .85 ? wfit(42, .62) : 0), cloudCap(s, L))); cam.dS = camCut > 0 || cam.dS == null ? d0 : cam.dS + (d0 - cam.dS) * (1 - Math.exp(-dt * 2.5));
+    const dist = Math.exp(cam.dS), lapUp = !manualView && crash.E?.lapse, hv = lapUp ? v2.copy(north) : v2.copy(north).multiplyScalar(Math.cos(cam.hdg * D2R)).addScaledVector(east, Math.sin(cam.hdg * D2R));
     let dz = dist * .94, back = dist * .34;
     for (const ly of world.env.layers) if (ly.cover >= .45 && s.alt < ly.base && s.alt + dz > ly.base - 40) { const cap = Math.max(ly.base - 40 - s.alt, dist * .12); if (cap < dz) { const d2 = Math.min(dist, Math.max(cap / Math.sin(28 * D2R), L * 1.6)); dz = Math.min(cap, d2 * .94); back = Math.sqrt(Math.max(d2 * d2 - dz * dz, 0)); } }
     out.p.copy(A).addScaledVector(up, dz).addScaledVector(hv, -back); out.l.copy(A).addScaledVector(hv, dist * .06); out.u.copy(hv); out.fov = 42;
@@ -988,20 +974,13 @@ function rigTarget(s, dt, out) {
   }
 }
 const fz = { f: new THREE.Vector3(), r: new THREE.Vector3(), u: new THREE.Vector3(), p: new THREE.Vector3() };
-const prevCam = new THREE.Vector3(), cur = { p: new THREE.Vector3(), l: new THREE.Vector3(), u: new THREE.Vector3(), fov: 34 };
-const tq = { a: new THREE.Vector3(), b: new THREE.Vector3(), l: new THREE.Vector3(), f: new THREE.Vector3(), h: new THREE.Vector3(), r: new THREE.Vector3(), u: new THREE.Vector3(), m: new THREE.Matrix4(), o: new THREE.Vector3(), qa: new THREE.Quaternion(), qb: new THREE.Quaternion() };
+const tgt = { p: new THREE.Vector3(), l: new THREE.Vector3(), u: new THREE.Vector3(), fov: 34 }, cur = { p: new THREE.Vector3(), l: new THREE.Vector3(), u: new THREE.Vector3(), fov: 34 };
+const tq = { a: new THREE.Vector3(), b: new THREE.Vector3(), r: new THREE.Vector3(), o: new THREE.Vector3() };
 function slerpDir(a, b, t, out) {
   const om = Math.acos(clamp(a.dot(b), -1, 1));
   if (om < 1e-6) return out.copy(b);
   if (om > Math.PI - 1e-3) { tq.r.set(0, 0, 1).cross(a); if (tq.r.lengthSq() < 1e-8) tq.r.set(0, 1, 0); return out.copy(a).applyAxisAngle(tq.r.normalize(), om * t); }
   const sn = Math.sin(om); return out.copy(a).multiplyScalar(Math.sin((1 - t) * om) / sn).addScaledVector(b, Math.sin(t * om) / sn).normalize();
-}
-function lookQ(p, l, u, hp, hl, out) {
-  const f = tq.f.subVectors(l, p).normalize(), r = tq.r.copy(hp).normalize(), h = tq.h.subVectors(hl, hp);
-  h.addScaledVector(r, -h.dot(r)); if (h.lengthSq() > 1e-9) h.normalize();
-  const up = tq.u.copy(u).addScaledVector(f, -f.dot(u)).addScaledVector(h.addScaledVector(f, -f.dot(h)), .15);
-  if (up.lengthSq() < 1e-12) up.set(0, 0, 1).addScaledVector(f, -f.z);
-  tq.m.lookAt(tq.o.set(0, 0, 0), f, up.normalize()); return out.setFromRotationMatrix(tq.m);
 }
 
 let streaks = null;
@@ -1037,7 +1016,8 @@ void main(){
   u.uCol.value.set(c[0], c[1], c[2], X.k * (sand ? .5 : lerp(.16, .4, day)) * (1 + Math.min(flash, 2) * 1.5) / Math.sqrt(crash.expo || 1)); u.uNear.value = isInside(cam.rig) ? 7 : 3;
 }
 function poseAircraft(s0, dt) {
-  const T = turbAt(rt, Math.max(shakeAt(), s0.known?.pitch || s0.alt - groundAt(s0.lat, s0.lon) < 8 ? 0 : .2)), s = T ? { ...s0, pitch: s0.pitch + T.p, roll: s0.roll + T.r, hdg: s0.hdg + T.y } : s0;
+  const tg = Math.max(shakeAt(), s0.known?.pitch || s0.alt - groundAt(s0.lat, s0.lon) < 8 ? 0 : .2) * turbK(); crash.turbG = camCut > 0 || crash.turbG == null ? tg : crash.turbG + (tg - crash.turbG) * (1 - Math.exp(-dt * 1.2));
+  const T = turbAt(story, crash.turbG > .002 ? crash.turbG : 0), s = T ? { ...s0, pitch: s0.pitch + T.p, roll: s0.roll + T.r, hdg: s0.hdg + T.y } : s0;
   const ac = crash.ac, A = ecef(s.lat, s.lon, s.alt);
   const up = dirOf(s.lat, s.lon), f = headingVector(s.lat, s.lon, s.hdg, s.pitch), r = new THREE.Vector3().crossVectors(f, up).normalize(), u = new THREE.Vector3().crossVectors(r, f).normalize();
   const ph = s.roll * D2R, r2 = r.clone().multiplyScalar(Math.cos(ph)).addScaledVector(u, -Math.sin(ph)), u2 = u.clone().multiplyScalar(Math.cos(ph)).addScaledVector(r, Math.sin(ph));
@@ -1048,7 +1028,7 @@ function poseAircraft(s0, dt) {
   world.place(ac.group, PV);
   crash.pos = A; crash.posVis = PV;
   for (const w of crash.wing || []) { w.a.group.quaternion.copy(ac.group.quaternion); const fh = headingVector(s.lat, s.lon, s.hdg, 0, fxD), rh = tmpQ.crossVectors(fh, up).normalize(), FD = crash.direct.formationDrift, dv = FD && rt > atT(FD.t) ? FD.v[crash.wing.indexOf(w)] : null, dt2 = dv ? rt - atT(FD.t) : 0; w.a.group.position.copy(ac.group.position).addScaledVector(fh, w.o[0] + (dv ? dv[0] * dt2 : 0)).addScaledVector(up, w.o[1] + (dv ? dv[1] * dt2 : 0)).addScaledVector(rh, w.o[2] + (dv ? dv[2] * dt2 : 0)); w.a.tick(playing ? dt * speed : 0, { up: dirOf(s.lat, s.lon), gear: 0 }); }
-  syncInterior(s);
+  syncInterior(s, dt);
   const a = cur.p.length() - R;
   const low = a < 500e3;
   const fu = crash.direct.formationUntil; ac.group.visible = low;
@@ -1058,7 +1038,7 @@ function poseAircraft(s0, dt) {
     if (near !== w.near) { w.near = near; for (const m of w.solid) { m.renderOrder = near ? 105 : 0; if (near) m.layers.disable(1); else m.layers.enable(1); } for (const m of w.mats) m.transparent = near; }
     for (const m of w.mats) m.opacity = T;
   }
-  const far = !crash.E?.noTrack && story < crash.sim.flightEndS - .05 && (!low || cam.rig === 'route' || (cam.rig === 'above' && cur.p.distanceTo(A) > crash.ac.spec.length * 45) || (cam.t < 1 && (a > 30e3 || cam.from?.rig === 'route') && cur.p.distanceTo(A) > crash.ac.spec.length * 90) || (cam.rig === 'below' && (crash.deckK > 0 || crash.nightB)));
+  const far = !crash.E?.noTrack && story < crash.sim.flightEndS - .05 && (!low || cam.rig === 'route' || (cam.rig === 'above' && cur.p.distanceTo(A) > crash.ac.spec.length * 45) || (cam.rig === 'below' && (crash.deckK > 0 || crash.nightB)));
   mark.style.display = far ? 'block' : 'none';
   crash.markP = null;
   if (far) { const pr = world.project(A); const occ = world.occluded(A); mark.style.display = occ || pr.behind ? 'none' : 'block'; const ang = screenHeading(s, A); mark.style.transform = `translate(${pr.x}px,${pr.y}px) rotate(${ang}deg)`; if (!occ && !pr.behind) crash.markP = { x: pr.x, y: pr.y }; }
@@ -1133,6 +1113,7 @@ function turbAt(t, k) {
   if (!k) return null; const n = (j) => { let v = 0; for (const [f, p, a, q] of TURB) v += a * Math.sin(Math.PI * 2 * f * t * (1 + j * .137) + p * (j + 1) + q * j); return v / 1.73; };
   return { p: k * 1.3 * n(0), r: k * 2.8 * n(1), y: k * .7 * n(2), h: k * 4 * n(3) };
 }
+const turbK = () => 1 - smooth((Math.abs(crash.sim.rateAt(story)) - 2) / 4);
 function shakeAt() { let k = 0; for (const [a, b, v] of crash.direct.shake ?? SHAKE[crash.id] ?? []) { const x = atT(a), y = atT(b); if (rt > x && rt < y) k = Math.max(k, v * smooth((rt - x) / 4) * smooth((y - rt) / 4)); } return k; }
 function ensureInterior(id) {
   if (id in crash.interiors) return crash.interiors[id];
@@ -1141,7 +1122,7 @@ function ensureInterior(id) {
   if (I?.group) { I.group.userData.interior = true; I.group.traverse((m) => { if (!m.isMesh) return; m.userData.int = true; if (m.material.opacity >= .99 && m.material.depthWrite !== false && m.material.colorWrite !== false) m.layers.enable(1); }); crash.ac.group.add(I.group); crash.nearMode = null; I.group.visible = false; }
   return I;
 }
-function syncInterior(s) {
+function syncInterior(s, dt) {
   const ac = crash.ac, inside = isInside(cam.rig);
   for (const [k, I] of Object.entries(crash.interiors)) if (I?.group) I.group.visible = inside && k === cam.rig;
   for (const n of ['nose', 'mid', 'aft', 'fin']) if (ac.parts[n]) ac.parts[n].visible = !inside;
@@ -1149,7 +1130,7 @@ function syncInterior(s) {
   if (!inside) { crash.interior = null; return; }
   const I = crash.interior = ensureInterior(cam.rig);
   const qAlt = fieldQ('alt', rt, 1);
-  I?.update?.({ unknown: (qAlt == null || qAlt === 'none') && s.posQ === 'modelled', altFt: s.known?.alt === false && crash.direct.instrAltNull ? null : s.altFt, ias: s.ias, gs: s.gs, vs: s.vs, pitch: s.pitch, roll: s.roll, hdg: s.hdg, aoa: s.aoa, elevL: s.elevL, ap: crash.direct.apOff ? rt < atT(crash.direct.apOff) : undefined, sel: (crash.direct.sel || []).filter((x) => atT(x.t) <= rt).pop(), timeMs: world.time, night: 1 - smooth((dirOf(s.lat, s.lon).dot(world.U.uSun.value) + .03) / .12), masks, lights: !cabinDark() && !powerOff(), shake: shakeAt(), warnings: crash.warn || [] });
+  I?.update?.({ dt, cut: camCut > 0, unknown: (qAlt == null || qAlt === 'none') && s.posQ === 'modelled', altFt: s.known?.alt === false && crash.direct.instrAltNull ? null : s.altFt, ias: s.ias, gs: s.gs, vs: s.vs, pitch: s.pitch, roll: s.roll, hdg: s.hdg, aoa: s.aoa, elevL: s.elevL, ap: crash.direct.apOff ? rt < atT(crash.direct.apOff) : undefined, sel: (crash.direct.sel || []).filter((x) => atT(x.t) <= rt).pop(), timeMs: world.time, night: 1 - smooth((dirOf(s.lat, s.lon).dot(world.U.uSun.value) + .03) / .12), masks, lights: !cabinDark() && !powerOff(), shake: shakeAt(), warnings: crash.warn || [] });
 }
 function setPlaneMode(near) {
   if (crash.nearMode === near) return; crash.nearMode = near;
@@ -1181,14 +1162,24 @@ function applyDetach(f, ac) {
   part.matrix.copy(m4); part.matrixWorldNeedsUpdate = true;
 }
 
-let lastT = 0, slow = 0, fast = 0, trackPtsDrawn = -1, shiftK = 0, camCut = 2, clk = 0;
+let lastT = 0, trackPtsDrawn = -1, shiftK = 0, camCut = 2, clk = 0, warming = false, flipShadow = false;
 let frames = 0;
+const pace = { P: 1000 / 60, n: 1, acc: 0, ds: [], sum: 0, cnt: 0, miss: 0, good: 0, probe: null, backR: 8, backQ: 14, settle: 1 }, RATES = [360, 240, 165, 144, 120, 100, 90, 75, 60, 50, 30];
+const paceN = () => { const a = Math.max(1, Math.ceil(5.9 / pace.P - .01)); return [a, Math.max(a, Math.floor(34 / pace.P + .01))]; };
 function frame(now) {
   requestAnimationFrame(frame); frames++;
-  if (document.hidden || !visible) { lastT = now; return; }
-  const dt = Math.min((now - lastT) / 1000 || .016, .1); lastT = now;
-  if (!window.__stepped) tick(dt, now);
-  adapt(dt);
+  const d = now - lastT; lastT = now;
+  if (document.hidden || !visible) { pace.acc = 0; return; }
+  if (d > 0 && d < 100) {
+    pace.ds.push(d); if (pace.ds.length > 90) pace.ds.shift();
+    if (frames % 30 === 0 && pace.ds.length >= 30) { const a = [...pace.ds].sort((x, y) => x - y), m = a[Math.floor(a.length * .2)]; let P = Math.max(m, 1000 / 360); for (const hz of RATES) if (Math.abs(1000 / hz - m) < 70 / hz) P = 1000 / hz; if (P < pace.P * .95 || (P > pace.P * 1.05 && pace.n > 1)) { pace.P = P; const [n0, n1] = paceN(); pace.n = clamp(pace.n, n0, n1); } }
+  }
+  pace.acc += d;
+  if (pace.n > 1 && pace.acc < pace.P * (pace.n - .5)) return;
+  const ms = pace.acc; pace.acc = 0;
+  if (warming || window.__stepped) return;
+  tick(Math.min(ms / 1000 || .016, .1), now);
+  adapt(ms);
 }
 function tick(dt, now) {
   srC = null;
@@ -1203,12 +1194,14 @@ function tick(dt, now) {
     cutFade(dt);
     s = crash.sim.sample(rt);
     runStory(dt);
-    { const Z = crash.sim.beats[crash.lastI]; ghostAc(crash.direct.endTitle && Z && !isInside(cam.rig) ? smooth((story - Z.s - Z.len * .42) / (Z.len * .38)) : 0); }
+    { const Z = crash.sim.beats[crash.lastI]; crash.ghostC = crash.direct.endTitle && Z && !isInside(cam.rig) ? smooth((story - Z.s - Z.len * .42) / (Z.len * .38)) : 0; ghostAc(crash.ghostC); }
     world.setTime((crash.sim.t0 + rt) * 1000);
   } else {
     world.setTime(Date.now());
     if (G.spin && !drag) G.lon = ((G.lon + dt * 1.7) + 540) % 360 - 180;
   }
+  if (crash?.openT && cam.rig === 'globe' && !drag) { const T = crash.openT, k = 1 - Math.exp(-dt * 1.8); G.lat += (T.lat - G.lat) * k; G.lon = ((G.lon + shortAngle(G.lon, T.lon) * k) + 540) % 360 - 180; G.alt = Math.exp(lerp(Math.log(G.alt), Math.log(T.alt), k)); }
+  if (crash?.chutePend != null) { crash.chuteK = crash.chutePend; crash.chutePend = null; camCut = 2; }
   if (!drag) { G.lat = clamp(G.lat + G.vLat * dt, -86, 86); G.lon = ((G.lon + G.vLon * dt) + 540) % 360 - 180; const d = Math.exp(-dt * 2.6); G.vLat *= d; G.vLon *= d; }
   if (s) {
     crash.s = s;
@@ -1217,40 +1210,19 @@ function tick(dt, now) {
     crash.focusK = (crash.focusK || 0) + clamp(on - (crash.focusK || 0), -dt / 1.4, dt / 1.4);
     poseAircraft(s, dt);
   }
-  const tgt = { p: new THREE.Vector3(), l: new THREE.Vector3(), u: new THREE.Vector3(), fov: 34 };
+  if (s && crash.chuteX) updateFx();
   rigTarget(s, dt, tgt);
-  cam.t = Math.min(cam.t + dt / cam.dur, 1);
-  if (cam.t < 1 && cam.from) {
-    const F = cam.from, x = cam.t, io = (v) => (v < .5 ? 4 * v * v * v : 1 - (-2 * v + 2) ** 3 / 2);
-    const a0 = F.p.length() - R, a1 = tgt.p.length() - R, hi = Math.max(a0, a1) > 5e4, orbit = !hi && s && F.A && F.p.distanceTo(F.A) < 4000 && tgt.p.distanceTo(crash.pos) < 4000;
-    let ed = io(x), ea = ed, lb = smooth((ed - .06) / .5);
-    if (hi && a0 > a1) { ed = smooth(x / .5); ea = io(clamp((x - .12) / .88)); lb = smooth(x / .45); } else if (hi) { ea = 1 - (1 - clamp(x / .85)) ** 3; ed = smooth((x - .2) / .7); lb = smooth((x - .06) / .55); }
-    const lA = orbit ? tq.l.copy(F.l).sub(F.A).add(crash.pos) : tq.l.copy(F.l);
-    if (orbit) {
-      const L0 = tq.a.subVectors(F.p, F.A).length(), L1 = tq.b.subVectors(tgt.p, crash.pos).length();
-      slerpDir(tq.a.normalize(), tq.b.normalize(), ed, cur.p).multiplyScalar(Math.exp(lerp(Math.log(L0), Math.log(L1), ea))).add(crash.pos);
-    } else {
-      const om = tq.a.copy(F.p).normalize().angleTo(tq.b.copy(tgt.p).normalize()), hump = hi ? 0 : Math.sin(ed * Math.PI) * clamp(om * 3.5, 0, 2.2);
-      slerpDir(tq.a, tq.b, ed, cur.p).multiplyScalar(R + Math.exp(lerp(Math.log(Math.max(a0, 2)), Math.log(Math.max(a1, 2)), ea) + hump));
-      if (hi && a0 > a1 && s) {
-        cam.gap ??= diveGap(tgt.p); if (cam.gap.tan) { const ac = cur.p.length() - R; cur.p.addScaledVector(cam.gap.h, Math.max(ac - a1, 0) * cam.gap.tan * (1 - smooth((ac - 20e3) / 40e3))); }
-        const rel = wv.subVectors(cur.p, crash.pos), dist = rel.length(), d1 = tgt.p.distanceTo(crash.pos), u = smooth(Math.log(Math.max(dist / d1, 1)) / Math.log(16));
-        if (u < 1) { slerpDir(wt[0].subVectors(tgt.p, crash.pos).normalize(), rel.normalize(), u, wt[1]); cur.p.copy(crash.pos).addScaledVector(wt[1], dist); }
-      }
-    }
-    lookQ(cur.p, lA, F.u, F.p, F.l, tq.qa); lookQ(cur.p, tgt.l, tgt.u, tgt.p, tgt.l, tq.qb); tq.qa.slerp(tq.qb, lb);
-    cur.l.set(0, 0, -1).applyQuaternion(tq.qa).multiplyScalar(1000).add(cur.p); cur.u.set(0, 1, 0).applyQuaternion(tq.qa); cur.fov = lerp(F.fov, tgt.fov, lb);
-  } else { cur.p.copy(tgt.p); cur.l.copy(tgt.l); cur.u.copy(tgt.u); cur.fov = tgt.fov; }
+  cur.p.copy(tgt.p); cur.l.copy(tgt.l); cur.u.copy(tgt.u); cur.fov = tgt.fov;
   cam.p.copy(cur.p); cam.l.copy(cur.l); cam.u.copy(cur.u); cam.fov = cur.fov;
   world.camEcef.copy(cur.p);
   if (s) { setPlaneMode(cur.p.distanceTo(crash.pos) < 2500); poseAircraft(s, 0); }
-  if (crash) { showFtag(dt); streakFx(dt, s); }
+  if (crash) streakFx(dt, s);
   const camAlt = cur.p.length() - R;
-  const tLim = cam.t < 1 && cam.from && (cam.rig === 'route' || cam.from.rig === 'route') ? 40e3 : Math.max(380e3, crash?.epiAlt ?? 0);
+  const tLim = Math.max(380e3, crash?.epiAlt ?? 0);
   for (const p of crash?.terrain ?? []) { p.position.subVectors(p.userData.anchor, world.camEcef); p.visible = camAlt < tLim; }
   world.syncMovers();
   for (const p of crash?.parts ?? []) { const u = p.material.uniforms; if (u.uT) { u.uT.value = rt; u.uScale.value = world.H / (2 * Math.tan(cur.fov * D2R / 2)); } }
-  if (s) { updateFx(); const X = crash.chuteX; crash.chuteK = clamp((crash.chuteK || 0) + clamp((X?.active && !manualView && cam.rig === 'follow' ? 1 : 0) - (crash.chuteK || 0), -dt / .5, dt / 1.8)); }
+  if (s) { updateFx(); const X = crash.chuteX, want = X?.active && !manualView && cam.rig === 'follow' ? 1 : 0; if (want !== (crash.chuteW ?? 0)) { crash.chuteW = want; crash.chutePend = want; if (playing) crash.snap = true; } }
   if (crash) {
     const k0 = story - crash.sim.flightEndS; fadeOut = k0 < -1.2 ? 0 : k0 < -.2 ? smooth(k0 + 1.2) : k0 < 1.2 ? 1 : 1 - smooth((k0 - 1.2) / 1.8);
     crash.cut = crash.hitS != null && story >= crash.hitS - .02 && k0 < 1.2 && (crash.cut || isInside(cam.rig) || cur.p.distanceTo(crash.pos) < 3000);
@@ -1260,7 +1232,7 @@ function tick(dt, now) {
   fadeDip = Math.max(0, fadeDip - dt / .55);
   const fadeNow = Math.max(fadeOut, fadeDip > .5 ? 1 : fadeDip * 2, crash?.cutK ?? 0);
   if (crash?.past) {
-    const bi = crash.sim.beatAt(story), lap = !manualView && crash.E?.lapse && cam.t >= 1, tr = cam.t < 1, lo = tr ? 150e3 : 35e3, hi = tr ? 450e3 : 100e3, want = lap ? 1 : smooth((camAlt - lo) / (hi - lo));
+    const bi = crash.sim.beatAt(story), lap = !manualView && crash.E?.lapse, lo = 35e3, hi = 100e3, want = lap ? 1 : smooth((camAlt - lo) / (hi - lo));
     crash.lineK = crash.lineK == null || fadeNow > .98 ? want : crash.lineK + (want - crash.lineK) * (1 - Math.exp(-dt * (want < crash.lineK ? 16 : 7)));
     const k = crash.lineK ** 2, epi = story >= crash.sim.flightEndS - .05;
     const dF = crash.direct, noF = dF.future === false || (dF.futureFrom != null && bi < dF.futureFrom), noT = crash.E?.noTrack;
@@ -1274,13 +1246,11 @@ function tick(dt, now) {
   const expo = lerp(1, lerp(crash?.direct?.nightExposure ?? 3.6, 1.5, smooth((alt - 60e3) / 500e3)), nightK) * (crash?.brightK ?? 1); if (crash) crash.expo = expo;
   const shadowSize = crash ? crash.ac.spec.span * .9 : 50, inside = isInside(cam.rig), shW = mode === 'crash' && !inside ? shiftOf(safeRect()) : 0;
   shiftK = fadeDip > .5 ? shW : shiftK + (shW - shiftK) * (1 - Math.exp(-dt * 2.5));
-  if (crash) { crash.fadeNow = fadeNow; crash.diveK = cam.t < 1 && cam.from?.rig === 'route' && cam.rig !== 'route' ? smooth(cam.t / .3) : (crash.diveK || 0) * Math.exp(-dt / 1.6); if (s) { cueEnv(); cloudClear(s); } }
-  const fastCam = cam.t < 1 && cur.p.distanceTo(prevCam) > Math.max(camAlt, 30) * .04; prevCam.copy(cur.p);
-  const F = cam.from, mapMode = crash && cam.t < 1 && F && (cam.rig === 'route' ? F.rig !== 'route' : F.mk > .01) ? Math.max(cam.rig === 'route' ? Math.max(F.mk, smooth(cam.t / .15)) : F.mk * (1 - smooth((cam.t - .5) / .4)), smooth((camAlt - 45e3) / 80e3)) : undefined;
+  if (crash) { crash.fadeNow = fadeNow; if (s) { cueEnv(); cloudClear(s); } }
   if (world.finalM) world.atmU.uSteps.value = crash && isInside(cam.rig) ? Math.max(12, Math.round(qSteps * .5)) : qSteps;
-  world.render(dt, { time: world.time, up: cur.u, look: cur.l, fov: cur.fov, exposure: expo, mapMode, fade: fadeNow, flash, flashPos: crash?.flashPos, target: crash?.pos, shadowSize, inside, reset: camCut > 0 || fadeNow > .97 || fastCam, fill: inside ? 0 : crash?.direct?.fill ?? .9, shift: shiftK }); camCut = Math.max(0, camCut - 1);
-  updatePins(); dissolve(dt);
-  if (s) { updateCard(); updateIns(s); updateAoa(s, dt); drawTimeline(); soundFrame(s, dt, now); }
+  world.render(dt, { time: world.time, up: cur.u, look: cur.l, fov: cur.fov, exposure: expo, fade: fadeNow, flash, flashPos: crash?.flashPos, target: crash?.pos, shadowSize, inside, reset: camCut > 0 || fadeNow > .97, fill: inside ? 0 : crash?.direct?.fill ?? .9, shift: shiftK, hold: smooth(xfK), noShow: warming, flipShadow }); camCut = Math.max(0, camCut - 1);
+  dissolve(dt);
+  if (!warming) { updatePins(); if (s) { updateCard(); updateIns(s); updateAoa(s, dt); drawTimeline(); soundFrame(s, dt, now); } }
   srC = undefined;
 }
 const shotOf = (B, si) => { if (si < 0) return B; B._E ??= []; if (!B._E[si]) { const { at, u, t, tLead, rate, ...x } = B.shots[si]; B._E[si] = { ...B, ...x, s0: B.s + u }; } return B._E[si]; };
@@ -1294,29 +1264,26 @@ function runStory(dt) {
   const S = crash.sim, i = S.beatAt(story), B = S.beats[i], si = shotIdx(B), E = shotOf(B, si);
   crash.E = E;
   if (i !== lastBeat || si !== lastShot) {
-    const nb = i !== lastBeat, fwd = nb ? i === lastBeat + 1 : si > lastShot, prevRig = cam.rig, first = lastBeat < 0; lastBeat = i; lastShot = si;
+    const nb = i !== lastBeat, fwd = nb ? i === lastBeat + 1 : si > lastShot, prevRig = cam.rig; lastBeat = i; lastShot = si;
     if (nb) {
       if (B.masks) masks = true; else if (!fwd) masks = S.beats.slice(0, i + 1).some((x) => x.masks);
       updateCard();
-      if ((crash.chuteK || 0) > .3) { crash.chuteK = 0; fadeDip = 1; camCut = 2; }
+      if ((crash.chuteK || 0) > .3) { crash.chuteK = 0; crash.chuteW = 0; crash.chutePend = null; fadeDip = 1; camCut = 2; }
       const EE = crash.direct.epilogueEnv;
       if (EE && (B.t === 'end') !== crash.epiEnv) { crash.epiEnv = B.t === 'end'; const e = crash.epiEnv ? { layers: lay(EE.layers), fogVis: EE.fogVisKm ?? 0 } : crash.envBase; world.setEnv({ layers: e.layers, fogVis: e.fogVis }); crash.cueKey = ''; }
       { const txt = `${B.text} ${B.events.map((e) => `${e.title} ${e.detail || ''}`).join(' ')}`.toLowerCase(); crash.refs = crash.evs.filter((e) => { const w = (e.label || '').toLowerCase().split(/\s+/); return e.trk == null && w.length > 1 && w[0].length > 2 && w[1].length > 2 && txt.includes(`${w[0]} ${w[1]}`); }); }
     }
     if (B.t === 'end') {
-      if (nb) { const e = epilogueFrame(); crash.epiAlt = crash.direct.epilogue?.[2] < 400e3 && e[2] < 400e3 ? e[2] * 1.15 : 0; crash.mapT = { lat: e[0], lon: e[1], alt: e[2] }; manualView = false; curView = 'map'; if (cam.rig !== 'route') { G.lat = e[0]; G.lon = e[1]; G.alt = e[2]; fadeDip = 1; setRig('route', .001); } updateRailOn(); }
+      if (nb) { const e = epilogueFrame(); crash.epiAlt = crash.direct.epilogue?.[2] < 400e3 && e[2] < 400e3 ? e[2] * 1.15 : 0; crash.mapT = { lat: e[0], lon: e[1], alt: e[2] }; manualView = false; curView = 'map'; if (cam.rig !== 'route') { G.lat = e[0]; G.lon = e[1]; G.alt = e[2]; fadeDip = 1; setRig('route'); } updateRailOn(); }
       if (si >= 0 && (E.frame || E.fit)) crash.mapT = frameOf(E, i);
     } else if (!manualView) {
-      if (E.v === 'map') { crash.mapT = frameOf(E, i); if (prevRig !== 'route') Object.assign(G, crash.mapT); }
-      const midMove = !first && cam.rig === 'follow' && cam.t < 1;
+      if (E.v === 'map') { crash.mapT = frameOf(E, i); if (prevRig !== 'route' && prevRig !== 'globe') Object.assign(G, crash.mapT); }
       pickView(E.v || 'follow');
       if ((crash.cutK || 0) > .5) fadeDip = 0;
-      if (cam.rig === 'follow' && (prevRig !== 'follow' || !fwd || !nb)) snapCam(E);
-      else if (cam.rig === 'follow' && E.sfx === 'blast') { setRig('follow', .001); snapCam(E); crash.rtV = 0; }
-      if (midMove && cam.rig === 'follow' && cam.t < 1) cam.dur = Math.min(cam.dur, .6 / Math.max(1 - cam.t, .05));
-      if (!nb && cam.rig === prevRig && cam.rig !== 'route') camCut = 2;
+      const big = Math.abs(shortAngle(cam.az, E.az ?? crash.direct.az ?? 215)) > 28 || Math.abs(cam.el - (E.el ?? 8)) > 14 || Math.abs(Math.log(cam.zoom / (E.zoom ?? 1.2))) > .5, timeCut = nb && crash.dips?.some((c) => Math.abs(c.s - B.s) < .05);
+      if (cam.rig === 'follow' && !xfReq && (prevRig !== 'follow' || !fwd || timeCut || big)) { snapCam(E); if (prevRig === 'follow') camCut = 2; }
     }
-    if (cam.rig === 'above' && !manualView) { cam.zoom = E.zoom ?? 1.2; cam.hdgInit = false; }
+    if (cam.rig === 'above' && !manualView && prevRig !== 'above') { cam.zoom = E.zoom ?? 1.2; cam.hdgInit = false; }
     if ($('#eyes').classList.contains('open')) renderEyes();
     if (nb && fwd && B.sfx && playing) fireSfx(B.sfx);
     if (!nb && fwd && si >= 0 && B.shots[si].sfx && playing) fireSfx(B.shots[si].sfx);
@@ -1328,6 +1295,7 @@ function runStory(dt) {
     G.lat += (T.lat - G.lat) * k; G.lon = ((G.lon + shortAngle(G.lon, T.lon) * k) + 540) % 360 - 180; G.alt = Math.exp(lerp(Math.log(G.alt), Math.log(T.alt), k));
   }
   storyOverlays(E, dt, B);
+  if (B.t !== 'end' && !manualView && cam.rig === 'above') cam.zoom = Math.exp(lerp(Math.log(cam.zoom), Math.log(E.zoom ?? 1.2), 1 - Math.exp(-dt * 1.4)));
   if (B.t !== 'end' && !manualView && cam.rig === 'follow') {
     const s0 = E.s0 ?? B.s, len = B.len - (s0 - B.s), w = 1.25, d = (x, v) => v + (w * w * x - 2 * w * v) * dt;
     cam.va = d(shortAngle(cam.az, (E.az ?? crash.direct.az ?? 215) + (story - s0) * (E.orbit ?? 1.1)), cam.va || 0); cam.az += cam.va * dt;
@@ -1353,6 +1321,7 @@ function speakWords(B) {
   let i = 0; [...P.children].forEach((sEl, k) => { sEl.classList.toggle('cur', k === ci); for (const w of sEl.children) w.classList.toggle('on', i++ < n); });
 }
 function storyOverlays(E, dt, B = E) {
+  if (warming) return;
   speakWords(B);
   crash.brightK = lerp(crash.brightK ?? 1, !manualView && E.bright ? E.bright : 1, 1 - Math.exp(-dt * 2.5));
   const rr = B.t === 'end' ? 1 : crash.sim.rateAt(story);
@@ -1420,7 +1389,6 @@ function soundFrame(s, dt, now) {
 }
 function updatePins() {
   const a = world.camEcef.length() - R;
-  const showHome = mode === 'home' || (cam.rig === 'globe' && cam.t < .5);
   const taken = [];
   for (const p of pins) {
     const vis = mode === 'home' && !world.occluded(p.v);
@@ -1428,7 +1396,10 @@ function updatePins() {
     if (vis) { const q = world.project(p.v); p.el.style.transform = `translate(${q.x}px,${q.y}px)`; p.el.classList.toggle('lf', q.x > world.cssW - 120); p.el.style.visibility = q.x < 8 || q.x > world.cssW - 8 ? 'hidden' : 'visible'; const hit = taken.some((t) => Math.abs(t.y - q.y) < 16 && Math.abs(t.x - q.x) < 110); p.el.classList.toggle('nolabel', hit); if (!hit) taken.push(q); }
   }
   if (crash) {
-    const show = (a > 45e3 && (cam.rig === 'route' || a > 80e3)) || ended, bi = crash.sim.beatAt(story), sb = stage.getBoundingClientRect(), st = sb.top, W = world.cssW;
+    const show = (a > 45e3 && (cam.rig === 'route' || a > 80e3)) || ended, bi = crash.sim.beatAt(story);
+    if (!show && (crash.lineK ?? 0) < .01) { const o = (crash.fadeNow ?? 0) > .5 ? 0 : 1 - (crash.fadeNow ?? 0) * 2; if (crash.markO !== o) { crash.markO = o; mark.style.opacity = o; } if (!crash.pinsOff) { crash.pinsOff = true; for (const e of crash.evs) e.el.style.display = 'none'; } return; }
+    crash.pinsOff = false; crash.markO = null;
+    const sb = stage.getBoundingClientRect(), st = sb.top, W = world.cssW;
     const vw = $('#views').getBoundingClientRect(), rr = $('#rail').hidden ? null : $('#rail').getBoundingClientRect(), wb = $('#who').getBoundingClientRect();
     const bot = (ended ? ($('#fade b')?.getBoundingClientRect().top ?? world.cssH + st) : Math.min($('#card').getBoundingClientRect().top, vw.height > 0 ? vw.top : 1e9)) - st - 10;
     const k = world.H / (world.cssH || 1); LF.b.value = (world.cssH - bot - 4) * k; LF.w.value = 34 * k;
@@ -1471,33 +1442,44 @@ function updatePins() {
       e.el.style.transform = `translate(${m === 'l' ? q.x - W0 + 11.5 : ud ? best.ux : q.x}px,${m === 'u' ? q.y - 27.5 : m === 'd' ? q.y - 7.5 : q.y}px)`;
     }
   }
-  void showHome;
 }
-const LADDER = [{}, { bloom: false }, { steps: 32, atm: .42 }, { steps: 24, atm: .38 }, { steps: 18, atm: .34 }, { dpr: .85 }, { steps: 14, dpr: .75 }, { dpr: .65 }, { dpr: .55, atm: .3 }];
-let qLevel = 0, qAcc = 0, qN = 0, qHold = 0;
-window.__setQ = (l) => { qLevel = l; applyQ(); }; window.__q = () => qLevel;
+const LADDER = [{}, { bloom: false }, { msaa: 0 }, { steps: 32, atm: .42 }, { steps: 24, atm: .38 }, { steps: 18, atm: .34 }, { dpr: .85 }, { steps: 14, dpr: .75 }, { dpr: .65 }, { dpr: .55, atm: .3 }];
+let qLevel = 0; const Q_SOFT = 5;
+window.__setQ = (l) => { qLevel = l; applyQ(); }; window.__q = () => qLevel; window.__pace = () => ({ hz: +(1000 / pace.P).toFixed(1), every: pace.n, q: qLevel });
 const base = { bloom: tier.bloom, shadows: tier.shadows, steps: tier.cloudSteps, atm: tier.atmScale };
 function applyQ() {
   const q = Object.assign({}, ...LADDER.slice(0, qLevel + 1));
   world.tier.bloom = base.bloom && q.bloom !== false; world.finalM.uniforms.uBloom.value = world.tier.bloom ? 1 : 0;
   world.tier.shadows = base.shadows && q.shadows !== false;
   qSteps = Math.min(base.steps, q.steps ?? base.steps); world.atmU.uSteps.value = qSteps;
-  world.tier.atmScale = Math.min(base.atm, q.atm ?? base.atm);
-  dpr = Math.min(devicePixelRatio || 1, tier.maxDpr) * (q.dpr ?? 1);
-  size();
+  const ms = Math.min(tier.msaa, q.msaa ?? tier.msaa); if (world.sceneRT.samples !== ms) { world.sceneRT.samples = ms; world.sceneRT.dispose(); camCut = 2; }
+  const d = Math.min(devicePixelRatio || 1, tier.maxDpr) * (q.dpr ?? 1), a = world.tier.atmScale; world.tier.atmScale = Math.min(base.atm, q.atm ?? base.atm);
+  if (d !== dpr || a !== world.tier.atmScale) { dpr = d; size(); camCut = 2; }
 }
-function adapt(dt) {
-  if (window.__stepped || !world?.finalM || document.hidden) return;
-  if (dt > .25) return;
-  qAcc += dt; qN++; qHold = Math.max(0, qHold - dt); qLock = Math.max(0, qLock - dt); qSinceUp += dt;
-  if (qAcc < .6 || qHold > 0) return;
-  const ms = qAcc / qN * 1000; qAcc = 0; qN = 0;
-  if (ms > 31 && qLevel < LADDER.length - 1) { if (qSinceUp < 4) qLock = 20; qLevel++; applyQ(); qHold = .5; qUp = 0; }
-  else if (ms < 21 && qLock === 0) { qUp += .6; if (qUp >= 3 && qLevel > 0) { qLevel--; applyQ(); qHold = 1; qUp = 0; qSinceUp = 0; } }
-  else qUp = 0;
+function adapt(ms) {
+  if (!world?.finalM || ms > 250 || window.__noAdapt) return;
+  const A = pace; if (A.settle > 0) { A.settle -= ms / 1000; return; }
+  const T = A.P * A.n; A.sum += ms; A.cnt++; A.max = Math.max(A.max || 0, ms); if (ms > T * 1.5) A.miss++;
+  if (A.sum < 750 || A.cnt < 4) return;
+  const mean = (A.sum - A.max) / (A.cnt - 1), bad = mean > T * 1.12 || A.miss / A.cnt > .12, [n0, n1] = paceN(), drop = (d) => { A.drop = d ? { ...d, k: d.k + 1 } : { q: qLevel, mean, k: 1 }; qLevel++; applyQ(); A.settle = .5; }; A.sum = 0; A.cnt = 0; A.miss = 0; A.max = 0; A.lock = Math.max(0, (A.lock || 0) - .75);
+  if (bad) {
+    A.good = 0; const p = A.probe, d = A.drop; A.probe = A.drop = null;
+    if (p?.q != null) { qLevel = p.q; applyQ(); A.backQ = Math.min(A.backQ * 2, 120); A.settle = .6; }
+    else if (p) { A.n = p.n; A.backR = Math.min(A.backR * 2, 120); }
+    else if (d && d.k >= 2 && mean > d.mean * .92) { qLevel = d.q; applyQ(); A.settle = .5; A.lock = 60; if (A.n < n1) A.n++; }
+    else if (A.n < Math.max(n0, Math.floor(16.9 / A.P + .01))) A.n++;
+    else if (qLevel < Q_SOFT && !A.lock) drop(d);
+    else if (A.n < n1) A.n++;
+    else if (qLevel < LADDER.length - 1 && !A.lock) drop(d);
+    return;
+  }
+  A.drop = null;
+  if (A.probe) { if (++A.probe.ok >= 2) { if (A.probe.q != null) A.backQ = 14; else A.backR = 8; A.probe = null; } return; }
+  A.good += .75;
+  if (A.n > n0 && A.good >= A.backR) { A.probe = { n: A.n, ok: 0 }; A.n--; A.good = 0; }
+  else if (qLevel > 0 && A.good >= A.backQ) { A.probe = { q: qLevel, ok: 0 }; qLevel--; applyQ(); A.settle = .6; A.good = 0; }
 }
-let qLock = 0, qSinceUp = 99, qSteps = tier.cloudSteps;
-let qUp = 0;
+let qSteps = tier.cloudSteps;
 let visible = true;
 new IntersectionObserver((e) => { visible = e[0].isIntersecting; }).observe(stage);
 
@@ -1524,6 +1506,6 @@ canvas.addEventListener('wheel', (e) => { if (layout === 'content' && !e.ctrlKey
 window.__mysteries = {
   world: () => world, sound: () => sound,
   open: (id, o = {}) => openCrash(id, new URLSearchParams(o)), step(n, dt = 1 / 30) { window.__stepped = true; for (let i = 0; i < n; i++) tick(dt, performance.now() + 1e7); },
-  seek(rtv) { seekStory(crash.sim.storyOf(rtv)); }, seekS(s) { seekStory(s); }, rig(name, o = {}) { manualView = true; camCut = 2; Object.assign(cam, o); curView = name; cam.rig = name === 'map' ? 'route' : name; cam.t = 1; cam.hdgInit = false; cam.from = null; cam.altS = null; if (crash) crash.wit = null; updateRailOn(); }, story() { manualView = false; lastBeat = -1; lastShot = -1; }, play() { playing = true; setPP(); crash && (crash.startAt = 0); }, live() { window.__stepped = false; }, beats: () => crash?.sim.beats, probe: () => { const P = crash?.pos && world.project(crash.pos); return { rt, story, rig: cam.rig, ct: cam.t, cam: cam.p.toArray(), fade: crash?.cutK ?? 0, dip: fadeDip, px: P && [P.x, P.y, P.behind], att: crash?.s && [crash.s.pitch, crash.s.roll, crash.s.hdg] }; }, crash: () => crash, state: () => ({ fadeDip, mode, rt, story, rig: cam.rig, len: crash?.sim.storyLen, dur: crash?.sim.dur, ended }), pause() { playing = false; setPP(); }, sim: () => crash?.sim, G,
+  seek(rtv) { seekStory(crash.sim.storyOf(rtv)); }, seekS(s) { seekStory(s); }, rig(name, o = {}) { manualView = true; camCut = 2; Object.assign(cam, o); curView = name; cam.rig = name === 'map' ? 'route' : name; cam.hdgInit = false; cam.altS = null; if (crash) crash.wit = null; updateRailOn(); }, story() { manualView = false; lastBeat = -1; lastShot = -1; }, play() { playing = true; setPP(); crash && (crash.startAt = 0); }, live() { window.__stepped = false; }, beats: () => crash?.sim.beats, probe: () => { const P = crash?.pos && world.project(crash.pos); return { rt, story, rig: cam.rig, ct: 1, cam: cam.p.toArray(), fade: crash?.cutK ?? 0, dip: fadeDip, px: P && [P.x, P.y, P.behind], att: crash?.s && [crash.s.pitch, crash.s.roll, crash.s.hdg] }; }, crash: () => crash, state: () => ({ fadeDip, mode, rt, story, rig: cam.rig, len: crash?.sim.storyLen, dur: crash?.sim.dur, ended }), pause() { playing = false; setPP(); }, sim: () => crash?.sim, G,
 };
 boot();

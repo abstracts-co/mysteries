@@ -7,7 +7,7 @@
 button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer}a{color:inherit}
 #app{display:block}
 #stage{position:relative;width:100%;overflow:hidden;background:#000;user-select:none;-webkit-user-select:none}
-#gl{position:absolute;inset:0;width:100%;height:100%;display:block;touch-action:none;cursor:grab}#gl:active{cursor:grabbing}#xf{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:1;opacity:0}
+#gl{position:absolute;inset:0;width:100%;height:100%;display:block;touch-action:none;cursor:grab}#gl:active{cursor:grabbing}
 .ic{width:38px;height:38px;border-radius:50%;display:grid;place-items:center;background:var(--panel);border:1px solid var(--line);flex:none}
 .ic svg{width:19px;height:19px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}.ic.fill svg{fill:currentColor;stroke:none}
 .ic.on{background:var(--fg);color:#000;border-color:var(--fg)}
@@ -58,16 +58,14 @@ body.vp #stage{height:100dvh}body.vp #more{position:relative}
 @media (max-width:520px){#card{font-size:15px;min-height:62px}#card p{-webkit-line-clamp:unset;display:block}#fade.soft b{font-size:38px}}
 body.epi #hud::before{background:linear-gradient(transparent,rgba(0,0,0,.6) 64px,rgba(0,0,0,.84))}body.ended #hud::before{opacity:0}body.epi #ins,body.epi #clock{visibility:hidden}#hud>*{transition:opacity .5s}body.ended #hud>:not(#bar){opacity:0;visibility:hidden;transition:opacity .5s,visibility 0s .5s}
 #eyes button:disabled{color:var(--dim);cursor:default;background:none}.ev.dot{background:none}
-#ptag,#ftag{position:absolute;left:0;top:0;z-index:2;pointer-events:none;white-space:nowrap;font-size:11px;margin:-8px 0 0 10px;opacity:0;text-shadow:0 1px 3px #000,0 0 8px rgba(0,0,0,.8)}.ev.trk0::before{background:none;border:1.5px solid #fff;border-radius:50%;transform:none;width:5px;height:5px;top:4px;left:2px;box-shadow:none}.ev.trk0{color:#d6dae0}.ev.trk0.lf::before{left:auto;right:2px}#ftag{margin-left:0}
+body.warm #pins,body.warm #mark,body.warm #lapse,body.warm #cap,body.warm #skip,body.warm #aoa{visibility:hidden}.ev.trk0::before{background:none;border:1.5px solid #fff;border-radius:50%;transform:none;width:5px;height:5px;top:4px;left:2px;box-shadow:none}.ev.trk0{color:#d6dae0}.ev.trk0.lf::before{left:auto;right:2px}#ftag{margin-left:0}
 .ev.up,.ev.dn{margin:0;padding:1px 7px 19px;border-radius:9px;background:linear-gradient(rgba(4,6,10,.62) 17px,transparent 17px)}.ev.dn{padding:19px 7px 1px;background:linear-gradient(transparent 18px,rgba(4,6,10,.62) 18px)}.ev.up::before,.ev.dn::before,.ev.trk.up::before,.ev.trk.dn::before,.ev.trk0.up::before,.ev.trk0.dn::before{left:calc(var(--mx,50%) - 3.5px);right:auto;top:auto;bottom:4px}.ev.dn::before,.ev.trk.dn::before,.ev.trk0.dn::before{top:4px;bottom:auto}
 #fade.soft.show{transition:opacity .75s .38s}#fade.soft>*{transition:transform .9s cubic-bezier(.2,.8,.2,1) .38s;transform:translateY(10px)}#fade.soft.show>*{transform:none}body.ended #hud>:not(#bar){transition:opacity .32s,visibility 0s .32s}</style></head><body>
 <div id="app">
 <section id="stage" aria-label="Globe of air crashes">
 <canvas id="gl"></canvas>
-<canvas id="xf"></canvas>
 <div id="pins"></div>
 
-<div id="ftag"></div>
 <svg id="mark" viewBox="0 0 24 24"><path fill="#fff" d="M12 2l2 7 8 5v2l-8-2-.5 5 2.5 2v1l-4-1-4 1v-1l2.500-2-.5-5-8 2v-2l8-5z"/></svg>
 <div id="top">
 <button class="ic" id="back" aria-label="Back to globe" hidden><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/></svg></button>

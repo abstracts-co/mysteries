@@ -10,7 +10,8 @@ Everything in BRIEF.md still works. New since the review:
   - `at` is seconds into the beat, or a word anchor string such as `'Blowing sand'` (the first word sequence in the line that starts with those words; time is estimated from character weights over the narration length).
   - Staging keys a shot can override: `v`, `az`, `el`, `zoom`, `tight`, `frame`, `fit`, `bright`, `look`, `lookAt`, `sfx`, `orbit` (follow camera drift in °/s, default 1.1), `push` (follow zoom-in over the shot, default .07), `mapSpeed` (map camera easing, default 1.1).
   - A shot with `t` (ISO) jumps flight time forward to `t - tLead` at that moment (forward only, inside this beat's window, so give the beat a `lead` if a shot needs an earlier time). The jump becomes a dissolve, or a fade through black with "X later" when it is 10 minutes or more. `rate` sets flight seconds per story second after the jump (default 1).
-  - Camera-only shots (no `t`) cut straight. A cut into or out of an inside view or `below` gets a short dip.
+  - The camera never flies between views. A change of view is a cross-fade (map, outside, overhead) or a short dip (inside views and `below`).
+  - Inside the outside view, a new shot or line cuts only when the angle changes by about 30° or the zoom by about 1.6×. Smaller changes glide. A near-identical cut reads as a glitch, so give a shot a clearly different angle or leave it out.
   - In the end beat (`t: 'end'`), shots with `frame` or `fit` move the end map camera.
 - `frame: [lat, lon, altitudeMetres]` sets the map camera exactly. `fit: ['pin label', ...]` frames those labelled pins (plus the aircraft unless `fitPlane: false`; `fitMin` minimum altitude). `tight: metres` frames this beat's track.
 - `caption: 'S T E N D E C'` with `capAt` (seconds or a word anchor) types one short text on screen, token by token.
@@ -45,5 +46,7 @@ The narration carries the story, so the screen shows almost no extra text:
 
 - `node build/storypass.mjs` (with `IDS=<id>`) captures three frames per beat. Read each frame next to its line.
 - `node build/ratechk2.mjs` lists any close view that plays faster than 1.7× (time cuts show as one-off spikes).
-- Keep 30 fps on a laptop GPU: prefer cuts, camera moves, labels and modest particle counts.
+- Keep the frame rate steady: prefer cuts, labels and modest particle counts. The page picks a render quality and a frame rate it can hold when a story loads, and compiles every view before playback.
+- `node build/jerk.mjs <id> [hz] [jitter]` then `node build/jerkrep.mjs .scratch/jerk/<id>-<hz>-<jitter>.json` lists every frame where the aircraft or camera jumps. Run it after any staging or camera change; a clean story reports no groups. `node build/hitch.mjs <id>` plays a story live and lists stalled frames with their cause, and `node build/pace.mjs <id>` reports how even the frame times are.
+- Anything that moves must depend on time, not on the frame count. Smooth with `1 - Math.exp(-dt * k)`. Screens run from 30 to 240 Hz.
 - `OUT=<dir> node build/play.mjs <id> [from] [to] [every]` plays a story and saves a frame every few seconds; `python3 build/sheet.py <dir>/<id> 4 5 480 300` joins them into contact sheets. Watch these to judge motion and cuts: paused captures hide both.

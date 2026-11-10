@@ -526,7 +526,7 @@ void main(){
 }`;
 
 export const FINAL_FRAG = /* glsl */`
-in vec2 vUv; out vec4 outC; uniform sampler2D tS,tB1,tB2; uniform float uExp,uFade,uBloom,uTime; uniform vec3 uTint;
+in vec2 vUv; out vec4 outC; uniform sampler2D tS,tB1,tB2,tHold; uniform float uExp,uFade,uBloom,uTime,uHold; uniform vec3 uTint;
 vec3 aces(vec3 x){ return clamp((x*(2.51*x+.03))/(x*(2.43*x+.59)+.14),0.,1.); }
 vec3 bsp(sampler2D t,vec2 uv){
   vec2 ts=vec2(textureSize(t,0)), p=uv*ts-.5, f=fract(p), i=p-f, f2=f*f, f3=f2*f;
@@ -544,6 +544,7 @@ void main(){
   float vg=1.-.26*pow(length(vUv-.5)*1.28,2.4); c*=vg;
   float n=fract(sin(dot(gl_FragCoord.xy+uTime,vec2(12.9898,78.233)))*43758.5453)+fract(sin(dot(gl_FragCoord.yx-uTime,vec2(39.346,11.135)))*23421.631);
   c+=(n-1.)/255.;
+  if(uHold>0.) c=mix(c,texture(tHold,vUv).rgb,uHold);
   c=mix(c,uTint,uFade);
   outC=vec4(c,1.);
 }`;

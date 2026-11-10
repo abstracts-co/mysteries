@@ -123,7 +123,8 @@ void main(){
     this.atmM = fs(ATMOS_FRAG, this.atmU);
     this.accM = fs(ACCUM_FRAG, { tC: { value: this.atmRT.textures[0] }, tD: { value: this.atmRT.textures[1] }, tH: { value: this.acA.texture }, uA: { value: 1 }, uProjK: this.atmU.uProjK, uCamRot: this.atmU.uCamRot, uPrevK: { value: this.prevK }, uPrevInv: { value: this.prevInv }, uDelta: { value: new THREE.Vector3() } });
     this.brightM = fs(BRIGHT_FRAG, { tS: { value: null }, uPx: { value: new THREE.Vector2() }, uK: { value: 1 }, uE: { value: 1 } });
-    this.finalM = fs(FINAL_FRAG, { tS: { value: this.sceneRT.texture }, tB1: { value: this.b2.texture }, tB2: { value: this.b3.texture }, uExp: { value: 1 }, uFade: { value: 0 }, uBloom: { value: this.tier.bloom ? 1 : 0 }, uTime: { value: 0 }, uTint: { value: new THREE.Vector3(0, 0, 0) } });
+    this.finalM = fs(FINAL_FRAG, { tS: { value: this.sceneRT.texture }, tB1: { value: this.b2.texture }, tB2: { value: this.b3.texture }, uExp: { value: 1 }, uFade: { value: 0 }, uBloom: { value: this.tier.bloom ? 1 : 0 }, uTime: { value: 0 }, uTint: { value: new THREE.Vector3(0, 0, 0) }, tHold: { value: null }, uHold: { value: 0 } });
+    this.holdRT = new THREE.WebGLRenderTarget(4, 4, { minFilter: THREE.LinearFilter, magFilter: THREE.LinearFilter, depthBuffer: false }); this.finalM.uniforms.tHold.value = this.holdRT.texture;
     const blend = new THREE.Mesh(fsGeo(), fs(BLEND_FRAG, { tA: { value: this.acB.texture }, tD: { value: this.depthRT.depthTexture }, uAS: { value: new THREE.Vector2(1, 1) }, uLogFar: { value: Math.log2(FAR + 1) }, tTrans: this.U.tTrans, uProjK: this.atmU.uProjK, uCamRot: this.atmU.uCamRot, uSun: this.U.uSun, uCam: this.atmU.uCam, uSunK: { value: 0 }, uHalo: { value: this.tier.bloom ? .3 : 1 } }, { transparent: true, blending: THREE.CustomBlending, blendEquation: THREE.AddEquation, blendSrc: THREE.OneFactor, blendDst: THREE.SrcAlphaFactor, blendSrcAlpha: THREE.ZeroFactor, blendDstAlpha: THREE.OneFactor }));
     blend.frustumCulled = false; blend.renderOrder = 100; this.blend = blend; this.scene.add(blend);
   }
@@ -133,6 +134,8 @@ void main(){
     const s = this.sunL.shadow; s.mapSize.set(1024, 1024); s.bias = -.0005; s.normalBias = .15; s.camera.near = 1; s.camera.far = 800;
     this.pm = new THREE.PMREMGenerator(this.renderer);
     this.fireL = new THREE.PointLight(0xff9a50, 0, 4000, 1.6); this.scene.add(this.fireL);
+    for (const l of [this.sunL, this.moonL, this.fill, this.hemi, this.fireL]) l.layers.enable(1);
+    this.scene.matrixWorldAutoUpdate = false;
     const cv = document.createElement('canvas'); cv.width = cv.height = 128; const x = cv.getContext('2d'), im = x.createImageData(128, 128);
     for (let j = 0; j < 128; j++) for (let i = 0; i < 128; i++) { const u = (i - 63.5) / 64, v = (j - 63.5) / 64, r2 = u * u + v * v, a = Math.atan2(v, u), w = 1 + .08 * Math.sin(a * 3 + 1.1) + .05 * Math.sin(a * 7 + 2.3), c = Math.exp(-r2 * 14 * w), g = Math.exp(-r2 * 3.2 * w) * .4 * Math.max(0, 1 - r2), o = (j * 128 + i) * 4; im.data[o] = 255 * Math.min(1, c + g * 1.2); im.data[o + 1] = 255 * Math.min(1, c * .95 + g * .55); im.data[o + 2] = 255 * Math.min(1, c * .8 + g * .18); im.data[o + 3] = 255 * Math.min(1, c + g); }
     x.putImageData(im, 0, 0);
@@ -229,7 +232,7 @@ void main(){
     const sL = this.sunL; sL.position.copy(st.target ? tmp.subVectors(st.target, c) : tmp.set(0, 0, 0)).addScaledVector(sun, 400); sL.target.position.copy(st.target ? tmp.subVectors(st.target, c) : tmp.set(0, 0, 0));
     const fog = this.inCloud(st.target);
     sL.intensity = 3.6 * smooth((elev + .02) / .14) * (1 - fog * .85); sL.color.setRGB(1, lerp(.62, .97, smooth(elev / .3)), lerp(.36, .92, smooth(elev / .3)));
-    sL.castShadow = this.tier.shadows && sL.intensity > .1;
+    sL.castShadow = this.tier.shadows && (sL.intensity > .1) !== !!st.flipShadow;
     if (st.shadowSize) { const sc = sL.shadow.camera, s = st.shadowSize; sc.left = -s; sc.right = s; sc.top = s; sc.bottom = -s; sc.updateProjectionMatrix(); }
     this.moonL.position.copy(moon).multiplyScalar(400); this.moonL.intensity = U.uMoonI.value * .55;
     const tw = smooth((elev + .21) / .15), mI = clamp(U.uMoonI.value * 2.2); this.hemi.position.copy(nad); this.hemi.intensity = (.012 + .048 * Math.max(tw, mI) + dayF * .42) * (1 + fog * .6); this.hemi.groundColor.setRGB(.27, .33, .4).multiplyScalar(.25 + .75 * dayF);
@@ -247,7 +250,7 @@ void main(){
     this.blend.visible = false; this.fireball.visible = false;
     cam.layers.set(1); this.scene.overrideMaterial = this.depthMat;
     const shadowAuto = r.shadowMap.autoUpdate; r.shadowMap.autoUpdate = false;
-    r.setRenderTarget(this.depthRT); r.clear(); r.render(this.scene, cam);
+    this.scene.updateMatrixWorld(); r.setRenderTarget(this.depthRT); r.clear(); r.render(this.scene, cam);
     this.scene.overrideMaterial = null; cam.layers.set(0);
     { const e = this.useGlobe ? this.globe : this.disc, m = e.material; e.material = this.depthEarth[this.useGlobe ? 0 : 1]; r.render(e, cam); e.material = m; }
     cam.layers.enable(1);
@@ -272,7 +275,18 @@ void main(){
       b.tS.value = this.b2.texture; b.uPx.value.set(4 / this.W, 4 / this.H); r.setRenderTarget(this.b3); r.render(this.fsScene, this.fsCam);
     }
     const f = this.finalM.uniforms; f.uExp.value = ex; f.uBloom.value = this.tier.bloom ? (inside ? .3 : 1) : 0; f.uFade.value = st.fade ?? 0; f.uTime.value = this.frame % 97; if (st.tint) f.uTint.value.set(...st.tint); else f.uTint.value.set(0, 0, 0);
+    f.uHold.value = st.hold ?? 0;
+    if (st.noShow) return;
     this.fs.material = this.finalM; r.setRenderTarget(null); r.render(this.fsScene, this.fsCam);
+  }
+  sync(px) {
+    const r = this.renderer; this.probeRT ??= new THREE.WebGLRenderTarget(4, 4, { depthBuffer: false });
+    this.fs.material = this.finalM; r.setRenderTarget(this.probeRT); r.render(this.fsScene, this.fsCam); r.readRenderTargetPixels(this.probeRT, 0, 0, 1, 1, px); r.setRenderTarget(null);
+  }
+  hold() {
+    if (this.holdRT.width !== this.W || this.holdRT.height !== this.H) this.holdRT.setSize(this.W, this.H);
+    const r = this.renderer, f = this.finalM.uniforms, fd = f.uFade.value, h = f.uHold.value; f.uFade.value = 0; f.uHold.value = 0; f.tHold.value = null;
+    this.fs.material = this.finalM; r.setRenderTarget(this.holdRT); r.render(this.fsScene, this.fsCam); r.setRenderTarget(null); f.uFade.value = fd; f.uHold.value = h; f.tHold.value = this.holdRT.texture;
   }
   inCloud(p) {
     if (!p) return 0; const e = this.env, h = p.length() - R; let k = 0;

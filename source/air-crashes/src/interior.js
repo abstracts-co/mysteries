@@ -1925,23 +1925,32 @@ function finishInterior(K, key, d, extra = {}) {
   K.group.position.set(...base); K.group.name = `interior-${key}`;
   K.group.traverse((o) => { if (o.isMesh) { if (o.renderOrder < 104) o.renderOrder = 105; o.material.transparent = true; } });
   const LU = d.lamp && lamp(K, d.lamp);
-  let lastT = -1e9, lastSig = '', lastNull = '', hooked = null, xhooked = null; const held = {}, own = new Set(); K.group.traverse((o) => own.add(o));
+  let lastNull = '', hooked = null, xhooked = null; const held = {}, own = new Set(); K.group.traverse((o) => own.add(o));
   const hook = (o, disc) => { const u = o.userData; (u.ints ??= []).push(K.group); if (u.hooked) return; u.hooked = true; let keep = 1; const on = () => u.ints.some((g) => g.visible && g.parent), b0 = o.onBeforeRender, a0 = o.onAfterRender;
     o.onBeforeRender = function (...a) { b0.apply(this, a); if (!on()) return; keep = o.material.opacity; o.material.opacity = disc ? Math.min(keep, .045) : keep < .9 ? .03 : keep; };
     o.onAfterRender = function (...a) { if (on()) o.material.opacity = keep; a0.apply(this, a); }; };
   const hookProps = () => { const ac = K.group.parent; if (!ac || hooked === ac) return; hooked = ac; const discs = []; ac.traverse((o) => { if (o.isMesh && !own.has(o) && o.renderOrder >= 107 && o.geometry.type === 'CircleGeometry' && o.material.transparent && o.material.depthWrite === false) discs.push(o); }); for (const d of discs) { hook(d, true); for (const sib of d.parent.children) if (sib !== d) sib.traverse((b) => { if (b.isMesh && b.renderOrder === 106 && b.material.transparent) hook(b, false); }); } };
-  const redraw = (st, sig) => { const off = st.lights === false; for (const f of K.dyn) f(st); for (const ds of K.disp) { const dead = off && !ds.sb, s = dead ? 'off' : ds.once ? (ds.last === 'off' ? null : ds.last) : ds.sig ? ds.sig(st) + (st.unknown ? '|U' : '') : sig; if (s === ds.last) continue; ds.last = s; if (dead) deadDisp(ds); else paintDisp(ds, ds.once ? {} : st); ds.t.needsUpdate = true; } };
+  const units = [...K.dyn.map((f) => ({ f, at: -1e9 })), ...K.disp.map((ds) => ({ ds, at: -1e9 }))]; let ui = 0;
+  const paint = (u, st, sig) => {
+    if (u.f) { if (u.sig === sig) return false; u.sig = sig; u.f(st); return true; }
+    const ds = u.ds, dead = st.lights === false && !ds.sb, s = dead ? 'off' : ds.once ? (ds.last === 'off' ? null : ds.last) : ds.sig ? ds.sig(st) + (st.unknown ? '|U' : '') : sig;
+    if (s === ds.last) return false; ds.last = s; if (dead) deadDisp(ds); else paintDisp(ds, ds.once ? {} : st); ds.t.needsUpdate = true; return true;
+  };
+  const redraw = (st, sig, all) => {
+    const t0 = performance.now(), N = units.length; let n = 0;
+    for (let k = 0; k < N; k++) { const j = (ui + k) % N, u = units[j]; if (!all && t0 - u.at < 66) continue; if (paint(u, st, sig)) { u.at = t0; if (!all && (++n >= 2 || performance.now() - t0 > 2)) { ui = (j + 1) % N; return; } } }
+  };
   const update = (st0 = {}) => {
     const st = hold(st0, held), n = clamp(st.night ?? 0), lit = st.lights !== false, fl = clamp((st.flash ?? 0) / 1.5), fb = fl * n * (K.deck ? .12 : .06);
     for (const { m, kind } of K.mats) { if (kind === 'out') continue; const L3 = LV[kind] || LV.cab, v = lerp(lit ? L3[0] : L3[3] ?? L3[0], lit ? L3[1] : L3[2], n) + (kind === 'cab' || kind === 'rev' ? fb : 0); if (kind === 'glass') { if (d.ng) { const c0 = d.gd ?? 1, c1 = (d.gn ?? .06) * (lit ? 1 : .3); m.opacity = lerp(d.go ?? .06, d.ng, n); m.color.setRGB(lerp(c0, c1, n), lerp(c0, c1 * .87, n), lerp(c0, c1 * .67, n)); } else m.opacity = lerp(.05, .012, n); m.opacity *= 1 - .7 * fl; } else if (kind === 'tg') { m.opacity = lerp(.08, .006, n); m.color.setScalar(v); } else if ((kind === 'gauge' || kind === 'legend') && d.tint) m.color.setRGB(...d.tint.map((t) => v * lerp(1, t, n))); else if (d.ctint && kind !== 'gauge') m.color.setRGB(...d.ctint.map((t) => v * lerp(1, t, n))); else m.color.setScalar(v); }
     if (LU) { LU.uLn.value = n; LU.uLc.value.setRGB(...d.lamp.c).multiplyScalar(lit ? 1 : 0); }
-    for (const y of K.yokes || []) y.g.rotation.z += ((nz(st.elevL) ? clamp(st.elevL * 1.8, -14, 14) * D2R : 0) - y.g.rotation.z) * .18;
+    for (const y of K.yokes || []) y.g.rotation.z += ((nz(st.elevL) ? clamp(st.elevL * 1.8, -14, 14) * D2R : 0) - y.g.rotation.z) * (1 - Math.exp(-(st.dt ?? 0) * 9));
     const mo = move(st, I.eye, I.look); d.tick?.(st, n, lit, mo); if (!d.keepProps) hookProps(); const ac = K.group.parent; if (ac && xhooked !== ac) { xhooked = ac; xlHook(ac); } xlLight(K.group, st);
-    const now = performance.now(), sig = sigOf(st) + (lit ? '' : '|off'), nul = [st.ias, st.altFt, st.vs, st.pitch, st.roll, st.hdg].map((v) => +nz(v)).join('') + (st.warnings || []).join() + lit;
-    if (sig !== lastSig && (now - lastT > 66 || nul !== lastNull)) { lastSig = sig; lastNull = nul; lastT = now; redraw(st, sig); }
+    const sig = sigOf(st) + (lit ? '' : '|off'), nul = [st.ias, st.altFt, st.vs, st.pitch, st.roll, st.hdg].map((v) => +nz(v)).join('') + (st.warnings || []).join() + lit;
+    if (st.dt !== 0 || nul !== lastNull) { redraw(st, sig, nul !== lastNull); lastNull = nul; }
   };
   const dispose = () => { for (const t of K.texs) t.dispose(); const ex = K.group.getObjectByName('ext'); if (ex) K.group.remove(ex); K.group.traverse((o) => { if (o.isMesh) { o.geometry.dispose(); o.material.dispose(); } else if (o.isSprite) o.material.dispose(); }); };
-  redraw({ warnings: [] }, ''); for (const ds of K.disp) ds.last = null;
+  redraw({ warnings: [] }, '', true); for (const u of units) { u.at = -1e9; u.sig = undefined; if (u.ds) u.ds.last = null; }
   const clr = new THREE.Mesh(new THREE.BufferGeometry().setAttribute('position', new THREE.Float32BufferAttribute(new Float32Array(9), 3)), new THREE.MeshBasicMaterial({ transparent: true, opacity: 0, colorWrite: false, depthWrite: false, depthTest: false }));
   const vw = { asp: 1 }; clr.renderOrder = 103; clr.frustumCulled = false; clr.onBeforeRender = (r, sc, cam) => { vw.asp = cam.aspect || 1; r.state.buffers.depth.setMask(true); r.clearDepth(); }; K.group.add(clr);
   const look = [eye[0] + Math.cos(pa) * Math.cos(ya) * 2, eye[1] + Math.sin(pa) * 2, eye[2] + Math.cos(pa) * Math.sin(ya) * 2], move = mover(eye, ya, pa, d.mo ?? (K.deck ? .55 : 1), vw, d.aim == null ? 0 : (d.aim * D2R - ya) * .5, d.mky);
@@ -1958,13 +1967,13 @@ function lamp(K, o) {
   return U;
 }
 function mover(E0, Y0, P0, k, vw, aim, mky = 0) {
-  const m = { t: null, w: 0, mk: 0, fp: 0, fr: 0, fy: 0, sp: 0, sr: 0, sy: 0, az: 0, azs: 0, ag: 0, b: 0, sw: 0, ph: [0, 1.3, 2.1, .7, 4.2], x: [0, 0, 0, 0], u: [0, 0, 0, 0] }, N = (i, f) => Math.sin(m.ph[i]) * .6 + Math.sin(m.ph[i] * f + 1.7) * .4;
+  const m = { t: null, mk: 0, fp: 0, fr: 0, fy: 0, sp: 0, sr: 0, sy: 0, az: 0, azs: 0, ag: 0, b: 0, sw: 0, ph: [0, 1.3, 2.1, .7, 4.2], x: [0, 0, 0, 0], u: [0, 0, 0, 0] }, N = (i, f) => Math.sin(m.ph[i]) * .6 + Math.sin(m.ph[i] * f + 1.7) * .4;
+  const zero = (st) => { m.x.fill(0); m.u.fill(0); m.fp = m.fr = m.fy = m.sp = m.sr = m.sy = m.az = m.azs = m.ag = 0; m.mk = st.masks ? 1 : 0; };
   return (st, eye, look) => {
-    const t = st.timeMs, ds = m.t == null || !nz(t) ? 0 : (t - m.t) / 1000;
-    { const nw = performance.now(), dk = m.wk == null ? 9 : clamp((nw - m.wk) / 1000, 0, .1); m.wk = nw; m.mk += ((st.masks ? 1 : 0) - m.mk) * (1 - Math.exp(-dk * .7)); }
-    if (nz(t) && ds !== 0) {
-      const now = performance.now(), dw = clamp((now - m.w) / 1000, 1 / 60, .1);
-      if (ds < 0 || ds > 40) { m.x.fill(0); m.u.fill(0); m.fp = m.fr = m.fy = m.sp = m.sr = m.sy = m.az = m.azs = m.ag = 0; m.mk = st.masks ? 1 : 0; }
+    const t = st.timeMs, ds = m.t == null || !nz(t) ? 0 : (t - m.t) / 1000, dw = clamp(st.dt ?? 0, 0, .1);
+    if (m.t == null) m.mk = st.masks ? 1 : 0; else m.mk += ((st.masks ? 1 : 0) - m.mk) * (1 - Math.exp(-dw * .7));
+    if (nz(t) && ds !== 0 && dw > 0) {
+      if (st.cut || ds < 0 || ds > 40) zero(st);
       else {
         const f = 1 - Math.exp(-dw * 3), rt = (a, b, lim) => clamp(nz(a) && nz(b) ? (a - b) / ds : 0, -lim, lim);
         m.fp += (rt(st.pitch, m.p, 20) - m.fp) * f; m.fr += (rt(st.roll, m.r, 40) - m.fr) * f; m.fy += (clamp(nz(st.hdg) && nz(m.h) ? ((st.hdg - m.h + 540) % 360 - 180) / ds : 0, -20, 20) - m.fy) * f;
@@ -1973,15 +1982,15 @@ function mover(E0, Y0, P0, k, vw, aim, mky = 0) {
         const stall = Math.max(nz(st.aoa) ? sst(9, 18, Math.abs(st.aoa)) : 0, (st.warnings || []).some((w) => /STALL/i.test(w)) ? .5 : 0);
         m.b += (clamp(Math.max(st.shake || 0, stall * .9, Math.abs(m.az - m.azs) * 3)) - m.b) * (1 - Math.exp(-dw * 2.5));
         m.sw += (clamp(Math.max((st.shake || 0) * .8, m.ag)) - m.sw) * (1 - Math.exp(-dw * .8));
-        [17.3, 11.9, 3.1, .27, .19].forEach((hz, i) => (m.ph[i] += dw * TAU * hz * (i < 3 ? .6 + .4 * m.b : 1)));
+        [6.1, 4.3, 3.1, .27, .19].forEach((hz, i) => (m.ph[i] += dw * TAU * hz * (i < 3 ? .8 + .2 * m.b : 1)));
         const T = [clamp(-(m.fy - m.sy) * .7 - m.fy * .08, -6, 6), clamp(-(m.fp - m.sp) * .9 - m.fp * .12 + m.az * 2, -6, 6), clamp(-(m.fr - m.sr) * .009 - m.fr * .001, -.08, .08), clamp(-m.az * .05, -.06, .06)];
-        for (let i = 0; i < 4; i++) { m.u[i] += (25 * (T[i] - m.x[i]) - 4.5 * m.u[i]) * dw; m.x[i] += m.u[i] * dw; }
+        for (let n = Math.ceil(dw / .012), h = dw / n, j = 0; j < n; j++) for (let i = 0; i < 4; i++) { m.u[i] += (25 * (T[i] - m.x[i]) - 8 * m.u[i]) * h; m.x[i] += m.u[i] * h; }
       }
-      m.t = t; m.w = now; m.p = st.pitch; m.r = st.roll; m.h = st.hdg; m.v = st.vs;
+      m.t = t; m.p = st.pitch; m.r = st.roll; m.h = st.hdg; m.v = st.vs;
     }
     if (m.t == null) m.t = nz(t) ? t : null;
-    const b = m.b * k, s = m.sw * k, nar = clamp((1 - vw.asp) / .5), mk = sst(0, 1, m.mk), yaw = Y0 + aim * nar * (1 - mk * nar) - mk * mky * (1 + .4 * nar) * D2R + (m.x[0] * k + b * .5 * N(1, 1.9) + s * 2.2 * Math.sin(m.ph[4])) * D2R, pit = P0 + mk * nar * mky * .55 * D2R + (m.x[1] * k + b * .8 * N(0, 1.6) + s * 1.2 * Math.sin(m.ph[3] * 1.3)) * D2R;
-    eye[0] = E0[0]; eye[1] = E0[1] + m.x[3] * k + b * .014 * N(0, 2.3) + s * .025 * Math.sin(m.ph[3]); eye[2] = E0[2] + m.x[2] * k + b * .008 * N(2, 1.4) + s * .05 * Math.sin(m.ph[4] + .6);
+    const b = m.b * k, s = m.sw * k, nar = clamp((1 - vw.asp) / .5), mk = sst(0, 1, m.mk), yaw = Y0 + aim * nar * (1 - mk * nar) - mk * mky * (1 + .4 * nar) * D2R + (m.x[0] * k + b * .1 * N(1, 1.6) + s * 2.2 * Math.sin(m.ph[4])) * D2R, pit = P0 + mk * nar * mky * .55 * D2R + (m.x[1] * k + b * .16 * N(0, 1.6) + s * 1.2 * Math.sin(m.ph[3] * 1.3)) * D2R;
+    eye[0] = E0[0]; eye[1] = E0[1] + m.x[3] * k + b * .004 * N(0, 1.7) + s * .025 * Math.sin(m.ph[3]); eye[2] = E0[2] + m.x[2] * k + b * .003 * N(2, 1.4) + s * .05 * Math.sin(m.ph[4] + .6);
     look[0] = eye[0] + Math.cos(pit) * Math.cos(yaw) * 2; look[1] = eye[1] + Math.sin(pit) * 2; look[2] = eye[2] + Math.cos(pit) * Math.sin(yaw) * 2;
     return m;
   };
