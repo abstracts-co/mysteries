@@ -15,7 +15,7 @@ writeFileSync(`${P}/artifact.json`, `${JSON.stringify({ title: 'Air crashes and 
 mkdirSync(`${S}/src`); mkdirSync(`${S}/build`);
 for (const f of readdirSync(`${ROOT}src`)) if (/\.(js|html)$/.test(f)) cpSync(`${ROOT}src/${f}`, `${S}/src/${f}`);
 cpSync(`${ROOT}src/crashes`, `${S}/src/crashes`, { recursive: true });
-for (const f of ['bundle.mjs', 'data.mjs', 'patches.mjs', 'audio.mjs', 'anchors.mjs', 'srt.mjs', 'publish.mjs', 'serve.mjs', 'storypass.mjs', 'shot.mjs', 'ratechk.mjs', 'ratechk2.mjs', 'bake_earth.py', 'bake_site.py', 'fetch_earth.py']) if (existsSync(`${ROOT}build/${f}`)) cpSync(`${ROOT}build/${f}`, `${S}/build/${f}`);
+for (const f of ['bundle.mjs', 'data.mjs', 'patches.mjs', 'audio.mjs', 'anchors.mjs', 'srt.mjs', 'publish.mjs', 'serve.mjs', 'storypass.mjs', 'shot.mjs', 'ratechk.mjs', 'ratechk2.mjs', 'play.mjs', 'sheet.py', 'bake_earth.py', 'bake_site.py', 'fetch_earth.py']) if (existsSync(`${ROOT}build/${f}`)) cpSync(`${ROOT}build/${f}`, `${S}/build/${f}`);
 for (const d of ['research', 'narration']) cpSync(`${ROOT}${d}`, `${S}/${d}`, { recursive: true });
 cpSync(`${ROOT}source-README.md`, `${S}/README.md`);
 cpSync(`${ROOT}source-STAGING.md`, `${S}/STAGING.md`);
